@@ -82,10 +82,16 @@ This structure ensures:
 ## 👤 Author
 **madferit94**  
 Sports Analytics Research & Predictive Modeling  
-Contact: (Add optional)
 
 ---
 
 ## ⭐ Contributions & Expansion
 Future sports can be added easily:
 Just create:
+
+## 📬 Contact
+
+If you’d like to discuss analytics, research, or collaboration opportunities, feel free to reach out:
+
+- Email: wowzc@naver.com
+- GitHub: https://github.com/madferit94
