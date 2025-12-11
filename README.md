@@ -68,7 +68,19 @@ This repository utilizes a modern data science stack:
 * **Visualization:** Matplotlib, Seaborn
 
 ---
+## 👤 Author
+madferit94 Sports Data Analyst & System Architect
 
+"Transforming raw data into strategic foresight."
+
+## 📬 Contact
+
+I am open to discussing analytics, research collaborations, or career opportunities.
+
+Email: wowzc@naver.com
+
+GitHub: https://github.com/madferit94
+---
 ## 📌 Repository Structure
 To ensure reproducibility and ease of navigation, every project follows this standard modular structure:
 
@@ -86,21 +98,4 @@ To ensure reproducibility and ease of navigation, every project follows this sta
 │   └── processed/           # Cleaned & Featured Data
 │
 └── README.md                # Project-specific Documentation
----
-
-## 👤 Author
-**madferit94**  
-Sports Analytics Research & Predictive Modeling  
-
----
-
-## ⭐ Contributions & Expansion
-Future sports can be added easily:
-Just create:
-
-## 📬 Contact
-
-If you’d like to discuss analytics, research, or collaboration opportunities, feel free to reach out:
-
-- Email: wowzc@naver.com
-- GitHub: https://github.com/madferit94
+------
