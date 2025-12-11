@@ -25,17 +25,15 @@ Rather than isolated scripts, each folder contains a full-cycle analytics pipeli
 
 ### 🏈 **[NFL] Match Outcome Simulation System**
 A dynamic prediction engine for the NFL season, featuring clustering and Monte Carlo simulations.
-* **Key Tech:** Dynamic Team Clustering, Rolling EPA Features, Monte Carlo Simulation (10k runs).
 * **Goal:** Predict game winners and simulate Super Bowl probabilities based on momentum.
 * **Status:** ✅ Completed (2024-2025 Season Simulation)
-* **Documentation:** [👉 Go to NFL Project](/nfl/README.md)
+* **View Project:** [👉 Go to NFL Project](https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis)
 
 ### 🏎️ **[F1] Modern-Era Race Strategy System**
 A dual-objective predictive model for Formula 1, optimized for the post-2016 hybrid era.
-* **Key Tech:** Dual-Target Modeling (Win vs. Top-10), Team Strength Indexing, SHAP Analysis.
 * **Goal:** Analyze driver/team performance and forecast race outcomes vs. consistent point scoring.
 * **Status:** ✅ Completed (Validated on 2024 Season)
-* **Documentation:** [👉 Go to F1 Project](/f1/README.md)
+* **View Project:** [👉 Go to F1 Project](https://github.com/madferit94/all-sports-analytics/tree/main/f1-modern-era-prediction)
 
 ---
 
