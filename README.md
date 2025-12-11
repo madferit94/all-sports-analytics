@@ -1,82 +1,91 @@
-# 🏟️ All Sports Analytics Repository  
-A unified analytics hub covering NFL, Soccer, NBA, and more — from data engineering to predictive modeling, and advanced simulations.
+# 🏟️ All Sports Analytics & Simulation Hub
+**A Unified Quantitative Analysis Repository for NFL, F1, and Beyond.**
 
-This repository organizes all sports analytics projects under a single structure, making it easy to maintain, scale, and present as a portfolio.
-
----
-
----
-
-## 🎯 Purpose of This Repository
-This repo serves two goals:
-
-### **1) Centralized Management**
-Instead of creating many independent repos (NFL, Soccer, NBA…),  
-all sports analytics projects live under one roof.
-
-### **2) Career-Ready Portfolio**
-Each sport folder is structured as an industry-standard analytics pipeline:
-- **Data engineering**  
-- **Exploratory analysis**
-- **Feature generation**
-- **Machine learning models**
-- **Simulation / forecasting**
-- **Visualizations**
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB4034?style=for-the-badge)
+![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-ff00ff?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)
 
 ---
 
-## 🏈 Current Completed Project: NFL EPA-Based Analytics
+## 🎯 Vision & Purpose
+This repository serves as a centralized **portfolio of end-to-end data science systems**. 
+Rather than isolated scripts, each folder contains a full-cycle analytics pipeline designed to solve specific business problems in sports, ranging from match prediction to championship simulation.
 
-The NFL pipeline includes:
-1. **League Data Prep / EDA**
-2. **Team Style Clustering (Master Styles)**
-3. **Rolling EPA-based Dynamic Feature Engineering**
-4. **Pre-game Win Probability Modeling**
-5. **2024–2025 Season Simulation (Monte Carlo + Expected Wins)**
-
-Full documentation inside:  
-👉 `/nfl/README.md`
+### **Core Philosophy**
+1.  **Systematic Approach:** From ETL and Data Engineering to Modeling and Business Simulation.
+2.  **Leakage-Proof Modeling:** Strict adherence to time-series validation (e.g., rolling windows, pre-game constraints) to ensure realistic performance.
+3.  **Explainable AI:** Going beyond accuracy to understand "Why" using SHAP and feature importance.
+4.  **Business Value:** Transforming model outputs into actionable insights (e.g., Betting Odds, Win Probabilities, Strategy Optimization).
 
 ---
 
-## ⚽ Upcoming Projects (Planned)
-These projects will be added under their respective sport folders.
+## 🏆 Completed Projects (High-Impact)
 
-### **Soccer**
-- Team style clusters (Europe big 5)
-- Match-level expected goals + rolling form features
-- Predictive modeling (win/draw/loss)
-- Season simulations / league table forecasting
+### 🏈 **[NFL] Match Outcome Simulation System**
+A dynamic prediction engine for the NFL season, featuring clustering and Monte Carlo simulations.
+* **Key Tech:** Dynamic Team Clustering, Rolling EPA Features, Monte Carlo Simulation (10k runs).
+* **Goal:** Predict game winners and simulate Super Bowl probabilities based on momentum.
+* **Status:** ✅ Completed (2024-2025 Season Simulation)
+* **Documentation:** [👉 Go to NFL Project](/nfl/README.md)
 
-### **NBA**
-- Four Factors analytics
-- Possession-based prediction models
-- Player clustering (archetypes)
-- Game outcome simulations
-
----
-
-## 🛠️ Tech Stack
-- Python (Pandas, NumPy, Scikit-learn)
-- XGBoost / LightGBM
-- SHAP Interpretability
-- SciPy / StatsModels
-- Matplotlib / Seaborn / Plotly
-- Jupyter Notebook
+### 🏎️ **[F1] Modern-Era Race Strategy System**
+A dual-objective predictive model for Formula 1, optimized for the post-2016 hybrid era.
+* **Key Tech:** Dual-Target Modeling (Win vs. Top-10), Team Strength Indexing, SHAP Analysis.
+* **Goal:** Analyze driver/team performance and forecast race outcomes vs. consistent point scoring.
+* **Status:** ✅ Completed (Validated on 2024 Season)
+* **Documentation:** [👉 Go to F1 Project](/f1/README.md)
 
 ---
 
-## 📌 How to Navigate  
-Each sport folder contains:
-- **its own README.md**
-- **notebooks/** with ordered pipeline
-- **data/** with `raw` & `processed` directories
+## 🚧 Upcoming & Planned Projects
 
-This structure ensures:
-✔ Clean separation per sport  
-✔ Reproducibility  
-✔ Easy portfolio review for employers  
+The repository is actively expanding into other sports and potential non-sports domains.
 
+### **⚽ Soccer (European Leagues)**
+* **Concept:** Expected Goals (xG) based match prediction.
+* **Features:** Rolling team form, home advantage dynamics, Poisson distribution modeling.
+
+### **🏀 NBA (Basketball)**
+* **Concept:** "Four Factors" analytics and possession-based modeling.
+* **Features:** Player archetype clustering, lineup efficiency analysis.
+
+### **📊 Beyond Sports (Financial / Marketing)**
+* *Planned:* Time-series forecasting for stock trends or customer churn prediction models (applying the same rigorous pipelines used in sports).
+
+---
+
+## 🛠️ Tech Stack & Toolkit
+
+This repository utilizes a modern data science stack:
+
+* **Languages:** Python 3.10+
+* **Data Manipulation:** Pandas, NumPy, Polars
+* **Machine Learning:** Scikit-learn, XGBoost, LightGBM, Random Forest
+* **Interpretability:** SHAP (SHapley Additive exPlanations)
+* **Simulation:** Monte Carlo Methods, Bootstrapping
+* **Visualization:** Matplotlib, Seaborn
+
+---
+
+## 📌 Repository Structure
+To ensure reproducibility and ease of navigation, every project follows this standard modular structure:
+
+```text
+/sport-name/ (e.g., /nfl/, /f1/)
+│
+├── notebooks/               # Analysis & Modeling Code
+│   ├── 01_Data_Prep.ipynb   # ETL & Cleaning
+│   ├── 02_Feature_Eng.ipynb # Feature Creation
+│   ├── 03_Modeling.ipynb    # Training & Validation
+│   └── ...                  # Simulation & Application
+│
+├── data/                    # Datasets
+│   ├── raw/                 # Original Data
+│   └── processed/           # Cleaned & Featured Data
+│
+└── README.md                # Project-specific Documentation
 ---
 
 ## 👤 Author
