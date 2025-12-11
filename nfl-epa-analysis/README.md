@@ -86,6 +86,9 @@ This project follows a professional **ETL → Feature Engineering → Modeling �
 
 ### 👤 Author
 
-**Minseo Beom**
+**MinseoB Eom**
 *Sports Data Analyst & System Architect*
 *(Please insert your email or LinkedIn profile link here)*
+
+Email: wowzc@naver.com
+GitHub: https://github.com/madferit94
