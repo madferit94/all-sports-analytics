@@ -1,69 +1,86 @@
-🏎️ F1 Modern-Era Race Prediction (2016–Latest)
+# 🏎️ Formula 1 Modern-Era Race Strategy & Prediction System (2016–2025)
 
-Machine learning models predicting race win probability and Top-10 finish probability using modern-era Formula 1 data.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-ff00ff?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-⸻
+## 📖 Executive Summary
 
-🔍 Overview
+This project establishes a **production-ready machine learning pipeline** to analyze and predict Formula 1 race outcomes in the "Modern Era" (2016–Present).
 
-This project builds two classification models:
+Unlike generic sports models, this system recognizes that F1 is an engineering competition as much as a driver competition. It implements a **Dual-Objective Modeling approach**:
+1.  **Win Prediction (`is_win`):** Identifying the singular winner (High variance, Driver/Grid focused).
+2.  **Points Prediction (`is_top10`):** Identifying reliable point-scorers (Stability focused, crucial for Constructor Standings).
 
-1) Win Probability (is_win)
-	•	Predicts the probability a driver wins a Grand Prix
-	•	Evaluated using: ROC-AUC, Brier Score, classification report
-	•	Race-level metric: Top-1 winner accuracy
-“Does the driver with the highest predicted probability actually win?”
+The system is rigorously validated on the **2024 Season** (unseen data) to ensure real-world applicability.
 
-2) Top-10 Probability (is_top10)
-	•	Predicts whether a driver finishes inside the Top-10
-	•	Evaluated using: Precision@10, Recall@10
+---
 
-Both tasks use a time-based split:
-Train on seasons 2016 → (latest−1), validate on the latest season only.
+## 🚀 Key Technical Features
 
-01_F1_Data_Prep_and_EDA.ipynb
-02_F1_Season_Feature_Engineering.ipynb
-03_F1_Win_Modeling_Modern_Era.ipynb
+### 1. Domain-Specific Data Engineering ("The Modern Era")
+F1 data from the 1950s is irrelevant to modern racing due to technological shifts.
+* **Filtering:** Restricted analysis to the **Hybrid Era (2016–Present)** to ensure feature consistency.
+* **Relational Merging:** Unified fragmented Ergast API tables (Results, Drivers, Constructors, Races) into a single analytical view.
 
-Workflow:
-	1.	Data cleaning & merging (drivers, constructors, race results)
-	2.	Rolling driver & team feature engineering
-	3.	Season-aware train/validation split
-	4.	Models: Logistic Regression, Random Forest (+ XGBoost / LightGBM if installed)
-	5.	SHAP interpretation for feature importance
+### 2. Advanced Feature Engineering
+* **Team Strength Index:** Quantified the "Car Performance" factor separate from driver skill, acknowledging that ~80% of performance comes from the machine.
+* **Rolling Form Metrics:** Implemented time-series rolling windows (Last 3/5 Races) to capture driver momentum and recent upgrades.
+* **Leakage Prevention:** Strictly sorted data by `Season` and `Round` before feature generation to prevent future information leakage.
 
-📊 Model Results (Summary)
+### 3. Dual-Layer Modeling & Explainability (SHAP)
+* **Model:** Random Forest & Logistic Regression classifiers.
+* **Interpretability:** Used **SHAP (SHapley Additive exPlanations)** to deconstruct predictions.
+    * *Insight:* "Grid Position" dominates Win probability, while "Team Reliability" and "Consistency" become significantly more important for Top-10 probabilities.
 
-Win Model (Random Forest)
-	•	ROC-AUC: ~0.89
-	•	Good probability calibration (low Brier)
-	•	Winner prediction remains difficult due to extreme imbalance (~7%)
-	•	Best used for ranking winning potential, not exact winner classification
+---
 
-Top-10 Model (Random Forest)
-	•	ROC-AUC: ~0.89
-	•	Precision@10 ≈ 0.62
-	•	Recall@10 ≈ 0.99
-	•	Captures nearly every actual Top-10 finisher
+## 📂 Project Pipeline (File Structure)
 
-⸻
+This project follows a strict **ETL → Feature Engineering → Modeling** workflow.
 
-🧠 SHAP Insights
-	•	Grid position is the strongest predictor for both tasks
-	•	Team rolling strength & driver recent form add consistent value
-	•	Reliability features (DNF rate) matter especially for Top-10 predictions
+| Seq | Notebook Name | Role | Key Function |
+| :--- | :--- | :--- | :--- |
+| **01** | `01_F1_Data_Prep_and_EDA.ipynb` | **ETL & Data QC** | Ingests raw data, filters for the Modern Era (2016+), and performs EDA to understand grid-to-finish correlations. |
+| **02** | `02_F1_Season_Feature_Engineering.ipynb` | **Feature Eng.** | Constructs **Rolling Form**, **Cumulative Season Stats**, and **Team Strength** metrics. Handles time-series sorting. |
+| **03** | `03_F1_Win_Modeling_Modern_Era.ipynb` | **Modeling & SHAP** | Trains Dual Models (Win / Top-10). Validates on the **2024 Season**. Visualizes feature importance using SHAP Beeswarm plots. |
 
-⸻
+---
 
-🚀 Applications
-	•	Race simulations & probability forecasts
-	•	Podium/Top-5/Top-10 modeling
-	•	Driver comparison & season-long form tracking
-	•	ML interpretability studies (SHAP)
+## 📊 Model Performance & Insights
 
-⸻
+### Validation Strategy
+* **Training Set:** Seasons 2016 – 2023
+* **Validation Set:** Season **2024** (Latest complete season)
+* *Note: This split mimics a real-world scenario where we predict the upcoming season based on historical patterns.*
 
-📌 Notes
-	•	Designed to extend automatically when new F1 seasons are added
-	•	All modeling is leakage-free using time-based validation
-	•	Fully reproducible as a portable research or portfolio project
+### Key Findings (SHAP Analysis)
+
+| Feature | Impact on **Win** Probability | Impact on **Top-10** Probability |
+| :--- | :--- | :--- |
+| **Grid Position** | 🔴 **Critical** (Almost impossible to win from P4+) | 🟠 **High** (But recovery is possible) |
+| **Recent Form** | 🟠 **High** (Momentum matters for championships) | 🟡 **Medium** (Consistency matters more) |
+| **Team Strength** | 🟡 **Medium** (Need a top car to win) | 🟢 **Very High** (Reliable cars guarantee points) |
+
+> **Business Insight:** To win a Championship, invest in **Qualifying speed** (Grid Position). To secure Constructor points (money), invest in **Reliability** (Team Strength).
+
+---
+
+## ⚠️ Limitations & Disclaimer
+
+1.  **Regulation Changes:** This model is optimized for the current Hybrid Era regulations. The major regulation overhaul in **2026** may require retraining or feature re-weighting.
+2.  **In-Race Strategy:** This is a **Pre-Race** prediction model. It does not account for real-time in-race variables such as Safety Cars, Pit Stop errors, or weather changes during the race.
+3.  **Tyre Compound:** Tyre strategy choices (Soft/Medium/Hard) are not included in the pre-race features.
+
+---
+
+### 👤 Author
+
+**Minseob Eom**
+*Sports Data Analyst & System Architect*
+*(Please insert your email or LinkedIn profile link here)*
+
+Email: wowzc@naver.com
+GitHub: https://github.com/madferit94
