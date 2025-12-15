@@ -8,3 +8,11 @@ An interactive analytics dashboard for Formula 1, focused on the post-2016 hybri
 * **Actions:**
   - [📊 **Try Live Dashboard**](https://f1-modern-era-eda.streamlit.app/) 👈 *(Click Here)*
   - [👉 View Source Code](https://github.com/madferit94/all-sports-analytics/tree/main/f1-modern-era-eda)
+ 
+ ### 🔮 Next Project
+
+This EDA dashboard serves as the exploratory foundation for a follow-up modeling project:
+
+- **F1 Modern-Era Reliability & DNF Prediction**
+- Feature engineering and predictive modeling
+- Explainable ML (XAI) for race reliability analysis
