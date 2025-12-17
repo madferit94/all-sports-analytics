@@ -94,7 +94,7 @@ This project includes a **production-grade Streamlit dashboard** that visualizes
 - Team Momentum (Rolling EPA)
 
 👉 **Try Live Dashboard:**  
-🔗 https://YOUR-STREAMLIT-APP-NAME.streamlit.app
+🔗 (https://all-sports-analytics-guvyfdgx7gz6qsb5yqhrvq.streamlit.app)
 
 👉 **Dashboard Source Code:**  
 🔗 https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis/streamlit_app
