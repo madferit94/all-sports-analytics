@@ -84,6 +84,23 @@ This project follows a professional **ETL → Feature Engineering → Modeling �
 
 ---
 
+---
+
+## 📊 Live Interactive Dashboard
+
+This project includes a **production-grade Streamlit dashboard** that visualizes:
+- Dynamic Team EPA Landscape
+- Pre-game Win Probabilities
+- Team Momentum (Rolling EPA)
+
+👉 **Try Live Dashboard:**  
+🔗 https://YOUR-STREAMLIT-APP-NAME.streamlit.app
+
+👉 **Dashboard Source Code:**  
+🔗 https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis/streamlit_app
+
+---
+
 ### 👤 Author
 
 **MinseoB Eom**
