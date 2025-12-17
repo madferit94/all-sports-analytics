@@ -27,7 +27,7 @@ This repository also hosts other deployed analytics systems:
 
 - 🏈 [NFL EPA & Win Probability Dashboard](https://all-sports-analytics-guvyfdgx7gz6qsb5yqhrvq.streamlit.app)
 
-- 🏎️ [F1 Modern-Era Analytics Dashboard]()
+- 🏎️ [F1 Modern-Era Analytics Dashboard](https://f1-modern-era-eda.streamlit.app)
 
 ---
 
