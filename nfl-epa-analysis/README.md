@@ -6,6 +6,18 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
+## 📊 Live Interactive Dashboard
+
+This project includes a **production-grade Streamlit dashboard** that visualizes:
+- Dynamic Team EPA Landscape
+- Pre-game Win Probabilities
+- Team Momentum (Rolling EPA)
+
+👉 [Try Live Dashboard](https://all-sports-analytics-guvyfdgx7gz6qsb5yqhrvq.streamlit.app)
+
+👉 [Dashboard Source Code](https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis/streamlit_app)
+
+---
 ## 📖 Executive Summary
 
 This project represents an **end-to-end sports quantitative analysis system** designed to predict NFL game outcomes and simulate the 2024 season. 
@@ -81,23 +93,6 @@ This project follows a professional **ETL → Feature Engineering → Modeling �
 * **Injury Agnostic:** The current model is "Power-Rated" based on team performance. It does not explicitly account for real-time injury reports (e.g., QB1 out).
 * **Scope:** Optimized for the "Modern Passing Era" (2019-2024).
 * **Future Plan:** Integrate player-level telemetry data to adjust team ratings dynamically when key starters are missing.
-
----
-
----
-
-## 📊 Live Interactive Dashboard
-
-This project includes a **production-grade Streamlit dashboard** that visualizes:
-- Dynamic Team EPA Landscape
-- Pre-game Win Probabilities
-- Team Momentum (Rolling EPA)
-
-👉 **Try Live Dashboard:**  
-🔗 (https://all-sports-analytics-guvyfdgx7gz6qsb5yqhrvq.streamlit.app)
-
-👉 **Dashboard Source Code:**  
-🔗 https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis/streamlit_app
 
 ---
 
