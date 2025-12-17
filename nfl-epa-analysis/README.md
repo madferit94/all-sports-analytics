@@ -49,11 +49,22 @@ This repository also hosts other deployed analytics systems:
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
+```text
 nfl-epa-analysis/
-├── notebooks/        # ETL → Feature Eng → Modeling → Simulation
-├── data/processed/   # Rolling EPA & matchup-level datasets
-├── streamlit_app/    # Live dashboard (deployed)
-└── README.md         # Full technical documentation
-
+├── notebooks/
+│   ├── 01_Data_Prep.ipynb        # ETL & data quality checks
+│   ├── 02_Clustering.ipynb       # Static team style clustering
+│   ├── 03_Feature_Eng.ipynb      # Rolling EPA & dynamic features
+│   ├── 04_Modeling.ipynb         # Win probability model + SHAP
+│   └── 05_Simulation.ipynb       # Season-level Monte Carlo simulation
+│
+├── data/
+│   └── processed/                # Pre-game, leakage-safe datasets
+│
+├── streamlit_app/
+│   ├── app.py                    # Deployed Streamlit dashboard
+│   └── requirements.txt          # Dashboard dependencies
+│
+└── README.md                     # Project documentation
