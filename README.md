@@ -41,7 +41,7 @@ A dual-objective predictive model for Formula 1, optimized for the post-2016 hyb
 
 The repository is actively expanding into other sports and potential non-sports domains.
 
-### **⚽ Soccer (European Leagues)**
+### **⚽Football (European Leagues)**
 * **Concept:** Expected Goals (xG) based match prediction.
 * **Features:** Rolling team form, home advantage dynamics, Poisson distribution modeling.
 
@@ -58,7 +58,7 @@ The repository is actively expanding into other sports and potential non-sports 
 
 This repository utilizes a modern data science stack:
 
-* **Languages:** Python 3.10+
+* **Languages:** Python 3.10+, SQL (Basic)
 * **Data Manipulation:** Pandas, NumPy, Polars
 * **Machine Learning:** Scikit-learn, XGBoost, LightGBM, Random Forest
 * **Interpretability:** SHAP (SHapley Additive exPlanations)
