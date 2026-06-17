@@ -2,6 +2,7 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+*.backup.ipynb
 
 # Large raw crawl/cache files. Keep locally unless you intentionally publish a dataset.
 data/raw/
