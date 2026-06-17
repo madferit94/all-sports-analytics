@@ -1,0 +1,33 @@
+﻿group,team,played,wins,draws,losses,goals_for,goals_against,goal_diff,points,group_rank,seed
+G,Belgium,3,3,0,0,7,1,6,9,1,1
+I,Senegal,3,3,0,0,8,4,4,9,1,2
+L,England,3,3,0,0,6,2,4,9,1,3
+C,Brazil,3,3,0,0,7,4,3,9,1,4
+D,United States,3,3,0,0,6,3,3,9,1,5
+F,Netherlands,3,3,0,0,6,3,3,9,1,6
+J,Argentina,3,3,0,0,6,3,3,9,1,7
+K,Portugal,3,3,0,0,6,3,3,9,1,8
+E,Germany,3,2,1,0,8,5,3,7,1,9
+H,Spain,3,2,1,0,6,4,2,7,1,10
+A,South Korea,3,2,1,0,5,3,2,7,1,11
+B,Switzerland,3,2,1,0,5,3,2,7,1,12
+I,France,3,2,0,1,7,5,2,6,2,13
+J,Austria,3,2,0,1,6,4,2,6,2,14
+F,Japan,3,2,0,1,5,3,2,6,2,15
+C,Morocco,3,2,0,1,6,5,1,6,2,16
+D,Turkey,3,2,0,1,5,4,1,6,2,17
+K,Colombia,3,2,0,1,5,4,1,6,2,18
+L,Croatia,3,2,0,1,5,4,1,6,2,19
+G,Egypt,3,2,0,1,4,4,0,6,2,20
+B,Canada,3,1,2,0,5,4,1,5,2,21
+E,Ecuador,3,1,2,0,5,4,1,5,2,22
+H,Uruguay,3,1,1,1,5,5,0,4,2,23
+A,Mexico,3,1,1,1,4,4,0,4,2,24
+E,Ivory Coast,3,1,1,1,5,5,0,4,3,25
+A,Czech Republic,3,0,3,0,4,4,0,3,3,26
+I,Norway,3,1,0,2,6,7,-1,3,3,27
+B,Bosnia and Herzegovina,3,1,0,2,4,5,-1,3,3,28
+D,Paraguay,3,1,0,2,4,5,-1,3,3,29
+F,Sweden,3,1,0,2,4,5,-1,3,3,30
+G,Iran,3,1,0,2,4,5,-1,3,3,31
+H,Cape Verde,3,1,0,2,4,5,-1,3,3,32

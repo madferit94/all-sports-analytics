@@ -1,0 +1,8 @@
+﻿model,champion,final_home,final_away,final_score
+LogisticRegression,Argentina,Spain,Argentina,2-3
+RandomForest,Germany,France,Germany,1-2
+ExtraTrees,Brazil,Portugal,Brazil,2-3
+GradientBoosting,Spain,England,Spain,1-2
+HistGradientBoosting,Germany,Argentina,Germany,2-3
+MLP_Dense_NeuralNet,Germany,Germany,Portugal,3-2
+XGBoost,Spain,Argentina,Spain,2-3

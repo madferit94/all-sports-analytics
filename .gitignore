@@ -1,0 +1,30 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large raw crawl/cache files. Keep locally unless you intentionally publish a dataset.
+data/raw/
+
+# Generated model artifacts and prediction outputs.
+models/
+data/processed/baseline_validation_predictions.csv
+data/processed/last1year_transfermarkt_fotmob_recent5_predictions.csv
+data/processed/worldcup_predictions_asof_20260611.csv
+data/processed/predicted_group_table.csv
+data/processed/predicted_qualified_teams.csv
+data/processed/predicted_tournament_results.csv
+data/processed/worldcup_group_predictions_*.csv
+data/processed/worldcup_tournament_predictions_*.csv
+data/processed/predicted_group_table_best_model.csv
+data/processed/predicted_qualified_teams_best_model.csv
+data/processed/predicted_tournament_results_best_model.csv
+data/processed/model_champions_comparison.csv
+
+# Optional heavy processed files not used by the current baseline model.
+data/processed/fotmob_lineups.csv
+data/processed/fotmob_shotmap.csv
+data/processed/fotmob_match_events.csv
+data/processed/fotmob_formations.csv
+data/processed/fotmob_match_details_availability.csv
+data/processed/fotmob_match_details_errors.csv

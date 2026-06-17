@@ -1,0 +1,49 @@
+﻿country,transfermarkt_url,transfermarkt_team_id,checked_at,note
+Mexico,https://www.transfermarkt.com/mexiko/startseite/verein/6303,6303,2026-06-12,verified page opens; group A
+South Africa,https://www.transfermarkt.com/sudafrika/startseite/verein/3806,3806,2026-06-12,verified page opens; group A
+South Korea,https://www.transfermarkt.com/sudkorea/startseite/verein/3589,3589,2026-06-12,verified page opens; group A
+Czech Republic,https://www.transfermarkt.com/tschechien/startseite/verein/3445,3445,2026-06-12,verified page opens; group A
+Canada,https://www.transfermarkt.com/kanada/startseite/verein/3510,3510,2026-06-12,verified page opens; group B
+Qatar,https://www.transfermarkt.com/katar/startseite/verein/14162,14162,2026-06-12,verified page opens; group B
+Switzerland,https://www.transfermarkt.com/schweiz/startseite/verein/3384,3384,2026-06-12,verified page opens; group B
+Bosnia and Herzegovina,https://www.transfermarkt.com/bosnien-herzegowina/startseite/verein/3446,3446,2026-06-12,verified page opens; group B
+Brazil,https://www.transfermarkt.com/brasilien/startseite/verein/3439,3439,2026-06-12,verified page opens; group C
+Morocco,https://www.transfermarkt.com/marokko/startseite/verein/3575,3575,2026-06-12,verified page opens; group C
+Haiti,https://www.transfermarkt.com/haiti/startseite/verein/14161,14161,2026-06-12,verified page opens; group C
+Scotland,https://www.transfermarkt.com/schottland/startseite/verein/3380,3380,2026-06-12,verified page opens; group C
+United States,https://www.transfermarkt.com/vereinigte-staaten/startseite/verein/3505,3505,2026-06-12,verified page opens; group D
+Paraguay,https://www.transfermarkt.com/paraguay/startseite/verein/3581,3581,2026-06-12,verified page opens; group D
+Australia,https://www.transfermarkt.com/australien/startseite/verein/3433,3433,2026-06-12,verified page opens; group D
+Turkey,https://www.transfermarkt.com/turkei/startseite/verein/3381,3381,2026-06-12,verified page opens; group D
+Germany,https://www.transfermarkt.com/deutschland/startseite/verein/3262,3262,2026-06-12,verified page opens; group E
+Curaçao,https://www.transfermarkt.com/curacao/startseite/verein/32364,32364,2026-06-12,verified page opens; group E
+Ivory Coast,https://www.transfermarkt.com/elfenbeinkuste/startseite/verein/3591,3591,2026-06-12,verified page opens; group E
+Ecuador,https://www.transfermarkt.com/ecuador/startseite/verein/5750,5750,2026-06-12,verified page opens; group E
+Netherlands,https://www.transfermarkt.com/niederlande/startseite/verein/3379,3379,2026-06-12,verified page opens; group F
+Japan,https://www.transfermarkt.com/japan/startseite/verein/3435,3435,2026-06-12,verified page opens; group F
+Sweden,https://www.transfermarkt.com/schweden/startseite/verein/3557,3557,2026-06-12,verified page opens; group F
+Tunisia,https://www.transfermarkt.com/tunesien/startseite/verein/3670,3670,2026-06-12,verified page opens; group F
+Belgium,https://www.transfermarkt.com/belgien/startseite/verein/3382,3382,2026-06-12,verified page opens; group G
+Egypt,https://www.transfermarkt.com/agypten/startseite/verein/3672,3672,2026-06-12,verified page opens; group G
+Iran,https://www.transfermarkt.com/iran/startseite/verein/3582,3582,2026-06-12,verified page opens; group G
+New Zealand,https://www.transfermarkt.com/neuseeland/startseite/verein/9171,9171,2026-06-12,verified page opens; group G
+Spain,https://www.transfermarkt.com/spanien/startseite/verein/3375,3375,2026-06-12,verified page opens; group H
+Cape Verde,https://www.transfermarkt.com/kap-verde/startseite/verein/4311,4311,2026-06-12,verified page opens; group H
+Saudi Arabia,https://www.transfermarkt.com/saudi-arabien/startseite/verein/3807,3807,2026-06-12,verified page opens; group H
+Uruguay,https://www.transfermarkt.com/uruguay/startseite/verein/3449,3449,2026-06-12,verified page opens; group H
+France,https://www.transfermarkt.com/frankreich/startseite/verein/3377,3377,2026-06-12,verified page opens; group I
+Senegal,https://www.transfermarkt.com/senegal/startseite/verein/3499,3499,2026-06-12,verified page opens; group I
+Iraq,https://www.transfermarkt.com/irak/startseite/verein/3560,3560,2026-06-12,verified page opens; group I
+Norway,https://www.transfermarkt.com/norwegen/startseite/verein/3440,3440,2026-06-12,verified page opens; group I
+Argentina,https://www.transfermarkt.com/argentinien/startseite/verein/3437,3437,2026-06-12,verified page opens; group J
+Algeria,https://www.transfermarkt.com/algerien/startseite/verein/3614,3614,2026-06-12,verified page opens; group J
+Austria,https://www.transfermarkt.com/osterreich/startseite/verein/3383,3383,2026-06-12,verified page opens; group J
+Jordan,https://www.transfermarkt.com/jordanien/startseite/verein/15737,15737,2026-06-12,verified page opens; group J
+Colombia,https://www.transfermarkt.com/kolumbien/startseite/verein/3816,3816,2026-06-12,verified page opens; group K
+DR Congo,https://www.transfermarkt.com/demokratische-republik-kongo/startseite/verein/3854,3854,2026-06-12,verified page opens; group K
+Portugal,https://www.transfermarkt.com/portugal/startseite/verein/3300,3300,2026-06-12,verified page opens; group K
+Uzbekistan,https://www.transfermarkt.com/usbekistan/startseite/verein/3563,3563,2026-06-12,verified page opens; group K
+England,https://www.transfermarkt.com/england/startseite/verein/3299,3299,2026-06-12,verified page opens; group L
+Croatia,https://www.transfermarkt.com/kroatien/startseite/verein/3556,3556,2026-06-12,verified page opens; group L
+Ghana,https://www.transfermarkt.com/ghana/startseite/verein/3441,3441,2026-06-12,verified page opens; group L
+Panama,https://www.transfermarkt.com/panama/startseite/verein/3577,3577,2026-06-12,verified page opens; group L

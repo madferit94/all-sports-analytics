@@ -1,0 +1,33 @@
+﻿group,team,played,wins,draws,losses,goals_for,goals_against,goal_diff,points,group_rank,seed
+G,Belgium,3,3,0,0,7,1,6,9,1,1
+I,Senegal,3,3,0,0,8,4,4,9,1,2
+L,England,3,3,0,0,6,2,4,9,1,3
+A,South Korea,3,3,0,0,6,3,3,9,1,4
+C,Morocco,3,3,0,0,6,3,3,9,1,5
+D,United States,3,3,0,0,6,3,3,9,1,6
+F,Netherlands,3,3,0,0,6,3,3,9,1,7
+J,Argentina,3,3,0,0,6,3,3,9,1,8
+K,Portugal,3,3,0,0,6,3,3,9,1,9
+E,Germany,3,2,1,0,8,5,3,7,1,10
+H,Spain,3,2,1,0,6,4,2,7,1,11
+B,Switzerland,3,2,1,0,5,3,2,7,1,12
+E,Ecuador,3,2,1,0,6,4,2,7,2,13
+H,Uruguay,3,2,1,0,6,4,2,7,2,14
+I,France,3,2,0,1,7,5,2,6,2,15
+J,Austria,3,2,0,1,6,4,2,6,2,16
+F,Japan,3,2,0,1,5,3,2,6,2,17
+C,Brazil,3,2,0,1,5,4,1,6,2,18
+D,Turkey,3,2,0,1,5,4,1,6,2,19
+K,Colombia,3,2,0,1,5,4,1,6,2,20
+L,Croatia,3,2,0,1,5,4,1,6,2,21
+G,Egypt,3,2,0,1,4,4,0,6,2,22
+A,Mexico,3,1,1,1,4,4,0,4,2,23
+B,Canada,3,0,3,0,5,5,0,3,2,24
+I,Norway,3,1,0,2,6,7,-1,3,3,25
+C,Scotland,3,1,0,2,4,5,-1,3,3,26
+D,Paraguay,3,1,0,2,4,5,-1,3,3,27
+F,Sweden,3,1,0,2,4,5,-1,3,3,28
+G,Iran,3,1,0,2,4,5,-1,3,3,29
+H,Cape Verde,3,1,0,2,4,5,-1,3,3,30
+J,Algeria,3,1,0,2,4,5,-1,3,3,31
+K,DR Congo,3,1,0,2,4,5,-1,3,3,32

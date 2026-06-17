@@ -1,0 +1,4 @@
+﻿category,source_name,url,note
+qualification,2026_fifa_world_cup_qualification_wikipedia,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification,대륙별 예선 정보 확인용. 원본 저장 후 표를 검토해서 사용.
+historical_results,football_data_international_matches,https://www.football-data.co.uk/international.php,국가대표 경기 결과 데이터 후보. 다운로드 가능 형식 확인 필요.
+ratings,eloratings_world_football_elo,https://www.eloratings.net/,국가대표 Elo 레이팅 후보. 자동 수집 가능 여부 확인 필요.

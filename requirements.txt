@@ -1,6 +1,12 @@
 streamlit
 pandas
-numpy
+numpy<2
 plotly
 scikit-learn
 pyarrow
+requests
+beautifulsoup4
+lxml
+tqdm
+joblib
+xgboost

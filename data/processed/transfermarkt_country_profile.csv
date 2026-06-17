@@ -1,0 +1,49 @@
+﻿country,squad_size,average_age,foreigners,confederation,fifa_world_ranking,total_market_value_raw,total_market_value_eur,source_file
+Mexico,26,27.9,14,CONCACAF,15,€191.85m,191850000,data/raw/20260612_130743_transfermarkt_Mexico_national_team_8cad0cbb4b66.html
+South Africa,26,26.8,7,CAF,60,€49.25m,49250000,data/raw/20260612_130747_transfermarkt_South_Africa_national_team_a0a94759d1b9.html
+South Korea,26,28.1,19,AFC,25,€139.05m,139050000,data/raw/20260612_130751_transfermarkt_South_Korea_national_team_3d9e4b53dbd7.html
+Czech Republic,26,27.6,9,UEFA,41,€188.18m,188180000,data/raw/20260612_130755_transfermarkt_Czech_Republic_national_team_e88442e71c31.html
+Canada,26,27.0,24,CONCACAF,30,€198.65m,198650000,data/raw/20260612_130759_transfermarkt_Canada_national_team_81f0e7f4373a.html
+Qatar,26,29.5,1,AFC,55,€19.93m,19930000,data/raw/20260612_130802_transfermarkt_Qatar_national_team_a0f35ffabbeb.html
+Switzerland,26,28.3,24,UEFA,19,€332.50m,332500000,data/raw/20260612_130806_transfermarkt_Switzerland_national_team_f6d939b10c72.html
+Bosnia and Herzegovina,26,26.4,25,UEFA,65,€151.60m,151600000,data/raw/20260612_130810_transfermarkt_Bosnia_and_Herzegovina_national_team_720436ce35d9.html
+Brazil,26,29.4,19,South American Football Confederation,6,€928.20m,928200000,data/raw/20260612_130814_transfermarkt_Brazil_national_team_8510a9c52963.html
+Morocco,26,26.6,24,CAF,8,€447.70m,447700000,data/raw/20260612_130817_transfermarkt_Morocco_national_team_2cfbc05173fd.html
+Haiti,26,27.6,25,CONCACAF,83,€55.90m,55900000,data/raw/20260612_130821_transfermarkt_Haiti_national_team_f943a2fe07f8.html
+Scotland,26,29.2,18,UEFA,43,€170.25m,170250000,data/raw/20260612_130824_transfermarkt_Scotland_national_team_0cdc0c995499.html
+United States,26,26.9,19,CONCACAF,16,€385.65m,385650000,data/raw/20260612_130828_transfermarkt_United_States_national_team_3b77eaa2b23a.html
+Paraguay,26,29.1,23,South American Football Confederation,40,€153.65m,153650000,data/raw/20260612_130831_transfermarkt_Paraguay_national_team_437ad19c7e3f.html
+Australia,26,27.4,21,AFC,27,€77.45m,77450000,data/raw/20260612_130835_transfermarkt_Australia_national_team_4cf3b05f98aa.html
+Turkey,26,27.7,11,UEFA,22,€473.70m,473700000,data/raw/20260612_130839_transfermarkt_Turkey_national_team_7a032d2b855d.html
+Germany,26,28.1,7,UEFA,10,€947.00m,947000000,data/raw/20260612_130842_transfermarkt_Germany_national_team_754f20063c42.html
+Curaçao,26,28.0,26,CONCACAF,82,€25.78m,25780000,data/raw/20260612_130847_transfermarkt_Curaçao_national_team_e8e377086d74.html
+Ivory Coast,26,25.9,26,CAF,34,€522.10m,522100000,data/raw/20260612_130850_transfermarkt_Ivory_Coast_national_team_2fd0c4ead2fe.html
+Ecuador,26,26.1,24,South American Football Confederation,23,€368.70m,368700000,data/raw/20260612_130854_transfermarkt_Ecuador_national_team_f117399e9dee.html
+Netherlands,26,27.8,24,UEFA,7,€754.20m,754200000,data/raw/20260612_130858_transfermarkt_Netherlands_national_team_add1fa4df9e4.html
+Japan,25,27.6,22,AFC,18,€266.85m,266850000,data/raw/20260612_130902_transfermarkt_Japan_national_team_ae482a7f921a.html
+Sweden,26,27.6,23,UEFA,38,€406.08m,406080000,data/raw/20260612_130906_transfermarkt_Sweden_national_team_201a534fc57a.html
+Tunisia,26,26.7,20,CAF,44,€69.95m,69950000,data/raw/20260612_130910_transfermarkt_Tunisia_national_team_0e1d092b569b.html
+Belgium,26,27.6,23,UEFA,9,€547.50m,547500000,data/raw/20260612_130913_transfermarkt_Belgium_national_team_ccb56269a589.html
+Egypt,26,29.1,9,CAF,29,€116.48m,116480000,data/raw/20260612_130917_transfermarkt_Egypt_national_team_7779f6c44fe7.html
+Iran,26,30.4,9,AFC,21,€32.05m,32049999,data/raw/20260612_130921_transfermarkt_Iran_national_team_b8e05093460a.html
+New Zealand,26,28.1,18,OFC,85,€34.35m,34350000,data/raw/20260612_130925_transfermarkt_New_Zealand_national_team_91675b68a28f.html
+Spain,26,26.8,9,UEFA,2,€1.22bn,1220000000,data/raw/20260612_130928_transfermarkt_Spain_national_team_a2e9e5436d15.html
+Cape Verde,26,29.7,26,CAF,69,€54.50m,54500000,data/raw/20260612_130932_transfermarkt_Cape_Verde_national_team_db613d8fac9f.html
+Saudi Arabia,26,28.5,1,AFC,61,€40.68m,40680000,data/raw/20260612_130935_transfermarkt_Saudi_Arabia_national_team_9d4f97ed6145.html
+Uruguay,26,28.8,26,South American Football Confederation,17,€359.30m,359300000,data/raw/20260612_130939_transfermarkt_Uruguay_national_team_3943746ca766.html
+France,26,27.0,19,UEFA,1,€1.52bn,1520000000,data/raw/20260612_130943_transfermarkt_France_national_team_63da02757c2d.html
+Senegal,26,27.1,26,CAF,14,€478.10m,478100000,data/raw/20260612_130947_transfermarkt_Senegal_national_team_49e78571481a.html
+Iraq,26,26.9,16,AFC,57,€21.20m,21200000,data/raw/20260612_130950_transfermarkt_Iraq_national_team_6d8782f2a3da.html
+Norway,26,26.8,22,UEFA,31,€589.90m,589900000,data/raw/20260612_130954_transfermarkt_Norway_national_team_30d44385cc9d.html
+Argentina,26,29.1,24,South American Football Confederation,3,€807.50m,807500000,data/raw/20260612_130957_transfermarkt_Argentina_national_team_19b2bdd41665.html
+Algeria,26,26.9,23,CAF,28,€256.90m,256899999,data/raw/20260612_131001_transfermarkt_Algeria_national_team_c00a591eadfb.html
+Austria,26,28.6,23,UEFA,24,€245.20m,245200000,data/raw/20260612_131006_transfermarkt_Austria_national_team_7370e4b94fef.html
+Jordan,26,28.5,14,AFC,63,€20.30m,20300000,data/raw/20260612_131009_transfermarkt_Jordan_national_team_514f05496622.html
+Colombia,26,30.1,25,South American Football Confederation,13,€302.35m,302350000,data/raw/20260612_131014_transfermarkt_Colombia_national_team_0a7411655656.html
+DR Congo,26,29.1,26,CAF,46,€143.90m,143900000,data/raw/20260612_131018_transfermarkt_DR_Congo_national_team_cd6e496e7a6c.html
+Portugal,26,28.1,21,UEFA,5,€1.01bn,1010000000,data/raw/20260612_131021_transfermarkt_Portugal_national_team_9cdd0e7fd488.html
+Uzbekistan,26,28.5,11,AFC,50,€85.33m,85330000,data/raw/20260612_131026_transfermarkt_Uzbekistan_national_team_e51c04d2e0ba.html
+England,26,27.2,5,UEFA,4,€1.36bn,1360000000,data/raw/20260612_131029_transfermarkt_England_national_team_7ce47d64e10b.html
+Croatia,26,28.4,24,UEFA,11,€387.30m,387300000,data/raw/20260612_131033_transfermarkt_Croatia_national_team_924e54e251a6.html
+Ghana,27,26.8,26,CAF,74,€234.60m,234600000,data/raw/20260612_131037_transfermarkt_Ghana_national_team_2d3d0ce1c9cc.html
+Panama,26,30.5,24,CONCACAF,33,€34.55m,34550000,data/raw/20260612_131040_transfermarkt_Panama_national_team_d484f8eb3696.html
