@@ -45,8 +45,9 @@ A 2026 FIFA World Cup prediction workflow using historical international matches
 * **Goal:** Predict group-stage results, compare multiple ML models, simulate a simplified knockout bracket, and compare predicted champions by model.
 * **Status:** ✅ Completed baseline
 * **Kaggle Notebook:** https://www.kaggle.com/code/madferit/2026-fifa-world-cup-prediction
-* **Main Notebook:** `2026Worldcup predict.ipynb`
-* **Dataset Package:** `kaggle_dataset/`
+* **Project Folder:** [`football/worldcup-2026-prediction`](football/worldcup-2026-prediction)
+* **Main Notebook:** [`football/worldcup-2026-prediction/2026Worldcup predict.ipynb`](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb)
+* **Dataset Package:** [`football/worldcup-2026-prediction/kaggle_dataset`](football/worldcup-2026-prediction/kaggle_dataset)
 
 ---
 
@@ -93,7 +94,7 @@ Project folders and notebooks follow this general structure:
 The current World Cup project also includes a Kaggle-ready dataset package:
 
 ```text
-kaggle_dataset/
+football/worldcup-2026-prediction/kaggle_dataset/
 ├── README.md
 ├── input/
 └── outputs/
