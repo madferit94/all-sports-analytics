@@ -1,0 +1,8 @@
+outputs/
+figures/
+data/fifa_worldcup_2026/
+!data/
+!data/README.md
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
