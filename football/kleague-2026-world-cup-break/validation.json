@@ -1,0 +1,39 @@
+{
+  "validated_on": "2026-09-30",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2",
+    "ipython": "9.17.1",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "original_tables_compared": 31,
+  "notebooks": [
+    {
+      "file": "notebooks/v1_prepare_data.ipynb",
+      "executed": true,
+      "chart_outputs": 0
+    },
+    {
+      "file": "notebooks/v2_league_overview.ipynb",
+      "executed": true,
+      "chart_outputs": 3
+    },
+    {
+      "file": "notebooks/v3_focus_teams.ipynb",
+      "executed": true,
+      "chart_outputs": 3
+    },
+    {
+      "file": "notebooks/v4_robustness.ipynb",
+      "executed": true,
+      "chart_outputs": 1
+    }
+  ],
+  "public_raw_data_included": false,
+  "visual_inspection": "All seven exported notebook charts inspected for labels, units, axes and clipping; notebook cells and table outputs inspected. GitHub's remote notebook renderer has not been visually tested.",
+  "limits": "Validation of the saved snapshot; not a fresh crawl or a guarantee of source correctness."
+}

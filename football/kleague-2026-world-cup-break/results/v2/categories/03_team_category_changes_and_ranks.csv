@@ -1,0 +1,517 @@
+﻿category,metric,label,unit,team,before,after,delta,relative_change_pct,before_metric_rank,after_metric_rank,rank_interpretation
+Attack,goals_for,Goals scored,per team-match,Anyang,1.2666666666666666,1.2666666666666666,0.0,0.0,5.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Bucheon,0.7333333333333333,1.3333333333333333,0.6,81.81818181818181,11.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Daejeon,1.1333333333333333,1.9333333333333333,0.8,70.58823529411767,7.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Gangwon,1.2666666666666666,1.1333333333333333,-0.1333333333333333,-10.526315789473683,5.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Gimcheon,1.0,1.0,0.0,0.0,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Gwangju,0.4666666666666667,0.9333333333333333,0.4666666666666667,100.0,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Incheon,1.4,1.0,-0.3999999999999999,-28.57142857142857,3.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Jeju,0.8666666666666667,1.4666666666666666,0.5999999999999999,69.23076923076921,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Jeonbuk,1.4,1.1333333333333333,-0.2666666666666666,-19.047619047619047,3.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Pohang,0.8,1.0666666666666667,0.2666666666666666,33.33333333333333,10.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Seoul,1.8,1.9333333333333333,0.1333333333333333,7.407407407407396,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,goals_for,Goals scored,per team-match,Ulsan,1.4666666666666666,1.5333333333333334,0.06666666666666687,4.545454545454564,2.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Anyang,9.533333333333333,10.2,0.6666666666666661,6.993006993006978,10.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Bucheon,8.6,10.8,2.200000000000001,25.581395348837233,11.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Daejeon,10.8,13.066666666666666,2.2666666666666657,20.987654320987637,7.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Gangwon,13.0,13.0,0.0,0.0,2.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Gimcheon,11.666666666666666,12.733333333333333,1.0666666666666664,9.142857142857142,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Gwangju,7.533333333333333,10.333333333333334,2.8000000000000007,37.168141592920364,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Incheon,10.266666666666667,11.133333333333333,0.8666666666666654,8.441558441558428,9.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Jeju,11.333333333333334,13.4,2.0666666666666664,18.23529411764706,6.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Jeonbuk,13.0,14.4,1.4000000000000004,10.769230769230775,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Pohang,10.533333333333333,10.666666666666666,0.13333333333333286,1.2658227848101111,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Seoul,11.666666666666666,13.866666666666667,2.200000000000001,18.85714285714286,4.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots,Shots,per team-match,Ulsan,14.733333333333333,11.466666666666667,-3.2666666666666657,-22.171945701357465,1.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Anyang,3.6666666666666665,3.6,-0.06666666666666643,-1.8181818181818077,6.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Bucheon,2.8,4.066666666666666,1.2666666666666666,45.238095238095234,11.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Daejeon,3.6,4.533333333333333,0.9333333333333331,25.92592592592593,7.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Gangwon,4.0,4.6,0.5999999999999996,14.999999999999991,5.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Gimcheon,3.6,3.8666666666666667,0.2666666666666666,7.407407407407396,7.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Gwangju,2.4,3.8,1.4,58.33333333333333,12.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Incheon,3.533333333333333,3.533333333333333,0.0,0.0,9.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Jeju,4.4,4.0,-0.40000000000000036,-9.090909090909093,3.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Jeonbuk,4.933333333333334,4.6,-0.3333333333333339,-6.756756756756765,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Pohang,3.3333333333333335,3.4,0.06666666666666643,2.0000000000000018,10.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Seoul,4.133333333333334,5.6,1.466666666666666,35.48387096774191,4.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_on_target,Shots on target,per team-match,Ulsan,5.0,4.466666666666667,-0.5333333333333332,-10.666666666666668,1.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Anyang,6.8,6.533333333333333,-0.2666666666666666,-3.9215686274509776,9.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Bucheon,5.066666666666666,7.4,2.333333333333334,46.05263157894739,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Daejeon,7.6,9.733333333333333,2.133333333333333,28.07017543859649,6.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Gangwon,8.6,10.466666666666667,1.8666666666666671,21.705426356589165,3.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Gimcheon,8.066666666666666,8.8,0.7333333333333343,9.090909090909104,5.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Gwangju,5.466666666666667,8.0,2.533333333333333,46.34146341463414,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Incheon,6.2,8.266666666666667,2.0666666666666673,33.33333333333335,10.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Jeju,7.333333333333333,9.6,2.2666666666666666,30.909090909090907,7.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Jeonbuk,9.2,10.733333333333333,1.5333333333333332,16.666666666666675,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Pohang,6.866666666666666,8.733333333333333,1.8666666666666663,27.184466019417464,8.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Seoul,8.133333333333333,9.333333333333334,1.200000000000001,14.754098360655753,4.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,provider_key_passes,Provider key passes,per team-match,Ulsan,10.266666666666667,8.866666666666667,-1.4000000000000004,-13.636363636363635,1.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Anyang,5.933333333333334,5.0,-0.9333333333333336,-15.73033707865169,10.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Bucheon,4.8,5.8,1.0,20.833333333333325,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Daejeon,6.333333333333333,9.0,2.666666666666667,42.10526315789473,8.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Gangwon,6.866666666666666,7.466666666666667,0.6000000000000005,8.737864077669922,4.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Gimcheon,6.8,7.8,1.0,14.705882352941169,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Gwangju,3.6,6.133333333333334,2.5333333333333337,70.37037037037037,12.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Incheon,6.2,7.066666666666666,0.8666666666666663,13.978494623655902,9.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Jeju,6.6,7.066666666666666,0.4666666666666668,7.070707070707072,7.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Jeonbuk,9.0,7.733333333333333,-1.2666666666666666,-14.074074074074073,1.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Pohang,6.733333333333333,6.533333333333333,-0.20000000000000018,-2.970297029702973,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Seoul,7.4,9.2,1.799999999999999,24.324324324324298,3.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_in_pa,Shots inside penalty area,per team-match,Ulsan,8.933333333333334,6.933333333333334,-2.0,-22.388059701492537,2.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Anyang,3.3333333333333335,2.8666666666666667,-0.4666666666666668,-14.000000000000002,10.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Bucheon,3.4,4.2,0.8000000000000003,23.529411764705888,9.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Daejeon,3.533333333333333,6.0,2.466666666666667,69.81132075471699,8.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Gangwon,5.666666666666667,5.933333333333334,0.2666666666666666,4.705882352941182,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Gimcheon,4.8,5.4,0.6000000000000005,12.500000000000021,4.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Gwangju,2.533333333333333,3.8,1.2666666666666666,50.0,12.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Incheon,4.666666666666667,3.933333333333333,-0.7333333333333338,-15.714285714285726,6.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Jeju,3.3333333333333335,4.533333333333333,1.1999999999999997,35.999999999999986,10.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Jeonbuk,4.733333333333333,4.266666666666667,-0.4666666666666668,-9.859154929577462,5.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Pohang,4.666666666666667,3.2,-1.4666666666666668,-31.428571428571427,6.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Seoul,5.2,5.133333333333334,-0.06666666666666643,-1.2820512820512775,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,corners,Corners,per team-match,Ulsan,4.866666666666666,3.8666666666666667,-0.9999999999999996,-20.547945205479444,3.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Anyang,0.8,0.7333333333333333,-0.06666666666666676,-8.333333333333348,5.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Bucheon,0.5333333333333333,1.0,0.4666666666666667,87.5,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Daejeon,0.8666666666666667,1.4,0.5333333333333332,61.53846153846152,4.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Gangwon,0.9333333333333333,0.8,-0.1333333333333333,-14.28571428571428,3.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Gimcheon,0.7333333333333333,0.6666666666666666,-0.06666666666666665,-9.090909090909093,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Gwangju,0.3333333333333333,0.6,0.26666666666666666,80.0,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Incheon,0.8,0.6,-0.20000000000000007,-25.00000000000001,5.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Jeju,0.4666666666666667,1.2666666666666666,0.7999999999999999,171.4285714285714,10.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Jeonbuk,0.8,0.9333333333333333,0.1333333333333333,16.66666666666665,5.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Pohang,0.4,0.8666666666666667,0.4666666666666667,116.66666666666666,11.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Seoul,1.2666666666666666,1.2666666666666666,0.0,0.0,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,assists,Assists,per team-match,Ulsan,1.0,1.0,0.0,0.0,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Anyang,3.2666666666666666,5.2,1.9333333333333336,59.183673469387756,12.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Bucheon,3.6666666666666665,4.933333333333334,1.266666666666667,34.54545454545457,8.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Daejeon,4.266666666666667,4.066666666666666,-0.20000000000000018,-4.6875,5.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Gangwon,6.066666666666666,5.466666666666667,-0.5999999999999996,-9.890109890109889,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Gimcheon,4.6,4.933333333333334,0.3333333333333339,7.246376811594213,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Gwangju,3.8,4.2,0.40000000000000036,10.526315789473696,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Incheon,3.466666666666667,4.0,0.5333333333333332,15.384615384615374,11.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Jeju,4.533333333333333,6.333333333333333,1.7999999999999998,39.70588235294117,4.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Jeonbuk,3.6,6.466666666666667,2.8666666666666667,79.62962962962963,9.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Pohang,3.6,4.133333333333334,0.5333333333333337,14.814814814814813,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Seoul,3.933333333333333,4.666666666666667,0.7333333333333338,18.644067796610187,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_out_pa,Shots outside penalty area,per team-match,Ulsan,5.533333333333333,4.533333333333333,-1.0,-18.07228915662651,2.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Anyang,1.6666666666666667,2.2,0.5333333333333334,32.00000000000001,10.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Bucheon,2.0,2.3333333333333335,0.3333333333333335,16.666666666666675,8.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Daejeon,2.4,1.4666666666666666,-0.9333333333333333,-38.88888888888889,4.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Gangwon,1.9333333333333333,1.6666666666666667,-0.2666666666666666,-13.793103448275856,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Gimcheon,2.533333333333333,2.3333333333333335,-0.19999999999999973,-7.894736842105255,3.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Gwangju,2.2666666666666666,1.6666666666666667,-0.5999999999999999,-26.470588235294112,5.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Incheon,2.2,1.8,-0.40000000000000013,-18.181818181818187,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Jeju,2.1333333333333333,2.466666666666667,0.3333333333333335,15.625,7.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Jeonbuk,1.6666666666666667,1.9333333333333333,0.2666666666666666,15.999999999999993,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Pohang,1.6,2.2,0.6000000000000001,37.5,12.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Seoul,3.0,2.2666666666666666,-0.7333333333333334,-24.444444444444446,1.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,dribbles_success,Successful dribbles,per team-match,Ulsan,2.6,2.2666666666666666,-0.3333333333333335,-12.82051282051283,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Anyang,1.7333333333333334,1.4,-0.3333333333333335,-19.23076923076924,3.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Bucheon,0.8,1.0666666666666667,0.2666666666666666,33.33333333333333,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Daejeon,1.3333333333333333,1.0,-0.33333333333333326,-25.0,6.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Gangwon,2.4,1.5333333333333334,-0.8666666666666665,-36.11111111111111,1.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Gimcheon,1.0666666666666667,1.6666666666666667,0.6000000000000001,56.25,9.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Gwangju,1.0,1.3333333333333333,0.33333333333333326,33.33333333333333,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Incheon,1.6666666666666667,1.6,-0.06666666666666665,-4.0000000000000036,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Jeju,1.8,1.6666666666666667,-0.1333333333333333,-7.4074074074074066,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Jeonbuk,1.3333333333333333,1.4,0.06666666666666665,5.000000000000004,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Pohang,1.6,1.4,-0.20000000000000018,-12.50000000000001,5.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Seoul,0.8666666666666667,1.4666666666666666,0.5999999999999999,69.23076923076921,11.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,offsides,Offsides,per team-match,Ulsan,1.2666666666666666,1.7333333333333334,0.4666666666666668,36.8421052631579,8.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Anyang,1.5333333333333334,1.8,0.2666666666666666,17.391304347826075,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Bucheon,1.4666666666666666,1.8,0.3333333333333335,22.72727272727273,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Daejeon,2.2666666666666666,2.2,-0.06666666666666643,-2.941176470588225,5.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Gangwon,2.6666666666666665,2.8666666666666667,0.20000000000000018,7.500000000000018,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Gimcheon,2.8,2.933333333333333,0.1333333333333333,4.761904761904767,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Gwangju,1.8,2.4,0.5999999999999999,33.33333333333333,9.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Incheon,1.6666666666666667,2.533333333333333,0.8666666666666665,51.99999999999998,10.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Jeju,2.4,2.7333333333333334,0.3333333333333335,13.888888888888907,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Jeonbuk,2.0,2.4,0.3999999999999999,19.999999999999996,8.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Pohang,2.2,2.1333333333333333,-0.06666666666666687,-3.0303030303030387,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Seoul,2.2,3.0,0.7999999999999998,36.36363636363635,6.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_blocked,Blocked attacking shots,per team-match,Ulsan,2.7333333333333334,1.8666666666666667,-0.8666666666666667,-31.707317073170728,2.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Anyang,4.0,4.8,0.7999999999999998,19.999999999999996,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Bucheon,4.2,4.866666666666666,0.6666666666666661,15.873015873015861,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Daejeon,4.733333333333333,6.333333333333333,1.5999999999999996,33.80281690140845,7.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Gangwon,6.266666666666667,5.466666666666667,-0.7999999999999998,-12.765957446808507,2.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Gimcheon,5.0,5.933333333333334,0.9333333333333336,18.666666666666675,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Gwangju,3.2,4.133333333333334,0.9333333333333336,29.166666666666675,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Incheon,4.466666666666667,5.0,0.5333333333333332,11.940298507462677,8.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Jeju,4.333333333333333,6.666666666666667,2.333333333333334,53.846153846153854,9.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Jeonbuk,5.666666666666667,7.2,1.5333333333333332,27.058823529411757,3.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Pohang,4.8,5.133333333333334,0.3333333333333339,6.944444444444464,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Seoul,5.0,5.266666666666667,0.2666666666666666,5.333333333333323,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Attack,shots_off,Shots off target,per team-match,Ulsan,6.733333333333333,5.133333333333334,-1.5999999999999996,-23.762376237623762,1.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,goals_against,Goals conceded,per team-match,Anyang,1.0666666666666667,2.066666666666667,1.0000000000000002,93.75000000000003,6.0,12.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Bucheon,1.0,1.6666666666666667,0.6666666666666667,66.66666666666667,5.0,10.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Daejeon,1.0666666666666667,1.4,0.33333333333333326,31.25,6.0,8.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Gangwon,0.6666666666666666,1.2,0.5333333333333333,80.0,1.0,6.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Gimcheon,1.4,1.0,-0.3999999999999999,-28.57142857142857,11.0,3.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Gwangju,2.466666666666667,1.7333333333333334,-0.7333333333333334,-29.729729729729726,12.0,11.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Incheon,1.1333333333333333,1.0666666666666667,-0.06666666666666665,-5.882352941176472,9.0,4.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Jeju,1.0666666666666667,0.8666666666666667,-0.19999999999999996,-18.75,6.0,1.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Jeonbuk,0.8,1.0666666666666667,0.2666666666666666,33.33333333333333,2.0,4.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Pohang,0.8,1.4666666666666666,0.6666666666666665,83.3333333333333,2.0,9.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Seoul,0.8,0.8666666666666667,0.06666666666666665,8.333333333333325,2.0,1.0,Lower allowed output ranks first
+Defense,goals_against,Goals conceded,per team-match,Ulsan,1.3333333333333333,1.3333333333333333,0.0,0.0,10.0,7.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Anyang,13.666666666666666,13.8,0.13333333333333464,0.9756097560975618,10.0,10.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Bucheon,14.0,15.266666666666667,1.2666666666666675,9.04761904761906,12.0,11.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Daejeon,10.666666666666666,11.066666666666666,0.40000000000000036,3.750000000000009,7.0,5.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Gangwon,7.733333333333333,9.533333333333333,1.7999999999999998,23.275862068965523,1.0,2.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Gimcheon,11.4,10.4,-1.0,-8.771929824561408,8.0,4.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Gwangju,13.8,16.8,3.0,21.739130434782616,11.0,12.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Incheon,9.466666666666667,10.0,0.5333333333333332,5.633802816901401,3.0,3.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Jeju,10.6,11.6,1.0,9.433962264150942,6.0,6.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Jeonbuk,9.333333333333334,12.266666666666667,2.9333333333333336,31.428571428571427,2.0,7.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Pohang,10.0,12.4,2.4000000000000004,24.0,4.0,8.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Seoul,10.133333333333333,8.933333333333334,-1.1999999999999993,-11.842105263157887,5.0,1.0,Lower allowed output ranks first
+Defense,opponent_shots,Opponent shots,per team-match,Ulsan,11.866666666666667,13.0,1.1333333333333329,9.550561797752799,9.0,9.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Anyang,3.8,5.333333333333333,1.5333333333333332,40.35087719298245,7.0,11.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Bucheon,4.266666666666667,4.266666666666667,0.0,0.0,11.0,8.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Daejeon,4.133333333333334,4.066666666666666,-0.06666666666666732,-1.6129032258064724,10.0,6.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Gangwon,3.2,3.2666666666666666,0.06666666666666643,2.083333333333326,2.0,1.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Gimcheon,3.6666666666666665,3.6,-0.06666666666666643,-1.8181818181818077,5.0,3.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Gwangju,5.333333333333333,5.533333333333333,0.20000000000000018,3.750000000000009,12.0,12.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Incheon,3.8,3.7333333333333334,-0.06666666666666643,-1.754385964912275,7.0,4.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Jeju,3.6666666666666665,4.133333333333334,0.46666666666666723,12.727272727272743,5.0,7.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Jeonbuk,3.533333333333333,4.4,0.8666666666666671,24.52830188679247,4.0,9.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Pohang,2.8666666666666667,4.4,1.5333333333333337,53.48837209302326,1.0,9.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Seoul,3.3333333333333335,3.4,0.06666666666666643,2.0000000000000018,3.0,2.0,Lower allowed output ranks first
+Defense,opponent_shots_on_target,Opponent shots on target,per team-match,Ulsan,3.8,3.933333333333333,0.1333333333333333,3.50877192982455,7.0,5.0,Lower allowed output ranks first
+Defense,tackles_success,Successful tackles,per team-match,Anyang,6.133333333333334,5.133333333333334,-1.0,-16.30434782608695,7.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Bucheon,5.4,5.6,0.1999999999999993,3.703703703703698,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Daejeon,6.933333333333334,6.666666666666667,-0.2666666666666666,-3.8461538461538436,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Gangwon,7.4,6.266666666666667,-1.1333333333333337,-15.315315315315326,2.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Gimcheon,6.0,6.466666666666667,0.4666666666666668,7.777777777777772,8.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Gwangju,5.333333333333333,5.6,0.2666666666666666,5.000000000000004,11.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Incheon,5.533333333333333,6.866666666666666,1.333333333333333,24.09638554216866,9.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Jeju,6.4,5.266666666666667,-1.1333333333333337,-17.708333333333336,6.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Jeonbuk,6.933333333333334,6.133333333333334,-0.7999999999999998,-11.538461538461531,3.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Pohang,5.333333333333333,6.133333333333334,0.8000000000000007,15.000000000000014,11.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Seoul,6.8,4.933333333333334,-1.8666666666666663,-27.450980392156854,5.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,tackles_success,Successful tackles,per team-match,Ulsan,8.666666666666666,7.333333333333333,-1.333333333333333,-15.384615384615385,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Anyang,9.266666666666667,7.6,-1.6666666666666679,-17.985611510791376,6.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Bucheon,9.466666666666667,8.666666666666666,-0.8000000000000007,-8.450704225352123,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Daejeon,11.333333333333334,10.2,-1.1333333333333346,-10.000000000000009,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Gangwon,10.8,9.933333333333334,-0.8666666666666671,-8.024691358024693,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Gimcheon,10.266666666666667,8.6,-1.6666666666666679,-16.233766233766247,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Gwangju,8.4,7.133333333333334,-1.2666666666666666,-15.07936507936508,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Incheon,9.066666666666666,6.866666666666666,-2.2,-24.264705882352942,7.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Jeju,9.466666666666667,7.133333333333334,-2.333333333333333,-24.647887323943664,4.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Jeonbuk,8.333333333333334,7.6,-0.7333333333333343,-8.800000000000008,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Pohang,8.0,8.866666666666667,0.8666666666666671,10.83333333333334,12.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Seoul,8.066666666666666,7.933333333333334,-0.13333333333333286,-1.6528925619834656,11.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,interceptions,Interceptions,per team-match,Ulsan,8.733333333333333,7.8,-0.9333333333333327,-10.687022900763354,8.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Anyang,29.6,27.866666666666667,-1.7333333333333343,-5.855855855855863,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Bucheon,31.4,32.4,1.0,3.1847133757961776,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Daejeon,23.4,19.2,-4.199999999999999,-17.948717948717952,8.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Gangwon,26.2,23.2,-3.0,-11.45038167938931,5.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Gimcheon,21.533333333333335,23.2,1.6666666666666643,7.739938080495334,12.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Gwangju,24.866666666666667,24.466666666666665,-0.40000000000000213,-1.608579088471862,7.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Incheon,22.866666666666667,21.2,-1.6666666666666679,-7.288629737609331,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Jeju,29.0,27.8,-1.1999999999999993,-4.137931034482756,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Jeonbuk,22.0,22.4,0.3999999999999986,1.8181818181818077,11.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Pohang,26.533333333333335,24.2,-2.3333333333333357,-8.793969849246242,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Seoul,26.2,18.466666666666665,-7.733333333333334,-29.51653944020357,5.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,clearances,Clearances,per team-match,Ulsan,23.266666666666666,26.866666666666667,3.6000000000000014,15.47277936962752,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Anyang,75.6,69.06666666666666,-6.533333333333331,-8.64197530864197,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Bucheon,69.86666666666666,66.26666666666667,-3.5999999999999943,-5.15267175572518,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Daejeon,83.46666666666667,81.93333333333334,-1.5333333333333314,-1.8370607028753927,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Gangwon,96.0,79.26666666666667,-16.733333333333334,-17.43055555555556,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Gimcheon,80.26666666666667,75.73333333333333,-4.533333333333331,-5.647840531561455,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Gwangju,61.733333333333334,57.8,-3.933333333333337,-6.3714902807775475,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Incheon,74.33333333333333,71.86666666666666,-2.4666666666666686,-3.3183856502242204,8.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Jeju,72.86666666666666,71.4,-1.4666666666666544,-2.012808783165587,9.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Jeonbuk,71.26666666666667,69.26666666666667,-2.0,-2.8063610851262855,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Pohang,76.33333333333333,64.06666666666666,-12.266666666666666,-16.069868995633186,6.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Seoul,76.46666666666667,74.93333333333334,-1.5333333333333314,-2.005231037489097,5.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,recoveries,Ball recoveries,per team-match,Ulsan,77.86666666666666,70.8,-7.066666666666663,-9.075342465753423,4.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Anyang,19.533333333333335,18.333333333333332,-1.2000000000000028,-6.143344709897624,5.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Bucheon,16.933333333333334,17.733333333333334,0.8000000000000007,4.7244094488189115,7.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Daejeon,20.8,19.0,-1.8000000000000007,-8.653846153846157,2.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Gangwon,21.533333333333335,22.733333333333334,1.1999999999999993,5.572755417956654,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Gimcheon,18.2,17.2,-1.0,-5.494505494505497,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Gwangju,13.733333333333333,11.4,-2.333333333333332,-16.990291262135916,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Incheon,13.866666666666667,15.933333333333334,2.0666666666666664,14.903846153846146,11.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Jeju,16.066666666666666,19.4,3.333333333333332,20.746887966804973,9.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Jeonbuk,20.0,17.4,-2.6000000000000014,-13.00000000000001,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Pohang,20.066666666666666,16.4,-3.666666666666668,-18.272425249169444,3.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Seoul,15.333333333333334,14.466666666666667,-0.8666666666666671,-5.6521739130434785,10.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,aerial_wins,Aerial duels won,per team-match,Ulsan,16.266666666666666,15.266666666666667,-0.9999999999999982,-6.1475409836065475,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Anyang,7.133333333333334,6.533333333333333,-0.6000000000000005,-8.41121495327104,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Bucheon,6.2,5.733333333333333,-0.4666666666666668,-7.5268817204301115,11.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Daejeon,9.2,9.266666666666667,0.0666666666666682,0.7246376811594457,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Gangwon,6.866666666666666,7.533333333333333,0.666666666666667,9.708737864077666,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Gimcheon,7.866666666666666,7.8,-0.06666666666666643,-0.8474576271186418,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Gwangju,6.933333333333334,7.0,0.06666666666666643,0.9615384615384581,8.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Incheon,8.0,6.8,-1.2000000000000002,-15.000000000000002,4.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Jeju,7.066666666666666,6.2,-0.8666666666666663,-12.264150943396224,7.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Jeonbuk,6.133333333333334,6.4,0.2666666666666666,4.347826086956519,12.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Pohang,8.533333333333333,7.266666666666667,-1.2666666666666666,-14.84375,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Seoul,10.0,8.8,-1.1999999999999993,-11.99999999999999,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ground_wins,Ground duels won,per team-match,Ulsan,6.8,7.133333333333334,0.3333333333333339,4.90196078431373,10.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Anyang,17.2,15.4,-1.799999999999999,-10.465116279069765,4.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Bucheon,12.933333333333334,14.666666666666666,1.7333333333333325,13.4020618556701,12.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Daejeon,17.066666666666666,13.533333333333333,-3.533333333333333,-20.703125,6.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Gangwon,20.2,16.933333333333334,-3.2666666666666657,-16.171617161716167,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Gimcheon,17.133333333333333,15.4,-1.7333333333333325,-10.116731517509725,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Gwangju,15.8,15.133333333333333,-0.6666666666666679,-4.2194092827004255,9.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Incheon,16.666666666666668,13.533333333333333,-3.1333333333333346,-18.800000000000004,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Jeju,17.4,14.733333333333333,-2.666666666666666,-15.325670498084287,2.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Jeonbuk,15.8,13.533333333333333,-2.2666666666666675,-14.345991561181437,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Pohang,16.8,14.066666666666666,-2.7333333333333343,-16.26984126984128,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Seoul,17.4,14.4,-2.9999999999999982,-17.24137931034482,2.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,cut_off,Provider cut-offs,per team-match,Ulsan,15.733333333333333,16.2,0.4666666666666668,2.9661016949152463,11.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Anyang,18.8,14.0,-4.800000000000001,-25.531914893617024,1.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Bucheon,14.6,18.4,3.799999999999999,26.027397260273965,11.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Daejeon,16.533333333333335,13.266666666666667,-3.2666666666666675,-19.758064516129036,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Gangwon,17.933333333333334,15.6,-2.333333333333334,-13.011152416356886,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Gimcheon,16.266666666666666,13.6,-2.666666666666666,-16.393442622950815,7.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Gwangju,17.466666666666665,17.066666666666666,-0.3999999999999986,-2.2900763358778553,4.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Incheon,14.933333333333334,13.6,-1.333333333333334,-8.92857142857143,9.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Jeju,17.8,13.0,-4.800000000000001,-26.96629213483146,3.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Jeonbuk,12.933333333333334,12.733333333333333,-0.20000000000000107,-1.5463917525773252,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Pohang,14.666666666666666,14.2,-0.4666666666666668,-3.1818181818181857,10.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Seoul,15.133333333333333,12.066666666666666,-3.0666666666666664,-20.264317180616743,8.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,blocks,Provider blocks,per team-match,Ulsan,17.466666666666665,16.066666666666666,-1.3999999999999986,-8.015267175572516,4.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Anyang,5.266666666666667,6.733333333333333,1.4666666666666668,27.848101265822777,11.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Bucheon,6.133333333333334,4.4,-1.7333333333333334,-28.260869565217394,2.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Daejeon,6.0,6.266666666666667,0.2666666666666666,4.444444444444451,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Gangwon,5.466666666666667,5.666666666666667,0.20000000000000018,3.658536585365857,8.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Gimcheon,6.533333333333333,5.533333333333333,-1.0,-15.306122448979586,1.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Gwangju,5.4,4.4,-1.0,-18.518518518518512,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Incheon,5.866666666666666,5.066666666666666,-0.7999999999999998,-13.636363636363635,4.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Jeju,5.666666666666667,5.733333333333333,0.06666666666666643,1.17647058823529,6.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Jeonbuk,5.733333333333333,4.133333333333334,-1.5999999999999996,-27.90697674418604,5.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Pohang,4.733333333333333,5.6,0.8666666666666663,18.309859154929576,12.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Seoul,5.333333333333333,5.733333333333333,0.40000000000000036,7.500000000000018,10.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,ball_miss,Provider ball misses,per team-match,Ulsan,5.6,6.666666666666667,1.0666666666666673,19.04761904761907,7.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Anyang,12.0,13.4,1.4000000000000004,11.66666666666667,6.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Bucheon,11.333333333333334,12.2,0.8666666666666654,7.647058823529407,8.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Daejeon,12.466666666666667,9.933333333333334,-2.533333333333333,-20.320855614973265,5.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Gangwon,15.333333333333334,11.266666666666667,-4.066666666666666,-26.521739130434785,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Gimcheon,13.533333333333333,10.8,-2.7333333333333325,-20.197044334975367,3.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Gwangju,14.466666666666667,9.666666666666666,-4.800000000000001,-33.17972350230415,2.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Incheon,11.066666666666666,10.4,-0.6666666666666661,-6.024096385542165,10.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Jeju,13.266666666666667,10.266666666666667,-3.0,-22.613065326633162,4.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Jeonbuk,11.666666666666666,10.666666666666666,-1.0,-8.571428571428575,7.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Pohang,10.533333333333333,8.666666666666666,-1.8666666666666671,-17.721518987341778,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Seoul,11.266666666666667,8.533333333333333,-2.7333333333333343,-24.2603550295858,9.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,fouls,Fouls committed,per team-match,Ulsan,9.933333333333334,9.466666666666667,-0.4666666666666668,-4.697986577181212,12.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Anyang,2.3333333333333335,1.5333333333333334,-0.8,-34.285714285714285,4.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Bucheon,1.8,2.4,0.5999999999999999,33.33333333333333,9.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Daejeon,1.6,1.4,-0.20000000000000018,-12.50000000000001,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Gangwon,2.7333333333333334,1.5333333333333334,-1.2,-43.90243902439024,2.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Gimcheon,2.466666666666667,1.6666666666666667,-0.8,-32.432432432432435,3.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Gwangju,3.0,1.2666666666666666,-1.7333333333333334,-57.77777777777777,1.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Incheon,2.2,1.6,-0.6000000000000001,-27.27272727272727,5.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Jeju,1.7333333333333334,1.8666666666666667,0.1333333333333333,7.692307692307687,10.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Jeonbuk,2.0,2.0,0.0,0.0,6.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Pohang,1.8666666666666667,1.4666666666666666,-0.40000000000000013,-21.42857142857143,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Seoul,1.8666666666666667,1.6,-0.2666666666666666,-14.28571428571428,7.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,yellow,Yellow cards,per team-match,Ulsan,1.4666666666666666,1.4666666666666666,0.0,0.0,12.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Anyang,0.26666666666666666,0.0,-0.26666666666666666,-100.0,1.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Bucheon,0.06666666666666667,0.0,-0.06666666666666667,-100.0,4.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Daejeon,0.06666666666666667,0.0,-0.06666666666666667,-100.0,4.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Gangwon,0.06666666666666667,0.13333333333333333,0.06666666666666667,100.0,4.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Gimcheon,0.06666666666666667,0.06666666666666667,0.0,0.0,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Gwangju,0.0,0.2,0.2,,9.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Incheon,0.0,0.06666666666666667,0.06666666666666667,,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Jeju,0.06666666666666667,0.13333333333333333,0.06666666666666667,100.0,4.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Jeonbuk,0.0,0.0,0.0,,9.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Pohang,0.13333333333333333,0.06666666666666667,-0.06666666666666667,-50.0,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Seoul,0.13333333333333333,0.0,-0.13333333333333333,-100.0,2.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,red,Red cards,per team-match,Ulsan,0.0,0.06666666666666667,0.06666666666666667,,9.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Anyang,1.4,1.8666666666666667,0.4666666666666668,33.33333333333335,3.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Bucheon,1.3333333333333333,1.0,-0.33333333333333326,-25.0,6.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Daejeon,1.4,1.2666666666666666,-0.1333333333333333,-9.523809523809524,3.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Gangwon,1.2,1.4666666666666666,0.2666666666666666,22.22222222222221,7.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Gimcheon,1.1333333333333333,1.5333333333333334,0.40000000000000013,35.29411764705883,10.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Gwangju,1.5333333333333334,1.8,0.2666666666666666,17.391304347826075,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Incheon,1.4,1.5333333333333334,0.13333333333333353,9.523809523809534,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Jeju,1.5333333333333334,1.8,0.2666666666666666,17.391304347826075,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Jeonbuk,1.2,1.8666666666666667,0.6666666666666667,55.55555555555556,7.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Pohang,1.2,1.0666666666666667,-0.1333333333333333,-11.111111111111105,7.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Seoul,1.0,1.2,0.19999999999999996,19.999999999999996,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Defense,catches,Goalkeeper catches,per team-match,Ulsan,0.8666666666666667,1.4666666666666666,0.5999999999999999,69.23076923076921,12.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Anyang,1.4,1.4,0.0,0.0,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Bucheon,1.8666666666666667,1.4666666666666666,-0.40000000000000013,-21.42857142857143,1.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Daejeon,1.6,1.4666666666666666,-0.13333333333333353,-8.333333333333348,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Gangwon,1.3333333333333333,0.7333333333333333,-0.6,-44.99999999999999,7.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Gimcheon,1.1333333333333333,1.0666666666666667,-0.06666666666666665,-5.882352941176472,10.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Gwangju,1.3333333333333333,1.9333333333333333,0.6000000000000001,45.000000000000014,7.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Incheon,1.2,1.3333333333333333,0.1333333333333333,11.111111111111116,9.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Jeju,1.0,1.6666666666666667,0.6666666666666667,66.66666666666667,11.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Jeonbuk,1.5333333333333334,1.6,0.06666666666666665,4.347826086956519,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Pohang,0.8666666666666667,1.8,0.9333333333333333,107.69230769230771,12.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Seoul,1.4666666666666666,1.3333333333333333,-0.1333333333333333,-9.090909090909093,5.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Defense,punches,Goalkeeper punches,per team-match,Ulsan,1.6666666666666667,1.2666666666666666,-0.40000000000000013,-24.00000000000001,2.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Anyang,384.93333333333334,414.26666666666665,29.333333333333314,7.620367163145136,11.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Bucheon,366.06666666666666,290.06666666666666,-76.0,-20.76124567474048,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Daejeon,507.46666666666664,479.1333333333333,-28.333333333333314,-5.583289542827108,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Gangwon,428.2,397.53333333333336,-30.66666666666663,-7.161762416316353,9.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Gimcheon,511.93333333333334,486.1333333333333,-25.80000000000001,-5.039718713374142,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Gwangju,436.4,430.8,-5.599999999999966,-1.2832263978001746,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Incheon,493.4,456.0,-37.39999999999998,-7.5800567490879605,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Jeju,392.6,407.2,14.599999999999966,3.7187977585328547,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Jeonbuk,515.7333333333333,479.3333333333333,-36.400000000000034,-7.057911065149957,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Pohang,434.4,459.93333333333334,25.53333333333336,5.877839165131982,8.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Seoul,480.0,475.8,-4.199999999999989,-0.8749999999999925,5.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_attempts,Pass attempts,per team-match,Ulsan,435.8666666666667,414.4,-21.466666666666697,-4.925053533190582,7.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Anyang,310.26666666666665,346.6,36.33333333333337,11.710356682423729,11.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Bucheon,293.73333333333335,223.2,-70.53333333333336,-24.012709940989563,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Daejeon,429.2,406.26666666666665,-22.933333333333337,-5.343274308791546,3.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Gangwon,339.46666666666664,322.2,-17.26666666666665,-5.08641005498821,9.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Gimcheon,438.2,413.3333333333333,-24.866666666666674,-5.67472995588012,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Gwangju,372.8666666666667,369.93333333333334,-2.933333333333337,-0.786697657786517,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Incheon,424.4,388.8666666666667,-35.5333333333333,-8.372604461200117,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Jeju,323.73333333333335,339.2,15.46666666666664,4.777594728171319,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Jeonbuk,453.93333333333334,418.46666666666664,-35.4666666666667,-7.8131884270818075,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Pohang,361.06666666666666,396.46666666666664,35.39999999999998,9.804283604135877,8.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Seoul,409.26666666666665,410.93333333333334,1.6666666666666856,0.4072324482814915,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,completed_passes,Completed passes,per team-match,Ulsan,366.1333333333333,342.1333333333333,-24.0,-6.554989075018214,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Anyang,80.60270176653967,83.66591567428388,3.0632139077442133,3.8003861416663343,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Bucheon,80.24039337097068,76.94782808549758,-3.2925652854731027,-4.103376301074169,11.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Daejeon,84.57698370993168,84.79198552942813,0.21500181949645025,0.25420842653105513,6.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Gangwon,79.27759613887592,81.04980714405501,1.7722110051790878,2.235449977664028,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Gimcheon,85.59708295350957,85.0246845858475,-0.5723983676620747,-0.668712469994992,3.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Gwangju,85.4414909868622,85.87124729186012,0.42975630499790896,0.5029831526043749,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Incheon,86.01540332387515,85.27777777777777,-0.7376255460973766,-0.857550528851192,2.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Jeju,82.45882153166922,83.30058939096267,0.841767859293455,1.0208342099215617,9.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Jeonbuk,88.01706308169597,87.30180806675939,-0.7152550149365737,-0.812632221405396,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Pohang,83.11847759361571,86.20089868096825,3.082421087352543,3.708466729170823,8.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Seoul,85.26388888888889,86.36682079305031,1.102931904161423,1.293551019703898,5.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,pass_completion,Pass completion,percent,Ulsan,84.00122361578465,82.56113256113257,-1.4400910546520862,-1.7143691397150995,7.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Anyang,113.06666666666666,120.06666666666666,7.0,6.191037735849059,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Bucheon,103.8,84.33333333333333,-19.46666666666667,-18.754014129736674,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Daejeon,143.93333333333334,138.33333333333334,-5.599999999999994,-3.8906901343214395,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Gangwon,122.86666666666666,119.33333333333333,-3.5333333333333314,-2.8757460661964163,7.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Gimcheon,149.93333333333334,139.93333333333334,-10.0,-6.66963094708759,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Gwangju,114.26666666666667,121.46666666666667,7.200000000000003,6.301050175029177,9.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Incheon,135.46666666666667,133.66666666666666,-1.8000000000000114,-1.3287401574803237,5.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Jeju,113.33333333333333,123.33333333333333,10.0,8.823529411764696,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Jeonbuk,144.26666666666668,135.8,-8.466666666666669,-5.868761552680224,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Pohang,122.46666666666667,123.4,0.9333333333333371,0.7621121393576624,8.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Seoul,137.66666666666666,140.73333333333332,3.066666666666663,2.227602905569004,4.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,forward_completed,Completed forward passes,per team-match,Ulsan,132.46666666666667,124.86666666666666,-7.6000000000000085,-5.737292400603932,6.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Anyang,57.8,54.06666666666667,-3.733333333333327,-6.4590542099192465,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Bucheon,48.6,39.53333333333333,-9.06666666666667,-18.655692729766816,10.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Daejeon,69.06666666666666,91.53333333333333,22.46666666666667,32.52895752895753,7.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Gangwon,100.73333333333333,74.8,-25.933333333333337,-25.74454003970881,1.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Gimcheon,79.6,62.8,-16.799999999999997,-21.105527638190956,3.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Gwangju,45.8,49.46666666666667,3.6666666666666714,8.005822416302767,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Incheon,70.33333333333333,83.46666666666667,13.13333333333334,18.672985781990526,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Jeju,64.6,65.6,1.0,1.5479876160990669,8.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Jeonbuk,89.06666666666666,72.46666666666667,-16.599999999999994,-18.637724550898195,2.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Pohang,48.53333333333333,57.4,8.866666666666667,18.26923076923077,11.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Seoul,76.26666666666667,98.2,21.933333333333337,28.75874125874127,4.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_completed,Completed attacking-area passes,per team-match,Ulsan,70.06666666666666,62.13333333333333,-7.93333333333333,-11.322549952426254,6.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Anyang,27.4,24.466666666666665,-2.9333333333333336,-10.705596107055959,9.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Bucheon,27.533333333333335,23.066666666666666,-4.466666666666669,-16.222760290556902,8.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Daejeon,32.4,35.666666666666664,3.2666666666666657,10.082304526748963,3.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Gangwon,28.533333333333335,30.466666666666665,1.93333333333333,6.775700934579421,6.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Gimcheon,32.93333333333333,29.866666666666667,-3.066666666666663,-9.311740890688247,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Gwangju,26.733333333333334,27.666666666666668,0.9333333333333336,3.4912718204488824,10.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Incheon,23.866666666666667,26.6,2.7333333333333343,11.45251396648046,12.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Jeju,29.733333333333334,27.466666666666665,-2.2666666666666693,-7.623318385650235,5.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Jeonbuk,33.266666666666666,32.86666666666667,-0.3999999999999986,-1.2024048096192397,1.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Pohang,30.333333333333332,27.666666666666668,-2.6666666666666643,-8.791208791208781,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Seoul,27.733333333333334,28.0,0.2666666666666657,0.9615384615384581,7.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,long_completed,Completed long passes,per team-match,Ulsan,25.733333333333334,22.4,-3.3333333333333357,-12.95336787564768,11.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Anyang,18.687218565985454,16.8490505310589,-1.8381680349265537,-9.836498826381757,6.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Bucheon,16.59078492077946,17.145483796828316,0.5546988760488567,3.3434155086545347,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Daejeon,16.61849710982659,23.013774871295396,6.395277761468808,38.48288879075143,9.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Gangwon,28.320099641911877,22.891162166694617,-5.4289374752172606,-19.169909512545612,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Gimcheon,18.413855970829534,15.674712013165113,-2.739143957664421,-14.875450106722132,7.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Gwangju,12.312862816987472,13.587124729186009,1.2742619121985364,10.349030368798529,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Incheon,16.74098094852047,21.72514619883041,4.984165250309939,29.772241337807802,8.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Jeju,19.476991000169807,19.646365422396855,0.16937442222704746,0.8696128792459401,4.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Jeonbuk,20.16546018614271,17.41307371349096,-2.75238647265175,-13.649013943867905,2.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Pohang,14.87108655616943,15.480504420930568,0.6094178647611379,4.098004960560964,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Seoul,18.902777777777775,23.97365839988791,5.070880622110135,26.826113504182935,5.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,attacking_share,Attacking-area pass share,percent,Ulsan,19.684918935454267,18.42020592020592,-1.264713015248347,-6.424781424781423,3.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Anyang,150.6,181.73333333333332,31.133333333333326,20.672864099158915,12.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Bucheon,173.13333333333333,125.13333333333334,-47.999999999999986,-27.724297266076235,9.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Daejeon,244.4,233.73333333333332,-10.666666666666686,-4.364429896344801,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Gangwon,172.0,178.86666666666667,6.866666666666674,3.992248062015502,10.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Gimcheon,229.8,221.73333333333332,-8.066666666666691,-3.5102988105599198,3.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Gwangju,208.6,190.86666666666667,-17.73333333333332,-8.501118568232657,5.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Incheon,200.93333333333334,200.73333333333332,-0.20000000000001705,-0.09953550099536246,7.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Jeju,166.46666666666667,186.93333333333334,20.46666666666667,12.294753704445327,11.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Jeonbuk,244.13333333333333,219.0,-25.133333333333326,-10.294920808301466,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Pohang,208.06666666666666,221.26666666666668,13.200000000000017,6.344120474206982,6.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Seoul,211.06666666666666,210.66666666666666,-0.4000000000000057,-0.18951358180669953,4.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,middle_completed,Completed middle-area passes,per team-match,Ulsan,184.86666666666667,174.86666666666667,-10.0,-5.409304002884962,8.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Anyang,101.86666666666666,110.8,8.933333333333337,8.769633507853403,9.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Bucheon,72.0,58.53333333333333,-13.466666666666669,-18.70370370370371,11.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Daejeon,115.73333333333333,81.0,-34.733333333333334,-30.011520737327192,6.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Gangwon,66.73333333333333,68.53333333333333,1.7999999999999972,2.6973026973026837,12.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Gimcheon,128.8,128.8,0.0,0.0,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Gwangju,118.46666666666667,129.6,11.133333333333326,9.397861564434429,5.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Incheon,153.13333333333333,104.66666666666667,-48.466666666666654,-31.64997823247714,1.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Jeju,92.66666666666667,86.66666666666667,-6.0,-6.474820143884896,10.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Jeonbuk,120.73333333333333,127.0,6.266666666666666,5.190502484815029,4.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Pohang,104.46666666666667,117.8,13.333333333333329,12.763241863433317,8.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Seoul,121.93333333333334,102.06666666666666,-19.866666666666674,-16.29305631492619,3.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,defensive_completed,Completed defensive-area passes,per team-match,Ulsan,111.2,105.13333333333334,-6.066666666666663,-5.455635491606714,7.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Anyang,164.46666666666667,190.8,26.333333333333343,16.011349817592226,11.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Bucheon,164.4,124.6,-39.80000000000001,-24.209245742092467,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Daejeon,232.86666666666667,215.26666666666668,-17.599999999999994,-7.557973089035208,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Gangwon,199.4,189.73333333333332,-9.666666666666686,-4.847876964226017,7.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Gimcheon,244.2,222.53333333333333,-21.666666666666657,-8.872508872508867,2.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Gwangju,199.2,185.0,-14.199999999999989,-7.128514056224899,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Incheon,222.4,205.06666666666666,-17.333333333333343,-7.793764988009599,4.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Jeju,170.73333333333332,172.26666666666668,1.5333333333333599,0.8980866848887326,10.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Jeonbuk,255.73333333333332,221.0,-34.73333333333332,-13.581856100104272,1.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Pohang,193.53333333333333,227.6,34.06666666666666,17.60248019290389,9.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Seoul,221.73333333333332,221.2,-0.5333333333333314,-0.24052916416115178,5.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,short_completed,Completed short passes,per team-match,Ulsan,208.26666666666668,189.8,-18.46666666666667,-8.866837387964143,6.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Anyang,118.4,131.33333333333334,12.933333333333337,10.92342342342343,10.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Bucheon,101.8,75.53333333333333,-26.266666666666666,-25.8022265880812,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Daejeon,163.93333333333334,155.33333333333334,-8.599999999999994,-5.246034973566482,3.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Gangwon,111.53333333333333,102.0,-9.533333333333331,-8.547519426180516,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Gimcheon,161.06666666666666,160.93333333333334,-0.13333333333332575,-0.08278145695364003,4.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Gwangju,146.93333333333334,157.26666666666668,10.333333333333343,7.032667876588028,6.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Incheon,178.13333333333333,157.2,-20.933333333333337,-11.751497005988032,1.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Jeju,123.26666666666667,139.46666666666667,16.200000000000003,13.142239048134119,9.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Jeonbuk,164.93333333333334,164.6,-0.3333333333333428,-0.20210185933711156,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Pohang,137.2,141.2,4.0,2.9154518950437414,7.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Seoul,159.8,161.73333333333332,1.9333333333333087,1.2098456403837998,5.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,medium_completed,Completed medium passes,per team-match,Ulsan,132.13333333333333,129.93333333333334,-2.1999999999999886,-1.664984863773955,8.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Anyang,118.46666666666667,143.66666666666666,25.19999999999999,21.27180641530668,10.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Bucheon,113.6,82.86666666666666,-30.733333333333334,-27.053990610328636,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Daejeon,176.73333333333332,166.33333333333334,-10.399999999999977,-5.88457185967558,2.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Gangwon,117.6,116.4,-1.1999999999999886,-1.0204081632652962,11.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Gimcheon,168.8,160.8,-8.0,-4.739336492891,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Gwangju,161.13333333333333,155.26666666666668,-5.866666666666646,-3.640877120397179,6.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Incheon,168.13333333333333,154.0,-14.133333333333326,-8.406026962727985,4.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Jeju,125.93333333333334,135.13333333333333,9.199999999999989,7.305452620434072,9.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Jeonbuk,194.06666666666666,178.4,-15.666666666666657,-8.072827207145306,1.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Pohang,139.33333333333334,175.53333333333333,36.19999999999999,25.980861244019128,8.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Seoul,164.06666666666666,164.26666666666668,0.20000000000001705,0.12190166598944341,5.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,lateral_completed,Completed lateral passes,per team-match,Ulsan,140.53333333333333,133.0,-7.533333333333331,-5.360531309297912,7.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Anyang,78.73333333333333,82.86666666666666,4.133333333333326,5.24978831498728,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Bucheon,76.33333333333333,56.0,-20.33333333333333,-26.637554585152834,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Daejeon,108.53333333333333,101.6,-6.933333333333337,-6.388206388206397,4.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Gangwon,99.0,86.46666666666667,-12.533333333333331,-12.659932659932661,7.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Gimcheon,119.46666666666667,112.6,-6.866666666666674,-5.74776785714286,2.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Gwangju,97.46666666666667,93.2,-4.266666666666666,-4.377564979480164,8.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Incheon,120.8,101.2,-19.599999999999994,-16.2251655629139,1.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Jeju,84.46666666666667,80.73333333333333,-3.7333333333333343,-4.41988950276243,10.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Jeonbuk,115.6,104.26666666666667,-11.333333333333329,-9.80392156862745,3.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Pohang,99.26666666666667,97.53333333333333,-1.7333333333333343,-1.746138347884485,6.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Seoul,107.53333333333333,105.93333333333334,-1.5999999999999943,-1.4879107253564783,5.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,backward_completed,Completed backward passes,per team-match,Ulsan,93.13333333333334,84.26666666666667,-8.866666666666674,-9.520400858983546,9.0,9.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Anyang,3.0,3.466666666666667,0.4666666666666668,15.555555555555568,12.0,12.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Bucheon,3.066666666666667,3.8666666666666667,0.7999999999999998,26.08695652173911,11.0,10.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Daejeon,4.933333333333334,7.2,2.2666666666666666,45.945945945945944,5.0,1.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Gangwon,5.533333333333333,5.266666666666667,-0.2666666666666666,-4.81927710843374,3.0,5.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Gimcheon,4.666666666666667,5.866666666666666,1.1999999999999993,25.71428571428569,6.0,2.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Gwangju,3.2666666666666666,3.8,0.5333333333333332,16.326530612244895,10.0,11.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Incheon,4.2,5.133333333333334,0.9333333333333336,22.222222222222232,8.0,7.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Jeju,3.7333333333333334,5.2,1.4666666666666668,39.28571428571428,9.0,6.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Jeonbuk,6.6,5.733333333333333,-0.8666666666666663,-13.131313131313128,1.0,3.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Pohang,4.6,4.466666666666667,-0.13333333333333286,-2.898550724637672,7.0,8.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Seoul,5.666666666666667,5.333333333333333,-0.3333333333333339,-5.882352941176483,2.0,4.0,Higher recorded value ranks first; not an overall quality rank
+Passing,crosses_completed,Completed crosses,per team-match,Ulsan,5.4,4.333333333333333,-1.0666666666666673,-19.753086419753096,4.0,9.0,Higher recorded value ranks first; not an overall quality rank

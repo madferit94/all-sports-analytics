@@ -1,0 +1,44 @@
+﻿category,metric,label,source,denominator,unit,main,rank_direction
+Attack,goals_for,Goals scored,goals_for,,per team-match,True,higher
+Attack,shots,Shots,shots,,per team-match,True,context
+Attack,shots_on_target,Shots on target,shots_on_target,,per team-match,True,context
+Attack,provider_key_passes,Provider key passes,provider_key_passes,,per team-match,True,context
+Attack,shots_in_pa,Shots inside penalty area,SHOOTING_IN_PA,,per team-match,True,context
+Attack,corners,Corners,CORNER,,per team-match,True,context
+Attack,assists,Assists,ASSIST_CNT,,per team-match,False,context
+Attack,shots_out_pa,Shots outside penalty area,SHOOTING_OUT_PA,,per team-match,False,context
+Attack,dribbles_success,Successful dribbles,DRIBBLE_SUCCESS,,per team-match,False,context
+Attack,offsides,Offsides,OFFSIDE,,per team-match,False,context
+Attack,shots_blocked,Blocked attacking shots,DEFENDER_BLOCKED_SHOT,,per team-match,False,context
+Attack,shots_off,Shots off target,SHOOTING_OFF,,per team-match,False,context
+Defense,goals_against,Goals conceded,goals_against,,per team-match,True,lower
+Defense,opponent_shots,Opponent shots,opponent_shots,,per team-match,True,lower
+Defense,opponent_shots_on_target,Opponent shots on target,opponent_shots_on_target,,per team-match,True,lower
+Defense,tackles_success,Successful tackles,TACKLE_SUCCESS,,per team-match,True,context
+Defense,interceptions,Interceptions,INTERCEPT,,per team-match,True,context
+Defense,clearances,Clearances,KICK_OUT,,per team-match,True,context
+Defense,recoveries,Ball recoveries,BALL_RECOVERIE,,per team-match,True,context
+Defense,aerial_wins,Aerial duels won,AIR_CHAG_WON,,per team-match,False,context
+Defense,ground_wins,Ground duels won,CHAG_WON,,per team-match,False,context
+Defense,cut_off,Provider cut-offs,CUT_OFF,,per team-match,False,context
+Defense,blocks,Provider blocks,BLOCKING_SHOOT,,per team-match,False,context
+Defense,ball_miss,Provider ball misses,BALL_MISS,,per team-match,False,context
+Defense,fouls,Fouls committed,FOUL,,per team-match,False,context
+Defense,yellow,Yellow cards,warn_qty,,per team-match,False,context
+Defense,red,Red cards,exit_qty,,per team-match,False,context
+Defense,catches,Goalkeeper catches,CATCH,,per team-match,False,context
+Defense,punches,Goalkeeper punches,PUNCH,,per team-match,False,context
+Passing,pass_attempts,Pass attempts,pass_attempts,,per team-match,True,context
+Passing,completed_passes,Completed passes,completed_passes,,per team-match,True,context
+Passing,pass_completion,Pass completion,completed_passes,pass_attempts,percent,True,context
+Passing,forward_completed,Completed forward passes,PASS_F_ACC_CA_DEG,,per team-match,True,context
+Passing,attacking_completed,Completed attacking-area passes,ATT_AREA_PASS_SUCCESS,,per team-match,True,context
+Passing,long_completed,Completed long passes,LONG_PASS_SUCCESS,,per team-match,True,context
+Passing,attacking_share,Attacking-area pass share,attacking_area_pass_attempts,pass_attempts,percent,True,context
+Passing,middle_completed,Completed middle-area passes,MIDDLE_AREA_PASS_SUCCESS,,per team-match,False,context
+Passing,defensive_completed,Completed defensive-area passes,DEFS_AREA_PASS_SUCCESS,,per team-match,False,context
+Passing,short_completed,Completed short passes,SHORT_PASS_SUCCESS,,per team-match,False,context
+Passing,medium_completed,Completed medium passes,MEDIUM_PASS_SUCCESS,,per team-match,False,context
+Passing,lateral_completed,Completed lateral passes,TRANSVERSE_PASS_SUCCESS,,per team-match,False,context
+Passing,backward_completed,Completed backward passes,PASS_B_ACC_CA_DEG,,per team-match,False,context
+Passing,crosses_completed,Completed crosses,CROSS_ACC,,per team-match,False,context

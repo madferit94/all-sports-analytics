@@ -53,6 +53,15 @@ A 2026 FIFA World Cup prediction workflow using historical international matches
 
 ## 🚧 Upcoming & Planned Projects
 
+### ⚽ K League 1 2026: World Cup Break Analysis
+
+An English, four-stage descriptive analysis comparing rounds 1–15 with rounds 16–30, from league-wide attack, defense and passing patterns to Anyang, Daejeon and Jeju case studies.
+
+* **Status:** Completed R1–30 analysis; season-end follow-up planned after the 2026 season concludes.
+* **Scope:** 180 fixtures, including the postponed Gangwon–Incheon match; not a prediction or causal model.
+* **Project:** [Code, executed notebooks, results and future work](football/kleague-2026-world-cup-break)
+* **Reproducibility:** Public aggregate results and executed notebooks are included; raw provider exports must be supplied locally.
+
 ### **⚽ Football: European Leagues**
 * **Concept:** Expected Goals based match prediction.
 * **Features:** Rolling team form, home advantage dynamics, Poisson distribution modeling.

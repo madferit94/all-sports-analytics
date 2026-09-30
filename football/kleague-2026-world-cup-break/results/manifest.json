@@ -1,0 +1,74 @@
+[
+  {
+    "reference": "results/v2/02_team_period_kpis.csv",
+    "output": "v2/02_team_period_kpis.csv"
+  },
+  {
+    "reference": "results/v2/03_league_changes.csv",
+    "output": "v2/03_league_changes.csv"
+  },
+  {
+    "reference": "results/v2/04_focus_team_changes.csv",
+    "output": "v2/04_focus_team_changes.csv"
+  },
+  {
+    "reference": "results/v2/05_standings_round15.csv",
+    "output": "v2/05_standings_round15.csv"
+  },
+  {
+    "reference": "results/v2/06_standings_round30.csv",
+    "output": "v2/06_standings_round30.csv"
+  },
+  {
+    "reference": "results/v2/07_rank_changes.csv",
+    "output": "v2/07_rank_changes.csv"
+  },
+  {
+    "reference": "results/v2/categories/01_metric_dictionary.csv",
+    "output": "v2/categories/01_metric_dictionary.csv"
+  },
+  {
+    "reference": "results/v2/categories/02_league_category_changes.csv",
+    "output": "v2/categories/02_league_category_changes.csv"
+  },
+  {
+    "reference": "results/v2/categories/03_team_category_changes_and_ranks.csv",
+    "output": "v2/categories/03_team_category_changes_and_ranks.csv"
+  },
+  {
+    "reference": "results/v2/categories/04_five_round_profile.csv",
+    "output": "v2/categories/04_five_round_profile.csv"
+  },
+  {
+    "reference": "results/v2/categories/05_focus_vs_league.csv",
+    "output": "v2/categories/05_focus_vs_league.csv"
+  },
+  {
+    "reference": "results/v2/categories/07_after_period_table.csv",
+    "output": "v2/categories/07_after_period_table.csv"
+  },
+  {
+    "reference": "results/v3/14_focus_outcome_accounting.csv",
+    "output": "v3/14_focus_outcome_accounting.csv"
+  },
+  {
+    "reference": "results/v3/15_focus_outcome_changes.csv",
+    "output": "v3/15_focus_outcome_changes.csv"
+  },
+  {
+    "reference": "results/v3/16_focus_period_summary.csv",
+    "output": "v3/16_focus_period_summary.csv"
+  },
+  {
+    "reference": "results/v4/11_focus_match_distributions.csv",
+    "output": "v4/11_focus_match_distributions.csv"
+  },
+  {
+    "reference": "results/v4/13_focus_ranked_concentration.csv",
+    "output": "v4/13_focus_ranked_concentration.csv"
+  },
+  {
+    "reference": "results/v4/11_robustness_checks.csv",
+    "output": "v4/11_robustness_checks.csv"
+  }
+]

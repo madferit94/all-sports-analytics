@@ -1,0 +1,11 @@
+# Raw provider exports remain local; redistribution permission is not established.
+data/raw/*
+!data/raw/.gitkeep
+# Full generated outputs and caches are local. Curated aggregates live in results/.
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*

@@ -1,0 +1,259 @@
+﻿metric,label,block,value,team_matches
+goals_for,Goals scored,R1-5,1.1166666666666667,60
+goals_for,Goals scored,R6-10,1.25,60
+goals_for,Goals scored,R11-15,1.0333333333333334,60
+goals_for,Goals scored,R16-20,1.3,60
+goals_for,Goals scored,R21-25,1.2833333333333334,60
+goals_for,Goals scored,R26-30,1.35,60
+shots,Shots,R1-5,10.933333333333334,60
+shots,Shots,R6-10,10.866666666666667,60
+shots,Shots,R11-15,11.366666666666667,60
+shots,Shots,R16-20,12.216666666666667,60
+shots,Shots,R21-25,11.6,60
+shots,Shots,R26-30,12.45,60
+shots_on_target,Shots on target,R1-5,3.85,60
+shots_on_target,Shots on target,R6-10,3.783333333333333,60
+shots_on_target,Shots on target,R11-15,3.716666666666667,60
+shots_on_target,Shots on target,R16-20,3.9833333333333334,60
+shots_on_target,Shots on target,R21-25,4.05,60
+shots_on_target,Shots on target,R26-30,4.483333333333333,60
+provider_key_passes,Provider key passes,R1-5,7.5,60
+provider_key_passes,Provider key passes,R6-10,7.35,60
+provider_key_passes,Provider key passes,R11-15,7.55,60
+provider_key_passes,Provider key passes,R16-20,9.116666666666667,60
+provider_key_passes,Provider key passes,R21-25,8.55,60
+provider_key_passes,Provider key passes,R26-30,8.95,60
+shots_in_pa,Shots inside penalty area,R1-5,6.9,60
+shots_in_pa,Shots inside penalty area,R6-10,6.633333333333334,60
+shots_in_pa,Shots inside penalty area,R11-15,6.266666666666667,60
+shots_in_pa,Shots inside penalty area,R16-20,7.416666666666667,60
+shots_in_pa,Shots inside penalty area,R21-25,7.033333333333333,60
+shots_in_pa,Shots inside penalty area,R26-30,6.983333333333333,60
+corners,Corners,R1-5,4.4,60
+corners,Corners,R6-10,3.8833333333333333,60
+corners,Corners,R11-15,4.4,60
+corners,Corners,R16-20,4.566666666666666,60
+corners,Corners,R21-25,4.383333333333334,60
+corners,Corners,R26-30,4.333333333333333,60
+assists,Assists,R1-5,0.6833333333333333,60
+assists,Assists,R6-10,0.7833333333333333,60
+assists,Assists,R11-15,0.7666666666666667,60
+assists,Assists,R16-20,0.9833333333333333,60
+assists,Assists,R21-25,0.9333333333333333,60
+assists,Assists,R26-30,0.8666666666666667,60
+shots_out_pa,Shots outside penalty area,R1-5,3.783333333333333,60
+shots_out_pa,Shots outside penalty area,R6-10,3.8666666666666667,60
+shots_out_pa,Shots outside penalty area,R11-15,4.933333333333334,60
+shots_out_pa,Shots outside penalty area,R16-20,4.7,60
+shots_out_pa,Shots outside penalty area,R21-25,4.566666666666666,60
+shots_out_pa,Shots outside penalty area,R26-30,5.466666666666667,60
+dribbles_success,Successful dribbles,R1-5,2.316666666666667,60
+dribbles_success,Successful dribbles,R6-10,2.183333333333333,60
+dribbles_success,Successful dribbles,R11-15,2.0,60
+dribbles_success,Successful dribbles,R16-20,2.183333333333333,60
+dribbles_success,Successful dribbles,R21-25,2.1,60
+dribbles_success,Successful dribbles,R26-30,1.8666666666666667,60
+offsides,Offsides,R1-5,1.5166666666666666,60
+offsides,Offsides,R6-10,1.3666666666666667,60
+offsides,Offsides,R11-15,1.3333333333333333,60
+offsides,Offsides,R16-20,1.5666666666666667,60
+offsides,Offsides,R21-25,1.4,60
+offsides,Offsides,R26-30,1.35,60
+shots_blocked,Blocked attacking shots,R1-5,2.05,60
+shots_blocked,Blocked attacking shots,R6-10,2.2666666666666666,60
+shots_blocked,Blocked attacking shots,R11-15,2.1166666666666667,60
+shots_blocked,Blocked attacking shots,R16-20,2.566666666666667,60
+shots_blocked,Blocked attacking shots,R21-25,2.05,60
+shots_blocked,Blocked attacking shots,R26-30,2.55,60
+shots_off,Shots off target,R1-5,4.783333333333333,60
+shots_off,Shots off target,R6-10,4.45,60
+shots_off,Shots off target,R11-15,5.366666666666666,60
+shots_off,Shots off target,R16-20,5.566666666666666,60
+shots_off,Shots off target,R21-25,5.5,60
+shots_off,Shots off target,R26-30,5.416666666666667,60
+goals_against,Goals conceded,R1-5,1.1166666666666667,60
+goals_against,Goals conceded,R6-10,1.25,60
+goals_against,Goals conceded,R11-15,1.0333333333333334,60
+goals_against,Goals conceded,R16-20,1.3,60
+goals_against,Goals conceded,R21-25,1.2833333333333334,60
+goals_against,Goals conceded,R26-30,1.35,60
+opponent_shots,Opponent shots,R1-5,10.933333333333334,60
+opponent_shots,Opponent shots,R6-10,10.866666666666667,60
+opponent_shots,Opponent shots,R11-15,11.366666666666667,60
+opponent_shots,Opponent shots,R16-20,12.216666666666667,60
+opponent_shots,Opponent shots,R21-25,11.6,60
+opponent_shots,Opponent shots,R26-30,12.45,60
+opponent_shots_on_target,Opponent shots on target,R1-5,3.85,60
+opponent_shots_on_target,Opponent shots on target,R6-10,3.783333333333333,60
+opponent_shots_on_target,Opponent shots on target,R11-15,3.716666666666667,60
+opponent_shots_on_target,Opponent shots on target,R16-20,3.9833333333333334,60
+opponent_shots_on_target,Opponent shots on target,R21-25,4.05,60
+opponent_shots_on_target,Opponent shots on target,R26-30,4.483333333333333,60
+tackles_success,Successful tackles,R1-5,6.65,60
+tackles_success,Successful tackles,R6-10,6.216666666666667,60
+tackles_success,Successful tackles,R11-15,6.35,60
+tackles_success,Successful tackles,R16-20,6.116666666666666,60
+tackles_success,Successful tackles,R21-25,5.583333333333333,60
+tackles_success,Successful tackles,R26-30,6.4,60
+interceptions,Interceptions,R1-5,10.166666666666666,60
+interceptions,Interceptions,R6-10,8.566666666666666,60
+interceptions,Interceptions,R11-15,9.066666666666666,60
+interceptions,Interceptions,R16-20,7.866666666666666,60
+interceptions,Interceptions,R21-25,7.833333333333333,60
+interceptions,Interceptions,R26-30,8.883333333333333,60
+clearances,Clearances,R1-5,24.883333333333333,60
+clearances,Clearances,R6-10,25.35,60
+clearances,Clearances,R11-15,26.483333333333334,60
+clearances,Clearances,R16-20,24.25,60
+clearances,Clearances,R21-25,22.633333333333333,60
+clearances,Clearances,R26-30,25.933333333333334,60
+recoveries,Ball recoveries,R1-5,77.78333333333333,60
+recoveries,Ball recoveries,R6-10,73.96666666666667,60
+recoveries,Ball recoveries,R11-15,77.26666666666667,60
+recoveries,Ball recoveries,R16-20,69.03333333333333,60
+recoveries,Ball recoveries,R21-25,67.4,60
+recoveries,Ball recoveries,R26-30,76.66666666666667,60
+aerial_wins,Aerial duels won,R1-5,17.466666666666665,60
+aerial_wins,Aerial duels won,R6-10,16.616666666666667,60
+aerial_wins,Aerial duels won,R11-15,19.0,60
+aerial_wins,Aerial duels won,R16-20,17.8,60
+aerial_wins,Aerial duels won,R21-25,15.466666666666667,60
+aerial_wins,Aerial duels won,R26-30,18.05,60
+ground_wins,Ground duels won,R1-5,7.783333333333333,60
+ground_wins,Ground duels won,R6-10,7.783333333333333,60
+ground_wins,Ground duels won,R11-15,7.116666666666666,60
+ground_wins,Ground duels won,R16-20,7.633333333333334,60
+ground_wins,Ground duels won,R21-25,6.766666666666667,60
+ground_wins,Ground duels won,R26-30,7.216666666666667,60
+cut_off,Provider cut-offs,R1-5,17.133333333333333,60
+cut_off,Provider cut-offs,R6-10,16.416666666666668,60
+cut_off,Provider cut-offs,R11-15,16.483333333333334,60
+cut_off,Provider cut-offs,R16-20,14.933333333333334,60
+cut_off,Provider cut-offs,R21-25,14.716666666666667,60
+cut_off,Provider cut-offs,R26-30,14.733333333333333,60
+blocks,Provider blocks,R1-5,17.233333333333334,60
+blocks,Provider blocks,R6-10,16.416666666666668,60
+blocks,Provider blocks,R11-15,14.983333333333333,60
+blocks,Provider blocks,R16-20,15.0,60
+blocks,Provider blocks,R21-25,13.516666666666667,60
+blocks,Provider blocks,R26-30,14.883333333333333,60
+ball_miss,Provider ball misses,R1-5,5.483333333333333,60
+ball_miss,Provider ball misses,R6-10,5.616666666666666,60
+ball_miss,Provider ball misses,R11-15,5.833333333333333,60
+ball_miss,Provider ball misses,R16-20,5.5,60
+ball_miss,Provider ball misses,R21-25,5.05,60
+ball_miss,Provider ball misses,R26-30,5.933333333333334,60
+fouls,Fouls committed,R1-5,12.783333333333333,60
+fouls,Fouls committed,R6-10,13.166666666666666,60
+fouls,Fouls committed,R11-15,10.766666666666667,60
+fouls,Fouls committed,R16-20,10.116666666666667,60
+fouls,Fouls committed,R21-25,10.716666666666667,60
+fouls,Fouls committed,R26-30,10.483333333333333,60
+yellow,Yellow cards,R1-5,2.2666666666666666,60
+yellow,Yellow cards,R6-10,2.25,60
+yellow,Yellow cards,R11-15,1.75,60
+yellow,Yellow cards,R16-20,1.5833333333333333,60
+yellow,Yellow cards,R21-25,1.9,60
+yellow,Yellow cards,R26-30,1.4666666666666666,60
+red,Red cards,R1-5,0.1,60
+red,Red cards,R6-10,0.05,60
+red,Red cards,R11-15,0.06666666666666667,60
+red,Red cards,R16-20,0.06666666666666667,60
+red,Red cards,R21-25,0.05,60
+red,Red cards,R26-30,0.06666666666666667,60
+catches,Goalkeeper catches,R1-5,1.3333333333333333,60
+catches,Goalkeeper catches,R6-10,1.3166666666666667,60
+catches,Goalkeeper catches,R11-15,1.15,60
+catches,Goalkeeper catches,R16-20,1.4166666666666667,60
+catches,Goalkeeper catches,R21-25,1.4666666666666666,60
+catches,Goalkeeper catches,R26-30,1.5833333333333333,60
+punches,Goalkeeper punches,R1-5,1.3666666666666667,60
+punches,Goalkeeper punches,R6-10,1.2166666666666666,60
+punches,Goalkeeper punches,R11-15,1.5166666666666666,60
+punches,Goalkeeper punches,R16-20,1.2833333333333334,60
+punches,Goalkeeper punches,R21-25,1.3833333333333333,60
+punches,Goalkeeper punches,R26-30,1.6,60
+pass_attempts,Pass attempts,R1-5,452.05,60
+pass_attempts,Pass attempts,R6-10,447.68333333333334,60
+pass_attempts,Pass attempts,R11-15,447.01666666666665,60
+pass_attempts,Pass attempts,R16-20,429.96666666666664,60
+pass_attempts,Pass attempts,R21-25,440.1333333333333,60
+pass_attempts,Pass attempts,R26-30,427.55,60
+completed_passes,Completed passes,R1-5,378.93333333333334,60
+completed_passes,Completed passes,R6-10,376.2,60
+completed_passes,Completed passes,R11-15,375.43333333333334,60
+completed_passes,Completed passes,R16-20,365.03333333333336,60
+completed_passes,Completed passes,R21-25,375.55,60
+completed_passes,Completed passes,R26-30,353.81666666666666,60
+pass_completion,Pass completion,R1-5,83.82553552335656,60
+pass_completion,Pass completion,R6-10,84.03261233758982,60
+pass_completion,Pass completion,R11-15,83.986428544797,60
+pass_completion,Pass completion,R16-20,84.89805411272192,60
+pass_completion,Pass completion,R21-25,85.32641623750379,60
+pass_completion,Pass completion,R26-30,82.75445367013604,60
+forward_completed,Completed forward passes,R1-5,129.35,60
+forward_completed,Completed forward passes,R6-10,126.83333333333333,60
+forward_completed,Completed forward passes,R11-15,127.2,60
+forward_completed,Completed forward passes,R16-20,123.9,60
+forward_completed,Completed forward passes,R21-25,127.13333333333334,60
+forward_completed,Completed forward passes,R26-30,125.28333333333333,60
+attacking_completed,Completed attacking-area passes,R1-5,67.61666666666666,60
+attacking_completed,Completed attacking-area passes,R6-10,62.083333333333336,60
+attacking_completed,Completed attacking-area passes,R11-15,75.41666666666667,60
+attacking_completed,Completed attacking-area passes,R16-20,69.83333333333333,60
+attacking_completed,Completed attacking-area passes,R21-25,68.93333333333334,60
+attacking_completed,Completed attacking-area passes,R26-30,64.1,60
+long_completed,Completed long passes,R1-5,28.616666666666667,60
+long_completed,Completed long passes,R6-10,28.3,60
+long_completed,Completed long passes,R11-15,29.633333333333333,60
+long_completed,Completed long passes,R16-20,27.566666666666666,60
+long_completed,Completed long passes,R21-25,27.783333333333335,60
+long_completed,Completed long passes,R26-30,28.7,60
+attacking_share,Attacking-area pass share,R1-5,18.087969619879807,60
+attacking_share,Attacking-area pass share,R6-10,16.961393842373703,60
+attacking_share,Attacking-area pass share,R11-15,20.114835390179337,60
+attacking_share,Attacking-area pass share,R16-20,19.466625319792232,60
+attacking_share,Attacking-area pass share,R21-25,18.71781278400485,60
+attacking_share,Attacking-area pass share,R26-30,18.43838927220988,60
+middle_completed,Completed middle-area passes,R1-5,202.41666666666666,60
+middle_completed,Completed middle-area passes,R6-10,200.06666666666666,60
+middle_completed,Completed middle-area passes,R11-15,196.03333333333333,60
+middle_completed,Completed middle-area passes,R16-20,190.96666666666667,60
+middle_completed,Completed middle-area passes,R21-25,201.81666666666666,60
+middle_completed,Completed middle-area passes,R26-30,193.6,60
+defensive_completed,Completed defensive-area passes,R1-5,108.9,60
+defensive_completed,Completed defensive-area passes,R6-10,114.05,60
+defensive_completed,Completed defensive-area passes,R11-15,103.98333333333333,60
+defensive_completed,Completed defensive-area passes,R16-20,104.23333333333333,60
+defensive_completed,Completed defensive-area passes,R21-25,104.8,60
+defensive_completed,Completed defensive-area passes,R26-30,96.11666666666666,60
+short_completed,Completed short passes,R1-5,208.66666666666666,60
+short_completed,Completed short passes,R6-10,203.81666666666666,60
+short_completed,Completed short passes,R11-15,206.75,60
+short_completed,Completed short passes,R16-20,195.95,60
+short_completed,Completed short passes,R21-25,203.0,60
+short_completed,Completed short passes,R26-30,192.26666666666668,60
+medium_completed,Completed medium passes,R1-5,141.65,60
+medium_completed,Completed medium passes,R6-10,144.08333333333334,60
+medium_completed,Completed medium passes,R11-15,139.05,60
+medium_completed,Completed medium passes,R16-20,141.51666666666668,60
+medium_completed,Completed medium passes,R21-25,144.76666666666668,60
+medium_completed,Completed medium passes,R26-30,132.85,60
+lateral_completed,Completed lateral passes,R1-5,147.63333333333333,60
+lateral_completed,Completed lateral passes,R6-10,149.51666666666668,60
+lateral_completed,Completed lateral passes,R11-15,149.95,60
+lateral_completed,Completed lateral passes,R16-20,148.8,60
+lateral_completed,Completed lateral passes,R21-25,154.53333333333333,60
+lateral_completed,Completed lateral passes,R26-30,138.08333333333334,60
+backward_completed,Completed backward passes,R1-5,101.95,60
+backward_completed,Completed backward passes,R6-10,99.85,60
+backward_completed,Completed backward passes,R11-15,98.28333333333333,60
+backward_completed,Completed backward passes,R16-20,92.33333333333333,60
+backward_completed,Completed backward passes,R21-25,93.88333333333334,60
+backward_completed,Completed backward passes,R26-30,90.45,60
+crosses_completed,Completed crosses,R1-5,4.3,60
+crosses_completed,Completed crosses,R6-10,4.5,60
+crosses_completed,Completed crosses,R11-15,4.866666666666666,60
+crosses_completed,Completed crosses,R16-20,5.083333333333333,60
+crosses_completed,Completed crosses,R21-25,4.983333333333333,60
+crosses_completed,Completed crosses,R26-30,4.85,60
