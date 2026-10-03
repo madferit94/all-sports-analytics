@@ -1,4 +1,7 @@
 # 🏟️ All Sports Analytics & Simulation Hub
+
+[English](README.md) | [한국어](README.ko.md)
+
 **A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
@@ -52,6 +55,16 @@ A 2026 FIFA World Cup prediction workflow using historical international matches
 ---
 
 ## 🚧 Upcoming & Planned Projects
+
+### ⚽ Big Five Striker Profiles — 2025/26
+
+A player-profile dataset for comparing non-penalty shot frequency with average non-penalty shot quality across Europe's five major leagues.
+
+* **Question:** Which central-forward candidates shoot frequently, and which receive or select higher-xG chances per attempt?
+* **Status:** Data collection and validation complete; profiling analysis and contextual interpretation are next.
+* **Coverage:** 1,752 fixtures, 1,013 detailed player responses and 181 validated candidates with at least 900 minutes; 12 source-affected player-league rows excluded.
+* **Project:** [English documentation](football/big-five-striker-profiles/README.md) · [한국어 문서](football/big-five-striker-profiles/README.ko.md)
+* **Reproducibility:** Published CSVs can be verified offline with Python's standard library; raw caches remain local.
 
 ### ⚽ K League 1 2026: World Cup Break Analysis
 

@@ -1,0 +1,13 @@
+﻿league,player_id,player_name,match_id,retained_roster_id,duplicate_roster_id,identical_except_roster_id,duplicate_minutes
+La_liga,770,Ayoze Pérez,29482,784963,784972,True,21
+La_liga,5656,Nicolas Pepe,29482,784958,784968,True,90
+La_liga,8187,Georges Mikautadze,29482,784959,784969,True,38
+La_liga,11401,Haissem Hassan,29482,784932,784933,True,13
+La_liga,12160,Alberto Moleiro,29482,784962,784971,True,21
+La_liga,12322,Tajon Buchanan,29482,784950,784957,True,52
+La_liga,13700,Alberto Reina,29482,784926,784927,True,78
+La_liga,13701,Ilyas Chaira,29482,784924,784925,True,90
+La_liga,13705,Federico Viñas,29482,784930,784931,True,90
+La_liga,13996,Tani Oluwaseyi,29482,784956,784967,True,69
+La_liga,14173,Pablo Agudín,29482,784940,784941,True,1
+La_liga,14393,Thiago Fernández,29482,784928,784929,True,77

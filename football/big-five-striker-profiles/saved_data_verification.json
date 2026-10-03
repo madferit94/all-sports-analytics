@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "fixtures": 1752,
+  "player_league_rows": 2775,
+  "appearances": 18128,
+  "shot_events": 24185,
+  "own_goal_events": 8,
+  "candidate_league_rows": 1042,
+  "scatter_rows": 181,
+  "scatter_unique_players": 181,
+  "reconciliation_exceptions": 12,
+  "verified_raw_files": 1018,
+  "raw_check_status": "pass",
+  "checks": [
+    "unique keys",
+    "foreign-key joins",
+    "season scope",
+    "event ranges",
+    "penalty and OwnGoal flags",
+    "shot partition",
+    "axis identity",
+    "saved cohort selection",
+    "raw and retrieval-metadata hashes"
+  ]
+}

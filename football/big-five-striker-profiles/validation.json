@@ -1,0 +1,121 @@
+{
+  "started_utc": "2026-10-02T17:18:38.861584+00:00",
+  "finished_utc": "2026-10-02T17:18:40.808854+00:00",
+  "season": "2025/26",
+  "source": "Understat",
+  "match_count": 1752,
+  "all_player_league_rows": 2775,
+  "detailed_unique_players": 1013,
+  "forward_candidate_league_rows": 1042,
+  "player_match_rows": 18128,
+  "shot_rows": 24185,
+  "own_goal_event_rows": 8,
+  "reconciliation_failed_rows": 12,
+  "source_duplicate_appearance_rows": 12,
+  "scatter_ready_rows": 181,
+  "scatter_unique_players": 181,
+  "download_failures": [],
+  "league_coverage": [
+    {
+      "league": "EPL",
+      "matches": 380,
+      "players": 537,
+      "broad_candidate_rows": 183,
+      "date_min": "2025-08-15 19:00:00",
+      "date_max": "2026-05-24 15:00:00",
+      "detail_rows": 183,
+      "shot_events": 4813,
+      "scatter_ready_rows": 33,
+      "reconciliation_failures": 0
+    },
+    {
+      "league": "La_liga",
+      "matches": 380,
+      "players": 600,
+      "broad_candidate_rows": 238,
+      "date_min": "2025-08-15 17:00:00",
+      "date_max": "2026-05-24 19:00:00",
+      "detail_rows": 238,
+      "shot_events": 6025,
+      "scatter_ready_rows": 38,
+      "reconciliation_failures": 12
+    },
+    {
+      "league": "Bundesliga",
+      "matches": 306,
+      "players": 499,
+      "broad_candidate_rows": 192,
+      "date_min": "2025-08-22 18:30:00",
+      "date_max": "2026-05-16 13:30:00",
+      "detail_rows": 192,
+      "shot_events": 4232,
+      "scatter_ready_rows": 30,
+      "reconciliation_failures": 0
+    },
+    {
+      "league": "Serie_A",
+      "matches": 380,
+      "players": 586,
+      "broad_candidate_rows": 211,
+      "date_min": "2025-08-23 16:30:00",
+      "date_max": "2026-05-24 18:45:00",
+      "detail_rows": 211,
+      "shot_events": 4857,
+      "scatter_ready_rows": 50,
+      "reconciliation_failures": 0
+    },
+    {
+      "league": "Ligue_1",
+      "matches": 306,
+      "players": 553,
+      "broad_candidate_rows": 218,
+      "date_min": "2025-08-15 18:45:00",
+      "date_max": "2026-05-17 19:00:00",
+      "detail_rows": 218,
+      "shot_events": 4258,
+      "scatter_ready_rows": 30,
+      "reconciliation_failures": 0
+    }
+  ],
+  "classification_counts": {
+    "other_forward_or_mixed_role": 368,
+    "central_forward_candidate": 287,
+    "insufficient_known_position": 387
+  },
+  "shot_situations": {
+    "OpenPlay": 19661,
+    "SetPiece": 1003,
+    "Penalty": 435,
+    "DirectFreekick": 577,
+    "FromCorner": 2509
+  },
+  "position_codes": {
+    "Sub": 7359,
+    "MC": 769,
+    "FW": 4389,
+    "DMC": 112,
+    "AMC": 1718,
+    "FWL": 556,
+    "FWR": 556,
+    "AMR": 714,
+    "AML": 737,
+    "MR": 387,
+    "ML": 429,
+    "DMR": 154,
+    "DML": 83,
+    "DR": 95,
+    "DL": 65,
+    "DC": 5
+  },
+  "float_tolerance": 0.0001,
+  "row_unit": "player x league x season; transfers within one league aggregated; transfers across leagues separate",
+  "detail_scope": "All league-summary players flagged F, plus S-only players, without a minutes cutoff. Other players retain summaries only.",
+  "role_rule": "FW >= 50% of non-Sub assigned minutes; non-Sub assigned minutes >= 50% of total. Candidate label, not confirmed tactical role.",
+  "important_limits": [
+    "Understat positions describe recorded match positions, not verified time-resolved tactical roles.",
+    "Sub minutes have unknown tactical position and are never imputed as FW.",
+    "Player shots and per90 metrics include all appearances within the league season, not only FW-coded matches.",
+    "Internal reconciliation does not independently verify Understat's source accuracy or xG calibration.",
+    "Raw player responses include historical seasons; derived tables use only matches in the five 2025/26 league match lists."
+  ]
+}

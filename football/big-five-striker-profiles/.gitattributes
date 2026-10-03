@@ -1,0 +1,2 @@
+# Python csv exports use CRLF; treat CR as part of the line ending in checks.
+*.csv whitespace=cr-at-eol

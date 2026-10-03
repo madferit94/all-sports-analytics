@@ -1,0 +1,7 @@
+# Full provider responses contain historical seasons and are retained locally.
+data/raw/
+collection_status.json
+download_failures.json
+__pycache__/
+*.pyc
+.DS_Store
