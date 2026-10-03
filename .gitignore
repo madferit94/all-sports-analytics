@@ -48,3 +48,7 @@ data/processed/fotmob_match_details_errors.csv
 **/data/processed/fotmob_formations.csv
 **/data/processed/fotmob_match_details_availability.csv
 **/data/processed/fotmob_match_details_errors.csv
+
+# Curated OpenF1 reproducibility snapshot for the Baku case study.
+!f1/baku-2026/data/raw/
+!f1/baku-2026/data/raw/*.json

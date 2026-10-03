@@ -1,18 +1,18 @@
-### 🏎️ **[F1] Modern-Era EDA Dashboard**
-An interactive analytics dashboard for Formula 1, focused on the post-2016 hybrid era.
+# Historical F1 EDA Dashboard
 
-* **Goal:** Explore reliability, racecraft, and performance patterns across drivers and teams using interactive filters.
-* **Scope:** Modern Hybrid Era (2016–present)
-* **Status:** ✅ Live & Deployed (Streamlit Cloud)
+[English](README.md) · [한국어](README.ko.md)
 
-* **Actions:**
-  - [📊 **Try Live Dashboard**](https://f1-modern-era-eda.streamlit.app/) 👈 *(Click Here)*
-  - [👉 View Source Code](https://github.com/madferit94/all-sports-analytics/tree/main/f1-modern-era-eda)
- 
- ### 🔮 Next Project
+An existing Streamlit dashboard showing season-level DNF labels, grid-to-finish differences, and total points by driver/team. The committed CSV covers **1950–2025**; the current app defaults to 2000 onward and does not enforce a 2016 lower bound.
 
-This EDA dashboard serves as the exploratory foundation for a follow-up modeling project:
+**Status: preserved dashboard prototype; metric corrections needed.** The deployment link is retained, but live availability was not verified in this review.
 
-- **F1 Modern-Era Reliability & DNF Prediction**
-- Feature engineering and predictive modeling
-- Explainable ML (XAI) for race reliability analysis
+- [Dashboard](https://f1-modern-era-eda.streamlit.app/)
+- [Application source](app.py)
+- [Review: keep and revise](../f1/baku-2026/docs/existing_f1_review.md)
+- [New Baku race-context project](../f1/baku-2026)
+
+## Corrections before portfolio use
+
+The input's DNF definition classifies `+N Lap(s)` statuses as DNF. Reliability rates therefore need to be rebuilt. The KPI named Races currently counts distinct GP names; use season + round to count race instances. Positions gained exclude missing finishes and should state their sample coverage. Total points reflect unequal participation and should not be presented as a controlled driver-skill comparison.
+
+The application, CSV, and historical prediction notebooks were preserved. The Baku project adds a separate in-race workflow and does not replace this dashboard.

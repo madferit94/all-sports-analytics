@@ -1,86 +1,31 @@
-# 🏎️ Formula 1 Modern-Era Race Strategy & Prediction System (2016–2025)
+# Historical F1 Pre-race Prediction Prototype (2016–2025)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
-![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-ff00ff?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+[English](README.md) · [한국어](README.ko.md)
 
-## 📖 Executive Summary
+This existing project uses historical result tables to build driver/team form features and explore win and Top-10 classification. It is a **pre-race experimental baseline**, not a verified production race-strategy system.
 
-This project establishes a **production-ready machine learning pipeline** to analyze and predict Formula 1 race outcomes in the "Modern Era" (2016–Present).
+**Status: preserved for learning; leakage, labels, evaluation cohort, and portability need correction before performance claims are reused.** Historical notebook outputs were inspected, but models were not retrained in the current review.
 
-Unlike generic sports models, this system recognizes that F1 is an engineering competition as much as a driver competition. It implements a **Dual-Objective Modeling approach**:
-1.  **Win Prediction (`is_win`):** Identifying the singular winner (High variance, Driver/Grid focused).
-2.  **Points Prediction (`is_top10`):** Identifying reliable point-scorers (Stability focused, crucial for Constructor Standings).
+## Existing workflow
 
-The system is rigorously validated on the **2024 Season** (unseen data) to ensure real-world applicability.
+| Stage | Notebook | Role |
+|---|---|---|
+| 01 | [Data preparation and EDA](notebooks/01_F1_Data_Prep_and_EDA.ipynb) | Join source tables, construct labels, inspect results. |
+| 02 | [Feature engineering](notebooks/02_F1_Season_Feature_Engineering.ipynb) | Driver season totals/recent form and team features. |
+| 03 | [Modeling](notebooks/03_F1_Win_Modeling_Modern_Era.ipynb) | Logistic regression, random forests, later Top-10 model comparisons, and SHAP. |
 
----
+Saved features contain 4,300 rows across 2016–2025. The notebook's initial split trains on 2016–2023 and uses 2024 for validation. This time split does not by itself eliminate leakage or selection bias.
 
-## 🚀 Key Technical Features
+## Required corrections
 
-### 1. Domain-Specific Data Engineering ("The Modern Era")
-F1 data from the 1950s is irrelevant to modern racing due to technological shifts.
-* **Filtering:** Restricted analysis to the **Hybrid Era (2016–Present)** to ensure feature consistency.
-* **Relational Merging:** Unified fragmented Ergast API tables (Results, Drivers, Constructors, Races) into a single analytical view.
+- Team features shift driver rows rather than team–race rows, allowing same-race teammate results into pre-race inputs.
+- DNF labels blank lapped finishers' positions. Rebuild source-faithful classification and reliability labels.
+- Win/late Top-10 evaluation excludes entrants using post-race finish availability; define the pre-race cohort explicitly.
+- Remove the fixed local data path and invalid bare install cell, then execute the notebooks in a clean environment.
+- Re-evaluate with race-wise winner ranking, entrant coverage, a simple baseline, and probability calibration. SHAP is model interpretation, not causal evidence.
 
-### 2. Advanced Feature Engineering
-* **Team Strength Index:** Quantified the "Car Performance" factor separate from driver skill, acknowledging that ~80% of performance comes from the machine.
-* **Rolling Form Metrics:** Implemented time-series rolling windows (Last 3/5 Races) to capture driver momentum and recent upgrades.
-* **Leakage Prevention:** Strictly sorted data by `Season` and `Round` before feature generation to prevent future information leakage.
+[Full code/data review and keep/remove decision](../f1/baku-2026/docs/existing_f1_review.md). The original code, data, and saved models remain unchanged. No performance figure is claimed as currently verified.
 
-### 3. Dual-Layer Modeling & Explainability (SHAP)
-* **Model:** Random Forest & Logistic Regression classifiers.
-* **Interpretability:** Used **SHAP (SHapley Additive exPlanations)** to deconstruct predictions.
-    * *Insight:* "Grid Position" dominates Win probability, while "Team Reliability" and "Consistency" become significantly more important for Top-10 probabilities.
+## Separate in-race analysis
 
----
-
-## 📂 Project Pipeline (File Structure)
-
-This project follows a strict **ETL → Feature Engineering → Modeling** workflow.
-
-| Seq | Notebook Name | Role | Key Function |
-| :--- | :--- | :--- | :--- |
-| **01** | `01_F1_Data_Prep_and_EDA.ipynb` | **ETL & Data QC** | Ingests raw data, filters for the Modern Era (2016+), and performs EDA to understand grid-to-finish correlations. |
-| **02** | `02_F1_Season_Feature_Engineering.ipynb` | **Feature Eng.** | Constructs **Rolling Form**, **Cumulative Season Stats**, and **Team Strength** metrics. Handles time-series sorting. |
-| **03** | `03_F1_Win_Modeling_Modern_Era.ipynb` | **Modeling & SHAP** | Trains Dual Models (Win / Top-10). Validates on the **2024 Season**. Visualizes feature importance using SHAP Beeswarm plots. |
-
----
-
-## 📊 Model Performance & Insights
-
-### Validation Strategy
-* **Training Set:** Seasons 2016 – 2023
-* **Validation Set:** Season **2024** (Latest complete season)
-* *Note: This split mimics a real-world scenario where we predict the upcoming season based on historical patterns.*
-
-### Key Findings (SHAP Analysis)
-
-| Feature | Impact on **Win** Probability | Impact on **Top-10** Probability |
-| :--- | :--- | :--- |
-| **Grid Position** | 🔴 **Critical** (Almost impossible to win from P4+) | 🟠 **High** (But recovery is possible) |
-| **Recent Form** | 🟠 **High** (Momentum matters for championships) | 🟡 **Medium** (Consistency matters more) |
-| **Team Strength** | 🟡 **Medium** (Need a top car to win) | 🟢 **Very High** (Reliable cars guarantee points) |
-
-> **Business Insight:** To win a Championship, invest in **Qualifying speed** (Grid Position). To secure Constructor points (money), invest in **Reliability** (Team Strength).
-
----
-
-## ⚠️ Limitations & Disclaimer
-
-1.  **Regulation Changes:** This model is optimized for the current Hybrid Era regulations. The major regulation overhaul in **2026** may require retraining or feature re-weighting.
-2.  **In-Race Strategy:** This is a **Pre-Race** prediction model. It does not account for real-time in-race variables such as Safety Cars, Pit Stop errors, or weather changes during the race.
-3.  **Tyre Compound:** Tyre strategy choices (Soft/Medium/Hard) are not included in the pre-race features.
-
----
-
-### 👤 Author
-
-**Minseob Eom**
-*Sports Data Analyst & System Architect*
-*(Please insert your email or LinkedIn profile link here)*
-
-Email: wowzc@naver.com
-GitHub: https://github.com/madferit94
+The [Baku 2026 project](../f1/baku-2026) uses OpenF1 laps, race-control notices, stints, timing gaps, and locations to describe Russell–Verstappen race context. It supplies bilingual commented scripts and executed notebooks. Its final temporal pace eligibility is still pending; it does not replace or repair this historical prediction prototype.

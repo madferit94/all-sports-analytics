@@ -20,7 +20,7 @@ Each project is designed as a full-cycle analytics pipeline, from data collectio
 ### **Core Philosophy**
 
 1. **Systematic Approach:** From ETL and data engineering to modeling and simulation.
-2. **Leakage-Proof Modeling:** Strict use of pre-game constraints, rolling windows, and time-aware validation.
+2. **Validation Goal:** Pre-game constraints and time-aware validation; known F1 leakage and target defects are documented in the project review.
 3. **Explainable AI:** Going beyond accuracy to understand model behavior with feature importance and explainability tools.
 4. **Business Value:** Turning model outputs into actionable insights such as win probabilities, ranking tables, and tournament simulations.
 
@@ -35,12 +35,12 @@ A dynamic prediction engine for the NFL season, featuring clustering and Monte C
 * **Status:** ✅ Completed
 * **View Project:** [👉 Go to NFL Project](https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis)
 
-### 🏎️ **[F1] Modern-Era Race Strategy System**
-A dual-objective predictive model for Formula 1, optimized for the post-2016 hybrid era.
+### 🏎️ **[F1] Race Context and Historical Prototypes**
 
-* **Goal:** Analyze driver/team performance and forecast race outcomes vs. consistent point scoring.
-* **Status:** ✅ Completed
-* **View Project:** [👉 Go to F1 Project](https://github.com/madferit94/all-sports-analytics/tree/main/f1-modern-era-prediction)
+* **Baku 2026:** Russell–Verstappen timing gaps, Safety Car context, and track replay. [Bilingual scripts, executed notebooks, data, and outputs](f1/baku-2026).
+* **Current status:** Reproducible exploratory visuals; final temporal lap eligibility and public pace conclusions remain pending.
+* **Historical work:** [EDA dashboard](f1-modern-era-eda) and [pre-race prediction](f1-modern-era-prediction) are preserved prototypes. DNF labels, teammate leakage, and evaluation coverage need correction.
+* **Start here:** [F1 project index](f1) · [Existing-work review](f1/baku-2026/docs/existing_f1_review.md).
 
 ### ⚽ **[World Cup 2026] Match Prediction and Tournament Simulation**
 A 2026 FIFA World Cup prediction workflow using historical international matches, FotMob match statistics, and Transfermarkt national team profiles.

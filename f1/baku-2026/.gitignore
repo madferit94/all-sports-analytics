@@ -1,0 +1,6 @@
+work/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+outputs/*/source_and_validation.zip

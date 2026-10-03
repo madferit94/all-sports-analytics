@@ -1,0 +1,24 @@
+{
+  "status": "DESIGN_READY_ELIGIBILITY_PENDING",
+  "session_key": 11377,
+  "main_pair": [
+    63,
+    3
+  ],
+  "context_cohort": "final_classification_top10",
+  "primary_metric": "median of paired lap_duration_VER minus lap_duration_RUS",
+  "primary_windows": [
+    "eligible laps after lap1 before first SC",
+    "eligible laps after second restart excluding restart lap"
+  ],
+  "candidate_asof_tolerance_seconds": 8,
+  "boundary_sensitivity_seconds": 1,
+  "minimum_pairs_for_summary": 5,
+  "minimum_pairs_note": "display rule, not statistical confidence guarantee",
+  "do_not_infer": [
+    "counterfactual winner",
+    "independent tyre effect",
+    "fuel-corrected pace",
+    "starting grid from first position sample"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "notebooks": [
+    {
+      "file": "notebooks/en/v1_prepare_data.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 4
+    },
+    {
+      "file": "notebooks/en/v2_build_visuals.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 7
+    },
+    {
+      "file": "notebooks/ko/v1_prepare_data.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 4
+    },
+    {
+      "file": "notebooks/ko/v2_build_visuals.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 7
+    }
+  ],
+  "raw_files_preserved": 14,
+  "bilingual_metrics_identical": true,
+  "temporal_eligibility": "PENDING",
+  "raw_checksums": [
+    {
+      "file": "data/raw/drivers_session_key-11377.json",
+      "sha256": "64c7e37b225ff8eec4203ed3fa79bbfe569dfece3763d8d41cd14dd1db774025",
+      "bytes": 9693
+    },
+    {
+      "file": "data/raw/intervals_session_key-11377.json",
+      "sha256": "47fb50fcd83847cd778621264d4628cd01c9f1b10f298090ffe636b6905f3958",
+      "bytes": 3528412
+    },
+    {
+      "file": "data/raw/intervals_session_key-11377_driver_number-3.json",
+      "sha256": "ee24f49c3c358a09826633711fe84018bfcdbdbe9f0b19740997b256659f0fa5",
+      "bytes": 207126
+    },
+    {
+      "file": "data/raw/laps_session_key-11377.json",
+      "sha256": "8ed99ee7f233e563e54cdc859c7ed1373e06f16f1580b17a522102f64700a89c",
+      "bytes": 541745
+    },
+    {
+      "file": "data/raw/location_session_key-11377_driver_number-3_date%3E-2026-09-26T11:54:12_date%3C-2026-09-26T12:03:16.json",
+      "sha256": "bb0ff123bb87447d46214c4baca115da61abc3c8021e771848812b6422c067a5",
+      "bytes": 303787
+    },
+    {
+      "file": "data/raw/location_session_key-11377_driver_number-63_date%3E-2026-09-26T11:54:12_date%3C-2026-09-26T12:03:16.json",
+      "sha256": "2112fba3339cec830d952d62c62e2264cc76f2443ce617634b78023f776bf286",
+      "bytes": 305923
+    },
+    {
+      "file": "data/raw/pit_session_key-11377.json",
+      "sha256": "1da5baed0783bc00ec678b5d14f5c02fd7029e028aa5997126b9c22bb5ac2596",
+      "bytes": 7049
+    },
+    {
+      "file": "data/raw/position_session_key-11377.json",
+      "sha256": "68ea1bf89b6e3914ca2d1b1a386e85ba7efbd849d617b65da714896e2d2613cd",
+      "bytes": 35934
+    },
+    {
+      "file": "data/raw/position_session_key-11377_driver_number-63.json",
+      "sha256": "64c5c787949c75096a56669947e855010bd7bf2032ba0c6a634a22bea797c5d1",
+      "bytes": 125
+    },
+    {
+      "file": "data/raw/race_control_session_key-11377.json",
+      "sha256": "f316c233d639522ef03627ca46fbdcbf3333ca7bf396d0394d7619304d16d8f2",
+      "bytes": 38755
+    },
+    {
+      "file": "data/raw/session_result_session_key-11377.json",
+      "sha256": "1f7b14aa25a0a7de084b50b1e88a60e0adad7e9bf3b3e81423242734fdcfde8b",
+      "bytes": 4521
+    },
+    {
+      "file": "data/raw/sessions_session_key-11377.json",
+      "sha256": "0ece99c3c55a0011930040cb01ac6fbba9c26362416df814acfe297d1afbe0c3",
+      "bytes": 353
+    },
+    {
+      "file": "data/raw/stints_session_key-11377.json",
+      "sha256": "1a64a3cee53ebde7d8cb5d9878c6369ab5d359fef961ec5e1e1322101da8418d",
+      "bytes": 9355
+    },
+    {
+      "file": "data/raw/weather_session_key-11377.json",
+      "sha256": "927cc5c167a33bca287ee3f68e063a20a0528a4fe21e89c2583d61872f80cbb8",
+      "bytes": 36197
+    }
+  ]
+}
