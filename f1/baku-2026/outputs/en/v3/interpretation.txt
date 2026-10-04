@@ -1,0 +1,11 @@
+Read in order: 1. Timing gap and race events. 2. Candidate paired pace. 3. Tyre context.
+A positive VER-minus-RUS difference means Russell was quicker in that lap.
+The median is the middle paired difference; IQR describes the middle 50% spread.
+Candidate exclusions are auditable, but SC boundaries and conflicting flags remain provisional.
+Yellow intervals conservatively cover any sector; overlap does not prove either car was directly affected.
+Sensitivity checks vary yellow filtering and interval bounds; they are not proof all boundary choices are correct.
+No causal tyre effect, fuel-corrected pace, or counterfactual winner is estimated.
+
+               phase  n_pairs  median_delta_seconds  iqr_delta_seconds
+     BEFORE_FIRST_SC       27                 0.266              0.322
+AFTER_SECOND_RESTART        9                 0.012              0.128

@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md)
 
-**현재 상태: 탐색용 시각화와 분석 설계까지 재현 가능. 최종 페이스 비교에 사용할 랩 선정은 미완료입니다.**
+**현재 상태: V3의 경기 흐름·후보 랩 비교까지 재현 가능. 재출발 경계와 충돌 공지 검토가 남아 있어 페이스 결과는 잠정값입니다.**
 
 ## 분석 질문
 
@@ -42,6 +42,7 @@ SC와 피트 활동이 겹친 구간에서 시간 차이가 줄었습니다. 이
 |---|---|---|---|---|
 | V1 자료 준비·검증 | [스크립트](scripts/en/v1_prepare_data.py) | [스크립트](scripts/ko/v1_prepare_data.py) | [노트북](notebooks/en/v1_prepare_data.ipynb) | [노트북](notebooks/ko/v1_prepare_data.ipynb) |
 | V2 탐색 차트·이동 영상 | [스크립트](scripts/en/v2_build_visuals.py) | [스크립트](scripts/ko/v2_build_visuals.py) | [노트북](notebooks/en/v2_build_visuals.ipynb) | [노트북](notebooks/ko/v2_build_visuals.ipynb) |
+| V3 경기 흐름·후보 동일 랩 페이스 | [스크립트](scripts/en/v3_race_context_and_pace.py) | [스크립트](scripts/ko/v3_race_context_and_pace.py) | [노트북](notebooks/en/v3_race_context_and_pace.ipynb) | [노트북](notebooks/ko/v3_race_context_and_pace.ipynb) |
 
 노트북에는 주석이 달린 실제 구현 코드와 단계별 설명을 넣었습니다. 스크립트를 실행하는 한 줄만 넣은 노트북이 아닙니다. 반복 실행은 `.py`, 단계별 학습과 중간 결과 확인은 `.ipynb`로 하시면 됩니다.
 
@@ -55,16 +56,18 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/ko/v1_prepare_data.py
 python scripts/ko/v2_build_visuals.py
+python scripts/ko/v3_race_context_and_pace.py
 # 영어 버전
 python scripts/en/v1_prepare_data.py
 python scripts/en/v2_build_visuals.py
+python scripts/en/v3_race_context_and_pace.py
 ```
 
 Windows에서는 `.venv\Scripts\activate`로 가상환경을 켭니다. 한글 시각화에는 AppleGothic, 맑은 고딕, 나눔고딕, Noto Sans CJK 같은 한글 글꼴이 필요합니다. Linux에서는 배포판의 Noto CJK 글꼴 패키지를 설치하세요.
 
 V1은 기본적으로 저장된 원본을 읽습니다. 부족한 원본을 새로 받으려면 `--fetch-missing`을 붙이며 기존 원본은 보존합니다. 출발 그리드 API는 사용 불가일 수 있습니다. 요청은 충분한 간격을 두고 순차 실행합니다. 저장된 과거 자료를 재현하는 데 토큰은 필요하지 않습니다.
 
-노트북은 `jupyter lab`에서 설치한 환경의 Python 커널을 선택하고 원하는 언어 폴더 파일을 열어 **Run All**로 실행합니다. V1 다음 V2 순서입니다. `imageio-ffmpeg`가 FFmpeg를 제공하므로 시스템에 따로 설치하지 않아도 됩니다.
+노트북은 `jupyter lab`에서 설치한 환경의 Python 커널을 선택하고 원하는 언어 폴더 파일을 열어 **Run All**로 실행합니다. V1 다음 V2 순서입니다. V3는 저장된 원본을 직접 읽어 독립 실행할 수 있습니다. `imageio-ffmpeg`가 FFmpeg를 제공하므로 시스템에 따로 설치하지 않아도 됩니다.
 
 ## 결과 파일
 
@@ -86,3 +89,11 @@ LinkedIn에서는 **경기 맥락 → 공식 시간 차이 → 조건에 맞는 
 연료 보정, 통제된 타이어 마모 추정, 교통 방해의 직접 증명, 전략의 인과 효과, 시즌 전체 일반화는 하지 않았습니다. 피트레인 통과 기록만으로 타이어 교체를 확정하지 않습니다. 현재 세 결과물은 탐색 과정을 보여줍니다.
 
 기존 과거 F1 프로젝트는 [유지·수정 검토](docs/existing_f1_review.ko.md)에 별도로 정리했습니다. 원본 코드는 유지하며, 이번 작업에서 과거 모델을 다시 학습하거나 성능을 재검증하지 않았습니다.
+
+## V3: 경기 질문부터 따라가기
+
+새 [V3 따라가기 안내](docs/v3_walkthrough.ko.md)는 경기 흐름 → 후보 랩 선정 → 동일 랩 페이스 → 타이어 맥락 순서입니다. 저장된 원본을 직접 읽으므로 V3 실행 전에 V1·V2를 실행할 필요는 없습니다. `python scripts/ko/v3_race_context_and_pace.py` 또는 영어 스크립트를 실행하거나 해당 노트북에서 Run All을 선택하세요.
+
+공통 계산 표는 `data/processed/v3`, 언어별 차트·설명은 `outputs/en/v3`와 `outputs/ko/v3`에 저장합니다. 보수적인 황색기 시간 제외를 적용한 현재 후보는 SC 전 27개 쌍(VER−RUS 중앙값 **+0.266초**), 후반 9개 쌍(**+0.012초**)입니다. V2의 고정 창보다 전반 비교 범위가 넓어져 값이 다릅니다. V2는 보존했습니다.
+
+새 계산으로 **최종 비교 랩 검토가 완료된 것은 아닙니다.** SC 끝은 후보이고, 같은 시각 YELLOW/CLEAR 공지 두 묶음과 종료 전 CLEAR가 없는 황색기 구간 두 개를 검토 표에 남겼습니다. V3는 잠정 비교와 검증 기록이며 확정 정상 주행 페이스나 인과 분석이 아닙니다. 경계 ±1초 검사가 모든 재출발 경계의 정확성을 보장하지는 않습니다. [실행 기록](docs/v3_execution_check.json)을 확인하세요.

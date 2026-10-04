@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "notebooks": [
+    {
+      "file": "notebooks/en/v3_race_context_and_pace.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 20
+    },
+    {
+      "file": "notebooks/ko/v3_race_context_and_pace.ipynb",
+      "status": "executed_without_errors",
+      "code_cells": 20
+    }
+  ],
+  "language_calculation_files_identical": true,
+  "independent_paired_median_check": "PASS",
+  "all_raw_snapshots_preserved": true,
+  "analysis_status": "PROVISIONAL_RACE_CONTROL_REVIEW_PENDING",
+  "table_hashes": {
+    "key_events_with_gap.csv": "6db3bcac56d1b24012804beb40cea2165ff9628676c3020dbc94804f818d8b3f",
+    "sensitivity_summary.csv": "37449265c1f8bf304445b185fc09a19f4bcc102d7b8f5aac0128ba90e580c976",
+    "race_control_review_items.csv": "54d7627a7f31d3d5b78154f4bbcf965b6cfc2b7833f62215f4135f69c7871ea8",
+    "top10_context.csv": "a2cd44d1a66f28d642f351067b9381d29286d330308239c90396ac9fa08ca077",
+    "paired_lap_audit.csv": "c37e3e8fddb19036b248aa89ed504e243f8e5ed05750b1f80f1e124f7248cbd5",
+    "driver_lap_exclusions.csv": "7241c9eed700fc7aa65d0eca18517e067d191a2575bcaaf32a62e3bebb3450bc",
+    "candidate_pace_summary.csv": "751049df8ecfd9e8bc855aa62e1197dbb55c24b472f42d3482be1e1d5fe67580",
+    "main_pair_stints.csv": "bba12e8b88ad5b4602b3aaf626d3558cc0eb4430c6a8e1d46530d99bbeac7308",
+    "candidate_flag_periods.csv": "d7852cb80f99d2f9c2907bf5fe5be313e5d653299ba47714d6315c681f8137e7",
+    "analysis_audit.json": "bc0db0335c616adb0f4adcb9bab8600cd9bf5a57a218a22699f0a1dc465fd1b8"
+  }
+}

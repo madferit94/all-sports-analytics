@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md)
 
-**Status: reproducible exploratory visuals and analysis design; final pace eligibility is pending.**
+**Status: V3 race context and candidate paired-lap comparisons are reproducible. Restart boundaries and conflicting race-control messages still need review; pace results remain provisional.**
 
 ## Problem
 
@@ -42,6 +42,7 @@ Both languages share `data/` and the same metric definitions. V1 and V2 identify
 |---|---|---|---|---|
 | V1 — prepare and audit | [script](scripts/en/v1_prepare_data.py) | [스크립트](scripts/ko/v1_prepare_data.py) | [notebook](notebooks/en/v1_prepare_data.ipynb) | [노트북](notebooks/ko/v1_prepare_data.ipynb) |
 | V2 — exploratory visuals and replay | [script](scripts/en/v2_build_visuals.py) | [스크립트](scripts/ko/v2_build_visuals.py) | [notebook](notebooks/en/v2_build_visuals.ipynb) | [노트북](notebooks/ko/v2_build_visuals.ipynb) |
+| V3 — race context and candidate paired pace | [script](scripts/en/v3_race_context_and_pace.py) | [스크립트](scripts/ko/v3_race_context_and_pace.py) | [notebook](notebooks/en/v3_race_context_and_pace.ipynb) | [노트북](notebooks/ko/v3_race_context_and_pace.ipynb) |
 
 The notebooks contain the actual commented code, with sections explaining its purpose. They do not hide the implementation behind a script runner. Scripts are for repeatable execution; notebooks are for reading each stage and inspecting intermediate results.
 
@@ -55,9 +56,11 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/en/v1_prepare_data.py
 python scripts/en/v2_build_visuals.py
+python scripts/en/v3_race_context_and_pace.py
 # Korean equivalents
 python scripts/ko/v1_prepare_data.py
 python scripts/ko/v2_build_visuals.py
+python scripts/ko/v3_race_context_and_pace.py
 ```
 
 On Windows, activate with `.venv\Scripts\activate`. Korean rendering requires a Korean font, such as AppleGothic, Malgun Gothic, NanumGothic, or Noto Sans CJK. On Linux, install your distribution's Noto CJK font package before rendering Korean graphics.
@@ -86,3 +89,11 @@ For a LinkedIn case study, build the story around **race context → published g
 There is no fuel correction, controlled tyre-degradation estimate, proof of traffic obstruction, causal strategy effect, or season-level generalisation. A pit-lane passage alone is not a tyre change. The three visuals currently illustrate an exploratory workflow.
 
 Existing historical F1 projects are reviewed separately in [the keep/change assessment](docs/existing_f1_review.md). They are preserved; this project does not retrain their models or validate their reported accuracy.
+
+## V3: start with the race question
+
+The new [V3 walkthrough](docs/v3_walkthrough.md) follows race flow → candidate lap selection → paired pace → tyre context. It reads saved raw inputs directly; running V1/V2 first is optional for V3. Run `python scripts/en/v3_race_context_and_pace.py`, or its Korean equivalent, or Run All in the matching notebook.
+
+V3 saves shared tables in `data/processed/v3` and language-specific figures/notes in `outputs/en/v3` and `outputs/ko/v3`. With conservative temporal yellow exclusions, the current candidate samples contain 27 pre-SC pairs (median VER−RUS **+0.266 s**) and nine later pairs (**+0.012 s**). These differ from V2's earlier fixed-window summary because the pre-SC window is broader; V2 is preserved.
+
+The new computation **does not close the final eligibility gate**. SC ends remain candidates, two simultaneous YELLOW/CLEAR groups and two yellow intervals without a clear before session end are recorded for review. V3 produces provisional comparisons and audit trails, not finalized clean-lap or causal claims. Boundary ±1-second checks do not establish the correctness of every possible restart boundary. See [execution evidence](docs/v3_execution_check.json).

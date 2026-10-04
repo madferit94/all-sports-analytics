@@ -1,0 +1,42 @@
+{
+  "renderer": "Matplotlib / static PNG embedded in executed notebooks",
+  "source": "OpenF1 session 11377 saved raw JSON",
+  "status": "provisional",
+  "charts": [
+    {
+      "file": "01_race_context.png",
+      "question": "When did the published gap change relative to SC and pit activity?",
+      "takeaway": "Descriptive timing context; no independent pit or tyre effect identified.",
+      "family": "line",
+      "grain": "published VER timing sample",
+      "expected_points": 1363,
+      "palette": "hard two-root cap: blue timing, gold hatched SC candidates",
+      "non_colour": "hatch and separate driver pit marker shapes",
+      "footprint": "12x6 inch",
+      "fallback": "table if fewer than eight timing samples"
+    },
+    {
+      "file": "02_candidate_paired_pace.png",
+      "question": "How do candidate same-lap differences compare before/after SC?",
+      "takeaway": "Paired differences and their median are conditional on provisional selection.",
+      "family": "ordered dot plot / two small multiples",
+      "grain": "one matched driver-lap pair",
+      "expected_points": "up to 51, five-pair summary minimum",
+      "palette": "single-root blue with neutral zero line",
+      "non_colour": "explicit signs, phase panels, dashed medians, equal y-axis",
+      "footprint": "12x6 inch",
+      "fallback": "display sample counts and suppress summary below five pairs"
+    },
+    {
+      "file": "03_tyre_context.png",
+      "question": "Which compounds and starting ages occur in the main pair stints?",
+      "takeaway": "Tyre age and compound are context; no isolated tyre effect claimed.",
+      "family": "interval bars",
+      "grain": "driver tyre stint",
+      "expected_rows": 6,
+      "palette": "gold medium, pink soft",
+      "non_colour": "direct compound and age labels; driver rows",
+      "footprint": "12x4 inch"
+    }
+  ]
+}
