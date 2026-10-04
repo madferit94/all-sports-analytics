@@ -2,6 +2,8 @@
 
 [한국어](existing_f1_review.ko.md)
 
+**2026-10-05 preservation update:** The prediction prototype is now stored separately in a private repository and excluded from the current public tree. Original file contents are unchanged. Earlier public commits remain accessible.
+
 Reviewed on 3 October 2026 against repository base commit `8d5a583e655b24d83f3f8666afbc5f753aed7c42`. This is a code/data review; historical models were not retrained and the live Streamlit deployment was not tested.
 
 **Recommendation: preserve both historical projects. Correct the EDA and rebuild the prediction baseline before using its performance claims as portfolio evidence.** The Baku project answers an in-race question and does not replace a historical pre-race project.
@@ -9,7 +11,7 @@ Reviewed on 3 October 2026 against repository base commit `8d5a583e655b24d83f3f8
 | Existing work | Decision | Reason and required correction |
 |---|---|---|
 | `f1-modern-era-eda` | Keep, revise | A usable dashboard foundation. Its CSV covers 1950–2025; the app does not enforce a 2016 start and defaults to 2000. “Races” currently counts distinct GP names, not season/race instances. Correct the scope and count races by season + round. |
-| `f1-modern-era-prediction` | Keep as an experimental baseline | Three notebooks document ETL, features, and modeling. Preserve learning history, but current metrics are not a verified deployment baseline. Fix the defects below and rerun. |
+| Historical pre-race prediction | Preserve privately; excluded from the current public tree | Original notebooks, data, and model artifacts are preserved in a separate private repository. Corrections and revalidation remain pending. Earlier public commits still contain the original folder. |
 | Saved model binaries | Preserve for historical reference | No need to delete now. They should not power a public forecast until features/labels are corrected. Retraining should create clearly versioned artifacts. |
 | Duplicate cleaned CSV | Keep for now; later consider a shared input | EDA and prediction CSVs are byte-identical. Consolidation can reduce maintenance, but requires updating every dependent path and testing. |
 | Baku exploratory outputs | Keep with status labels | Useful for showing the workflow. They are not the final pace analysis because temporal eligibility remains pending. |

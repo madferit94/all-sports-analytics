@@ -39,7 +39,7 @@ A dynamic prediction engine for the NFL season, featuring clustering and Monte C
 
 * **Baku 2026:** Russell–Verstappen timing gaps, Safety Car context, and track replay. [Bilingual scripts, executed notebooks, data, and outputs](f1/baku-2026).
 * **Current status:** Reproducible exploratory visuals; final temporal lap eligibility and public pace conclusions remain pending.
-* **Historical work:** [EDA dashboard](f1-modern-era-eda) and [pre-race prediction](f1-modern-era-prediction) are preserved prototypes. DNF labels, teammate leakage, and evaluation coverage need correction.
+* **Historical work:** [EDA dashboard](f1-modern-era-eda) remains a prototype requiring DNF and scope corrections. The pre-race prediction prototype has been moved to a separate private repository pending corrections and revalidation.
 * **Start here:** [F1 project index](f1) · [Existing-work review](f1/baku-2026/docs/existing_f1_review.md).
 
 ### ⚽ **[World Cup 2026] Match Prediction and Tournament Simulation**
