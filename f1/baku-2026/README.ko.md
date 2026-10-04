@@ -97,3 +97,20 @@ LinkedIn에서는 **경기 맥락 → 공식 시간 차이 → 조건에 맞는 
 공통 계산 표는 `data/processed/v3`, 언어별 차트·설명은 `outputs/en/v3`와 `outputs/ko/v3`에 저장합니다. 보수적인 황색기 시간 제외를 적용한 현재 후보는 SC 전 27개 쌍(VER−RUS 중앙값 **+0.266초**), 후반 9개 쌍(**+0.012초**)입니다. V2의 고정 창보다 전반 비교 범위가 넓어져 값이 다릅니다. V2는 보존했습니다.
 
 새 계산으로 **최종 비교 랩 검토가 완료된 것은 아닙니다.** SC 끝은 후보이고, 같은 시각 YELLOW/CLEAR 공지 두 묶음과 종료 전 CLEAR가 없는 황색기 구간 두 개를 검토 표에 남겼습니다. V3는 잠정 비교와 검증 기록이며 확정 정상 주행 페이스나 인과 분석이 아닙니다. 경계 ±1초 검사가 모든 재출발 경계의 정확성을 보장하지는 않습니다. [실행 기록](docs/v3_execution_check.json)을 확인하세요.
+
+## V4: 전체 경기 위치 재생
+
+전체 51랩, 경기 시간 98분 02.755초를 영상 4분 05.2초에 담았습니다. 대략적인 위치 재생입니다. 시간 차이는 공식 표본이며 SC 철수 시각은 경계 후보입니다.
+
+`requirements.txt` 설치 후 `python scripts/ko/v4_full_race_replay.py`를 실행하세요. 기본은 저장된 원본을 읽으며 부족한 자료만 받으려면 `--fetch-missing`을 붙입니다. 영어 스크립트도 같은 방식입니다. 노트북은 기본적으로 대표 프레임 3개를 그립니다. `RENDER_FULL_VIDEO=True`이면 전체 영상을 인코딩합니다. 
+
+| 언어 | Python | 노트북 | 전체 MP4 | 플레이어 |
+|---|---|---|---|---|
+| English | [Python](scripts/en/v4_full_race_replay.py) | [Notebook](notebooks/en/v4_full_race_replay.ipynb) | [MP4](outputs/en/v4/01_full_race_replay.mp4) | [HTML](outputs/en/v4/replay.html) |
+| 한국어 | [Python](scripts/ko/v4_full_race_replay.py) | [Notebook](notebooks/ko/v4_full_race_replay.ipynb) | [MP4](outputs/ko/v4/01_full_race_replay.mp4) | [HTML](outputs/ko/v4/replay.html) |
+
+전체 세션 원본 응답은 `.json.gz`로 무손실 압축했고 바탕화면에는 JSON 원본도 남겼습니다. 경기 시간 범위 제외와 해시 기록은 [replay_audit.json](data/processed/v4/replay_audit.json). 긴 표본 공백에서는 점을 숨기고 오래된 시간 차이는 비웁니다. 스틴트 시작 사용량은 현재 타이어 사용량이 아닙니다. SC 종료 후보는 잠정적입니다. 기존 V1–V3와 짧은 V2 영상은 보존했습니다. 
+
+플레이어는 프로젝트에서 `python src/serve_replays.py --port 8767`을 실행한 뒤 `http://127.0.0.1:8767/outputs/ko/v4/replay.html`로 여세요. GitHub에서는 프로젝트를 내려받아 사용하세요. HTML은 소스로 표시됩니다.
+
+[전체 영상 설명서](docs/v4_replay_guide.ko.md) · [실행 확인](docs/v4_execution_check.json)

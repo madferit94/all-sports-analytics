@@ -1,0 +1,14 @@
+{
+  "question": "How did Russell and Verstappen progress around the circuit on the same race clock over all 51 laps?",
+  "takeaway": "Synchronized approximate positions provide race context; they cannot recover lateral racing lines or infer a timing gap from map distance.",
+  "surface": "MP4 video with a dedicated local HTML video player and notebook frame previews; not a report/dashboard",
+  "renderer": "Pillow static map and dynamic markers encoded with FFmpeg",
+  "expected_grain": "one coordinate sample per driver/UTC time, two drivers; 51 laps each",
+  "period": "first recorded lap start to later final recorded lap end estimate",
+  "palette": "two colors retained from existing replay: Mercedes teal RUS and blue VER; a domain/legacy compatibility exception",
+  "non_colour": "RUS filled circle, VER open triangle, direct labels",
+  "footprint": "1280x900, 20fps, 24x base speed",
+  "missing": "hide marker when bracketing samples exceed 2 seconds; blank stale gap older than 12 seconds",
+  "SC": "two provisional periods; next-leader-lap ends are explicitly candidate boundaries",
+  "QA": "all 51 laps covered, raw hashes preserved, contact sheet includes starts/SC phases/finish, full MP4 decode, browser player seek and playback"
+}

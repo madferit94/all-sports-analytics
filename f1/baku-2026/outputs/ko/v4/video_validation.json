@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "full_decode": "PASS",
+  "video": "01_full_race_replay.mp4",
+  "frames": 4904,
+  "fps": 20,
+  "seconds": 245.2,
+  "resolution": [
+    1280,
+    900
+  ],
+  "language": "ko",
+  "contact_frames": [
+    0,
+    1226,
+    2452,
+    2712,
+    3380,
+    3442,
+    3678,
+    3760,
+    4903
+  ],
+  "sha256": "3e7c6ef474a8543d0cf819bcd81d3e639a1a63ed116e5544a6b600d7ea19074a",
+  "gif_status": "80-frame overview; not continuous full replay"
+}

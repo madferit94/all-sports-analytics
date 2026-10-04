@@ -1,0 +1,62 @@
+{
+  "session_key": 11377,
+  "drivers": [
+    63,
+    3
+  ],
+  "start_utc": "2026-09-26T11:03:50.711000+00:00",
+  "end_estimated_utc": "2026-09-26T12:41:53.466000+00:00",
+  "race_seconds": 5882.755,
+  "max_location_interpolation_gap_seconds": 2.0,
+  "max_timing_age_seconds": 12.0,
+  "endpoint_definition": "first recorded lap start to latest last-lap start + recorded duration; approximate",
+  "sources": [
+    {
+      "driver_number": 63,
+      "file": "data/raw/full_replay/location_session_key-11377_driver_number-63.json.gz",
+      "raw_rows": 37095,
+      "race_support_rows": 22538,
+      "outside_race_support_rows": 14557,
+      "identical_duplicate_times_removed": 0,
+      "invalid_xy_rows": 0,
+      "max_sample_gap_seconds": 1.339,
+      "sha256_uncompressed": "3b1b2c9e36f9e5e36f4140a2b42835140a2f58bf1d257a2e1ed65b075ccb96b7",
+      "url": "https://api.openf1.org/v1/location?session_key=11377&driver_number=63"
+    },
+    {
+      "driver_number": 3,
+      "file": "data/raw/full_replay/location_session_key-11377_driver_number-3.json.gz",
+      "raw_rows": 37095,
+      "race_support_rows": 22538,
+      "outside_race_support_rows": 14557,
+      "identical_duplicate_times_removed": 0,
+      "invalid_xy_rows": 0,
+      "max_sample_gap_seconds": 1.339,
+      "sha256_uncompressed": "58c4f6d985a1c1fbaae8cc66fd3fde0d394dac44b868c4983a1cae81709dc1c3",
+      "url": "https://api.openf1.org/v1/location?session_key=11377&driver_number=3"
+    }
+  ],
+  "sc_periods": [
+    {
+      "start": 1790423885.0,
+      "end_candidate": 1790424686.116,
+      "restart_lap_candidate": 36
+    },
+    {
+      "start": 1790424760.0,
+      "end_candidate": 1790425141.502,
+      "restart_lap_candidate": 39
+    }
+  ],
+  "sc_status": "CANDIDATE_WITHDRAWAL_BOUNDARIES",
+  "official_finish_gap_seconds": 0.196,
+  "fps": 20,
+  "base_speed": 24,
+  "frames": 4904,
+  "encoded_seconds": 245.2,
+  "hidden_location_frames": {
+    "63": 0,
+    "3": 0
+  },
+  "missing_or_stale_gap_frames": 52
+}

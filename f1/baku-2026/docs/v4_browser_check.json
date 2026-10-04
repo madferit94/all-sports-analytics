@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "browser": "Chrome",
+  "video_duration_seconds": 245.2,
+  "seekable_seconds": [
+    0,
+    245.2
+  ],
+  "SC1_seek_seconds": 135.615,
+  "SC2_seek_seconds": 172.078,
+  "lap45_seek_seconds": 214.404,
+  "48x_playback_rate": 2,
+  "actual_playback_confirmed": true,
+  "byte_range_tests": "finite/suffix/invalid ranges PASS",
+  "in_app_browser": "local URL timed out; Chrome playback verified",
+  "server": "src/serve_replays.py, bound to 127.0.0.1:8767"
+}

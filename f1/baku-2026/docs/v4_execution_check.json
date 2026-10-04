@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "notebooks": [
+    {
+      "file": "notebooks/en/v4_full_race_replay.ipynb",
+      "status": "PASS",
+      "full_encoding_in_notebook": false,
+      "representative_frames_rendered": 3
+    },
+    {
+      "file": "notebooks/ko/v4_full_race_replay.ipynb",
+      "status": "PASS",
+      "full_encoding_in_notebook": false,
+      "representative_frames_rendered": 3
+    }
+  ],
+  "shared_tables_identical": true,
+  "source_hashes_unchanged": true,
+  "independent_interpolation_spot_checks": "PASS",
+  "synthetic_20_second_dropout": "PASS",
+  "all_51_laps_each_driver_covered": true,
+  "frames": 4904,
+  "full_mp4_decode": {
+    "en": "PASS",
+    "ko": "PASS"
+  },
+  "sc_withdrawal_status": "candidate boundaries; not finalized",
+  "shared_table_sha256": {
+    "replay_frames.csv": "f50d5ba77278644591cb0c93175ced4d9a90624b26c4c8b77abfcc0ec47d1c7a",
+    "replay_audit.json": "a53e6456cb007e21b07266a50537e2fc14a5d01d6ad04d51d53c4cd3c4dc5182",
+    "lap_location_coverage.csv": "cb1979628d2fd90bd91a7f1abf0c3932b986641a931f327bc75659c9e76786f8"
+  },
+  "validated_video_sha256": {
+    "en": "cb84a936e87db8d265a002ee395c4f5b9670cadf1ad86adcd8256ee9c663733f",
+    "ko": "3e7c6ef474a8543d0cf819bcd81d3e639a1a63ed116e5544a6b600d7ea19074a"
+  }
+}

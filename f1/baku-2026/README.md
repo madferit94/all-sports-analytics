@@ -97,3 +97,20 @@ The new [V3 walkthrough](docs/v3_walkthrough.md) follows race flow → candidate
 V3 saves shared tables in `data/processed/v3` and language-specific figures/notes in `outputs/en/v3` and `outputs/ko/v3`. With conservative temporal yellow exclusions, the current candidate samples contain 27 pre-SC pairs (median VER−RUS **+0.266 s**) and nine later pairs (**+0.012 s**). These differ from V2's earlier fixed-window summary because the pre-SC window is broader; V2 is preserved.
 
 The new computation **does not close the final eligibility gate**. SC ends remain candidates, two simultaneous YELLOW/CLEAR groups and two yellow intervals without a clear before session end are recorded for review. V3 produces provisional comparisons and audit trails, not finalized clean-lap or causal claims. Boundary ±1-second checks do not establish the correctness of every possible restart boundary. See [execution evidence](docs/v3_execution_check.json).
+
+## V4: whole-race replay
+
+All 51 recorded laps, 98m 02.755s of race time in a 4m 05.2s video. Approximate position replay. Gap comes from timing samples. SC withdrawal times are candidate boundaries.
+
+Run `python scripts/en/v4_full_race_replay.py` after installing `requirements.txt`. Offline by default; add `--fetch-missing` only for missing originals. The Korean script works the same way. The tutorial notebook renders three frames by default; set `RENDER_FULL_VIDEO=True` to encode the full video. 
+
+| Language | Python | Notebook | Full MP4 | Player |
+|---|---|---|---|---|
+| English | [Python](scripts/en/v4_full_race_replay.py) | [Notebook](notebooks/en/v4_full_race_replay.ipynb) | [MP4](outputs/en/v4/01_full_race_replay.mp4) | [HTML](outputs/en/v4/replay.html) |
+| 한국어 | [Python](scripts/ko/v4_full_race_replay.py) | [Notebook](notebooks/ko/v4_full_race_replay.ipynb) | [MP4](outputs/ko/v4/01_full_race_replay.mp4) | [HTML](outputs/ko/v4/replay.html) |
+
+Raw full-session responses are losslessly compressed as `.json.gz`; desktop originals are also preserved as JSON. Race-window exclusions and hashes are in [replay_audit.json](data/processed/v4/replay_audit.json). Long sample gaps hide markers; stale timing stays blank. Stint-start age is not current tyre age. SC end candidates remain provisional. Earlier V1–V3 and the short V2 video are preserved. 
+
+For the video player, run `python src/serve_replays.py --port 8767` from this project and open `http://127.0.0.1:8767/outputs/en/v4/replay.html`. On GitHub, download the project or use a local checkout; HTML is displayed as source.
+
+[Full replay guide](docs/v4_replay_guide.md) · [Execution check](docs/v4_execution_check.json)
