@@ -1,0 +1,65 @@
+{
+  "players": 181,
+  "median_np_shots_per90": 2.464840858623242,
+  "median_npxg_per_shot": 0.1579359607263044,
+  "profile_group_counts": {
+    "high_volume_high_quality": 45,
+    "high_volume_low_quality": 46,
+    "low_volume_high_quality": 46,
+    "low_volume_low_quality": 44
+  },
+  "representative_players": [
+    {
+      "player_name": "Hugo Ekitike",
+      "league": "EPL",
+      "team": "Liverpool",
+      "profile_group": "high_volume_high_quality",
+      "minutes": 1835,
+      "non_penalty_shots": 65,
+      "non_penalty_goals": 11,
+      "npshots_per90": 3.188010899182561,
+      "npxg_per_shot": 0.1835721233573097,
+      "conversion_pct": 16.923076923076923,
+      "goals_minus_npxg": -0.9321880182251316
+    },
+    {
+      "player_name": "Ante Budimir",
+      "league": "La_liga",
+      "team": "Osasuna",
+      "profile_group": "high_volume_low_quality",
+      "minutes": 2995,
+      "non_penalty_shots": 95,
+      "non_penalty_goals": 11,
+      "npshots_per90": 2.8547579298831387,
+      "npxg_per_shot": 0.1394267800901281,
+      "conversion_pct": 11.578947368421053,
+      "goals_minus_npxg": -2.2455441085621715
+    },
+    {
+      "player_name": "Rasmus Højlund",
+      "league": "Serie_A",
+      "team": "Napoli",
+      "profile_group": "low_volume_high_quality",
+      "minutes": 2784,
+      "non_penalty_shots": 59,
+      "non_penalty_goals": 12,
+      "npshots_per90": 1.9073275862068968,
+      "npxg_per_shot": 0.2127296014420562,
+      "conversion_pct": 20.33898305084746,
+      "goals_minus_npxg": -0.5510464850813168
+    },
+    {
+      "player_name": "Mateo Pellegrino",
+      "league": "Serie_A",
+      "team": "Parma Calcio 1913",
+      "profile_group": "low_volume_low_quality",
+      "minutes": 3012,
+      "non_penalty_shots": 72,
+      "non_penalty_goals": 8,
+      "npshots_per90": 2.151394422310757,
+      "npxg_per_shot": 0.127062636324101,
+      "conversion_pct": 11.11111111111111,
+      "goals_minus_npxg": -1.1485098153352737
+    }
+  ]
+}

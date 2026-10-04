@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "season": "2025/26",
+  "snapshot_date": "2026-10-03",
+  "language": "ko",
+  "profiles": 181,
+  "unique_players": 181,
+  "appearances": 5204,
+  "shot_events": 9087,
+  "non_penalty_shots": 8847,
+  "parameters": {
+    "min_minutes": 900,
+    "representative_min_np_shots": 50,
+    "standout_min_np_shots": 50,
+    "standout_quantile": 0.75
+  },
+  "date_range": [
+    "2025-08-15",
+    "2026-05-24"
+  ],
+  "checks": [
+    "unique keys",
+    "scope",
+    "required values",
+    "metric formulas",
+    "event-appearance joins",
+    "event/profile reconciliation",
+    "appearance totals",
+    "zero-shot coverage",
+    "composition totals",
+    "900-minute cohort reproduction",
+    "input hashes",
+    "metric ranking order",
+    "standout thresholds and shot sample"
+  ],
+  "input_manifest": {
+    "source": "Understat; saved 2026-10-03 snapshot, not a live refresh",
+    "season": "2025/26",
+    "repository": "https://github.com/madferit94/all-sports-analytics/tree/main/football/big-five-striker-profiles",
+    "files": [
+      {
+        "file": "striker_scatter_ready.csv",
+        "original_path": "data/processed/striker_scatter_ready.csv",
+        "sha256": "4f60944eae691622626517c244bf05c18fda01fdff77870ac2ea120d54b9a31b"
+      },
+      {
+        "file": "shot_events.csv",
+        "original_path": "data/processed/shot_events.csv",
+        "sha256": "04533747c93d7b94858b460f0ef5bb9d68bcc89fe09c1f8b7b9242ce219987ab"
+      },
+      {
+        "file": "player_match_records.csv",
+        "original_path": "data/processed/player_match_records.csv",
+        "sha256": "e5d3dd3b84edb3f4f14f309a1e2df800fcbd6277f86bcc6fc24b3b9170eca0f2"
+      },
+      {
+        "file": "forward_candidate_audit.csv",
+        "original_path": "data/processed/forward_candidate_audit.csv",
+        "sha256": "cf27c7821fbd6584f99a858290582b4119d20dbc66c18f3876986921b6f8813c"
+      }
+    ]
+  },
+  "versions": {
+    "python": "3.11.4",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "matplotlib": "3.9.2"
+  },
+  "limits": "Saved provider snapshot only; no live source verification or opponent/team-context adjustment."
+}

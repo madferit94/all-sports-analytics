@@ -1,0 +1,68 @@
+[
+  {
+    "file": "01_shot_frequency_quality",
+    "family": "scatter",
+    "grain": "player-league-season",
+    "question": "Compare shot frequency and average xG",
+    "palette": "five league colors and distinct markers",
+    "rows": 181
+  },
+  {
+    "file": "02_expected_observed_conversion",
+    "family": "scatter",
+    "grain": "player-league-season",
+    "question": "Compare expected and actual conversion on percentage scales",
+    "palette": "five league colors and markers; neutral diagonal",
+    "rows": 181
+  },
+  {
+    "file": "03_league_distributions",
+    "family": "boxplot",
+    "grain": "player-league-season grouped by league",
+    "question": "Compare candidate distributions",
+    "palette": "single blue root",
+    "categories": 5
+  },
+  {
+    "file": "04_representative_shot_locations",
+    "family": "scatter small multiples",
+    "grain": "non-penalty shot",
+    "question": "Compare source normalized shot locations",
+    "palette": "blue attempts and orange outlines for goals",
+    "note": "illustrative cases selected from four quadrant profiles; source orientation preserved"
+  },
+  {
+    "file": "05_match_consistency",
+    "family": "boxplot",
+    "grain": "player appearance",
+    "question": "Compare match-level NP xG distributions",
+    "palette": "single blue root",
+    "note": "four illustrative players; all appearances; minutes vary"
+  },
+  {
+    "file": "06_both_measures_standouts",
+    "family": "labeled scatter",
+    "grain": "player-league-season",
+    "question": "Identify players above both pooled Q75 volume and quality thresholds",
+    "rows": 181,
+    "highlights": 7,
+    "selection": "900+ minutes; 50+ NP shots; both measures at least cohort Q75"
+  },
+  {
+    "file": "07_finishing_standouts",
+    "family": "labeled scatter",
+    "grain": "player-league-season",
+    "question": "Identify observed NP goals above shot xG",
+    "rows": 181,
+    "selection": "900+ minutes; 50+ NP shots; top five metric ranks including ties"
+  },
+  {
+    "file": "08_league_metric_representatives",
+    "family": "labeled scatter",
+    "grain": "player-league-season",
+    "question": "Compare one expected shooting-production representative per league",
+    "rows": 181,
+    "highlights": 5,
+    "selection": "900+ minutes; 50+ NP shots; highest NP xG/90 within each league"
+  }
+]

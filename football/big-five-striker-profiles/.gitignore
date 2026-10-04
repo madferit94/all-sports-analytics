@@ -5,3 +5,7 @@ download_failures.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Local Python environments and notebook checkpoints
+.venv/
+.ipynb_checkpoints/

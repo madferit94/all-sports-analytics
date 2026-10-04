@@ -1,0 +1,27 @@
+{
+  "source": "Understat; saved 2026-10-03 snapshot, not a live refresh",
+  "season": "2025/26",
+  "repository": "https://github.com/madferit94/all-sports-analytics/tree/main/football/big-five-striker-profiles",
+  "files": [
+    {
+      "file": "striker_scatter_ready.csv",
+      "original_path": "data/processed/striker_scatter_ready.csv",
+      "sha256": "4f60944eae691622626517c244bf05c18fda01fdff77870ac2ea120d54b9a31b"
+    },
+    {
+      "file": "shot_events.csv",
+      "original_path": "data/processed/shot_events.csv",
+      "sha256": "04533747c93d7b94858b460f0ef5bb9d68bcc89fe09c1f8b7b9242ce219987ab"
+    },
+    {
+      "file": "player_match_records.csv",
+      "original_path": "data/processed/player_match_records.csv",
+      "sha256": "e5d3dd3b84edb3f4f14f309a1e2df800fcbd6277f86bcc6fc24b3b9170eca0f2"
+    },
+    {
+      "file": "forward_candidate_audit.csv",
+      "original_path": "data/processed/forward_candidate_audit.csv",
+      "sha256": "cf27c7821fbd6584f99a858290582b4119d20dbc66c18f3876986921b6f8813c"
+    }
+  ]
+}

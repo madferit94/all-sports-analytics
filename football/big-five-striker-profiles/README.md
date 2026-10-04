@@ -1,4 +1,4 @@
-# Big Five Striker Data — 2025/26
+# Beyond Goals — Big Five Striker Profiles, 2025/26
 
 [English](README.md) | [한국어](README.ko.md)
 
@@ -10,7 +10,19 @@ Goal totals alone combine shooting opportunities, shot selection and finishing o
 
 The proposed two-axis profile separates shot frequency from average model-estimated chance quality. Its next use is to identify contrasting profiles for closer contextual review. It does not establish a player's overall quality or transfer suitability.
 
-**Project status:** data collection and validation complete; scatterplot analysis, contextual interpretation and scouting conclusions are still to be developed. Counts below describe data coverage, not football findings.
+**Project status:** collection, descriptive analysis, bilingual learning materials and a 13-slide English landscape presentation are complete. Saved-source, analysis and PPT cross-checks pass 77 items. Football interpretation remains descriptive and context-limited.
+
+## Start with the analysis and presentation
+
+- [English analysis guide](analysis/README.md) · [한국어 분석 안내](analysis/README.ko.md)
+- Python: [English](analysis/scripts/en/01_striker_shot_profiles.py) · [한국어](analysis/scripts/ko/01_striker_shot_profiles.py)
+- Executed Jupyter notebooks: [English](analysis/notebooks/en/01_striker_shot_profiles.ipynb) · [한국어](analysis/notebooks/ko/01_striker_shot_profiles.ipynb)
+- [LinkedIn-ready English PDF](presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [Editable PowerPoint](presentation/Beyond_Goals_EN_Landscape_verified.pptx)
+- [Validation guide](verification/README.md) · [한국어 검증 보고서](verification/report.ko.md)
+
+The final cohort contains 181 players and 8,847 non-penalty shots. The analysis separates volume, model-estimated chance quality and observed scoring conversion. It compares league distributions, metric leaders, league representatives, four contrasting profiles and match variation.
+
+One representative per league is selected by the highest non-penalty xG/90 among eligible candidates with at least 50 non-penalty shots: Haaland, Lewandowski, Kane, Krstovic and Aubameyang. These five differ from both the seven players above the pooled Q75 volume/quality thresholds and the four illustrative quadrant cases. None is an overall ability ranking. See the analysis guide for exact rules.
 
 ## Collected snapshot
 

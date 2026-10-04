@@ -1,0 +1,837 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "input_hash:striker_scatter_ready.csv",
+      "status": "pass",
+      "evidence": "4f60944eae691622626517c244bf05c18fda01fdff77870ac2ea120d54b9a31b"
+    },
+    {
+      "check": "input_hash:shot_events.csv",
+      "status": "pass",
+      "evidence": "04533747c93d7b94858b460f0ef5bb9d68bcc89fe09c1f8b7b9242ce219987ab"
+    },
+    {
+      "check": "input_hash:player_match_records.csv",
+      "status": "pass",
+      "evidence": "e5d3dd3b84edb3f4f14f309a1e2df800fcbd6277f86bcc6fc24b3b9170eca0f2"
+    },
+    {
+      "check": "input_hash:forward_candidate_audit.csv",
+      "status": "pass",
+      "evidence": "cf27c7821fbd6584f99a858290582b4119d20dbc66c18f3876986921b6f8813c"
+    },
+    {
+      "check": "raw_hashes_and_retrieval_metadata",
+      "status": "pass",
+      "evidence": {
+        "files": 1018,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "league_summary_raw_reconciliation",
+      "status": "pass",
+      "evidence": {
+        "rows": 2775,
+        "mismatch_keys": []
+      }
+    },
+    {
+      "check": "fixture_raw_reconciliation",
+      "status": "pass",
+      "evidence": {
+        "fixtures": 1752,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "duplicate_payload:11401:29482",
+      "status": "pass",
+      "evidence": "784933"
+    },
+    {
+      "check": "duplicate_payload:12160:29482",
+      "status": "pass",
+      "evidence": "784971"
+    },
+    {
+      "check": "duplicate_payload:12322:29482",
+      "status": "pass",
+      "evidence": "784957"
+    },
+    {
+      "check": "duplicate_payload:13700:29482",
+      "status": "pass",
+      "evidence": "784927"
+    },
+    {
+      "check": "duplicate_payload:13701:29482",
+      "status": "pass",
+      "evidence": "784925"
+    },
+    {
+      "check": "duplicate_payload:13705:29482",
+      "status": "pass",
+      "evidence": "784931"
+    },
+    {
+      "check": "duplicate_payload:13996:29482",
+      "status": "pass",
+      "evidence": "784967"
+    },
+    {
+      "check": "duplicate_payload:14173:29482",
+      "status": "pass",
+      "evidence": "784941"
+    },
+    {
+      "check": "duplicate_payload:14393:29482",
+      "status": "pass",
+      "evidence": "784929"
+    },
+    {
+      "check": "duplicate_payload:5656:29482",
+      "status": "pass",
+      "evidence": "784968"
+    },
+    {
+      "check": "duplicate_payload:770:29482",
+      "status": "pass",
+      "evidence": "784972"
+    },
+    {
+      "check": "duplicate_payload:8187:29482",
+      "status": "pass",
+      "evidence": "784969"
+    },
+    {
+      "check": "appearance_raw_reconstruction",
+      "status": "pass",
+      "evidence": {
+        "canonical_rows": 18128,
+        "duplicates_retained_in_evidence": 12,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "shot_raw_reconstruction",
+      "status": "pass",
+      "evidence": {
+        "events": 24185,
+        "mismatch_ids": []
+      }
+    },
+    {
+      "check": "profile_keys_and_completeness",
+      "status": "pass",
+      "evidence": {
+        "players": 181
+      }
+    },
+    {
+      "check": "event_and_appearance_unique_keys",
+      "status": "pass",
+      "evidence": {
+        "events": 24185,
+        "appearances": 18128
+      }
+    },
+    {
+      "check": "all_event_appearance_links",
+      "status": "pass",
+      "evidence": {
+        "orphan_events": 0
+      }
+    },
+    {
+      "check": "event_ranges",
+      "status": "pass",
+      "evidence": "X,Y,xG in [0,1]"
+    },
+    {
+      "check": "penalty_own_goal_flags",
+      "status": "pass",
+      "evidence": {
+        "own_goal_events": 8
+      }
+    },
+    {
+      "check": "all_cohort_metrics_from_events",
+      "status": "pass",
+      "evidence": {
+        "cohort_rows": 181,
+        "cohort_minutes": 314600,
+        "cohort_np_shots": 8847
+      }
+    },
+    {
+      "check": "duplicate_affected_candidate_exclusion",
+      "status": "pass",
+      "evidence": {
+        "affected_candidate_rows": 12
+      }
+    },
+    {
+      "check": "recorded_position_minutes",
+      "status": "pass",
+      "evidence": {
+        "candidate_rows": 1042,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "position_classification_rule",
+      "status": "pass",
+      "evidence": "Known position minutes ≥50% of total; FW minutes ≥50% of known position minutes"
+    },
+    {
+      "check": "cohort_filter_reproduction",
+      "status": "pass",
+      "evidence": {
+        "selected_rows": 181,
+        "excluded_failed_qc": 12
+      }
+    },
+    {
+      "check": "four_quadrant_classification",
+      "status": "pass",
+      "evidence": {
+        "volume_median": 2.464840858623242,
+        "quality_median": 0.1579359607263044
+      }
+    },
+    {
+      "check": "global_upper_quartile_standouts",
+      "status": "pass",
+      "evidence": {
+        "players": [
+          "Serhou Guirassy",
+          "Patrik Schick",
+          "Erling Haaland",
+          "Benjamin Sesko",
+          "Ferrán Torres",
+          "Alexander Sørloth",
+          "Robert Lewandowski"
+        ],
+        "volume_q75": 2.87109375,
+        "quality_q75": 0.1976654265075922
+      }
+    },
+    {
+      "check": "output_metric_formula",
+      "status": "pass",
+      "evidence": "NP goals - event xG; conversion NP goals/shots"
+    },
+    {
+      "check": "bilingual_parity:player_profiles.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:league_summary.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:representative_players.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:match_consistency.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:player_match_analysis.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:shot_volume_ranking.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:chance_quality_ranking.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:goals_above_xg_ranking.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:league_metric_representatives.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "bilingual_parity:both_measures_standouts.csv",
+      "status": "pass",
+      "evidence": "Exact CSV byte comparison"
+    },
+    {
+      "check": "four_case_selection",
+      "status": "pass",
+      "evidence": [
+        [
+          "EPL",
+          "Hugo Ekitike"
+        ],
+        [
+          "La_liga",
+          "Ante Budimir"
+        ],
+        [
+          "Serie_A",
+          "Rasmus Højlund"
+        ],
+        [
+          "Serie_A",
+          "Mateo Pellegrino"
+        ]
+      ]
+    },
+    {
+      "check": "league_representative_selection",
+      "status": "pass",
+      "evidence": [
+        {
+          "league": "EPL",
+          "player_name": "Erling Haaland",
+          "npxg_per90": 0.7779655817986165
+        },
+        {
+          "league": "La_liga",
+          "player_name": "Robert Lewandowski",
+          "npxg_per90": 0.764004570140612
+        },
+        {
+          "league": "Bundesliga",
+          "player_name": "Harry Kane",
+          "npxg_per90": 0.8016770556920542
+        },
+        {
+          "league": "Serie_A",
+          "player_name": "Nikola Krstovic",
+          "npxg_per90": 0.7921103954446962
+        },
+        {
+          "league": "Ligue_1",
+          "player_name": "Pierre-Emerick Aubameyang",
+          "npxg_per90": 0.6737361387183518
+        }
+      ]
+    },
+    {
+      "check": "metric_rank:shot_volume_ranking",
+      "status": "pass",
+      "evidence": {
+        "rows": 181
+      }
+    },
+    {
+      "check": "metric_rank:chance_quality_ranking",
+      "status": "pass",
+      "evidence": {
+        "rows": 85
+      }
+    },
+    {
+      "check": "metric_rank:goals_above_xg_ranking",
+      "status": "pass",
+      "evidence": {
+        "rows": 85
+      }
+    },
+    {
+      "check": "zero_shot_appearance_reconstruction",
+      "status": "pass",
+      "evidence": "All appearances retained; absent NP event totals become 0"
+    },
+    {
+      "check": "60plus_zero_shot_rates",
+      "status": "pass",
+      "evidence": "Condition is ≥60 minutes played per appearance, not a rolling 60-minute window"
+    },
+    {
+      "check": "ppt_chart_1",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 33,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 38,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 30,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 50,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 30,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_3",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 33,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 38,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 30,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 50,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 30,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_2",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 5,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_4",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 181,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 5,
+          "points": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_5",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 2,
+          "match": true
+        },
+        {
+          "series": 5,
+          "points": 2,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_6",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 33,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 38,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 30,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 50,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 30,
+          "match": true
+        },
+        {
+          "series": 5,
+          "points": 2,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_7",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 5,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_8",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 5,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "five_scoring_leaders",
+      "status": "pass",
+      "evidence": [
+        {
+          "player_name": "Erling Haaland",
+          "league": "EPL",
+          "goals": 27
+        },
+        {
+          "player_name": "Kylian Mbappe-Lottin",
+          "league": "La_liga",
+          "goals": 25
+        },
+        {
+          "player_name": "Harry Kane",
+          "league": "Bundesliga",
+          "goals": 36
+        },
+        {
+          "player_name": "Lautaro Martínez",
+          "league": "Serie_A",
+          "goals": 17
+        },
+        {
+          "player_name": "Esteban Lepaul",
+          "league": "Ligue_1",
+          "goals": 21
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_9",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 5,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 5,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_10",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 1,
+          "match": true
+        },
+        {
+          "series": 4,
+          "points": 1,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_11",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 54,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 11,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_12",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 84,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 11,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_13",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 47,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 12,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_14",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 64,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 8,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_15",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 4,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 4,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 4,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 4,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "ppt_chart_16",
+      "status": "pass",
+      "evidence": [
+        {
+          "series": 0,
+          "points": 28,
+          "match": true
+        },
+        {
+          "series": 1,
+          "points": 37,
+          "match": true
+        },
+        {
+          "series": 2,
+          "points": 33,
+          "match": true
+        },
+        {
+          "series": 3,
+          "points": 37,
+          "match": true
+        }
+      ]
+    },
+    {
+      "check": "removed_footer_and_author",
+      "status": "pass",
+      "evidence": "13 slides visible text"
+    },
+    {
+      "check": "case_selection_explanation",
+      "status": "pass",
+      "evidence": "Why these four case studies? One central example from each shot-profile quadrant, with at least 50 non-penalty shots. Hugo Ekitike High volume · High xG/shot Ante Budimir High volume · Low xG/shot Rasmus Højlund Low volume · High xG/shot Mateo Pellegrino Low volume · Low xG/shot Why these four? To compare shot locations, body-part mix and match variation across contrasting profiles. Split the cohort at both medians, then choose the player nearest each quadrant’s median after scaling the metrics. These are illustrative cases. High and low are relative to the cohort, not overall ability grades."
+    },
+    {
+      "check": "embedded_workbook_numeric_values",
+      "status": "pass",
+      "evidence": {
+        "numeric_cache_values": 2381,
+        "workbooks": 16,
+        "errors": []
+      }
+    },
+    {
+      "check": "visible_league_representative_values",
+      "status": "pass",
+      "evidence": "Five names and fifteen rounded metrics checked"
+    },
+    {
+      "check": "leader_superlative_claims",
+      "status": "pass",
+      "evidence": "Highest volume Mbappe; highest quality Haaland, among five leaders"
+    },
+    {
+      "check": "league_median_claim",
+      "status": "pass",
+      "evidence": "Premier League cohort highest median xG/shot"
+    },
+    {
+      "check": "penalty_native_labels_disabled",
+      "status": "pass",
+      "evidence": "Five native labels hidden; four explicit positive labels retained; zero omitted"
+    },
+    {
+      "check": "ppt_native_chart_and_slide_counts",
+      "status": "pass",
+      "evidence": {
+        "charts": 16,
+        "slides": 13
+      }
+    },
+    {
+      "check": "visible_key_findings",
+      "status": "pass",
+      "evidence": "Mbappe 4.70; Haaland .213; Lepaul +5.31; Pellegrino headers 41.7%"
+    }
+  ],
+  "issues": [],
+  "scope": "Saved snapshot internal consistency and source-file reconstruction, not live provider or xG model calibration.",
+  "counts": {
+    "raw_files": 1018,
+    "fixtures": 1752,
+    "league_player_rows": 2775,
+    "detail_players": 1013,
+    "appearances": 18128,
+    "shot_events": 24185,
+    "cohort_players": 181,
+    "cohort_appearances": 5204,
+    "cohort_np_shots": 8847,
+    "source_duplicate_rows": 12,
+    "season_scope": [
+      "2025"
+    ],
+    "appearance_date_range": [
+      "2025-08-15",
+      "2026-05-24"
+    ],
+    "null_assisted_player_events": 5688
+  },
+  "latest_results": {
+    "en": "results/en/20261004T165302398283Z",
+    "ko": "results/ko/20261004T165302398230Z"
+  },
+  "ppt_sha256": "28ae5b70afbc69523be6361776d7c6e459a05d186c4f027ebb42a478be100d32"
+}

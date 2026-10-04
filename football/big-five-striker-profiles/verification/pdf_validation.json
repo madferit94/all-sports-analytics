@@ -1,0 +1,112 @@
+{
+  "status": "pass",
+  "pages": 13,
+  "checks": [
+    {
+      "page": 1,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 2,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 3,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 4,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 5,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 6,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 7,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 8,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 9,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 10,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 11,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 12,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "page": 13,
+      "rgb_pixels_identical": true,
+      "size": [
+        1600,
+        900
+      ]
+    }
+  ],
+  "method": "Decoded PDF image RGB pixels compared with final PPTX first-party renders; no separate native PowerPoint app execution",
+  "sha256": "7fa30c409d25f5c6821dc2b9b4b3d624b9b32af204020034007b1cfeb9865d6e"
+}

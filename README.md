@@ -54,17 +54,15 @@ A 2026 FIFA World Cup prediction workflow using historical international matches
 
 ---
 
+### ⚽ Beyond Goals — Big Five Striker Profiles, 2025/26
+
+* **Question:** How do shot volume, chance quality and scoring conversion differ across striker profiles?
+* **Status:** Descriptive analysis, bilingual scripts/executed notebooks and a 13-slide English deck complete; 77 saved-data/analysis/PPT checks pass.
+* **Coverage:** 181 validated central-forward candidates; 8,847 non-penalty shots. Context and league strength are not adjusted.
+* **Project:** [English](football/big-five-striker-profiles/README.md) · [한국어](football/big-five-striker-profiles/README.ko.md)
+* **View:** [LinkedIn PDF](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [Analysis code and notebooks](football/big-five-striker-profiles/analysis)
+
 ## 🚧 Upcoming & Planned Projects
-
-### ⚽ Big Five Striker Profiles — 2025/26
-
-A player-profile dataset for comparing non-penalty shot frequency with average non-penalty shot quality across Europe's five major leagues.
-
-* **Question:** Which central-forward candidates shoot frequently, and which receive or select higher-xG chances per attempt?
-* **Status:** Data collection and validation complete; profiling analysis and contextual interpretation are next.
-* **Coverage:** 1,752 fixtures, 1,013 detailed player responses and 181 validated candidates with at least 900 minutes; 12 source-affected player-league rows excluded.
-* **Project:** [English documentation](football/big-five-striker-profiles/README.md) · [한국어 문서](football/big-five-striker-profiles/README.ko.md)
-* **Reproducibility:** Published CSVs can be verified offline with Python's standard library; raw caches remain local.
 
 ### ⚽ K League 1 2026: World Cup Break Analysis
 

@@ -1,0 +1,5 @@
+﻿player_name,league,team,profile_group,minutes,non_penalty_shots,non_penalty_goals,npshots_per90,npxg_per_shot,conversion_pct,goals_minus_npxg
+Hugo Ekitike,EPL,Liverpool,high_volume_high_quality,1835,65,11,3.188010899182561,0.1835721233573097,16.923076923076923,-0.9321880182251316
+Ante Budimir,La_liga,Osasuna,high_volume_low_quality,2995,95,11,2.8547579298831387,0.1394267800901281,11.578947368421053,-2.2455441085621715
+Rasmus Højlund,Serie_A,Napoli,low_volume_high_quality,2784,59,12,1.9073275862068968,0.2127296014420562,20.33898305084746,-0.5510464850813168
+Mateo Pellegrino,Serie_A,Parma Calcio 1913,low_volume_low_quality,3012,72,8,2.151394422310757,0.127062636324101,11.11111111111111,-1.1485098153352737

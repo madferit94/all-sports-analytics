@@ -1,0 +1,22 @@
+Beyond Goals: Comparing Striker Shot Profiles
+
+How do strikers differ in shot volume, chance quality and scoring conversion?
+
+I explored 181 central-forward candidates across Europe’s Big Five leagues using a saved 2025/26 Understat dataset. The analysis compares non-penalty shots per 90 minutes, non-penalty xG per shot and actual scoring conversion.
+
+I also compared each league’s leading scorer in the complete saved player table. Among these five players:
+- Kylian Mbappé had the highest non-penalty shot volume: 4.70 shots per 90.
+- Erling Haaland had the highest average non-penalty xG per shot: 0.213.
+- Esteban Lepaul scored 5.31 more non-penalty goals than his shot xG predicted in this season.
+
+The visual report also explores four illustrative striker profiles, their shot locations, body-part composition and match-to-match variation.
+
+These are descriptive comparisons. League strength, team context, opposition and game state are not adjusted. A one-season conversion gap does not establish persistent finishing skill.
+
+Data: Understat, snapshot saved 3 October 2026.
+Data collection and validation code:
+https://github.com/madferit94/all-sports-analytics/tree/main/football/big-five-striker-profiles
+
+Python implementation and presentation were developed with AI assistance, with data joins and key calculations checked against the saved records.
+
+#FootballAnalytics #DataAnalytics #Python #SportsAnalytics #ExpectedGoals

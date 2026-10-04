@@ -41,17 +41,15 @@ NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션
 - **주요 노트북:** [2026Worldcup predict.ipynb](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb)
 - **데이터 패키지:** [kaggle_dataset](football/worldcup-2026-prediction/kaggle_dataset)
 
+### ⚽ Beyond Goals — 유럽 5대 리그 공격수 프로필, 2025/26
+
+- **질문:** 슈팅 빈도·기회 품질·실제 득점 전환은 선수별로 어떻게 다른가?
+- **상태:** 기술적 분석, 영어·한글 주석 코드와 실행 노트북, 영어 발표 자료 13장 완료. 저장 자료·분석·PPT 교차 검증 77개 통과.
+- **범위:** 검증된 중앙 공격수 후보 181명, 비페널티 슈팅 8,847개. 리그 수준과 경기 맥락은 보정하지 않았습니다.
+- **프로젝트:** [한국어](football/big-five-striker-profiles/README.ko.md) · [English](football/big-five-striker-profiles/README.md)
+- **보기:** [LinkedIn PDF](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [분석 코드·노트북](football/big-five-striker-profiles/analysis)
+
 ## 진행 중인 프로젝트와 후속 계획
-
-### ⚽ 유럽 5대 리그 스트라이커 프로필 — 2025/26
-
-비페널티 슈팅 빈도와 슈팅당 평균 기회 품질을 비교하기 위한 선수 프로필 데이터입니다.
-
-- **질문:** 중앙 공격수 후보 중 누가 슈팅을 자주 기록하며, 누가 더 높은 xG의 기회를 얻거나 선택하는가?
-- **상태:** 데이터 수집·검증 완료. 산점도 분석과 경기 맥락에 따른 해석은 다음 단계입니다.
-- **범위:** 1,752경기, 상세 선수 1,013명, 최소 900분 기준을 충족하고 검증을 통과한 후보 181명. 원천 중복 문제의 영향을 받은 선수·리그 기록 12행은 제외했습니다.
-- **프로젝트:** [한국어 문서](football/big-five-striker-profiles/README.ko.md) · [English documentation](football/big-five-striker-profiles/README.md)
-- **재현:** 공개 CSV는 Python 표준 라이브러리만으로 오프라인 검증할 수 있습니다. 원본 캐시는 로컬에 보존합니다.
 
 ### ⚽ K리그 1 2026 월드컵 휴식기 분석
 
@@ -86,7 +84,7 @@ NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션
 - **시각화:** Matplotlib, Seaborn, Plotly.
 - **앱:** Streamlit.
 
-프로젝트에 따라 사용하는 도구가 다릅니다. 스트라이커 데이터 수집·검증에는 외부 패키지가 필요 없습니다.
+프로젝트에 따라 사용하는 도구가 다릅니다. 스트라이커 데이터 수집·CSV 검증은 표준 라이브러리를 사용하며, 분석·발표 교차 검증은 별도 requirements를 확인하세요.
 
 ## 저장소 구성
 

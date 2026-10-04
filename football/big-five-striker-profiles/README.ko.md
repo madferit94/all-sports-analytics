@@ -1,4 +1,4 @@
-# 유럽 5대 리그 스트라이커 데이터 — 2025/26
+# Beyond Goals — 유럽 5대 리그 공격수 프로필, 2025/26
 
 [English](README.md) | [한국어](README.ko.md)
 
@@ -12,7 +12,19 @@
 
 xG는 각 슈팅이 득점으로 이어질 가능성을 추정한 값입니다. 두 축으로 슈팅 빈도와 모델이 추정한 평균 기회 품질을 구분하고, 서로 다른 유형의 선수를 선정해 경기 맥락을 추가 검토하려 합니다. 선수의 전체 능력이나 영입 적합성을 확정하는 지표는 아닙니다.
 
-**현재 단계:** 데이터 수집과 검증 완료. 산점도 분석, 경기 맥락을 고려한 해석과 스카우팅 결론은 다음 단계입니다. 아래 숫자는 데이터 확보 현황이며 축구 분석 결과가 아닙니다.
+**현재 단계:** 수집·기술적 분석·영한 학습 자료·영어 가로형 발표 자료 13장 제작 완료. 저장 원본·분석·PPT 교차 검증 77개 항목을 통과했습니다. 경기 맥락과 선수 종합 능력을 확정한 분석은 아닙니다.
+
+## 분석과 발표 자료부터 보기
+
+- [한국어 분석 안내](analysis/README.ko.md) · [English analysis guide](analysis/README.md)
+- Python: [한국어 주석](analysis/scripts/ko/01_striker_shot_profiles.py) · [English comments](analysis/scripts/en/01_striker_shot_profiles.py)
+- 실행된 주피터: [한국어](analysis/notebooks/ko/01_striker_shot_profiles.ipynb) · [English](analysis/notebooks/en/01_striker_shot_profiles.ipynb)
+- [LinkedIn 게시용 영어 PDF](presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [편집용 PowerPoint](presentation/Beyond_Goals_EN_Landscape_verified.pptx)
+- [검증 안내](verification/README.ko.md) · [상세 검증 보고서](verification/report.ko.md)
+
+최종 분석은 선수 181명의 비페널티 슈팅 8,847개를 사용합니다. 슈팅 빈도, 모델이 추정한 기회 품질, 실제 득점 전환을 구분하고 리그 분포·지표 상위 선수·리그별 대표·네 가지 유형·경기별 변동을 비교합니다.
+
+리그별 대표는 비페널티 슈팅 50회 이상인 분석 후보 중 비페널티 xG/90 최고 선수인 홀란드, 레반도프스키, 케인, 크르스토비치, 오바메양입니다. 전체 대상의 두 지표 상위 25% 선수 7명, 네 가지 유형의 사례 4명과는 선정 목적과 기준이 다릅니다. 선수 종합 능력 순위가 아닙니다.
 
 ## 수집 결과
 

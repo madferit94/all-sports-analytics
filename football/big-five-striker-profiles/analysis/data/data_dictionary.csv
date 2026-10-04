@@ -1,0 +1,50 @@
+﻿field,unit_or_type,definition,origin
+league,string,Understat competition code; cross-league transfers remain separate rows,source
+season,string,Starting year; 2025 denotes 2025/26,source
+player_id,string,Understat player identifier; join on this rather than name,source
+player_name,string,Unmodified provider name,source
+team,string,Provider league-season team label; may contain multiple teams,source
+source_position_group,string,Broad league position flags; F is not necessarily central forward,source
+minutes,minutes,Total player minutes within the scoped league season,source
+appearances,count,Number of league appearances,source
+goals,count,Source goals including penalties,source
+non_penalty_goals,count,Source npg; goals excluding scored penalties,source
+shots,count,Source shot attempts including penalties,source
+penalty_attempts,count,Count of all shot events labeled Penalty; includes misses,derived
+non_penalty_shots,count,Count of shot events excluding Penalty situations and OwnGoal results,derived
+xg,expected goals,Source aggregate expected goals including penalties,source
+npxg,expected goals,Source aggregate non-penalty expected goals,source
+shot_sum_xg,expected goals,"Sum of shot xG within the league season, excluding OwnGoal events",derived
+shot_sum_npxg,expected goals,Sum of shot xG excluding Penalty situations and OwnGoal results,derived
+npshots_per90,shots per 90 minutes,non_penalty_shots / minutes * 90; proposed x axis,derived
+npxg_per_shot,expected goals per shot,shot_sum_npxg / non_penalty_shots; proposed y axis,derived
+npxg_per90,expected goals per 90 minutes,shot_sum_npxg / minutes * 90,derived
+primary_known_position,string,Recorded non-Sub position with most attributed match minutes,derived
+cf_assigned_minutes,minutes,Sum of minutes in match records labeled exactly FW; not tracked tactical minutes,derived
+known_position_minutes,minutes,Sum of match minutes with a position code other than Sub,derived
+sub_position_minutes,minutes,Sum of minutes labeled Sub; actual role unknown,derived
+known_position_share,fraction 0-1,known_position_minutes / minutes,derived
+cf_share_known_position,fraction 0-1,cf_assigned_minutes / known_position_minutes,derived
+role_classification,string,central_forward_candidate; other_forward_or_mixed_role; insufficient_known_position,derived
+eligible_900_minutes,boolean,Total league-season minutes at least 900; not a source criterion,derived
+qc_pass,boolean,All nine source-to-detail and source-duplicate checks passed,derived
+source_url,URL,Player page for checking source evidence,source
+shot_events.id,string,Globally unique Understat shot identifier,source
+shot_events.situation,string,Penalty/OpenPlay/FromCorner/SetPiece/DirectFreekick as supplied,source
+shot_events.X / Y,fraction 0-1,Normalized source shot coordinates; preserve source orientation,source
+shot_events.is_penalty,boolean,True exactly when situation equals Penalty,derived
+player_match_records.position,string,Recorded match position after duplicate appearance handling; Sub is not a tactical role,source
+appearances_match,boolean,Detailed appearance count equals source league games,validation
+minutes_match,boolean,Detailed minutes sum equals source league minutes,validation
+shots_match,boolean,Attacking shot-event count excluding OwnGoal equals source league shots and detailed match shots,validation
+xg_match,boolean,Shot xG sum matches source league xG within tolerance,validation
+npxg_match,boolean,Non-penalty shot xG sum matches source npxG within tolerance,validation
+goals_match,boolean,Goal-event count matches source league goals,validation
+npg_match,boolean,Non-penalty Goal-event count matches source league npg,validation
+position_minutes_match,boolean,All position-attributed minutes sum to league minutes,validation
+own_goal_event_count,count,Number of OwnGoal entries retained in event data but excluded from attacking shot metrics,derived
+shot_events.counts_as_attempt,boolean,False exactly when result is OwnGoal; use True rows for attacking shot metrics,derived
+source_duplicate_appearance_rows,count,Number of extra appearances identical except for roster_id; affected league-player rows excluded from default scatter,derived
+unique_appearance_count,count,Number of distinct match IDs after duplicate appearance handling,derived
+unique_appearance_minutes,minutes,Minutes summed once per unique appearance; original source minutes remain in minutes,derived
+no_source_duplicate_appearances,boolean,True when no duplicate source appearance was found in this league-player season,validation

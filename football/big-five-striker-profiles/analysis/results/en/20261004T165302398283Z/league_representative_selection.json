@@ -1,0 +1,77 @@
+{
+  "metric": "npxg_per90",
+  "formula": "npshots_per90 * npxg_per_shot",
+  "minimum_minutes": 900,
+  "minimum_np_shots": 50,
+  "selection": "maximum within each league",
+  "tie_break": "minutes descending, player_id ascending",
+  "difference_from_global_standouts": "Does not require both metrics to exceed the pooled Q75 thresholds.",
+  "players": [
+    {
+      "league": "EPL",
+      "season": 2025,
+      "player_id": 8260,
+      "player_name": "Erling Haaland",
+      "team": "Manchester City",
+      "minutes": 2979,
+      "non_penalty_shots": 121,
+      "npshots_per90": 3.6555891238670695,
+      "npxg_per_shot": 0.2128153781614397,
+      "npxg_per90": 0.7779655817986165,
+      "league_npxg90_rank": 1
+    },
+    {
+      "league": "La_liga",
+      "season": 2025,
+      "player_id": 227,
+      "player_name": "Robert Lewandowski",
+      "team": "Barcelona",
+      "minutes": 1630,
+      "non_penalty_shots": 60,
+      "npshots_per90": 3.312883435582822,
+      "npxg_per_shot": 0.2306161943202217,
+      "npxg_per90": 0.764004570140612,
+      "league_npxg90_rank": 1
+    },
+    {
+      "league": "Bundesliga",
+      "season": 2025,
+      "player_id": 647,
+      "player_name": "Harry Kane",
+      "team": "Bayern Munich",
+      "minutes": 2385,
+      "non_penalty_shots": 108,
+      "npshots_per90": 4.0754716981132075,
+      "npxg_per_shot": 0.1967077960725873,
+      "npxg_per90": 0.8016770556920542,
+      "league_npxg90_rank": 1
+    },
+    {
+      "league": "Serie_A",
+      "season": 2025,
+      "player_id": 12008,
+      "player_name": "Nikola Krstovic",
+      "team": "Atalanta",
+      "minutes": 1781,
+      "non_penalty_shots": 99,
+      "npshots_per90": 5.002807411566535,
+      "npxg_per_shot": 0.1583331778099892,
+      "npxg_per90": 0.7921103954446962,
+      "league_npxg90_rank": 1
+    },
+    {
+      "league": "Ligue_1",
+      "season": 2025,
+      "player_id": 318,
+      "player_name": "Pierre-Emerick Aubameyang",
+      "team": "Marseille",
+      "minutes": 2074,
+      "non_penalty_shots": 60,
+      "npshots_per90": 2.6036644165863065,
+      "npxg_per_shot": 0.2587645836484929,
+      "npxg_per90": 0.6737361387183518,
+      "league_npxg90_rank": 1
+    }
+  ],
+  "limits": "Within-cohort expected shot production, not overall ability, chance creation for teammates or league-adjusted quality."
+}
