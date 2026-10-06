@@ -1,0 +1,52 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "analysis",
+    "producer_id": "/root/data_analysis",
+    "status": "DONE",
+    "summary": "해당 경기 양 팀 최근 5경기 승무패·득실·xG·홈원정 표본을 실제 계산. 예측 확률 없음.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/analysis/recent_form.json",
+        "description": "계산 입력 경기 목록과 팀별 집계"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/analysis/README.md",
+        "description": "해석과 사용 제한"
+      }
+    ],
+    "issues": [
+      "Only 5 league matches per team; opponent strength not adjusted.",
+      "Auxiliary context is descriptive and never converted into probabilities.",
+      "Source timestamps are unverified; source calendar dates retained.",
+      "Market values dated 2026-06-01 are historical estimates, not October values."
+    ],
+    "observed_at": "2026-10-06T06:34:50.258722+00:00"
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "analysis",
+    "producer_id": "/root/data_analysis",
+    "status": "DONE",
+    "summary": "해당 경기 양 팀 최근 5경기 승무패·득실·xG·홈원정 표본을 실제 계산. 예측 확률 없음.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/analysis/recent_form.json",
+        "description": "계산 입력 경기 목록과 팀별 집계"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/analysis/README.md",
+        "description": "해석과 사용 제한"
+      }
+    ],
+    "issues": [
+      "Only 5 league matches per team; opponent strength not adjusted.",
+      "Auxiliary context is descriptive and never converted into probabilities.",
+      "Source timestamps are unverified; source calendar dates retained.",
+      "Market values dated 2026-06-01 are historical estimates, not October values."
+    ],
+    "observed_at": "2026-10-06T06:34:50.258722+00:00"
+  }
+]

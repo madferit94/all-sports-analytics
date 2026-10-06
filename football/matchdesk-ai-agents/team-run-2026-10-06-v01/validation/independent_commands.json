@@ -1,0 +1,31 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T06:34:47.941945+00:00",
+  "commands": [
+    {
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\context_cli.py",
+        "validate",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\trends\\records.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"records\": 25,\n  \"passed\": true,\n  \"errors\": [],\n  \"provider_truth_certified\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_context_valid_and_wrong_team (test_team.TeamTests.test_context_valid_and_wrong_team) ... ok\ntest_dependency_graph_and_skill_exports (test_team.TeamTests.test_dependency_graph_and_skill_exports) ... ok\ntest_independent_gate_and_tampering (test_team.TeamTests.test_independent_gate_and_tampering) ... ok\ntest_lineup_predicted_is_not_confirmed (test_team.TeamTests.test_lineup_predicted_is_not_confirmed) ... ok\ntest_market_value_date_currency_required (test_team.TeamTests.test_market_value_date_currency_required) ... ok\ntest_missing_does_not_mean_zero (test_team.TeamTests.test_missing_does_not_mean_zero) ... ok\ntest_missing_model_cannot_approve_prediction (test_team.TeamTests.test_missing_model_cannot_approve_prediction) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.155s\n\nOK\n"
+    }
+  ]
+}

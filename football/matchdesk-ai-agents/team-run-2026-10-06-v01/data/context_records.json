@@ -1,0 +1,1049 @@
+[
+  {
+    "record_id": "team-run-2026-10-06-v01-83-lineup-1",
+    "kind": "lineup",
+    "team_key": "understat:83",
+    "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+    "observed_at": "2026-10-06T06:31:06.975547+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_lineup.txt",
+    "match_key": "understat:31224",
+    "lineup_type": "CONFIRMED",
+    "players": [
+      {
+        "name": "D Raya",
+        "starter": true
+      },
+      {
+        "name": "J Timber",
+        "starter": true
+      },
+      {
+        "name": "E Konsa",
+        "starter": true
+      },
+      {
+        "name": "Gabriel",
+        "starter": true
+      },
+      {
+        "name": "R Calafiori",
+        "starter": true
+      },
+      {
+        "name": "D Rice",
+        "starter": true
+      },
+      {
+        "name": "B Guimarães",
+        "starter": true
+      },
+      {
+        "name": "B Saka",
+        "starter": true
+      },
+      {
+        "name": "M Ødegaard",
+        "starter": true
+      },
+      {
+        "name": "C Tzolis",
+        "starter": true
+      },
+      {
+        "name": "K Havertz",
+        "starter": true
+      }
+    ],
+    "name_note": "Provider display names preserved; no universal player ID mapping yet."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-83-formation-2",
+    "kind": "formation",
+    "team_key": "understat:83",
+    "source_url": "https://www.fotmob.com/en-GB/matches/arsenal-vs-brighton-hove-albion/3bfk5g?player=167008",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_fotmob_excerpt.json",
+    "match_key": "understat:31224",
+    "formation": "4-2-3-1",
+    "formation_type": "NOMINAL_START",
+    "note": "Source nominal starting shape; not observed in-play tactical positions."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-83-lineup-3",
+    "kind": "lineup",
+    "team_key": "understat:83",
+    "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:31230",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-83-formation-4",
+    "kind": "formation",
+    "team_key": "understat:83",
+    "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:31230",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-lineup-5",
+    "kind": "lineup",
+    "team_key": "understat:245",
+    "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+    "observed_at": "2026-10-06T06:31:07.211983+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_lineup.txt",
+    "match_key": "understat:31225",
+    "lineup_type": "CONFIRMED",
+    "players": [
+      {
+        "name": "James Trafford",
+        "starter": true
+      },
+      {
+        "name": "James Justin",
+        "starter": true
+      },
+      {
+        "name": "Nico Elvedi",
+        "starter": true
+      },
+      {
+        "name": "Tarik Muharemović",
+        "starter": true
+      },
+      {
+        "name": "Jayden Bogle",
+        "starter": true
+      },
+      {
+        "name": "Anton Stach",
+        "starter": true
+      },
+      {
+        "name": "Ethan Ampadu",
+        "starter": true
+      },
+      {
+        "name": "Ao Tanaka",
+        "starter": true
+      },
+      {
+        "name": "Gabriel Gudmundsson",
+        "starter": true
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "starter": true
+      },
+      {
+        "name": "Noah Okafor",
+        "starter": true
+      }
+    ],
+    "name_note": "Provider display names preserved; no universal player ID mapping yet."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-formation-6",
+    "kind": "formation",
+    "team_key": "understat:245",
+    "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+    "observed_at": "2026-10-06T06:31:07.211983+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_lineup.txt",
+    "match_key": "understat:31225",
+    "formation": "3-5-2",
+    "formation_type": "NOMINAL_START",
+    "note": "Source nominal starting shape; not observed in-play tactical positions."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-lineup-7",
+    "kind": "lineup",
+    "team_key": "understat:245",
+    "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:31230",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-formation-8",
+    "kind": "formation",
+    "team_key": "understat:245",
+    "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:31230",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-lineup-9",
+    "kind": "lineup",
+    "team_key": "understat:137",
+    "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+    "observed_at": "2026-10-06T06:32:16.351877+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_sky_lineup.txt",
+    "match_key": "understat:30835",
+    "lineup_type": "CONFIRMED",
+    "players": [
+      {
+        "name": "A Herrero",
+        "starter": true
+      },
+      {
+        "name": "R Garrido",
+        "starter": true
+      },
+      {
+        "name": "Á Recio",
+        "starter": true
+      },
+      {
+        "name": "J Berrocal",
+        "starter": true
+      },
+      {
+        "name": "J Salinas",
+        "starter": true
+      },
+      {
+        "name": "R Rodríguez",
+        "starter": true
+      },
+      {
+        "name": "D Larrubia",
+        "starter": true
+      },
+      {
+        "name": "C Dotor",
+        "starter": true
+      },
+      {
+        "name": "D Lorenzo",
+        "starter": true
+      },
+      {
+        "name": "J Muñoz",
+        "starter": true
+      },
+      {
+        "name": "E Jauregi Escobar",
+        "starter": true
+      }
+    ],
+    "name_note": "Provider display names preserved; no universal player ID mapping yet."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-formation-10",
+    "kind": "formation",
+    "team_key": "understat:137",
+    "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-getafe-cf-malaga-cf-7",
+    "observed_at": "2026-10-06T06:31:08.413633+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_lineup.txt",
+    "match_key": "understat:30835",
+    "formation": "4-1-4-1",
+    "formation_type": "NOMINAL_START",
+    "note": "Source nominal starting shape; not observed in-play tactical positions."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-lineup-11",
+    "kind": "lineup",
+    "team_key": "understat:137",
+    "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:30845",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-formation-12",
+    "kind": "formation",
+    "team_key": "understat:137",
+    "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:30845",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-lineup-13",
+    "kind": "lineup",
+    "team_key": "understat:141",
+    "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+    "observed_at": "2026-10-06T06:31:14.089754+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_lineup.txt",
+    "match_key": "understat:30834",
+    "lineup_type": "CONFIRMED",
+    "players": [
+      {
+        "name": "Dmitrovic",
+        "starter": true
+      },
+      {
+        "name": "Cabrera",
+        "starter": true
+      },
+      {
+        "name": "R. Hinojo",
+        "starter": true
+      },
+      {
+        "name": "Nuñez",
+        "starter": true
+      },
+      {
+        "name": "Jose Angel",
+        "starter": true
+      },
+      {
+        "name": "Edu Expósito",
+        "starter": true
+      },
+      {
+        "name": "Javi H.",
+        "starter": true
+      },
+      {
+        "name": "Urko",
+        "starter": true
+      },
+      {
+        "name": "Bryan",
+        "starter": true
+      },
+      {
+        "name": "Cala",
+        "starter": true
+      },
+      {
+        "name": "Roberto",
+        "starter": true
+      }
+    ],
+    "name_note": "Provider display names preserved; no universal player ID mapping yet."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-formation-14",
+    "kind": "formation",
+    "team_key": "understat:141",
+    "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+    "observed_at": "2026-10-06T06:31:14.089754+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_lineup.txt",
+    "match_key": "understat:30834",
+    "formation": "4-2-3-1",
+    "formation_type": "NOMINAL_START",
+    "note": "Source nominal starting shape; not observed in-play tactical positions."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-lineup-15",
+    "kind": "lineup",
+    "team_key": "understat:141",
+    "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:30845",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-formation-16",
+    "kind": "formation",
+    "team_key": "understat:141",
+    "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "fact_status": "UNKNOWN",
+    "collection_status": "MISSING",
+    "target_match_key": "understat:30845",
+    "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-83-squad-17",
+    "kind": "squad",
+    "team_key": "understat:83",
+    "source_url": "https://www.transfermarkt.com/fc_arsenal/startseite/verein/11",
+    "observed_at": "2026-10-06T06:31:20.198057+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_value.txt",
+    "effective_date": "2026-10-06",
+    "players": [
+      {
+        "name": "David Raya",
+        "position": "Goalkeeper",
+        "shirt_number": 1
+      },
+      {
+        "name": "Illan Meslier",
+        "position": "Goalkeeper",
+        "shirt_number": 30
+      },
+      {
+        "name": "Kepa Arrizabalaga",
+        "position": "Goalkeeper",
+        "shirt_number": 13
+      },
+      {
+        "name": "William Saliba",
+        "position": "Centre-Back",
+        "shirt_number": 2
+      },
+      {
+        "name": "Gabriel",
+        "position": "Centre-Back",
+        "shirt_number": 6
+      },
+      {
+        "name": "Piero Hincapié",
+        "position": "Centre-Back",
+        "shirt_number": 5
+      },
+      {
+        "name": "Ezri Konsa",
+        "position": "Centre-Back",
+        "shirt_number": 15
+      },
+      {
+        "name": "Cristhian Mosquera",
+        "position": "Centre-Back",
+        "shirt_number": 3
+      },
+      {
+        "name": "Riccardo Calafiori",
+        "position": "Left-Back",
+        "shirt_number": 33
+      },
+      {
+        "name": "Jurriën Timber",
+        "position": "Right-Back",
+        "shirt_number": 12
+      },
+      {
+        "name": "Ben White",
+        "position": "Right-Back",
+        "shirt_number": 4
+      },
+      {
+        "name": "Martín Zubimendi",
+        "position": "Defensive Midfield",
+        "shirt_number": 36
+      },
+      {
+        "name": "Myles Lewis-Skelly",
+        "position": "Defensive Midfield",
+        "shirt_number": 49
+      },
+      {
+        "name": "Declan Rice",
+        "position": "Central Midfield",
+        "shirt_number": 41
+      },
+      {
+        "name": "Bruno Guimarães",
+        "position": "Central Midfield",
+        "shirt_number": 39
+      },
+      {
+        "name": "Mikel Merino",
+        "position": "Central Midfield",
+        "shirt_number": 23
+      },
+      {
+        "name": "Martin Ødegaard",
+        "position": "Attacking Midfield",
+        "shirt_number": 8
+      },
+      {
+        "name": "Eberechi Eze",
+        "position": "Attacking Midfield",
+        "shirt_number": 10
+      },
+      {
+        "name": "Christos Tzolis",
+        "position": "Left Winger",
+        "shirt_number": 17
+      },
+      {
+        "name": "Bukayo Saka",
+        "position": "Right Winger",
+        "shirt_number": 7
+      },
+      {
+        "name": "Noni Madueke",
+        "position": "Right Winger",
+        "shirt_number": 20
+      },
+      {
+        "name": "Max Dowman",
+        "position": "Right Winger",
+        "shirt_number": 56
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "position": "Centre-Forward",
+        "shirt_number": 14
+      },
+      {
+        "name": "Kai Havertz",
+        "position": "Centre-Forward",
+        "shirt_number": 29
+      }
+    ],
+    "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+    "source_grade": "PROVIDER_ROSTER"
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-squad-18",
+    "kind": "squad",
+    "team_key": "understat:245",
+    "source_url": "https://www.leedsunited.com/en/teams/mens",
+    "observed_at": "2026-10-06T06:30:58.577534+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_squad.txt",
+    "effective_date": "2026-10-06",
+    "players": [
+      {
+        "name": "James Trafford",
+        "position": "Goalkeeper",
+        "shirt_number": 1
+      },
+      {
+        "name": "Jayden Bogle",
+        "position": "Defender",
+        "shirt_number": 2
+      },
+      {
+        "name": "Gabriel Gudmundsson",
+        "position": "Defender",
+        "shirt_number": 3
+      },
+      {
+        "name": "Ethan Ampadu",
+        "position": "Midfielder",
+        "shirt_number": 4
+      },
+      {
+        "name": "Tarik Muharemovic",
+        "position": "Defender",
+        "shirt_number": 5
+      },
+      {
+        "name": "Joe Rodon",
+        "position": "Defender",
+        "shirt_number": 6
+      },
+      {
+        "name": "Daniel James",
+        "position": "Forward",
+        "shirt_number": 7
+      },
+      {
+        "name": "Sean Longstaff",
+        "position": "Midfielder",
+        "shirt_number": 8
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "position": "Forward",
+        "shirt_number": 9
+      },
+      {
+        "name": "Harry Wilson",
+        "position": "Forward",
+        "shirt_number": 10
+      },
+      {
+        "name": "Brenden Aaronson",
+        "position": "Forward",
+        "shirt_number": 11
+      },
+      {
+        "name": "Lukas Nmecha",
+        "position": "Forward",
+        "shirt_number": 14
+      },
+      {
+        "name": "Jaka Bijol",
+        "position": "Defender",
+        "shirt_number": 15
+      },
+      {
+        "name": "Anton Stach",
+        "position": "Midfielder",
+        "shirt_number": 18
+      },
+      {
+        "name": "Noah Okafor",
+        "position": "Forward",
+        "shirt_number": 19
+      },
+      {
+        "name": "Alex Cairns",
+        "position": "Goalkeeper",
+        "shirt_number": 21
+      },
+      {
+        "name": "Ao Tanaka",
+        "position": "Midfielder",
+        "shirt_number": 22
+      },
+      {
+        "name": "James Justin",
+        "position": "Defender",
+        "shirt_number": 24
+      },
+      {
+        "name": "Nico Elvedi",
+        "position": "Defender",
+        "shirt_number": 30
+      },
+      {
+        "name": "Sam Chambers",
+        "position": "Midfielder",
+        "shirt_number": 42
+      },
+      {
+        "name": "Ilia Gruev",
+        "position": "Midfielder",
+        "shirt_number": 44
+      },
+      {
+        "name": "Rhys Chadwick",
+        "position": "Midfielder",
+        "shirt_number": 47
+      },
+      {
+        "name": "Rory Mahady",
+        "position": "Goalkeeper",
+        "shirt_number": 48
+      },
+      {
+        "name": "Darryl Ombang",
+        "position": "Goalkeeper",
+        "shirt_number": 49
+      },
+      {
+        "name": "Alfie Cresswell",
+        "position": "Defender",
+        "shirt_number": 50
+      },
+      {
+        "name": "Jayden Lienou",
+        "position": "Defender",
+        "shirt_number": 65
+      },
+      {
+        "name": "Callum Mills",
+        "position": "Midfielder",
+        "shirt_number": 72
+      },
+      {
+        "name": "Jean-Mattéo Bahoya",
+        "position": "Forward",
+        "shirt_number": null
+      },
+      {
+        "name": "Melvin Bard",
+        "position": "Defender",
+        "shirt_number": null
+      },
+      {
+        "name": "Michael Zetterer",
+        "position": "Goalkeeper",
+        "shirt_number": null
+      }
+    ],
+    "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+    "source_grade": "OFFICIAL_CLUB_ROSTER"
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-squad-19",
+    "kind": "squad",
+    "team_key": "understat:137",
+    "source_url": "https://www.malagacf.com/malaga-club-de-futbol",
+    "observed_at": "2026-10-06T06:31:04.393566+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_squad.txt",
+    "effective_date": "2026-10-06",
+    "players": [
+      {
+        "name": "A. Herrero",
+        "position": "Porteros",
+        "shirt_number": 1
+      },
+      {
+        "name": "Carlos López",
+        "position": "Portero",
+        "shirt_number": 13
+      },
+      {
+        "name": "C. Puga",
+        "position": "Defensa",
+        "shirt_number": 3
+      },
+      {
+        "name": "Einar",
+        "position": "Defensa",
+        "shirt_number": 4
+      },
+      {
+        "name": "Pastor",
+        "position": "Defensa",
+        "shirt_number": 5
+      },
+      {
+        "name": "Salinas",
+        "position": "Defensas",
+        "shirt_number": 12
+      },
+      {
+        "name": "Recio",
+        "position": "Defensas",
+        "shirt_number": 15
+      },
+      {
+        "name": "Murillo",
+        "position": "Defensa",
+        "shirt_number": 16
+      },
+      {
+        "name": "F. Calero",
+        "position": "Defensas",
+        "shirt_number": 20
+      },
+      {
+        "name": "J. Berrocal",
+        "position": "Defensas",
+        "shirt_number": 25
+      },
+      {
+        "name": "Rafita",
+        "position": "Defensas",
+        "shirt_number": 31
+      },
+      {
+        "name": "Aznou",
+        "position": "Defensas",
+        "shirt_number": 39
+      },
+      {
+        "name": "Cajuste",
+        "position": "Centrocampistas",
+        "shirt_number": 2
+      },
+      {
+        "name": "Ramón",
+        "position": "Centrocampista",
+        "shirt_number": 6
+      },
+      {
+        "name": "Dotor",
+        "position": "Centrocampista",
+        "shirt_number": 8
+      },
+      {
+        "name": "D. Larrubia",
+        "position": "Centrocampista",
+        "shirt_number": 10
+      },
+      {
+        "name": "Rafa R.",
+        "position": "Centrocampista",
+        "shirt_number": 14
+      },
+      {
+        "name": "Martínez",
+        "position": "Centrocampistas",
+        "shirt_number": 18
+      },
+      {
+        "name": "Dani Lorenzo",
+        "position": "Centrocampista",
+        "shirt_number": 22
+      },
+      {
+        "name": "Izan M.",
+        "position": "Centrocampista",
+        "shirt_number": 23
+      },
+      {
+        "name": "Aaron Ochoa",
+        "position": "Centrocampista",
+        "shirt_number": 35
+      },
+      {
+        "name": "Haitam",
+        "position": "Delantero",
+        "shirt_number": 7
+      },
+      {
+        "name": "Chupe",
+        "position": "Delantero",
+        "shirt_number": 9
+      },
+      {
+        "name": "Joaquín",
+        "position": "Delantero",
+        "shirt_number": 11
+      },
+      {
+        "name": "Jauregi",
+        "position": "Delantero",
+        "shirt_number": 17
+      },
+      {
+        "name": "Cruz",
+        "position": "Delanteros",
+        "shirt_number": 19
+      },
+      {
+        "name": "Niño",
+        "position": "Delantero",
+        "shirt_number": 21
+      },
+      {
+        "name": "Lobete",
+        "position": "Delantero",
+        "shirt_number": 24
+      }
+    ],
+    "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+    "source_grade": "OFFICIAL_CLUB_ROSTER"
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-squad-20",
+    "kind": "squad",
+    "team_key": "understat:141",
+    "source_url": "https://www.rcdespanyol.com/en/teams/rcd-espanyol/1",
+    "observed_at": "2026-10-06T06:31:00.248479+00:00",
+    "fact_status": "CONFIRMED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_squad.txt",
+    "effective_date": "2026-10-06",
+    "players": [
+      {
+        "name": "Àngel Fortuño",
+        "position": "Goalkeeper",
+        "shirt_number": 1
+      },
+      {
+        "name": "Dmitrović",
+        "position": "Goalkeeper",
+        "shirt_number": 13
+      },
+      {
+        "name": "Gorosabel",
+        "position": "Defender",
+        "shirt_number": 2
+      },
+      {
+        "name": "Quilindschy",
+        "position": "Defender",
+        "shirt_number": 3
+      },
+      {
+        "name": "Riedel",
+        "position": "Defender",
+        "shirt_number": 5
+      },
+      {
+        "name": "Cabrera",
+        "position": "Defender",
+        "shirt_number": 6
+      },
+      {
+        "name": "Nuñez",
+        "position": "Defender",
+        "shirt_number": 14
+      },
+      {
+        "name": "Drkušić",
+        "position": "Defender",
+        "shirt_number": 16
+      },
+      {
+        "name": "Hinojo",
+        "position": "Defender",
+        "shirt_number": 21
+      },
+      {
+        "name": "El Hilali",
+        "position": "Defender",
+        "shirt_number": 23
+      },
+      {
+        "name": "Urko",
+        "position": "Midfielder",
+        "shirt_number": 4
+      },
+      {
+        "name": "Edu Expósito",
+        "position": "Midfielder",
+        "shirt_number": 8
+      },
+      {
+        "name": "Pol Lozano",
+        "position": "Midfielder",
+        "shirt_number": 10
+      },
+      {
+        "name": "Moscardo",
+        "position": "Midfielder",
+        "shirt_number": 20
+      },
+      {
+        "name": "Cala",
+        "position": "Midfielder",
+        "shirt_number": 22
+      },
+      {
+        "name": "Bauza",
+        "position": "Midfielder",
+        "shirt_number": 26
+      },
+      {
+        "name": "Javi Hdez.",
+        "position": "Midfielder",
+        "shirt_number": 28
+      },
+      {
+        "name": "Puado",
+        "position": "Striker",
+        "shirt_number": 7
+      },
+      {
+        "name": "Roberto",
+        "position": "Striker",
+        "shirt_number": 9
+      },
+      {
+        "name": "Pere Milla",
+        "position": "Striker",
+        "shirt_number": 11
+      },
+      {
+        "name": "Bryan",
+        "position": "Striker",
+        "shirt_number": 15
+      },
+      {
+        "name": "Jofre",
+        "position": "Striker",
+        "shirt_number": 17
+      },
+      {
+        "name": "Marcos",
+        "position": "Striker",
+        "shirt_number": 18
+      },
+      {
+        "name": "Kike G.",
+        "position": "Striker",
+        "shirt_number": 19
+      },
+      {
+        "name": "Dolan",
+        "position": "Striker",
+        "shirt_number": 24
+      }
+    ],
+    "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+    "source_grade": "OFFICIAL_CLUB_ROSTER"
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-83-market_value-21",
+    "kind": "market_value",
+    "team_key": "understat:83",
+    "source_url": "https://www.transfermarkt.com/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2026-06-01/plus/1",
+    "observed_at": "2026-10-06T06:32:15.316923+00:00",
+    "fact_status": "ESTIMATED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/pl_dated_values.txt",
+    "valuation_date": "2026-06-01",
+    "amount": 1230000000,
+    "currency": "EUR",
+    "valuation_scope": "SQUAD",
+    "squad_size_at_valuation": 24,
+    "displayed_value": "€1.23bn",
+    "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+    "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-245-market_value-22",
+    "kind": "market_value",
+    "team_key": "understat:245",
+    "source_url": "https://www.transfermarkt.com/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2026-06-01/plus/1",
+    "observed_at": "2026-10-06T06:32:15.316923+00:00",
+    "fact_status": "ESTIMATED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/pl_dated_values.txt",
+    "valuation_date": "2026-06-01",
+    "amount": 346030000,
+    "currency": "EUR",
+    "valuation_scope": "SQUAD",
+    "squad_size_at_valuation": 26,
+    "displayed_value": "€346.03m",
+    "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+    "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-137-market_value-23",
+    "kind": "market_value",
+    "team_key": "understat:137",
+    "source_url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+    "observed_at": "2026-10-06T06:31:22.131122+00:00",
+    "fact_status": "ESTIMATED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+    "valuation_date": "2026-06-01",
+    "amount": 27200000,
+    "currency": "EUR",
+    "valuation_scope": "SQUAD",
+    "squad_size_at_valuation": 29,
+    "displayed_value": "€27.20m",
+    "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+    "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+  },
+  {
+    "record_id": "team-run-2026-10-06-v01-141-market_value-24",
+    "kind": "market_value",
+    "team_key": "understat:141",
+    "source_url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+    "observed_at": "2026-10-06T06:31:22.131122+00:00",
+    "fact_status": "ESTIMATED",
+    "collection_status": "COLLECTED",
+    "evidence_path": "team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+    "valuation_date": "2026-06-01",
+    "amount": 124200000,
+    "currency": "EUR",
+    "valuation_scope": "SQUAD",
+    "squad_size_at_valuation": 23,
+    "displayed_value": "€124.20m",
+    "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+    "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+  }
+]

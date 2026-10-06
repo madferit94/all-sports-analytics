@@ -1,0 +1,1098 @@
+{
+  "version": "0.2.0",
+  "public_export": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "951c6f393e6cb5118aae1e85acff1f0fca6aaee5aac706d39559c548aab3ef94",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 78,
+      "sha256": "f68a2aabb4da0bbca09da646ef17e7453d1b20a84d84a27bdef7b4d2f63344c5",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
+      "bytes": 1575,
+      "sha256": "f627c62ce129fe66750d3c4bb6beedfc8136318ad482a14529592563f6c54fa4",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-approval/SKILL.md",
+      "bytes": 1638,
+      "sha256": "59f9ec1ffccaf19a299748bd024921e61cfed92ba9a6f206a7219907ca567edd",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-data/SKILL.md",
+      "bytes": 1956,
+      "sha256": "c0647093cf0547bc8b191a411d60f21ed6d081d479f80bfb66ec552bca596941",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-manager/SKILL.md",
+      "bytes": 1436,
+      "sha256": "4d86b631440f2788925f62c1051061626dd6f6b298f9e403457ba8b1289d1379",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-model-evaluation/SKILL.md",
+      "bytes": 1654,
+      "sha256": "31e2a44a73b2e9b40100779e9a4185e2849d2591cf2a913da0cd38d9caabc3be",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-operations/SKILL.md",
+      "bytes": 1545,
+      "sha256": "4cea48646a9eb5b4a522f2ad682ff2c7634436a10480ad2f7b5ee6438d66601c",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-prediction/SKILL.md",
+      "bytes": 1580,
+      "sha256": "364cd71187841f6342d458337a77bac9e649a00a671735754278c8219778ec0d",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-trends/SKILL.md",
+      "bytes": 1603,
+      "sha256": "863d5d97647407a53006a19be523802ded5ee487f765b9cd6d249c971fdcb44b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-validation/SKILL.md",
+      "bytes": 1607,
+      "sha256": "e44cd8976b8b347dde62008a7583a20e1e602b3676a535fca16a73b29508b9e2",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-visualization/SKILL.md",
+      "bytes": 1492,
+      "sha256": "5d94a3c5c623ed9ed5e1dc8853c55d5a8f1c08e014f99ccb5fd7d5000719f6c8",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-analysis.md",
+      "bytes": 1081,
+      "sha256": "ad9ec1ed24243dab870890849400514f516c700f628aa1d5b596decdc78b0def",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-approval.md",
+      "bytes": 1167,
+      "sha256": "eadfcce23e68c0552ec78eb53172b3950b9f4e14ea3d57274a62e4c4fd84b579",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-data.md",
+      "bytes": 1484,
+      "sha256": "262fda41b969e9644ae93e7d1de378cb78b51b49cf210cdc012460a084c48c92",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-manager.md",
+      "bytes": 946,
+      "sha256": "6a047081c59ebdad3cd114763d5beddbbbc8be0e2daeadd85b733950f7fe639b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-model-evaluation.md",
+      "bytes": 1173,
+      "sha256": "853f9fa75270018fa48af744c2ff43cf8b1d432d3aeef8c8e5514cd38c2c4a7f",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-operations.md",
+      "bytes": 1042,
+      "sha256": "6bdeb1af9f398ba66edfe3c0981fbaf046574c46f5fded42d228affc6c96a340",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-prediction.md",
+      "bytes": 1086,
+      "sha256": "99008c4bf2af9b461578b19844d8a001acf7f0ca676a5c908fa949b1cf6cc8d1",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-trends.md",
+      "bytes": 1091,
+      "sha256": "a8d4ded50d2450e7216f7341ec680337633be72f3db9d3ebd879aa49e228084c",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-validation.md",
+      "bytes": 1155,
+      "sha256": "58d46a9f1a215c23198ce701700724a53c33f737f3a4043949ee555f7273e92f",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/agents/matchdesk-visualization.md",
+      "bytes": 985,
+      "sha256": "06c5ca096a5e6978625005e1274df9e904ac914e07d6a4542099e342d6320764",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-analysis/SKILL.md",
+      "bytes": 1575,
+      "sha256": "f627c62ce129fe66750d3c4bb6beedfc8136318ad482a14529592563f6c54fa4",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-approval/SKILL.md",
+      "bytes": 1638,
+      "sha256": "59f9ec1ffccaf19a299748bd024921e61cfed92ba9a6f206a7219907ca567edd",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-data/SKILL.md",
+      "bytes": 1956,
+      "sha256": "c0647093cf0547bc8b191a411d60f21ed6d081d479f80bfb66ec552bca596941",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-manager/SKILL.md",
+      "bytes": 1436,
+      "sha256": "4d86b631440f2788925f62c1051061626dd6f6b298f9e403457ba8b1289d1379",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-model-evaluation/SKILL.md",
+      "bytes": 1654,
+      "sha256": "31e2a44a73b2e9b40100779e9a4185e2849d2591cf2a913da0cd38d9caabc3be",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-operations/SKILL.md",
+      "bytes": 1545,
+      "sha256": "4cea48646a9eb5b4a522f2ad682ff2c7634436a10480ad2f7b5ee6438d66601c",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-prediction/SKILL.md",
+      "bytes": 1580,
+      "sha256": "364cd71187841f6342d458337a77bac9e649a00a671735754278c8219778ec0d",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-trends/SKILL.md",
+      "bytes": 1603,
+      "sha256": "863d5d97647407a53006a19be523802ded5ee487f765b9cd6d249c971fdcb44b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-validation/SKILL.md",
+      "bytes": 1607,
+      "sha256": "e44cd8976b8b347dde62008a7583a20e1e602b3676a535fca16a73b29508b9e2",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/.claude/skills/matchdesk-visualization/SKILL.md",
+      "bytes": 1492,
+      "sha256": "5d94a3c5c623ed9ed5e1dc8853c55d5a8f1c08e014f99ccb5fd7d5000719f6c8",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/AGENTS.md",
+      "bytes": 1097,
+      "sha256": "fa88e1b0af88fbe40aa36d0053110faa3dd63727e251d530911fe4cfa38f7d43",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/CLAUDE.md",
+      "bytes": 1097,
+      "sha256": "fa88e1b0af88fbe40aa36d0053110faa3dd63727e251d530911fe4cfa38f7d43",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/context-data-contract.json",
+      "bytes": 1773,
+      "sha256": "5e4d52b4a811789492a2a2b8abdd8940f99a96ef69b33b133d885cd7e7fbe121",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/README.md",
+      "bytes": 7045,
+      "sha256": "65935ae8b1f19d3743440499bb5d9d7c55e997577c0be0822db08e8505d8a937",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/report-contract.json",
+      "bytes": 563,
+      "sha256": "9482c505befafd1833a21f24ec809e123959fd2bc344fd64cf64b8aa1069bfb8",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/analysis.md",
+      "bytes": 762,
+      "sha256": "0d61f98f65672966870ea94f9233efa7e7d90c2ec6078800dcfa2ad135e9fa96",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/approval.md",
+      "bytes": 853,
+      "sha256": "7b559af84248b5ee850ebe31d0e425d3203ad09e25714188368201d90b8eaad0",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/data.md",
+      "bytes": 1131,
+      "sha256": "a03f9649618afa722530e9bd7b4213ba98edea96c5cb67b53194923a80139d99",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/manager.md",
+      "bytes": 641,
+      "sha256": "a7550c1e008f4611e541129aa2159725b97855c7773138652aa7c59c5cda932b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/model-evaluation.md",
+      "bytes": 839,
+      "sha256": "e9c6412392e2fde042605ffa7fa670a56631d75a174bfe2c1ff32f4176fcd902",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/operations.md",
+      "bytes": 726,
+      "sha256": "7d2af2994b94c6b6183afb0398f185d07087aa3e2f63b5ca1abd597ac3934f66",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/prediction.md",
+      "bytes": 766,
+      "sha256": "0056aa2b64b11c3be2a2607807734c67bb0dfb5376fdcefa6cbf56b1cdc5f0ce",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/trends.md",
+      "bytes": 781,
+      "sha256": "9fecb775b34033bd235f91cad0553c25042d6b11641b1d43f88daee718c7af6d",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/validation.md",
+      "bytes": 856,
+      "sha256": "95af8bcef04811aebac8345975a4f57322a4a48dbd569098c245b0a246a4559f",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/roles/visualization.md",
+      "bytes": 686,
+      "sha256": "a56c06d27d9037e0dcad20168f376876d310e5522f3bcd9d942506d3be77b300",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skill-format-check.json",
+      "bytes": 875,
+      "sha256": "68bd80a4e70a9b21e3a917a8130d00d18fb7b42dd616cceae03ffc0f6513f7da",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-analysis/SKILL.md",
+      "bytes": 1575,
+      "sha256": "f627c62ce129fe66750d3c4bb6beedfc8136318ad482a14529592563f6c54fa4",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-approval/SKILL.md",
+      "bytes": 1638,
+      "sha256": "59f9ec1ffccaf19a299748bd024921e61cfed92ba9a6f206a7219907ca567edd",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-data/SKILL.md",
+      "bytes": 1956,
+      "sha256": "c0647093cf0547bc8b191a411d60f21ed6d081d479f80bfb66ec552bca596941",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-manager/SKILL.md",
+      "bytes": 1436,
+      "sha256": "4d86b631440f2788925f62c1051061626dd6f6b298f9e403457ba8b1289d1379",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-model-evaluation/SKILL.md",
+      "bytes": 1654,
+      "sha256": "31e2a44a73b2e9b40100779e9a4185e2849d2591cf2a913da0cd38d9caabc3be",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-operations/SKILL.md",
+      "bytes": 1545,
+      "sha256": "4cea48646a9eb5b4a522f2ad682ff2c7634436a10480ad2f7b5ee6438d66601c",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-prediction/SKILL.md",
+      "bytes": 1580,
+      "sha256": "364cd71187841f6342d458337a77bac9e649a00a671735754278c8219778ec0d",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-trends/SKILL.md",
+      "bytes": 1603,
+      "sha256": "863d5d97647407a53006a19be523802ded5ee487f765b9cd6d249c971fdcb44b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-validation/SKILL.md",
+      "bytes": 1607,
+      "sha256": "e44cd8976b8b347dde62008a7583a20e1e602b3676a535fca16a73b29508b9e2",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/skills/matchdesk-visualization/SKILL.md",
+      "bytes": 1492,
+      "sha256": "5d94a3c5c623ed9ed5e1dc8853c55d5a8f1c08e014f99ccb5fd7d5000719f6c8",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/source-routing.json",
+      "bytes": 1266,
+      "sha256": "cb37e3399a91fed2c7c2211cd1c107034343f914b445d318c6e2be080be4ee5a",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/TEAM-PROTOCOL.md",
+      "bytes": 2623,
+      "sha256": "8dc34d9b9a166e70492145992b3ffb9cc959a2b98b1b8f5981c2827f2fc061ac",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/team.json",
+      "bytes": 3710,
+      "sha256": "8c90a90bd27037656fdccd3cfa9bbafce97e1cace8faa798a362fb2c2c7e2b4b",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tests/test_team.py",
+      "bytes": 4435,
+      "sha256": "b757aff26c4e7de195c8fa6eb79080e2a44a0a1d70d84ae3a887b7dc5accfb8c",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/approval_gate.py",
+      "bytes": 3961,
+      "sha256": "63d22b7cb49e65aaa4852fa8c08087ed2be185812806da0a9b489289cde0f199",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/context_cli.py",
+      "bytes": 5071,
+      "sha256": "8a8149181b94fcd46a381fb022aadf8f807962c75a103d2496e011af58da9c0a",
+      "snapshot": "0.1.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.agents/skills/matchdesk-analyst/SKILL.md",
+      "bytes": 1254,
+      "sha256": "30c8096e38d68cffdd05dd2c49cf4e4383fcea96db60f77b827303bf5ec38c7b",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.agents/skills/matchdesk-builder/SKILL.md",
+      "bytes": 1179,
+      "sha256": "c5d559847f1c07d157579f3996234eebaada73da4d2781eba5f29f12e6bf7863",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.agents/skills/matchdesk-director/SKILL.md",
+      "bytes": 1168,
+      "sha256": "96d0931a88b209c37526d876dd663dc7e64c0aa17202ce91aad8b7354bfb9163",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.agents/skills/matchdesk-research/SKILL.md",
+      "bytes": 1162,
+      "sha256": "50b22acfb45bc9db1bd163a61bb0a71429993fe53f63cb8262b7dd48fae7bd1e",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.agents/skills/matchdesk-reviewer/SKILL.md",
+      "bytes": 1263,
+      "sha256": "7455413d13eb828c895144b3767cd837e40ec8207db2811515721631720f1610",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/agents/matchdesk-analyst.md",
+      "bytes": 219,
+      "sha256": "991cf8113113a99c61a7ecd3e8e38de3d9abdc816ba578fbf392bbbb42ca700c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/agents/matchdesk-builder.md",
+      "bytes": 219,
+      "sha256": "6566fa4b0595a84f21c5cdafdb7c445daf67ffddd09e0e9548e6dec175150e3c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/agents/matchdesk-director.md",
+      "bytes": 229,
+      "sha256": "c0b6dfc06ce59674bdb62fa393651c59f050042a1a1c789b82bdd3697abef87a",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/agents/matchdesk-research.md",
+      "bytes": 232,
+      "sha256": "ad3c99d813ab126b5b465eff11a05dc65c93d67aa3041f72241209ccc7508133",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/agents/matchdesk-reviewer.md",
+      "bytes": 236,
+      "sha256": "108e9cc310a01df9819272bd305103db81070f07f9378c89539f8af6a35a3c04",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/skills/matchdesk-analyst/SKILL.md",
+      "bytes": 1254,
+      "sha256": "30c8096e38d68cffdd05dd2c49cf4e4383fcea96db60f77b827303bf5ec38c7b",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/skills/matchdesk-builder/SKILL.md",
+      "bytes": 1179,
+      "sha256": "c5d559847f1c07d157579f3996234eebaada73da4d2781eba5f29f12e6bf7863",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/skills/matchdesk-director/SKILL.md",
+      "bytes": 1168,
+      "sha256": "96d0931a88b209c37526d876dd663dc7e64c0aa17202ce91aad8b7354bfb9163",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/skills/matchdesk-research/SKILL.md",
+      "bytes": 1162,
+      "sha256": "50b22acfb45bc9db1bd163a61bb0a71429993fe53f63cb8262b7dd48fae7bd1e",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/.claude/skills/matchdesk-reviewer/SKILL.md",
+      "bytes": 1263,
+      "sha256": "7455413d13eb828c895144b3767cd837e40ec8207db2811515721631720f1610",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/agent-report-contract.json",
+      "bytes": 333,
+      "sha256": "854dfa80ead68094e45a0f2e3953e2a47db9d09ffcdc6a897de526875a33d927",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/AGENTS.md",
+      "bytes": 808,
+      "sha256": "65fd72b5eb283393e091d32afccb467f89d000a6566952e6a741fde70b218c26",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/CLAUDE.md",
+      "bytes": 808,
+      "sha256": "65fd72b5eb283393e091d32afccb467f89d000a6566952e6a741fde70b218c26",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/context-data-contract.json",
+      "bytes": 1773,
+      "sha256": "5e4d52b4a811789492a2a2b8abdd8940f99a96ef69b33b133d885cd7e7fbe121",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/package-check.json",
+      "bytes": 1336,
+      "sha256": "b7e1bf6ea3fc4fce991bb71d755750c4f2f391a2f5e978ed651c70a83c37c82d",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/README.md",
+      "bytes": 2237,
+      "sha256": "5eb7e3093ed289c13da35cb307e6dddb3343fdfadd96d1be31574bf4506c02fb",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/report-contract.json",
+      "bytes": 563,
+      "sha256": "9482c505befafd1833a21f24ec809e123959fd2bc344fd64cf64b8aa1069bfb8",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/roles/analyst.md",
+      "bytes": 2853,
+      "sha256": "edb0d4f394cdeaea5473e56ca03c8dba6a6ebc86ebbd5ed67eb95302455919ac",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/roles/builder.md",
+      "bytes": 1552,
+      "sha256": "4059a566c52ffac1fb3581770a0ec07e5033e0ea803aa7875e6c2c44339645cc",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/roles/director.md",
+      "bytes": 3821,
+      "sha256": "8a9c34594ae44fe792cc275cd2a4b34ff30dc3d562eb046828189c515d82d79c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/roles/research.md",
+      "bytes": 3099,
+      "sha256": "fb382b6482f41371c1c7d62b616b4524c754948ecafa738123dd178628b421ec",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/roles/reviewer.md",
+      "bytes": 2948,
+      "sha256": "a60922cd449169661420f96d33b3e37e6c5291168fafe2b9c9f88b8b311fd2e0",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-analyst/SKILL.md",
+      "bytes": 1254,
+      "sha256": "30c8096e38d68cffdd05dd2c49cf4e4383fcea96db60f77b827303bf5ec38c7b",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-builder/SKILL.md",
+      "bytes": 1179,
+      "sha256": "c5d559847f1c07d157579f3996234eebaada73da4d2781eba5f29f12e6bf7863",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-director/SKILL.md",
+      "bytes": 1168,
+      "sha256": "96d0931a88b209c37526d876dd663dc7e64c0aa17202ce91aad8b7354bfb9163",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-research/SKILL.md",
+      "bytes": 1162,
+      "sha256": "50b22acfb45bc9db1bd163a61bb0a71429993fe53f63cb8262b7dd48fae7bd1e",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-reviewer/SKILL.md",
+      "bytes": 1263,
+      "sha256": "7455413d13eb828c895144b3767cd837e40ec8207db2811515721631720f1610",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/source-routing.json",
+      "bytes": 1266,
+      "sha256": "cb37e3399a91fed2c7c2211cd1c107034343f914b445d318c6e2be080be4ee5a",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/TEAM-PROTOCOL.md",
+      "bytes": 2252,
+      "sha256": "0f8cacfbc728cf39dc00a2d3d2b67331b0833a74dd36b4b8b24054c6fed4d4d4",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/team.json",
+      "bytes": 2544,
+      "sha256": "a4618e91a458e4720dbbec797e784548d5cf739b434fa7a927eafd20f863b509",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/tests/test_integrated.py",
+      "bytes": 3500,
+      "sha256": "5399258c7a3331143b4582e182f6e7178edcb86d3fad686dac62d66cdaecb127",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/tools/approval_gate.py",
+      "bytes": 3961,
+      "sha256": "63d22b7cb49e65aaa4852fa8c08087ed2be185812806da0a9b489289cde0f199",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/tools/context_cli.py",
+      "bytes": 5071,
+      "sha256": "8a8149181b94fcd46a381fb022aadf8f807962c75a103d2496e011af58da9c0a",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/tools/integrated_gate.py",
+      "bytes": 2839,
+      "sha256": "a85c2a9eae83fcc348fe8f70769d218fdc1221bb0e5f7c048d2390eeb289cd0f",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "agent-team-integrated-2026-10-06-v01/verify_package.py",
+      "bytes": 1484,
+      "sha256": "76140a8a38e9d59645aab7d7e58d0826b33b9384a7d02c73e027d02805479d5d",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1025,
+      "sha256": "76b2fc540da5a3cf7bea57f5d15a3ba17713937cd8640bab9e73b0469ce213c8",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "dataset_selection_2026-10-06-v01.json",
+      "bytes": 425,
+      "sha256": "939ab1192aab489f4d184a1da6cc36fbccdacc95116dad2a4feb4b0b39e2f2f0",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "docs/VERSIONING.md",
+      "bytes": 1270,
+      "sha256": "361e909c1affaefc81c05707ea0b268ea55e681ca9e3add6f81f6c2f24cbaf42",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "README.ko.md",
+      "bytes": 5462,
+      "sha256": "d95f0ef9bdd298fe24b6855765a9c4e397ac732e81dae7def0ec993d3c8c5861",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5160,
+      "sha256": "b0db1f52b933cc5beb5e45b9eb1daffe97efb97fd07bfb965de2c855fdc115d7",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "source-unified-2026-10-06-v01/completed_matches.csv",
+      "bytes": 7183,
+      "sha256": "680fdda25d0770e2317c1fe59f0642c1b0db06212e551cc3c020f9d2b688c7bf",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "source-unified-2026-10-06-v01/README.md",
+      "bytes": 718,
+      "sha256": "163cc115b9b50c93f01ee4ed942e6729836f1dbf4ec40f7a93010c229c03bc48",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "source-unified-2026-10-06-v01/scheduled_matches.csv",
+      "bytes": 1194,
+      "sha256": "b7bddeab4137f314264925055431bcf27a175c04436e43cbd855188047305f5f",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "source-unified-2026-10-06-v01/source_policy.json",
+      "bytes": 1184,
+      "sha256": "47792de01ac57de80f39c8c20eedfcdbf33d4d656b2d5f410b88e0e49a81683a",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/analysis/README.md",
+      "bytes": 2477,
+      "sha256": "669caf41590cc1f3346b06df4c0f6266177381f18cd36dc31a5d917e29445202",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/analysis/recent_form.json",
+      "bytes": 14085,
+      "sha256": "96798202023aede82a237ab7107b328e58cda1541ffc143e230108fa5341e139",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/analysis/reports.json",
+      "bytes": 2071,
+      "sha256": "ab80dfc1ae6d628eacb14e2f9b71c7f553ddd5ce10c8e6aa8698a7f878f98e6c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-analysis-bundle.json",
+      "bytes": 11353,
+      "sha256": "26dada0536dc10b6d8bb0b2cf0dac7c1e2765232b0dc1f6e02acb00759637018",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-analysis-gate.json",
+      "bytes": 728,
+      "sha256": "6ff7a24b951510c4795d6eac1110f9e7b78e438a54795e5bae687fc231b860ee",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-analysis-v03-bundle.json",
+      "bytes": 11340,
+      "sha256": "52e1f01708ad180c61ae48cc96a124faaadff17aec1f8252af5898d65dc19570",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-analysis-v03-gate.json",
+      "bytes": 698,
+      "sha256": "804eff3ac224b21bfec60018bf6c672abd57118c7cd2921bcbf43dc4c6a18a58",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-prediction-bundle.json",
+      "bytes": 11355,
+      "sha256": "fdba2684f18dc7e32313017c31e9c7c683c4a15333dd072a7d478b456351754c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-prediction-gate.json",
+      "bytes": 864,
+      "sha256": "e2643d698ddbcbdc33e3038d86235afd0dd5a6c2bd266f57b47e758401923ad5",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-prediction-v03-bundle.json",
+      "bytes": 11342,
+      "sha256": "ba6470e48d08368fd12385015ef671b7629f25d3d9a2852383393a5bd3586694",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-prediction-v03-gate.json",
+      "bytes": 834,
+      "sha256": "2c908cf85326f8a6ce3cab937f8d391f37a373e165b3b083a0a8376c619e43e8",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-web-bundle.json",
+      "bytes": 11348,
+      "sha256": "4f6639b4f9145657a662e64d057d0c60adc480980744be8205e99b98b6233d5a",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-web-gate.json",
+      "bytes": 843,
+      "sha256": "e94738931c575d1d86c661fbeb74db1550b300264b4f418954e8a3f088f9a2e0",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-web-v03-bundle.json",
+      "bytes": 11335,
+      "sha256": "1c3a7f8697f556cb474538cdce2959100da23443077c6f1195cc83bb88e91171",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/30845-web-v03-gate.json",
+      "bytes": 813,
+      "sha256": "47d6606156e26c083d3ddad458ff3778b49c5b264c5c7bed7ee91b7d13658116",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-analysis-bundle.json",
+      "bytes": 11076,
+      "sha256": "e560eb3befb12c49f4815e7b03f5b7cc33a7e757fe102771b02f15397a09e751",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-analysis-gate.json",
+      "bytes": 728,
+      "sha256": "311205ce586f186a45b12802eed9df57e750418fb126ea7cd7a4e593994cfba2",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-analysis-v03-bundle.json",
+      "bytes": 11063,
+      "sha256": "7333ef42422a3f11b1e53c99a9ff59d3b58d74ec56f8218066d5e735fdb99043",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-analysis-v03-gate.json",
+      "bytes": 698,
+      "sha256": "4b1ff0ac9ff8a11c8883ddd177ac3567a93a23254e105bb72149a63dd082ad2c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-prediction-bundle.json",
+      "bytes": 11078,
+      "sha256": "aae33d79f3e1608134dc7dac52c221b05ad81dfdd70da0b0fce132e18c4e7058",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-prediction-gate.json",
+      "bytes": 864,
+      "sha256": "5f7a3665deb47ccfd619e6bfaf9c7f6db9eff884d2eac7fdbc31e7d6f4a4e97f",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-prediction-v03-bundle.json",
+      "bytes": 11065,
+      "sha256": "afe9169cd35f7774701c9295ad92356f37af08a0d733fd2a4de23f14d464aadc",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-prediction-v03-gate.json",
+      "bytes": 834,
+      "sha256": "40bb94bbdcfdecc433453dcfc60ae0fc4b3d61aec78c18756368a15d43514b96",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-web-bundle.json",
+      "bytes": 11071,
+      "sha256": "e487d14d9f74a04b37187bfeffae2236394ff919f6abf77bf354c51d0c76aa89",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-web-gate.json",
+      "bytes": 843,
+      "sha256": "4944a2aa33db203e5e6d848f7c0b3dc2e38a94e298345fbaa3bb602c694c612f",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-web-v03-bundle.json",
+      "bytes": 11058,
+      "sha256": "791c2f516b2ef561d8e919a79d3f940eb8e5c7a4104dba6bd8902713e2d93f42",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/31230-web-v03-gate.json",
+      "bytes": 813,
+      "sha256": "8dde325e0bf542326fb868b39de4298b6ce6cf104d9d7dfcb6fbb8129b160c12",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/decision.md",
+      "bytes": 5099,
+      "sha256": "0b8fd1c4fb2938d60765cd3a0fe4312b6a44fd7a4749959176f243b500ae28e3",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/gate-results.json",
+      "bytes": 5746,
+      "sha256": "84635eca772c8019630c2b463e729079c7c80a3c7dd7578725a1785f2ba13eb4",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/reports.json",
+      "bytes": 2749,
+      "sha256": "05a00caaf98356a37a99ee60e48a441b5e8fdfcef9f4768155e2aa9f5f3e3718",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/visualization-v03-addendum.md",
+      "bytes": 2021,
+      "sha256": "43db2c4d162798686914bc07ef4fc3fe2f4801a2d940eb9532b82f2502331801",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/approval/visualization-v03-review.json",
+      "bytes": 5735,
+      "sha256": "352d03ba4f30c742686d6d38294bb5e0a2b1c6c9c5e84c3a66d3a1263ea8b1c4",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/collection_summary.json",
+      "bytes": 347,
+      "sha256": "3ac213a0af36d0e03b0160009a8eba69fd6ac3de6e59d0fb83de789e9216f532",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/context_records.json",
+      "bytes": 30973,
+      "sha256": "3a237cd7e14c726930227da54a1e9db841605a270ad767612a82ae3abc76c16d",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/context_validation.json",
+      "bytes": 95,
+      "sha256": "a7d078de91900fcda35748a74a5010ed61c15944221b1407ad8cfdf657a94d72",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/dated_source_manifest.json",
+      "bytes": 598,
+      "sha256": "ed7e17245b108b607b278a37a8e573c0becbd7730dcfa9b4770b4a06a9bdbf42",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/README.md",
+      "bytes": 3496,
+      "sha256": "e6a1480022ba5bb04c27491679476527f9955bfdbe9388e183049c8bc9bde128",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/reports.json",
+      "bytes": 3265,
+      "sha256": "61a92f7408b09d6a6e033287c3ee858dbdaaa61776e39a3a720013ba1406b806",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/data/source_manifest.json",
+      "bytes": 4956,
+      "sha256": "f4594774ef8ad97065ac340e2805120ca58492fb76f389221cf0678596389b89",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/manager/reports.json",
+      "bytes": 977,
+      "sha256": "c41d563fbd63cb98ee4e4143cccfced29e7b05bce8080783b4233fba84a0947b",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/manager/request.json",
+      "bytes": 3112,
+      "sha256": "72fa76f5acea8d4024ef76a3e068782453e4d3f024b2b4516e2f5e3f3e9d4ccc",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/model-evaluation/implementation_recheck.json",
+      "bytes": 975,
+      "sha256": "ad67998b97d6af3c0eda4ed7c0c613f042a035cbff2ce3ae91133eec5d0e15c2",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/model-evaluation/reports.json",
+      "bytes": 2185,
+      "sha256": "13c0d07a01f2f8d345db6c5b7e5e3ce86c6b023d9e39fee1f8923ee02fc2bff3",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/operations/environment.json",
+      "bytes": 743,
+      "sha256": "06c1fbbd49a709a3042763bcbe238407165c76ded2d65690d97a7276b41bb635",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/operations/reports.json",
+      "bytes": 1391,
+      "sha256": "ebb1eb75046c8e374c9fe7a716746c25005640467ab95ae9a165d4d40257d7dc",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+      "bytes": 1080,
+      "sha256": "15d4c7e9737df755f1a2d1b9df1dc8654626d1005943ddb5ea87dc0d785f63c6",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/prediction/reports.json",
+      "bytes": 1021,
+      "sha256": "270f156d88d5b4745b16de25f31a116d648003f24031e3a86d070c2342c1e031",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/README.md",
+      "bytes": 4825,
+      "sha256": "da44ea331e4fcdff48804a5f5b37883d9895efeb0a2b512c7873c8df516fe496",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/trends/records.json",
+      "bytes": 15150,
+      "sha256": "45493eb54460e15f703239a3d4ea149e4f85229543fe48d0478b1afc0aff2ae3",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/trends/report.md",
+      "bytes": 2954,
+      "sha256": "cf79ead1dba54bb51d63bf3866cb6bd7d336fdf055a57a95e742c62677d97dba",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/trends/reports.json",
+      "bytes": 3045,
+      "sha256": "8ccc92c49dcb704c0e8cfcd96da5ebcb8bf142f71ad0b416cc28c2a7d7eec563",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "bytes": 135,
+      "sha256": "1913025d3c9da9895beca26cb0bab610829e9395bce6db713d91d25f199bc8d7",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/trends/validation.json",
+      "bytes": 95,
+      "sha256": "77b29f17103a5a85781eedd8d64ab59529eac73a63f2fadebd704db6a3f3b0a5",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/comparison-v02.json",
+      "bytes": 45016,
+      "sha256": "8910358ba636aa98a1b83f4de6db2fb43d47192e81e045a50661cdce15910994",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+      "bytes": 1682,
+      "sha256": "e4473b11a3e89339df6df186b968329ea30dfd81c8d66c1fef9a74e48085d88c",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/independent_recent5.json",
+      "bytes": 7666,
+      "sha256": "10a2f1cc579a75e3cde44b43d68d4165714e93154dd076a16ac118e28d6a90e2",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/reports.json",
+      "bytes": 5350,
+      "sha256": "9b3f24eaef5be35cb8907fa7b07d0fbf15d9c91b2b90117e931655a0bce17df0",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/source_rechecks.json",
+      "bytes": 2153,
+      "sha256": "8f58673de693cf5b791449cfbc1e27cd2a072ab31c301d81b5e9e04f9e279367",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+      "bytes": 5769,
+      "sha256": "4cd2b3f6b8121e35a297d38c0a6e70312083b51b0cb3454571db17cec87a5bf4",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/final-v03-check.jpg",
+      "bytes": 61878,
+      "sha256": "30139e9e86bc81815d611b9fd843b454c35bb3d20968fc5bab7edf406c4eb7aa",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/index-v03.html",
+      "bytes": 54408,
+      "sha256": "a2c4092163720a04d4545823d0feca3925b9d4bb1c738ecbc224c5cce9052b21",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/reports-v03.json",
+      "bytes": 1539,
+      "sha256": "dbe007b27b4f1d895fb82b6a87e8bb807814f36be4189a3d1a9bb27c9362afab",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/ui-check-v03.json",
+      "bytes": 1122,
+      "sha256": "3461904d27fcecda7511879e6681b324c526b060e518014b0ae1d42b588e0a07",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/ui-check.json",
+      "bytes": 2092,
+      "sha256": "80d44ae26352452d506f52d38a8c5907d53d91f197a01610c180b553bc4d0976",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team-run-2026-10-06-v01/visualization/view-data-v03.json",
+      "bytes": 63933,
+      "sha256": "dd63a461d7417f4ea2ed9106676288dc5edcacceecc9bbe611d9a01605efdc93",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "team_selection_2026-10-06-v02.json",
+      "bytes": 229,
+      "sha256": "2cdcf005b8b163bc682b7eb5337886cb8b2cd578433450cb297e3c19c810a257",
+      "snapshot": "0.2.0"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 7,
+      "sha256": "c58a749f70f5e1ba5394ebcdbfcfa02fa938c4a173d8e41e6c476a7c8b2acddd",
+      "snapshot": "0.2.0"
+    }
+  ],
+  "fixture_subset_counts": {
+    "completed_matches.csv": 20,
+    "scheduled_matches.csv": 2
+  },
+  "excluded": [
+    "website bodies",
+    "full historical training dataset",
+    "machine-specific run scripts",
+    "credentials",
+    "workshop materials",
+    "root personal work journal"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "required": [
+    "record_id",
+    "kind",
+    "team_key",
+    "source_url",
+    "observed_at",
+    "fact_status",
+    "collection_status"
+  ],
+  "kinds": {
+    "formation": [
+      "match_key",
+      "formation",
+      "formation_type"
+    ],
+    "lineup": [
+      "match_key",
+      "lineup_type",
+      "players"
+    ],
+    "squad": [
+      "effective_date",
+      "players"
+    ],
+    "market_value": [
+      "valuation_date",
+      "amount",
+      "currency",
+      "valuation_scope"
+    ],
+    "availability": [
+      "player_name",
+      "availability_status",
+      "effective_date"
+    ],
+    "coach": [
+      "coach_name",
+      "effective_date"
+    ],
+    "transfer": [
+      "player_name",
+      "effective_date",
+      "transfer_status"
+    ],
+    "news": [
+      "published_at",
+      "headline"
+    ],
+    "rest_days": [
+      "match_key",
+      "previous_match_key",
+      "rest_days",
+      "derivation"
+    ]
+  },
+  "fact_statuses": [
+    "CONFIRMED",
+    "PREDICTED",
+    "REPORTED",
+    "ESTIMATED",
+    "UNKNOWN"
+  ],
+  "collection_statuses": [
+    "COLLECTED",
+    "MISSING",
+    "BLOCKED"
+  ],
+  "missing_rule": "Do not invent values for missing fields; keep status and reason.",
+  "time_rule": "observed_at and published_at include UTC offset. Dates of valuations are separate from observation dates.",
+  "lineup_rule": "players have name and starter boolean; confirmed starting XI has 11 distinct starters; predicted XI must remain PREDICTED",
+  "value_rule": "squad market value, not company value or transfer fee",
+  "usage": "Auxiliary evidence by default. Not prediction features until historical availability and model evaluation are established."
+}

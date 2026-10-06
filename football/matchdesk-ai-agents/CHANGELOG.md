@@ -1,0 +1,17 @@
+# Release history / 변경 이력
+
+## 0.2.0 — 2026-10-06
+
+- Consolidated ten roles into five execution owners; retained independent review and final decision.
+- Added ownership-aware approval adapter, six protocol tests, future-target policy and provider-neutral skills.
+- Published bilingual entry documents, representative viewer and sanitized run evidence.
+- 10역할→5담당 통합, 독립 검증/결재 유지, 담당 검사·6시험·미래경기 정책·영한 문서 추가.
+- Five-agent actual execution, prediction models and automatic refresh remain unimplemented/unverified as documented.
+
+## 0.1.0 — preserved 2026-10-06 snapshot
+
+- Original ten-role package, contracts, validators and seven tests.
+- Actual representative run is archived separately; it predates consolidation.
+- 이전10역할 구성·공통계약·7시험 보존. 실제 대표2경기 실행은 통합이전 배정입니다.
+
+Publication commits are made now; they do not reconstruct or backdate historical Git commits.

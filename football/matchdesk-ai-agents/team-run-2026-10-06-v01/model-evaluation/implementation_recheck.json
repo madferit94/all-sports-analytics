@@ -1,0 +1,28 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T06:35:03.720366+00:00",
+  "inventory": [
+    {
+      "path": "agent-team-2026-10-06-v01/tests/test_team.py",
+      "sha256": "b162127eccef7fd4742ee6c25ec5c7247cd40cd3cd54fa3364e57015ff7242b2"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/approval_gate.py",
+      "sha256": "afcd9a3ebaa249f7d4726f986f6a5fdda73048f5bb290530347505a46207cb8e"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/context_cli.py",
+      "sha256": "e448ac3e93b7623e95817bc45378cf7fe03131be43c65e06b7e5f47d105db372"
+    }
+  ],
+  "inspected_code": [
+    "tools/context_cli.py",
+    "tools/approval_gate.py",
+    "tests/test_team.py"
+  ],
+  "model_implemented": false,
+  "training_evaluation_artifacts_present": false,
+  "probabilities": null,
+  "result": "NOT_IMPLEMENTED",
+  "limitation": "Scoped to portable team package and this run; other unrelated workspace projects not audited."
+}

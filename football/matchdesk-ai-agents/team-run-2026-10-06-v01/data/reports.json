@@ -1,0 +1,80 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "data",
+    "producer_id": "/root/data_analysis",
+    "status": "DONE",
+    "summary": "4팀 중 해당 경기 2팀의 최근 실제 선발/명목 포메이션, 현재 선수단 스냅샷, 2026-06-01 EUR 선수단 시장가치 수집. 미래 선발/포메이션은 MISSING. 기본 출처 정책 유지.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/data/context_records.json",
+        "description": "출처·조회시각·경기키가 포함된 보조 자료"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/context_validation.json",
+        "description": "계약 검사 결과"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/source_manifest.json",
+        "description": "원문 텍스트 경로와 조회 상태"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/dated_source_manifest.json",
+        "description": "기준일 포함 시장가치와 Sky 추가 원문"
+      }
+    ],
+    "issues": [
+      "Future confirmed lineup and formation unavailable.",
+      "Current market values lack explicit valuation date; dated June values used only as historical context.",
+      "Arsenal official men/players returned 404; Transfermarkt roster fallback.",
+      "Arsenal FotMob snapshot stale at 46:32; full-time Sky lineup used, no live score imported."
+    ],
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "tests": [
+      {
+        "name": "context_cli.validate_records",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "data",
+    "producer_id": "/root/data_analysis",
+    "status": "DONE",
+    "summary": "4팀 중 해당 경기 2팀의 최근 실제 선발/명목 포메이션, 현재 선수단 스냅샷, 2026-06-01 EUR 선수단 시장가치 수집. 미래 선발/포메이션은 MISSING. 기본 출처 정책 유지.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/data/context_records.json",
+        "description": "출처·조회시각·경기키가 포함된 보조 자료"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/context_validation.json",
+        "description": "계약 검사 결과"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/source_manifest.json",
+        "description": "원문 텍스트 경로와 조회 상태"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/data/dated_source_manifest.json",
+        "description": "기준일 포함 시장가치와 Sky 추가 원문"
+      }
+    ],
+    "issues": [
+      "Future confirmed lineup and formation unavailable.",
+      "Current market values lack explicit valuation date; dated June values used only as historical context.",
+      "Arsenal official men/players returned 404; Transfermarkt roster fallback.",
+      "Arsenal FotMob snapshot stale at 46:32; full-time Sky lineup used, no live score imported."
+    ],
+    "observed_at": "2026-10-06T06:34:50.258722+00:00",
+    "tests": [
+      {
+        "name": "context_cli.validate_records",
+        "passed": true
+      }
+    ]
+  }
+]

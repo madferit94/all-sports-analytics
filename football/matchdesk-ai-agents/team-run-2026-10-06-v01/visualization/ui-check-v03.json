@@ -1,0 +1,44 @@
+{
+  "run_id": "team-run-2026-10-06-v01",
+  "producer_id": "/root",
+  "artifact": "visualization/index-v03.html",
+  "method": "Real in-app browser navigation, fixture click, visible DOM checks and console errors",
+  "checks": [
+    {
+      "name": "fixture switch",
+      "expected": "Malaga — Espanyol",
+      "actual": "Malaga — Espanyol",
+      "passed": true
+    },
+    {
+      "name": "inferred date warning visible",
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "June value versus October squad warning visible",
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "previous Arsenal content absent",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "undefined absent",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "console errors",
+      "actual": [],
+      "passed": true
+    }
+  ],
+  "screenshot": "visualization/final-v03-check.jpg",
+  "previous_checks": "visualization/ui-check.json",
+  "participant_confirmed": false,
+  "mobile_tested": false,
+  "public_deployment": false
+}

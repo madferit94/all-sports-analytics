@@ -1,0 +1,268 @@
+{
+  "run_id": "team-run-2026-10-06-v01",
+  "match_key": "understat:30845",
+  "mode": "prediction",
+  "reviewer_id": "/root/approval",
+  "reports": {
+    "manager": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "manager",
+      "producer_id": "/root",
+      "status": "DONE",
+      "summary": "대표 경기·출처 정책·담당 범위를 지정하여 실제 하위 에이전트에 배정했습니다.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/manager/request.json",
+          "description": "실행 범위와 실제 대상 경기"
+        }
+      ],
+      "issues": []
+    },
+    "data": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "data",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE",
+      "summary": "4팀 중 해당 경기 2팀의 최근 실제 선발/명목 포메이션, 현재 선수단 스냅샷, 2026-06-01 EUR 선수단 시장가치 수집. 미래 선발/포메이션은 MISSING. 기본 출처 정책 유지.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/data/context_records.json",
+          "description": "출처·조회시각·경기키가 포함된 보조 자료"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/data/context_validation.json",
+          "description": "계약 검사 결과"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/data/source_manifest.json",
+          "description": "원문 텍스트 경로와 조회 상태"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/data/dated_source_manifest.json",
+          "description": "기준일 포함 시장가치와 Sky 추가 원문"
+        }
+      ],
+      "issues": [
+        "Future confirmed lineup and formation unavailable.",
+        "Current market values lack explicit valuation date; dated June values used only as historical context.",
+        "Arsenal official men/players returned 404; Transfermarkt roster fallback.",
+        "Arsenal FotMob snapshot stale at 46:32; full-time Sky lineup used, no live score imported."
+      ],
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "tests": [
+        {
+          "name": "context_cli.validate_records",
+          "passed": true
+        }
+      ]
+    },
+    "trends": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "trends",
+      "producer_id": "/root/trends",
+      "status": "DONE",
+      "summary": "실제 공식 사이트를 검색·읽고 동향 근거와 미수집 상태를 저장함. 다음 경기 출전 명단의 완전성은 MISSING.",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/trends/records.json",
+          "description": "보조 동향 기록 및 MISSING/BLOCKED"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+          "description": "URL, 관측 시각, 공개 시각 정밀도, 짧은 원문 근거"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/trends/validation.json",
+          "description": "context_cli.validate_records 구조 검사"
+        }
+      ],
+      "issues": [
+        "전체 부상/징계/최근 이적 및 최신 경기 전 기자회견 미확보",
+        "발행시각 오프셋 미확인 자료를 과거 예측 특성에 사용 금지",
+        "대표팀 철수/훈련 복귀를 다음 경기 결장/선발 확정으로 추론 금지",
+        "Málaga 자료 사건일은 문맥 추정, Espanyol 감독 근거는 9/14 시점에 한정",
+        "기본 일정의 날짜를 공식 기사로 보정하지 않음"
+      ],
+      "tests": [
+        {
+          "name": "context_cli.validate_records",
+          "passed": true,
+          "records": 25
+        }
+      ]
+    },
+    "analysis": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "analysis",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE",
+      "summary": "해당 경기 양 팀 최근 5경기 승무패·득실·xG·홈원정 표본을 실제 계산. 예측 확률 없음.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/analysis/recent_form.json",
+          "description": "계산 입력 경기 목록과 팀별 집계"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/analysis/README.md",
+          "description": "해석과 사용 제한"
+        }
+      ],
+      "issues": [
+        "Only 5 league matches per team; opponent strength not adjusted.",
+        "Auxiliary context is descriptive and never converted into probabilities.",
+        "Source timestamps are unverified; source calendar dates retained.",
+        "Market values dated 2026-06-01 are historical estimates, not October values."
+      ],
+      "observed_at": "2026-10-06T06:34:50.258722+00:00"
+    },
+    "prediction": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "prediction",
+      "producer_id": "/root",
+      "status": "NOT_IMPLEMENTED",
+      "summary": "실행 가능한 예측 모델이 없어 승리 확률을 계산하지 않았습니다.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+          "description": "실제 실행 코드 목록과 미구현 근거"
+        }
+      ],
+      "issues": []
+    },
+    "visualization": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "visualization",
+      "producer_id": "/root",
+      "status": "DONE",
+      "summary": "실제 기록으로 오프라인 비교 화면 작성. 추정 날짜·시점 차이 표시 보완. 공개 웹서비스·자동 갱신·승리 확률 없음.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/visualization/index-v03.html",
+          "description": "실제 수집 자료 화면"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/visualization/view-data-v03.json",
+          "description": "화면과 동일한 자료"
+        }
+      ],
+      "issues": [
+        "브라우저 동작 검사는 별도 ui-check-v03.json에 기록."
+      ]
+    },
+    "validation": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "validation",
+      "producer_id": "/root/validation",
+      "status": "DONE",
+      "summary": "독립 원자료 재계산·공개 원문 표본 재조회·계약 검사를 수행했습니다. 분석 수치와 참조 증거 일치, 블로커 없음. 확률 모델·웹 운영·Claude 실제 실행은 통과 인증 범위에 포함하지 않습니다.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+          "description": "실행 전 기대값·실제 대조값·실패와 후속 조치·미확인 범위"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/validation/comparison-v02.json",
+          "description": "271개 독립 대조 항목, 보조24·동향25 계약 검사와 보존 원문 이름 대조"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/validation/independent_recent5.json",
+          "description": "원본 완료 경기CSV에서 팀별 최근5경기 독립 재계산"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/validation/source_rechecks.json",
+          "description": "공개 기사4개·기존 선발/포메이션2개 AI web 원문 재조회 표본"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+          "description": "독립7개 테스트와 동향 계약 검사 실제 명령·출력·종료코드"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "WARNING",
+          "code": "SAMPLE_SCOPE",
+          "message": "대표2경기·4팀 검증이며 전체 리그 보조 자료 검증 완료를 뜻하지 않음."
+        },
+        {
+          "severity": "WARNING",
+          "code": "VALUE_WEB_RECHECK_BLOCKED",
+          "message": "Transfermarkt 독립 web 재조회403. 수집 담당 보존 원문의 6월1일 열·금액은 대조했으나 독립 재수집 성공으로 주장하지 않음."
+        },
+        {
+          "severity": "WARNING",
+          "code": "CONTEXT_NOT_MODEL_FEATURES",
+          "message": "미래 선발·포메이션과 전체 부상·징계 미확인. 현재 선수단 스냅샷·6월1일 가치·추정 날짜 동향을 과거 예측 입력으로 사용 금지."
+        },
+        {
+          "severity": "WARNING",
+          "code": "INFERRED_EVENT_DATE",
+          "message": "Málaga 기사 발행일 미표기. 10월5일은 문맥 추정이며 명시확정 날짜 아님. 모델 입력 제외·설명에서 추정 표시 유지."
+        }
+      ],
+      "observed_at": "2026-10-06T06:37:40.658436+00:00",
+      "tests": {
+        "independent_comparisons": 271,
+        "comparison_errors": 0,
+        "protocol_tests_passed": 7,
+        "provider_truth_certified": false
+      },
+      "probabilities": null
+    },
+    "model-evaluation": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "model-evaluation",
+      "producer_id": "/root/validation",
+      "status": "NOT_IMPLEMENTED",
+      "summary": "실제 예측 모델·추론 확률·시계열 성능 산출물 없음. 기본 모델 비교와 확률 보정 평가를 수행할 대상이 없어 채택 판단 보류.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/model-evaluation/implementation_recheck.json",
+          "description": "검증 담당의 독립 실행 코드 목록 및 모델 구현 부재 재확인"
+        },
+        {
+          "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+          "description": "미구현 모델 승인 방지 시험 포함 독립 테스트7개 통과"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "WARNING",
+          "code": "MODEL_NOT_IMPLEMENTED",
+          "message": "실제 학습·평가 전에는 확률 표시와 모델 채택 불가."
+        }
+      ],
+      "model_accepted": false,
+      "probabilities": null
+    },
+    "operations": {
+      "run_id": "team-run-2026-10-06-v01",
+      "match_key": "understat:30845",
+      "role": "operations",
+      "producer_id": "/root",
+      "status": "DONE",
+      "summary": "실행 환경과 7개 규칙 테스트를 확인했습니다. 자동 갱신·Claude 실제 실행은 미확인입니다.",
+      "evidence": [
+        {
+          "path": "team-run-2026-10-06-v01/operations/environment.json",
+          "description": "환경 확인과 테스트 결과"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "WARNING",
+          "code": "NO_AUTOMATIC_REFRESH",
+          "message": "기본 자료는 이 실행에서 다시 수집하지 않았습니다."
+        }
+      ]
+    }
+  }
+}

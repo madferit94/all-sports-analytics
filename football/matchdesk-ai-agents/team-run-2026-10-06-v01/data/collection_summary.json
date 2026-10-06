@@ -1,0 +1,19 @@
+{
+  "records": 24,
+  "collected": 16,
+  "missing": 8,
+  "validation": {
+    "records": 24,
+    "passed": true,
+    "errors": [],
+    "provider_truth_certified": false
+  },
+  "squad_players": {
+    "understat:83": 24,
+    "understat:245": 30,
+    "understat:137": 28,
+    "understat:141": 25
+  },
+  "reports": 4,
+  "fixtures": 2
+}

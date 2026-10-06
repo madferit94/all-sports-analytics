@@ -1,0 +1,32 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "prediction",
+    "producer_id": "/root",
+    "status": "NOT_IMPLEMENTED",
+    "summary": "실행 가능한 예측 모델이 없어 승리 확률을 계산하지 않았습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+        "description": "실제 실행 코드 목록과 미구현 근거"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "prediction",
+    "producer_id": "/root",
+    "status": "NOT_IMPLEMENTED",
+    "summary": "실행 가능한 예측 모델이 없어 승리 확률을 계산하지 않았습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+        "description": "실제 실행 코드 목록과 미구현 근거"
+      }
+    ],
+    "issues": []
+  }
+]

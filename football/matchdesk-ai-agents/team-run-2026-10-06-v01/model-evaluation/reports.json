@@ -1,0 +1,56 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "model-evaluation",
+    "producer_id": "/root/validation",
+    "status": "NOT_IMPLEMENTED",
+    "summary": "실제 예측 모델·추론 확률·시계열 성능 산출물 없음. 기본 모델 비교와 확률 보정 평가를 수행할 대상이 없어 채택 판단 보류.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/model-evaluation/implementation_recheck.json",
+        "description": "검증 담당의 독립 실행 코드 목록 및 모델 구현 부재 재확인"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+        "description": "미구현 모델 승인 방지 시험 포함 독립 테스트7개 통과"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "MODEL_NOT_IMPLEMENTED",
+        "message": "실제 학습·평가 전에는 확률 표시와 모델 채택 불가."
+      }
+    ],
+    "model_accepted": false,
+    "probabilities": null
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "model-evaluation",
+    "producer_id": "/root/validation",
+    "status": "NOT_IMPLEMENTED",
+    "summary": "실제 예측 모델·추론 확률·시계열 성능 산출물 없음. 기본 모델 비교와 확률 보정 평가를 수행할 대상이 없어 채택 판단 보류.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/model-evaluation/implementation_recheck.json",
+        "description": "검증 담당의 독립 실행 코드 목록 및 모델 구현 부재 재확인"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+        "description": "미구현 모델 승인 방지 시험 포함 독립 테스트7개 통과"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "MODEL_NOT_IMPLEMENTED",
+        "message": "실제 학습·평가 전에는 확률 표시와 모델 채택 불가."
+      }
+    ],
+    "model_accepted": false,
+    "probabilities": null
+  }
+]

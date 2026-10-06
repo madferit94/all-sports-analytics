@@ -1,0 +1,117 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "validation",
+    "producer_id": "/root/validation",
+    "status": "DONE",
+    "summary": "독립 원자료 재계산·공개 원문 표본 재조회·계약 검사를 수행했습니다. 분석 수치와 참조 증거 일치, 블로커 없음. 확률 모델·웹 운영·Claude 실제 실행은 통과 인증 범위에 포함하지 않습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+        "description": "실행 전 기대값·실제 대조값·실패와 후속 조치·미확인 범위"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/comparison-v02.json",
+        "description": "271개 독립 대조 항목, 보조24·동향25 계약 검사와 보존 원문 이름 대조"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_recent5.json",
+        "description": "원본 완료 경기CSV에서 팀별 최근5경기 독립 재계산"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/source_rechecks.json",
+        "description": "공개 기사4개·기존 선발/포메이션2개 AI web 원문 재조회 표본"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+        "description": "독립7개 테스트와 동향 계약 검사 실제 명령·출력·종료코드"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "SAMPLE_SCOPE",
+        "message": "대표2경기·4팀 검증이며 전체 리그 보조 자료 검증 완료를 뜻하지 않음."
+      },
+      {
+        "severity": "WARNING",
+        "code": "VALUE_WEB_RECHECK_BLOCKED",
+        "message": "Transfermarkt 독립 web 재조회403. 수집 담당 보존 원문의 6월1일 열·금액은 대조했으나 독립 재수집 성공으로 주장하지 않음."
+      },
+      {
+        "severity": "WARNING",
+        "code": "CONTEXT_NOT_MODEL_FEATURES",
+        "message": "미래 선발·포메이션과 전체 부상·징계 미확인. 현재 선수단 스냅샷·6월1일 가치·추정 날짜 동향을 과거 예측 입력으로 사용 금지."
+      }
+    ],
+    "observed_at": "2026-10-06T06:37:40.658436+00:00",
+    "tests": {
+      "independent_comparisons": 271,
+      "comparison_errors": 0,
+      "protocol_tests_passed": 7,
+      "provider_truth_certified": false
+    },
+    "probabilities": null
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "validation",
+    "producer_id": "/root/validation",
+    "status": "DONE",
+    "summary": "독립 원자료 재계산·공개 원문 표본 재조회·계약 검사를 수행했습니다. 분석 수치와 참조 증거 일치, 블로커 없음. 확률 모델·웹 운영·Claude 실제 실행은 통과 인증 범위에 포함하지 않습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+        "description": "실행 전 기대값·실제 대조값·실패와 후속 조치·미확인 범위"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/comparison-v02.json",
+        "description": "271개 독립 대조 항목, 보조24·동향25 계약 검사와 보존 원문 이름 대조"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_recent5.json",
+        "description": "원본 완료 경기CSV에서 팀별 최근5경기 독립 재계산"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/source_rechecks.json",
+        "description": "공개 기사4개·기존 선발/포메이션2개 AI web 원문 재조회 표본"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/independent_commands.json",
+        "description": "독립7개 테스트와 동향 계약 검사 실제 명령·출력·종료코드"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "SAMPLE_SCOPE",
+        "message": "대표2경기·4팀 검증이며 전체 리그 보조 자료 검증 완료를 뜻하지 않음."
+      },
+      {
+        "severity": "WARNING",
+        "code": "VALUE_WEB_RECHECK_BLOCKED",
+        "message": "Transfermarkt 독립 web 재조회403. 수집 담당 보존 원문의 6월1일 열·금액은 대조했으나 독립 재수집 성공으로 주장하지 않음."
+      },
+      {
+        "severity": "WARNING",
+        "code": "CONTEXT_NOT_MODEL_FEATURES",
+        "message": "미래 선발·포메이션과 전체 부상·징계 미확인. 현재 선수단 스냅샷·6월1일 가치·추정 날짜 동향을 과거 예측 입력으로 사용 금지."
+      },
+      {
+        "severity": "WARNING",
+        "code": "INFERRED_EVENT_DATE",
+        "message": "Málaga 기사 발행일 미표기. 10월5일은 문맥 추정이며 명시확정 날짜 아님. 모델 입력 제외·설명에서 추정 표시 유지."
+      }
+    ],
+    "observed_at": "2026-10-06T06:37:40.658436+00:00",
+    "tests": {
+      "independent_comparisons": 271,
+      "comparison_errors": 0,
+      "protocol_tests_passed": 7,
+      "provider_truth_certified": false
+    },
+    "probabilities": null
+  }
+]

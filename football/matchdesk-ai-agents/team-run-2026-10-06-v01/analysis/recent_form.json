@@ -1,0 +1,451 @@
+{
+  "run_id": "team-run-2026-10-06-v01",
+  "producer_id": "/root/data_analysis",
+  "cutoff_at": "2026-10-06T06:34:50.258722+00:00",
+  "method": "Latest five completed league matches before observation cutoff and target date; integer match ID breaks same-day ties. No cups or other leagues.",
+  "fixtures": [
+    {
+      "match_key": "understat:31230",
+      "league": "EPL",
+      "season": "2026/27",
+      "home_team_key": "understat:83",
+      "away_team_key": "understat:245",
+      "home_team_name": "Arsenal",
+      "away_team_name": "Leeds",
+      "source_date": "2026-10-10",
+      "source_timezone": "UNVERIFIED",
+      "schedule_notice": "Understat 기준 예정 날짜 · 일정 변경 가능 · 시간 미확인",
+      "teams": [
+        {
+          "team_key": "understat:83",
+          "team_name": "Arsenal",
+          "matches": [
+            {
+              "match_key": "understat:31224",
+              "date": "2026-09-19",
+              "venue": "A",
+              "opponent": "Brighton",
+              "gf": 0,
+              "ga": 3,
+              "xgf": 1.23979,
+              "xga": 2.11268,
+              "result": "L",
+              "source_url": "https://understat.com/match/31224"
+            },
+            {
+              "match_key": "understat:31216",
+              "date": "2026-09-12",
+              "venue": "A",
+              "opponent": "Sunderland",
+              "gf": 2,
+              "ga": 0,
+              "xgf": 1.98905,
+              "xga": 2.07033,
+              "result": "W",
+              "source_url": "https://understat.com/match/31216"
+            },
+            {
+              "match_key": "understat:31209",
+              "date": "2026-09-06",
+              "venue": "H",
+              "opponent": "Chelsea",
+              "gf": 2,
+              "ga": 1,
+              "xgf": 2.80555,
+              "xga": 0.430508,
+              "result": "W",
+              "source_url": "https://understat.com/match/31209"
+            },
+            {
+              "match_key": "understat:31199",
+              "date": "2026-08-31",
+              "venue": "A",
+              "opponent": "Aston Villa",
+              "gf": 1,
+              "ga": 0,
+              "xgf": 1.52441,
+              "xga": 0.281925,
+              "result": "W",
+              "source_url": "https://understat.com/match/31199"
+            },
+            {
+              "match_key": "understat:31180",
+              "date": "2026-08-21",
+              "venue": "H",
+              "opponent": "Coventry",
+              "gf": 3,
+              "ga": 0,
+              "xgf": 1.85424,
+              "xga": 0.558336,
+              "result": "W",
+              "source_url": "https://understat.com/match/31180"
+            }
+          ],
+          "summary": {
+            "played": 5,
+            "wins": 4,
+            "draws": 0,
+            "losses": 1,
+            "points": 12,
+            "goals_for": 8,
+            "goals_against": 4,
+            "xg_for": 9.413,
+            "xg_against": 5.4538,
+            "xg_difference": 3.9592,
+            "home": {
+              "played": 2,
+              "wins": 2,
+              "draws": 0,
+              "losses": 0,
+              "points": 6,
+              "goals_for": 5,
+              "goals_against": 1,
+              "xg_for": 4.6598,
+              "xg_against": 0.9888,
+              "xg_difference": 3.671
+            },
+            "away": {
+              "played": 3,
+              "wins": 2,
+              "draws": 0,
+              "losses": 1,
+              "points": 6,
+              "goals_for": 3,
+              "goals_against": 3,
+              "xg_for": 4.7532,
+              "xg_against": 4.4649,
+              "xg_difference": 0.2883
+            }
+          }
+        },
+        {
+          "team_key": "understat:245",
+          "team_name": "Leeds",
+          "matches": [
+            {
+              "match_key": "understat:31225",
+              "date": "2026-09-20",
+              "venue": "H",
+              "opponent": "Crystal Palace",
+              "gf": 0,
+              "ga": 0,
+              "xgf": 1.08552,
+              "xga": 1.12905,
+              "result": "D",
+              "source_url": "https://understat.com/match/31225"
+            },
+            {
+              "match_key": "understat:31219",
+              "date": "2026-09-14",
+              "venue": "H",
+              "opponent": "Newcastle United",
+              "gf": 4,
+              "ga": 1,
+              "xgf": 2.2902,
+              "xga": 0.793165,
+              "result": "W",
+              "source_url": "https://understat.com/match/31219"
+            },
+            {
+              "match_key": "understat:31206",
+              "date": "2026-09-05",
+              "venue": "A",
+              "opponent": "Brighton",
+              "gf": 1,
+              "ga": 1,
+              "xgf": 2.23407,
+              "xga": 2.22026,
+              "result": "D",
+              "source_url": "https://understat.com/match/31206"
+            },
+            {
+              "match_key": "understat:31197",
+              "date": "2026-08-30",
+              "venue": "H",
+              "opponent": "Brentford",
+              "gf": 1,
+              "ga": 1,
+              "xgf": 1.14993,
+              "xga": 1.61344,
+              "result": "D",
+              "source_url": "https://understat.com/match/31197"
+            },
+            {
+              "match_key": "understat:31184",
+              "date": "2026-08-22",
+              "venue": "A",
+              "opponent": "Nottingham Forest",
+              "gf": 1,
+              "ga": 0,
+              "xgf": 0.466247,
+              "xga": 0.656681,
+              "result": "W",
+              "source_url": "https://understat.com/match/31184"
+            }
+          ],
+          "summary": {
+            "played": 5,
+            "wins": 2,
+            "draws": 3,
+            "losses": 0,
+            "points": 9,
+            "goals_for": 7,
+            "goals_against": 3,
+            "xg_for": 7.226,
+            "xg_against": 6.4126,
+            "xg_difference": 0.8134,
+            "home": {
+              "played": 3,
+              "wins": 1,
+              "draws": 2,
+              "losses": 0,
+              "points": 5,
+              "goals_for": 5,
+              "goals_against": 2,
+              "xg_for": 4.5256,
+              "xg_against": 3.5357,
+              "xg_difference": 0.9899
+            },
+            "away": {
+              "played": 2,
+              "wins": 1,
+              "draws": 1,
+              "losses": 0,
+              "points": 4,
+              "goals_for": 2,
+              "goals_against": 1,
+              "xg_for": 2.7003,
+              "xg_against": 2.8769,
+              "xg_difference": -0.1766
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match_key": "understat:30845",
+      "league": "La_liga",
+      "season": "2026/27",
+      "home_team_key": "understat:137",
+      "away_team_key": "understat:141",
+      "home_team_name": "Malaga",
+      "away_team_name": "Espanyol",
+      "source_date": "2026-10-11",
+      "source_timezone": "UNVERIFIED",
+      "schedule_notice": "Understat 기준 예정 날짜 · 일정 변경 가능 · 시간 미확인",
+      "teams": [
+        {
+          "team_key": "understat:137",
+          "team_name": "Malaga",
+          "matches": [
+            {
+              "match_key": "understat:30835",
+              "date": "2026-09-20",
+              "venue": "A",
+              "opponent": "Getafe",
+              "gf": 0,
+              "ga": 1,
+              "xgf": 0.660498,
+              "xga": 1.18796,
+              "result": "L",
+              "source_url": "https://understat.com/match/30835"
+            },
+            {
+              "match_key": "understat:30828",
+              "date": "2026-09-17",
+              "venue": "H",
+              "opponent": "Villarreal",
+              "gf": 1,
+              "ga": 3,
+              "xgf": 0.361392,
+              "xga": 4.2474,
+              "result": "L",
+              "source_url": "https://understat.com/match/30828"
+            },
+            {
+              "match_key": "understat:30811",
+              "date": "2026-09-13",
+              "venue": "A",
+              "opponent": "Celta Vigo",
+              "gf": 1,
+              "ga": 1,
+              "xgf": 0.548065,
+              "xga": 1.48145,
+              "result": "D",
+              "source_url": "https://understat.com/match/30811"
+            },
+            {
+              "match_key": "understat:30806",
+              "date": "2026-09-06",
+              "venue": "H",
+              "opponent": "Levante",
+              "gf": 0,
+              "ga": 0,
+              "xgf": 1.72661,
+              "xga": 1.19172,
+              "result": "D",
+              "source_url": "https://understat.com/match/30806"
+            },
+            {
+              "match_key": "understat:30795",
+              "date": "2026-08-30",
+              "venue": "A",
+              "opponent": "Real Madrid",
+              "gf": 0,
+              "ga": 4,
+              "xgf": 0.760169,
+              "xga": 3.40784,
+              "result": "L",
+              "source_url": "https://understat.com/match/30795"
+            }
+          ],
+          "summary": {
+            "played": 5,
+            "wins": 0,
+            "draws": 2,
+            "losses": 3,
+            "points": 2,
+            "goals_for": 2,
+            "goals_against": 9,
+            "xg_for": 4.0567,
+            "xg_against": 11.5164,
+            "xg_difference": -7.4597,
+            "home": {
+              "played": 2,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "points": 1,
+              "goals_for": 1,
+              "goals_against": 3,
+              "xg_for": 2.088,
+              "xg_against": 5.4391,
+              "xg_difference": -3.3511
+            },
+            "away": {
+              "played": 3,
+              "wins": 0,
+              "draws": 1,
+              "losses": 2,
+              "points": 1,
+              "goals_for": 1,
+              "goals_against": 6,
+              "xg_for": 1.9687,
+              "xg_against": 6.0773,
+              "xg_difference": -4.1086
+            }
+          }
+        },
+        {
+          "team_key": "understat:141",
+          "team_name": "Espanyol",
+          "matches": [
+            {
+              "match_key": "understat:30834",
+              "date": "2026-09-18",
+              "venue": "H",
+              "opponent": "Elche",
+              "gf": 1,
+              "ga": 3,
+              "xgf": 1.07744,
+              "xga": 1.25113,
+              "result": "L",
+              "source_url": "https://understat.com/match/30834"
+            },
+            {
+              "match_key": "understat:30829",
+              "date": "2026-09-15",
+              "venue": "A",
+              "opponent": "Rayo Vallecano",
+              "gf": 1,
+              "ga": 2,
+              "xgf": 1.1573,
+              "xga": 1.8328,
+              "result": "L",
+              "source_url": "https://understat.com/match/30829"
+            },
+            {
+              "match_key": "understat:30820",
+              "date": "2026-09-12",
+              "venue": "A",
+              "opponent": "Osasuna",
+              "gf": 2,
+              "ga": 0,
+              "xgf": 1.40951,
+              "xga": 1.10365,
+              "result": "W",
+              "source_url": "https://understat.com/match/30820"
+            },
+            {
+              "match_key": "understat:30808",
+              "date": "2026-09-06",
+              "venue": "H",
+              "opponent": "Sevilla",
+              "gf": 1,
+              "ga": 1,
+              "xgf": 1.81745,
+              "xga": 0.372572,
+              "result": "D",
+              "source_url": "https://understat.com/match/30808"
+            },
+            {
+              "match_key": "understat:30793",
+              "date": "2026-08-29",
+              "venue": "A",
+              "opponent": "Real Sociedad",
+              "gf": 1,
+              "ga": 2,
+              "xgf": 0.929949,
+              "xga": 2.91657,
+              "result": "L",
+              "source_url": "https://understat.com/match/30793"
+            }
+          ],
+          "summary": {
+            "played": 5,
+            "wins": 1,
+            "draws": 1,
+            "losses": 3,
+            "points": 4,
+            "goals_for": 6,
+            "goals_against": 8,
+            "xg_for": 6.3916,
+            "xg_against": 7.4767,
+            "xg_difference": -1.0851,
+            "home": {
+              "played": 2,
+              "wins": 0,
+              "draws": 1,
+              "losses": 1,
+              "points": 1,
+              "goals_for": 2,
+              "goals_against": 4,
+              "xg_for": 2.8949,
+              "xg_against": 1.6237,
+              "xg_difference": 1.2712
+            },
+            "away": {
+              "played": 3,
+              "wins": 1,
+              "draws": 0,
+              "losses": 2,
+              "points": 3,
+              "goals_for": 4,
+              "goals_against": 4,
+              "xg_for": 3.4968,
+              "xg_against": 5.853,
+              "xg_difference": -2.3562
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "probabilities": null,
+  "limitations": [
+    "Only 5 league matches per team; opponent strength not adjusted.",
+    "Auxiliary context is descriptive and never converted into probabilities.",
+    "Source timestamps are unverified; source calendar dates retained.",
+    "Market values dated 2026-06-01 are historical estimates, not October values."
+  ]
+}

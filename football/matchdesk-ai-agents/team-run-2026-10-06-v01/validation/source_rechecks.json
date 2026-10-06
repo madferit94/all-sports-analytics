@@ -1,0 +1,45 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T06:34:47.941945+00:00",
+  "evidence_type": "AI_WEB_TOOL_RENDERED_TEXT_RECHECK",
+  "user_confirmed": false,
+  "sources": [
+    {
+      "url": "https://www.premierleague.com/en/news/4727187",
+      "published_date": "2026-10-05",
+      "bounded_excerpt": "Arsenal centre-half Ezri Konsa",
+      "lines": "57,59,64-65",
+      "result": "Konsa and Havertz Arsenal association and international withdrawal match records. No official Havertz fitness update for Leeds; not definitive absence."
+    },
+    {
+      "url": "https://www.leedsunited.com/en/news/tanaka-helps-blue-samurai-to-kirin-cup-success",
+      "published_date": "2026-10-05",
+      "lines": "32,46,57",
+      "result": "Ao Tanaka Leeds association, 64th-minute appearance and four appearances match; next-club availability unknown."
+    },
+    {
+      "url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "published_date": null,
+      "lines": "8,13-18",
+      "result": "Five player training/recovery statements and Funes match. Source does not display publication date. Oct5 remains explicitly inferred; excluded from model inputs."
+    },
+    {
+      "url": "https://campaigns.rcdespanyol.com/es/noticia/un-rival-muy-complicado/20751",
+      "published_date": "2026-09-14",
+      "lines": "5,9,12,16",
+      "result": "Manolo Gonzalez on Sept14 matches. Jofre past status must not be reused for current match."
+    },
+    {
+      "url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+      "match_date": "2026-09-19",
+      "lines": "120-156",
+      "result": "Arsenal eleven starter names available, E Konsa Arsenal; auxiliary past lineup only."
+    },
+    {
+      "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-getafe-cf-malaga-cf-7",
+      "match_date": "2026-09-20",
+      "lines": "378-432",
+      "result": "Getafe 1 Malaga 0; Malaga nominal formation 4-1-4-1 matches source. Official date used for evidence check only; canonical not changed."
+    }
+  ]
+}

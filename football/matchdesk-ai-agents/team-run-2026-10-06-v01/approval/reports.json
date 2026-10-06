@@ -1,0 +1,78 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "approval",
+    "producer_id": "/root/approval",
+    "status": "DONE",
+    "summary": "대표 경기의 저장 자료 비교·제한된 보조 설명을 내부 승인. 예측·예측 웹서비스는 모델 미구현으로 보류.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/approval/decision.md",
+        "description": "최종 담당의 내용 검토·허용 범위·한계"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/approval/gate-results.json",
+        "description": "실제 승인 규칙 실행 6건과 종료 코드"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+        "description": "독립 검증의 실제 결과와 미확인 범위"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "LIMITED_INTERNAL_APPROVAL",
+        "message": "전체 리그·실시간·예측 확률·Claude 실행·공개 배포 승인 아님. 참가자 확인 전."
+      }
+    ],
+    "observed_at": "2026-10-06T06:39:25.149853+00:00",
+    "decisions": {
+      "analysis": "APPROVE",
+      "prediction": "HOLD",
+      "web": "HOLD"
+    },
+    "display_probabilities": false,
+    "human_release_authorized": false,
+    "user_confirmed": false
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "approval",
+    "producer_id": "/root/approval",
+    "status": "DONE",
+    "summary": "대표 경기의 저장 자료 비교·제한된 보조 설명을 내부 승인. 예측·예측 웹서비스는 모델 미구현으로 보류.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/approval/decision.md",
+        "description": "최종 담당의 내용 검토·허용 범위·한계"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/approval/gate-results.json",
+        "description": "실제 승인 규칙 실행 6건과 종료 코드"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/validation/SPEC.md",
+        "description": "독립 검증의 실제 결과와 미확인 범위"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "LIMITED_INTERNAL_APPROVAL",
+        "message": "전체 리그·실시간·예측 확률·Claude 실행·공개 배포 승인 아님. 참가자 확인 전."
+      }
+    ],
+    "observed_at": "2026-10-06T06:39:25.149853+00:00",
+    "decisions": {
+      "analysis": "APPROVE",
+      "prediction": "HOLD",
+      "web": "HOLD"
+    },
+    "display_probabilities": false,
+    "human_release_authorized": false,
+    "user_confirmed": false
+  }
+]

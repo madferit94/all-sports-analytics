@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-06T06:32:29.612683+00:00",
+  "package_python_files": [
+    {
+      "path": "agent-team-2026-10-06-v01/tests/test_team.py",
+      "sha256": "b162127eccef7fd4742ee6c25ec5c7247cd40cd3cd54fa3364e57015ff7242b2"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/approval_gate.py",
+      "sha256": "afcd9a3ebaa249f7d4726f986f6a5fdda73048f5bb290530347505a46207cb8e"
+    },
+    {
+      "path": "agent-team-2026-10-06-v01/tools/context_cli.py",
+      "sha256": "e448ac3e93b7623e95817bc45378cf7fe03131be43c65e06b7e5f47d105db372"
+    }
+  ],
+  "executable_prediction_model": "NOT_IMPLEMENTED",
+  "probabilities": null,
+  "reason": "기존 패키지의 실행 코드는 보조 자료 형식 검사와 승인 규칙 검사. 학습·추론 모델이나 성능 결과 없음.",
+  "required_before_prediction": [
+    "경기 전 입력만 사용하는 특성 생성",
+    "시간 순서에 따른 학습/평가 분리",
+    "기본 모델과 비교",
+    "확률 오차와 보정 평가",
+    "사용자 모델 채택 결정"
+  ]
+}

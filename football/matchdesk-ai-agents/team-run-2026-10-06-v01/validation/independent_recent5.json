@@ -1,0 +1,261 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T06:34:47.941945+00:00",
+  "cutoff_date": "2026-10-06",
+  "cutoff_policy": "Conservative source-date strictly before cutoff; timezone unverified.",
+  "dataset_sha256": "fe1cfb9edacc17a27f422dbe92377bd0f9745f4b6571fdc3aa0e9cb1030c8a62",
+  "fixtures": {
+    "understat:31230": {
+      "understat:83": {
+        "matches": [
+          {
+            "match_key": "understat:31224",
+            "date": "2026-09-19",
+            "team_key": "understat:83",
+            "goals_for": 0.0,
+            "goals_against": 3.0,
+            "xg_for": 1.23979,
+            "xg_against": 2.11268,
+            "points": 0
+          },
+          {
+            "match_key": "understat:31216",
+            "date": "2026-09-12",
+            "team_key": "understat:83",
+            "goals_for": 2.0,
+            "goals_against": 0.0,
+            "xg_for": 1.98905,
+            "xg_against": 2.07033,
+            "points": 3
+          },
+          {
+            "match_key": "understat:31209",
+            "date": "2026-09-06",
+            "team_key": "understat:83",
+            "goals_for": 2.0,
+            "goals_against": 1.0,
+            "xg_for": 2.80555,
+            "xg_against": 0.430508,
+            "points": 3
+          },
+          {
+            "match_key": "understat:31199",
+            "date": "2026-08-31",
+            "team_key": "understat:83",
+            "goals_for": 1.0,
+            "goals_against": 0.0,
+            "xg_for": 1.52441,
+            "xg_against": 0.281925,
+            "points": 3
+          },
+          {
+            "match_key": "understat:31180",
+            "date": "2026-08-21",
+            "team_key": "understat:83",
+            "goals_for": 3.0,
+            "goals_against": 0.0,
+            "xg_for": 1.85424,
+            "xg_against": 0.558336,
+            "points": 3
+          }
+        ],
+        "totals": {
+          "goals_for": 8.0,
+          "goals_against": 4.0,
+          "xg_for": 9.41304,
+          "xg_against": 5.453779,
+          "points": 12
+        },
+        "count": 5
+      },
+      "understat:245": {
+        "matches": [
+          {
+            "match_key": "understat:31225",
+            "date": "2026-09-20",
+            "team_key": "understat:245",
+            "goals_for": 0.0,
+            "goals_against": 0.0,
+            "xg_for": 1.08552,
+            "xg_against": 1.12905,
+            "points": 1
+          },
+          {
+            "match_key": "understat:31219",
+            "date": "2026-09-14",
+            "team_key": "understat:245",
+            "goals_for": 4.0,
+            "goals_against": 1.0,
+            "xg_for": 2.2902,
+            "xg_against": 0.793165,
+            "points": 3
+          },
+          {
+            "match_key": "understat:31206",
+            "date": "2026-09-05",
+            "team_key": "understat:245",
+            "goals_for": 1.0,
+            "goals_against": 1.0,
+            "xg_for": 2.23407,
+            "xg_against": 2.22026,
+            "points": 1
+          },
+          {
+            "match_key": "understat:31197",
+            "date": "2026-08-30",
+            "team_key": "understat:245",
+            "goals_for": 1.0,
+            "goals_against": 1.0,
+            "xg_for": 1.14993,
+            "xg_against": 1.61344,
+            "points": 1
+          },
+          {
+            "match_key": "understat:31184",
+            "date": "2026-08-22",
+            "team_key": "understat:245",
+            "goals_for": 1.0,
+            "goals_against": 0.0,
+            "xg_for": 0.466247,
+            "xg_against": 0.656681,
+            "points": 3
+          }
+        ],
+        "totals": {
+          "goals_for": 7.0,
+          "goals_against": 3.0,
+          "xg_for": 7.225967,
+          "xg_against": 6.412596000000001,
+          "points": 9
+        },
+        "count": 5
+      }
+    },
+    "understat:30845": {
+      "understat:137": {
+        "matches": [
+          {
+            "match_key": "understat:30835",
+            "date": "2026-09-20",
+            "team_key": "understat:137",
+            "goals_for": 0.0,
+            "goals_against": 1.0,
+            "xg_for": 0.660498,
+            "xg_against": 1.18796,
+            "points": 0
+          },
+          {
+            "match_key": "understat:30828",
+            "date": "2026-09-17",
+            "team_key": "understat:137",
+            "goals_for": 1.0,
+            "goals_against": 3.0,
+            "xg_for": 0.361392,
+            "xg_against": 4.2474,
+            "points": 0
+          },
+          {
+            "match_key": "understat:30811",
+            "date": "2026-09-13",
+            "team_key": "understat:137",
+            "goals_for": 1.0,
+            "goals_against": 1.0,
+            "xg_for": 0.548065,
+            "xg_against": 1.48145,
+            "points": 1
+          },
+          {
+            "match_key": "understat:30806",
+            "date": "2026-09-06",
+            "team_key": "understat:137",
+            "goals_for": 0.0,
+            "goals_against": 0.0,
+            "xg_for": 1.72661,
+            "xg_against": 1.19172,
+            "points": 1
+          },
+          {
+            "match_key": "understat:30795",
+            "date": "2026-08-30",
+            "team_key": "understat:137",
+            "goals_for": 0.0,
+            "goals_against": 4.0,
+            "xg_for": 0.760169,
+            "xg_against": 3.40784,
+            "points": 0
+          }
+        ],
+        "totals": {
+          "goals_for": 2.0,
+          "goals_against": 9.0,
+          "xg_for": 4.056734,
+          "xg_against": 11.51637,
+          "points": 2
+        },
+        "count": 5
+      },
+      "understat:141": {
+        "matches": [
+          {
+            "match_key": "understat:30834",
+            "date": "2026-09-18",
+            "team_key": "understat:141",
+            "goals_for": 1.0,
+            "goals_against": 3.0,
+            "xg_for": 1.07744,
+            "xg_against": 1.25113,
+            "points": 0
+          },
+          {
+            "match_key": "understat:30829",
+            "date": "2026-09-15",
+            "team_key": "understat:141",
+            "goals_for": 1.0,
+            "goals_against": 2.0,
+            "xg_for": 1.1573,
+            "xg_against": 1.8328,
+            "points": 0
+          },
+          {
+            "match_key": "understat:30820",
+            "date": "2026-09-12",
+            "team_key": "understat:141",
+            "goals_for": 2.0,
+            "goals_against": 0.0,
+            "xg_for": 1.40951,
+            "xg_against": 1.10365,
+            "points": 3
+          },
+          {
+            "match_key": "understat:30808",
+            "date": "2026-09-06",
+            "team_key": "understat:141",
+            "goals_for": 1.0,
+            "goals_against": 1.0,
+            "xg_for": 1.81745,
+            "xg_against": 0.372572,
+            "points": 1
+          },
+          {
+            "match_key": "understat:30793",
+            "date": "2026-08-29",
+            "team_key": "understat:141",
+            "goals_for": 1.0,
+            "goals_against": 2.0,
+            "xg_for": 0.929949,
+            "xg_against": 2.91657,
+            "points": 0
+          }
+        ],
+        "totals": {
+          "goals_for": 6.0,
+          "goals_against": 8.0,
+          "xg_for": 6.391649,
+          "xg_against": 7.4767220000000005,
+          "points": 4
+        },
+        "count": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "match_key": "understat:31230",
+  "mode": "prediction",
+  "command": [
+    "<LOCAL_EXECUTION_PATH>",
+    "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+    "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\31230-prediction-bundle.json"
+  ],
+  "returncode": 1,
+  "stdout": {
+    "decision": "HOLD",
+    "reasons": [
+      "NOT_DONE_prediction",
+      "NOT_DONE_model-evaluation",
+      "PROBABILITIES_UNAVAILABLE",
+      "MODEL_NOT_ACCEPTED"
+    ],
+    "mode": "prediction",
+    "display_probabilities": false,
+    "human_release_authorized": false,
+    "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+  },
+  "stderr": "",
+  "expected_decision": "HOLD",
+  "expected_matched": true,
+  "expected_exit_matched": true
+}

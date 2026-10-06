@@ -1,0 +1,41 @@
+{
+  "policy_version": "UNDERSTAT_PRIMARY_V1",
+  "created_at_utc": "2026-10-06T06:04:54.824870+00:00",
+  "selected_dataset": "source-unified-2026-10-06-v01",
+  "primary_source": "Understat",
+  "primary_fields": [
+    "teams",
+    "results",
+    "source_dates",
+    "source_datetimes",
+    "schedules",
+    "xg",
+    "team_match_metrics",
+    "aggregated_basic_team_stats"
+  ],
+  "additional_source": "StatMuse",
+  "additional_grain": "TEAM_SEASON_SNAPSHOT",
+  "statmuse_excluded_codes": [
+    "G",
+    "G/M",
+    "GC",
+    "GC/M",
+    "M",
+    "xG",
+    "xGA"
+  ],
+  "official_schedule_overrides_enabled": false,
+  "official_audit_usage": "EVIDENCE_ONLY_NOT_RUNTIME_INPUT",
+  "source_timezone": "UNVERIFIED",
+  "display_kickoff_time": false,
+  "auto_timezone_conversion": false,
+  "schedule_confirmation": "CHANGE_POSSIBLE",
+  "standings_points": "MATCH_POINTS_NO_OFFICIAL_DEDUCTIONS",
+  "historical_prediction_season_snapshots_allowed": false,
+  "football_data_enabled": false,
+  "odds_enabled": false,
+  "champions_league_enabled": false,
+  "website_implemented": false,
+  "model_implemented": false,
+  "automatic_refresh_implemented": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "manager",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "대표 경기·출처 정책·담당 범위를 지정하여 실제 하위 에이전트에 배정했습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/manager/request.json",
+        "description": "실행 범위와 실제 대상 경기"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "manager",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "대표 경기·출처 정책·담당 범위를 지정하여 실제 하위 에이전트에 배정했습니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/manager/request.json",
+        "description": "실행 범위와 실제 대상 경기"
+      }
+    ],
+    "issues": []
+  }
+]

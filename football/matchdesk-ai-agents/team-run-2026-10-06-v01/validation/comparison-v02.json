@@ -1,0 +1,1842 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T06:36:53.750670+00:00",
+  "errors": [],
+  "passed": true,
+  "checks": [
+    {
+      "check": "Arsenal recent match keys",
+      "expected": [
+        "understat:31224",
+        "understat:31216",
+        "understat:31209",
+        "understat:31199",
+        "understat:31180"
+      ],
+      "actual": [
+        "understat:31224",
+        "understat:31216",
+        "understat:31209",
+        "understat:31199",
+        "understat:31180"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Arsenal goals_for",
+      "expected": 8.0,
+      "actual": 8,
+      "passed": true
+    },
+    {
+      "check": "Arsenal goals_against",
+      "expected": 4.0,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "check": "Arsenal points",
+      "expected": 12,
+      "actual": 12,
+      "passed": true
+    },
+    {
+      "check": "Arsenal xg_for",
+      "expected": 9.41304,
+      "actual": 9.413,
+      "passed": true
+    },
+    {
+      "check": "Arsenal xg_against",
+      "expected": 5.453779,
+      "actual": 5.4538,
+      "passed": true
+    },
+    {
+      "check": "understat:31224 Arsenal goals_for",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31224 Arsenal goals_against",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "check": "understat:31224 Arsenal xg_for",
+      "expected": 1.23979,
+      "actual": 1.23979,
+      "passed": true
+    },
+    {
+      "check": "understat:31224 Arsenal xg_against",
+      "expected": 2.11268,
+      "actual": 2.11268,
+      "passed": true
+    },
+    {
+      "check": "understat:31216 Arsenal goals_for",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "understat:31216 Arsenal goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31216 Arsenal xg_for",
+      "expected": 1.98905,
+      "actual": 1.98905,
+      "passed": true
+    },
+    {
+      "check": "understat:31216 Arsenal xg_against",
+      "expected": 2.07033,
+      "actual": 2.07033,
+      "passed": true
+    },
+    {
+      "check": "understat:31209 Arsenal goals_for",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "understat:31209 Arsenal goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31209 Arsenal xg_for",
+      "expected": 2.80555,
+      "actual": 2.80555,
+      "passed": true
+    },
+    {
+      "check": "understat:31209 Arsenal xg_against",
+      "expected": 0.430508,
+      "actual": 0.430508,
+      "passed": true
+    },
+    {
+      "check": "understat:31199 Arsenal goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31199 Arsenal goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31199 Arsenal xg_for",
+      "expected": 1.52441,
+      "actual": 1.52441,
+      "passed": true
+    },
+    {
+      "check": "understat:31199 Arsenal xg_against",
+      "expected": 0.281925,
+      "actual": 0.281925,
+      "passed": true
+    },
+    {
+      "check": "understat:31180 Arsenal goals_for",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "check": "understat:31180 Arsenal goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31180 Arsenal xg_for",
+      "expected": 1.85424,
+      "actual": 1.85424,
+      "passed": true
+    },
+    {
+      "check": "understat:31180 Arsenal xg_against",
+      "expected": 0.558336,
+      "actual": 0.558336,
+      "passed": true
+    },
+    {
+      "check": "Leeds recent match keys",
+      "expected": [
+        "understat:31225",
+        "understat:31219",
+        "understat:31206",
+        "understat:31197",
+        "understat:31184"
+      ],
+      "actual": [
+        "understat:31225",
+        "understat:31219",
+        "understat:31206",
+        "understat:31197",
+        "understat:31184"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Leeds goals_for",
+      "expected": 7.0,
+      "actual": 7,
+      "passed": true
+    },
+    {
+      "check": "Leeds goals_against",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "check": "Leeds points",
+      "expected": 9,
+      "actual": 9,
+      "passed": true
+    },
+    {
+      "check": "Leeds xg_for",
+      "expected": 7.225967,
+      "actual": 7.226,
+      "passed": true
+    },
+    {
+      "check": "Leeds xg_against",
+      "expected": 6.412596000000001,
+      "actual": 6.4126,
+      "passed": true
+    },
+    {
+      "check": "understat:31225 Leeds goals_for",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31225 Leeds goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31225 Leeds xg_for",
+      "expected": 1.08552,
+      "actual": 1.08552,
+      "passed": true
+    },
+    {
+      "check": "understat:31225 Leeds xg_against",
+      "expected": 1.12905,
+      "actual": 1.12905,
+      "passed": true
+    },
+    {
+      "check": "understat:31219 Leeds goals_for",
+      "expected": 4.0,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "check": "understat:31219 Leeds goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31219 Leeds xg_for",
+      "expected": 2.2902,
+      "actual": 2.2902,
+      "passed": true
+    },
+    {
+      "check": "understat:31219 Leeds xg_against",
+      "expected": 0.793165,
+      "actual": 0.793165,
+      "passed": true
+    },
+    {
+      "check": "understat:31206 Leeds goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31206 Leeds goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31206 Leeds xg_for",
+      "expected": 2.23407,
+      "actual": 2.23407,
+      "passed": true
+    },
+    {
+      "check": "understat:31206 Leeds xg_against",
+      "expected": 2.22026,
+      "actual": 2.22026,
+      "passed": true
+    },
+    {
+      "check": "understat:31197 Leeds goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31197 Leeds goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31197 Leeds xg_for",
+      "expected": 1.14993,
+      "actual": 1.14993,
+      "passed": true
+    },
+    {
+      "check": "understat:31197 Leeds xg_against",
+      "expected": 1.61344,
+      "actual": 1.61344,
+      "passed": true
+    },
+    {
+      "check": "understat:31184 Leeds goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:31184 Leeds goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:31184 Leeds xg_for",
+      "expected": 0.466247,
+      "actual": 0.466247,
+      "passed": true
+    },
+    {
+      "check": "understat:31184 Leeds xg_against",
+      "expected": 0.656681,
+      "actual": 0.656681,
+      "passed": true
+    },
+    {
+      "check": "Malaga recent match keys",
+      "expected": [
+        "understat:30835",
+        "understat:30828",
+        "understat:30811",
+        "understat:30806",
+        "understat:30795"
+      ],
+      "actual": [
+        "understat:30835",
+        "understat:30828",
+        "understat:30811",
+        "understat:30806",
+        "understat:30795"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Malaga goals_for",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "Malaga goals_against",
+      "expected": 9.0,
+      "actual": 9,
+      "passed": true
+    },
+    {
+      "check": "Malaga points",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "Malaga xg_for",
+      "expected": 4.056734,
+      "actual": 4.0567,
+      "passed": true
+    },
+    {
+      "check": "Malaga xg_against",
+      "expected": 11.51637,
+      "actual": 11.5164,
+      "passed": true
+    },
+    {
+      "check": "understat:30835 Malaga goals_for",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:30835 Malaga goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30835 Malaga xg_for",
+      "expected": 0.660498,
+      "actual": 0.660498,
+      "passed": true
+    },
+    {
+      "check": "understat:30835 Malaga xg_against",
+      "expected": 1.18796,
+      "actual": 1.18796,
+      "passed": true
+    },
+    {
+      "check": "understat:30828 Malaga goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30828 Malaga goals_against",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "check": "understat:30828 Malaga xg_for",
+      "expected": 0.361392,
+      "actual": 0.361392,
+      "passed": true
+    },
+    {
+      "check": "understat:30828 Malaga xg_against",
+      "expected": 4.2474,
+      "actual": 4.2474,
+      "passed": true
+    },
+    {
+      "check": "understat:30811 Malaga goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30811 Malaga goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30811 Malaga xg_for",
+      "expected": 0.548065,
+      "actual": 0.548065,
+      "passed": true
+    },
+    {
+      "check": "understat:30811 Malaga xg_against",
+      "expected": 1.48145,
+      "actual": 1.48145,
+      "passed": true
+    },
+    {
+      "check": "understat:30806 Malaga goals_for",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:30806 Malaga goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:30806 Malaga xg_for",
+      "expected": 1.72661,
+      "actual": 1.72661,
+      "passed": true
+    },
+    {
+      "check": "understat:30806 Malaga xg_against",
+      "expected": 1.19172,
+      "actual": 1.19172,
+      "passed": true
+    },
+    {
+      "check": "understat:30795 Malaga goals_for",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:30795 Malaga goals_against",
+      "expected": 4.0,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "check": "understat:30795 Malaga xg_for",
+      "expected": 0.760169,
+      "actual": 0.760169,
+      "passed": true
+    },
+    {
+      "check": "understat:30795 Malaga xg_against",
+      "expected": 3.40784,
+      "actual": 3.40784,
+      "passed": true
+    },
+    {
+      "check": "Espanyol recent match keys",
+      "expected": [
+        "understat:30834",
+        "understat:30829",
+        "understat:30820",
+        "understat:30808",
+        "understat:30793"
+      ],
+      "actual": [
+        "understat:30834",
+        "understat:30829",
+        "understat:30820",
+        "understat:30808",
+        "understat:30793"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Espanyol goals_for",
+      "expected": 6.0,
+      "actual": 6,
+      "passed": true
+    },
+    {
+      "check": "Espanyol goals_against",
+      "expected": 8.0,
+      "actual": 8,
+      "passed": true
+    },
+    {
+      "check": "Espanyol points",
+      "expected": 4,
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "check": "Espanyol xg_for",
+      "expected": 6.391649,
+      "actual": 6.3916,
+      "passed": true
+    },
+    {
+      "check": "Espanyol xg_against",
+      "expected": 7.4767220000000005,
+      "actual": 7.4767,
+      "passed": true
+    },
+    {
+      "check": "understat:30834 Espanyol goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30834 Espanyol goals_against",
+      "expected": 3.0,
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "check": "understat:30834 Espanyol xg_for",
+      "expected": 1.07744,
+      "actual": 1.07744,
+      "passed": true
+    },
+    {
+      "check": "understat:30834 Espanyol xg_against",
+      "expected": 1.25113,
+      "actual": 1.25113,
+      "passed": true
+    },
+    {
+      "check": "understat:30829 Espanyol goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30829 Espanyol goals_against",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "understat:30829 Espanyol xg_for",
+      "expected": 1.1573,
+      "actual": 1.1573,
+      "passed": true
+    },
+    {
+      "check": "understat:30829 Espanyol xg_against",
+      "expected": 1.8328,
+      "actual": 1.8328,
+      "passed": true
+    },
+    {
+      "check": "understat:30820 Espanyol goals_for",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "understat:30820 Espanyol goals_against",
+      "expected": 0.0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "understat:30820 Espanyol xg_for",
+      "expected": 1.40951,
+      "actual": 1.40951,
+      "passed": true
+    },
+    {
+      "check": "understat:30820 Espanyol xg_against",
+      "expected": 1.10365,
+      "actual": 1.10365,
+      "passed": true
+    },
+    {
+      "check": "understat:30808 Espanyol goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30808 Espanyol goals_against",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30808 Espanyol xg_for",
+      "expected": 1.81745,
+      "actual": 1.81745,
+      "passed": true
+    },
+    {
+      "check": "understat:30808 Espanyol xg_against",
+      "expected": 0.372572,
+      "actual": 0.372572,
+      "passed": true
+    },
+    {
+      "check": "understat:30793 Espanyol goals_for",
+      "expected": 1.0,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "check": "understat:30793 Espanyol goals_against",
+      "expected": 2.0,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "check": "understat:30793 Espanyol xg_for",
+      "expected": 0.929949,
+      "actual": 0.929949,
+      "passed": true
+    },
+    {
+      "check": "understat:30793 Espanyol xg_against",
+      "expected": 2.91657,
+      "actual": 2.91657,
+      "passed": true
+    },
+    {
+      "check": "No probabilities",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "check": "data context schema",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "trends context schema",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-lineup-1 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-lineup-1 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-formation-2 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-formation-2 formation text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-formation-2 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-lineup-5 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-lineup-5 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-formation-6 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-formation-6 formation text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-formation-6 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-lineup-9 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-lineup-9 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-formation-10 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-formation-10 formation text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-formation-10 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-lineup-13 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-lineup-13 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-formation-14 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-formation-14 formation text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-formation-14 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-squad-17 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-squad-17 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-squad-18 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-squad-18 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-squad-19 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-squad-19 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-squad-20 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-squad-20 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-market_value-21 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-market_value-21 value text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-market_value-21 historical date column",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-83-market_value-21 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-market_value-22 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-market_value-22 value text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-market_value-22 historical date column",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-245-market_value-22 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-market_value-23 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-market_value-23 value text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-market_value-23 historical date column",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-137-market_value-23 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-market_value-24 evidence exists",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-market_value-24 value text",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-market_value-24 historical date column",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "team-run-2026-10-06-v01-141-market_value-24 observed before analysis",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report evidence team-run-2026-10-06-v01/manager/request.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "manager report evidence team-run-2026-10-06-v01/manager/request.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/context_records.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/context_validation.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/source_manifest.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/dated_source_manifest.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/context_records.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/context_validation.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/source_manifest.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "data report evidence team-run-2026-10-06-v01/data/dated_source_manifest.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/records.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/source-evidence.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/validation.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/records.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/source-evidence.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "trends report evidence team-run-2026-10-06-v01/trends/validation.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report evidence team-run-2026-10-06-v01/analysis/recent_form.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report evidence team-run-2026-10-06-v01/analysis/README.md",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report evidence team-run-2026-10-06-v01/analysis/recent_form.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "analysis report evidence team-run-2026-10-06-v01/analysis/README.md",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report evidence team-run-2026-10-06-v01/operations/environment.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "operations report evidence team-run-2026-10-06-v01/operations/environment.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report evidence team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required run_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required match_key",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required role",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required producer_id",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required status",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required summary",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required evidence",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report required issues",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "prediction report evidence team-run-2026-10-06-v01/prediction/implementation_inventory.json",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    }
+  ],
+  "context_commands": [
+    {
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\context_cli.py",
+        "validate",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\data\\context_records.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"records\": 24,\n  \"passed\": true,\n  \"errors\": [],\n  \"provider_truth_certified\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\context_cli.py",
+        "validate",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\trends\\records.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"records\": 25,\n  \"passed\": true,\n  \"errors\": [],\n  \"provider_truth_certified\": false\n}\n",
+      "stderr": ""
+    }
+  ],
+  "cached_roster_comparison": [
+    {
+      "record_id": "team-run-2026-10-06-v01-83-lineup-1",
+      "kind": "lineup",
+      "player_count": 11,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-lineup-5",
+      "kind": "lineup",
+      "player_count": 11,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-lineup-9",
+      "kind": "lineup",
+      "player_count": 11,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-lineup-13",
+      "kind": "lineup",
+      "player_count": 11,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-squad-17",
+      "kind": "squad",
+      "player_count": 24,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-squad-18",
+      "kind": "squad",
+      "player_count": 30,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-squad-19",
+      "kind": "squad",
+      "player_count": 28,
+      "names_not_found_in_cached_evidence": []
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-squad-20",
+      "kind": "squad",
+      "player_count": 25,
+      "names_not_found_in_cached_evidence": []
+    }
+  ],
+  "report_reference_checks": [
+    {
+      "role": "manager",
+      "match_key": "understat:31230",
+      "producer_id": "/root",
+      "status": "DONE"
+    },
+    {
+      "role": "manager",
+      "match_key": "understat:30845",
+      "producer_id": "/root",
+      "status": "DONE"
+    },
+    {
+      "role": "data",
+      "match_key": "understat:31230",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE"
+    },
+    {
+      "role": "data",
+      "match_key": "understat:30845",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE"
+    },
+    {
+      "role": "trends",
+      "match_key": "understat:31230",
+      "producer_id": "/root/trends",
+      "status": "DONE"
+    },
+    {
+      "role": "trends",
+      "match_key": "understat:30845",
+      "producer_id": "/root/trends",
+      "status": "DONE"
+    },
+    {
+      "role": "analysis",
+      "match_key": "understat:31230",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE"
+    },
+    {
+      "role": "analysis",
+      "match_key": "understat:30845",
+      "producer_id": "/root/data_analysis",
+      "status": "DONE"
+    },
+    {
+      "role": "operations",
+      "match_key": "understat:31230",
+      "producer_id": "/root",
+      "status": "DONE"
+    },
+    {
+      "role": "operations",
+      "match_key": "understat:30845",
+      "producer_id": "/root",
+      "status": "DONE"
+    },
+    {
+      "role": "prediction",
+      "match_key": "understat:31230",
+      "producer_id": "/root",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "role": "prediction",
+      "match_key": "understat:30845",
+      "producer_id": "/root",
+      "status": "NOT_IMPLEMENTED"
+    }
+  ],
+  "web_rechecks_blocked": [
+    {
+      "url": "https://www.transfermarkt.com/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2026-06-01/plus/1",
+      "http_status": 403,
+      "limitation": "Independent web retrieval blocked; saved collector text and explicit dated column verified only."
+    },
+    {
+      "url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+      "http_status": 403,
+      "limitation": "Independent web retrieval blocked; saved collector text and explicit dated column verified only."
+    }
+  ]
+}

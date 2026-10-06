@@ -1,0 +1,119 @@
+[
+  {
+    "id": "arsenal_squad",
+    "url": "https://www.arsenal.com/men/players",
+    "observed_at": "2026-10-06T06:30:57.899830+00:00",
+    "status": "BLOCKED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "leeds_squad",
+    "url": "https://www.leedsunited.com/en/teams/mens",
+    "observed_at": "2026-10-06T06:30:58.577534+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/leeds_squad.txt",
+    "sha256": "33b1df5aa3474964a1a5227a3b367fb034801a3ebbad17d0fbe44637999a5372",
+    "text_length": 1578,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "espanyol_squad",
+    "url": "https://www.rcdespanyol.com/en/teams/rcd-espanyol/1",
+    "observed_at": "2026-10-06T06:31:00.248479+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/espanyol_squad.txt",
+    "sha256": "2de6bd849b7a378d959c681fc2a8033feeaa2a8fbaba497b959d5bfadd82e6d4",
+    "text_length": 8024,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "malaga_squad",
+    "url": "https://www.malagacf.com/malaga-club-de-futbol",
+    "observed_at": "2026-10-06T06:31:04.393566+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/malaga_squad.txt",
+    "sha256": "7143fff07769df9ae3ebad7e4ae8d3371761046656184aec22365d56133fe7c8",
+    "text_length": 1936,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "arsenal_lineup",
+    "url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+    "observed_at": "2026-10-06T06:31:06.975547+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/arsenal_lineup.txt",
+    "sha256": "3915a9bfe229cec8e536fcae65e57fd8a2cc1e0aedee270aa7635925efa09971",
+    "text_length": 9336,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "leeds_lineup",
+    "url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+    "observed_at": "2026-10-06T06:31:07.211983+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/leeds_lineup.txt",
+    "sha256": "6245fb0c1fcd29a4e89cc5f9653f40c804237caf45592ba1788a6cda84375f87",
+    "text_length": 11042,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "malaga_lineup",
+    "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-getafe-cf-malaga-cf-7",
+    "observed_at": "2026-10-06T06:31:08.413633+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/malaga_lineup.txt",
+    "sha256": "3c299c851e91107c252887313c045ba674bd40ad90d92974332769cd7eb345c0",
+    "text_length": 15158,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "espanyol_lineup",
+    "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+    "observed_at": "2026-10-06T06:31:14.089754+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/espanyol_lineup.txt",
+    "sha256": "2d699e7c728384504c158ea2f2622f2ad7678cd3208236a4410a20908cf06ce1",
+    "text_length": 14875,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "arsenal_value",
+    "url": "https://www.transfermarkt.com/fc_arsenal/startseite/verein/11",
+    "observed_at": "2026-10-06T06:31:20.198057+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/arsenal_value.txt",
+    "sha256": "6568bf606645410dce6e9fc1a216b21335b43fc3f63695d80db3959b19b507f2",
+    "text_length": 17687,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "leeds_value",
+    "url": "https://www.transfermarkt.co.uk/leeds-united/startseite/verein/399/sort/marketValueRaw",
+    "observed_at": "2026-10-06T06:31:21.192159+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/leeds_value.txt",
+    "sha256": "b79a6c90776992f6aa68330ca7b36380ef62a478ab74ca47dbe36e59d2c572a8",
+    "text_length": 16432,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "spain_values",
+    "url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+    "observed_at": "2026-10-06T06:31:22.131122+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+    "sha256": "d232ed94ef2e364d2c010975b4d360610bf2ed963278e72189eac40eca736895",
+    "text_length": 9714,
+    "status": "FETCHED_NOT_YET_PARSED"
+  },
+  {
+    "id": "malaga_value",
+    "url": "https://www.transfermarkt.com/malaga-cf/startseite/verein/1084",
+    "observed_at": "2026-10-06T06:31:22.744112+00:00",
+    "http_status": 200,
+    "path": "team-run-2026-10-06-v01/data/evidence/malaga_value.txt",
+    "sha256": "d7af19fc0d14adc83d2b929909224e07c17452dabde3f0ddbef4a0eab129a4be",
+    "text_length": 12542,
+    "status": "FETCHED_NOT_YET_PARSED"
+  }
+]

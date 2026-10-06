@@ -1,0 +1,32 @@
+{
+  "required": [
+    "run_id",
+    "match_key",
+    "role",
+    "producer_id",
+    "status",
+    "summary",
+    "evidence",
+    "issues"
+  ],
+  "statuses": [
+    "DONE",
+    "MISSING",
+    "BLOCKED",
+    "NOT_IMPLEMENTED",
+    "FAILED"
+  ],
+  "evidence_item": [
+    "path",
+    "description"
+  ],
+  "optional": [
+    "provider",
+    "model",
+    "cutoff_at",
+    "observed_at",
+    "tests",
+    "probabilities"
+  ],
+  "note": "DONE means work performed; not automatic final approval. Provider/model may be null when unavailable."
+}

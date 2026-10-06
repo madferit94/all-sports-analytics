@@ -1,0 +1,17 @@
+{
+  "required": [
+    "agent_id",
+    "producer_id",
+    "run_id",
+    "match_key",
+    "reports"
+  ],
+  "reports": "기능별 공통 report-contract 보고서 목록. 실제 주체는 통합 에이전트와 동일.",
+  "agent_ids": [
+    "director",
+    "research",
+    "analyst",
+    "builder",
+    "reviewer"
+  ]
+}

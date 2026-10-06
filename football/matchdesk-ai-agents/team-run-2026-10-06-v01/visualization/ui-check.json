@@ -1,0 +1,89 @@
+{
+  "run_id": "team-run-2026-10-06-v01",
+  "producer_id": "/root",
+  "artifact": "visualization/index-v02.html",
+  "method": "Codex in-app browser: real navigation, DOM inspection, click, keyboard Enter, console error logs, screenshots",
+  "viewport": {
+    "width": 1280,
+    "mobile_tested": false
+  },
+  "checks": [
+    {
+      "name": "initial fixture",
+      "expected": [
+        "Arsenal",
+        "Leeds"
+      ],
+      "actual": [
+        "Arsenal",
+        "Leeds"
+      ],
+      "passed": true
+    },
+    {
+      "name": "click switches fixture and cards",
+      "expected": [
+        "Malaga",
+        "Espanyol"
+      ],
+      "actual": [
+        "Malaga",
+        "Espanyol"
+      ],
+      "passed": true
+    },
+    {
+      "name": "no previous Arsenal content after switch",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "Enter switches back",
+      "expected": [
+        "Arsenal",
+        "Leeds"
+      ],
+      "actual": [
+        "Arsenal",
+        "Leeds"
+      ],
+      "passed": true
+    },
+    {
+      "name": "no previous Malaga content after return",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "no undefined in rendered content",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "no whole-page horizontal overflow",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "browser console errors",
+      "actual": [],
+      "passed": true
+    },
+    {
+      "name": "model unavailable warning",
+      "actual": true,
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "visualization/desktop-check.jpg",
+    "visualization/arsenal-check.jpg"
+  ],
+  "correction": "Initial HTML preserved. New v02 translates status labels and home/away/results, adds schedule date and explicit stored-dataset/no-refresh notice.",
+  "limitations": [
+    "No mobile viewport inspection",
+    "No public deployment",
+    "No prediction or refresh backend",
+    "Participant has not checked the screen"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "reviewer_id": "/root/approval",
+  "checks": {
+    "display_data_unchanged": true,
+    "inferred_date_row_guard": true,
+    "coach_inferred_date_guard": true,
+    "mixed_date_warning": true
+  },
+  "results": [
+    {
+      "match_key": "understat:31230",
+      "mode": "analysis",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\31230-analysis-v03-bundle.json"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "decision": "APPROVE",
+        "reasons": [],
+        "mode": "analysis",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "APPROVE",
+      "expected_matched": true
+    },
+    {
+      "match_key": "understat:31230",
+      "mode": "prediction",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\31230-prediction-v03-bundle.json"
+      ],
+      "returncode": 1,
+      "stdout": {
+        "decision": "HOLD",
+        "reasons": [
+          "NOT_DONE_prediction",
+          "NOT_DONE_model-evaluation",
+          "PROBABILITIES_UNAVAILABLE",
+          "MODEL_NOT_ACCEPTED"
+        ],
+        "mode": "prediction",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "HOLD",
+      "expected_matched": true
+    },
+    {
+      "match_key": "understat:31230",
+      "mode": "web",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\31230-web-v03-bundle.json"
+      ],
+      "returncode": 1,
+      "stdout": {
+        "decision": "HOLD",
+        "reasons": [
+          "NOT_DONE_prediction",
+          "NOT_DONE_model-evaluation",
+          "PROBABILITIES_UNAVAILABLE",
+          "MODEL_NOT_ACCEPTED"
+        ],
+        "mode": "web",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "HOLD",
+      "expected_matched": true
+    },
+    {
+      "match_key": "understat:30845",
+      "mode": "analysis",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\30845-analysis-v03-bundle.json"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "decision": "APPROVE",
+        "reasons": [],
+        "mode": "analysis",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "APPROVE",
+      "expected_matched": true
+    },
+    {
+      "match_key": "understat:30845",
+      "mode": "prediction",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\30845-prediction-v03-bundle.json"
+      ],
+      "returncode": 1,
+      "stdout": {
+        "decision": "HOLD",
+        "reasons": [
+          "NOT_DONE_prediction",
+          "NOT_DONE_model-evaluation",
+          "PROBABILITIES_UNAVAILABLE",
+          "MODEL_NOT_ACCEPTED"
+        ],
+        "mode": "prediction",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "HOLD",
+      "expected_matched": true
+    },
+    {
+      "match_key": "understat:30845",
+      "mode": "web",
+      "command": [
+        "<LOCAL_EXECUTION_PATH>",
+        "<LOCAL_WORKSPACE>\\agent-team-2026-10-06-v01\\tools\\approval_gate.py",
+        "<LOCAL_WORKSPACE>\\team-run-2026-10-06-v01\\approval\\30845-web-v03-bundle.json"
+      ],
+      "returncode": 1,
+      "stdout": {
+        "decision": "HOLD",
+        "reasons": [
+          "NOT_DONE_prediction",
+          "NOT_DONE_model-evaluation",
+          "PROBABILITIES_UNAVAILABLE",
+          "MODEL_NOT_ACCEPTED"
+        ],
+        "mode": "web",
+        "display_probabilities": false,
+        "human_release_authorized": false,
+        "note": "Rules check only. Final agent must inspect evidence content. Human model adoption/policy/deployment decisions remain separate."
+      },
+      "stderr": "",
+      "expected_decision": "HOLD",
+      "expected_matched": true
+    }
+  ],
+  "all_expected_matched": true,
+  "review_scope": "Static v03 data/wording review and six gate CLI executions; no independent browser operation.",
+  "human_release_authorized": false,
+  "user_confirmed": false
+}

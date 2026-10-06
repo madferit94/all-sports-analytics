@@ -1,0 +1,1852 @@
+{
+  "form": {
+    "run_id": "team-run-2026-10-06-v01",
+    "producer_id": "/root/data_analysis",
+    "cutoff_at": "2026-10-06T06:34:50.258722+00:00",
+    "method": "Latest five completed league matches before observation cutoff and target date; integer match ID breaks same-day ties. No cups or other leagues.",
+    "fixtures": [
+      {
+        "match_key": "understat:31230",
+        "league": "EPL",
+        "season": "2026/27",
+        "home_team_key": "understat:83",
+        "away_team_key": "understat:245",
+        "home_team_name": "Arsenal",
+        "away_team_name": "Leeds",
+        "source_date": "2026-10-10",
+        "source_timezone": "UNVERIFIED",
+        "schedule_notice": "Understat 기준 예정 날짜 · 일정 변경 가능 · 시간 미확인",
+        "teams": [
+          {
+            "team_key": "understat:83",
+            "team_name": "Arsenal",
+            "matches": [
+              {
+                "match_key": "understat:31224",
+                "date": "2026-09-19",
+                "venue": "A",
+                "opponent": "Brighton",
+                "gf": 0,
+                "ga": 3,
+                "xgf": 1.23979,
+                "xga": 2.11268,
+                "result": "L",
+                "source_url": "https://understat.com/match/31224"
+              },
+              {
+                "match_key": "understat:31216",
+                "date": "2026-09-12",
+                "venue": "A",
+                "opponent": "Sunderland",
+                "gf": 2,
+                "ga": 0,
+                "xgf": 1.98905,
+                "xga": 2.07033,
+                "result": "W",
+                "source_url": "https://understat.com/match/31216"
+              },
+              {
+                "match_key": "understat:31209",
+                "date": "2026-09-06",
+                "venue": "H",
+                "opponent": "Chelsea",
+                "gf": 2,
+                "ga": 1,
+                "xgf": 2.80555,
+                "xga": 0.430508,
+                "result": "W",
+                "source_url": "https://understat.com/match/31209"
+              },
+              {
+                "match_key": "understat:31199",
+                "date": "2026-08-31",
+                "venue": "A",
+                "opponent": "Aston Villa",
+                "gf": 1,
+                "ga": 0,
+                "xgf": 1.52441,
+                "xga": 0.281925,
+                "result": "W",
+                "source_url": "https://understat.com/match/31199"
+              },
+              {
+                "match_key": "understat:31180",
+                "date": "2026-08-21",
+                "venue": "H",
+                "opponent": "Coventry",
+                "gf": 3,
+                "ga": 0,
+                "xgf": 1.85424,
+                "xga": 0.558336,
+                "result": "W",
+                "source_url": "https://understat.com/match/31180"
+              }
+            ],
+            "summary": {
+              "played": 5,
+              "wins": 4,
+              "draws": 0,
+              "losses": 1,
+              "points": 12,
+              "goals_for": 8,
+              "goals_against": 4,
+              "xg_for": 9.413,
+              "xg_against": 5.4538,
+              "xg_difference": 3.9592,
+              "home": {
+                "played": 2,
+                "wins": 2,
+                "draws": 0,
+                "losses": 0,
+                "points": 6,
+                "goals_for": 5,
+                "goals_against": 1,
+                "xg_for": 4.6598,
+                "xg_against": 0.9888,
+                "xg_difference": 3.671
+              },
+              "away": {
+                "played": 3,
+                "wins": 2,
+                "draws": 0,
+                "losses": 1,
+                "points": 6,
+                "goals_for": 3,
+                "goals_against": 3,
+                "xg_for": 4.7532,
+                "xg_against": 4.4649,
+                "xg_difference": 0.2883
+              }
+            }
+          },
+          {
+            "team_key": "understat:245",
+            "team_name": "Leeds",
+            "matches": [
+              {
+                "match_key": "understat:31225",
+                "date": "2026-09-20",
+                "venue": "H",
+                "opponent": "Crystal Palace",
+                "gf": 0,
+                "ga": 0,
+                "xgf": 1.08552,
+                "xga": 1.12905,
+                "result": "D",
+                "source_url": "https://understat.com/match/31225"
+              },
+              {
+                "match_key": "understat:31219",
+                "date": "2026-09-14",
+                "venue": "H",
+                "opponent": "Newcastle United",
+                "gf": 4,
+                "ga": 1,
+                "xgf": 2.2902,
+                "xga": 0.793165,
+                "result": "W",
+                "source_url": "https://understat.com/match/31219"
+              },
+              {
+                "match_key": "understat:31206",
+                "date": "2026-09-05",
+                "venue": "A",
+                "opponent": "Brighton",
+                "gf": 1,
+                "ga": 1,
+                "xgf": 2.23407,
+                "xga": 2.22026,
+                "result": "D",
+                "source_url": "https://understat.com/match/31206"
+              },
+              {
+                "match_key": "understat:31197",
+                "date": "2026-08-30",
+                "venue": "H",
+                "opponent": "Brentford",
+                "gf": 1,
+                "ga": 1,
+                "xgf": 1.14993,
+                "xga": 1.61344,
+                "result": "D",
+                "source_url": "https://understat.com/match/31197"
+              },
+              {
+                "match_key": "understat:31184",
+                "date": "2026-08-22",
+                "venue": "A",
+                "opponent": "Nottingham Forest",
+                "gf": 1,
+                "ga": 0,
+                "xgf": 0.466247,
+                "xga": 0.656681,
+                "result": "W",
+                "source_url": "https://understat.com/match/31184"
+              }
+            ],
+            "summary": {
+              "played": 5,
+              "wins": 2,
+              "draws": 3,
+              "losses": 0,
+              "points": 9,
+              "goals_for": 7,
+              "goals_against": 3,
+              "xg_for": 7.226,
+              "xg_against": 6.4126,
+              "xg_difference": 0.8134,
+              "home": {
+                "played": 3,
+                "wins": 1,
+                "draws": 2,
+                "losses": 0,
+                "points": 5,
+                "goals_for": 5,
+                "goals_against": 2,
+                "xg_for": 4.5256,
+                "xg_against": 3.5357,
+                "xg_difference": 0.9899
+              },
+              "away": {
+                "played": 2,
+                "wins": 1,
+                "draws": 1,
+                "losses": 0,
+                "points": 4,
+                "goals_for": 2,
+                "goals_against": 1,
+                "xg_for": 2.7003,
+                "xg_against": 2.8769,
+                "xg_difference": -0.1766
+              }
+            }
+          }
+        ]
+      },
+      {
+        "match_key": "understat:30845",
+        "league": "La_liga",
+        "season": "2026/27",
+        "home_team_key": "understat:137",
+        "away_team_key": "understat:141",
+        "home_team_name": "Malaga",
+        "away_team_name": "Espanyol",
+        "source_date": "2026-10-11",
+        "source_timezone": "UNVERIFIED",
+        "schedule_notice": "Understat 기준 예정 날짜 · 일정 변경 가능 · 시간 미확인",
+        "teams": [
+          {
+            "team_key": "understat:137",
+            "team_name": "Malaga",
+            "matches": [
+              {
+                "match_key": "understat:30835",
+                "date": "2026-09-20",
+                "venue": "A",
+                "opponent": "Getafe",
+                "gf": 0,
+                "ga": 1,
+                "xgf": 0.660498,
+                "xga": 1.18796,
+                "result": "L",
+                "source_url": "https://understat.com/match/30835"
+              },
+              {
+                "match_key": "understat:30828",
+                "date": "2026-09-17",
+                "venue": "H",
+                "opponent": "Villarreal",
+                "gf": 1,
+                "ga": 3,
+                "xgf": 0.361392,
+                "xga": 4.2474,
+                "result": "L",
+                "source_url": "https://understat.com/match/30828"
+              },
+              {
+                "match_key": "understat:30811",
+                "date": "2026-09-13",
+                "venue": "A",
+                "opponent": "Celta Vigo",
+                "gf": 1,
+                "ga": 1,
+                "xgf": 0.548065,
+                "xga": 1.48145,
+                "result": "D",
+                "source_url": "https://understat.com/match/30811"
+              },
+              {
+                "match_key": "understat:30806",
+                "date": "2026-09-06",
+                "venue": "H",
+                "opponent": "Levante",
+                "gf": 0,
+                "ga": 0,
+                "xgf": 1.72661,
+                "xga": 1.19172,
+                "result": "D",
+                "source_url": "https://understat.com/match/30806"
+              },
+              {
+                "match_key": "understat:30795",
+                "date": "2026-08-30",
+                "venue": "A",
+                "opponent": "Real Madrid",
+                "gf": 0,
+                "ga": 4,
+                "xgf": 0.760169,
+                "xga": 3.40784,
+                "result": "L",
+                "source_url": "https://understat.com/match/30795"
+              }
+            ],
+            "summary": {
+              "played": 5,
+              "wins": 0,
+              "draws": 2,
+              "losses": 3,
+              "points": 2,
+              "goals_for": 2,
+              "goals_against": 9,
+              "xg_for": 4.0567,
+              "xg_against": 11.5164,
+              "xg_difference": -7.4597,
+              "home": {
+                "played": 2,
+                "wins": 0,
+                "draws": 1,
+                "losses": 1,
+                "points": 1,
+                "goals_for": 1,
+                "goals_against": 3,
+                "xg_for": 2.088,
+                "xg_against": 5.4391,
+                "xg_difference": -3.3511
+              },
+              "away": {
+                "played": 3,
+                "wins": 0,
+                "draws": 1,
+                "losses": 2,
+                "points": 1,
+                "goals_for": 1,
+                "goals_against": 6,
+                "xg_for": 1.9687,
+                "xg_against": 6.0773,
+                "xg_difference": -4.1086
+              }
+            }
+          },
+          {
+            "team_key": "understat:141",
+            "team_name": "Espanyol",
+            "matches": [
+              {
+                "match_key": "understat:30834",
+                "date": "2026-09-18",
+                "venue": "H",
+                "opponent": "Elche",
+                "gf": 1,
+                "ga": 3,
+                "xgf": 1.07744,
+                "xga": 1.25113,
+                "result": "L",
+                "source_url": "https://understat.com/match/30834"
+              },
+              {
+                "match_key": "understat:30829",
+                "date": "2026-09-15",
+                "venue": "A",
+                "opponent": "Rayo Vallecano",
+                "gf": 1,
+                "ga": 2,
+                "xgf": 1.1573,
+                "xga": 1.8328,
+                "result": "L",
+                "source_url": "https://understat.com/match/30829"
+              },
+              {
+                "match_key": "understat:30820",
+                "date": "2026-09-12",
+                "venue": "A",
+                "opponent": "Osasuna",
+                "gf": 2,
+                "ga": 0,
+                "xgf": 1.40951,
+                "xga": 1.10365,
+                "result": "W",
+                "source_url": "https://understat.com/match/30820"
+              },
+              {
+                "match_key": "understat:30808",
+                "date": "2026-09-06",
+                "venue": "H",
+                "opponent": "Sevilla",
+                "gf": 1,
+                "ga": 1,
+                "xgf": 1.81745,
+                "xga": 0.372572,
+                "result": "D",
+                "source_url": "https://understat.com/match/30808"
+              },
+              {
+                "match_key": "understat:30793",
+                "date": "2026-08-29",
+                "venue": "A",
+                "opponent": "Real Sociedad",
+                "gf": 1,
+                "ga": 2,
+                "xgf": 0.929949,
+                "xga": 2.91657,
+                "result": "L",
+                "source_url": "https://understat.com/match/30793"
+              }
+            ],
+            "summary": {
+              "played": 5,
+              "wins": 1,
+              "draws": 1,
+              "losses": 3,
+              "points": 4,
+              "goals_for": 6,
+              "goals_against": 8,
+              "xg_for": 6.3916,
+              "xg_against": 7.4767,
+              "xg_difference": -1.0851,
+              "home": {
+                "played": 2,
+                "wins": 0,
+                "draws": 1,
+                "losses": 1,
+                "points": 1,
+                "goals_for": 2,
+                "goals_against": 4,
+                "xg_for": 2.8949,
+                "xg_against": 1.6237,
+                "xg_difference": 1.2712
+              },
+              "away": {
+                "played": 3,
+                "wins": 1,
+                "draws": 0,
+                "losses": 2,
+                "points": 3,
+                "goals_for": 4,
+                "goals_against": 4,
+                "xg_for": 3.4968,
+                "xg_against": 5.853,
+                "xg_difference": -2.3562
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "probabilities": null,
+    "limitations": [
+      "Only 5 league matches per team; opponent strength not adjusted.",
+      "Auxiliary context is descriptive and never converted into probabilities.",
+      "Source timestamps are unverified; source calendar dates retained.",
+      "Market values dated 2026-06-01 are historical estimates, not October values."
+    ]
+  },
+  "records": [
+    {
+      "record_id": "team-run-2026-10-06-v01-83-lineup-1",
+      "kind": "lineup",
+      "team_key": "understat:83",
+      "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+      "observed_at": "2026-10-06T06:31:06.975547+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_lineup.txt",
+      "match_key": "understat:31224",
+      "lineup_type": "CONFIRMED",
+      "players": [
+        {
+          "name": "D Raya",
+          "starter": true
+        },
+        {
+          "name": "J Timber",
+          "starter": true
+        },
+        {
+          "name": "E Konsa",
+          "starter": true
+        },
+        {
+          "name": "Gabriel",
+          "starter": true
+        },
+        {
+          "name": "R Calafiori",
+          "starter": true
+        },
+        {
+          "name": "D Rice",
+          "starter": true
+        },
+        {
+          "name": "B Guimarães",
+          "starter": true
+        },
+        {
+          "name": "B Saka",
+          "starter": true
+        },
+        {
+          "name": "M Ødegaard",
+          "starter": true
+        },
+        {
+          "name": "C Tzolis",
+          "starter": true
+        },
+        {
+          "name": "K Havertz",
+          "starter": true
+        }
+      ],
+      "name_note": "Provider display names preserved; no universal player ID mapping yet."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-formation-2",
+      "kind": "formation",
+      "team_key": "understat:83",
+      "source_url": "https://www.fotmob.com/en-GB/matches/arsenal-vs-brighton-hove-albion/3bfk5g?player=167008",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_fotmob_excerpt.json",
+      "match_key": "understat:31224",
+      "formation": "4-2-3-1",
+      "formation_type": "NOMINAL_START",
+      "note": "Source nominal starting shape; not observed in-play tactical positions."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-lineup-3",
+      "kind": "lineup",
+      "team_key": "understat:83",
+      "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:31230",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-formation-4",
+      "kind": "formation",
+      "team_key": "understat:83",
+      "source_url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-arsenal/teams/559486",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:31230",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-lineup-5",
+      "kind": "lineup",
+      "team_key": "understat:245",
+      "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+      "observed_at": "2026-10-06T06:31:07.211983+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_lineup.txt",
+      "match_key": "understat:31225",
+      "lineup_type": "CONFIRMED",
+      "players": [
+        {
+          "name": "James Trafford",
+          "starter": true
+        },
+        {
+          "name": "James Justin",
+          "starter": true
+        },
+        {
+          "name": "Nico Elvedi",
+          "starter": true
+        },
+        {
+          "name": "Tarik Muharemović",
+          "starter": true
+        },
+        {
+          "name": "Jayden Bogle",
+          "starter": true
+        },
+        {
+          "name": "Anton Stach",
+          "starter": true
+        },
+        {
+          "name": "Ethan Ampadu",
+          "starter": true
+        },
+        {
+          "name": "Ao Tanaka",
+          "starter": true
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "starter": true
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "starter": true
+        },
+        {
+          "name": "Noah Okafor",
+          "starter": true
+        }
+      ],
+      "name_note": "Provider display names preserved; no universal player ID mapping yet."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-formation-6",
+      "kind": "formation",
+      "team_key": "understat:245",
+      "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+      "observed_at": "2026-10-06T06:31:07.211983+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_lineup.txt",
+      "match_key": "understat:31225",
+      "formation": "3-5-2",
+      "formation_type": "NOMINAL_START",
+      "note": "Source nominal starting shape; not observed in-play tactical positions."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-lineup-7",
+      "kind": "lineup",
+      "team_key": "understat:245",
+      "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:31230",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-formation-8",
+      "kind": "formation",
+      "team_key": "understat:245",
+      "source_url": "https://www.fotmob.com/en-GB/matches/leeds-united-vs-crystal-palace/2rl0qz?player=861805",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:31230",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-lineup-9",
+      "kind": "lineup",
+      "team_key": "understat:137",
+      "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+      "observed_at": "2026-10-06T06:32:16.351877+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_sky_lineup.txt",
+      "match_key": "understat:30835",
+      "lineup_type": "CONFIRMED",
+      "players": [
+        {
+          "name": "A Herrero",
+          "starter": true
+        },
+        {
+          "name": "R Garrido",
+          "starter": true
+        },
+        {
+          "name": "Á Recio",
+          "starter": true
+        },
+        {
+          "name": "J Berrocal",
+          "starter": true
+        },
+        {
+          "name": "J Salinas",
+          "starter": true
+        },
+        {
+          "name": "R Rodríguez",
+          "starter": true
+        },
+        {
+          "name": "D Larrubia",
+          "starter": true
+        },
+        {
+          "name": "C Dotor",
+          "starter": true
+        },
+        {
+          "name": "D Lorenzo",
+          "starter": true
+        },
+        {
+          "name": "J Muñoz",
+          "starter": true
+        },
+        {
+          "name": "E Jauregi Escobar",
+          "starter": true
+        }
+      ],
+      "name_note": "Provider display names preserved; no universal player ID mapping yet."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-formation-10",
+      "kind": "formation",
+      "team_key": "understat:137",
+      "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-getafe-cf-malaga-cf-7",
+      "observed_at": "2026-10-06T06:31:08.413633+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_lineup.txt",
+      "match_key": "understat:30835",
+      "formation": "4-1-4-1",
+      "formation_type": "NOMINAL_START",
+      "note": "Source nominal starting shape; not observed in-play tactical positions."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-lineup-11",
+      "kind": "lineup",
+      "team_key": "understat:137",
+      "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:30845",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-formation-12",
+      "kind": "formation",
+      "team_key": "understat:137",
+      "source_url": "https://www.skysports.com/football/getafe-vs-malaga/teams/562989",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:30845",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-lineup-13",
+      "kind": "lineup",
+      "team_key": "understat:141",
+      "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+      "observed_at": "2026-10-06T06:31:14.089754+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_lineup.txt",
+      "match_key": "understat:30834",
+      "lineup_type": "CONFIRMED",
+      "players": [
+        {
+          "name": "Dmitrovic",
+          "starter": true
+        },
+        {
+          "name": "Cabrera",
+          "starter": true
+        },
+        {
+          "name": "R. Hinojo",
+          "starter": true
+        },
+        {
+          "name": "Nuñez",
+          "starter": true
+        },
+        {
+          "name": "Jose Angel",
+          "starter": true
+        },
+        {
+          "name": "Edu Expósito",
+          "starter": true
+        },
+        {
+          "name": "Javi H.",
+          "starter": true
+        },
+        {
+          "name": "Urko",
+          "starter": true
+        },
+        {
+          "name": "Bryan",
+          "starter": true
+        },
+        {
+          "name": "Cala",
+          "starter": true
+        },
+        {
+          "name": "Roberto",
+          "starter": true
+        }
+      ],
+      "name_note": "Provider display names preserved; no universal player ID mapping yet."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-formation-14",
+      "kind": "formation",
+      "team_key": "understat:141",
+      "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+      "observed_at": "2026-10-06T06:31:14.089754+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_lineup.txt",
+      "match_key": "understat:30834",
+      "formation": "4-2-3-1",
+      "formation_type": "NOMINAL_START",
+      "note": "Source nominal starting shape; not observed in-play tactical positions."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-lineup-15",
+      "kind": "lineup",
+      "team_key": "understat:141",
+      "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:30845",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-formation-16",
+      "kind": "formation",
+      "team_key": "understat:141",
+      "source_url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-elche-cf-7",
+      "observed_at": "2026-10-06T06:34:50.258722+00:00",
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "target_match_key": "understat:30845",
+      "reason": "미래 경기의 실제 선발·포메이션은 확인되지 않았으며 직전 경기 값을 복사하지 않음."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-squad-17",
+      "kind": "squad",
+      "team_key": "understat:83",
+      "source_url": "https://www.transfermarkt.com/fc_arsenal/startseite/verein/11",
+      "observed_at": "2026-10-06T06:31:20.198057+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/arsenal_value.txt",
+      "effective_date": "2026-10-06",
+      "players": [
+        {
+          "name": "David Raya",
+          "position": "Goalkeeper",
+          "shirt_number": 1
+        },
+        {
+          "name": "Illan Meslier",
+          "position": "Goalkeeper",
+          "shirt_number": 30
+        },
+        {
+          "name": "Kepa Arrizabalaga",
+          "position": "Goalkeeper",
+          "shirt_number": 13
+        },
+        {
+          "name": "William Saliba",
+          "position": "Centre-Back",
+          "shirt_number": 2
+        },
+        {
+          "name": "Gabriel",
+          "position": "Centre-Back",
+          "shirt_number": 6
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "Centre-Back",
+          "shirt_number": 5
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Centre-Back",
+          "shirt_number": 15
+        },
+        {
+          "name": "Cristhian Mosquera",
+          "position": "Centre-Back",
+          "shirt_number": 3
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "position": "Left-Back",
+          "shirt_number": 33
+        },
+        {
+          "name": "Jurriën Timber",
+          "position": "Right-Back",
+          "shirt_number": 12
+        },
+        {
+          "name": "Ben White",
+          "position": "Right-Back",
+          "shirt_number": 4
+        },
+        {
+          "name": "Martín Zubimendi",
+          "position": "Defensive Midfield",
+          "shirt_number": 36
+        },
+        {
+          "name": "Myles Lewis-Skelly",
+          "position": "Defensive Midfield",
+          "shirt_number": 49
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Central Midfield",
+          "shirt_number": 41
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "Central Midfield",
+          "shirt_number": 39
+        },
+        {
+          "name": "Mikel Merino",
+          "position": "Central Midfield",
+          "shirt_number": 23
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "Attacking Midfield",
+          "shirt_number": 8
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Attacking Midfield",
+          "shirt_number": 10
+        },
+        {
+          "name": "Christos Tzolis",
+          "position": "Left Winger",
+          "shirt_number": 17
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Right Winger",
+          "shirt_number": 7
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "Right Winger",
+          "shirt_number": 20
+        },
+        {
+          "name": "Max Dowman",
+          "position": "Right Winger",
+          "shirt_number": 56
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "Centre-Forward",
+          "shirt_number": 14
+        },
+        {
+          "name": "Kai Havertz",
+          "position": "Centre-Forward",
+          "shirt_number": 29
+        }
+      ],
+      "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+      "source_grade": "PROVIDER_ROSTER"
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-squad-18",
+      "kind": "squad",
+      "team_key": "understat:245",
+      "source_url": "https://www.leedsunited.com/en/teams/mens",
+      "observed_at": "2026-10-06T06:30:58.577534+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/leeds_squad.txt",
+      "effective_date": "2026-10-06",
+      "players": [
+        {
+          "name": "James Trafford",
+          "position": "Goalkeeper",
+          "shirt_number": 1
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Defender",
+          "shirt_number": 2
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Defender",
+          "shirt_number": 3
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Midfielder",
+          "shirt_number": 4
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "Defender",
+          "shirt_number": 5
+        },
+        {
+          "name": "Joe Rodon",
+          "position": "Defender",
+          "shirt_number": 6
+        },
+        {
+          "name": "Daniel James",
+          "position": "Forward",
+          "shirt_number": 7
+        },
+        {
+          "name": "Sean Longstaff",
+          "position": "Midfielder",
+          "shirt_number": 8
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "position": "Forward",
+          "shirt_number": 9
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Forward",
+          "shirt_number": 10
+        },
+        {
+          "name": "Brenden Aaronson",
+          "position": "Forward",
+          "shirt_number": 11
+        },
+        {
+          "name": "Lukas Nmecha",
+          "position": "Forward",
+          "shirt_number": 14
+        },
+        {
+          "name": "Jaka Bijol",
+          "position": "Defender",
+          "shirt_number": 15
+        },
+        {
+          "name": "Anton Stach",
+          "position": "Midfielder",
+          "shirt_number": 18
+        },
+        {
+          "name": "Noah Okafor",
+          "position": "Forward",
+          "shirt_number": 19
+        },
+        {
+          "name": "Alex Cairns",
+          "position": "Goalkeeper",
+          "shirt_number": 21
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "Midfielder",
+          "shirt_number": 22
+        },
+        {
+          "name": "James Justin",
+          "position": "Defender",
+          "shirt_number": 24
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "Defender",
+          "shirt_number": 30
+        },
+        {
+          "name": "Sam Chambers",
+          "position": "Midfielder",
+          "shirt_number": 42
+        },
+        {
+          "name": "Ilia Gruev",
+          "position": "Midfielder",
+          "shirt_number": 44
+        },
+        {
+          "name": "Rhys Chadwick",
+          "position": "Midfielder",
+          "shirt_number": 47
+        },
+        {
+          "name": "Rory Mahady",
+          "position": "Goalkeeper",
+          "shirt_number": 48
+        },
+        {
+          "name": "Darryl Ombang",
+          "position": "Goalkeeper",
+          "shirt_number": 49
+        },
+        {
+          "name": "Alfie Cresswell",
+          "position": "Defender",
+          "shirt_number": 50
+        },
+        {
+          "name": "Jayden Lienou",
+          "position": "Defender",
+          "shirt_number": 65
+        },
+        {
+          "name": "Callum Mills",
+          "position": "Midfielder",
+          "shirt_number": 72
+        },
+        {
+          "name": "Jean-Mattéo Bahoya",
+          "position": "Forward",
+          "shirt_number": null
+        },
+        {
+          "name": "Melvin Bard",
+          "position": "Defender",
+          "shirt_number": null
+        },
+        {
+          "name": "Michael Zetterer",
+          "position": "Goalkeeper",
+          "shirt_number": null
+        }
+      ],
+      "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+      "source_grade": "OFFICIAL_CLUB_ROSTER"
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-squad-19",
+      "kind": "squad",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/malaga-club-de-futbol",
+      "observed_at": "2026-10-06T06:31:04.393566+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/malaga_squad.txt",
+      "effective_date": "2026-10-06",
+      "players": [
+        {
+          "name": "A. Herrero",
+          "position": "Porteros",
+          "shirt_number": 1
+        },
+        {
+          "name": "Carlos López",
+          "position": "Portero",
+          "shirt_number": 13
+        },
+        {
+          "name": "C. Puga",
+          "position": "Defensa",
+          "shirt_number": 3
+        },
+        {
+          "name": "Einar",
+          "position": "Defensa",
+          "shirt_number": 4
+        },
+        {
+          "name": "Pastor",
+          "position": "Defensa",
+          "shirt_number": 5
+        },
+        {
+          "name": "Salinas",
+          "position": "Defensas",
+          "shirt_number": 12
+        },
+        {
+          "name": "Recio",
+          "position": "Defensas",
+          "shirt_number": 15
+        },
+        {
+          "name": "Murillo",
+          "position": "Defensa",
+          "shirt_number": 16
+        },
+        {
+          "name": "F. Calero",
+          "position": "Defensas",
+          "shirt_number": 20
+        },
+        {
+          "name": "J. Berrocal",
+          "position": "Defensas",
+          "shirt_number": 25
+        },
+        {
+          "name": "Rafita",
+          "position": "Defensas",
+          "shirt_number": 31
+        },
+        {
+          "name": "Aznou",
+          "position": "Defensas",
+          "shirt_number": 39
+        },
+        {
+          "name": "Cajuste",
+          "position": "Centrocampistas",
+          "shirt_number": 2
+        },
+        {
+          "name": "Ramón",
+          "position": "Centrocampista",
+          "shirt_number": 6
+        },
+        {
+          "name": "Dotor",
+          "position": "Centrocampista",
+          "shirt_number": 8
+        },
+        {
+          "name": "D. Larrubia",
+          "position": "Centrocampista",
+          "shirt_number": 10
+        },
+        {
+          "name": "Rafa R.",
+          "position": "Centrocampista",
+          "shirt_number": 14
+        },
+        {
+          "name": "Martínez",
+          "position": "Centrocampistas",
+          "shirt_number": 18
+        },
+        {
+          "name": "Dani Lorenzo",
+          "position": "Centrocampista",
+          "shirt_number": 22
+        },
+        {
+          "name": "Izan M.",
+          "position": "Centrocampista",
+          "shirt_number": 23
+        },
+        {
+          "name": "Aaron Ochoa",
+          "position": "Centrocampista",
+          "shirt_number": 35
+        },
+        {
+          "name": "Haitam",
+          "position": "Delantero",
+          "shirt_number": 7
+        },
+        {
+          "name": "Chupe",
+          "position": "Delantero",
+          "shirt_number": 9
+        },
+        {
+          "name": "Joaquín",
+          "position": "Delantero",
+          "shirt_number": 11
+        },
+        {
+          "name": "Jauregi",
+          "position": "Delantero",
+          "shirt_number": 17
+        },
+        {
+          "name": "Cruz",
+          "position": "Delanteros",
+          "shirt_number": 19
+        },
+        {
+          "name": "Niño",
+          "position": "Delantero",
+          "shirt_number": 21
+        },
+        {
+          "name": "Lobete",
+          "position": "Delantero",
+          "shirt_number": 24
+        }
+      ],
+      "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+      "source_grade": "OFFICIAL_CLUB_ROSTER"
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-squad-20",
+      "kind": "squad",
+      "team_key": "understat:141",
+      "source_url": "https://www.rcdespanyol.com/en/teams/rcd-espanyol/1",
+      "observed_at": "2026-10-06T06:31:00.248479+00:00",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/espanyol_squad.txt",
+      "effective_date": "2026-10-06",
+      "players": [
+        {
+          "name": "Àngel Fortuño",
+          "position": "Goalkeeper",
+          "shirt_number": 1
+        },
+        {
+          "name": "Dmitrović",
+          "position": "Goalkeeper",
+          "shirt_number": 13
+        },
+        {
+          "name": "Gorosabel",
+          "position": "Defender",
+          "shirt_number": 2
+        },
+        {
+          "name": "Quilindschy",
+          "position": "Defender",
+          "shirt_number": 3
+        },
+        {
+          "name": "Riedel",
+          "position": "Defender",
+          "shirt_number": 5
+        },
+        {
+          "name": "Cabrera",
+          "position": "Defender",
+          "shirt_number": 6
+        },
+        {
+          "name": "Nuñez",
+          "position": "Defender",
+          "shirt_number": 14
+        },
+        {
+          "name": "Drkušić",
+          "position": "Defender",
+          "shirt_number": 16
+        },
+        {
+          "name": "Hinojo",
+          "position": "Defender",
+          "shirt_number": 21
+        },
+        {
+          "name": "El Hilali",
+          "position": "Defender",
+          "shirt_number": 23
+        },
+        {
+          "name": "Urko",
+          "position": "Midfielder",
+          "shirt_number": 4
+        },
+        {
+          "name": "Edu Expósito",
+          "position": "Midfielder",
+          "shirt_number": 8
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Midfielder",
+          "shirt_number": 10
+        },
+        {
+          "name": "Moscardo",
+          "position": "Midfielder",
+          "shirt_number": 20
+        },
+        {
+          "name": "Cala",
+          "position": "Midfielder",
+          "shirt_number": 22
+        },
+        {
+          "name": "Bauza",
+          "position": "Midfielder",
+          "shirt_number": 26
+        },
+        {
+          "name": "Javi Hdez.",
+          "position": "Midfielder",
+          "shirt_number": 28
+        },
+        {
+          "name": "Puado",
+          "position": "Striker",
+          "shirt_number": 7
+        },
+        {
+          "name": "Roberto",
+          "position": "Striker",
+          "shirt_number": 9
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Striker",
+          "shirt_number": 11
+        },
+        {
+          "name": "Bryan",
+          "position": "Striker",
+          "shirt_number": 15
+        },
+        {
+          "name": "Jofre",
+          "position": "Striker",
+          "shirt_number": 17
+        },
+        {
+          "name": "Marcos",
+          "position": "Striker",
+          "shirt_number": 18
+        },
+        {
+          "name": "Kike G.",
+          "position": "Striker",
+          "shirt_number": 19
+        },
+        {
+          "name": "Dolan",
+          "position": "Striker",
+          "shirt_number": 24
+        }
+      ],
+      "effective_date_basis": "Observation-day roster snapshot; website did not state roster effective date. Not certified historical availability.",
+      "source_grade": "OFFICIAL_CLUB_ROSTER"
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-83-market_value-21",
+      "kind": "market_value",
+      "team_key": "understat:83",
+      "source_url": "https://www.transfermarkt.com/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2026-06-01/plus/1",
+      "observed_at": "2026-10-06T06:32:15.316923+00:00",
+      "fact_status": "ESTIMATED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/pl_dated_values.txt",
+      "valuation_date": "2026-06-01",
+      "amount": 1230000000,
+      "currency": "EUR",
+      "valuation_scope": "SQUAD",
+      "squad_size_at_valuation": 24,
+      "displayed_value": "€1.23bn",
+      "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+      "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-245-market_value-22",
+      "kind": "market_value",
+      "team_key": "understat:245",
+      "source_url": "https://www.transfermarkt.com/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2026-06-01/plus/1",
+      "observed_at": "2026-10-06T06:32:15.316923+00:00",
+      "fact_status": "ESTIMATED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/pl_dated_values.txt",
+      "valuation_date": "2026-06-01",
+      "amount": 346030000,
+      "currency": "EUR",
+      "valuation_scope": "SQUAD",
+      "squad_size_at_valuation": 26,
+      "displayed_value": "€346.03m",
+      "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+      "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-137-market_value-23",
+      "kind": "market_value",
+      "team_key": "understat:137",
+      "source_url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+      "observed_at": "2026-10-06T06:31:22.131122+00:00",
+      "fact_status": "ESTIMATED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+      "valuation_date": "2026-06-01",
+      "amount": 27200000,
+      "currency": "EUR",
+      "valuation_scope": "SQUAD",
+      "squad_size_at_valuation": 29,
+      "displayed_value": "€27.20m",
+      "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+      "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+    },
+    {
+      "record_id": "team-run-2026-10-06-v01-141-market_value-24",
+      "kind": "market_value",
+      "team_key": "understat:141",
+      "source_url": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2026-06-01/plus/1",
+      "observed_at": "2026-10-06T06:31:22.131122+00:00",
+      "fact_status": "ESTIMATED",
+      "collection_status": "COLLECTED",
+      "evidence_path": "team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+      "valuation_date": "2026-06-01",
+      "amount": 124200000,
+      "currency": "EUR",
+      "valuation_scope": "SQUAD",
+      "squad_size_at_valuation": 23,
+      "displayed_value": "€124.20m",
+      "precision_note": "Rounded total displayed by provider; June roster differs from October roster.",
+      "current_value_not_imported_reason": "Current column has no explicit valuation date; no assumed date."
+    },
+    {
+      "record_id": "trends-arsenal-01",
+      "kind": "availability",
+      "team_key": "understat:83",
+      "source_url": "https://www.premierleague.com/en/news/4727187",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": "2026-10-05",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Kai Havertz",
+      "availability_status": "INTERNATIONAL_WITHDRAWAL_INJURY; NEXT_CLUB_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "SOURCE_PUBLICATION_DATE_NOT_INJURY_ONSET",
+      "note": "리그 기사에서 대표팀 철수 확인. 4주 전망은 보도이므로 확정값에 넣지 않음."
+    },
+    {
+      "record_id": "trends-arsenal-02",
+      "kind": "availability",
+      "team_key": "understat:83",
+      "source_url": "https://www.premierleague.com/en/news/4727187",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": "2026-10-05",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Ezri Konsa",
+      "availability_status": "INTERNATIONAL_WITHDRAWAL; NEXT_CLUB_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "SOURCE_PUBLICATION_DATE_NOT_INJURY_ONSET",
+      "note": "대표팀 철수만 확인. minor issue 진단과 Leeds전 결장은 확정하지 않음."
+    },
+    {
+      "record_id": "trends-leeds-03",
+      "kind": "availability",
+      "team_key": "understat:245",
+      "source_url": "https://www.leedsunited.com/en/news/tanaka-helps-blue-samurai-to-kirin-cup-success",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": "2026-10-05",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Ao Tanaka",
+      "availability_status": "RECENT_INTERNATIONAL_APPEARANCE; NEXT_CLUB_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "SOURCE_PUBLICATION_DATE",
+      "note": "출전 가능 확정값이 아닌 대표팀 최근 출전 사실만 담음. 이번 소집 4회 출전."
+    },
+    {
+      "record_id": "trends-malaga-04",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Juan Cruz",
+      "availability_status": "GRADUAL_GROUP_TRAINING_RETURN; NEXT_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_FROM_WEEKDAY_AND_REFERENCED_FIXTURE",
+      "effective_date_confirmed": false,
+      "note": "훈련 상태만 확인. 다음 경기 결장/선발 확정 아님. 발행일 시각 미확인."
+    },
+    {
+      "record_id": "trends-malaga-05",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Cajuste",
+      "availability_status": "RECOVERY_PROGRAMME; NEXT_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_FROM_WEEKDAY_AND_REFERENCED_FIXTURE",
+      "effective_date_confirmed": false,
+      "note": "훈련 상태만 확인. 다음 경기 결장/선발 확정 아님. 발행일 시각 미확인."
+    },
+    {
+      "record_id": "trends-malaga-06",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Murillo",
+      "availability_status": "RECOVERY_PROGRAMME; NEXT_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_FROM_WEEKDAY_AND_REFERENCED_FIXTURE",
+      "effective_date_confirmed": false,
+      "note": "훈련 상태만 확인. 다음 경기 결장/선발 확정 아님. 발행일 시각 미확인."
+    },
+    {
+      "record_id": "trends-malaga-07",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Aaron Ochoa",
+      "availability_status": "RECOVERY_PROGRAMME; NEXT_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_FROM_WEEKDAY_AND_REFERENCED_FIXTURE",
+      "effective_date_confirmed": false,
+      "note": "훈련 상태만 확인. 다음 경기 결장/선발 확정 아님. 발행일 시각 미확인."
+    },
+    {
+      "record_id": "trends-malaga-08",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "player_name": "Lobete",
+      "availability_status": "RECOVERY_PROGRAMME; NEXT_MATCH_UNKNOWN",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_FROM_WEEKDAY_AND_REFERENCED_FIXTURE",
+      "effective_date_confirmed": false,
+      "note": "훈련 상태만 확인. 다음 경기 결장/선발 확정 아님. 발행일 시각 미확인."
+    },
+    {
+      "record_id": "trends-malaga-09",
+      "kind": "coach",
+      "team_key": "understat:137",
+      "source_url": "https://www.malagacf.com/noticias/vuelta-al-trabajo-para-preparar-el-malagaespanyol",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": null,
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "coach_name": "Funes",
+      "effective_date": "2026-10-05",
+      "date_basis": "INFERRED_TRAINING_EVENT_DATE",
+      "effective_date_confirmed": false,
+      "note": "훈련 설명에 등장한 이름 그대로. 부임일이나 현재 감독 재계약을 추론하지 않음."
+    },
+    {
+      "record_id": "trends-espanyol-10",
+      "kind": "coach",
+      "team_key": "understat:141",
+      "source_url": "https://campaigns.rcdespanyol.com/es/noticia/un-rival-muy-complicado/20751",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "published_date": "2026-09-14",
+      "fact_status": "CONFIRMED",
+      "collection_status": "COLLECTED",
+      "model_feature_eligible": false,
+      "evidence_path": "team-run-2026-10-06-v01/trends/source-evidence.json",
+      "coach_name": "Manolo González",
+      "effective_date": "2026-09-14",
+      "date_basis": "SOURCE_PUBLICATION_DATE_NOT_APPOINTMENT_DATE",
+      "freshness": "STALE_FOR_NEXT_MATCH",
+      "note": "9/14 기자회견 시점에만 확인. 10/6 현재 감독/선수 상태를 다시 확인해야 함."
+    },
+    {
+      "record_id": "trends-arsenal-11",
+      "kind": "availability",
+      "team_key": "understat:83",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "다음 리그 경기의 전체 부상·징계·출전 가능 명단과 최근 경기 전 기자회견을 확보하지 못함. 일부 관찰만 있으며 무부상/무징계를 뜻하지 않음."
+    },
+    {
+      "record_id": "trends-arsenal-12",
+      "kind": "transfer",
+      "team_key": "understat:83",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "최근 이적의 공식 확인 자료를 이번 실행에서 확보하지 못함. 이적 없음으로 해석 금지."
+    },
+    {
+      "record_id": "trends-leeds-13",
+      "kind": "availability",
+      "team_key": "understat:245",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "다음 리그 경기의 전체 부상·징계·출전 가능 명단과 최근 경기 전 기자회견을 확보하지 못함. 일부 관찰만 있으며 무부상/무징계를 뜻하지 않음."
+    },
+    {
+      "record_id": "trends-leeds-14",
+      "kind": "transfer",
+      "team_key": "understat:245",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "최근 이적의 공식 확인 자료를 이번 실행에서 확보하지 못함. 이적 없음으로 해석 금지."
+    },
+    {
+      "record_id": "trends-malaga-15",
+      "kind": "availability",
+      "team_key": "understat:137",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "다음 리그 경기의 전체 부상·징계·출전 가능 명단과 최근 경기 전 기자회견을 확보하지 못함. 일부 관찰만 있으며 무부상/무징계를 뜻하지 않음."
+    },
+    {
+      "record_id": "trends-malaga-16",
+      "kind": "transfer",
+      "team_key": "understat:137",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "최근 이적의 공식 확인 자료를 이번 실행에서 확보하지 못함. 이적 없음으로 해석 금지."
+    },
+    {
+      "record_id": "trends-espanyol-17",
+      "kind": "availability",
+      "team_key": "understat:141",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "다음 리그 경기의 전체 부상·징계·출전 가능 명단과 최근 경기 전 기자회견을 확보하지 못함. 일부 관찰만 있으며 무부상/무징계를 뜻하지 않음."
+    },
+    {
+      "record_id": "trends-espanyol-18",
+      "kind": "transfer",
+      "team_key": "understat:141",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "최근 이적의 공식 확인 자료를 이번 실행에서 확보하지 못함. 이적 없음으로 해석 금지."
+    },
+    {
+      "record_id": "trends-arsenal-19",
+      "kind": "coach",
+      "team_key": "understat:83",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "이번 실행에서 현재 감독을 확정할 최신 공식 발표를 확보하지 못함."
+    },
+    {
+      "record_id": "trends-leeds-20",
+      "kind": "coach",
+      "team_key": "understat:245",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "이번 실행에서 현재 감독을 확정할 최신 공식 발표를 확보하지 못함."
+    },
+    {
+      "record_id": "trends-arsenal-21",
+      "kind": "news",
+      "team_key": "understat:83",
+      "source_url": "https://www.arsenal.com/news",
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "BLOCKED",
+      "reason": "공식 뉴스 목록 web.open HTTP403. 리그 공식 기사로 일부 동향만 대체 조회."
+    },
+    {
+      "record_id": "trends-arsenal-22",
+      "kind": "news",
+      "team_key": "understat:83",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "발행 시각의 UTC offset 미확인. 날짜/현지 시각은 source-evidence.json에 보존했으나 정확한 published_at을 만들어 채우지 않음."
+    },
+    {
+      "record_id": "trends-leeds-23",
+      "kind": "news",
+      "team_key": "understat:245",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "발행 시각의 UTC offset 미확인. 날짜/현지 시각은 source-evidence.json에 보존했으나 정확한 published_at을 만들어 채우지 않음."
+    },
+    {
+      "record_id": "trends-malaga-24",
+      "kind": "news",
+      "team_key": "understat:137",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "발행 시각의 UTC offset 미확인. 날짜/현지 시각은 source-evidence.json에 보존했으나 정확한 published_at을 만들어 채우지 않음."
+    },
+    {
+      "record_id": "trends-espanyol-25",
+      "kind": "news",
+      "team_key": "understat:141",
+      "source_url": null,
+      "observed_at": "2026-10-06T06:31:53.086268+00:00",
+      "published_at": null,
+      "fact_status": "UNKNOWN",
+      "collection_status": "MISSING",
+      "reason": "발행 시각의 UTC offset 미확인. 날짜/현지 시각은 source-evidence.json에 보존했으나 정확한 published_at을 만들어 채우지 않음."
+    }
+  ]
+}

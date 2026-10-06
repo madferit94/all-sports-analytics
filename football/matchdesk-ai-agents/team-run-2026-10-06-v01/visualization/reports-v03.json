@@ -1,0 +1,44 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "visualization",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "실제 기록으로 오프라인 비교 화면 작성. 추정 날짜·시점 차이 표시 보완. 공개 웹서비스·자동 갱신·승리 확률 없음.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/visualization/index-v03.html",
+        "description": "실제 수집 자료 화면"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/visualization/view-data-v03.json",
+        "description": "화면과 동일한 자료"
+      }
+    ],
+    "issues": [
+      "브라우저 동작 검사는 별도 ui-check-v03.json에 기록."
+    ]
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "visualization",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "실제 기록으로 오프라인 비교 화면 작성. 추정 날짜·시점 차이 표시 보완. 공개 웹서비스·자동 갱신·승리 확률 없음.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/visualization/index-v03.html",
+        "description": "실제 수집 자료 화면"
+      },
+      {
+        "path": "team-run-2026-10-06-v01/visualization/view-data-v03.json",
+        "description": "화면과 동일한 자료"
+      }
+    ],
+    "issues": [
+      "브라우저 동작 검사는 별도 ui-check-v03.json에 기록."
+    ]
+  }
+]

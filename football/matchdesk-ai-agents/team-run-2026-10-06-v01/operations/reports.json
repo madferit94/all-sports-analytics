@@ -1,0 +1,44 @@
+[
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "role": "operations",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "실행 환경과 7개 규칙 테스트를 확인했습니다. 자동 갱신·Claude 실제 실행은 미확인입니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/operations/environment.json",
+        "description": "환경 확인과 테스트 결과"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "NO_AUTOMATIC_REFRESH",
+        "message": "기본 자료는 이 실행에서 다시 수집하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "run_id": "team-run-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "role": "operations",
+    "producer_id": "/root",
+    "status": "DONE",
+    "summary": "실행 환경과 7개 규칙 테스트를 확인했습니다. 자동 갱신·Claude 실제 실행은 미확인입니다.",
+    "evidence": [
+      {
+        "path": "team-run-2026-10-06-v01/operations/environment.json",
+        "description": "환경 확인과 테스트 결과"
+      }
+    ],
+    "issues": [
+      {
+        "severity": "WARNING",
+        "code": "NO_AUTOMATIC_REFRESH",
+        "message": "기본 자료는 이 실행에서 다시 수집하지 않았습니다."
+      }
+    ]
+  }
+]

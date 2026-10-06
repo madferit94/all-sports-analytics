@@ -1,0 +1,117 @@
+{
+  "name": "MatchDesk",
+  "version": 2,
+  "agent_count": 5,
+  "roles": [
+    {
+      "id": "director",
+      "label": "팀장·최종 결재",
+      "capabilities": [
+        "manager",
+        "operations",
+        "approval"
+      ],
+      "skill": "matchdesk-director",
+      "role_file": "roles/director.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "research",
+      "label": "데이터·동향 수집",
+      "capabilities": [
+        "data",
+        "trends"
+      ],
+      "skill": "matchdesk-research",
+      "role_file": "roles/research.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "analyst",
+      "label": "분석·예측",
+      "capabilities": [
+        "analysis",
+        "prediction"
+      ],
+      "skill": "matchdesk-analyst",
+      "role_file": "roles/analyst.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "builder",
+      "label": "시각화·웹",
+      "capabilities": [
+        "visualization"
+      ],
+      "skill": "matchdesk-builder",
+      "role_file": "roles/builder.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "reviewer",
+      "label": "독립 검증·모델 평가",
+      "capabilities": [
+        "validation",
+        "model-evaluation"
+      ],
+      "skill": "matchdesk-reviewer",
+      "role_file": "roles/reviewer.md",
+      "provider": null,
+      "model": null
+    }
+  ],
+  "phases": [
+    {
+      "id": "plan",
+      "agent": "director",
+      "depends_on": []
+    },
+    {
+      "id": "collect",
+      "agent": "research",
+      "depends_on": [
+        "plan"
+      ]
+    },
+    {
+      "id": "analyze",
+      "agent": "analyst",
+      "depends_on": [
+        "collect"
+      ]
+    },
+    {
+      "id": "present",
+      "agent": "builder",
+      "depends_on": [
+        "analyze"
+      ],
+      "optional": true
+    },
+    {
+      "id": "verify",
+      "agent": "reviewer",
+      "depends_on": [
+        "analyze",
+        "present"
+      ]
+    },
+    {
+      "id": "approve",
+      "agent": "director",
+      "depends_on": [
+        "verify"
+      ]
+    }
+  ],
+  "execution_mode": "HOST_DELEGATION_OR_SEQUENTIAL",
+  "api_runner_implemented": false,
+  "parallelism": "HOST_CAPACITY_DEPENDENT_NOT_FIVE_SIMULTANEOUS_PROCESSES",
+  "final_business_approver": "HUMAN_USER",
+  "primary_data": "../source-unified-2026-10-06-v01",
+  "native_claude_execution_verified": false
+}
