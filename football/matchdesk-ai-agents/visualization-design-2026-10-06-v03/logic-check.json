@@ -1,0 +1,5 @@
+{
+  "kind": "Node VM with DOM stub; not browser rendering or accessibility verification",
+  "checks": 8,
+  "failures": 0
+}
