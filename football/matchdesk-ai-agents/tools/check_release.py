@@ -41,7 +41,7 @@ assert not re.search('[가-힣]',re.sub(r'<script id="data" type="application/js
 old=json.loads((p/'docs/publication_manifest-0.6.0.json').read_text(encoding='utf8'))
 labels={item['path']:item['snapshot'] for item in old['files']}
 old_hashes={item['path']:item['sha256'] for item in old['files']}
-text_ext={'.md','.json','.py','.cjs','.html','.txt','.yaml','.yml','.csv','.gitattributes','.gitignore'}
+text_ext={'.md','.json','.py','.cjs','.js','.html','.txt','.yaml','.yml','.csv','.gitattributes','.gitignore'}
 entries=[]
 for f in files:
     relative=Path(f).relative_to(p.relative_to(repo)).as_posix()

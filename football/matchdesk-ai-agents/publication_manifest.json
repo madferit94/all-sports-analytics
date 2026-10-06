@@ -1360,8 +1360,8 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 4437,
-      "sha256": "b254fa10fb367a2833ab270c7a68935a8e435ebdd481222cc1c2fcc8167ac46b",
+      "bytes": 4443,
+      "sha256": "04351d2566f456bfe6be526c861371832e801184f8d9c74c88b06a98c59778c4",
       "snapshot": "0.7.0"
     },
     {
