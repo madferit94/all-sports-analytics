@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "document_version": "v01",
+  "run_id": "prediction-research-2026-10-06-v01",
+  "match_key": "PROJECT_LEVEL",
+  "role": "data",
+  "agent_id": "research",
+  "producer_id": "/root/prediction_cases",
+  "status": "DONE",
+  "observed_at": "2026-10-06",
+  "summary": "Primary-source football prediction research completed; proposed experiments only; existing model unchanged.",
+  "skill": "../../agent-team-integrated-2026-10-06-v01/skills/matchdesk-research/SKILL.md",
+  "sources": [
+    {
+      "id": "dixon_coles_1997",
+      "url": "https://www.research.lancs.ac.uk/portal/en/publications/modelling-association-football-scores-and-inefficiencies-in-the-football-betting-market%28d16276a2-d6e0-483b-a708-1d29663f1992%29.html",
+      "title": "Modelling association football scores and inefficiencies in the football betting market",
+      "primary_source": true,
+      "access": "INSTITUTIONAL_ABSTRACT",
+      "publisher_full_text": "BLOCKED",
+      "doi": "10.1111/1467-9876.00065",
+      "claim_tags": ["POISSON_REGRESSION", "ENGLISH_1992_1995"]
+    },
+    {
+      "id": "crowder_et_al_2002",
+      "url": "https://academic.oup.com/jrsssd/article/51/2/157/7120674",
+      "title": "Dynamic Modelling and Prediction of English Football League Matches for Betting",
+      "primary_source": true,
+      "access": "SEARCH_INDEX_FULL_TEXT_EXCERPTS_OPEN_TOOL_FAILED",
+      "claim_tags": ["LOW_SCORE_DEPENDENCE", "RECENCY_WEIGHTING", "DIXON_COLES_METHOD_CORROBORATION"]
+    },
+    {
+      "id": "baio_blangiardo_2010",
+      "url": "https://discovery.ucl.ac.uk/16040/1/16040.pdf",
+      "title": "Bayesian hierarchical model for the prediction of football results",
+      "primary_source": true,
+      "access": "FULL_PAPER",
+      "sections": ["4", "5"],
+      "claim_tags": ["ATTACK_DEFENCE_POOLING", "OVERSHRINKAGE_MIXTURE", "WHOLE_SEASON_FITTING_LIMITATION"],
+      "promoted_team_improvement_demonstrated": false
+    },
+    {
+      "id": "hubacek_2019",
+      "url": "https://link.springer.com/article/10.1007/s10994-018-5704-6",
+      "title": "Learning to predict soccer results from relational data with gradient boosted trees",
+      "primary_source": true,
+      "access": "PUBLISHER_ABSTRACT",
+      "claim_tags": ["PI_RATINGS", "PAGERANK", "BOOSTED_TREES", "OVER_200000_MATCHES"],
+      "competition_rank_claim": "NOT_USED"
+    },
+    {
+      "id": "yeung_2023_v1",
+      "url": "https://arxiv.org/html/2309.14807v1#S3.T4",
+      "title": "Evaluating Soccer Match Prediction Models: A Deep Learning Approach and Feature Optimization for Gradient-Boosted Trees",
+      "primary_source": true,
+      "access": "FULL_PREPRINT_V1",
+      "evidence_location": "Sections 3.1, 3.3; Table 4",
+      "metric": "MEAN_VALIDATION_RPS_LOWER_IS_BETTER",
+      "values": {
+        "catboost_pi_ratings": 0.2085,
+        "catboost_selected_features": 0.2416,
+        "wdl_percentages": 0.2303
+      },
+      "direct_comparison_with_matchdesk_accuracy": false
+    },
+    {
+      "id": "challenge_organizer_2023",
+      "url": "https://sites.google.com/view/2023soccerpredictionchallenge/results",
+      "title": "2023 Soccer Prediction Challenge results",
+      "primary_source": true,
+      "access": "ORGANIZER_PAGE",
+      "scheduled_prediction_matches": 736,
+      "evaluated_matches": 714
+    },
+    {
+      "id": "sklearn_calibration",
+      "url": "https://scikit-learn.org/stable/modules/calibration.html",
+      "title": "Probability calibration",
+      "primary_source": true,
+      "access": "OFFICIAL_DOCUMENTATION",
+      "claim_tags": ["DISJOINT_CALIBRATION_DATA", "TEMPERATURE_PRESERVES_ACCURACY"]
+    },
+    {
+      "id": "sklearn_temporal_split",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+      "title": "TimeSeriesSplit",
+      "primary_source": true,
+      "access": "OFFICIAL_DOCUMENTATION",
+      "claim_tags": ["TEMPORAL_VALIDATION", "EQUALLY_SPACED_SAMPLE_ASSUMPTION"]
+    }
+  ],
+  "evidence": [
+    {"path": "README.ko.md", "description": "Korean cases, limitations and proposed experiment plan"},
+    {"path": "README.en.md", "description": "English cases, limitations and proposed experiment plan"},
+    {"path": "../../modeling/prematch-v2-2026-10-06-v01/metrics.json", "description": "Existing model metrics read; no rerun"},
+    {"path": "../feature-factcheck-2026-10-06-v01/RESULTS.ko.md", "description": "Existing rank-proxy ablation and data-availability limitations"}
+  ],
+  "issues": [
+    "Original Dixon-Coles publisher full text unavailable; mechanisms corroborated via a subsequent original paper's indexed excerpts.",
+    "Cited cross-dataset metrics do not establish MatchDesk performance gains.",
+    "Existing evaluated seasons are not fresh independent tests if reused for candidate selection.",
+    "No new match data, Football-Data, odds, market values or lower-division records collected.",
+    "Training, model adoption and participant confirmation NOT_IMPLEMENTED in this research task."
+  ],
+  "tests": {
+    "research_model_training": "NOT_IMPLEMENTED",
+    "independent_model_verification": "NOT_IMPLEMENTED",
+    "participant_confirmation": "PENDING"
+  },
+  "final_adoption": "NO_MODEL_CHANGE"
+}

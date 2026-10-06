@@ -1,0 +1,114 @@
+{
+  "run_id": "feature-factcheck-2026-10-06-v01",
+  "match_key": "EPL_AND_LA_LIGA_FEATURE_RESEARCH",
+  "role": "research",
+  "agent_id": "research",
+  "producer_id": "codex-subagent-value_factcheck",
+  "status": "DONE",
+  "observed_at": "2026-10-06T13:12:56Z",
+  "summary": "전시즌 순위와 선수단 추정 시장가치는 실험 후보입니다. 성능 향상은 아직 입증하지 않았습니다. Transfermarkt 과거 기준일 열이 존재하지만 전체 학습기간 수집은 미완료이며 현재 값의 과거 대입은 금지합니다.",
+  "evidence": [
+    {
+      "path": "https://www.transfermarkt.us/navigation/mwdefinition",
+      "description": "Official-domain search index inspected: community-based estimated player market values; not actual transfer fees; age, potential and performance included; complete league updates generally twice yearly. Direct .com equivalent returned HTTP 403."
+    },
+    {
+      "path": "https://www.transfermarkt.de/premier-league/marktwerteverein/wettbewerb/GB1/stichtag/2023-07-01/plus/CNAT",
+      "description": "Official-domain indexed dated table inspected. Separate historical value/roster-size and current-value/current-roster columns, explicit 01.07.2023 reference date. No direct live extraction was performed."
+    },
+    {
+      "path": "https://www.transfermarkt.com/laliga/marktwerteverein/wettbewerb/ES1/stichtag/2023-08-15/plus/ES3D",
+      "description": "Official-domain search index confirms LaLiga date-selector table exists. Search fragment is insufficient for complete historical cohort or publication-time validation; date is after some opening fixtures, so not a universal preseason cutoff."
+    },
+    {
+      "path": "https://www.transfermarkt.com/laliga/tabelle/wettbewerb/ES1/saison_id/2022",
+      "description": "Official-domain indexed 2022/23 table inspected; Barcelona first 88 points, Real Madrid second 78 points. This is coverage evidence/sample, not collection of full tables."
+    },
+    {
+      "path": "https://www.transfermarkt.de/premier-league/tabelle/wettbewerb/GB1/saison_id/2022",
+      "description": "Official-domain indexed 2022/23 table sample inspected: Manchester City first 89 points and Arsenal second 84 points."
+    },
+    {
+      "path": "../../../team-run-2026-10-06-v01/data/dated_market_values.json",
+      "description": "Existing local structured records read: four teams, all 2026-06-01 valuation date, EUR, SQUAD scope, retained source/observation date."
+    },
+    {
+      "path": "../../../team-run-2026-10-06-v01/data/evidence/pl_dated_values.txt",
+      "description": "Existing provider-text cache read: historical cutoff selector and historical/current columns; corroborates stored EPL records. No new remote fetch or block bypass."
+    },
+    {
+      "path": "../../../team-run-2026-10-06-v01/data/evidence/spain_values.txt",
+      "description": "Existing provider-text cache read: corroborates stored LaLiga market-value records."
+    },
+    {
+      "path": "../../../source-unified-2026-10-06-v01/team_season_basic_stats.csv",
+      "description": "Local header and season coverage inspected. 40 rows each 2023/24 through 2026/27; no 2022/23. points_definition explicitly excludes official point deductions."
+    }
+  ],
+  "verified_facts": [
+    {
+      "claim": "Transfermarkt market value is an estimated player valuation, and the squad total aggregates players; it is not club enterprise/equity valuation or an actual transfer fee.",
+      "basis": "Official definition plus squad size/total market value table labels.",
+      "qualification": "Enterprise-value distinction follows from the valuation object being players; no club financial valuation was collected."
+    },
+    {
+      "claim": "Official date-selector market-value tables expose past reference-date value separately from current value.",
+      "basis": "Official indexed 2023-07-01 EPL table and local dated provider caches."
+    },
+    {
+      "claim": "An ordinary saison_id historical season page is not proof of a pre-match valuation snapshot.",
+      "basis": "Season selection and explicit stichtag dated valuation are different controls; ordinary season page lacks verified per-match valuation timestamp."
+    },
+    {
+      "claim": "Only four dated structured market-value records already exist locally, all 2026-06-01.",
+      "basis": "Read dated_market_values.json. The provider-text caches may contain additional rows, but their full parsing/mapping was not performed in this task."
+    }
+  ],
+  "existing_local_samples": [
+    {"team_key":"understat:83","team":"Arsenal","valuation_date":"2026-06-01","amount_eur":1230000000,"squad_size":24},
+    {"team_key":"understat:245","team":"Leeds","valuation_date":"2026-06-01","amount_eur":346030000,"squad_size":26},
+    {"team_key":"understat:137","team":"Malaga","valuation_date":"2026-06-01","amount_eur":27200000,"squad_size":29},
+    {"team_key":"understat:141","team":"Espanyol","valuation_date":"2026-06-01","amount_eur":124200000,"squad_size":23}
+  ],
+  "indexed_historical_sample": {
+    "team": "Arsenal",
+    "transfermarkt_club_id": 11,
+    "valuation_date": "2023-07-01",
+    "displayed_historical_value": "1.05 billion EUR",
+    "amount_eur_rounded": 1050000000,
+    "historical_squad_size": 33,
+    "current_column_displayed_value": "1.25 billion EUR",
+    "current_column_squad_size": 24,
+    "precision": "Rounded provider display; not exact underlying sum.",
+    "evidence_mode": "OFFICIAL_SEARCH_INDEX_NOT_LIVE_COLLECTION",
+    "usable_for_training": false,
+    "reason": "Only exploratory sample. Historical cohort completeness, value publication timing and current-column contamination not independently verified."
+  },
+  "proposed_features_not_implemented_here": [
+    {"feature":"previous_season_rank_normalized","meaning":"Previous completed season finishing position, scaled by that division's number of clubs.","requirement":"Keep league tier, season and source; do not treat second-division rank as first-division rank."},
+    {"feature":"previous_season_rank_missing","meaning":"Explicit missing-rank indicator; unknown rank must not become zero or league champion."},
+    {"feature":"promoted_team","meaning":"Separate promoted status from absent dataset history; a returning established club can also be missing from local history."},
+    {"feature":"log_squad_market_value_difference","meaning":"Home/away difference in logarithm of historical squad value; hypothetical model design, not proven benefit.","requirement":"Same currency and verified valuation date at or before prediction cutoff; no forward-fill from future dates."},
+    {"feature":"market_value_missing_and_age","meaning":"Missing-value flag and elapsed days since valid valuation; roster changes reduce reliability.","requirement":"Imputation learned on training period only; no current value replacement."}
+  ],
+  "inferences_and_limits": [
+    "Previous rank and market value may provide a preseason strength prior, particularly for sparse current-season records, but overlapping existing previous-season performance may yield little additional information.",
+    "Valuation also reflects age and future potential; it is an imperfect proxy for current match strength.",
+    "Increasing the displayed favorite win probability is not the same as improving prediction quality. Compare chronological holdout log loss, Brier score and calibration, as well as accuracy, against unchanged baseline.",
+    "A historical valuation date alone does not prove when each underlying valuation was first published or whether an archived reconstruction was revised. Preserve valuation_date, observed_at and publication/effective timestamp when available; mark unknowns.",
+    "A dated league table may use current competition membership. Check all season participants and promoted/relegated clubs explicitly rather than assuming twenty historical clubs are covered."
+  ],
+  "issues": [
+    {"status":"BLOCKED","detail":"Direct .com definition and EPL/LaLiga 2023 season pages returned HTTP 403; Arsenal analysis URL was inaccessible. No alternate transport or access-control bypass attempted."},
+    {"status":"MISSING","detail":"No complete mapped historical market-value collection for all EPL/LaLiga clubs and 2023/24–2026/27 pre-match cutoffs."},
+    {"status":"MISSING","detail":"2022/23 previous-season rank coverage is absent from current source-unified season CSV; needed for earliest 2023/24 model inputs."},
+    {"status":"MISSING","detail":"Official final rank differs potentially from raw 3/1/0 result points because of deductions and tie-break rules. Understat-derived sorting must be labeled a calculated performance rank unless official final positions are separately verified."},
+    {"status":"NOT_IMPLEMENTED","detail":"No model training or performance comparison executed by this research agent; benefit remains a hypothesis."},
+    {"status":"MISSING","detail":"Account/private access rights, historical publication timestamps and full-cohort roster availability were not verified."}
+  ],
+  "tests": {
+    "performed": ["Read integrated research skill, protocol, role, team and report contract.","Inspected official-domain web search evidence and direct fetch outcomes.","Inspected existing structured local value records and retained provider evidence.","Counted source-unified season rows and inspected point definition."],
+    "not_performed": ["Bulk Transfermarkt scraping","Historical full-cohort data ingestion","Machine-learning experiment","Website edits","Live UI verification"]
+  },
+  "final_approval": "PENDING_INDEPENDENT_REVIEW"
+}

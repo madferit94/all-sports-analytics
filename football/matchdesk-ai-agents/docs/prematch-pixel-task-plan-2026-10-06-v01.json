@@ -1,0 +1,21 @@
+{
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "producer_id": "/root",
+  "match_key": "league-scope",
+  "agent_id": "director",
+  "evidence": [
+    {
+      "path": "docs/SPEC-prematch-pixel-2026-10-06-v01.ko.md",
+      "description": "Pre-execution feature, temporal validation, ownership and simulation contract"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "INFO",
+      "code": "HUMAN_MODEL_ACCEPTANCE_PENDING"
+    }
+  ],
+  "role": "manager",
+  "status": "DONE",
+  "summary": "Assign independent research, prematch-model analyst, pixel builder, reviewer, and director evidence decision; experimental implementation only."
+}

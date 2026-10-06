@@ -1,0 +1,51 @@
+{
+  "producer_id": "/root/prediction_v2",
+  "independent_review": false,
+  "passed": 11,
+  "checks": [
+    {
+      "name": "actual full stored dataset and 641 scheduled fixtures",
+      "status": "PASS"
+    },
+    {
+      "name": "finite feature vectors and correct model feature dimensions",
+      "status": "PASS"
+    },
+    {
+      "name": "all recent evidence strictly before target including same day exclusion",
+      "status": "PASS"
+    },
+    {
+      "name": "input order independent",
+      "status": "PASS"
+    },
+    {
+      "name": "target result cannot change its own or earlier feature vectors",
+      "status": "PASS"
+    },
+    {
+      "name": "cutoff excludes future completed results",
+      "status": "PASS"
+    },
+    {
+      "name": "zero PPDA denominator handled without infinity or fake zero ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "cold start uses explicit league fallback and unknown promotion status",
+      "status": "PASS"
+    },
+    {
+      "name": "export reproducible from actual trained weights",
+      "status": "PASS"
+    },
+    {
+      "name": "probabilities normalized and not adopted",
+      "status": "PASS"
+    },
+    {
+      "name": "no passing accuracy feature invented",
+      "status": "PASS"
+    }
+  ]
+}

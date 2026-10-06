@@ -1,0 +1,572 @@
+{
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "match_key": "league-scope",
+  "mode": "web",
+  "agents": [
+    {
+      "agent_id": "director",
+      "producer_id": "/root",
+      "run_id": "prematch-pixel-2026-10-06-v01",
+      "match_key": "league-scope",
+      "reports": [
+        {
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "producer_id": "/root",
+          "match_key": "league-scope",
+          "agent_id": "director",
+          "evidence": [
+            {
+              "path": "docs/SPEC-prematch-pixel-2026-10-06-v01.ko.md",
+              "description": "Pre-execution feature, temporal validation, ownership and simulation contract"
+            }
+          ],
+          "issues": [
+            {
+              "severity": "INFO",
+              "code": "HUMAN_MODEL_ACCEPTANCE_PENDING"
+            }
+          ],
+          "role": "manager",
+          "status": "DONE",
+          "summary": "Assign independent research, prematch-model analyst, pixel builder, reviewer, and director evidence decision; experimental implementation only."
+        },
+        {
+          "match_key": "league-scope",
+          "issues": [
+            "Participant and actual browser visual verification pending.",
+            "Latest observed match remains 2026-09-20; forecasts require refresh before current operational use.",
+            "No public GitHub publication in this task.",
+            "Model adoption and performance acceptance remain pending."
+          ],
+          "producer_id": "/root",
+          "agent_id": "director",
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "model_accepted": false,
+          "summary": "Existing localhost server served newly embedded Korean and English pixel viewers with HTTP200. No data refresh, cloud deployment or model adoption performed.",
+          "checks": [
+            {
+              "url": "http://127.0.0.1:8765/",
+              "contains_MatchDeskSimulation": true,
+              "http": 200
+            },
+            {
+              "url": "http://127.0.0.1:8765/index.en.html",
+              "contains_MatchDeskSimulation": true,
+              "http": 200
+            }
+          ],
+          "evidence": [
+            {
+              "description": "Preserved Korean experimental viewer",
+              "path": "visualization-design-2026-10-06-v22/index.html"
+            },
+            {
+              "description": "Preserved English experimental viewer",
+              "path": "visualization-design-2026-10-06-v22/index.en.html"
+            },
+            {
+              "description": "Actual role assignment and plan",
+              "path": "docs/prematch-pixel-task-plan-2026-10-06-v01.json"
+            }
+          ],
+          "status": "DONE",
+          "role": "operations"
+        }
+      ]
+    },
+    {
+      "agent_id": "research",
+      "producer_id": "/root/source_review",
+      "run_id": "prematch-pixel-2026-10-06-v01",
+      "match_key": "league-scope",
+      "reports": [
+        {
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "agent_id": "research",
+          "producer_id": "/root/source_review",
+          "role": "data",
+          "status": "DONE",
+          "summary": "최신 F1 V4는 기록된 실제 위치 재생이며 축구 예측용 8비트 장면에는 합성 시뮬레이션 표시가 필요합니다. 축구 경기별 공격·수비 및 최근 5경기 변수는 확보되어 있으나 경기별 패스 지표는 없습니다.",
+          "evidence": [
+            {
+              "path": "docs/prematch-pixel-source-audit-2026-10-06-v01.json",
+              "description": "실제 수행된 원본 4798행 조사 수치 및 GitHub 최신 F1 구현 확인 결과. 외부 원본은 sources에 별도 명시."
+            }
+          ],
+          "issues": [
+            {
+              "code": "passHistoricalMissing",
+              "status": "MISSING",
+              "description": "경기별 패스 성공률·키패스·최종 3분의 1 패스 없음. 시즌말 총계로 과거 최근 5경기를 재구성하면 미래 정보가 섞임. deep은 패스 성공률이 아님."
+            },
+            {
+              "code": "trackingMissing",
+              "status": "MISSING",
+              "description": "축구 선수·공의 좌표/패스·슈팅 사건 시계열 없음. 화면의 움직임은 모델에서 추출한 가상 장면이며 실제 경기 영상/전술 궤적 재현이라고 표현 불가."
+            },
+            {
+              "code": "promotedHistoryMissing",
+              "status": "MISSING",
+              "description": "하부리그 기록 없음. 전시즌 리그 팀키 집합 밖의 팀은 승격 또는 표본 신규 구분으로 표시. 최초 수집시즌은 실제 승격 확정 불가. 리그 평균·과거 상위리그 기록을 경기전 시점으로 수축 보정하고 결측을 0으로 채우지 않음."
+            },
+            {
+              "code": "timestampUnverified",
+              "status": "MISSING",
+              "description": "같은 날짜의 다른 경기까지 사용하지 않는 strict canonical_date 이전 필터가 보수적. 컵·국가대표 기록 부재로 리그 경기 간격을 실제 휴식일이라고 해석하지 않음."
+            },
+            {
+              "code": "staleCurrentData",
+              "status": "MISSING",
+              "description": "현재 완료기록은 2026-09-20까지. 실제 예측 배포 전 갱신 및 일정 최신성 검증 필요."
+            }
+          ],
+          "tests": {
+            "metadata_only_read": true,
+            "model_evaluation": "NOT_PERFORMED_BY_RESEARCH",
+            "browser_video_playback": "NOT_PERFORMED_THIS_RUN",
+            "writes": "THIS_NEW_RESEARCH_REPORT_ONLY"
+          },
+          "participant_confirmation": "PENDING",
+          "sources": [
+            {
+              "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/scripts/ko/v4_full_race_replay.py",
+              "description": "GitHub main 구현 직접 확인. OpenF1 위치를 같은 UTC에 선형 보간하고 2초 초과 공백은 숨김. Pillow RGB 프레임을 FFmpeg H.264 MP4로 인코딩하고 전체 디코딩 검사."
+            },
+            {
+              "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/docs/v4_replay_guide.ko.md",
+              "description": "51랩, 98분 02.755초를 24배속 20fps 4분 05.2초로 재생. 전체 원본 선수별 37095표본, 경기 및 경계 지원 22538표본. HTML 랩 이동과 12/24/48배속 지원. 미래 승부예측이 아님."
+            },
+            {
+              "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/README.ko.md",
+              "description": "과거 승부예측 프로토타입은 재검증을 위해 별도 비공개 보존하며 현재 공개 F1 목록에서 제외."
+            },
+            {
+              "uri": "../../../source-unified-2026-10-06-v01/team_match_stats.csv",
+              "description": "로컬 원본 직접 조사: 4798 팀경기행/2399 경기. goals, xg, npxg, deep, deep_allowed, ppda 원시 분자/분모, expected_points, points 모두 빈값 0. ppda 분모 0도 0건. 최신 완료일 2026-09-20."
+            },
+            {
+              "uri": "../../../source-unified-2026-10-06-v01/team_season_additional_stats.csv",
+              "description": "StatMuse 47종은 TEAM_SEASON_SNAPSHOT, NOT_ALLOWED_SEASON_SNAPSHOT. PASS/PASS%/SH/SOT/TKL 등 경기별 역사 입력 아님."
+            },
+            {
+              "uri": "../../../source-unified-2026-10-06-v01/data_audit.json",
+              "description": "출처정책 Understat 기본, 160팀시즌, 기존 검사 16 PASS. 원본 시간대 UNVERIFIED, 일정 최신확정 아님."
+            }
+          ],
+          "supersedes": "docs/prematch-pixel-research-2026-10-06-v01.json"
+        }
+      ]
+    },
+    {
+      "agent_id": "analyst",
+      "producer_id": "/root/prediction_v2",
+      "run_id": "prematch-pixel-2026-10-06-v01",
+      "match_key": "league-scope",
+      "reports": [
+        {
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "agent_id": "analyst",
+          "role": "analysis",
+          "producer_id": "/root/prediction_v2",
+          "status": "DONE",
+          "summary": "Implemented and fitted a 33-feature pre-match three-class logistic model using 2399 observed matches; exported 641 experimental probabilities. Same-day results excluded, prior-season/league shrinkage supports early-season and unknown-history teams. Current season-final passing snapshots excluded. Model acceptance remains pending independent review and human acceptance.",
+          "evidence": [
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/train.py",
+              "description": "Executable feature builder, fitting and frozen temporal evaluation"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/model.json",
+              "description": "Future prediction model, weights, scaling, feature list, not adopted"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/evaluation-model.json",
+              "description": "Frozen 2023/24+2024/25 evaluation model distinct from full-data future model"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/metrics.json",
+              "description": "Validation selection and untouched 2025/26 plus current season monitoring; per league comparison"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/input-manifest.json",
+              "description": "Input hashes, prior assumptions, feature exclusions and date policy"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/historical-features.json",
+              "description": "Per-match pre-date features and current-season last-five evidence"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json",
+              "description": "641 actual stored fixture probabilities, no invented future results, observed records through 2026-09-20"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/check-result.json",
+              "description": "11 author checks; not independent model approval"
+            }
+          ],
+          "issues": [
+            "No historical prematch passing accuracy/count snapshots; these were excluded rather than replaced with zeros.",
+            "PPDA is a pressing proxy, not passing accuracy. No lower division history available for promotion adjustments.",
+            "Missing previous season history does not prove promotion. Initial neutral league assumptions are disclosed.",
+            "Latest observed match is 2026-09-20; fixture dates are Understat source dates with unverified kickoff timezone.",
+            "Current LaLiga accuracy 43.48% is below frequency baseline 44.93%; overall current calibration error is higher than historical holdout.",
+            "All 641 forecasts share one stored snapshot; future fixtures require refreshed inputs before operational use.",
+            "No scoreline model fitted. Any displayed score is illustration, not a predicted score.",
+            "Independent review and participant confirmation are not performed by this producer; model_accepted remains false."
+          ],
+          "cutoff_at": "2026-10-06",
+          "model": "multinomial_logistic_numpy",
+          "provider": null,
+          "tests": {
+            "author_checks": 11,
+            "independent_review": "PENDING",
+            "participant_confirmation": "PENDING"
+          },
+          "probabilities": {
+            "path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json",
+            "class_order": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "status": "EXPERIMENTAL_NOT_ADOPTED"
+          }
+        },
+        {
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "agent_id": "analyst",
+          "role": "prediction",
+          "producer_id": "/root/prediction_v2",
+          "status": "DONE",
+          "summary": "Implemented and fitted a 33-feature pre-match three-class logistic model using 2399 observed matches; exported 641 experimental probabilities. Same-day results excluded, prior-season/league shrinkage supports early-season and unknown-history teams. Current season-final passing snapshots excluded. Model acceptance remains pending independent review and human acceptance.",
+          "evidence": [
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/train.py",
+              "description": "Executable feature builder, fitting and frozen temporal evaluation"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/model.json",
+              "description": "Future prediction model, weights, scaling, feature list, not adopted"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/evaluation-model.json",
+              "description": "Frozen 2023/24+2024/25 evaluation model distinct from full-data future model"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/metrics.json",
+              "description": "Validation selection and untouched 2025/26 plus current season monitoring; per league comparison"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/input-manifest.json",
+              "description": "Input hashes, prior assumptions, feature exclusions and date policy"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/historical-features.json",
+              "description": "Per-match pre-date features and current-season last-five evidence"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json",
+              "description": "641 actual stored fixture probabilities, no invented future results, observed records through 2026-09-20"
+            },
+            {
+              "path": "modeling/prematch-v2-2026-10-06-v01/check-result.json",
+              "description": "11 author checks; not independent model approval"
+            }
+          ],
+          "issues": [
+            "No historical prematch passing accuracy/count snapshots; these were excluded rather than replaced with zeros.",
+            "PPDA is a pressing proxy, not passing accuracy. No lower division history available for promotion adjustments.",
+            "Missing previous season history does not prove promotion. Initial neutral league assumptions are disclosed.",
+            "Latest observed match is 2026-09-20; fixture dates are Understat source dates with unverified kickoff timezone.",
+            "Current LaLiga accuracy 43.48% is below frequency baseline 44.93%; overall current calibration error is higher than historical holdout.",
+            "All 641 forecasts share one stored snapshot; future fixtures require refreshed inputs before operational use.",
+            "No scoreline model fitted. Any displayed score is illustration, not a predicted score.",
+            "Independent review and participant confirmation are not performed by this producer; model_accepted remains false."
+          ],
+          "cutoff_at": "2026-10-06",
+          "model": "multinomial_logistic_numpy",
+          "provider": null,
+          "tests": {
+            "author_checks": 11,
+            "independent_review": "PENDING",
+            "participant_confirmation": "PENDING"
+          },
+          "probabilities": {
+            "home": 0.6867713941691237,
+            "draw": 0.18333519919873623,
+            "away": 0.12989340663214013
+          }
+        }
+      ]
+    },
+    {
+      "agent_id": "builder",
+      "producer_id": "/root/pixel_simulation",
+      "run_id": "prematch-pixel-2026-10-06-v01",
+      "match_key": "league-scope",
+      "reports": [
+        {
+          "agent_id": "builder",
+          "producer_id": "/root/pixel_simulation",
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "role": "visualization",
+          "status": "DONE",
+          "summary": "한국어·영어 기본 HTML과 보존 v22 스냅샷에 실험 모델 641경기 예측과 18초 Canvas 연출을 연결했습니다. 모델 확률만 표시하며 연출 점수와 실제 결과를 구분합니다.",
+          "evidence": [
+            {
+              "path": "simulation/pixel-v1-2026-10-06-v01/pixel-simulation.js",
+              "description": "18-second dependency-free Canvas simulation with supplied probabilities"
+            },
+            {
+              "path": "simulation/pixel-v1-2026-10-06-v01/integration.js",
+              "description": "Bilingual inline integration, identity validation and cleanup"
+            },
+            {
+              "path": "simulation/pixel-v1-2026-10-06-v01/check.cjs",
+              "description": "13 pure-function tests passed; no real model or browser verification"
+            },
+            {
+              "path": "simulation/pixel-v1-2026-10-06-v01/check-integration.cjs",
+              "description": "10 checks passed, including 2 DOM stub checks; not real browser verification"
+            },
+            {
+              "path": "visualization-design-2026-10-06-v22/index.html",
+              "description": "Preserved Korean snapshot"
+            },
+            {
+              "path": "visualization-design-2026-10-06-v22/index.en.html",
+              "description": "Preserved English snapshot"
+            },
+            {
+              "path": "agent-team-integrated-2026-10-06-v01/skills/matchdesk-builder/SKILL.md",
+              "description": "Applied builder skill"
+            }
+          ],
+          "issues": [
+            "실제 브라우저 렌더링·참가자 확인 전입니다.",
+            "동영상 파일 다운로드(WebM/MP4)는 미구현입니다. 웹 화면 애니메이션만 제공합니다.",
+            "모델 정확한 점수 분포가 없어 점수는 연출용 1:0/1:1/0:1입니다. 모델 확률과 별도로 설명합니다.",
+            "모델 채택 전 실험 상태이며 자료 기준 2026-09-20을 표시합니다.",
+            "패스 지표는 경기 전 역사 자료가 없어 모델 입력에서 제외되었습니다. 그 이유를 화면 설명에서 표시합니다."
+          ],
+          "native_claude_execution_verified": false,
+          "participant_verified": false,
+          "real_browser_verified": false
+        }
+      ]
+    },
+    {
+      "agent_id": "reviewer",
+      "producer_id": "/root/independent_model_review",
+      "run_id": "prematch-pixel-2026-10-06-v01",
+      "match_key": "league-scope",
+      "reports": [
+        {
+          "agent_id": "reviewer",
+          "producer_id": "/root/independent_model_review",
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "role": "validation",
+          "status": "DONE",
+          "model_accepted": false,
+          "technical_verification": "PASS",
+          "independent": true,
+          "summary": "별도 검증자가 원본 CSV로 2399개 경기의 33개 입력을 재구성하고 641개 확률과 최종 평가 지표를 재계산했다. 모델 검증 16개와 시뮬레이션 코드/DOM 대역 검증 7개가 통과했다. 기술 계산의 재현성을 확인했으며 정식 모델 채택과 실제 브라우저 화면 확인을 의미하지 않는다.",
+          "evidence": [
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/SPEC.md",
+              "description": "실행 전 입력·기대값과 검증 범위"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/check.py",
+              "description": "작성자의 모델 코드를 import하지 않는 CSV 입력·softmax·성능 계산 재구현"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-checks.json",
+              "description": "16개 검사 기대/실제값, 전체·리그별 평가값"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs",
+              "description": "확률 표본·종료·경기 전환·팀 화면 전환·동일 경기 유지·움직임 줄이기 독립 실행 검사"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-ui-checks.json",
+              "description": "7개 검사 기대/실제값. 실제 브라우저 대신 Node VM과 DOM 대역 사용"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-checks.json",
+              "description": "첫 검사 14 통과/2 실패 보존. 웹은 history evidence를 의도적으로 제거해 전체 bundle 비교가 실패함. 확률·경기 식별자는 변경 없이 동일하며 공개 축약 기대값으로 수정 후 16 통과"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-ui-checks.json",
+              "description": "첫 UI 검사 5 통과/2 실패 보존. Node VM 배열 prototype 차이로 strict 비교 실패. Array.from으로 동일 값 비교 후 7 통과"
+            }
+          ],
+          "issues": [
+            {
+              "severity": "LIMITATION",
+              "code": "NO_PASSING_ACCURACY",
+              "detail": "실제 패스 성공률·패스 횟수는 입력에 없다. PPDA/PPDA allowed는 압박 관련 비율이며 패스 성공률로 해석할 수 없다. 시즌 최종 StatMuse 합계는 과거 경기 전 시점 검증 자료가 없어 제외했다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "UNKNOWN_PROMOTION",
+              "detail": "이전 시즌 기록 부재는 승격 확정이 아니다. 하부 리그 기록이나 승격 강도는 수집하지 않았으며 리그 평균으로 기록 부족을 완화하는 보정만 구현했다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "RECENT5_CURRENT_SEASON",
+              "detail": "최근 5경기는 현재 시즌에서 최대 5개를 선택한다. 개막 시점에는 지난 시즌 마지막 5경기를 이어 붙이지 않고 지난 시즌 전체 평균을 사전값으로 사용한다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "FIXED_SNAPSHOT",
+              "detail": "자료 마지막 날짜 2026-09-20, 예측 기준 2026-10-06. 향후 641개 경기는 같은 관측 자료를 쓰며 자동 갱신은 하지 않는다. 먼 일정의 확률은 새 경기 결과를 반영하지 않는다. 수집 날짜는 공식 킥오프 확인값이 아니다."
+            },
+            {
+              "severity": "USER_DECISION",
+              "code": "NOT_ADOPTED",
+              "detail": "2025/26 760경기 정확도 50.92%, 리그 빈도 기준 45.79%. 진행 시즌 119경기 정확도 42.86%, 기준 41.18%, 보정 오차 ECE 11.21%. 라리가 69경기는 43.48%로 기준 44.93%보다 낮다. 자동으로 정식 채택하지 않으며 사용자 최종 판단이 필요하다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "ILLUSTRATIVE_SCORE",
+              "detail": "모델 출력은 홈/무/원정 확률이다. 표시 점수 1:0·1:1·0:1과 움직임·골 시간은 가상 연출이다. 골 점수 분포나 실제 경기 재현 모델이 아니다. 한글·영어 안내 문구를 코드 실행으로 확인했다."
+            },
+            {
+              "severity": "UNVERIFIED",
+              "code": "REAL_BROWSER_AND_USER",
+              "detail": "실제 브라우저 시각 확인과 사용자 화면 확인은 미실행. Node VM/DOM 대역으로 실행 경로와 애니메이션 예약 종료만 검증했다."
+            }
+          ],
+          "tests": {
+            "independent_model_checks": {
+              "passed": 16,
+              "failed": 0
+            },
+            "independent_ui_checks": {
+              "passed": 7,
+              "failed": 0
+            },
+            "max_feature_absolute_difference": 3.375077994860476e-14,
+            "max_probability_absolute_difference": 2.220446049250313e-16,
+            "max_metric_absolute_difference": 2.220446049250313e-16,
+            "commands": [
+              "python modeling/prematch-v2-review-2026-10-06-v01/check.py",
+              "node modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs"
+            ]
+          },
+          "provider": null,
+          "model": "prematch-v2-2026-10-06-v01",
+          "cutoff_at": "2026-10-06",
+          "observed_at": "2026-10-06"
+        },
+        {
+          "agent_id": "reviewer",
+          "producer_id": "/root/independent_model_review",
+          "run_id": "prematch-pixel-2026-10-06-v01",
+          "match_key": "league-scope",
+          "role": "model-evaluation",
+          "status": "DONE",
+          "model_accepted": false,
+          "technical_verification": "PASS",
+          "independent": true,
+          "summary": "별도 검증자가 원본 CSV로 2399개 경기의 33개 입력을 재구성하고 641개 확률과 최종 평가 지표를 재계산했다. 모델 검증 16개와 시뮬레이션 코드/DOM 대역 검증 7개가 통과했다. 기술 계산의 재현성을 확인했으며 정식 모델 채택과 실제 브라우저 화면 확인을 의미하지 않는다.",
+          "evidence": [
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/SPEC.md",
+              "description": "실행 전 입력·기대값과 검증 범위"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/check.py",
+              "description": "작성자의 모델 코드를 import하지 않는 CSV 입력·softmax·성능 계산 재구현"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-checks.json",
+              "description": "16개 검사 기대/실제값, 전체·리그별 평가값"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs",
+              "description": "확률 표본·종료·경기 전환·팀 화면 전환·동일 경기 유지·움직임 줄이기 독립 실행 검사"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-ui-checks.json",
+              "description": "7개 검사 기대/실제값. 실제 브라우저 대신 Node VM과 DOM 대역 사용"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-checks.json",
+              "description": "첫 검사 14 통과/2 실패 보존. 웹은 history evidence를 의도적으로 제거해 전체 bundle 비교가 실패함. 확률·경기 식별자는 변경 없이 동일하며 공개 축약 기대값으로 수정 후 16 통과"
+            },
+            {
+              "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-ui-checks.json",
+              "description": "첫 UI 검사 5 통과/2 실패 보존. Node VM 배열 prototype 차이로 strict 비교 실패. Array.from으로 동일 값 비교 후 7 통과"
+            }
+          ],
+          "issues": [
+            {
+              "severity": "LIMITATION",
+              "code": "NO_PASSING_ACCURACY",
+              "detail": "실제 패스 성공률·패스 횟수는 입력에 없다. PPDA/PPDA allowed는 압박 관련 비율이며 패스 성공률로 해석할 수 없다. 시즌 최종 StatMuse 합계는 과거 경기 전 시점 검증 자료가 없어 제외했다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "UNKNOWN_PROMOTION",
+              "detail": "이전 시즌 기록 부재는 승격 확정이 아니다. 하부 리그 기록이나 승격 강도는 수집하지 않았으며 리그 평균으로 기록 부족을 완화하는 보정만 구현했다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "RECENT5_CURRENT_SEASON",
+              "detail": "최근 5경기는 현재 시즌에서 최대 5개를 선택한다. 개막 시점에는 지난 시즌 마지막 5경기를 이어 붙이지 않고 지난 시즌 전체 평균을 사전값으로 사용한다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "FIXED_SNAPSHOT",
+              "detail": "자료 마지막 날짜 2026-09-20, 예측 기준 2026-10-06. 향후 641개 경기는 같은 관측 자료를 쓰며 자동 갱신은 하지 않는다. 먼 일정의 확률은 새 경기 결과를 반영하지 않는다. 수집 날짜는 공식 킥오프 확인값이 아니다."
+            },
+            {
+              "severity": "USER_DECISION",
+              "code": "NOT_ADOPTED",
+              "detail": "2025/26 760경기 정확도 50.92%, 리그 빈도 기준 45.79%. 진행 시즌 119경기 정확도 42.86%, 기준 41.18%, 보정 오차 ECE 11.21%. 라리가 69경기는 43.48%로 기준 44.93%보다 낮다. 자동으로 정식 채택하지 않으며 사용자 최종 판단이 필요하다."
+            },
+            {
+              "severity": "LIMITATION",
+              "code": "ILLUSTRATIVE_SCORE",
+              "detail": "모델 출력은 홈/무/원정 확률이다. 표시 점수 1:0·1:1·0:1과 움직임·골 시간은 가상 연출이다. 골 점수 분포나 실제 경기 재현 모델이 아니다. 한글·영어 안내 문구를 코드 실행으로 확인했다."
+            },
+            {
+              "severity": "UNVERIFIED",
+              "code": "REAL_BROWSER_AND_USER",
+              "detail": "실제 브라우저 시각 확인과 사용자 화면 확인은 미실행. Node VM/DOM 대역으로 실행 경로와 애니메이션 예약 종료만 검증했다."
+            }
+          ],
+          "tests": {
+            "independent_model_checks": {
+              "passed": 16,
+              "failed": 0
+            },
+            "independent_ui_checks": {
+              "passed": 7,
+              "failed": 0
+            },
+            "max_feature_absolute_difference": 3.375077994860476e-14,
+            "max_probability_absolute_difference": 2.220446049250313e-16,
+            "max_metric_absolute_difference": 2.220446049250313e-16,
+            "commands": [
+              "python modeling/prematch-v2-review-2026-10-06-v01/check.py",
+              "node modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs"
+            ]
+          },
+          "provider": null,
+          "model": "prematch-v2-2026-10-06-v01",
+          "cutoff_at": "2026-10-06",
+          "observed_at": "2026-10-06"
+        }
+      ]
+    }
+  ],
+  "scope": "Technical implementation review; experimental local viewer requested by user, not operational model adoption"
+}

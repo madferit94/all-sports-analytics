@@ -1,0 +1,58 @@
+{
+  "run_id": "feature-factcheck-2026-10-06-v01",
+  "match_key": "league-scope",
+  "role": "model-evaluation",
+  "agent_id": "reviewer",
+  "producer_id": "/root/feature_review",
+  "status": "DONE",
+  "summary": "독립 검증자가 완결된 6개 시즌표와 2399개 경기의 전시즌 순위 대체값/누락표시를 재구성하고 두 모델의 확률·평가지표를 재계산했다. 계산은 일치하지만 2025/26 전체 정확도와 확률오차는 악화되어 새 변수의 성능 향상 주장은 성립하지 않는다. Transfermarkt 과거 전체 자료는 미수집이므로 시장가치 효과는 아직 미확인이다.",
+  "decision": "NO_FEATURE_ADOPTION; KEEP_EXISTING_MODEL_AND_WEBSITE",
+  "model_accepted": false,
+  "expected_before_execution": [
+    "2023/24 경기 입력의 전 시즌은 2022/23이어야 하며, 없으면 누락으로 표시한다.",
+    "리그 최종순위는 완결된 전 시즌에서만 계산하고 동률 규칙 미확인은 표시한다.",
+    "과거 시장가치는 평가일과 해당 선수단 구성시점이 대상 경기 전에 확인되어야 한다.",
+    "가치와 순위 추가의 개선은 동일 경기/분할의 실제 확률오차와 정확도 비교로만 주장한다.",
+    "이미 검토된 2025/26 및 2026/27 재평가는 새로운 미열람 최종시험으로 부르지 않는다.",
+    "승격팀 하부리그 순위를 상위리그 순위와 직접 동일시하지 않는다.",
+    "현재 웹 또는 채택된 모델을 수정하지 않는다."
+  ],
+  "evidence": [
+    {"path": "docs/feature-factcheck-2026-10-06-v01/SPEC.ko.md", "description": "실행 전 범위와 판단 기준"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/README.md", "description": "기존 입력33개와 기존 공개 평가 분할"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/reviewer-report.json", "description": "기존 독립 검토에서 확정한 평가/승격 누락/관측 시점 한계"},
+    {"path": "docs/feature-factcheck-2026-10-06-v01/independentcheck.py", "description": "작성자 모델 모듈을 가져오지 않는 CSV 순위·날짜·누락표시·softmax·확률오차 독립 재계산"},
+    {"path": "modeling/rank-ablation-2026-10-06-v01/analyst-report.json", "description": "추가 순위 대체변수 실험과 기존 모델 재현 근거"},
+    {"path": "docs/feature-factcheck-2026-10-06-v01/research.json", "description": "Transfermarkt 공식 검색색인/접근실패 및 기존 4개 기준일 자료에 대한 수집 담당 조사. 독립 검증자가 전체 시장가치를 재수집한 근거가 아님"}
+  ],
+  "method_sources": [
+    {"url": "https://scikit-learn.org/stable/modules/model_evaluation.html", "claim": "확률 예측 평가에는 log loss와 Brier를 사용할 수 있고 accuracy는 최빈 결과 분류 평가다."},
+    {"url": "https://scikit-learn.org/stable/modules/calibration.html", "claim": "예측확률과 실제 빈도의 일치를 별도로 검토해야 한다."},
+    {"url": "https://scikit-learn.org/stable/common_pitfalls.html", "claim": "평가 자료를 사용한 선택 또는 경기 후 정보 혼입은 성능을 낙관적으로 만들 수 있다."}
+  ],
+  "issues": [
+    {"code": "RAW_RANK_NOT_OFFICIAL", "severity": "LIMITATION", "detail": "CSV에서 3/1/0 승점·득실·득점을 정렬한 대체 순위다. 징계 승점차감과 라리가 등 공식 동률 규칙이 반영되지 않아 공식 전 시즌 최종순위 변수의 효과를 시험했다고 표현할 수 없다."},
+    {"code": "INITIAL_SEASON_MISSING", "severity": "LIMITATION", "detail": "2023/24 760경기 양팀 순위가 모두 누락이다. 최초 학습에서는 추가 변수에 학습 가능한 변동이 없으며 최종 학습은 2024/25 한 시즌에서만 순위 정보를 관측했다. 2022/23 공식 순위 확보 후 재시험할 필요가 있다."},
+    {"code": "REUSED_EVALUATION", "severity": "LIMITATION", "detail": "2025/26 및 진행 시즌 성능이 이미 공개되어 이번 실험은 회고 비교다. 기존 조정값 0.1을 그대로 사용했어도 새로운 미열람 최종시험이라는 의미가 아니다."},
+    {"code": "NO_GENERAL_IMPROVEMENT", "severity": "LIMITATION", "detail": "2025/26 정확도 50.92%→49.87%, log loss 1.011080→1.011412로 악화했다. 진행119경기 정확도는 42.86%→43.70%로 좋아졌지만 calibration ECE는 0.112095→0.128125로 악화했다. 일부 점수 개선은 일반적 성능 향상 근거가 아니다."},
+    {"code": "VALUE_EFFECT_UNTESTED", "severity": "UNVERIFIED", "detail": "2026-06-01 기준 4개 로컬 시장가치 자료를 과거 경기 입력에 대입하지 않았다. 공식 날짜선택 표 존재에 대한 검색색인 확인은 전체 과거 자료 수집이나 당시 공개시점 검증을 뜻하지 않는다. 선수단 가치 변수를 포함한 학습은 실행되지 않았다."},
+    {"code": "PROMOTION_UNKNOWN", "severity": "LIMITATION", "detail": "자료부재는 승격 확정이 아니다. 이전 2부리그 1위와 이전 PL 1위를 동일하게 넣어서는 안 된다. 누락표시와 리그평균 보정은 실제 하부리그 전력을 알아낸 것이 아니다."},
+    {"code": "NO_WEB_OR_ADOPTION", "severity": "USER_DECISION", "detail": "웹·채택모델 수정, 공개전송, 실제 브라우저 및 사용자 확인은 이번 독립 검토 범위 밖이다. 추가 변수를 실제 서비스에 적용했다고 표현하지 않는다."}
+  ],
+  "observed_at": "2026-10-06",
+  "actual_results": {
+    "evidence_mode": "AI_LOCAL_EXECUTION_AND_REPORT_INSPECTION",
+    "command": "python docs/feature-factcheck-2026-10-06-v01/independentcheck.py",
+    "exit_code": 0,
+    "complete_tables_verified": 6,
+    "matches_features_audited": 2399,
+    "directed_fixture_pairs_verified_per_completed_season": 380,
+    "independent_model_modules_imported": false,
+    "maximum_metric_absolute_difference": 0.0,
+    "2025/26": {"matches":760, "original":{"accuracy":0.5092105263157894,"log_loss":1.0110803984140062,"brier_sum_three_classes":0.6062614887771517,"ECE_10bins":0.03982673973791427},"rank_proxy":{"accuracy":0.4986842105263158,"log_loss":1.0114123032981968,"brier_sum_three_classes":0.6065551342349034,"ECE_10bins":0.026638615650631945}},
+    "2026/27": {"matches":119,"original":{"accuracy":0.42857142857142855,"log_loss":1.0313131811399017,"brier_sum_three_classes":0.617870581955391,"ECE_10bins":0.11209520018624167},"rank_proxy":{"accuracy":0.4369747899159664,"log_loss":1.0307078230108353,"brier_sum_three_classes":0.6171311604626366,"ECE_10bins":0.12812529616936658}},
+    "transfermarkt_performance_test": "NOT_IMPLEMENTED",
+    "browser_check": "NOT_PERFORMED",
+    "human_confirmation": "PENDING"
+  }
+}

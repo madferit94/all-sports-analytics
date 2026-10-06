@@ -1,5 +1,14 @@
 # Release history / 변경 이력
 
+## 0.9.0 — 2026-10-06
+
+- Preserve v20 improved AI errors, v21 readable loss/draw colours, v22 experimental prediction/replay and v23 eleven-player correction in both languages.
+- Each simulated team contains one goalkeeper and ten outfield players. Replay is illustrative, not real footage, player-level forecasting or a confirmed result.
+- Publish pre-match v2 code, stored-input features, metrics and independent review; keep model_adopted false. Attack/defence/pressing/recent-five features use strictly earlier records, with prior-season/league smoothing for sparse history. No actual passing accuracy, odds or market values are silently added.
+- 2025/26 accuracy 50.92% versus 45.79% league-frequency baseline; current LaLiga accuracy remains below baseline. Prior rank proxy ablation did not improve 2025/26 results; official rank and time-correct market value remain candidates.
+- 한국어·영어 README/SPEC와 파일 해시를 갱신합니다. 각 팀 11명 수정·실험 확률·가상 재생을 포함하며 정식 모델 채택은 보류합니다. 실제 브라우저 재생·참가자 확인은 아직입니다.
+- Automated evidence is stored alongside the relevant engine/model/viewer/server checks. Mocked-provider tests are not live Google verification. No external hosting or GitHub CI success is claimed.
+
 ## 0.8.0 — 2026-10-06
 
 - Gemini local server, ignored local .env and empty public example; validated tool calls execute saved-record calculations.

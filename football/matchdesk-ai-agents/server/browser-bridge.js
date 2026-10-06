@@ -10,14 +10,14 @@ async function submitGeminiAnalysis(question){
  if(!['http:','https:'].includes(window.location.protocol)){$('analyststatus').textContent=geminiText.openServer;return {status:'unavailable',reason:'server_required'}}
  $('analyststatus').textContent=geminiText.running;$('analystsubmit').disabled=true;
  try{
-  const response=await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,defaults:analystDefaults(),previous:analystPrevious}),signal:AbortSignal.timeout(35000)});
+  const response=await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,defaults:analystDefaults(),previous:analystPrevious}),signal:AbortSignal.timeout(60000)});
   const result=await response.json();
   if(version!==geminiRequestVersion)return result;
   if(!response.ok){$('analystresult').innerHTML='';$('analyststatus').textContent=geminiText.errors[result.error]||geminiText.failed;return {status:'unavailable',reason:result.error}}
   if(result.status==='ok')analystPrevious=result.plan;
   renderAnalysis(result);return result;
- }catch{
-  if(version===geminiRequestVersion){$('analystresult').innerHTML='';$('analyststatus').textContent=geminiText.failed}
+ }catch(error){
+  if(version===geminiRequestVersion){$('analystresult').innerHTML='';$('analyststatus').textContent=error.name==='TimeoutError'?geminiText.errors.provider_timeout:geminiText.failed}
   return {status:'unavailable',reason:'server_unreachable'};
  }finally{if(version===geminiRequestVersion)$('analystsubmit').disabled=false}
 }

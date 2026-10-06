@@ -1,0 +1,64 @@
+{
+  "producer_id": "/root/rank_ablation",
+  "independent": false,
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "all six tables are complete 380/20/38",
+      "passed": true
+    },
+    {
+      "name": "incomplete current season not treated as final",
+      "passed": true
+    },
+    {
+      "name": "no table data at or after target match",
+      "passed": true
+    },
+    {
+      "name": "all 2023 training prior ranks explicitly missing",
+      "passed": true
+    },
+    {
+      "name": "initial constant extra coefficient zero",
+      "passed": true
+    },
+    {
+      "name": "initial validation effect zero",
+      "passed": true
+    },
+    {
+      "name": "original frozen v2 reproduced",
+      "passed": true
+    },
+    {
+      "name": "fixed reg no new tuning",
+      "passed": true
+    },
+    {
+      "name": "2025/26 stored probabilities finite normalized",
+      "passed": true
+    },
+    {
+      "name": "2025/26 actual metrics replay",
+      "passed": true
+    },
+    {
+      "name": "2026/27 stored probabilities finite normalized",
+      "passed": true
+    },
+    {
+      "name": "2026/27 actual metrics replay",
+      "passed": true
+    },
+    {
+      "name": "synthetic future table leakage rejected",
+      "passed": true
+    },
+    {
+      "name": "experimental provenance honest",
+      "passed": true
+    }
+  ]
+}

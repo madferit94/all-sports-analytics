@@ -1,0 +1,74 @@
+{
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "producer_id": "/root/source_review",
+  "status": "DONE",
+  "method": "PowerShell Import-Csv and field-level IsNullOrWhiteSpace counts; grouped league-season row counts and numeric zero counts. GitHub fetch_file current main source inspected. Results from executed prior investigation; not a new rerun.",
+  "input_absolute_path": "C:/Users/Administrator/Desktop/agentic-ai-fundamentals/day13/projects/ai-agent-planning-2026-10-06-v01/source-unified-2026-10-06-v01/team_match_stats.csv",
+  "team_match_rows": 4798,
+  "completed_matches": 2399,
+  "latest_completed_date": "2026-09-20",
+  "fields_with_zero_missing": [
+    "goals_for",
+    "goals_against",
+    "xg_for",
+    "xg_against",
+    "npxg_for",
+    "npxg_against",
+    "deep",
+    "deep_allowed",
+    "ppda_att",
+    "ppda_def",
+    "ppda_allowed_att",
+    "ppda_allowed_def",
+    "expected_points",
+    "points"
+  ],
+  "zero_denominators": {
+    "ppda_def": 0,
+    "ppda_allowed_def": 0
+  },
+  "league_season_team_rows": {
+    "EPL": {
+      "2023/24": 760,
+      "2025/26": 760,
+      "2026/27": 100,
+      "2024/25": 760
+    },
+    "La_liga": {
+      "2023/24": 760,
+      "2025/26": 760,
+      "2026/27": 138,
+      "2024/25": 760
+    }
+  },
+  "pass_historical_status": "MISSING: 47 StatMuse metrics are TEAM_SEASON_SNAPSHOT NOT_ALLOWED_SEASON_SNAPSHOT",
+  "f1_implementation": "V4 build_replay_frames same UTC linear interpolation with 2 sec gap cutoff; make_frame_renderer Pillow RGB; render_video FFmpeg H264 then full decode validation. Observed actual positions, not predictive simulator.",
+  "sources": [
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/scripts/ko/v4_full_race_replay.py",
+      "description": "GitHub main 구현 직접 확인. OpenF1 위치를 같은 UTC에 선형 보간하고 2초 초과 공백은 숨김. Pillow RGB 프레임을 FFmpeg H.264 MP4로 인코딩하고 전체 디코딩 검사."
+    },
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/docs/v4_replay_guide.ko.md",
+      "description": "51랩, 98분 02.755초를 24배속 20fps 4분 05.2초로 재생. 전체 원본 선수별 37095표본, 경기 및 경계 지원 22538표본. HTML 랩 이동과 12/24/48배속 지원. 미래 승부예측이 아님."
+    },
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/README.ko.md",
+      "description": "과거 승부예측 프로토타입은 재검증을 위해 별도 비공개 보존하며 현재 공개 F1 목록에서 제외."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/team_match_stats.csv",
+      "description": "로컬 원본 직접 조사: 4798 팀경기행/2399 경기. goals, xg, npxg, deep, deep_allowed, ppda 원시 분자/분모, expected_points, points 모두 빈값 0. ppda 분모 0도 0건. 최신 완료일 2026-09-20."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/team_season_additional_stats.csv",
+      "description": "StatMuse 47종은 TEAM_SEASON_SNAPSHOT, NOT_ALLOWED_SEASON_SNAPSHOT. PASS/PASS%/SH/SOT/TKL 등 경기별 역사 입력 아님."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/data_audit.json",
+      "description": "출처정책 Understat 기본, 160팀시즌, 기존 검사 16 PASS. 원본 시간대 UNVERIFIED, 일정 최신확정 아님."
+    }
+  ],
+  "model_evaluation": "NOT_PERFORMED_BY_RESEARCH",
+  "participant_confirmation": "PENDING"
+}

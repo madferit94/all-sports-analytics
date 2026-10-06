@@ -1,0 +1,45 @@
+{
+  "agent_id": "reviewer",
+  "producer_id": "/root/independent_model_review",
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "match_key": "league-scope",
+  "role": "model-evaluation",
+  "status": "DONE",
+  "model_accepted": false,
+  "technical_verification": "PASS",
+  "independent": true,
+  "summary": "별도 검증자가 원본 CSV로 2399개 경기의 33개 입력을 재구성하고 641개 확률과 최종 평가 지표를 재계산했다. 모델 검증 16개와 시뮬레이션 코드/DOM 대역 검증 7개가 통과했다. 기술 계산의 재현성을 확인했으며 정식 모델 채택과 실제 브라우저 화면 확인을 의미하지 않는다.",
+  "evidence": [
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/SPEC.md", "description": "실행 전 입력·기대값과 검증 범위"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/check.py", "description": "작성자의 모델 코드를 import하지 않는 CSV 입력·softmax·성능 계산 재구현"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/independent-checks.json", "description": "16개 검사 기대/실제값, 전체·리그별 평가값"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs", "description": "확률 표본·종료·경기 전환·팀 화면 전환·동일 경기 유지·움직임 줄이기 독립 실행 검사"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/independent-ui-checks.json", "description": "7개 검사 기대/실제값. 실제 브라우저 대신 Node VM과 DOM 대역 사용"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/initial-checks.json", "description": "첫 검사 14 통과/2 실패 보존. 웹은 history evidence를 의도적으로 제거해 전체 bundle 비교가 실패함. 확률·경기 식별자는 변경 없이 동일하며 공개 축약 기대값으로 수정 후 16 통과"},
+    {"path": "modeling/prematch-v2-review-2026-10-06-v01/initial-ui-checks.json", "description": "첫 UI 검사 5 통과/2 실패 보존. Node VM 배열 prototype 차이로 strict 비교 실패. Array.from으로 동일 값 비교 후 7 통과"}
+  ],
+  "issues": [
+    {"severity": "LIMITATION", "code": "NO_PASSING_ACCURACY", "detail": "실제 패스 성공률·패스 횟수는 입력에 없다. PPDA/PPDA allowed는 압박 관련 비율이며 패스 성공률로 해석할 수 없다. 시즌 최종 StatMuse 합계는 과거 경기 전 시점 검증 자료가 없어 제외했다."},
+    {"severity": "LIMITATION", "code": "UNKNOWN_PROMOTION", "detail": "이전 시즌 기록 부재는 승격 확정이 아니다. 하부 리그 기록이나 승격 강도는 수집하지 않았으며 리그 평균으로 기록 부족을 완화하는 보정만 구현했다."},
+    {"severity": "LIMITATION", "code": "RECENT5_CURRENT_SEASON", "detail": "최근 5경기는 현재 시즌에서 최대 5개를 선택한다. 개막 시점에는 지난 시즌 마지막 5경기를 이어 붙이지 않고 지난 시즌 전체 평균을 사전값으로 사용한다."},
+    {"severity": "LIMITATION", "code": "FIXED_SNAPSHOT", "detail": "자료 마지막 날짜 2026-09-20, 예측 기준 2026-10-06. 향후 641개 경기는 같은 관측 자료를 쓰며 자동 갱신은 하지 않는다. 먼 일정의 확률은 새 경기 결과를 반영하지 않는다. 수집 날짜는 공식 킥오프 확인값이 아니다."},
+    {"severity": "USER_DECISION", "code": "NOT_ADOPTED", "detail": "2025/26 760경기 정확도 50.92%, 리그 빈도 기준 45.79%. 진행 시즌 119경기 정확도 42.86%, 기준 41.18%, 보정 오차 ECE 11.21%. 라리가 69경기는 43.48%로 기준 44.93%보다 낮다. 자동으로 정식 채택하지 않으며 사용자 최종 판단이 필요하다."},
+    {"severity": "LIMITATION", "code": "ILLUSTRATIVE_SCORE", "detail": "모델 출력은 홈/무/원정 확률이다. 표시 점수 1:0·1:1·0:1과 움직임·골 시간은 가상 연출이다. 골 점수 분포나 실제 경기 재현 모델이 아니다. 한글·영어 안내 문구를 코드 실행으로 확인했다."},
+    {"severity": "UNVERIFIED", "code": "REAL_BROWSER_AND_USER", "detail": "실제 브라우저 시각 확인과 사용자 화면 확인은 미실행. Node VM/DOM 대역으로 실행 경로와 애니메이션 예약 종료만 검증했다."}
+  ],
+  "tests": {
+    "independent_model_checks": {"passed": 16, "failed": 0},
+    "independent_ui_checks": {"passed": 7, "failed": 0},
+    "max_feature_absolute_difference": 3.375077994860476e-14,
+    "max_probability_absolute_difference": 2.220446049250313e-16,
+    "max_metric_absolute_difference": 2.220446049250313e-16,
+    "commands": [
+      "python modeling/prematch-v2-review-2026-10-06-v01/check.py",
+      "node modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs"
+    ]
+  },
+  "provider": null,
+  "model": "prematch-v2-2026-10-06-v01",
+  "cutoff_at": "2026-10-06",
+  "observed_at": "2026-10-06"
+}

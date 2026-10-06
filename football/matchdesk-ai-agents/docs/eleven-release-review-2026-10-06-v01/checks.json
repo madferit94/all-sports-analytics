@@ -1,0 +1,169 @@
+{
+  "producer_id": "/root/eleven_release_review",
+  "executedAt": "2026-10-06T13:24:53.536Z",
+  "method": "Node canvas/DOM command capture and frozen payload comparisons; not real browser",
+  "passed": 13,
+  "failed": 0,
+  "realBrowserVerified": false,
+  "participantConfirmed": false,
+  "checks": [
+    {
+      "name": "index.html frozen payload and snapshot",
+      "expected": "data and predictions unchanged, 641 forecasts, canonical=v23",
+      "status": "PASS",
+      "actual": {
+        "forecasts": 641,
+        "recordBytesUnchanged": true,
+        "snapshotEqual": true
+      }
+    },
+    {
+      "name": "index.en.html frozen payload and snapshot",
+      "expected": "data and predictions unchanged, 641 forecasts, canonical=v23",
+      "status": "PASS",
+      "actual": {
+        "forecasts": 641,
+        "recordBytesUnchanged": true,
+        "snapshotEqual": true
+      }
+    },
+    {
+      "name": "all forecast identity",
+      "expected": "641 forecast identities match scheduled records and probabilities valid",
+      "status": "PASS",
+      "actual": {
+        "verified": 641
+      }
+    },
+    {
+      "name": "complete pitch/overlap sweep",
+      "expected": "22 non-overlapping full sprites inside pitch through entire duration",
+      "status": "PASS",
+      "actual": {
+        "samples": 721,
+        "playersEach": 22
+      }
+    },
+    {
+      "name": "actual mount draw start middle end",
+      "expected": "22 torso rectangles, four keeper gloves at each phase; final sample result",
+      "status": "PASS",
+      "actual": {
+        "phases": [
+          {
+            "shirts": 22,
+            "outfieldPerTeam": 10,
+            "keepers": 2,
+            "gloves": 4
+          },
+          {
+            "shirts": 22,
+            "outfieldPerTeam": 10,
+            "keepers": 2,
+            "gloves": 4
+          },
+          {
+            "shirts": 22,
+            "outfieldPerTeam": 10,
+            "keepers": 2,
+            "gloves": 4
+          }
+        ],
+        "completed": true
+      }
+    },
+    {
+      "name": "club colours and neon keeper collision",
+      "expected": "each team 10 outfield 1 keeper with distinct keeper kits",
+      "status": "PASS",
+      "actual": {
+        "colourCases": 35
+      }
+    },
+    {
+      "name": "control lifecycle",
+      "expected": "pause cancels frames, replay returns ready, destroy cancels/removes",
+      "status": "PASS",
+      "actual": {
+        "cancels": 3
+      }
+    },
+    {
+      "name": "reduced motion",
+      "expected": "no queued animation, 22 visible shirts and immediate final score",
+      "status": "PASS",
+      "actual": {
+        "framesQueued": 0,
+        "result": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "route transitions",
+      "expected": "team/page exit destroys prior instance, league change remounts exactly once",
+      "status": "PASS",
+      "actual": {
+        "mounts": 2,
+        "destroys": 2
+      }
+    },
+    {
+      "name": "release history README.md",
+      "expected": "release0.9.0 plus explicit v20 v21 v22 v23",
+      "status": "PASS",
+      "actual": {
+        "release": "0.9.0",
+        "versions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "name": "release history README.ko.md",
+      "expected": "release0.9.0 plus explicit v20 v21 v22 v23",
+      "status": "PASS",
+      "actual": {
+        "release": "0.9.0",
+        "versions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "name": "release history ../../README.md",
+      "expected": "release0.9.0 plus explicit v20 v21 v22 v23",
+      "status": "PASS",
+      "actual": {
+        "release": "0.9.0",
+        "versions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "name": "release history ../../README.ko.md",
+      "expected": "release0.9.0 plus explicit v20 v21 v22 v23",
+      "status": "PASS",
+      "actual": {
+        "release": "0.9.0",
+        "versions": [
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    }
+  ]
+}

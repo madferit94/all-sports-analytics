@@ -1,0 +1,88 @@
+{
+  "producer_id": "/root/independent_model_review",
+  "independent": true,
+  "browserVerified": false,
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Each stored probability reproduces outcome frequency on deterministic uniform grid",
+      "expected": "each class count within 1 / 10000",
+      "actual": {
+        "fixtures": 641,
+        "maxProbabilityDifference": 0.0000982355486809916
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "18-second animation lifecycle and fictional label ko",
+      "expected": "finished sample, zero queued frames, destroy remains inert",
+      "actual": {
+        "result": "가상 결과: HOME 1 : 1 AWAY · 종료",
+        "counts": {
+          "requests": 181,
+          "cancels": 1,
+          "pending": 0
+        },
+        "browserVerified": false
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "18-second animation lifecycle and fictional label en",
+      "expected": "finished sample, zero queued frames, destroy remains inert",
+      "actual": {
+        "result": "Sample result: HOME 1 : 1 AWAY · Finished",
+        "counts": {
+          "requests": 181,
+          "cancels": 1,
+          "pending": 0
+        },
+        "browserVerified": false
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Destroy a running animation cancels callbacks",
+      "expected": "no pending frames after destroy",
+      "actual": {
+        "requests": 1,
+        "cancels": 1,
+        "pending": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced motion avoids scheduling frames including replay",
+      "expected": "zero requested animation frames",
+      "actual": {
+        "requests": 0,
+        "cancels": 2,
+        "pending": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Integration routing identity and cleanup index.html",
+      "expected": "641 keys consistent; match switch/team route/pagehide clean; same match preserves run",
+      "actual": {
+        "matchedFixtures": 641,
+        "mounts": 3,
+        "destroyed": 3,
+        "browserVerified": false
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Integration routing identity and cleanup index.en.html",
+      "expected": "641 keys consistent; match switch/team route/pagehide clean; same match preserves run",
+      "actual": {
+        "matchedFixtures": 641,
+        "mounts": 3,
+        "destroyed": 3,
+        "browserVerified": false
+      },
+      "status": "PASS"
+    }
+  ]
+}

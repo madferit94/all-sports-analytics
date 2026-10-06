@@ -1,0 +1,45 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root",
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "match_key": "league-scope",
+  "implementation": "COMPLETE_EXPERIMENTAL_LOCAL",
+  "independent_review": {
+    "model_checks": 16,
+    "ui_checks": 7,
+    "failures": 0,
+    "browser_verified": false
+  },
+  "service_gate": {
+    "decision": "HOLD",
+    "reasons": [
+      "MODEL_NOT_ACCEPTED"
+    ],
+    "mode": "web",
+    "display_probabilities": false,
+    "human_release_authorized": false,
+    "note": "Five-agent ownership checked. Rules do not certify source truth or authorize human release.",
+    "owner_map": {
+      "director": "/root",
+      "research": "/root/source_review",
+      "analyst": "/root/prediction_v2",
+      "builder": "/root/pixel_simulation",
+      "reviewer": "/root/independent_model_review"
+    }
+  },
+  "model_adopted": false,
+  "decision": "Local experimental implementation complete; operational adoption held pending human model criteria and refreshed data.",
+  "limitations": [
+    "No historical passing-success features",
+    "No lower-division strength model; missing-history shrinkage only",
+    "Scoreline and positions are fictional animation",
+    "All fixtures use records through 2026-09-20",
+    "Current LaLiga accuracy below frequency baseline",
+    "No actual browser or participant verification",
+    "No GitHub publication in this task"
+  ],
+  "evidence": [
+    "modeling/prematch-v2-review-2026-10-06-v01/reviewer-report.json",
+    "docs/prematch-pixel-agent-bundle-2026-10-06-v01.json"
+  ]
+}
