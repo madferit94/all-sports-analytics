@@ -1,0 +1,45 @@
+{
+  "primary_policy": "../source-unified-2026-10-06-v01/source_policy.json",
+  "supplementary_source_candidates": [
+    {
+      "kinds": [
+        "formation",
+        "lineup",
+        "availability"
+      ],
+      "candidate": "FotMob",
+      "reference_url": "https://www.fotmob.com/matches/liverpool-vs-west-ham-united/2h59kq",
+      "status": "CANDIDATE_MATCH_PAGE_COLLECTION_NOT_CONNECTED"
+    },
+    {
+      "kinds": [
+        "market_value",
+        "squad"
+      ],
+      "candidate": "Transfermarkt",
+      "reference_url": "https://www.transfermarkt.us/navigation/mwdefinition",
+      "status": "CANDIDATE_DEFINITION_PAGE_FETCH_FAILED_COLLECTION_NOT_CONNECTED"
+    },
+    {
+      "kinds": [
+        "availability",
+        "coach",
+        "transfer",
+        "news"
+      ],
+      "candidate": "Club or league official announcements",
+      "reference_url": null,
+      "status": "RESOLVE_ACTUAL_TEAM_SOURCE_PER_REQUEST"
+    },
+    {
+      "kinds": [
+        "rest_days"
+      ],
+      "candidate": "Understat completed matches",
+      "reference_url": null,
+      "status": "DERIVE_ONLY_WHEN_CHRONOLOGY_IS_VERIFIED"
+    }
+  ],
+  "actual_new_context_records_collected": 0,
+  "changes_primary_schedule": false
+}

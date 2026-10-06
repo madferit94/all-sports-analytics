@@ -1,0 +1,45 @@
+{
+  "method": "limited scalar frontmatter and naming check; PyYAML validator unavailable",
+  "checks": [
+    {
+      "skill": "matchdesk-analysis",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-approval",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-data",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-manager",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-model-evaluation",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-operations",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-prediction",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-trends",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-validation",
+      "passed": true
+    },
+    {
+      "skill": "matchdesk-visualization",
+      "passed": true
+    }
+  ]
+}
