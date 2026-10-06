@@ -1,0 +1,13 @@
+{
+  "release": "0.8.0",
+  "engine_checks": 15,
+  "korean_node_vm_checks": 48,
+  "english_node_vm_checks": 23,
+  "server_checks": 12,
+  "total": 98,
+  "failures": 0,
+  "real_browser_rendering_verified": false,
+  "participant_confirmation": "pending",
+  "live_gemini_verified": false,
+  "provider_test": "mocked; key missing for live API"
+}

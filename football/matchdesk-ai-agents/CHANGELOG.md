@@ -1,5 +1,12 @@
 # Release history / 변경 이력
 
+## 0.8.0 — 2026-10-06
+
+- Gemini local server, ignored local .env and empty public example; validated tool calls execute saved-record calculations.
+- Bilingual async mode, key/configuration/error state, no browser secrets or invented probabilities. Preserve v19.
+- 98 checks passed including 12 mocked-provider HTTP tests. Live Gemini verification awaits a user key; local server is not external hosting.
+
+
 ## 0.7.0 — 2026-10-06
 
 - Bilingual recorded-data workbench: phrase interpretation, comparison/ranking/venue/trend, follow-ups, chart/table/calculation disclosure. Runs in browser JavaScript.
