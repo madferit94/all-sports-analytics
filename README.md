@@ -4,6 +4,8 @@
 
 [English MatchDesk site](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
 
+MatchDesk: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
+
 ## MatchDesk football agent project · 0.8.0
 
 [Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.8.0.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental prediction adoption remains false. Download HTML to view; no hosted service is claimed.

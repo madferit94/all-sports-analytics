@@ -10,6 +10,8 @@
 
 0.8.0: Gemini server adapter with ignored .env, strict tool validation and same-origin async mode. [Setup guide](server/README.ko.md). Run `node --env-file=.env server/gemini.cjs` then open http://127.0.0.1:8765. Set your key locally; no key is included in this repository. Server tests use mocked Gemini responses: live authentication/model verification is pending. `node server/check.cjs` adds 12 HTTP/server checks (98 total checks).
 
+**Day13 workshop project.** [Local workspace location and move checks](docs/DAY13-WORKSPACE.md). Repository paths and viewer versions are unchanged.
+
 ## Open a viewer
 - [English site](index.en.html) · [Korean site](index.html): full UI, 47 metric definitions and reading tips. Premier League 27 / LaLiga 29 clubs include historical teams. Header language links retain the selected team route; other filters reset when switching. 44 Korean + 19 English Node VM checks passed; real browser rendering remains unverified.
 
