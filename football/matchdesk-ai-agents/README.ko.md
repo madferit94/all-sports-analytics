@@ -2,7 +2,9 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**버전 0.9.0 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
+**0.9.1 수정:** CSS 파일의 줄바꿈을 통일해서 내용 해시를 계산하므로 Windows에서도 같은 공개 검사를 통과합니다. v23 화면·각 팀 11명 재생·모델은 변경하지 않았습니다. [수정 SPEC](docs/SPEC-0.9.1.md).
+
+**버전 0.9.1 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
 
 0.6.0: 완료 경기의 팀 이름은 팀 상세로, 작은 경기 링크는 Understat 경기 페이지로 연결됩니다. 상세 지표 6개 설명 말풍선 추가, 출처·경기 수 표시 제거.
 
@@ -10,7 +12,7 @@
 
 0.8.0: .env 기반 Gemini 서버·도구 조건 검증·한영 비동기 모드를 추가했습니다. [설정 안내](server/README.ko.md). 로컬 .env에 키를 넣고 `node --env-file=.env server/gemini.cjs` 실행 후 http://127.0.0.1:8765 접속. 실제 Gemini 인증/모델 호출은 키 설정 후 확인해야 합니다. 서버12개 포함 총98개 검사 통과(제공자 응답은 가짜).
 
-0.9.0: 공격·수비·압박·최근 5경기와 데이터 부족 보정을 이용한 실험 확률·8비트 재생을 추가하고 **각 팀 11명(골키퍼 1명·필드 선수 10명)**으로 수정했습니다. v20 오류 안내·v21 승패 색상·v22 첫 재생·v23 인원 수정을 보존합니다. [모델](modeling/prematch-v2-2026-10-06-v01/README.ko.md) · [변수 팩트 체크](docs/feature-factcheck-2026-10-06-v01/RESULTS.ko.md) · [이번 SPEC](docs/SPEC-0.9.0.md). 확률은 **실험·정식 미채택**이며 재생은 가상 연출입니다.
+0.9.0: 공격·수비·압박·최근 5경기와 데이터 부족 보정을 이용한 실험 확률·8비트 재생을 추가하고 **각 팀 11명(골키퍼 1명·필드 선수 10명)**으로 수정했습니다. v20 오류 안내·v21 승패 색상·v22 첫 재생·v23 인원 수정을 보존합니다. [모델](modeling/prematch-v2-2026-10-06-v01/README.ko.md) · [변수 팩트 체크](docs/feature-factcheck-2026-10-06-v01/RESULTS.ko.md) · [이번 SPEC](docs/SPEC-0.9.1.md). 확률은 **실험·정식 미채택**이며 재생은 가상 연출입니다.
 
 승부 예측 사례와 개선 방안: [한국어](docs/prediction-research-2026-10-06-v01/README.ko.md).
 
@@ -72,8 +74,8 @@ node docs/eleven-release-review-2026-10-06-v01/independent-check.cjs
 
 ## 버전 관리와 SPEC
 
-[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.9.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
-해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v23을 보존하며 이번 버전은 0.9.0입니다. 한국어 index.html과 영어 index.en.html은 v23의 각 언어 화면과 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
+[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.9.1.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
+해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v23을 보존하며 이번 버전은 0.9.1입니다. 한국어 index.html과 영어 index.en.html은 v23의 각 언어 화면과 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
 
 | UI version | Change / 변경 |
 |---|---|

@@ -1,5 +1,5 @@
 {
-  "version": "0.9.1",
+  "version": "0.9.0",
   "public_export": true,
   "files": [
     {
@@ -22,27 +22,27 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 6397,
-      "sha256": "e6e74268b66ce80434f2f156f8a12cce6b98debf6d6889fdaad45de36bf40a11",
-      "snapshot": "0.9.1"
+      "bytes": 5893,
+      "sha256": "ee78632aca5b583ff99c97d15f7acf472821251172f9320c6b358132165255cd",
+      "snapshot": "0.9.0"
     },
     {
       "path": "README.ko.md",
-      "bytes": 11426,
-      "sha256": "76184b09d699fe516f89b93a114815cbb2c0e989bb6fbd90efaf496ea1e922dc",
-      "snapshot": "0.9.1"
+      "bytes": 11167,
+      "sha256": "f9583764bc55a6aee520f690a5f27f55b6f03ba78e06d4286e18fa850de7cb03",
+      "snapshot": "0.9.0"
     },
     {
       "path": "README.md",
-      "bytes": 10995,
-      "sha256": "422a32c015774363ab0c0ef1eac1980d0a94488cd032846ffe7637ba26b92498",
-      "snapshot": "0.9.1"
+      "bytes": 10778,
+      "sha256": "6ffd624572877afa10efd34adb6613b14ce5eb73172bf7ad85f5c7bd2423fe1b",
+      "snapshot": "0.9.0"
     },
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "179a5390966e85c2071a87c1b31de13df67460665196f6529f8c4986842f81e5",
-      "snapshot": "0.9.1"
+      "sha256": "9d8c94f1ad3ea96b1e2ac4914fda4cb93c76b4a3e0d8cc6dd8976d6c0b227d15",
+      "snapshot": "0.9.0"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -753,12 +753,6 @@
       "snapshot": "0.9.0"
     },
     {
-      "path": "docs/SPEC-0.9.1.md",
-      "bytes": 1316,
-      "sha256": "89425c440782127a4a066c3b0cf8111fb513bb267f1be7a38ba90e74d9520d2e",
-      "snapshot": "0.9.1"
-    },
-    {
       "path": "docs/SPEC-ai-connection-2026-10-06-v01.md",
       "bytes": 1228,
       "sha256": "76f96031bb24ef6748885df4c2b7369953863420b4a9973e6e03a6a5ef21f641",
@@ -943,12 +937,6 @@
       "bytes": 73658,
       "sha256": "c6e3bc2deab9847fef44882b20fa3b98c46b591ef9a01540725ea9d5fa6dd2ec",
       "snapshot": "0.9.0"
-    },
-    {
-      "path": "docs/publication_manifest-0.9.0.json",
-      "bytes": 92679,
-      "sha256": "36ae3ed91b1dd61544a041a2a95b08e9c88a9cd795676087676f3d964840b6dc",
-      "snapshot": "0.9.1"
     },
     {
       "path": "docs/release-checks-0.3.0.json",
@@ -1876,9 +1864,9 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 5152,
-      "sha256": "a18975803c19188cca8837ec1a5428d132e0514a219930eed171985255c89a10",
-      "snapshot": "0.9.1"
+      "bytes": 5145,
+      "sha256": "2d318fa298e6680d6472047a0aa78723fabc84122b1bef0ead1f09af941a279a",
+      "snapshot": "0.9.0"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -1907,8 +1895,8 @@
     {
       "path": "viewer_selection.json",
       "bytes": 1041,
-      "sha256": "87d6a307ada07657666cc421a128d206b0adb9598cf0cf4ceb5e5cc96681caba",
-      "snapshot": "0.9.1"
+      "sha256": "f8f61dbb5e3218bcc2ee1b36a7518f5a26e8fd9e3c4aafe4abeed44bf3420656",
+      "snapshot": "0.9.0"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",

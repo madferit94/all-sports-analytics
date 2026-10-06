@@ -2,7 +2,9 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**Release 0.9.0 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
+**0.9.1 patch:** normalize CSS line endings when hashing publication files so Windows checkouts pass the same audit. The v23 interface, eleven-player replay and model are unchanged. [Patch SPEC](docs/SPEC-0.9.1.md).
+
+**Release 0.9.1 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
 
 0.6.0: Team names open club profiles; separate small links open exact Understat match pages in a new tab. Six detailed metrics now open explanation bubbles; the provider/count badge is removed.
 
@@ -10,7 +12,7 @@
 
 0.8.0: Gemini server adapter with ignored .env, strict tool validation and same-origin async mode. [Setup guide](server/README.ko.md). Run `node --env-file=.env server/gemini.cjs` then open http://127.0.0.1:8765. Set your key locally; no key is included in this repository. Server tests use mocked Gemini responses: live authentication/model verification is pending. `node server/check.cjs` adds 12 HTTP/server checks (98 total checks).
 
-0.9.0: Experimental pre-match probabilities with attack/defence/pressing/recent-five features and cold-start smoothing; illustrated 8-bit replay now has **11 players per team (one goalkeeper + ten outfield players)**. Preserve v20 AI error messages, v21 result colours, v22 first replay and v23 player-count correction. [Model](modeling/prematch-v2-2026-10-06-v01/README.md) · [Feature fact check](docs/feature-factcheck-2026-10-06-v01/RESULTS.ko.md) · [Release SPEC](docs/SPEC-0.9.0.md). Predictions are **EXPERIMENTAL_NOT_ADOPTED**; replay is not real footage.
+0.9.0: Experimental pre-match probabilities with attack/defence/pressing/recent-five features and cold-start smoothing; illustrated 8-bit replay now has **11 players per team (one goalkeeper + ten outfield players)**. Preserve v20 AI error messages, v21 result colours, v22 first replay and v23 player-count correction. [Model](modeling/prematch-v2-2026-10-06-v01/README.md) · [Feature fact check](docs/feature-factcheck-2026-10-06-v01/RESULTS.ko.md) · [Release SPEC](docs/SPEC-0.9.1.md). Predictions are **EXPERIMENTAL_NOT_ADOPTED**; replay is not real footage.
 
 Research examples and improvement plan: [English](docs/prediction-research-2026-10-06-v01/README.en.md).
 
@@ -72,8 +74,8 @@ Archived run: 49 auxiliary entries (26 collected, 22 missing, 1 blocked), 117 sq
 
 ## Versions and specifications
 
-[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.9.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
-UI v01–v23 are preserved. Release 0.9.0 provides Korean index.html and English index.en.html identical to their v23 snapshots; earlier designs remain history. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
+[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.9.1.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
+UI v01–v23 are preserved. Release 0.9.1 provides Korean index.html and English index.en.html identical to their v23 snapshots; earlier designs remain history. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
 
 | UI version | Change / 변경 |
 |---|---|

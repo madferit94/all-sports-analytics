@@ -6,11 +6,13 @@
 
 MatchDesk: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchDesk football agent project · 0.9.0
+## MatchDesk football agent project · 0.9.1
+
+0.9.1 normalizes CSS line endings for portable publication hashes; no interface, replay or model changes.
 
 Version history: **v20** AI request errors → **v21** loss/draw colours → **v22** experimental probabilities and illustrated pixel replay → **v23** eleven players per team. Earlier versions are preserved; see the bilingual project README and release SPEC below.
 
-[Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.9.0.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental v2 probabilities and an illustrated 8-bit replay with eleven players per team are available; formal model adoption remains false. Download HTML to view; no hosted service is claimed.
+[Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.9.1.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental v2 probabilities and an illustrated 8-bit replay with eleven players per team are available; formal model adoption remains false. Download HTML to view; no hosted service is claimed.
 
 
 **A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**
