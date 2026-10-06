@@ -1,0 +1,565 @@
+{
+  "note": "Colour families checked for six teams; other palettes are unverified design candidates. All hexadecimal values selected for this UI, not extracted official brand standards.",
+  "teams": [
+    {
+      "id": "understat:92",
+      "name": "Burnley",
+      "league": "EPL",
+      "primary": "#6C1D45",
+      "secondary": "#99D6EA",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:88",
+      "name": "Manchester City",
+      "league": "EPL",
+      "primary": "#6CABDD",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:83",
+      "name": "Arsenal",
+      "league": "EPL",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://www.arsenal.com/media/455139/download",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:249",
+      "name": "Nottingham Forest",
+      "league": "EPL",
+      "primary": "#DD0000",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:73",
+      "name": "Bournemouth",
+      "league": "EPL",
+      "primary": "#D71920",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:81",
+      "name": "West Ham",
+      "league": "EPL",
+      "primary": "#7A263A",
+      "secondary": "#1BB1E7",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:220",
+      "name": "Brighton",
+      "league": "EPL",
+      "primary": "#0057B8",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:256",
+      "name": "Luton",
+      "league": "EPL",
+      "primary": "#F47B20",
+      "secondary": "#172A53",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:72",
+      "name": "Everton",
+      "league": "EPL",
+      "primary": "#003399",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:228",
+      "name": "Fulham",
+      "league": "EPL",
+      "primary": "#FFFFFF",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:238",
+      "name": "Sheffield United",
+      "league": "EPL",
+      "primary": "#C8102E",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:78",
+      "name": "Crystal Palace",
+      "league": "EPL",
+      "primary": "#1B458F",
+      "secondary": "#C4122E",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:86",
+      "name": "Newcastle United",
+      "league": "EPL",
+      "primary": "#111111",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:71",
+      "name": "Aston Villa",
+      "league": "EPL",
+      "primary": "#670E36",
+      "secondary": "#95BFE5",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:244",
+      "name": "Brentford",
+      "league": "EPL",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:82",
+      "name": "Tottenham",
+      "league": "EPL",
+      "primary": "#FFFFFF",
+      "secondary": "#132257",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:80",
+      "name": "Chelsea",
+      "league": "EPL",
+      "primary": "#034694",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:87",
+      "name": "Liverpool",
+      "league": "EPL",
+      "primary": "#C8102E",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:89",
+      "name": "Manchester United",
+      "league": "EPL",
+      "primary": "#DA291C",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:229",
+      "name": "Wolverhampton Wanderers",
+      "league": "EPL",
+      "primary": "#FDB913",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:285",
+      "name": "Ipswich",
+      "league": "EPL",
+      "primary": "#0057B8",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:74",
+      "name": "Southampton",
+      "league": "EPL",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:75",
+      "name": "Leicester",
+      "league": "EPL",
+      "primary": "#003090",
+      "secondary": "#FDBE11",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:77",
+      "name": "Sunderland",
+      "league": "EPL",
+      "primary": "#EB172B",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:245",
+      "name": "Leeds",
+      "league": "EPL",
+      "primary": "#FFFFFF",
+      "secondary": "#244A9B",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://www.leedsunited.com/en/news/leeds-united-and-adidas-unveil-25-26-home-kit",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:208",
+      "name": "Almeria",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:145",
+      "name": "Rayo Vallecano",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#E53027",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:138",
+      "name": "Sevilla",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#D71920",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:146",
+      "name": "Valencia",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#E57200",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:140",
+      "name": "Real Sociedad",
+      "league": "La_liga",
+      "primary": "#0067B1",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:223",
+      "name": "Girona",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:144",
+      "name": "Las Palmas",
+      "league": "La_liga",
+      "primary": "#F9DC00",
+      "secondary": "#0055A4",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:239",
+      "name": "Mallorca",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:147",
+      "name": "Athletic Club",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:150",
+      "name": "Real Madrid",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#B69C4A",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://shop.realmadrid.com/en-gb/product/rmcfmz0899-mens-home-jersey-25-26-white",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:152",
+      "name": "Celta Vigo",
+      "league": "La_liga",
+      "primary": "#8AC3EE",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:157",
+      "name": "Osasuna",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#152B49",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:154",
+      "name": "Villarreal",
+      "league": "La_liga",
+      "primary": "#F5DC00",
+      "secondary": "#0055A4",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:153",
+      "name": "Real Betis",
+      "league": "La_liga",
+      "primary": "#008547",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:142",
+      "name": "Getafe",
+      "league": "La_liga",
+      "primary": "#0055A4",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:148",
+      "name": "Barcelona",
+      "league": "La_liga",
+      "primary": "#004D98",
+      "secondary": "#A50044",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://www.fcbarcelona.com/en/club/identity/colours",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:261",
+      "name": "Cadiz",
+      "league": "La_liga",
+      "primary": "#F9DC00",
+      "secondary": "#0055A4",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:158",
+      "name": "Alaves",
+      "league": "La_liga",
+      "primary": "#0055A4",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:143",
+      "name": "Atletico Madrid",
+      "league": "La_liga",
+      "primary": "#CB3524",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:155",
+      "name": "Granada",
+      "league": "La_liga",
+      "primary": "#D71920",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:159",
+      "name": "Leganes",
+      "league": "La_liga",
+      "primary": "#0055A4",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:231",
+      "name": "Real Valladolid",
+      "league": "La_liga",
+      "primary": "#6C248C",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:141",
+      "name": "Espanyol",
+      "league": "La_liga",
+      "primary": "#007FC8",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://www.rcdespanyol.com/es/noticia/llegan-las-nuevas-camisetas/17346",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:289",
+      "name": "Real Oviedo",
+      "league": "La_liga",
+      "primary": "#0055A4",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:151",
+      "name": "Levante",
+      "league": "La_liga",
+      "primary": "#005CA9",
+      "secondary": "#A6192E",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:207",
+      "name": "Elche",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#008547",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:294",
+      "name": "Coventry",
+      "league": "EPL",
+      "primary": "#69B3E7",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:91",
+      "name": "Hull",
+      "league": "EPL",
+      "primary": "#F6A800",
+      "secondary": "#111111",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:293",
+      "name": "Racing Santander",
+      "league": "La_liga",
+      "primary": "#FFFFFF",
+      "secondary": "#008547",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:139",
+      "name": "Deportivo La Coruna",
+      "league": "La_liga",
+      "primary": "#0066B3",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "DESIGN_CANDIDATE_UNVERIFIED",
+      "source_url": null,
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    },
+    {
+      "id": "understat:137",
+      "name": "Malaga",
+      "league": "La_liga",
+      "primary": "#54A9DD",
+      "secondary": "#FFFFFF",
+      "colour_family_status": "OFFICIAL_FAMILY_CHECKED",
+      "source_url": "https://www.malagacf.com/en/news/una-blanquiazul-reconocible-y-con-identidad",
+      "hex_status": "UI_SELECTED_NOT_OFFICIAL_HEX"
+    }
+  ]
+}

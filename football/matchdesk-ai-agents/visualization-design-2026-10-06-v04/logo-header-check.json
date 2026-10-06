@@ -1,0 +1,400 @@
+{
+  "checked_at_utc": "2026-10-06T07:51:49.067492+00:00",
+  "method": "HEAD only, no image downloaded; not rendered or visually verified",
+  "checked": 56,
+  "ok": 1,
+  "checks": [
+    {
+      "team_key": "understat:220",
+      "url": "https://cdn.statmuse.com/img/epl/players/brighton-2011-logo-min--lpa8nvrc.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:228",
+      "url": "https://cdn.statmuse.com/img/epl/players/fulham-2001-logo-min--n4expcp4.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:244",
+      "url": "https://cdn.statmuse.com/img/epl/players/brentford-2017-logo-min--mxaxewh4.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:245",
+      "url": "https://cdn.statmuse.com/img/epl/players/leeds-united-2002-logo-min--kaox9mfq.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:249",
+      "url": "https://cdn.statmuse.com/img/epl/players/nottingham-forest-2010-logo-min--g9wo5dvn.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:285",
+      "url": "https://cdn.statmuse.com/img/epl/players/ipswich-town-1995-logo-min--_vun-1op.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:294",
+      "url": "https://cdn.statmuse.com/img/epl/players/coventry-city-1996-logo-min--axlkyj9x.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:72",
+      "url": "https://cdn.statmuse.com/img/epl/players/everton-2014-logo-min--ru1gyazl.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:73",
+      "url": "https://cdn.statmuse.com/img/epl/players/bournemouth-2013-logo-min--r2dok4f_.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:77",
+      "url": "https://cdn.statmuse.com/img/epl/players/sunderland-1999-logo-min--hiaz0oas.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:78",
+      "url": "https://cdn.statmuse.com/img/epl/players/a-min--w7gbwxec.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:80",
+      "url": "https://cdn.statmuse.com/img/epl/players/chelsea-fc-2006-logo-min--ycwxrq6t.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:82",
+      "url": "https://cdn.statmuse.com/img/epl/players/tottenham-hotspur-2006-logo-min--dwakwo88.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:83",
+      "url": "https://cdn.statmuse.com/img/epl/players/arsenal-fc-2002-logo-min--n0xdaetb.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:86",
+      "url": "https://cdn.statmuse.com/img/epl/players/newcastle-united-1988-logo-min--qm7ywhog.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:87",
+      "url": "https://cdn.statmuse.com/img/epl/players/liverpool-fc-1999-logo-min--fhsmktxw.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:88",
+      "url": "https://cdn.statmuse.com/img/epl/players/manchester-city-2016-logo-min--gtibayhl.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:89",
+      "url": "https://cdn.statmuse.com/img/epl/players/manchester-united-1998-logo-min--6x6paozk.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:91",
+      "url": "https://cdn.statmuse.com/img/fc/players/hull-city-afc-2019-logo-min-29-kbfoy--ejda4e6v.png",
+      "status": 200,
+      "content_type": "image/png",
+      "image_header_ok": true
+    },
+    {
+      "team_key": "understat:229",
+      "url": "https://cdn.statmuse.com/img/epl/players/wolverhampton-2002-logo-min---c-xyewh.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:238",
+      "url": "https://cdn.statmuse.com/img/epl/players/sheffield-united-1999-logo-min--t9ataucw.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:256",
+      "url": "https://cdn.statmuse.com/img/epl/players/luton-town-logo-svg-min--9d7vwi80.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:71",
+      "url": "https://cdn.statmuse.com/img/epl/players/aston-villa-2023-logo-min--eiocpnkf.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:81",
+      "url": "https://cdn.statmuse.com/img/epl/players/west-ham-2015-logo-min---3_qvfe3.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:92",
+      "url": "https://cdn.statmuse.com/img/epl/players/burnley-2023-logo-min--ahl6939r.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:74",
+      "url": "https://cdn.statmuse.com/img/epl/players/southampton-2011-logo-min--pyttzjqt.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:75",
+      "url": "https://cdn.statmuse.com/img/epl/players/leicester-city-2010-logo-min--kjp7ub_y.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:138",
+      "url": "https://cdn.statmuse.com/img/epl/players/sevilla-fc-1995-logo--i0i43vue.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:140",
+      "url": "https://cdn.statmuse.com/img/epl/players/real-sociedad-1997-logo--b9k_kweb.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:142",
+      "url": "https://cdn.statmuse.com/img/epl/players/getafe-2011-logo--w6ehdt8a.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:143",
+      "url": "https://cdn.statmuse.com/img/epl/players/atletico-madrid-2024-logo--zp51sznr.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:144",
+      "url": "https://cdn.statmuse.com/img/epl/players/u-d-las-palmas-2011-logo--br4sjlv4.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:145",
+      "url": "https://cdn.statmuse.com/img/epl/players/rayo-vallecano-2012-logo--ukuhrjoc.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:146",
+      "url": "https://cdn.statmuse.com/img/epl/players/valencia-2012-logo--wwpnksic.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:147",
+      "url": "https://cdn.statmuse.com/img/epl/players/athletic-club-1995-logo--baftdyve.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:148",
+      "url": "https://cdn.statmuse.com/img/epl/players/fc-barcelona-2002-logo--amqv3mxh.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:150",
+      "url": "https://cdn.statmuse.com/img/epl/players/real-madrid-2002-logo--daz0oyih.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:152",
+      "url": "https://cdn.statmuse.com/img/epl/players/celta-vigo-2010-logo--nuk_yywo.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:153",
+      "url": "https://cdn.statmuse.com/img/epl/players/real-betis-logo--ahlyddy2.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:154",
+      "url": "https://cdn.statmuse.com/img/epl/players/villarreal-2009-logo--9ggwrjtg.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:155",
+      "url": "https://cdn.statmuse.com/img/epl/players/logo-of-granada-club-de-fu-tbol-svg--yql6kzhs.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:157",
+      "url": "https://cdn.statmuse.com/img/epl/players/osasuna-2004-logo--at6zcwgp.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:158",
+      "url": "https://cdn.statmuse.com/img/epl/players/deportivo-alaves-2020-logo--yagklv8t.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:208",
+      "url": "https://cdn.statmuse.com/img/epl/players/ud-almeria-logo-svg--36apidqv.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:223",
+      "url": "https://cdn.statmuse.com/img/epl/players/girona-2021-logo--yevjwovb.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:239",
+      "url": "https://cdn.statmuse.com/img/epl/players/rcd-mallorca-1996-logo--jzjn0enp.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:261",
+      "url": "https://cdn.statmuse.com/img/epl/players/cadiz-2009-logo--hbpbilmj.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:141",
+      "url": "https://cdn.statmuse.com/img/epl/players/espanyol-2005-logo--h4lbz471.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:159",
+      "url": "https://cdn.statmuse.com/img/epl/players/leganes-2014-logo--fccx6j4n.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:231",
+      "url": "https://cdn.statmuse.com/img/epl/players/shield-of-real-valladolid---ecoex2o.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:151",
+      "url": "https://cdn.statmuse.com/img/epl/players/levante-2010-logo--mxxymb6o.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:207",
+      "url": "https://cdn.statmuse.com/img/epl/players/elche-2012-logo--gqhs3xl6.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:289",
+      "url": "https://cdn.statmuse.com/img/epl/players/oviedo-2019-logo--4evgejxs.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:137",
+      "url": "https://cdn.statmuse.com/img/epl/players/ma-laga-cf-svg--sg_ylrqg.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:139",
+      "url": "https://cdn.statmuse.com/img/epl/players/rc-deportivo-la-corun-a-logo-svg--zsaekrtf.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    },
+    {
+      "team_key": "understat:293",
+      "url": "https://cdn.statmuse.com/img/epl/players/racing-de-santander-logo-svg--4wrtdnzc.png",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "image_header_ok": false
+    }
+  ]
+}

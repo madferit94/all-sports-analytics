@@ -1,5 +1,13 @@
 # Release history / 변경 이력
 
+## 0.3.0 — 2026-10-06
+
+- Preserve UI v01–v14: team colours/logos/history, match filters, 47 Korean metrics, click explanations, layout fixes and source/external-link removal.
+- Add functioning soft-app and 8-bit previews, release SPEC, viewer selection and refreshed hashes.
+- Publish archived baseline code/review while keeping service adoption false; no model improvement or deployment in this release.
+- 화면 v01~v14 보존, 팀 정보·필터·한글 지표·말풍선·넘침 수정·외부 링크 제거. 부드러운/8비트 미리보기와 SPEC·버전 명세 추가. 모델 실험은 보존하되 서비스 채택은 보류.
+- Actual browser rendering, administrator authentication, automatic refresh and user design acceptance remain pending.
+
 ## 0.2.1 — 2026-10-06
 
 - Normalize manifest hashes to the published UTF-8/LF representation. No agent/data behavior changed.

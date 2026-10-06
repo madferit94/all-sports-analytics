@@ -1,0 +1,16 @@
+{
+  "release": "0.3.0",
+  "date": "2026-10-06",
+  "executed_checks": {
+    "legacy_agent_unit_tests": {"count": 7, "failures": 0},
+    "integrated_agent_unit_tests": {"count": 6, "failures": 0},
+    "model_temporal_unit_tests": {"count": 5, "failures": 0},
+    "pixel_viewer_node_vm_checks": {"count": 36, "failures": 0}
+  },
+  "real_browser_rendering_verified": false,
+  "pixel_font_loading_verified": false,
+  "user_design_acceptance": "pending",
+  "administrator_authentication": false,
+  "model_adopted": false,
+  "notes": "Counts refer to actual local tool executions. Node VM uses a DOM stub, not a real browser. Release hashes and links are checked separately by tools/check_release.py."
+}

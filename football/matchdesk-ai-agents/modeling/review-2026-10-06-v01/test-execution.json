@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day12\\projects\\ai-agent-planning-2026-10-06-v01\\github-workspace-2026-10-06-v01\\football\\matchdesk-ai-agents\\modeling\\tests",
+    "-v"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_boundary_results_excluded (test_temporal.TemporalTests.test_boundary_results_excluded) ... ok\ntest_csv_integral_decimal_goals_and_invalid_fraction (test_temporal.TemporalTests.test_csv_integral_decimal_goals_and_invalid_fraction) ... ok\ntest_current_and_same_day_results_cannot_leak (test_temporal.TemporalTests.test_current_and_same_day_results_cannot_leak) ... ok\ntest_future_target_labels_ignored_and_prior_result_used (test_temporal.TemporalTests.test_future_target_labels_ignored_and_prior_result_used) ... ok\ntest_stable_probabilities_and_model_serialization (test_temporal.TemporalTests.test_stable_probabilities_and_model_serialization) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.010s\n\nOK\n"
+}

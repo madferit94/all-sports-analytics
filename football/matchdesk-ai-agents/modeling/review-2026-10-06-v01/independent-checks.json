@@ -1,0 +1,625 @@
+{
+  "checker": "/root/validation",
+  "observed_at": "2026-10-06T07:14:25.167552+00:00",
+  "checks": [
+    {
+      "name": "Input SHA256 completed_matches.csv",
+      "expected": "fe1cfb9edacc17a27f422dbe92377bd0f9745f4b6571fdc3aa0e9cb1030c8a62",
+      "actual": "fe1cfb9edacc17a27f422dbe92377bd0f9745f4b6571fdc3aa0e9cb1030c8a62",
+      "passed": true
+    },
+    {
+      "name": "Input SHA256 scheduled_matches.csv",
+      "expected": "780aa37e935f037f0a2d66f4907f1e1e0b82e383debde0dfbcb652c1b81d74fa",
+      "actual": "780aa37e935f037f0a2d66f4907f1e1e0b82e383debde0dfbcb652c1b81d74fa",
+      "passed": true
+    },
+    {
+      "name": "Completed input size",
+      "expected": 2399,
+      "actual": 2399,
+      "passed": true
+    },
+    {
+      "name": "Scheduled input size",
+      "expected": 641,
+      "actual": 641,
+      "passed": true
+    },
+    {
+      "name": "Last completed date",
+      "expected": "2026-09-20",
+      "actual": "2026-09-20",
+      "passed": true
+    },
+    {
+      "name": "Dataset refreshed",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "Class order",
+      "expected": [
+        "home",
+        "draw",
+        "away"
+      ],
+      "actual": [
+        "home",
+        "draw",
+        "away"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Independent feature rows checked",
+      "expected": 2401,
+      "actual": 2401,
+      "passed": true
+    },
+    {
+      "name": "Feature mismatches",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "name": "History key/date mismatches",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "name": "Label mismatches",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    },
+    {
+      "name": "Split sizes",
+      "expected": {
+        "2023/24": 760,
+        "2024/25": 760,
+        "2025/26": 760,
+        "2026/27": 119
+      },
+      "actual": {
+        "2023/24": 760,
+        "2024/25": 760,
+        "2025/26": 760,
+        "2026/27": 119
+      },
+      "passed": true
+    },
+    {
+      "name": "Strict chronology 2023/24 to 2024/25",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Strict chronology 2024/25 to 2025/26",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Strict chronology 2025/26 to 2026/27",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Final model training-only mean error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Final model training-only scale error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Prediction finite/range",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Probability sum max error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Reload understat:31230 maximum error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Reload understat:30845 maximum error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Reg chosen solely from validation",
+      "expected": 0.1,
+      "actual": 0.1,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 train-only scaler mean max error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 model n",
+      "expected": 760,
+      "actual": 760,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 model accuracy",
+      "expected": 0.4921052631578947,
+      "actual": 0.4921052631578947,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 model log_loss",
+      "expected": 1.028004481594196,
+      "actual": 1.028004481594196,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 model brier_sum_of_three_classes",
+      "expected": 0.617440355737736,
+      "actual": 0.617440355737736,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 model expected_calibration_error_10bins",
+      "expected": 0.014471129148180772,
+      "actual": 0.014471129148180772,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 league_frequency_baseline n",
+      "expected": 760,
+      "actual": 760,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 league_frequency_baseline accuracy",
+      "expected": 0.45789473684210524,
+      "actual": 0.45789473684210524,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 league_frequency_baseline log_loss",
+      "expected": 1.0680297063838957,
+      "actual": 1.068029706383896,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.6449109686091333,
+      "actual": 0.6449109686091333,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.020148996344071135,
+      "actual": 0.020148996344071135,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL model n",
+      "expected": 380,
+      "actual": 380,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL model accuracy",
+      "expected": 0.4868421052631579,
+      "actual": 0.4868421052631579,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL model log_loss",
+      "expected": 1.0531519194204462,
+      "actual": 1.0531519194204462,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL model brier_sum_of_three_classes",
+      "expected": 0.6349608246849304,
+      "actual": 0.6349608246849304,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL model expected_calibration_error_10bins",
+      "expected": 0.04473870664182519,
+      "actual": 0.04473870664182519,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL league_frequency_baseline n",
+      "expected": 380,
+      "actual": 380,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL league_frequency_baseline accuracy",
+      "expected": 0.4263157894736842,
+      "actual": 0.4263157894736842,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL league_frequency_baseline log_loss",
+      "expected": 1.0850902919009777,
+      "actual": 1.0850902919009777,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.6565198873794199,
+      "actual": 0.6565198873794199,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 EPL league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.007498103055804672,
+      "actual": 0.007498103055804672,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga model n",
+      "expected": 380,
+      "actual": 380,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga model accuracy",
+      "expected": 0.49736842105263157,
+      "actual": 0.49736842105263157,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga model log_loss",
+      "expected": 1.0028570437679458,
+      "actual": 1.002857043767946,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga model brier_sum_of_three_classes",
+      "expected": 0.5999198867905418,
+      "actual": 0.5999198867905418,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga model expected_calibration_error_10bins",
+      "expected": 0.024521332668422983,
+      "actual": 0.024521332668422983,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga league_frequency_baseline n",
+      "expected": 380,
+      "actual": 380,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga league_frequency_baseline accuracy",
+      "expected": 0.48947368421052634,
+      "actual": 0.48947368421052634,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga league_frequency_baseline log_loss",
+      "expected": 1.0509691208668142,
+      "actual": 1.0509691208668142,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.6333020498388469,
+      "actual": 0.6333020498388469,
+      "passed": true
+    },
+    {
+      "name": "untouched_test_2025_26 La_liga league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.04779609574394711,
+      "actual": 0.04779609574394711,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 train-only scaler mean max error",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 model n",
+      "expected": 119,
+      "actual": 119,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 model accuracy",
+      "expected": 0.3949579831932773,
+      "actual": 0.3949579831932773,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 model log_loss",
+      "expected": 1.0755864816261111,
+      "actual": 1.0755864816261111,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 model brier_sum_of_three_classes",
+      "expected": 0.6464753902865732,
+      "actual": 0.6464753902865732,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 model expected_calibration_error_10bins",
+      "expected": 0.15159794076887897,
+      "actual": 0.15159794076887897,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 league_frequency_baseline n",
+      "expected": 119,
+      "actual": 119,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 league_frequency_baseline accuracy",
+      "expected": 0.4117647058823529,
+      "actual": 0.4117647058823529,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 league_frequency_baseline log_loss",
+      "expected": 1.0872516302929134,
+      "actual": 1.0872516302929132,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.6585171141086134,
+      "actual": 0.6585171141086134,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.03477506488159576,
+      "actual": 0.03477506488159576,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga model n",
+      "expected": 69,
+      "actual": 69,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga model accuracy",
+      "expected": 0.42028985507246375,
+      "actual": 0.42028985507246375,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga model log_loss",
+      "expected": 1.0455324312077723,
+      "actual": 1.0455324312077725,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga model brier_sum_of_three_classes",
+      "expected": 0.6257097971051571,
+      "actual": 0.6257097971051571,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga model expected_calibration_error_10bins",
+      "expected": 0.16898518356194964,
+      "actual": 0.16898518356194964,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga league_frequency_baseline n",
+      "expected": 69,
+      "actual": 69,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga league_frequency_baseline accuracy",
+      "expected": 0.4492753623188406,
+      "actual": 0.4492753623188406,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga league_frequency_baseline log_loss",
+      "expected": 1.0680319954899253,
+      "actual": 1.0680319954899256,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.645609188158795,
+      "actual": 0.645609188158795,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 La_liga league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.00829244170565624,
+      "actual": 0.00829244170565624,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL model n",
+      "expected": 50,
+      "actual": 50,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL model accuracy",
+      "expected": 0.36,
+      "actual": 0.36,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL model log_loss",
+      "expected": 1.1170610712034186,
+      "actual": 1.1170610712034188,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL model brier_sum_of_three_classes",
+      "expected": 0.6751319088769273,
+      "actual": 0.6751319088769273,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL model expected_calibration_error_10bins",
+      "expected": 0.1659670497329117,
+      "actual": 0.1659670497329117,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL league_frequency_baseline n",
+      "expected": 50,
+      "actual": 50,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL league_frequency_baseline accuracy",
+      "expected": 0.36,
+      "actual": 0.36,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL league_frequency_baseline log_loss",
+      "expected": 1.1137747263210358,
+      "actual": 1.1137747263210358,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL league_frequency_baseline brier_sum_of_three_classes",
+      "expected": 0.6763300519193632,
+      "actual": 0.6763300519193632,
+      "passed": true
+    },
+    {
+      "name": "followup_2026_27 EPL league_frequency_baseline expected_calibration_error_10bins",
+      "expected": 0.07132108486439204,
+      "actual": 0.07132108486439204,
+      "passed": true
+    },
+    {
+      "name": "Actual same-date perturbation feature unchanged",
+      "expected": [
+        1.6,
+        1.4,
+        1.035735,
+        1.602414,
+        0.4652200000000001,
+        1.242662,
+        0.6,
+        1.6,
+        0.4,
+        1.2,
+        5.0,
+        5.0,
+        5.0,
+        7.0,
+        0.0
+      ],
+      "actual": [
+        1.6,
+        1.4,
+        1.035735,
+        1.602414,
+        0.4652200000000001,
+        1.242662,
+        0.6,
+        1.6,
+        0.4,
+        1.2,
+        5.0,
+        5.0,
+        5.0,
+        7.0,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "name": "Existing tests return code",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "performance": {
+    "untouched_test_2025_26": {
+      "model": {
+        "n": 760,
+        "accuracy": 0.4921052631578947,
+        "log_loss": 1.028004481594196,
+        "brier_sum_of_three_classes": 0.617440355737736,
+        "expected_calibration_error_10bins": 0.014471129148180772
+      },
+      "league_frequency_baseline": {
+        "n": 760,
+        "accuracy": 0.45789473684210524,
+        "log_loss": 1.068029706383896,
+        "brier_sum_of_three_classes": 0.6449109686091333,
+        "expected_calibration_error_10bins": 0.020148996344071135
+      }
+    },
+    "followup_2026_27": {
+      "model": {
+        "n": 119,
+        "accuracy": 0.3949579831932773,
+        "log_loss": 1.0755864816261111,
+        "brier_sum_of_three_classes": 0.6464753902865732,
+        "expected_calibration_error_10bins": 0.15159794076887897
+      },
+      "league_frequency_baseline": {
+        "n": 119,
+        "accuracy": 0.4117647058823529,
+        "log_loss": 1.0872516302929132,
+        "brier_sum_of_three_classes": 0.6585171141086134,
+        "expected_calibration_error_10bins": 0.03477506488159576
+      }
+    }
+  },
+  "prediction_recomputed": [
+    [
+      0.5363873692851299,
+      0.23132145780654886,
+      0.23229117290832124
+    ],
+    [
+      0.2902941318964356,
+      0.330291591170056,
+      0.3794142769335083
+    ]
+  ],
+  "class_order": [
+    "home",
+    "draw",
+    "away"
+  ],
+  "limitation": "Feature reconstruction and metric formulas independent; evaluation coefficient refit uses reviewed original fitter. Not an independent algorithm implementation."
+}

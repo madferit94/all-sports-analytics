@@ -1,0 +1,49 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day12\\projects\\ai-agent-planning-2026-10-06-v01\\github-workspace-2026-10-06-v01\\football\\matchdesk-ai-agents\\modeling\\train_baseline.py",
+    "--dataset",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day12\\projects\\ai-agent-planning-2026-10-06-v01\\source-unified-2026-10-06-v01",
+    "--out",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day12\\projects\\ai-agent-planning-2026-10-06-v01\\github-workspace-2026-10-06-v01\\football\\matchdesk-ai-agents\\modeling\\review-2026-10-06-v01\\reproduction-2026-10-06-v01",
+    "--cutoff-date",
+    "2026-10-06"
+  ],
+  "returncode": 0,
+  "stdout": "{\"output\": \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\agentic-ai-fundamentals\\\\day12\\\\projects\\\\ai-agent-planning-2026-10-06-v01\\\\github-workspace-2026-10-06-v01\\\\football\\\\matchdesk-ai-agents\\\\modeling\\\\review-2026-10-06-v01\\\\reproduction-2026-10-06-v01\", \"historical_matches\": 2399, \"reg\": 0.1, \"test\": {\"n\": 760, \"accuracy\": 0.4921052631578947, \"log_loss\": 1.028004481594196, \"brier_sum_of_three_classes\": 0.617440355737736, \"expected_calibration_error_10bins\": 0.014471129148180772, \"calibration_bins\": [{\"lower\": 0.3, \"n\": 157, \"accuracy\": 0.4012738853503185, \"mean_confidence\": 0.3798235529183805}, {\"lower\": 0.4, \"n\": 320, \"accuracy\": 0.45625, \"mean_confidence\": 0.4459737056829168}, {\"lower\": 0.5, \"n\": 189, \"accuracy\": 0.5396825396825397, \"mean_confidence\": 0.541760243058139}, {\"lower\": 0.6, \"n\": 60, \"accuracy\": 0.6, \"mean_confidence\": 0.6381921303330992}, {\"lower\": 0.7, \"n\": 33, \"accuracy\": 0.7878787878787878, \"mean_confidence\": 0.7433591106949922}, {\"lower\": 0.8, \"n\": 1, \"accuracy\": 1.0, \"mean_confidence\": 0.8114213257029882}]}, \"baseline\": {\"n\": 760, \"accuracy\": 0.45789473684210524, \"log_loss\": 1.0680297063838957, \"brier_sum_of_three_classes\": 0.6449109686091333, \"expected_calibration_error_10bins\": 0.020148996344071135, \"calibration_bins\": [{\"lower\": 0.4, \"n\": 760, \"accuracy\": 0.45789473684210524, \"mean_confidence\": 0.4377457404980341}]}, \"future_predictions\": 2}\n",
+  "stderr": "",
+  "checks": [
+    {
+      "file": "metrics.json",
+      "identical_bytes": true,
+      "original_sha256": "9451e0b5d612d2c4615ffe9c6eb8c300957171498779886a971e1e8efb01fb8f",
+      "reproduced_sha256": "9451e0b5d612d2c4615ffe9c6eb8c300957171498779886a971e1e8efb01fb8f"
+    },
+    {
+      "file": "model.json",
+      "identical_bytes": true,
+      "original_sha256": "a56975c7c13a104f7e4b59a3c38e5030efb4316d60c8365d542cbb081c59bfc2",
+      "reproduced_sha256": "a56975c7c13a104f7e4b59a3c38e5030efb4316d60c8365d542cbb081c59bfc2"
+    },
+    {
+      "file": "historical_features.json",
+      "identical_bytes": true,
+      "original_sha256": "3e9a511d7b8561a0b86d6eb2c48c63f03857c4c0c2571f979f1dfcd3b145bc7c",
+      "reproduced_sha256": "3e9a511d7b8561a0b86d6eb2c48c63f03857c4c0c2571f979f1dfcd3b145bc7c"
+    },
+    {
+      "file": "future_inputs.json",
+      "identical_bytes": true,
+      "original_sha256": "fc39c883dec7fbcfd9e3c9e2bddf5e9585e7c815add5fd50e29f819a05a84aee",
+      "reproduced_sha256": "fc39c883dec7fbcfd9e3c9e2bddf5e9585e7c815add5fd50e29f819a05a84aee"
+    },
+    {
+      "file": "predictions.csv",
+      "identical_bytes": true,
+      "original_sha256": "b246cb161a88d0fab48d4cdf3420c48f8bf02ac410aeb7da89ce48d810e92a35",
+      "reproduced_sha256": "b246cb161a88d0fab48d4cdf3420c48f8bf02ac410aeb7da89ce48d810e92a35"
+    }
+  ],
+  "input_manifest_compared_except_observed_at": true
+}

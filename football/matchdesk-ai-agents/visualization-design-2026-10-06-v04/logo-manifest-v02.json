@@ -1,0 +1,457 @@
+{
+  "provider": "StatMuse CDN, addresses observed in preserved source pages",
+  "observed": 56,
+  "total": 56,
+  "missing": [],
+  "availability": "Remote load not yet verified; image failure falls back to team initials",
+  "logos": {
+    "understat:220": {
+      "url": "https://cdn.statmuse.com/img/epl/players/brighton-2011-logo-min--lpa8nvrc.png",
+      "source_page": "https://www.statmuse.com/fc/club/brighton-&-hove-albion-22/2027",
+      "source_title": "Brighton & Hove Albion 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_220_overview.html",
+      "source_sha256": "fd10d1b99e9ccf9687d25461776a5c4e6569d4ab9b5ea1c5d9659e60cc451617",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:228": {
+      "url": "https://cdn.statmuse.com/img/epl/players/fulham-2001-logo-min--n4expcp4.png",
+      "source_page": "https://www.statmuse.com/fc/club/fulham-53/2027",
+      "source_title": "Fulham 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_228_overview.html",
+      "source_sha256": "df8964f51626529696a4c9bf72b3139ac51ad34c65473718f9dd346ed3a8ff4c",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:244": {
+      "url": "https://cdn.statmuse.com/img/epl/players/brentford-2017-logo-min--mxaxewh4.png",
+      "source_page": "https://www.statmuse.com/fc/club/brentford-21/2027",
+      "source_title": "Brentford 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_244_overview.html",
+      "source_sha256": "b6b8949bb3d78c0bd0d3daac8cabb932ec99639512530d5724cf1a89c965f5c3",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:245": {
+      "url": "https://cdn.statmuse.com/img/epl/players/leeds-united-2002-logo-min--kaox9mfq.png",
+      "source_page": "https://www.statmuse.com/fc/club/leeds-united-68/2027",
+      "source_title": "Leeds United 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_245_overview.html",
+      "source_sha256": "59d0abf23c3c0a78996cd0525ec2a4bdcf36ac5e257f6cd6b3e910ea0de1bc61",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:249": {
+      "url": "https://cdn.statmuse.com/img/epl/players/nottingham-forest-2010-logo-min--g9wo5dvn.png",
+      "source_page": "https://www.statmuse.com/fc/club/nottingham-forest-94/2027",
+      "source_title": "Nottingham Forest 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_249_overview.html",
+      "source_sha256": "82882a8c2ad63595d812f5e4a5f6164a83a9892ced1384c6a323f1066e4a326f",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:285": {
+      "url": "https://cdn.statmuse.com/img/epl/players/ipswich-town-1995-logo-min--_vun-1op.png",
+      "source_page": "https://www.statmuse.com/fc/club/ipswich-town-65/2027",
+      "source_title": "Ipswich Town 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_285_overview.html",
+      "source_sha256": "9e2021199e36034f0d9f4146e2af561bf285ef742aeda4d35e9c41be2cfb89a4",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:294": {
+      "url": "https://cdn.statmuse.com/img/epl/players/coventry-city-1996-logo-min--axlkyj9x.png",
+      "source_page": "https://www.statmuse.com/fc/club/coventry-city-39/2027",
+      "source_title": "Coventry City 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_294_overview.html",
+      "source_sha256": "1fb21191214315c66c23168b10bd3335875677255ed129bce2fae9014d68acf4",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:72": {
+      "url": "https://cdn.statmuse.com/img/epl/players/everton-2014-logo-min--ru1gyazl.png",
+      "source_page": "https://www.statmuse.com/fc/club/everton-49/2027",
+      "source_title": "Everton 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_72_overview.html",
+      "source_sha256": "c8c16c593b4f34f5b2690716a426badba9a6a01062ae3b21733788d93432108b",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:73": {
+      "url": "https://cdn.statmuse.com/img/epl/players/bournemouth-2013-logo-min--r2dok4f_.png",
+      "source_page": "https://www.statmuse.com/fc/club/afc-bournemouth-18/2027",
+      "source_title": "AFC Bournemouth 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_73_overview.html",
+      "source_sha256": "26cbcb1538a3c357c5568829dd99e4ada36d60ac0a68c70a1631ee646ec96ac2",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:77": {
+      "url": "https://cdn.statmuse.com/img/epl/players/sunderland-1999-logo-min--hiaz0oas.png",
+      "source_page": "https://www.statmuse.com/fc/club/sunderland-122/2027",
+      "source_title": "Sunderland 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_77_overview.html",
+      "source_sha256": "0827084bd8a543248b5bb0c3b3f649b7731d382ca95994d8465192f181510659",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:78": {
+      "url": "https://cdn.statmuse.com/img/epl/players/a-min--w7gbwxec.png",
+      "source_page": "https://www.statmuse.com/fc/club/crystal-palace-42/2027",
+      "source_title": "Crystal Palace 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_78_overview.html",
+      "source_sha256": "5ef604d37f6c600874bd9d3b46888a7c089b2b259fe6f01a02f0444d1e490374",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:80": {
+      "url": "https://cdn.statmuse.com/img/epl/players/chelsea-fc-2006-logo-min--ycwxrq6t.png",
+      "source_page": "https://www.statmuse.com/fc/club/chelsea-34/2027",
+      "source_title": "Chelsea 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_80_overview.html",
+      "source_sha256": "e578a98552d5ae257654a1726f981fb0450387ddc2d1572b702b50b97fc05c7a",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:82": {
+      "url": "https://cdn.statmuse.com/img/epl/players/tottenham-hotspur-2006-logo-min--dwakwo88.png",
+      "source_page": "https://www.statmuse.com/fc/club/tottenham-hotspur-128/2027",
+      "source_title": "Tottenham Hotspur 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_82_overview.html",
+      "source_sha256": "3f400dfd31c8379a3a452e444c25c11d8c2b9eb6034d81bbed2523865d40dcb4",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:83": {
+      "url": "https://cdn.statmuse.com/img/epl/players/arsenal-fc-2002-logo-min--n0xdaetb.png",
+      "source_page": "https://www.statmuse.com/fc/club/arsenal-6/2027",
+      "source_title": "Arsenal 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/arsenal_overview.html",
+      "source_sha256": "0aa971d43af915115690d63ba9b491e4a3f6c4f214056d908ca729e7ac42d5ef",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:86": {
+      "url": "https://cdn.statmuse.com/img/epl/players/newcastle-united-1988-logo-min--qm7ywhog.png",
+      "source_page": "https://www.statmuse.com/fc/club/newcastle-united-89/2027",
+      "source_title": "Newcastle United 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_86_overview.html",
+      "source_sha256": "95ebca2bbb898d1e13a0106b113b969a3d18fcfc6cc2f3603c4d7787b96c604f",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:87": {
+      "url": "https://cdn.statmuse.com/img/epl/players/liverpool-fc-1999-logo-min--fhsmktxw.png",
+      "source_page": "https://www.statmuse.com/fc/club/liverpool-72/2027",
+      "source_title": "Liverpool 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_87_overview.html",
+      "source_sha256": "afa7bd11bcd19f88e9fb62bfa74af77e750827a0e73d3de63c38926a9841d98d",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:88": {
+      "url": "https://cdn.statmuse.com/img/epl/players/manchester-city-2016-logo-min--gtibayhl.png",
+      "source_page": "https://www.statmuse.com/fc/club/manchester-city-77/2027",
+      "source_title": "Manchester City 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_88_overview.html",
+      "source_sha256": "12600e9a83e61346de052b97591ea2c27fa6c63215a101922ba383904989b04f",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:89": {
+      "url": "https://cdn.statmuse.com/img/epl/players/manchester-united-1998-logo-min--6x6paozk.png",
+      "source_page": "https://www.statmuse.com/fc/club/manchester-united-78/2027",
+      "source_title": "Manchester United 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_89_overview.html",
+      "source_sha256": "b79f7a878f314a3717552c45fd7b9996b147f5902f5c5cfc61e5029f3a2d833a",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:91": {
+      "url": "https://cdn.statmuse.com/img/fc/players/hull-city-afc-2019-logo-min-29-kbfoy--ejda4e6v.png",
+      "source_page": "https://www.statmuse.com/fc/club/hull-city-64/2027",
+      "source_title": "Hull City 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_91_overview.html",
+      "source_sha256": "d094ec08f32341e823d61489be4126591d58769234db14e8defe638fba525423",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:229": {
+      "url": "https://cdn.statmuse.com/img/epl/players/wolverhampton-2002-logo-min---c-xyewh.png",
+      "source_page": "https://www.statmuse.com/fc/club/wolverhampton-wanderers-136/2026",
+      "source_title": "Wolverhampton Wanderers 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2025_229_overview.html",
+      "source_sha256": "aa138049e5f56990d1c5f47349424ac28ff5f509e0a94bcde48d7447fc2eed15",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:238": {
+      "url": "https://cdn.statmuse.com/img/epl/players/sheffield-united-1999-logo-min--t9ataucw.png",
+      "source_page": "https://www.statmuse.com/fc/club/sheffield-united-112/2024",
+      "source_title": "Sheffield United 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2023_238_overview.html",
+      "source_sha256": "e2e1469e0a87b5f20a674ff2b8a5eb844375fb6594419f3f49003d6c58eca5c8",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:256": {
+      "url": "https://cdn.statmuse.com/img/epl/players/luton-town-logo-svg-min--9d7vwi80.png",
+      "source_page": "https://www.statmuse.com/fc/club/luton-town-74/2024",
+      "source_title": "Luton Town 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2023_256_overview.html",
+      "source_sha256": "a3c9b0b02c0af8ad538138e8dd2ef16251841f3db5b96c33687c69503de3cfb5",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:71": {
+      "url": "https://cdn.statmuse.com/img/epl/players/aston-villa-2023-logo-min--eiocpnkf.png",
+      "source_page": "https://www.statmuse.com/fc/club/aston-villa-8/2024",
+      "source_title": "Aston Villa 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2023_71_overview.html",
+      "source_sha256": "92750e05a49ec276e9b59dd1d66808e4eb55357a109c3259e2570d1e10c1c053",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:81": {
+      "url": "https://cdn.statmuse.com/img/epl/players/west-ham-2015-logo-min---3_qvfe3.png",
+      "source_page": "https://www.statmuse.com/fc/club/west-ham-united-133/2026",
+      "source_title": "West Ham United 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2025_81_overview.html",
+      "source_sha256": "93cd02e12235e4fd1bcbed03ca761d2609d1beb411344c9dd80039a1ce3b9a6f",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:92": {
+      "url": "https://cdn.statmuse.com/img/epl/players/burnley-2023-logo-min--ahl6939r.png",
+      "source_page": "https://www.statmuse.com/fc/club/burnley-25/2026",
+      "source_title": "Burnley 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2025_92_overview.html",
+      "source_sha256": "ad1f5bd8650eeb84f3649c971e9c9915bc308c09f07f5f8aa1e38bda8c2376e9",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:74": {
+      "url": "https://cdn.statmuse.com/img/epl/players/southampton-2011-logo-min--pyttzjqt.png",
+      "source_page": "https://www.statmuse.com/fc/club/southampton-115/2025",
+      "source_title": "Southampton 2025 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2024_74_overview.html",
+      "source_sha256": "c3068f2af1eb3921723349680e4722bb4506cc628590e951979c354f8c678283",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:75": {
+      "url": "https://cdn.statmuse.com/img/epl/players/leicester-city-2010-logo-min--kjp7ub_y.png",
+      "source_page": "https://www.statmuse.com/fc/club/leicester-city-69/2025",
+      "source_title": "Leicester City 2025 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/EPL_2024_75_overview.html",
+      "source_sha256": "916a47135fcda19fe09143958a94c4b82261c3e7cd1277c9e8e6ba22fcba1d9c",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:138": {
+      "url": "https://cdn.statmuse.com/img/epl/players/sevilla-fc-1995-logo--i0i43vue.png",
+      "source_page": "https://www.statmuse.com/fc/club/sevilla-158/2027",
+      "source_title": "Sevilla 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_138_overview.html",
+      "source_sha256": "fd51b480ed61673176c45c366107dc61cfc22a8e5d60ed733df459c2c725fedd",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:140": {
+      "url": "https://cdn.statmuse.com/img/epl/players/real-sociedad-1997-logo--b9k_kweb.png",
+      "source_page": "https://www.statmuse.com/fc/club/real-sociedad-157/2027",
+      "source_title": "Real Sociedad 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_140_overview.html",
+      "source_sha256": "eab15d7cc7effa1f35a584ef2bf52ea679087ee7c9d8053615c52cbaae1f8b5c",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:142": {
+      "url": "https://cdn.statmuse.com/img/epl/players/getafe-2011-logo--w6ehdt8a.png",
+      "source_page": "https://www.statmuse.com/fc/club/getafe-cf-149/2027",
+      "source_title": "Getafe CF 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_142_overview.html",
+      "source_sha256": "24921d3e19c8fff983eff588c600d1cac641cf56c8819ab599eeeecfd468f9b4",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:143": {
+      "url": "https://cdn.statmuse.com/img/epl/players/atletico-madrid-2024-logo--zp51sznr.png",
+      "source_page": "https://www.statmuse.com/fc/club/atl%C3%A9tico-madrid-146/2027",
+      "source_title": "Atlético Madrid 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_143_overview.html",
+      "source_sha256": "544a07ceeb7abde5f2e4ae771f1a184839b9cc7cd753b414bda1086c5ff96cdc",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:144": {
+      "url": "https://cdn.statmuse.com/img/epl/players/u-d-las-palmas-2011-logo--br4sjlv4.png",
+      "source_page": "https://www.statmuse.com/fc/club/las-palmas-160/2025",
+      "source_title": "Las Palmas 2025 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2024_144_overview.html",
+      "source_sha256": "73ebd828a9606de876eab362360555a7fc533accbd5d5ea9532b8ec6a53aa02e",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:145": {
+      "url": "https://cdn.statmuse.com/img/epl/players/rayo-vallecano-2012-logo--ukuhrjoc.png",
+      "source_page": "https://www.statmuse.com/fc/club/rayo-vallecano-152/2027",
+      "source_title": "Rayo Vallecano 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_145_overview.html",
+      "source_sha256": "a8012c256aace955e43ecf191b28a0a6e57eb058eb39b107a1ea072f20fdfdc6",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:146": {
+      "url": "https://cdn.statmuse.com/img/epl/players/valencia-2012-logo--wwpnksic.png",
+      "source_page": "https://www.statmuse.com/fc/club/valencia-161/2027",
+      "source_title": "Valencia 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_146_overview.html",
+      "source_sha256": "4553e88e88753df59755ff241a34bbdf5f276691ca3076bdc4a7832373d48b84",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:147": {
+      "url": "https://cdn.statmuse.com/img/epl/players/athletic-club-1995-logo--baftdyve.png",
+      "source_page": "https://www.statmuse.com/fc/club/athletic-club-143/2027",
+      "source_title": "Athletic Club 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_147_overview.html",
+      "source_sha256": "8b2f08a2804f0ecab6be796c2e45e27c0bf7479c751964a18da77a771f0fe5c3",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:148": {
+      "url": "https://cdn.statmuse.com/img/epl/players/fc-barcelona-2002-logo--amqv3mxh.png",
+      "source_page": "https://www.statmuse.com/fc/club/barcelona-148/2027",
+      "source_title": "Barcelona 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/barcelona_overview.html",
+      "source_sha256": "0dec43edf325b61821cbf57e775ae57837f6fa2272631ff2097c9dd06d629979",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:150": {
+      "url": "https://cdn.statmuse.com/img/epl/players/real-madrid-2002-logo--daz0oyih.png",
+      "source_page": "https://www.statmuse.com/fc/club/real-madrid-156/2027",
+      "source_title": "Real Madrid 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_150_overview.html",
+      "source_sha256": "30243a82d3d7640d4e2a5f00b8149bd886070f83f10c89411e0b7f3935fe70af",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:152": {
+      "url": "https://cdn.statmuse.com/img/epl/players/celta-vigo-2010-logo--nuk_yywo.png",
+      "source_page": "https://www.statmuse.com/fc/club/rc-celta-de-vigo-153/2027",
+      "source_title": "RC Celta de Vigo 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_152_overview.html",
+      "source_sha256": "e57d2b5e98a04e3568add863cbe438aa3ccb627e274096317565ec28e02a3611",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:153": {
+      "url": "https://cdn.statmuse.com/img/epl/players/real-betis-logo--ahlyddy2.png",
+      "source_page": "https://www.statmuse.com/fc/club/real-betis-155/2027",
+      "source_title": "Real Betis 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_153_overview.html",
+      "source_sha256": "69bc2860bb53b1aa884d8ce940de406df8702628ab3735e92bb6a67d3e4ce0f5",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:154": {
+      "url": "https://cdn.statmuse.com/img/epl/players/villarreal-2009-logo--9ggwrjtg.png",
+      "source_page": "https://www.statmuse.com/fc/club/villarreal-162/2027",
+      "source_title": "Villarreal 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_154_overview.html",
+      "source_sha256": "dc031ea9aa25aabf46b2af21da79c278f1866325c1ecdf656bc82a397e1c9044",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:155": {
+      "url": "https://cdn.statmuse.com/img/epl/players/logo-of-granada-club-de-fu-tbol-svg--yql6kzhs.png",
+      "source_page": "https://www.statmuse.com/fc/club/granada-cf-151/2024",
+      "source_title": "Granada CF 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2023_155_overview.html",
+      "source_sha256": "ae5c2478e344df1ad157c56396dde58b58e9f54b8a029d03652625dab598caff",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:157": {
+      "url": "https://cdn.statmuse.com/img/epl/players/osasuna-2004-logo--at6zcwgp.png",
+      "source_page": "https://www.statmuse.com/fc/club/osasuna-144/2027",
+      "source_title": "Osasuna 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_157_overview.html",
+      "source_sha256": "c60a95e7eafb110f453c083338d72c373b8c94a47fdab8708164b7996a7d9401",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:158": {
+      "url": "https://cdn.statmuse.com/img/epl/players/deportivo-alaves-2020-logo--yagklv8t.png",
+      "source_page": "https://www.statmuse.com/fc/club/deportivo-alav%C3%A9s-147/2027",
+      "source_title": "Deportivo Alavés 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_158_overview.html",
+      "source_sha256": "70839ae36dc1fcbd56108eb74e752170d4be68a61ef99a7647f5fa99f9edd9cb",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:208": {
+      "url": "https://cdn.statmuse.com/img/epl/players/ud-almeria-logo-svg--36apidqv.png",
+      "source_page": "https://www.statmuse.com/fc/club/ud-almer%C3%ADa-159/2024",
+      "source_title": "UD Almería 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2023_208_overview.html",
+      "source_sha256": "3641d4d2a21313ac8871ff85cb33c29da2836a6dc32d8aa645c36a9fd356017f",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:223": {
+      "url": "https://cdn.statmuse.com/img/epl/players/girona-2021-logo--yevjwovb.png",
+      "source_page": "https://www.statmuse.com/fc/club/girona-fc-150/2026",
+      "source_title": "Girona FC 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2025_223_overview.html",
+      "source_sha256": "6de10fc48c200a3cc0d39ae2b0348d53d94fb25cd60587d3a87767403ec234ae",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:239": {
+      "url": "https://cdn.statmuse.com/img/epl/players/rcd-mallorca-1996-logo--jzjn0enp.png",
+      "source_page": "https://www.statmuse.com/fc/club/rcd-mallorca-154/2026",
+      "source_title": "RCD Mallorca 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2025_239_overview.html",
+      "source_sha256": "9e123be372eed283bbd35117ef0eb2145aa93707003161a5abed48d415718417",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:261": {
+      "url": "https://cdn.statmuse.com/img/epl/players/cadiz-2009-logo--hbpbilmj.png",
+      "source_page": "https://www.statmuse.com/fc/club/c%C3%A1diz-145/2024",
+      "source_title": "Cádiz 2024 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2023_261_overview.html",
+      "source_sha256": "7d82a8142708968a55b442a8b6ceeea7a33263d58de97b2f463ecedc33b5749d",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:141": {
+      "url": "https://cdn.statmuse.com/img/epl/players/espanyol-2005-logo--h4lbz471.png",
+      "source_page": "https://www.statmuse.com/fc/club/espanyol-164/2027",
+      "source_title": "Espanyol 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_141_overview.html",
+      "source_sha256": "2b0c7ab94b5fa2dcae4472471e3fa932c58e5ee611d87522c38d21e21d24ac15",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:159": {
+      "url": "https://cdn.statmuse.com/img/epl/players/leganes-2014-logo--fccx6j4n.png",
+      "source_page": "https://www.statmuse.com/fc/club/legan%C3%A9s-169/2025",
+      "source_title": "Leganés 2025 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2024_159_overview.html",
+      "source_sha256": "91ddc1b6b0b7390da012e1d69b256bf41c287eec2bdf5d8cb978409ada71c98b",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:231": {
+      "url": "https://cdn.statmuse.com/img/epl/players/shield-of-real-valladolid---ecoex2o.png",
+      "source_page": "https://www.statmuse.com/fc/club/real-valladolid-165/2025",
+      "source_title": "Real Valladolid 2025 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2024_231_overview.html",
+      "source_sha256": "b08bdd3e50a7ecbbeab21d7a7d87cd08237ec91b8c01177b02ee5b22680b15e2",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:151": {
+      "url": "https://cdn.statmuse.com/img/epl/players/levante-2010-logo--mxxymb6o.png",
+      "source_page": "https://www.statmuse.com/fc/club/levante-166/2027",
+      "source_title": "Levante 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_151_overview.html",
+      "source_sha256": "98ebe01732fefb8dcc36962acf2ae206ab1f26eaecaf6b9335bcdd15fd9af275",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:207": {
+      "url": "https://cdn.statmuse.com/img/epl/players/elche-2012-logo--gqhs3xl6.png",
+      "source_page": "https://www.statmuse.com/fc/club/elche-163/2027",
+      "source_title": "Elche 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_207_overview.html",
+      "source_sha256": "2dd8218026b1e09850d8dd3cdfdcbc56b5cb463e5020160aa32165cd5ae4484d",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:289": {
+      "url": "https://cdn.statmuse.com/img/epl/players/oviedo-2019-logo--4evgejxs.png",
+      "source_page": "https://www.statmuse.com/fc/club/real-oviedo-178/2026",
+      "source_title": "Real Oviedo 2026 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-all-2026-10-06-v02/raw/La_liga_2025_289_overview.html",
+      "source_sha256": "8e6a0e63c1b03970a1c30d227877ae4712ba131c0cd61a967a38b78812ff5853",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:137": {
+      "url": "https://cdn.statmuse.com/img/epl/players/ma-laga-cf-svg--sg_ylrqg.png",
+      "source_page": "https://www.statmuse.com/fc/club/m%C3%A1laga-cf-170/2027",
+      "source_title": "Málaga CF 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_137_overview.html",
+      "source_sha256": "29bb1992f506d247ecf70e08f6e36ab1a605f21e7a81b553d8bdcf24b9e2ff8a",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:139": {
+      "url": "https://cdn.statmuse.com/img/epl/players/rc-deportivo-la-corun-a-logo-svg--zsaekrtf.png",
+      "source_page": "https://www.statmuse.com/fc/club/deportivo-la-coru%C3%B1a-171/2027",
+      "source_title": "Deportivo La Coruña 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_139_overview.html",
+      "source_sha256": "80f4a8693a11ee26bbeb21163a01dc96f3f3233a90c1bcb1db0afcf61ce1893d",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    },
+    "understat:293": {
+      "url": "https://cdn.statmuse.com/img/epl/players/racing-de-santander-logo-svg--4wrtdnzc.png",
+      "source_page": "https://www.statmuse.com/fc/club/racing-de-santander-177/2027",
+      "source_title": "Racing de Santander 2027 Stats, Fixtures, Table | StatMuse",
+      "observed_file": "statmuse-current-2026-10-06-v03/raw/understat_293_overview.html",
+      "source_sha256": "9462f0e546ba73d7ce457ecfeb8df653fdb01170c45f48bb8de92db1b5961eed",
+      "evidence": "Decoded original logo URL from observed StatMuse og:image; no downloaded image or visual identity verification"
+    }
+  }
+}

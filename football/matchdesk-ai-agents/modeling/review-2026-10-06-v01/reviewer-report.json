@@ -1,0 +1,254 @@
+[
+  {
+    "agent_id": "reviewer",
+    "producer_id": "/root/validation",
+    "run_id": "baseline-model-2026-10-06-v01",
+    "match_key": "understat:31230",
+    "reports": [
+      {
+        "run_id": "baseline-model-2026-10-06-v01",
+        "match_key": "understat:31230",
+        "role": "validation",
+        "producer_id": "/root/validation",
+        "status": "DONE",
+        "summary": "독립 입력·시간 분리·전처리·평가수치·확률순서·저장후재예측·전체재실행 재현 검증 완료. 기능 오류0, 모델 채택false 유지.",
+        "evidence": [
+          {
+            "path": "modeling/review-2026-10-06-v01/SPEC.md",
+            "description": "실행 전 기준·실제 값·한계 및 사용자 채택 미결정 기록"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/independent-checks.json",
+            "description": "2399역사+2미래 특성 독립 재계산, 86개 검사, 성능/확률 재계산"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/test-execution.json",
+            "description": "시간정보 차단·경계·직렬화5개 시험의 실제 실행 출력"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/reproduction-check.json",
+            "description": "격리폴더 전체 재실행5개 핵심 산출물 바이트 및 해시 동일"
+          }
+        ],
+        "issues": [
+          {
+            "severity": "WARNING",
+            "code": "NOT_ADOPTED",
+            "message": "모델 채택 기준 미결정. 기능 검증 완료와 사용자 모델 채택·공개 서비스 승인은 별개."
+          },
+          {
+            "severity": "WARNING",
+            "code": "FOLLOWUP_CALIBRATION_DEGRADATION",
+            "message": "2026/27 후속119경기 정확도39.50%는 기준선41.18%보다 낮고 top-label ECE15.16%는 기준선3.48%보다 높음. 확률 보정 완료로 표현 불가."
+          },
+          {
+            "severity": "WARNING",
+            "code": "STALE_STORED_DATASET",
+            "message": "원본 재수집 없음. 마지막 종료일2026-09-20; 실제 서비스 표시 전 갱신/출처 시점 확인 필요."
+          },
+          {
+            "severity": "WARNING",
+            "code": "SNAPSHOT_LIMITATIONS",
+            "message": "최근5리그경기 기반이며 컵·대표팀·상대전력·실제휴식일·선발·부상·시장가치 없음. xG는 제공처 현재 보존값이며 과거 공개시각 스냅샷 인증 아님."
+          }
+        ],
+        "model_accepted": false,
+        "observed_at": "2026-10-06T07:16:13.664301+00:00",
+        "tests": {
+          "independent_checks": 86,
+          "failures": 0,
+          "temporal_tests": 5,
+          "historical_features_checked": 2399,
+          "future_features_checked": 2,
+          "reproduced_artifacts": 5
+        }
+      },
+      {
+        "run_id": "baseline-model-2026-10-06-v01",
+        "match_key": "understat:31230",
+        "role": "model-evaluation",
+        "producer_id": "/root/validation",
+        "status": "DONE",
+        "summary": "독립 입력·시간 분리·전처리·평가수치·확률순서·저장후재예측·전체재실행 재현 검증 완료. 기능 오류0, 모델 채택false 유지.",
+        "evidence": [
+          {
+            "path": "modeling/review-2026-10-06-v01/SPEC.md",
+            "description": "실행 전 기준·실제 값·한계 및 사용자 채택 미결정 기록"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/independent-checks.json",
+            "description": "2399역사+2미래 특성 독립 재계산, 86개 검사, 성능/확률 재계산"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/test-execution.json",
+            "description": "시간정보 차단·경계·직렬화5개 시험의 실제 실행 출력"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/reproduction-check.json",
+            "description": "격리폴더 전체 재실행5개 핵심 산출물 바이트 및 해시 동일"
+          }
+        ],
+        "issues": [
+          {
+            "severity": "WARNING",
+            "code": "NOT_ADOPTED",
+            "message": "모델 채택 기준 미결정. 기능 검증 완료와 사용자 모델 채택·공개 서비스 승인은 별개."
+          },
+          {
+            "severity": "WARNING",
+            "code": "FOLLOWUP_CALIBRATION_DEGRADATION",
+            "message": "2026/27 후속119경기 정확도39.50%는 기준선41.18%보다 낮고 top-label ECE15.16%는 기준선3.48%보다 높음. 확률 보정 완료로 표현 불가."
+          },
+          {
+            "severity": "WARNING",
+            "code": "STALE_STORED_DATASET",
+            "message": "원본 재수집 없음. 마지막 종료일2026-09-20; 실제 서비스 표시 전 갱신/출처 시점 확인 필요."
+          },
+          {
+            "severity": "WARNING",
+            "code": "SNAPSHOT_LIMITATIONS",
+            "message": "최근5리그경기 기반이며 컵·대표팀·상대전력·실제휴식일·선발·부상·시장가치 없음. xG는 제공처 현재 보존값이며 과거 공개시각 스냅샷 인증 아님."
+          }
+        ],
+        "model_accepted": false,
+        "observed_at": "2026-10-06T07:16:13.664301+00:00",
+        "tests": {
+          "independent_checks": 86,
+          "failures": 0,
+          "temporal_tests": 5,
+          "historical_features_checked": 2399,
+          "future_features_checked": 2,
+          "reproduced_artifacts": 5
+        }
+      }
+    ],
+    "review_result": "IMPLEMENTATION_VERIFIED_ADOPTION_HOLD",
+    "model_accepted": false
+  },
+  {
+    "agent_id": "reviewer",
+    "producer_id": "/root/validation",
+    "run_id": "baseline-model-2026-10-06-v01",
+    "match_key": "understat:30845",
+    "reports": [
+      {
+        "run_id": "baseline-model-2026-10-06-v01",
+        "match_key": "understat:30845",
+        "role": "validation",
+        "producer_id": "/root/validation",
+        "status": "DONE",
+        "summary": "독립 입력·시간 분리·전처리·평가수치·확률순서·저장후재예측·전체재실행 재현 검증 완료. 기능 오류0, 모델 채택false 유지.",
+        "evidence": [
+          {
+            "path": "modeling/review-2026-10-06-v01/SPEC.md",
+            "description": "실행 전 기준·실제 값·한계 및 사용자 채택 미결정 기록"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/independent-checks.json",
+            "description": "2399역사+2미래 특성 독립 재계산, 86개 검사, 성능/확률 재계산"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/test-execution.json",
+            "description": "시간정보 차단·경계·직렬화5개 시험의 실제 실행 출력"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/reproduction-check.json",
+            "description": "격리폴더 전체 재실행5개 핵심 산출물 바이트 및 해시 동일"
+          }
+        ],
+        "issues": [
+          {
+            "severity": "WARNING",
+            "code": "NOT_ADOPTED",
+            "message": "모델 채택 기준 미결정. 기능 검증 완료와 사용자 모델 채택·공개 서비스 승인은 별개."
+          },
+          {
+            "severity": "WARNING",
+            "code": "FOLLOWUP_CALIBRATION_DEGRADATION",
+            "message": "2026/27 후속119경기 정확도39.50%는 기준선41.18%보다 낮고 top-label ECE15.16%는 기준선3.48%보다 높음. 확률 보정 완료로 표현 불가."
+          },
+          {
+            "severity": "WARNING",
+            "code": "STALE_STORED_DATASET",
+            "message": "원본 재수집 없음. 마지막 종료일2026-09-20; 실제 서비스 표시 전 갱신/출처 시점 확인 필요."
+          },
+          {
+            "severity": "WARNING",
+            "code": "SNAPSHOT_LIMITATIONS",
+            "message": "최근5리그경기 기반이며 컵·대표팀·상대전력·실제휴식일·선발·부상·시장가치 없음. xG는 제공처 현재 보존값이며 과거 공개시각 스냅샷 인증 아님."
+          }
+        ],
+        "model_accepted": false,
+        "observed_at": "2026-10-06T07:16:13.664301+00:00",
+        "tests": {
+          "independent_checks": 86,
+          "failures": 0,
+          "temporal_tests": 5,
+          "historical_features_checked": 2399,
+          "future_features_checked": 2,
+          "reproduced_artifacts": 5
+        }
+      },
+      {
+        "run_id": "baseline-model-2026-10-06-v01",
+        "match_key": "understat:30845",
+        "role": "model-evaluation",
+        "producer_id": "/root/validation",
+        "status": "DONE",
+        "summary": "독립 입력·시간 분리·전처리·평가수치·확률순서·저장후재예측·전체재실행 재현 검증 완료. 기능 오류0, 모델 채택false 유지.",
+        "evidence": [
+          {
+            "path": "modeling/review-2026-10-06-v01/SPEC.md",
+            "description": "실행 전 기준·실제 값·한계 및 사용자 채택 미결정 기록"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/independent-checks.json",
+            "description": "2399역사+2미래 특성 독립 재계산, 86개 검사, 성능/확률 재계산"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/test-execution.json",
+            "description": "시간정보 차단·경계·직렬화5개 시험의 실제 실행 출력"
+          },
+          {
+            "path": "modeling/review-2026-10-06-v01/reproduction-check.json",
+            "description": "격리폴더 전체 재실행5개 핵심 산출물 바이트 및 해시 동일"
+          }
+        ],
+        "issues": [
+          {
+            "severity": "WARNING",
+            "code": "NOT_ADOPTED",
+            "message": "모델 채택 기준 미결정. 기능 검증 완료와 사용자 모델 채택·공개 서비스 승인은 별개."
+          },
+          {
+            "severity": "WARNING",
+            "code": "FOLLOWUP_CALIBRATION_DEGRADATION",
+            "message": "2026/27 후속119경기 정확도39.50%는 기준선41.18%보다 낮고 top-label ECE15.16%는 기준선3.48%보다 높음. 확률 보정 완료로 표현 불가."
+          },
+          {
+            "severity": "WARNING",
+            "code": "STALE_STORED_DATASET",
+            "message": "원본 재수집 없음. 마지막 종료일2026-09-20; 실제 서비스 표시 전 갱신/출처 시점 확인 필요."
+          },
+          {
+            "severity": "WARNING",
+            "code": "SNAPSHOT_LIMITATIONS",
+            "message": "최근5리그경기 기반이며 컵·대표팀·상대전력·실제휴식일·선발·부상·시장가치 없음. xG는 제공처 현재 보존값이며 과거 공개시각 스냅샷 인증 아님."
+          }
+        ],
+        "model_accepted": false,
+        "observed_at": "2026-10-06T07:16:13.664301+00:00",
+        "tests": {
+          "independent_checks": 86,
+          "failures": 0,
+          "temporal_tests": 5,
+          "historical_features_checked": 2399,
+          "future_features_checked": 2,
+          "reproduced_artifacts": 5
+        }
+      }
+    ],
+    "review_result": "IMPLEMENTATION_VERIFIED_ADOPTION_HOLD",
+    "model_accepted": false
+  }
+]
