@@ -1,0 +1,5 @@
+{
+  "method": "Node VM with DOM stub; not real browser or image rendering",
+  "checks": 36,
+  "failures": 0
+}

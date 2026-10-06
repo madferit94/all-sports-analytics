@@ -1,3 +1,5 @@
+> Release note: archived source/tests/review are published in 0.3.0. The original local assessment below remains historical; model adoption is still false and generated runs stay ignored.
+
 # First pre-match prediction baseline — local development
 
 [English](README.md) | [한국어](README.ko.md)
