@@ -1,0 +1,8 @@
+{
+  "release": "0.6.0",
+  "korean_node_vm_checks": 44,
+  "english_node_vm_checks": 19,
+  "failures": 0,
+  "real_browser_rendering_verified": false,
+  "participant_confirmation": "pending"
+}

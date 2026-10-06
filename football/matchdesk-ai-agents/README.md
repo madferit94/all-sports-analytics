@@ -2,13 +2,15 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**Release 0.5.0 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
+**Release 0.6.0 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
+
+0.6.0: Team names open club profiles; separate small links open exact Understat match pages in a new tab. Six detailed metrics now open explanation bubbles; the provider/count badge is removed.
 
 ## Open a viewer
-- [English site](index.en.html) · [Korean site](index.html): full UI, 47 metric definitions and reading tips. Premier League 27 / LaLiga 29 clubs include historical teams. Header language links retain the selected team route; other filters reset when switching. 40 Korean + 15 English Node VM checks passed; real browser rendering remains unverified.
+- [English site](index.en.html) · [Korean site](index.html): full UI, 47 metric definitions and reading tips. Premier League 27 / LaLiga 29 clubs include historical teams. Header language links retain the selected team route; other filters reset when switching. 44 Korean + 19 English Node VM checks passed; real browser rendering remains unverified.
 
 
-- [Open MatchDesk — adopted 8-bit design](index.html) · [versioned v16](visualization-design-2026-10-06-v16/index.html).
+- [Open MatchDesk — adopted 8-bit design](index.html) · [versioned v17](visualization-design-2026-10-06-v17/index.html).
 - [Soft app design preview — v13](visualization-design-2026-10-06-v13/index.html).
 - [8-bit pixel clubhouse preview — v14](visualization-design-2026-10-06-v14/index.html).
 - [Three design directions](design-candidates-2026-10-06-v01/index.html).
@@ -48,8 +50,8 @@ The actual representative Arsenal–Leeds/Malaga–Espanyol run used the previou
 python -m unittest discover -s agent-team-2026-10-06-v01/tests -v
 python -m unittest discover -s agent-team-integrated-2026-10-06-v01/tests -v
 python -m unittest discover -s modeling/tests -v
-node visualization-design-2026-10-06-v16/check.cjs
-node visualization-design-2026-10-06-v16/check-en.cjs
+node visualization-design-2026-10-06-v17/check.cjs
+node visualization-design-2026-10-06-v17/check-en.cjs
 ```
 
 Python 3.11+ with the pinned NumPy requirement is needed for model tests; agent tests use the standard library. Node runs 40 calculation/navigation/interaction checks with a DOM stub. **Real-browser rendering, mobile touch, remote logo/font loading and visual verification are pending; design adoption was explicitly confirmed.** A separate local source report is not an authenticated admin area. Historical snapshots still preserve earlier provenance. Team hex colours are UI choices, not verified official brand hex codes.
@@ -58,8 +60,8 @@ Archived run: 49 auxiliary entries (26 collected, 22 missing, 1 blocked), 117 sq
 
 ## Versions and specifications
 
-[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.5.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
-UI v01–v16 are preserved. Release 0.5.0 provides Korean index.html and English index.en.html identical to their v16 snapshots; earlier designs remain history. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
+[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.6.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
+UI v01–v17 are preserved. Release 0.6.0 provides Korean index.html and English index.en.html identical to their v17 snapshots; earlier designs remain history. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
 
 | UI version | Change / 변경 |
 |---|---|
@@ -79,3 +81,5 @@ UI v01–v16 are preserved. Release 0.5.0 provides Korean index.html and English
 | [v14](visualization-design-2026-10-06-v14/index.html) | Pixel clubhouse preview |
 | [v15](visualization-design-2026-10-06-v15/index.html) | Adopt pixel design; render all club logos on 24×24 grids |
 | [v16](visualization-design-2026-10-06-v16/index.html) · [English](visualization-design-2026-10-06-v16/index.en.html) | Bilingual pixel UI, 47 English metric explanations, language switch |
+
+| [v17](visualization-design-2026-10-06-v17/index.html) | Team/match links and six detailed metric explanations / 팀·경기 연결 및 상세 지표 설명 |

@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.5.0",
   "public_export": true,
   "files": [
     {
@@ -16,27 +16,27 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3597,
-      "sha256": "58c370c6482d0709b87fbd5e03df71f1b9793a4b825fe94b4d9a3d568a61e7e0",
-      "snapshot": "0.6.0"
+      "bytes": 3299,
+      "sha256": "d43a4a5bc5beb85b5ad08f45ab9a5caedfbc6a8478ff2cd91ffd65fec3be3567",
+      "snapshot": "0.5.0"
     },
     {
       "path": "README.ko.md",
-      "bytes": 8353,
-      "sha256": "fa1c2066df442b1b620a2e5e7fde435dd4aa5d17460c911c145a35522fc8a98b",
-      "snapshot": "0.6.0"
+      "bytes": 7989,
+      "sha256": "6baef9cbb31cf2026bb71cb6c09069a55c3a02367c438ea3847f8b170e2abda4",
+      "snapshot": "0.5.0"
     },
     {
       "path": "README.md",
-      "bytes": 7825,
-      "sha256": "8d30e70003ccf6743f30a83b580c479bed2073c0e2f0cd033cbdb3c9d54df9e6",
-      "snapshot": "0.6.0"
+      "bytes": 7469,
+      "sha256": "caf7568ebf2cda30c50ac966056185bb7e936d3cfd5395b2d9b19a03391c52d7",
+      "snapshot": "0.5.0"
     },
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "97a5d6e540a6120d09c39ddb667e0e8e2bac7fcc2ffef813b82e08fd60365bce",
-      "snapshot": "0.6.0"
+      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8",
+      "snapshot": "0.5.0"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -687,12 +687,6 @@
       "snapshot": "0.5.0"
     },
     {
-      "path": "docs/SPEC-0.6.0.md",
-      "bytes": 2454,
-      "sha256": "b961ad7665660861121cd90b86c7064c0360fbcd3b213d18f4030f944e61d6df",
-      "snapshot": "0.6.0"
-    },
-    {
       "path": "docs/VERSIONING.md",
       "bytes": 2552,
       "sha256": "fc0917ca5d3145daca61333dac4b28fafff5e06093ef95de7da3795a12936ed9",
@@ -717,12 +711,6 @@
       "snapshot": "0.5.0"
     },
     {
-      "path": "docs/publication_manifest-0.5.0.json",
-      "bytes": 64624,
-      "sha256": "8a3c21c21925e13590d7622b9a6f87e749bc8fbf5cf4fed43794e9fa0794842c",
-      "snapshot": "0.6.0"
-    },
-    {
       "path": "docs/release-checks-0.3.0.json",
       "bytes": 697,
       "sha256": "33732262ca2bbeacbabb7e6c5dd1e4f2dc593ef6683fee910466628a77ca710b",
@@ -741,22 +729,16 @@
       "snapshot": "0.5.0"
     },
     {
-      "path": "docs/release-checks-0.6.0.json",
-      "bytes": 190,
-      "sha256": "7451642ea845a4ce47ca4d035c1679c47838a6c0c16d1cfd2644212665e96d92",
-      "snapshot": "0.6.0"
-    },
-    {
       "path": "index.en.html",
-      "bytes": 1880468,
-      "sha256": "ced31a6cee0edf9b02f2c3035f96ff66ac843d4de2930f1c095fe7bd02f5f176",
-      "snapshot": "0.6.0"
+      "bytes": 1877876,
+      "sha256": "fc198816868a70682a6afd995c76c19a265d959883c162134ce9495cdc8301c1",
+      "snapshot": "0.5.0"
     },
     {
       "path": "index.html",
-      "bytes": 1882198,
-      "sha256": "05ea7b2f25cfa916e1613ac6fe1f4d18120815e1396a62d80c9035ee6679a211",
-      "snapshot": "0.6.0"
+      "bytes": 1879178,
+      "sha256": "29098f48bd9346ff8fcfef248838e9d8a7748243c219fd68a256077c01ac0008",
+      "snapshot": "0.5.0"
     },
     {
       "path": "modeling/.gitignore",
@@ -1281,16 +1263,10 @@
       "snapshot": "0.5.0"
     },
     {
-      "path": "tools/build_navigation_v17.py",
-      "bytes": 7813,
-      "sha256": "01fed1374236f0aa24d88b5a067879fbe5fd8cf0ada927f3b932799f42f53b0d",
-      "snapshot": "0.6.0"
-    },
-    {
       "path": "tools/check_release.py",
-      "bytes": 4421,
-      "sha256": "18364c9bbac0dae7a0d532771f120a64a156bf2043af5a4663e7bb7b5eca1722",
-      "snapshot": "0.6.0"
+      "bytes": 4405,
+      "sha256": "d3840ea555a30997d7ae98eb20b075a3573947f3053b10a32c10e0b83f5a3a59",
+      "snapshot": "0.5.0"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -1313,8 +1289,8 @@
     {
       "path": "viewer_selection.json",
       "bytes": 555,
-      "sha256": "4395c57c9a82f8c6b6c42403015dfb1dbec6a1dea6ac2cd200415ebb8a93d7b8",
-      "snapshot": "0.6.0"
+      "sha256": "83fa30b4c83030610ffc105a04b54f716fb3c1b3df57da469a6d603d9b4f3c0b",
+      "snapshot": "0.5.0"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",
@@ -1831,42 +1807,6 @@
       "bytes": 8078,
       "sha256": "ea2330c5d68d67fdcf147c6d033880b1959ee12c138aa0bdda3f36c82e9d6d3b",
       "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/check-en.cjs",
-      "bytes": 7540,
-      "sha256": "6440d683dd98f82eac76a5d002e3512c5ec60f1696369f9c1eda4d70e3b98300",
-      "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/check.cjs",
-      "bytes": 21985,
-      "sha256": "e3f9b82efdb0345d0055128f24587db53fc87284ffa21dbd0ad55d090445162a",
-      "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/index.en.html",
-      "bytes": 1880468,
-      "sha256": "ced31a6cee0edf9b02f2c3035f96ff66ac843d4de2930f1c095fe7bd02f5f176",
-      "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/index.html",
-      "bytes": 1882198,
-      "sha256": "05ea7b2f25cfa916e1613ac6fe1f4d18120815e1396a62d80c9035ee6679a211",
-      "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/logic-check.en.json",
-      "bytes": 103,
-      "sha256": "afce4d4c80cd4a81af0772672e204e1c77ac78ebd9cf332015ffb2ed39800eb4",
-      "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v17/logic-check.json",
-      "bytes": 109,
-      "sha256": "cc7b816be8d14c4cba245f5f259151388a03d697cef7d595370f6fc9acca5a91",
-      "snapshot": "0.6.0"
     }
   ],
   "display_dataset": {

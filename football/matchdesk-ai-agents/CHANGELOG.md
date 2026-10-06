@@ -1,5 +1,12 @@
 # Release history / 변경 이력
 
+## 0.6.0 — 2026-10-06
+
+- Separate club and explicit Understat match links in completed-match lists.
+- Remove provider/count badge; six bilingual detailed metric popovers; statistics unchanged.
+- Preserve v17; 44 Korean and 19 English Node VM checks passed. Actual browser confirmation pending.
+
+
 ## 0.5.0 — 2026-10-06
 
 - Add canonical English index.en.html alongside Korean index.html, preserving v16 in both languages.
