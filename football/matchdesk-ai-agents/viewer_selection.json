@@ -1,8 +1,8 @@
 {
-  "release": "0.6.0",
+  "release": "0.7.0",
   "functional_viewer": "index.html",
   "adopted_design": "pixel",
-  "versioned_viewer": "visualization-design-2026-10-06-v17/index.html",
+  "versioned_viewer": "visualization-design-2026-10-06-v18/index.html",
   "soft_preview": "visualization-design-2026-10-06-v13/index.html",
   "previous_pixel_preview": "visualization-design-2026-10-06-v14/index.html",
   "design_acceptance": "adopted_by_user",
@@ -16,5 +16,9 @@
   "club_coverage": {
     "EPL": 27,
     "La_liga": 29
-  }
+  },
+  "analysis_engine": "browser_javascript",
+  "ai_model_connected": false,
+  "sql_runtime_connected": false,
+  "python_runtime_connected": false
 }

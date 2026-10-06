@@ -15,7 +15,7 @@ for f in files:
     blob=(repo/f).read_bytes()
     assert not any(rx.search(blob) for rx in patterns), f'Credential-like content in {f}'
     assert (repo/f).stat().st_size<95*1024*1024, f'Oversize file: {f}'
-link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.6.0.md']
+link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.7.0.md']
 links=0
 for doc in link_docs:
     for target in re.findall(r'\]\(([^)]+)\)',doc.read_text(encoding='utf8')):
@@ -26,19 +26,19 @@ for doc in link_docs:
 def payload(version):
     html=(p/f'visualization-design-2026-10-06-{version}/index.html').read_text(encoding='utf8')
     return json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',html,re.S)[1])
-assert payload('v12')==payload('v13')==payload('v14')==payload('v15')==payload('v16')==payload('v17'), 'Design preview changed source data'
-assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-06-v17/index.html').read_bytes(), 'Default entry differs from adopted v17'
+assert payload('v12')==payload('v13')==payload('v14')==payload('v15')==payload('v16')==payload('v17')==payload('v18'), 'Design preview changed source data'
+assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-06-v18/index.html').read_bytes(), 'Default entry differs from adopted v18'
 
 en_html=(p/'index.en.html').read_text(encoding='utf8')
-assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-06-v17/index.en.html').read_bytes()
+assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-06-v18/index.en.html').read_bytes()
 english=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',en_html,re.S)[1])
-korean=payload('v17')
+korean=payload('v18')
 for key in korean:
     if key!='metric_meta': assert korean[key]==english[key], f'English data drift: {key}'
 assert len(english['metric_meta'])==47
 assert not re.search('[가-힣]',re.sub(r'<script id="data" type="application/json">.*?</script>','',en_html,flags=re.S).replace('한국어',''))
 
-old=json.loads((p/'docs/publication_manifest-0.5.0.json').read_text(encoding='utf8'))
+old=json.loads((p/'docs/publication_manifest-0.6.0.json').read_text(encoding='utf8'))
 labels={item['path']:item['snapshot'] for item in old['files']}
 old_hashes={item['path']:item['sha256'] for item in old['files']}
 text_ext={'.md','.json','.py','.cjs','.html','.txt','.yaml','.yml','.csv','.gitattributes','.gitignore'}
@@ -50,9 +50,9 @@ for f in files:
     if Path(relative).suffix in text_ext or Path(relative).name in {'.gitignore','.gitattributes','VERSION'}:
         b=b.replace(b'\r\n',b'\n')
     digest=hashlib.sha256(b).hexdigest()
-    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.6.0'
+    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.7.0'
     entries.append(dict(path=relative,bytes=len(b),sha256=digest,snapshot=snapshot))
-manifest=dict(version='0.6.0',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),excluded=['full provider caches','complete modeling CSV','generated model runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
+manifest=dict(version='0.7.0',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),excluded=['full provider caches','complete modeling CSV','generated model runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
 if '--write-manifest' in sys.argv:
     (p/'publication_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 else:

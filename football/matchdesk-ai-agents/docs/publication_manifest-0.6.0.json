@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.6.0",
   "public_export": true,
   "files": [
     {
@@ -16,27 +16,27 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4156,
-      "sha256": "f2434ce90a4df5f916761da2044ba9c2eaa52ee9f786584af01a594ff72a41cb",
-      "snapshot": "0.7.0"
+      "bytes": 3597,
+      "sha256": "58c370c6482d0709b87fbd5e03df71f1b9793a4b825fe94b4d9a3d568a61e7e0",
+      "snapshot": "0.6.0"
     },
     {
       "path": "README.ko.md",
-      "bytes": 9063,
-      "sha256": "e686f22d904fa4dced8fe5e6b7b18de1a85190c3182757f03c9178f5f4f19a90",
-      "snapshot": "0.7.0"
+      "bytes": 8353,
+      "sha256": "fa1c2066df442b1b620a2e5e7fde435dd4aa5d17460c911c145a35522fc8a98b",
+      "snapshot": "0.6.0"
     },
     {
       "path": "README.md",
-      "bytes": 8567,
-      "sha256": "9d0a0e85b082caf96ca324f4ccb15856557131cb21e0ea8cf4ddda297bd7f70d",
-      "snapshot": "0.7.0"
+      "bytes": 7825,
+      "sha256": "8d30e70003ccf6743f30a83b580c479bed2073c0e2f0cd033cbdb3c9d54df9e6",
+      "snapshot": "0.6.0"
     },
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "967d9afb101346667166f2e76e81910bc190488d7d41d50ca0072e9d92f00e32",
-      "snapshot": "0.7.0"
+      "sha256": "97a5d6e540a6120d09c39ddb667e0e8e2bac7fcc2ffef813b82e08fd60365bce",
+      "snapshot": "0.6.0"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -651,30 +651,6 @@
       "snapshot": "0.2.0"
     },
     {
-      "path": "analysis/check-result.json",
-      "bytes": 112,
-      "sha256": "86693c47e9147654caaed2ee2670ee3be3fb06f209c3bb2a4392d3e1e88ac12b",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "analysis/check.cjs",
-      "bytes": 5794,
-      "sha256": "824ad6ec1ebb379ea4ac43f97afdb281268fd4c246bfdf0036578d3a1a53b7e7",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "analysis/record-engine.cjs",
-      "bytes": 7838,
-      "sha256": "b590f0cd9e92b352621dbad9250814ea6363703e3cf1b3afa5f0a557656d13bf",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "analysis/workbench.js",
-      "bytes": 4099,
-      "sha256": "2ce5867ff4c299d0dec433cca4b2a986f35bc9f8cbb2c122d433130c0728b837",
-      "snapshot": "0.7.0"
-    },
-    {
       "path": "dataset_selection_2026-10-06-v01.json",
       "bytes": 415,
       "sha256": "3b3c3498496d9da9932a002cdfe4bebffbb10845c6346de185a3669f03554451",
@@ -691,12 +667,6 @@
       "bytes": 9870,
       "sha256": "0789016053ecda50448c405194deda0868ca265625e626bab689b4e1a494456e",
       "snapshot": "0.3.0"
-    },
-    {
-      "path": "docs/ANALYSIS-TOOLS.md",
-      "bytes": 2793,
-      "sha256": "574867fed1c64eb10dd55a506992cb75d48e6ce3562ac1597c42846fa9bb5863",
-      "snapshot": "0.7.0"
     },
     {
       "path": "docs/SPEC-0.3.0.md",
@@ -721,12 +691,6 @@
       "bytes": 2454,
       "sha256": "b961ad7665660861121cd90b86c7064c0360fbcd3b213d18f4030f944e61d6df",
       "snapshot": "0.6.0"
-    },
-    {
-      "path": "docs/SPEC-0.7.0.md",
-      "bytes": 3699,
-      "sha256": "49692c280eaab2b4371b950a241214317a27cba4436d1f6867849c505c8e2229",
-      "snapshot": "0.7.0"
     },
     {
       "path": "docs/VERSIONING.md",
@@ -759,12 +723,6 @@
       "snapshot": "0.6.0"
     },
     {
-      "path": "docs/publication_manifest-0.6.0.json",
-      "bytes": 66657,
-      "sha256": "43e4b4ea0aae74e3e6b9252efcf43d553cf972bd069799bdad82f761037616e6",
-      "snapshot": "0.7.0"
-    },
-    {
       "path": "docs/release-checks-0.3.0.json",
       "bytes": 697,
       "sha256": "33732262ca2bbeacbabb7e6c5dd1e4f2dc593ef6683fee910466628a77ca710b",
@@ -789,22 +747,16 @@
       "snapshot": "0.6.0"
     },
     {
-      "path": "docs/release-checks-0.7.0.json",
-      "bytes": 315,
-      "sha256": "63f6c2758e9bd764f743430823d47c3ca9b9a3f6cb0b8af8fcb7ceff10e029a6",
-      "snapshot": "0.7.0"
-    },
-    {
       "path": "index.en.html",
-      "bytes": 1897780,
-      "sha256": "d234188d88da922f187d01d0f103cb66041be4f35852167efbe1d374659ee40e",
-      "snapshot": "0.7.0"
+      "bytes": 1880468,
+      "sha256": "ced31a6cee0edf9b02f2c3035f96ff66ac843d4de2930f1c095fe7bd02f5f176",
+      "snapshot": "0.6.0"
     },
     {
       "path": "index.html",
-      "bytes": 1899338,
-      "sha256": "80cbd8c7d6d9e6edfb6c86baedc7f93719ea1b3d392a440db30c16ca6683ec86",
-      "snapshot": "0.7.0"
+      "bytes": 1882198,
+      "sha256": "05ea7b2f25cfa916e1613ac6fe1f4d18120815e1396a62d80c9035ee6679a211",
+      "snapshot": "0.6.0"
     },
     {
       "path": "modeling/.gitignore",
@@ -901,24 +853,6 @@
       "bytes": 10177,
       "sha256": "6f0650eda88b4d2f19ea2ae4780cddecc60121eadcd5cb29975df0676d6bf782",
       "snapshot": "0.3.0"
-    },
-    {
-      "path": "skills/python-analysis/SKILL.md",
-      "bytes": 1353,
-      "sha256": "87fff1461f2dc226a5a45988a335e3f82c959101b997f1ce80010386f7fe558a",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "skills/record-analysis/SKILL.md",
-      "bytes": 1512,
-      "sha256": "7d6adf820b600b4eb7dd171a8eb85ea2cfea6befea8d3a0347ab18851ad089b7",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "skills/sql-analysis/SKILL.md",
-      "bytes": 1412,
-      "sha256": "1cb8bd51fe7cca6750ec32a44645a7523dd2e8b2dc9f135a8656c82ea8945d30",
-      "snapshot": "0.7.0"
     },
     {
       "path": "source-unified-2026-10-06-v01/README.md",
@@ -1341,12 +1275,6 @@
       "snapshot": "0.2.0"
     },
     {
-      "path": "tools/build_analyst_v18.py",
-      "bytes": 7467,
-      "sha256": "890ff428784a2028ac5e11d9c99b340856fa5938b08ac4699bb016844e60e467",
-      "snapshot": "0.7.0"
-    },
-    {
       "path": "tools/build_bilingual_v16.py",
       "bytes": 14822,
       "sha256": "91da32e176dee346e739b46006f9b5041ae79f1cef1f6de1ae853bd77438d6c8",
@@ -1360,9 +1288,9 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 4437,
-      "sha256": "b254fa10fb367a2833ab270c7a68935a8e435ebdd481222cc1c2fcc8167ac46b",
-      "snapshot": "0.7.0"
+      "bytes": 4421,
+      "sha256": "18364c9bbac0dae7a0d532771f120a64a156bf2043af5a4663e7bb7b5eca1722",
+      "snapshot": "0.6.0"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -1384,9 +1312,9 @@
     },
     {
       "path": "viewer_selection.json",
-      "bytes": 700,
-      "sha256": "03f88b972176e8538a009c17dc3f83a791c9ba5f486202eec3df0545a3b2b4cf",
-      "snapshot": "0.7.0"
+      "bytes": 555,
+      "sha256": "4395c57c9a82f8c6b6c42403015dfb1dbec6a1dea6ac2cd200415ebb8a93d7b8",
+      "snapshot": "0.6.0"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",
@@ -1939,42 +1867,6 @@
       "bytes": 109,
       "sha256": "cc7b816be8d14c4cba245f5f259151388a03d697cef7d595370f6fc9acca5a91",
       "snapshot": "0.6.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/check-en.cjs",
-      "bytes": 8860,
-      "sha256": "88d4d624a943b603c758d969801273396ab94d549c3b286d2a8e7cbe97266f93",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/check.cjs",
-      "bytes": 23305,
-      "sha256": "f0251fed6ecf05d8e5d5b7a35785098e4abdd721448cb224e485103d3bc77a82",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/index.en.html",
-      "bytes": 1897780,
-      "sha256": "d234188d88da922f187d01d0f103cb66041be4f35852167efbe1d374659ee40e",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/index.html",
-      "bytes": 1899338,
-      "sha256": "80cbd8c7d6d9e6edfb6c86baedc7f93719ea1b3d392a440db30c16ca6683ec86",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/logic-check.en.json",
-      "bytes": 103,
-      "sha256": "29b985800a26cfc2122c893dafdb46727bfcd43ad718d5c5abee31711392e23d",
-      "snapshot": "0.7.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v18/logic-check.json",
-      "bytes": 109,
-      "sha256": "746f5b580a5120057dd2ff1bc2cc24beabee2d26c0c197346c082305552761d5",
-      "snapshot": "0.7.0"
     }
   ],
   "display_dataset": {
