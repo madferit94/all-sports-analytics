@@ -1,0 +1,284 @@
+{
+  "A": {
+    "label": "Assists",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Final passes directly leading to goals."
+  },
+  "xA": {
+    "label": "Expected assists",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Estimated likelihood that a pass becomes an assist."
+  },
+  "POSS%": {
+    "label": "Possession",
+    "category": "passing",
+    "unit": "%",
+    "description": "Share of possession, expressed as a percentage."
+  },
+  "PK": {
+    "label": "Penalty goals",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Goals scored from penalties."
+  },
+  "FK": {
+    "label": "Free-kick goals",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Goals scored directly from free kicks."
+  },
+  "SH": {
+    "label": "Shots",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Total shot attempts."
+  },
+  "SOT": {
+    "label": "Shots on target",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Shots directed on target."
+  },
+  "TCH": {
+    "label": "Touches",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Recorded touches of the ball."
+  },
+  "TCH-BOX": {
+    "label": "Touches in opponent box",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Touches inside the opposition penalty area."
+  },
+  "OFF": {
+    "label": "Offsides",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Recorded offside offences."
+  },
+  "PASS": {
+    "label": "Accurate passes",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Passes successfully completed to teammates."
+  },
+  "PASS/M": {
+    "label": "Accurate passes per match",
+    "category": "passing",
+    "unit": "Per match",
+    "description": "Accurate passes divided by matches played."
+  },
+  "PASS%": {
+    "label": "Pass accuracy",
+    "category": "passing",
+    "unit": "%",
+    "description": "Accurate passes as a percentage of pass attempts."
+  },
+  "PASS-ATT": {
+    "label": "Pass attempts",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Total attempted passes, including incomplete passes."
+  },
+  "BCC": {
+    "label": "Big chances created",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Passes creating chances classified as big chances by the provider."
+  },
+  "PASS-KEY": {
+    "label": "Key passes",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Final passes before shots that do not result in goals."
+  },
+  "PASS-LNG": {
+    "label": "Long passes",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Passes longer than 35 yards. This count alone does not establish completion."
+  },
+  "PASS-F3RD": {
+    "label": "Passes in attacking third",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Passes made in the attacking third; not necessarily entries into that area."
+  },
+  "THRU-BALL": {
+    "label": "Through balls",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Successful passes splitting the defensive line for a teammate."
+  },
+  "CRS": {
+    "label": "Crosses",
+    "category": "passing",
+    "unit": "Season total",
+    "description": "Crosses delivered from wide positions."
+  },
+  "CNR": {
+    "label": "Corners",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Corner kicks taken."
+  },
+  "TKL": {
+    "label": "Tackle attempts",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Attempted tackles, including unsuccessful attempts."
+  },
+  "TKL-W": {
+    "label": "Tackles won",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Successful tackles winning the ball."
+  },
+  "TKL-LM": {
+    "label": "Last-man tackles",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Tackles by the last defender to prevent an opponent breaking through."
+  },
+  "SH-BLK": {
+    "label": "Shots blocked",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Provider blocked-shot count. Its attacking or defensive direction remains unconfirmed."
+  },
+  "BLK-CRS": {
+    "label": "Crosses blocked",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Opposition crosses blocked."
+  },
+  "INT": {
+    "label": "Interceptions",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Opposition passes intercepted."
+  },
+  "CLR": {
+    "label": "Clearances",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Actions clearing the ball from danger."
+  },
+  "REC": {
+    "label": "Loose-ball recoveries",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Recoveries of loose balls."
+  },
+  "ERR-SH": {
+    "label": "Errors leading to shots",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Errors directly leading to opposition shots."
+  },
+  "ERR-G": {
+    "label": "Errors leading to goals",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Errors directly leading to opposition goals."
+  },
+  "PKC": {
+    "label": "Penalties conceded",
+    "category": "discipline",
+    "unit": "Season total",
+    "description": "Penalties awarded to opponents. This is not the number of goals conceded."
+  },
+  "OG": {
+    "label": "Own goals",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Goals scored into the club’s own net."
+  },
+  "SV": {
+    "label": "Saves",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Goalkeeper saves."
+  },
+  "SV-PK": {
+    "label": "Penalties saved",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Penalty kicks saved by the goalkeeper."
+  },
+  "CS": {
+    "label": "Clean sheets",
+    "category": "defence",
+    "unit": "Season total",
+    "description": "Matches without conceding a goal."
+  },
+  "YC": {
+    "label": "Yellow cards",
+    "category": "discipline",
+    "unit": "Season total",
+    "description": "Yellow cards received."
+  },
+  "RC": {
+    "label": "Red cards",
+    "category": "discipline",
+    "unit": "Season total",
+    "description": "Red cards received."
+  },
+  "FOUL": {
+    "label": "Fouls committed",
+    "category": "discipline",
+    "unit": "Season total",
+    "description": "Fouls committed against opponents."
+  },
+  "FOULED": {
+    "label": "Fouls won",
+    "category": "discipline",
+    "unit": "Season total",
+    "description": "Fouls suffered from opponents."
+  },
+  "PK-W": {
+    "label": "Penalties won",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Penalties awarded to the club."
+  },
+  "CNR-W": {
+    "label": "Corners won",
+    "category": "attack",
+    "unit": "Season total",
+    "description": "Corner kicks won by the club."
+  },
+  "AER-W": {
+    "label": "Aerial duels won",
+    "category": "duels",
+    "unit": "Season total",
+    "description": "Contests for aerial balls won."
+  },
+  "AER-L": {
+    "label": "Aerial duels lost",
+    "category": "duels",
+    "unit": "Season total",
+    "description": "Contests for aerial balls lost."
+  },
+  "DUEL-W": {
+    "label": "Duels won",
+    "category": "duels",
+    "unit": "Season total",
+    "description": "Contested-ball duels won."
+  },
+  "DUEL-L": {
+    "label": "Duels lost",
+    "category": "duels",
+    "unit": "Season total",
+    "description": "Contested-ball duels lost."
+  },
+  "POSS-L": {
+    "label": "Possessions lost",
+    "category": "duels",
+    "unit": "Season total",
+    "description": "Recorded losses of possession, including unsuccessful passes and other turnovers."
+  }
+}

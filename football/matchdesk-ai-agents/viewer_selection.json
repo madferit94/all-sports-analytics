@@ -1,11 +1,20 @@
 {
-  "release": "0.4.0",
+  "release": "0.5.0",
   "functional_viewer": "index.html",
   "adopted_design": "pixel",
-  "versioned_viewer": "visualization-design-2026-10-06-v15/index.html",
+  "versioned_viewer": "visualization-design-2026-10-06-v16/index.html",
   "soft_preview": "visualization-design-2026-10-06-v13/index.html",
   "previous_pixel_preview": "visualization-design-2026-10-06-v14/index.html",
   "design_acceptance": "adopted_by_user",
   "administrator_authentication": false,
-  "model_adopted": false
+  "model_adopted": false,
+  "english_viewer": "index.en.html",
+  "languages": [
+    "ko",
+    "en"
+  ],
+  "club_coverage": {
+    "EPL": 27,
+    "La_liga": 29
+  }
 }
