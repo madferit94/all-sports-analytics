@@ -2,7 +2,7 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-A five-agent workflow for collecting football evidence, comparing teams, building a viewer, independently checking results, and issuing a final internal decision. Designed as an Agentic AI Fundamentals portfolio project. Current release: **0.2.0**.
+A five-agent workflow for collecting football evidence, comparing teams, building a viewer, independently checking results, and issuing a final internal decision. Designed as an Agentic AI Fundamentals portfolio project. Current release: **0.2.1**.
 
 ## Current status
 

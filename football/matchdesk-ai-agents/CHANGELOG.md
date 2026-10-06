@@ -1,5 +1,10 @@
 # Release history / 변경 이력
 
+## 0.2.1 — 2026-10-06
+
+- Normalize manifest hashes to the published UTF-8/LF representation. No agent/data behavior changed.
+- 공개 텍스트 줄바꿈 기준으로 파일 해시 보완. 에이전트/자료 동작 변경 없음.
+
 ## 0.2.0 — 2026-10-06
 
 - Consolidated ten roles into five execution owners; retained independent review and final decision.
