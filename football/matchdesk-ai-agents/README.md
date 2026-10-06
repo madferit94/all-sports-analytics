@@ -2,11 +2,11 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**Release 0.3.0 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
+**Release 0.4.0 · 2026-10-06.** A provider-neutral five-agent project for football evidence, team analysis, interactive viewing, independent review and traceable decisions.
 
 ## Open a viewer
 
-- [Current functional viewer — v12](visualization-design-2026-10-06-v12/index.html).
+- [Open MatchDesk — adopted 8-bit design](index.html) · [versioned v15](visualization-design-2026-10-06-v15/index.html).
 - [Soft app design preview — v13](visualization-design-2026-10-06-v13/index.html).
 - [8-bit pixel clubhouse preview — v14](visualization-design-2026-10-06-v14/index.html).
 - [Three design directions](design-candidates-2026-10-06-v01/index.html).
@@ -15,7 +15,7 @@ Download/open HTML locally; GitHub's source view does not run it. This release d
 
 ## What works, and what is pending
 
-The viewers show PL/LaLiga history, selected-match summaries, recent xG, fixtures, season history, team search and filters. The pixel/soft designs retain the same data and behavior. They are previews awaiting human design acceptance, not completed browser-rendering certification.
+The viewers show PL/LaLiga history, selected-match summaries, recent xG, fixtures, season history, team search and filters. The pixel/soft designs retain the same data and behavior. The user adopted the 8-bit design in 0.4.0. All 56 club logos now render from their original images onto 24×24 grids with crisp enlargement and an initials fallback. Real-browser rendering quality remains unverified.
 
 The baseline prediction experiment is now archived in [modeling](modeling/README.md). Its new-season accuracy underperforms the comparison baseline; adoption remains **false**, and probabilities are not shown in the viewer. Automatic refresh, administrator authentication, prediction API, hosting and a new five-agent runtime run are not implemented. Claude runtime execution is unverified.
 
@@ -46,17 +46,17 @@ The actual representative Arsenal–Leeds/Malaga–Espanyol run used the previou
 python -m unittest discover -s agent-team-2026-10-06-v01/tests -v
 python -m unittest discover -s agent-team-integrated-2026-10-06-v01/tests -v
 python -m unittest discover -s modeling/tests -v
-node visualization-design-2026-10-06-v14/check.cjs
+node visualization-design-2026-10-06-v15/check.cjs
 ```
 
-Python 3.11+ with the pinned NumPy requirement is needed for model tests; agent tests use the standard library. Node runs 36 calculation/navigation/interaction checks with a DOM stub. **Real-browser rendering, mobile touch, remote logo/font loading and user acceptance are pending.** A separate local source report is not an authenticated admin area. Historical snapshots still preserve earlier provenance. Team hex colours are UI choices, not verified official brand hex codes.
+Python 3.11+ with the pinned NumPy requirement is needed for model tests; agent tests use the standard library. Node runs 40 calculation/navigation/interaction checks with a DOM stub. **Real-browser rendering, mobile touch, remote logo/font loading and visual verification are pending; design adoption was explicitly confirmed.** A separate local source report is not an authenticated admin area. Historical snapshots still preserve earlier provenance. Team hex colours are UI choices, not verified official brand hex codes.
 
 Archived run: 49 auxiliary entries (26 collected, 22 missing, 1 blocked), 117 squad players and 44 previous starters; an independent saved-input comparison recorded 271 checks. These verify scope and consistency, not every provider fact.
 
 ## Versions and specifications
 
-[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
-UI v01–v14 are preserved development revisions within semantic release 0.3.0. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
+[VERSION](VERSION) · [CHANGELOG](CHANGELOG.md) · [Release SPEC](docs/SPEC-0.4.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [Version policy](docs/VERSIONING.md) · [Current viewer selection](viewer_selection.json) · [Content hashes](publication_manifest.json).
+UI v01–v15 are preserved. Release 0.4.0 adopts v15 as the canonical index.html; archived v13/v14 remain design history. Older references and the original 0.2.1 manifest remain available. Some archived build/review commands describe the original local environment; use the checked-in HTML or current checks rather than assuming every old generator is portable.
 
 | UI version | Change / 변경 |
 |---|---|
@@ -74,3 +74,4 @@ UI v01–v14 are preserved development revisions within semantic release 0.3.0. 
 | [v12](visualization-design-2026-10-06-v12/index.html) | Remove external match links |
 | [v13](visualization-design-2026-10-06-v13/index.html) | Soft app preview |
 | [v14](visualization-design-2026-10-06-v14/index.html) | Pixel clubhouse preview |
+| [v15](visualization-design-2026-10-06-v15/index.html) | Adopt pixel design; render all club logos on 24×24 grids |

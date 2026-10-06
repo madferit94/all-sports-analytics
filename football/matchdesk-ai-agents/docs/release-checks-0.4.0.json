@@ -1,0 +1,10 @@
+{
+  "release": "0.4.0",
+  "date": "2026-10-06",
+  "pixel_viewer_node_vm_checks": 40,
+  "failures": 0,
+  "design_acceptance": "adopted_by_user",
+  "real_browser_rendering_verified": false,
+  "real_logo_loading_verified": false,
+  "notes": "40 Node VM checks executed locally; Image/canvas are stubs. Unchanged agent/model checks remain preserved in release-checks-0.3.0.json."
+}

@@ -1,9 +1,11 @@
 {
-  "release": "0.3.0",
-  "functional_viewer": "visualization-design-2026-10-06-v12/index.html",
+  "release": "0.4.0",
+  "functional_viewer": "index.html",
+  "adopted_design": "pixel",
+  "versioned_viewer": "visualization-design-2026-10-06-v15/index.html",
   "soft_preview": "visualization-design-2026-10-06-v13/index.html",
-  "pixel_preview": "visualization-design-2026-10-06-v14/index.html",
-  "design_acceptance": "pending",
+  "previous_pixel_preview": "visualization-design-2026-10-06-v14/index.html",
+  "design_acceptance": "adopted_by_user",
   "administrator_authentication": false,
   "model_adopted": false
 }
