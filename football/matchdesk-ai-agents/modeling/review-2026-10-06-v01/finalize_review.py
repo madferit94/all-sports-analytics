@@ -1,0 +1,54 @@
+import json
+from pathlib import Path
+from datetime import datetime,timezone
+D=Path(__file__).resolve().parent
+checks=json.loads((D/'independent-checks.json').read_text(encoding='utf-8'));repro=json.loads((D/'reproduction-check.json').read_text(encoding='utf-8'))
+run='baseline-model-2026-10-06-v01';base='modeling/review-2026-10-06-v01/'
+warning=[{'severity':'WARNING','code':'NOT_ADOPTED','message':'모델 채택 기준 미결정. 기능 검증 완료와 사용자 모델 채택·공개 서비스 승인은 별개.'},{'severity':'WARNING','code':'FOLLOWUP_CALIBRATION_DEGRADATION','message':'2026/27 후속119경기 정확도39.50%는 기준선41.18%보다 낮고 top-label ECE15.16%는 기준선3.48%보다 높음. 확률 보정 완료로 표현 불가.'},{'severity':'WARNING','code':'STALE_STORED_DATASET','message':'원본 재수집 없음. 마지막 종료일2026-09-20; 실제 서비스 표시 전 갱신/출처 시점 확인 필요.'},{'severity':'WARNING','code':'SNAPSHOT_LIMITATIONS','message':'최근5리그경기 기반이며 컵·대표팀·상대전력·실제휴식일·선발·부상·시장가치 없음. xG는 제공처 현재 보존값이며 과거 공개시각 스냅샷 인증 아님.'}]
+evidence=[{'path':base+'SPEC.md','description':'실행 전 기준·실제 값·한계 및 사용자 채택 미결정 기록'},{'path':base+'independent-checks.json','description':'2399역사+2미래 특성 독립 재계산, 86개 검사, 성능/확률 재계산'},{'path':base+'test-execution.json','description':'시간정보 차단·경계·직렬화5개 시험의 실제 실행 출력'},{'path':base+'reproduction-check.json','description':'격리폴더 전체 재실행5개 핵심 산출물 바이트 및 해시 동일'}]
+reports=[]
+for key in ['understat:31230','understat:30845']:
+ inner=[]
+ for role in ['validation','model-evaluation']:
+  inner.append({'run_id':run,'match_key':key,'role':role,'producer_id':'/root/validation','status':'DONE','summary':'독립 입력·시간 분리·전처리·평가수치·확률순서·저장후재예측·전체재실행 재현 검증 완료. 기능 오류0, 모델 채택false 유지.','evidence':evidence,'issues':warning,'model_accepted':False,'observed_at':datetime.now(timezone.utc).isoformat(),'tests':{'independent_checks':86,'failures':0,'temporal_tests':5,'historical_features_checked':2399,'future_features_checked':2,'reproduced_artifacts':5}})
+ reports.append({'agent_id':'reviewer','producer_id':'/root/validation','run_id':run,'match_key':key,'reports':inner,'review_result':'IMPLEMENTATION_VERIFIED_ADOPTION_HOLD','model_accepted':False})
+with (D/'reviewer-report.json').open('x',encoding='utf-8') as f:json.dump(reports,f,ensure_ascii=False,indent=2)
+with (D/'SPEC.md').open('a',encoding='utf-8') as f:f.write('''
+
+## 실제 결과 — 구현 검증 완료, 채택 보류
+
+### 완료 범위
+
+86개 독립 검사항목 오류0, 기존 시간분리시험5개 통과. 원본2399경기·예정641경기 해시는 실행 manifest와 일치합니다. 원본 재수집 없음·마지막 종료일2026-09-20도 일치했습니다. 역사2399행+미래2행의15개 특성을 원 CSV에서 다른 방식(팀별 이전 날짜 행을 직접 탐색)으로 전부 재계산했습니다. 특성·참조키·라벨 불일치0입니다.
+
+분리는2023/24학습760→2024/25조정760→2025/26최종평가760이며2026/27후속119를 별도로 평가했습니다. 시즌별 날짜 구간이 겹치지 않았습니다. 전처리 평균/표준편차는 각 학습 구간에서만 계산했습니다. 실제 데이터의 대상일 결과를 모두 변조한 격리 메모리 사본에서도 대상 특성이 변하지 않았습니다. 원본 파일은 변경하지 않았습니다.
+
+저장 모델의 계수로 별도 확률 계산식을 실행하여 home/draw/away CSV값 일치, 유한한0~1,합계1 확인했습니다. 미래 경기 정답이나 현재누적StatMuse·선발·부상·시장가치·배당 입력은 없습니다. 미래 예측 모델은2399개 전체 과거를 학습합니다. 최종평가 모델은2025/26 이전만 학습하고 후속평가 모델은2026/27 이전만 학습하므로 미래예측 모델과 평가모델의 학습기간을 구분해야 합니다.
+
+### 실제 성능 대조
+
+| 평가 | 모델 정확도 | 빈도기준 정확도 | 모델 log loss | 기준 log loss | 모델3분류 Brier | 기준 Brier | 모델 ECE | 기준 ECE |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+|2025/26 760경기|49.21%|45.79%|1.028004|1.068030|0.617440|0.644911|1.45%|2.01%|
+|2026/27 후속119경기|39.50%|41.18%|1.075586|1.087252|0.646475|0.658517|15.16%|3.48%|
+
+학습 리그별 라벨 빈도에 각 분류+1을 더한 기준선을 독립 계산했습니다. 전체/리그별 정확도·로그손실·세분류제곱오차합·10구간최고확률보정오차를 별도식으로 재계산해 저장값과 일치했습니다. ECE는 최고확률 기준10구간 측정이며 모든 분류·표본의 보정을 인증하지 않습니다. 후속 표본은 작은119경기이고 리그별/기간별 결과가 달라,2025/26개선만으로 실서비스 성능을 확정할 수 없습니다. 후속 정확도와 보정오차 악화는 경고로 남깁니다. 보정 측정이 보정훈련 완료를 뜻하지 않습니다.
+
+### 재현 실행과 근거
+
+review폴더의 reproduction-2026-10-06-v01/만 생성하여 원 학습 CLI를 독립 재실행했습니다. metrics.json/model.json/historical_features.json/future_inputs.json/predictions.csv의5개파일이 기존 산출과 바이트/해시까지 동일합니다. input_manifest.json도 관찰시각만 제외하면 동일합니다. 새실행명으로 기존 결과를 덮어쓰지 않았습니다.
+
+- independent_review.py / independent-checks.json: 독립 특성·지표·저장계수 예측 대조.
+- test-execution.json: 실제 명령·종료0·5개시험 통과 출력.
+- reproduce.py / reproduction-check.json: 실제 학습 CLI·종료0·원본/재현 SHA256.
+- reviewer-report.json: 통합 reviewer의2경기별 validation/model-evaluation 기능 보고. 두 기능은 동일한 검증 주체이며 별도 두 에이전트로 세지 않습니다.
+
+계수학습 재실행 자체는 검토한 원본 fit코드를 사용했습니다. 특성/확률수식/평가지표는 독립식으로 대조했지만 학습알고리즘을 다른 구현으로 이중 구현한 검사는 아닙니다. 평가시즌의 이전 경기 결과를 이후경기 특성으로 쓰는 시간순 재평가 방식이며, 시즌 시작에 모든 경기예측을 고정한 방식은 아닙니다.
+
+### 발견과 조치·미확인
+
+기능 오류는 발견하지 않았으며 제품/코드 수정은 하지 않았습니다. 요청한 루트 roles/reviewer.md와 runs 경로는 없어서 실제 통합패키지 roles/reviewer.md 및 modeling/runs를 찾아 읽었습니다. 실행 실패로 모델 기능이 실패한 것으로 확대하지 않았습니다.
+
+사용자 모델 채택 기준은 미결정이고 model_accepted=false입니다. 내부 구현 검증 DONE는 확률 제공·모델채택·배포 APPROVE가 아닙니다. 추가 보정훈련·다른 모델 비교·기간 안정성·신뢰구간·지속갱신·실제앱확률표시·사용자화면확인은 수행하지 않았습니다. 기본 데이터 최신성은 검증한 보존 버전까지만 주장합니다. 이후 공개표시 전에 자료갱신과 모델 채택 결정이 필요합니다. 참가자 확인 전입니다.
+''')
+print('reviewer report saved: 2 matches, implementation verified, adoption HOLD')
