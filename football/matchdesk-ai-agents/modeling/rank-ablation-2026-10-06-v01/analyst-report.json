@@ -1,0 +1,675 @@
+{
+  "agent_id": "analyst",
+  "producer_id": "/root/rank_ablation",
+  "run_id": "rank-ablation-2026-10-06-v01",
+  "match_key": "ALL_HISTORICAL_MATCHES",
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "model_accepted": false,
+  "original_model_preserved": true,
+  "website_unchanged": true,
+  "transfermarkt_inputs": "NOT_COLLECTED_NOT_USED",
+  "prior_feature_status": "DERIVED_RAW_TABLE_PROXY_NOT_OFFICIAL_LEAGUE_POSITION",
+  "evaluation_status": "RETROSPECTIVE_REUSED_EVALUATION_NOT_NEW_UNTOUCHED_TEST",
+  "fixed_original_regularization": 0.1,
+  "new_hyperparameter_search": false,
+  "initial_training_season": "2023/24",
+  "final_training_seasons": [
+    "2023/24",
+    "2024/25"
+  ],
+  "extra_features": [
+    "home_previous_raw_rank",
+    "away_previous_raw_rank",
+    "home_previous_table_missing",
+    "away_previous_table_missing"
+  ],
+  "missing_rank_default": 0.5,
+  "missing_flag_explicit": true,
+  "promotion_status": "UNKNOWN_NOT_INFERRED",
+  "availability": {
+    "2023/24": {
+      "matches": 760,
+      "home_missing": 760,
+      "away_missing": 760,
+      "both_known": 0
+    },
+    "2024/25": {
+      "matches": 760,
+      "home_missing": 114,
+      "away_missing": 114,
+      "both_known": 544
+    },
+    "2025/26": {
+      "matches": 760,
+      "home_missing": 114,
+      "away_missing": 114,
+      "both_known": 544
+    },
+    "2026/27": {
+      "matches": 119,
+      "home_missing": 16,
+      "away_missing": 20,
+      "both_known": 85
+    }
+  },
+  "initial_training_extra_feature_weights": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "initial_tuning_prediction_max_abs_delta": 2.220446049250313e-16,
+  "original_model_replay_max_abs_delta": 0.0,
+  "scores": {
+    "2025/26": {
+      "original": {
+        "overall": {
+          "n": 760,
+          "accuracy": 0.5092105263157894,
+          "log_loss": 1.0110803984140062,
+          "brier_sum_of_three_classes": 0.6062614887771517,
+          "expected_calibration_error_10bins": 0.03982673973791427,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 150,
+              "accuracy": 0.4533333333333333,
+              "mean_confidence": 0.37573707658171296
+            },
+            {
+              "lower": 0.4,
+              "n": 276,
+              "accuracy": 0.43478260869565216,
+              "mean_confidence": 0.44493343967091886
+            },
+            {
+              "lower": 0.5,
+              "n": 189,
+              "accuracy": 0.5343915343915344,
+              "mean_confidence": 0.5444576071174003
+            },
+            {
+              "lower": 0.6,
+              "n": 90,
+              "accuracy": 0.5555555555555556,
+              "mean_confidence": 0.6459882496476959
+            },
+            {
+              "lower": 0.7,
+              "n": 41,
+              "accuracy": 0.8536585365853658,
+              "mean_confidence": 0.7434995965701321
+            },
+            {
+              "lower": 0.8,
+              "n": 14,
+              "accuracy": 0.9285714285714286,
+              "mean_confidence": 0.8379066010862627
+            }
+          ]
+        },
+        "by_league": {
+          "EPL": {
+            "n": 380,
+            "accuracy": 0.5105263157894737,
+            "log_loss": 1.0363302669171,
+            "brier_sum_of_three_classes": 0.6249749476563798,
+            "expected_calibration_error_10bins": 0.06039242714175754,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 63,
+                "accuracy": 0.47619047619047616,
+                "mean_confidence": 0.37627532508169337
+              },
+              {
+                "lower": 0.4,
+                "n": 146,
+                "accuracy": 0.4931506849315068,
+                "mean_confidence": 0.4483828475162737
+              },
+              {
+                "lower": 0.5,
+                "n": 102,
+                "accuracy": 0.5098039215686274,
+                "mean_confidence": 0.5456265300744958
+              },
+              {
+                "lower": 0.6,
+                "n": 49,
+                "accuracy": 0.5306122448979592,
+                "mean_confidence": 0.6445467347504082
+              },
+              {
+                "lower": 0.7,
+                "n": 19,
+                "accuracy": 0.7368421052631579,
+                "mean_confidence": 0.7401703371726284
+              },
+              {
+                "lower": 0.8,
+                "n": 1,
+                "accuracy": 0.0,
+                "mean_confidence": 0.8184310547420028
+              }
+            ]
+          },
+          "La_liga": {
+            "n": 380,
+            "accuracy": 0.5078947368421053,
+            "log_loss": 0.9858305299109121,
+            "brier_sum_of_three_classes": 0.5875480298979234,
+            "expected_calibration_error_10bins": 0.06751994731331244,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 87,
+                "accuracy": 0.4367816091954023,
+                "mean_confidence": 0.3753473104265547
+              },
+              {
+                "lower": 0.4,
+                "n": 130,
+                "accuracy": 0.36923076923076925,
+                "mean_confidence": 0.4410594893215202
+              },
+              {
+                "lower": 0.5,
+                "n": 87,
+                "accuracy": 0.5632183908045977,
+                "mean_confidence": 0.5430871457194265
+              },
+              {
+                "lower": 0.6,
+                "n": 41,
+                "accuracy": 0.5853658536585366,
+                "mean_confidence": 0.6477110357444541
+              },
+              {
+                "lower": 0.7,
+                "n": 22,
+                "accuracy": 0.9545454545454546,
+                "mean_confidence": 0.7463748660497944
+              },
+              {
+                "lower": 0.8,
+                "n": 13,
+                "accuracy": 1.0,
+                "mean_confidence": 0.8394047200358211
+              }
+            ]
+          }
+        }
+      },
+      "with_prior_raw_rank_proxy": {
+        "overall": {
+          "n": 760,
+          "accuracy": 0.4986842105263158,
+          "log_loss": 1.0114123032981968,
+          "brier_sum_of_three_classes": 0.6065551342349034,
+          "expected_calibration_error_10bins": 0.026638615650631945,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 148,
+              "accuracy": 0.41216216216216217,
+              "mean_confidence": 0.37485919782528937
+            },
+            {
+              "lower": 0.4,
+              "n": 281,
+              "accuracy": 0.42704626334519574,
+              "mean_confidence": 0.4450189662254148
+            },
+            {
+              "lower": 0.5,
+              "n": 177,
+              "accuracy": 0.5254237288135594,
+              "mean_confidence": 0.5469907334091861
+            },
+            {
+              "lower": 0.6,
+              "n": 93,
+              "accuracy": 0.6021505376344086,
+              "mean_confidence": 0.6438422720211764
+            },
+            {
+              "lower": 0.7,
+              "n": 46,
+              "accuracy": 0.7608695652173914,
+              "mean_confidence": 0.7470048284389227
+            },
+            {
+              "lower": 0.8,
+              "n": 15,
+              "accuracy": 0.9333333333333333,
+              "mean_confidence": 0.8438859559948902
+            }
+          ]
+        },
+        "by_league": {
+          "EPL": {
+            "n": 380,
+            "accuracy": 0.5026315789473684,
+            "log_loss": 1.0374106449818794,
+            "brier_sum_of_three_classes": 0.6259354040325732,
+            "expected_calibration_error_10bins": 0.05078438492200669,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 62,
+                "accuracy": 0.45161290322580644,
+                "mean_confidence": 0.37521237943126706
+              },
+              {
+                "lower": 0.4,
+                "n": 149,
+                "accuracy": 0.47651006711409394,
+                "mean_confidence": 0.4475333006519452
+              },
+              {
+                "lower": 0.5,
+                "n": 94,
+                "accuracy": 0.5212765957446809,
+                "mean_confidence": 0.549360763991926
+              },
+              {
+                "lower": 0.6,
+                "n": 54,
+                "accuracy": 0.5555555555555556,
+                "mean_confidence": 0.6437439533367815
+              },
+              {
+                "lower": 0.7,
+                "n": 19,
+                "accuracy": 0.631578947368421,
+                "mean_confidence": 0.7471536696914028
+              },
+              {
+                "lower": 0.8,
+                "n": 2,
+                "accuracy": 0.5,
+                "mean_confidence": 0.8228452863385202
+              }
+            ]
+          },
+          "La_liga": {
+            "n": 380,
+            "accuracy": 0.49473684210526314,
+            "log_loss": 0.985413961614514,
+            "brier_sum_of_three_classes": 0.5871748644372337,
+            "expected_calibration_error_10bins": 0.04482963944183951,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 86,
+                "accuracy": 0.38372093023255816,
+                "mean_confidence": 0.37460457852795653
+              },
+              {
+                "lower": 0.4,
+                "n": 132,
+                "accuracy": 0.3712121212121212,
+                "mean_confidence": 0.44218081600152803
+              },
+              {
+                "lower": 0.5,
+                "n": 83,
+                "accuracy": 0.5301204819277109,
+                "mean_confidence": 0.5443066023877697
+              },
+              {
+                "lower": 0.6,
+                "n": 39,
+                "accuracy": 0.6666666666666666,
+                "mean_confidence": 0.643978405584185
+              },
+              {
+                "lower": 0.7,
+                "n": 27,
+                "accuracy": 0.8518518518518519,
+                "mean_confidence": 0.7469000882982885
+              },
+              {
+                "lower": 0.8,
+                "n": 13,
+                "accuracy": 1.0,
+                "mean_confidence": 0.8471229820958701
+              }
+            ]
+          }
+        }
+      },
+      "delta_added_minus_original": {
+        "accuracy": -0.010526315789473661,
+        "log_loss": 0.0003319048841905481,
+        "brier_sum_of_three_classes": 0.00029364545775167894,
+        "expected_calibration_error_10bins": -0.013188124087282326
+      }
+    },
+    "2026/27": {
+      "original": {
+        "overall": {
+          "n": 119,
+          "accuracy": 0.42857142857142855,
+          "log_loss": 1.0313131811399017,
+          "brier_sum_of_three_classes": 0.617870581955391,
+          "expected_calibration_error_10bins": 0.11209520018624167,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 28,
+              "accuracy": 0.35714285714285715,
+              "mean_confidence": 0.3741894330187664
+            },
+            {
+              "lower": 0.4,
+              "n": 42,
+              "accuracy": 0.2619047619047619,
+              "mean_confidence": 0.44334682671648373
+            },
+            {
+              "lower": 0.5,
+              "n": 25,
+              "accuracy": 0.52,
+              "mean_confidence": 0.542432007839468
+            },
+            {
+              "lower": 0.6,
+              "n": 13,
+              "accuracy": 0.46153846153846156,
+              "mean_confidence": 0.6418024578809889
+            },
+            {
+              "lower": 0.7,
+              "n": 6,
+              "accuracy": 1.0,
+              "mean_confidence": 0.7241486943936035
+            },
+            {
+              "lower": 0.8,
+              "n": 5,
+              "accuracy": 1.0,
+              "mean_confidence": 0.8635764013065902
+            }
+          ]
+        },
+        "by_league": {
+          "EPL": {
+            "n": 50,
+            "accuracy": 0.42,
+            "log_loss": 1.0475565534051448,
+            "brier_sum_of_three_classes": 0.6317644880192098,
+            "expected_calibration_error_10bins": 0.11548810068062956,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 9,
+                "accuracy": 0.4444444444444444,
+                "mean_confidence": 0.3706619924323477
+              },
+              {
+                "lower": 0.4,
+                "n": 21,
+                "accuracy": 0.2857142857142857,
+                "mean_confidence": 0.443204574504762
+              },
+              {
+                "lower": 0.5,
+                "n": 12,
+                "accuracy": 0.5,
+                "mean_confidence": 0.5478692772144186
+              },
+              {
+                "lower": 0.6,
+                "n": 6,
+                "accuracy": 0.5,
+                "mean_confidence": 0.6350732871090563
+              },
+              {
+                "lower": 0.7,
+                "n": 1,
+                "accuracy": 1.0,
+                "mean_confidence": 0.7487602075954922
+              },
+              {
+                "lower": 0.8,
+                "n": 1,
+                "accuracy": 1.0,
+                "mean_confidence": 0.833043940309263
+              }
+            ]
+          },
+          "La_liga": {
+            "n": 69,
+            "accuracy": 0.43478260869565216,
+            "log_loss": 1.0195426215274066,
+            "brier_sum_of_three_classes": 0.6078025340830582,
+            "expected_calibration_error_10bins": 0.12927927805103873,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 19,
+                "accuracy": 0.3157894736842105,
+                "mean_confidence": 0.37586032592812263
+              },
+              {
+                "lower": 0.4,
+                "n": 21,
+                "accuracy": 0.23809523809523808,
+                "mean_confidence": 0.4434890789282056
+              },
+              {
+                "lower": 0.5,
+                "n": 13,
+                "accuracy": 0.5384615384615384,
+                "mean_confidence": 0.5374129899548982
+              },
+              {
+                "lower": 0.6,
+                "n": 7,
+                "accuracy": 0.42857142857142855,
+                "mean_confidence": 0.6475703185426454
+              },
+              {
+                "lower": 0.7,
+                "n": 5,
+                "accuracy": 1.0,
+                "mean_confidence": 0.7192263917532258
+              },
+              {
+                "lower": 0.8,
+                "n": 4,
+                "accuracy": 1.0,
+                "mean_confidence": 0.871209516555922
+              }
+            ]
+          }
+        }
+      },
+      "with_prior_raw_rank_proxy": {
+        "overall": {
+          "n": 119,
+          "accuracy": 0.4369747899159664,
+          "log_loss": 1.0307078230108353,
+          "brier_sum_of_three_classes": 0.6171311604626366,
+          "expected_calibration_error_10bins": 0.12812529616936658,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 30,
+              "accuracy": 0.43333333333333335,
+              "mean_confidence": 0.37352808483083205
+            },
+            {
+              "lower": 0.4,
+              "n": 42,
+              "accuracy": 0.2857142857142857,
+              "mean_confidence": 0.44535443315273715
+            },
+            {
+              "lower": 0.5,
+              "n": 21,
+              "accuracy": 0.38095238095238093,
+              "mean_confidence": 0.5449763199792228
+            },
+            {
+              "lower": 0.6,
+              "n": 16,
+              "accuracy": 0.5625,
+              "mean_confidence": 0.64256002817843
+            },
+            {
+              "lower": 0.7,
+              "n": 5,
+              "accuracy": 1.0,
+              "mean_confidence": 0.724102589743341
+            },
+            {
+              "lower": 0.8,
+              "n": 5,
+              "accuracy": 1.0,
+              "mean_confidence": 0.8714167250074466
+            }
+          ]
+        },
+        "by_league": {
+          "EPL": {
+            "n": 50,
+            "accuracy": 0.44,
+            "log_loss": 1.0460313236019905,
+            "brier_sum_of_three_classes": 0.6289104636297117,
+            "expected_calibration_error_10bins": 0.11179911959282963,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 8,
+                "accuracy": 0.5,
+                "mean_confidence": 0.36776867106712546
+              },
+              {
+                "lower": 0.4,
+                "n": 21,
+                "accuracy": 0.3333333333333333,
+                "mean_confidence": 0.4369231791154292
+              },
+              {
+                "lower": 0.5,
+                "n": 12,
+                "accuracy": 0.4166666666666667,
+                "mean_confidence": 0.5420155176483785
+              },
+              {
+                "lower": 0.6,
+                "n": 7,
+                "accuracy": 0.5714285714285714,
+                "mean_confidence": 0.6303436075376483
+              },
+              {
+                "lower": 0.7,
+                "n": 1,
+                "accuracy": 1.0,
+                "mean_confidence": 0.7133713236320198
+              },
+              {
+                "lower": 0.8,
+                "n": 1,
+                "accuracy": 1.0,
+                "mean_confidence": 0.8465015541575892
+              }
+            ]
+          },
+          "La_liga": {
+            "n": 69,
+            "accuracy": 0.43478260869565216,
+            "log_loss": 1.0196038370752158,
+            "brier_sum_of_three_classes": 0.6085954335299737,
+            "expected_calibration_error_10bins": 0.13995585890598752,
+            "calibration_bins": [
+              {
+                "lower": 0.3,
+                "n": 22,
+                "accuracy": 0.4090909090909091,
+                "mean_confidence": 0.3756224171085435
+              },
+              {
+                "lower": 0.4,
+                "n": 21,
+                "accuracy": 0.23809523809523808,
+                "mean_confidence": 0.4537856871900449
+              },
+              {
+                "lower": 0.5,
+                "n": 9,
+                "accuracy": 0.3333333333333333,
+                "mean_confidence": 0.5489240564203485
+              },
+              {
+                "lower": 0.6,
+                "n": 9,
+                "accuracy": 0.5555555555555556,
+                "mean_confidence": 0.652061688676816
+              },
+              {
+                "lower": 0.7,
+                "n": 4,
+                "accuracy": 1.0,
+                "mean_confidence": 0.7267854062711713
+              },
+              {
+                "lower": 0.8,
+                "n": 4,
+                "accuracy": 1.0,
+                "mean_confidence": 0.8776455177199111
+              }
+            ]
+          }
+        }
+      },
+      "delta_added_minus_original": {
+        "accuracy": 0.00840336134453784,
+        "log_loss": -0.000605358129066369,
+        "brier_sum_of_three_classes": -0.0007394214927544107,
+        "expected_calibration_error_10bins": 0.01603009598312491
+      }
+    }
+  },
+  "limitations": [
+    "2022/23 standings unavailable; added columns are constant in initial tuning training.",
+    "Raw standings omit disciplinary points deductions and official league tiebreakers.",
+    "Missing prior top-division history does not confirm promotion; no lower division rank fabricated.",
+    "Reused 2025/26 and 2026/27 after feature hypothesis; not fresh held-out evidence.",
+    "Single reused season and partial monitoring season cannot establish reliable future improvement.",
+    "Higher confidence values do not imply greater accuracy or calibrated probabilities."
+  ],
+  "input_hashes": [
+    {
+      "name": "completed_matches.csv",
+      "sha256": "fe1cfb9edacc17a27f422dbe92377bd0f9745f4b6571fdc3aa0e9cb1030c8a62"
+    },
+    {
+      "name": "historical-features.json",
+      "sha256": "d50a44beb5a2c742fc7da1fb0bdd0e2410481ff3d6820276ca2d7217b266782a"
+    },
+    {
+      "name": "evaluation-model.json",
+      "sha256": "8a7ed7039cef3de37166e4e00ee1eec38754f56f66c211f314ab246185b908b0"
+    }
+  ]
+}

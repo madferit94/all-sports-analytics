@@ -6,9 +6,11 @@
 
 MatchDesk: **Day13 작업** · [폴더 이동 기록](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchDesk AI 경기 분석실 · 0.8.0
+## MatchDesk AI 경기 분석실 · 0.9.0
 
-[프로젝트·버전 이력](football/matchdesk-ai-agents/README.ko.md) · [요구사항·검증 SPEC](football/matchdesk-ai-agents/docs/SPEC-0.8.0.md) · [채택된 8비트 기본 화면](football/matchdesk-ai-agents/index.html). 팀 통계·한글 지표 풀이·필터·채택된 8비트 화면을 제공합니다. 예측 모델 채택은 보류이며 HTML을 내려받아 확인합니다. 공개 서비스로 배포한 상태는 아닙니다.
+버전 이력: **v20** AI 요청 오류 안내 → **v21** 패배·무승부 색상 → **v22** 실험 확률·가상 8비트 재생 → **v23** 각 팀 11명 수정. 이전 버전을 보존하며 아래 한영 프로젝트 README와 이번 SPEC에서 확인할 수 있습니다.
+
+[프로젝트·버전 이력](football/matchdesk-ai-agents/README.ko.md) · [요구사항·검증 SPEC](football/matchdesk-ai-agents/docs/SPEC-0.9.0.md) · [채택된 8비트 기본 화면](football/matchdesk-ai-agents/index.html). 팀 통계·한글 지표 풀이·필터·채택된 8비트 화면을 제공합니다. 실험 v2 승부 확률·각 팀 11명 가상 8비트 재생을 제공하며 정식 모델 채택은 보류입니다. HTML을 내려받아 확인합니다. 공개 서비스로 배포한 상태는 아닙니다.
 
 
 NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션 프로젝트를 모은 저장소입니다.

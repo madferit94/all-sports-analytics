@@ -1,0 +1,34 @@
+{
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "match_key": "league-scope",
+  "agent_id": "analyst",
+  "role": "prediction",
+  "producer_id": "/root/prediction_v2",
+  "status": "DONE",
+  "summary": "Implemented and fitted a 33-feature pre-match three-class logistic model using 2399 observed matches; exported 641 experimental probabilities. Same-day results excluded, prior-season/league shrinkage supports early-season and unknown-history teams. Current season-final passing snapshots excluded. Model acceptance remains pending independent review and human acceptance.",
+  "evidence": [
+    {"path": "modeling/prematch-v2-2026-10-06-v01/train.py", "description": "Executable feature builder, fitting and frozen temporal evaluation"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/model.json", "description": "Future prediction model, weights, scaling, feature list, not adopted"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/evaluation-model.json", "description": "Frozen 2023/24+2024/25 evaluation model distinct from full-data future model"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/metrics.json", "description": "Validation selection and untouched 2025/26 plus current season monitoring; per league comparison"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/input-manifest.json", "description": "Input hashes, prior assumptions, feature exclusions and date policy"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/historical-features.json", "description": "Per-match pre-date features and current-season last-five evidence"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json", "description": "641 actual stored fixture probabilities, no invented future results, observed records through 2026-09-20"},
+    {"path": "modeling/prematch-v2-2026-10-06-v01/check-result.json", "description": "11 author checks; not independent model approval"}
+  ],
+  "issues": [
+    "No historical prematch passing accuracy/count snapshots; these were excluded rather than replaced with zeros.",
+    "PPDA is a pressing proxy, not passing accuracy. No lower division history available for promotion adjustments.",
+    "Missing previous season history does not prove promotion. Initial neutral league assumptions are disclosed.",
+    "Latest observed match is 2026-09-20; fixture dates are Understat source dates with unverified kickoff timezone.",
+    "Current LaLiga accuracy 43.48% is below frequency baseline 44.93%; overall current calibration error is higher than historical holdout.",
+    "All 641 forecasts share one stored snapshot; future fixtures require refreshed inputs before operational use.",
+    "No scoreline model fitted. Any displayed score is illustration, not a predicted score.",
+    "Independent review and participant confirmation are not performed by this producer; model_accepted remains false."
+  ],
+  "cutoff_at": "2026-10-06",
+  "model": "multinomial_logistic_numpy",
+  "provider": null,
+  "tests": {"author_checks": 11, "independent_review": "PENDING", "participant_confirmation": "PENDING"},
+  "probabilities": {"path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json", "class_order": ["home", "draw", "away"], "status": "EXPERIMENTAL_NOT_ADOPTED"}
+}

@@ -1,0 +1,17 @@
+{
+  "decision": "HOLD",
+  "reasons": [
+    "MODEL_NOT_ACCEPTED"
+  ],
+  "mode": "web",
+  "display_probabilities": false,
+  "human_release_authorized": false,
+  "note": "Five-agent ownership checked. Rules do not certify source truth or authorize human release.",
+  "owner_map": {
+    "director": "/root",
+    "research": "/root/source_review",
+    "analyst": "/root/prediction_v2",
+    "builder": "/root/pixel_simulation",
+    "reviewer": "/root/independent_model_review"
+  }
+}

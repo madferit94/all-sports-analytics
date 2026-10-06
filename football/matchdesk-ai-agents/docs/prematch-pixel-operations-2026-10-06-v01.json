@@ -1,0 +1,42 @@
+{
+  "match_key": "league-scope",
+  "issues": [
+    "Participant and actual browser visual verification pending.",
+    "Latest observed match remains 2026-09-20; forecasts require refresh before current operational use.",
+    "No public GitHub publication in this task.",
+    "Model adoption and performance acceptance remain pending."
+  ],
+  "producer_id": "/root",
+  "agent_id": "director",
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "model_accepted": false,
+  "summary": "Existing localhost server served newly embedded Korean and English pixel viewers with HTTP200. No data refresh, cloud deployment or model adoption performed.",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:8765/",
+      "contains_MatchDeskSimulation": true,
+      "http": 200
+    },
+    {
+      "url": "http://127.0.0.1:8765/index.en.html",
+      "contains_MatchDeskSimulation": true,
+      "http": 200
+    }
+  ],
+  "evidence": [
+    {
+      "description": "Preserved Korean experimental viewer",
+      "path": "visualization-design-2026-10-06-v22/index.html"
+    },
+    {
+      "description": "Preserved English experimental viewer",
+      "path": "visualization-design-2026-10-06-v22/index.en.html"
+    },
+    {
+      "description": "Actual role assignment and plan",
+      "path": "docs/prematch-pixel-task-plan-2026-10-06-v01.json"
+    }
+  ],
+  "status": "DONE",
+  "role": "operations"
+}

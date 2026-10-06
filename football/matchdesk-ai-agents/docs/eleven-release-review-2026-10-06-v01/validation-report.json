@@ -1,0 +1,21 @@
+{
+  "run_id": "eleven-release-review-2026-10-06-v01",
+  "match_key": "ALL_641_SCHEDULED_FIXTURES",
+  "role": "validation",
+  "producer_id": "/root/eleven_release_review",
+  "status": "DONE",
+  "summary": "13 independent checks passed. Each team has ten drawn outfield players and one differently coloured goalkeeper; 721 time samples stay on pitch with no full-sprite overlaps. Start/middle/end canvas command capture finds 22 torso rectangles and four goalkeeper gloves. Original record and 641 forecast JSON payloads are unchanged in Korean/English v22-to-v23. Lifecycle and bilingual release histories pass. Actual browser rendering and participant confirmation remain unverified.",
+  "evidence": [
+    {"path": "docs/eleven-release-review-2026-10-06-v01/SPEC.ko.md", "description": "Expectations recorded before running the independent script"},
+    {"path": "docs/eleven-release-review-2026-10-06-v01/independent-check.cjs", "description": "Independent executable checks; run node docs/eleven-release-review-2026-10-06-v01/independent-check.cjs from the project folder"},
+    {"path": "docs/eleven-release-review-2026-10-06-v01/checks.json", "description": "13 expected/actual results, including 35 colour cases and 721 position samples"}
+  ],
+  "issues": [
+    {"status": "MISSING", "description": "Real browser animation/rendering, external assets and human screen confirmation were not performed. DOM and canvas command substitutes are not browser evidence."},
+    {"status": "MISSING", "description": "GitHub push/merge and publication secret/path audit are owned by the parent release coordinator, not executed by this reviewer."}
+  ],
+  "tests": {"passed": 13, "failed": 0, "real_browser_verified": false, "participant_confirmed": false},
+  "observed_at": "2026-10-06T13:24:53.536Z",
+  "provider": null,
+  "model": null
+}

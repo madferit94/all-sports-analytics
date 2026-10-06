@@ -1,0 +1,219 @@
+{
+  "producer_id": "/root/independent_model_review",
+  "independent": true,
+  "scope": "CSV arithmetic, stored model and generated HTML; no browser",
+  "passed": 14,
+  "failed": 2,
+  "checks": [
+    {
+      "name": "Full dataset cardinality",
+      "expected": [
+        2399,
+        641,
+        4798
+      ],
+      "actual": [
+        2399,
+        641,
+        4798
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Input file digests",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent historical features from strictly earlier CSV dates",
+      "expected": "2399 × 33, error < 1e-10",
+      "actual": {
+        "shape": [
+          2399,
+          33
+        ],
+        "max_abs_error": 3.375077994860476e-14
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Historical recent keys / previous counts / same-day exclusion",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Historical result labels",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Scheduled fixture identities and cutoff histories",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent softmax reproduces all 641 probabilities",
+      "expected": "error < 1e-12",
+      "actual": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "name": "Outcome order and normalized finite probability",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Separated season sample counts",
+      "expected": {
+        "2023/24": 760,
+        "2024/25": 760,
+        "2025/26": 760,
+        "2026/27": 119
+      },
+      "actual": {
+        "2023/24": 760,
+        "2024/25": 760,
+        "2025/26": 760,
+        "2026/27": 119
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "Frozen normalization fitted on train/validation only",
+      "expected": "max error < 1e-12",
+      "actual": 5.329070518200751e-15,
+      "status": "PASS"
+    },
+    {
+      "name": "Tuning rule uses validation loss",
+      "expected": 0.1,
+      "actual": 0.1,
+      "status": "PASS"
+    },
+    {
+      "name": "Independent test/monitor/league metrics and baseline arithmetic",
+      "expected": "max error < 1e-12",
+      "actual": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "name": "Excluded season snapshots and passing accuracy",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "Not adopted and no invented promotion status",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "index.html embedded predictions equal author model output",
+      "expected": true,
+      "actual": false,
+      "status": "FAIL"
+    },
+    {
+      "name": "index.en.html embedded predictions equal author model output",
+      "expected": true,
+      "actual": false,
+      "status": "FAIL"
+    }
+  ],
+  "recalculated_metrics": {
+    "untouched_test_2025_26": {
+      "None/model": {
+        "n": 760,
+        "accuracy": 0.5092105263157894,
+        "log_loss": 1.0110803984140062,
+        "brier_sum_of_three_classes": 0.6062614887771516,
+        "expected_calibration_error_10bins": 0.03982673973791427
+      },
+      "None/league_frequency_baseline": {
+        "n": 760,
+        "accuracy": 0.45789473684210524,
+        "log_loss": 1.0680297063838957,
+        "brier_sum_of_three_classes": 0.6449109686091333,
+        "expected_calibration_error_10bins": 0.020148996344071135
+      },
+      "EPL/model": {
+        "n": 380,
+        "accuracy": 0.5105263157894737,
+        "log_loss": 1.0363302669171,
+        "brier_sum_of_three_classes": 0.6249749476563798,
+        "expected_calibration_error_10bins": 0.060392427141757556
+      },
+      "EPL/league_frequency_baseline": {
+        "n": 380,
+        "accuracy": 0.4263157894736842,
+        "log_loss": 1.0850902919009777,
+        "brier_sum_of_three_classes": 0.6565198873794199,
+        "expected_calibration_error_10bins": 0.007498103055804672
+      },
+      "La_liga/model": {
+        "n": 380,
+        "accuracy": 0.5078947368421053,
+        "log_loss": 0.9858305299109121,
+        "brier_sum_of_three_classes": 0.5875480298979234,
+        "expected_calibration_error_10bins": 0.06751994731331244
+      },
+      "La_liga/league_frequency_baseline": {
+        "n": 380,
+        "accuracy": 0.48947368421052634,
+        "log_loss": 1.0509691208668142,
+        "brier_sum_of_three_classes": 0.6333020498388469,
+        "expected_calibration_error_10bins": 0.04779609574394711
+      }
+    },
+    "monitor_2026_27": {
+      "None/model": {
+        "n": 119,
+        "accuracy": 0.42857142857142855,
+        "log_loss": 1.0313131811399014,
+        "brier_sum_of_three_classes": 0.617870581955391,
+        "expected_calibration_error_10bins": 0.1120952001862417
+      },
+      "None/league_frequency_baseline": {
+        "n": 119,
+        "accuracy": 0.4117647058823529,
+        "log_loss": 1.0896624766019398,
+        "brier_sum_of_three_classes": 0.6597431330077693,
+        "expected_calibration_error_10bins": 0.02660880866107901
+      },
+      "EPL/model": {
+        "n": 50,
+        "accuracy": 0.42,
+        "log_loss": 1.0475565534051448,
+        "brier_sum_of_three_classes": 0.6317644880192098,
+        "expected_calibration_error_10bins": 0.11548810068062956
+      },
+      "EPL/league_frequency_baseline": {
+        "n": 50,
+        "accuracy": 0.36,
+        "log_loss": 1.1194837555030457,
+        "brier_sum_of_three_classes": 0.6792694217658446,
+        "expected_calibration_error_10bins": 0.07381389252948889
+      },
+      "La_liga/model": {
+        "n": 69,
+        "accuracy": 0.43478260869565216,
+        "log_loss": 1.0195426215274066,
+        "brier_sum_of_three_classes": 0.6078025340830582,
+        "expected_calibration_error_10bins": 0.12927927805103873
+      },
+      "La_liga/league_frequency_baseline": {
+        "n": 69,
+        "accuracy": 0.4492753623188406,
+        "log_loss": 1.0680528542098344,
+        "brier_sum_of_three_classes": 0.6455936484004683,
+        "expected_calibration_error_10bins": 0.007597773852261347
+      }
+    }
+  }
+}

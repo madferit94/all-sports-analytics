@@ -1,0 +1,76 @@
+{
+  "run_id": "prematch-pixel-2026-10-06-v01",
+  "match_key": "league-scope",
+  "agent_id": "research",
+  "producer_id": "/root/source_review",
+  "role": "data",
+  "status": "DONE",
+  "summary": "최신 F1 V4는 기록된 실제 위치 재생이며 축구 예측용 8비트 장면에는 합성 시뮬레이션 표시가 필요합니다. 축구 경기별 공격·수비 및 최근 5경기 변수는 확보되어 있으나 경기별 패스 지표는 없습니다.",
+  "evidence": [
+    {
+      "path": "docs/prematch-pixel-source-audit-2026-10-06-v01.json",
+      "description": "실제 수행된 원본 4798행 조사 수치 및 GitHub 최신 F1 구현 확인 결과. 외부 원본은 sources에 별도 명시."
+    }
+  ],
+  "issues": [
+    {
+      "code": "passHistoricalMissing",
+      "status": "MISSING",
+      "description": "경기별 패스 성공률·키패스·최종 3분의 1 패스 없음. 시즌말 총계로 과거 최근 5경기를 재구성하면 미래 정보가 섞임. deep은 패스 성공률이 아님."
+    },
+    {
+      "code": "trackingMissing",
+      "status": "MISSING",
+      "description": "축구 선수·공의 좌표/패스·슈팅 사건 시계열 없음. 화면의 움직임은 모델에서 추출한 가상 장면이며 실제 경기 영상/전술 궤적 재현이라고 표현 불가."
+    },
+    {
+      "code": "promotedHistoryMissing",
+      "status": "MISSING",
+      "description": "하부리그 기록 없음. 전시즌 리그 팀키 집합 밖의 팀은 승격 또는 표본 신규 구분으로 표시. 최초 수집시즌은 실제 승격 확정 불가. 리그 평균·과거 상위리그 기록을 경기전 시점으로 수축 보정하고 결측을 0으로 채우지 않음."
+    },
+    {
+      "code": "timestampUnverified",
+      "status": "MISSING",
+      "description": "같은 날짜의 다른 경기까지 사용하지 않는 strict canonical_date 이전 필터가 보수적. 컵·국가대표 기록 부재로 리그 경기 간격을 실제 휴식일이라고 해석하지 않음."
+    },
+    {
+      "code": "staleCurrentData",
+      "status": "MISSING",
+      "description": "현재 완료기록은 2026-09-20까지. 실제 예측 배포 전 갱신 및 일정 최신성 검증 필요."
+    }
+  ],
+  "tests": {
+    "metadata_only_read": true,
+    "model_evaluation": "NOT_PERFORMED_BY_RESEARCH",
+    "browser_video_playback": "NOT_PERFORMED_THIS_RUN",
+    "writes": "THIS_NEW_RESEARCH_REPORT_ONLY"
+  },
+  "participant_confirmation": "PENDING",
+  "sources": [
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/scripts/ko/v4_full_race_replay.py",
+      "description": "GitHub main 구현 직접 확인. OpenF1 위치를 같은 UTC에 선형 보간하고 2초 초과 공백은 숨김. Pillow RGB 프레임을 FFmpeg H.264 MP4로 인코딩하고 전체 디코딩 검사."
+    },
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/docs/v4_replay_guide.ko.md",
+      "description": "51랩, 98분 02.755초를 24배속 20fps 4분 05.2초로 재생. 전체 원본 선수별 37095표본, 경기 및 경계 지원 22538표본. HTML 랩 이동과 12/24/48배속 지원. 미래 승부예측이 아님."
+    },
+    {
+      "uri": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/README.ko.md",
+      "description": "과거 승부예측 프로토타입은 재검증을 위해 별도 비공개 보존하며 현재 공개 F1 목록에서 제외."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/team_match_stats.csv",
+      "description": "로컬 원본 직접 조사: 4798 팀경기행/2399 경기. goals, xg, npxg, deep, deep_allowed, ppda 원시 분자/분모, expected_points, points 모두 빈값 0. ppda 분모 0도 0건. 최신 완료일 2026-09-20."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/team_season_additional_stats.csv",
+      "description": "StatMuse 47종은 TEAM_SEASON_SNAPSHOT, NOT_ALLOWED_SEASON_SNAPSHOT. PASS/PASS%/SH/SOT/TKL 등 경기별 역사 입력 아님."
+    },
+    {
+      "uri": "../../../source-unified-2026-10-06-v01/data_audit.json",
+      "description": "출처정책 Understat 기본, 160팀시즌, 기존 검사 16 PASS. 원본 시간대 UNVERIFIED, 일정 최신확정 아님."
+    }
+  ],
+  "supersedes": "docs/prematch-pixel-research-2026-10-06-v01.json"
+}

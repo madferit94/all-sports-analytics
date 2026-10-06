@@ -1,5 +1,5 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "public_export": true,
   "files": [
     {
@@ -22,27 +22,27 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4564,
-      "sha256": "941602802c09f247509b3f97f95637f07eb4d9791f9af82ed77054e92d52e4f6",
-      "snapshot": "0.8.0"
+      "bytes": 5893,
+      "sha256": "ee78632aca5b583ff99c97d15f7acf472821251172f9320c6b358132165255cd",
+      "snapshot": "0.9.0"
     },
     {
       "path": "README.ko.md",
-      "bytes": 9752,
-      "sha256": "c04227ca5cd3e154d101ab81bb4e2cd54f87d6e450d8f105a9240a88fc7ba8cf",
-      "snapshot": "0.8.0"
+      "bytes": 11167,
+      "sha256": "f9583764bc55a6aee520f690a5f27f55b6f03ba78e06d4286e18fa850de7cb03",
+      "snapshot": "0.9.0"
     },
     {
       "path": "README.md",
-      "bytes": 9270,
-      "sha256": "858af50b6306728b24c55292d5c5971cc727111dfe281f96d90ea0684a329783",
-      "snapshot": "0.8.0"
+      "bytes": 10778,
+      "sha256": "6ffd624572877afa10efd34adb6613b14ce5eb73172bf7ad85f5c7bd2423fe1b",
+      "snapshot": "0.9.0"
     },
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "a66780da23103beaf12432b418508966b31a2a3a787f9468a5b6cdaa8667c1ef",
-      "snapshot": "0.8.0"
+      "sha256": "9d8c94f1ad3ea96b1e2ac4914fda4cb93c76b4a3e0d8cc6dd8976d6c0b227d15",
+      "snapshot": "0.9.0"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -747,10 +747,154 @@
       "snapshot": "0.8.0"
     },
     {
+      "path": "docs/SPEC-0.9.0.md",
+      "bytes": 3988,
+      "sha256": "98d3d96deff05a58342abb76c8f8ceb81213d12531b2c615058e26ff3c14fcc1",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/SPEC-ai-connection-2026-10-06-v01.md",
+      "bytes": 1228,
+      "sha256": "76f96031bb24ef6748885df4c2b7369953863420b4a9973e6e03a6a5ef21f641",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/SPEC-prematch-pixel-2026-10-06-v01.ko.md",
+      "bytes": 2309,
+      "sha256": "dc545d3cc201feb8de489cd468af4ff666dcce135e884046ce45707693557dfd",
+      "snapshot": "0.9.0"
+    },
+    {
       "path": "docs/VERSIONING.md",
       "bytes": 2788,
       "sha256": "5c06e44b2d587925eeb1484cabaa99508804f8385a122a90315348c8988d101d",
       "snapshot": "0.8.0"
+    },
+    {
+      "path": "docs/eleven-release-review-2026-10-06-v01/RESULTS.ko.md",
+      "bytes": 2502,
+      "sha256": "5a9fdb9f3498cfd30ed30e5022bb2428f2040b619de3cd6e800b3df2b64709b2",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/eleven-release-review-2026-10-06-v01/SPEC.ko.md",
+      "bytes": 1610,
+      "sha256": "10d30dc0b89ee05531cdde97ee0f80115803f02b48c1f0ed0d80b061c3a58088",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/eleven-release-review-2026-10-06-v01/checks.json",
+      "bytes": 4131,
+      "sha256": "1b37886dba2918325ee36875c2d831b73dbc8b4bc43ecbd2c955779ee31f9d6f",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/eleven-release-review-2026-10-06-v01/independent-check.cjs",
+      "bytes": 8781,
+      "sha256": "5a8d9b0efd6a9b22dfb9bb484bc883aa3442782cfa55ee9fb61d50393520f537",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/eleven-release-review-2026-10-06-v01/validation-report.json",
+      "bytes": 1833,
+      "sha256": "c35d0d7b06f24e4be7a5da01eef3df48a151dd55107b5c6281b3ca8f9b381e3b",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/feature-factcheck-2026-10-06-v01/RESULTS.ko.md",
+      "bytes": 2598,
+      "sha256": "f3cfdd696814b6f09255763cc0db3be696a1c4de1e14a149d1268bb6792b4250",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/feature-factcheck-2026-10-06-v01/SPEC.ko.md",
+      "bytes": 1957,
+      "sha256": "40fa0a4628935af642473415e13869dd20cd9af15c49c4fb75be11d4b89dcb75",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/feature-factcheck-2026-10-06-v01/independentcheck.py",
+      "bytes": 4369,
+      "sha256": "224583b85b58d4ccd91ac3e0bf000f5adbb0b5724125a7f1ea74ac0aef908b95",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/feature-factcheck-2026-10-06-v01/research.json",
+      "bytes": 9609,
+      "sha256": "97970448ec1bf043e95212f6c3736efc99bc338ad20cde2fffc1a7e086ddd256",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/feature-factcheck-2026-10-06-v01/review.json",
+      "bytes": 6760,
+      "sha256": "33311f945f50b98c41c940303f085fc84c345b6707f1c636a7e2c732fb1e3534",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prediction-research-2026-10-06-v01/README.en.md",
+      "bytes": 5823,
+      "sha256": "3b79c0139153629a9ac8185bbc0ee55994c4b4c6fd9768de8d4063e5c56d38e5",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prediction-research-2026-10-06-v01/README.ko.md",
+      "bytes": 8927,
+      "sha256": "90ede3b9572ad7977dab3486d220011c92eeb01da6526ad769b834061323c4ae",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prediction-research-2026-10-06-v01/sources.json",
+      "bytes": 5232,
+      "sha256": "cbbc8986eefa9d481fc6806a11e1922a646ede79e93dceda4990d95a91dea61f",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-agent-bundle-2026-10-06-v01.json",
+      "bytes": 31340,
+      "sha256": "fbbfc687dad11b7833387fe41995c2f0015886fc441104ef943a45c00e0bc6c8",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-director-decision-2026-10-06-v01.json",
+      "bytes": 1544,
+      "sha256": "7272a0a2e7f14a7c5c5952b189ce540efb281ce22b5d9edb4ab43ca8c3ac138b",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-operations-2026-10-06-v01.json",
+      "bytes": 1375,
+      "sha256": "f165ac6173e126135a0f18690dbe844ef214d24c4211b011a760518ef96fccbd",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-research-2026-10-06-v01.json",
+      "bytes": 3822,
+      "sha256": "a571ce71d02977ac4d4ad8fe0e55f2a78e791792efabcef5f70a827633d81fda",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-research-2026-10-06-v02.json",
+      "bytes": 4380,
+      "sha256": "0e3c5acf92765286721082f79af53931aaf84b57e09258d250f89157408e9902",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-service-gate-2026-10-06-v01.json",
+      "bytes": 476,
+      "sha256": "db1bd392d4c1650ba274c0ff8fb3a4dd73b47dc4827f46bda1772542b7a1be04",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-source-audit-2026-10-06-v01.json",
+      "bytes": 3512,
+      "sha256": "4de56bb06b546226fc37dfef112719b9211f2b73a2fdd01134b439b2a63a9a42",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "docs/prematch-pixel-task-plan-2026-10-06-v01.json",
+      "bytes": 633,
+      "sha256": "23a8df4eb9c63d7daf21e418e62f5a58babad417cc7bb85342d187f1eaae749c",
+      "snapshot": "0.9.0"
     },
     {
       "path": "docs/publication_manifest-0.2.1.json",
@@ -787,6 +931,12 @@
       "bytes": 70185,
       "sha256": "594165459b302350eff4018ab57fdc9b04a8958a5c745dd27b96f39210f2c4ed",
       "snapshot": "0.8.0"
+    },
+    {
+      "path": "docs/publication_manifest-0.8.0.json",
+      "bytes": 73658,
+      "sha256": "c6e3bc2deab9847fef44882b20fa3b98c46b591ef9a01540725ea9d5fa6dd2ec",
+      "snapshot": "0.9.0"
     },
     {
       "path": "docs/release-checks-0.3.0.json",
@@ -826,15 +976,15 @@
     },
     {
       "path": "index.en.html",
-      "bytes": 1901661,
-      "sha256": "56767cbb9fea9529ed87443dd040701e00259983e1c834d894907b473eb45ea3",
-      "snapshot": "0.8.0"
+      "bytes": 2223601,
+      "sha256": "e4cd1de11061faecc1535ac79da5e0cc68e56b153e4bbd581ed83769d2b4fcd1",
+      "snapshot": "0.9.0"
     },
     {
       "path": "index.html",
-      "bytes": 1903614,
-      "sha256": "13e70f5ba3c9a18addc53f84d1afb7714a9a41438335222fd6bbd1dd72772363",
-      "snapshot": "0.8.0"
+      "bytes": 2225744,
+      "sha256": "40e3a1386800865797eb3409d925c59f111af4545b1b853b1888251ce414f526",
+      "snapshot": "0.9.0"
     },
     {
       "path": "modeling/.gitignore",
@@ -865,6 +1015,180 @@
       "bytes": 1949,
       "sha256": "201549d0d853b8a30d0d77f300cecc588b640133c832eeb27b440627c2ed5149",
       "snapshot": "0.3.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/README.ko.md",
+      "bytes": 5543,
+      "sha256": "5c97d81ae63aa0eba59ca59c3cc2e7d4817e060f790cf8c49ac3cdaf5de95952",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/README.md",
+      "bytes": 3488,
+      "sha256": "3e2edad8b5ec29061aabb97d335f6132e0b6c9700d18e8aa3b34ef35216e4452",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/analyst-report.json",
+      "bytes": 3233,
+      "sha256": "a68d7a2b59107ffa64898919566e615ffae6ac1b6eba95ed0c4c1cbede54620b",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/check-result.json",
+      "bytes": 1266,
+      "sha256": "1e328b833baf3e3e4bde3fc8fc35b6cd38dcfb90c1c532276d386478559884e6",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/check.py",
+      "bytes": 3690,
+      "sha256": "1a96b6b6365b9b4ec6fb049e710866db69702bf15c93d2f14aadcc9b4d8de1fb",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/evaluation-model.json",
+      "bytes": 4040,
+      "sha256": "8a7ed7039cef3de37166e4e00ee1eec38754f56f66c211f314ab246185b908b0",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/future-predictions.json",
+      "bytes": 808960,
+      "sha256": "f9750224e46d9af2b3caab77daa3fb77476a4bf65ebe87aac365937f8b44cd28",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/historical-features.json",
+      "bytes": 3436432,
+      "sha256": "d50a44beb5a2c742fc7da1fb0bdd0e2410481ff3d6820276ca2d7217b266782a",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/input-manifest.json",
+      "bytes": 1497,
+      "sha256": "e3ed5e19abba71607383ed7a5538c87e24a97569fb621d3ad5252b6283db9768",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/metrics.json",
+      "bytes": 9685,
+      "sha256": "9ba330207db34705affe478dddf0f9dca67b0a13a43f0eb5a42761ea4bf0a4db",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/model.json",
+      "bytes": 4320,
+      "sha256": "42bf3e3b76bf95636ad1b1a9abef82642b01690020b2508a9be9caf012e941a1",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-2026-10-06-v01/train.py",
+      "bytes": 9818,
+      "sha256": "1081c881fe51179f98676769030419b0fad382e5dfac8e08a8329fb0dcc4d841",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/SPEC.md",
+      "bytes": 1998,
+      "sha256": "c5017aa482d431d5e3aa1fd9492c3d66f49ecf65656bc44865a69c030bfe63ad",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/check-ui.cjs",
+      "bytes": 6984,
+      "sha256": "71dbac0e730381e280627272727eb6b713157339a15c64eefac38725d3ddadff",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/check.py",
+      "bytes": 10973,
+      "sha256": "a715489c1ebe91649c4fe055ff879e58d2696d3dc715fd01b3fc724519c7dda8",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-checks.json",
+      "bytes": 6303,
+      "sha256": "e2c08a217c6152ceeae927f0131a810122eefd0b26168bfa6f2566337a2e0764",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/independent-ui-checks.json",
+      "bytes": 2483,
+      "sha256": "ac4d6b30da7ba11dda22cbef9ab0d59bed3f52550338cf6b0952f66e0fc97ddb",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-checks.json",
+      "bytes": 6251,
+      "sha256": "eb101b658f8764c6a371d31a87adf2ad889e1413d4dfe296625d7dd463b2b834",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/initial-ui-checks.json",
+      "bytes": 2519,
+      "sha256": "d52a84a16ad5efd00131cd2a8fe2789953953df90e1e5483d671e59835d3857c",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/prematch-v2-review-2026-10-06-v01/reviewer-report.json",
+      "bytes": 4932,
+      "sha256": "c6b76ea49b2503c76995df2dd6cc622e98e02ba493e205297bb50df67aba78a9",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/README.ko.md",
+      "bytes": 4935,
+      "sha256": "8d0d50d443b4f05b369896b1b7e3244c84ed0dbe9c6393258e1f48c3b44d5294",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/SPEC.md",
+      "bytes": 2136,
+      "sha256": "5f536b9fafb9dec9a9965880dd38c367fe66e4e19b7c825e5463266be6f89b2f",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/analyst-report.json",
+      "bytes": 20561,
+      "sha256": "bc1619348a7365845907d5f4a0339170baa881449d9d7c44fe0c8363fb8646cb",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/augmented-evaluation-model.json",
+      "bytes": 6324,
+      "sha256": "0dad7e0b786ae4f502c773ca6898c66842a311c23f948136117fa8f3026a6280",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/availability-audit.json",
+      "bytes": 514930,
+      "sha256": "502ab3d366993f3b145f329d3ecb9b554c2c7f180e2670c116a02acb5c633740",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/check-result.json",
+      "bytes": 1352,
+      "sha256": "b58b30747b46afd641c684f8a8e228758e453ec9a30cbc77b09c86f56194cadf",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/check.py",
+      "bytes": 3094,
+      "sha256": "410a8b6a6763760712caeb7465a0837164808fe3f0644d8c4f8aa95abc2707dd",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/derived-raw-tables.json",
+      "bytes": 32897,
+      "sha256": "e643d6e6c0f908967837808fe902eec3f6240052b0705b1418d565afb4f333fa",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "modeling/rank-ablation-2026-10-06-v01/experiment.py",
+      "bytes": 8841,
+      "sha256": "bdd378d20ad5a9b265f86267268995fcf2432843b238b7e9eed3dae58dfd44ef",
+      "snapshot": "0.9.0"
     },
     {
       "path": "modeling/requirements.txt",
@@ -940,33 +1264,141 @@
     },
     {
       "path": "server/browser-bridge.js",
-      "bytes": 2236,
-      "sha256": "4bd6f4d4c816ee01e8f724f9b1c6f943969edd573feb438e141c8efaaf83aa3a",
-      "snapshot": "0.8.0"
+      "bytes": 2306,
+      "sha256": "6f234060ab80f8afc600f55228410a5be5f3a8a293b429d15798f5bcd2257aa3",
+      "snapshot": "0.9.0"
     },
     {
       "path": "server/check-result.json",
       "bytes": 139,
-      "sha256": "d63488cc47c3ad8f4145df19613b3f9efcad2215313cd9db478cabdd06a2444b",
-      "snapshot": "0.8.0"
+      "sha256": "156852244c720c6c914f4ab5924103fd1ef32e6f0fa68d5957c92f062a212747",
+      "snapshot": "0.9.0"
     },
     {
       "path": "server/check.cjs",
-      "bytes": 5964,
-      "sha256": "0b6ba119c5835a8db875a60ffc393d66545db18cf1ab39afbc07b7de1463b740",
-      "snapshot": "0.8.0"
+      "bytes": 6538,
+      "sha256": "d55ac280ad7a33fb5a87459c8947547c7ee918a1dcfcfc440cc3404944fb83da",
+      "snapshot": "0.9.0"
     },
     {
       "path": "server/gemini.cjs",
-      "bytes": 7888,
-      "sha256": "78647c8617216003a341fce6bd7679b5228b3e90ff403160eb379dea48371323",
-      "snapshot": "0.8.0"
+      "bytes": 8061,
+      "sha256": "4b677ce733897961983145d1f54568284a19303d4c7d65b51ecc2ef5b323def4",
+      "snapshot": "0.9.0"
     },
     {
       "path": "server/start.ps1",
       "bytes": 132,
       "sha256": "57c1473abe4b13bb448422ea722e942cfd23464ba08f7817882b3720b249bc5d",
       "snapshot": "0.8.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/README.ko.md",
+      "bytes": 3372,
+      "sha256": "5de4d5f4566921b86944c2e5c9ba26637eab1f5ec34c34b6532180fadebad2c8",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/build.cjs",
+      "bytes": 1430,
+      "sha256": "fce8c851154ec0c37ffa08da98f2964e08ddf22806c0cc1faf80f35b8a693f2b",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/builder-report-before-contract-v01.json",
+      "bytes": 1660,
+      "sha256": "2118fd69ee616063c4c49566a327cfdd64fda95fb32804021ee8bdf0372b186e",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/builder-report.json",
+      "bytes": 2238,
+      "sha256": "5b4af793b8cd54bc1c203989b6caff2f318a71cf2eecf659119721a1676e2640",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/check-integration.cjs",
+      "bytes": 3360,
+      "sha256": "7f366599c0e1a930e32c2ca433c8d50099b4add6771fcc8238788ce2d6dee80a",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/check.cjs",
+      "bytes": 1842,
+      "sha256": "ffad97ad91a86d48db61ee7f7484be3997e8798842cfe4f48895710925317ed3",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/integration.js",
+      "bytes": 4687,
+      "sha256": "39a2e7bec17d2aebd676147ea00fc514f3f5132ea4798e898731d57ad30a11f0",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/pixel-simulation.css",
+      "bytes": 1049,
+      "sha256": "c2b9e5c3562438e1c3edc6b5ac14f459d606b3d7c8da6f6ec85f5bbe7b34b37e",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v1-2026-10-06-v01/pixel-simulation.js",
+      "bytes": 9102,
+      "sha256": "ed6b0d14bc9ae1fe6fd21d60c1c61bbe05b52022e27db127c8308bc5421553a3",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/README.ko.md",
+      "bytes": 1853,
+      "sha256": "6372d9b0c57e2d27b4506a2b8a282fd4e2c479e87ab9e91a723c497664f133d1",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/build.cjs",
+      "bytes": 1359,
+      "sha256": "0a40beebb740de864aa5be225058359c0ddae4dcc323ae6ddabc000468f85a1c",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/builder-report.json",
+      "bytes": 1596,
+      "sha256": "f6c453056c6d088b1d10b65fd9df795e66b082b2aa4bef0ea892ac045d3b5cc6",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/check-integration.cjs",
+      "bytes": 3360,
+      "sha256": "9f1559ea76694b5bb6dec1fde280103554e9c85c19216b3ce9e1f40d99c01077",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/check-roster.cjs",
+      "bytes": 5198,
+      "sha256": "ccca62fe026faedfedc6dbae45b7cde9a328ffe750ed61910ffbbdcb030e23b3",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/check.cjs",
+      "bytes": 1842,
+      "sha256": "ffad97ad91a86d48db61ee7f7484be3997e8798842cfe4f48895710925317ed3",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/integration.js",
+      "bytes": 4687,
+      "sha256": "39a2e7bec17d2aebd676147ea00fc514f3f5132ea4798e898731d57ad30a11f0",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/pixel-simulation.css",
+      "bytes": 1049,
+      "sha256": "c2b9e5c3562438e1c3edc6b5ac14f459d606b3d7c8da6f6ec85f5bbe7b34b37e",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "simulation/pixel-v2-2026-10-06-v01/pixel-simulation.js",
+      "bytes": 10268,
+      "sha256": "fe492435a88046bf803f5f6875d74f99ed56609b4566db9d6343a7f976c28245",
+      "snapshot": "0.9.0"
     },
     {
       "path": "skills/python-analysis/SKILL.md",
@@ -1432,9 +1864,9 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 4477,
-      "sha256": "9b902561eba23b9e8c82221b01de297a8bf731ee28141b3ce2c819bd17a926e6",
-      "snapshot": "0.8.0"
+      "bytes": 5145,
+      "sha256": "2d318fa298e6680d6472047a0aa78723fabc84122b1bef0ead1f09af941a279a",
+      "snapshot": "0.9.0"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -1455,10 +1887,16 @@
       "snapshot": "0.5.0"
     },
     {
+      "path": "tools/prepare_release_v09.py",
+      "bytes": 8544,
+      "sha256": "0e689dd2b1c47b47e85c78af20ed234d2e958e9ed1cf0a2eb4a2c973999b76d6",
+      "snapshot": "0.9.0"
+    },
+    {
       "path": "viewer_selection.json",
-      "bytes": 814,
-      "sha256": "3fc2bae29e6d65b4b75f8dfe489380b326dd650339bdd82e952d90aa16bdc2cd",
-      "snapshot": "0.8.0"
+      "bytes": 1041,
+      "sha256": "f8f61dbb5e3218bcc2ee1b36a7518f5a26e8fd9e3c4aafe4abeed44bf3420656",
+      "snapshot": "0.9.0"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",
@@ -2083,6 +2521,96 @@
       "bytes": 109,
       "sha256": "746f5b580a5120057dd2ff1bc2cc24beabee2d26c0c197346c082305552761d5",
       "snapshot": "0.8.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/check-en.cjs",
+      "bytes": 8860,
+      "sha256": "88d4d624a943b603c758d969801273396ab94d549c3b286d2a8e7cbe97266f93",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/check.cjs",
+      "bytes": 23305,
+      "sha256": "f0251fed6ecf05d8e5d5b7a35785098e4abdd721448cb224e485103d3bc77a82",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/index.en.html",
+      "bytes": 1902279,
+      "sha256": "d40ccd0c3b88f6cfc34c878fa73e21a60a836f3bd214b8854fe4aa6d87fb14b5",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/index.html",
+      "bytes": 1904422,
+      "sha256": "c69e8d720efe2a036ae39778b4a94caa36f3813a40a7a26540db552d4090c999",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/logic-check.en.json",
+      "bytes": 103,
+      "sha256": "29b985800a26cfc2122c893dafdb46727bfcd43ad718d5c5abee31711392e23d",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/logic-check.json",
+      "bytes": 109,
+      "sha256": "746f5b580a5120057dd2ff1bc2cc24beabee2d26c0c197346c082305552761d5",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/previous-browser-bridge.js",
+      "bytes": 2236,
+      "sha256": "4bd6f4d4c816ee01e8f724f9b1c6f943969edd573feb438e141c8efaaf83aa3a",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/previous-check.cjs",
+      "bytes": 5964,
+      "sha256": "0b6ba119c5835a8db875a60ffc393d66545db18cf1ab39afbc07b7de1463b740",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v20/previous-gemini.cjs",
+      "bytes": 7888,
+      "sha256": "78647c8617216003a341fce6bd7679b5228b3e90ff403160eb379dea48371323",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v21/index.en.html",
+      "bytes": 1902574,
+      "sha256": "5677e45931273ca7b32980935d63812d122d5d0cfa8243dfd67861633206613a",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v21/index.html",
+      "bytes": 1904717,
+      "sha256": "8e51e890040fd32b7ed0b5d798ac287ece67c199528b073a4c97e86b2020c966",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v22/index.en.html",
+      "bytes": 2222435,
+      "sha256": "19a34b2d3a6560a3f04a82d66b54e154a75756e9bee63cd874f34c14a036f7f9",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v22/index.html",
+      "bytes": 2224578,
+      "sha256": "6f279bf1dc9bb768fa0291591123ebf89b25999a828e2ccfe96deea2c5e1dd87",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v23/index.en.html",
+      "bytes": 2223601,
+      "sha256": "e4cd1de11061faecc1535ac79da5e0cc68e56b153e4bbd581ed83769d2b4fcd1",
+      "snapshot": "0.9.0"
+    },
+    {
+      "path": "visualization-design-2026-10-06-v23/index.html",
+      "bytes": 2225744,
+      "sha256": "40e3a1386800865797eb3409d925c59f111af4545b1b853b1888251ce414f526",
+      "snapshot": "0.9.0"
     }
   ],
   "display_dataset": {
@@ -2096,10 +2624,14 @@
     "completed": 20,
     "scheduled": 2
   },
+  "published_model_evidence": [
+    "prematch-v2 features, model weights, metrics and future probabilities",
+    "prior-rank ablation and independent review"
+  ],
   "excluded": [
     "full provider caches",
-    "complete modeling CSV",
-    "generated model runs",
+    "complete source modeling CSV",
+    "ignored baseline generated runs",
     "local administrator source report",
     "credentials",
     "workshop materials",
