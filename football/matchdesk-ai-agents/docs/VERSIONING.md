@@ -19,3 +19,7 @@ The user adopted the pixel design. index.html is identical to v15, and viewer_se
 ## 0.5.0 bilingual interface
 
 Both canonical language entries match the preserved v16 snapshots. The 0.4.0 manifest remains in docs/publication_manifest-0.4.0.json. English changes presentation metadata only, preserving all statistics.
+
+## 0.8.0 Gemini server
+
+Canonical bilingual viewers match v19. Local .env is ignored and excluded from public snapshots; only the empty .env.example is published. Live API verification is tracked separately from mocked-provider tests.

@@ -2,17 +2,19 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**버전 0.7.0 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
+**버전 0.8.0 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
 
 0.6.0: 완료 경기의 팀 이름은 팀 상세로, 작은 경기 링크는 Understat 경기 페이지로 연결됩니다. 상세 지표 6개 설명 말풍선 추가, 출처·경기 수 표시 제거.
 
 0.7.0: 분석관 입력창에서 기록 비교·리그 순위·홈/원정 분석·후속 요청을 실행하고 차트·표·계산 과정을 표시합니다. 실제 실행은 JavaScript이며 AI 모델·SQL·Python·예측 도구는 미연결입니다. [도구 규격·담당](docs/ANALYSIS-TOOLS.md) · [기록 분석 스킬](skills/record-analysis/SKILL.md) · [SQL 스킬](skills/sql-analysis/SKILL.md) · [Python 스킬](skills/python-analysis/SKILL.md). 엔진 15개·한국어 화면 48개·영어 23개 검사 통과.
 
+0.8.0: .env 기반 Gemini 서버·도구 조건 검증·한영 비동기 모드를 추가했습니다. [설정 안내](server/README.ko.md). 로컬 .env에 키를 넣고 `node --env-file=.env server/gemini.cjs` 실행 후 http://127.0.0.1:8765 접속. 실제 Gemini 인증/모델 호출은 키 설정 후 확인해야 합니다. 서버12개 포함 총98개 검사 통과(제공자 응답은 가짜).
+
 ## 화면 열기
 - [영어 사이트](index.en.html) · [한국어 사이트](index.html): 메뉴·필터·47개 지표 이름·의미·읽는 법을 번역했습니다. 프리미어리그 27개·라리가 29개는 과거 시즌 팀을 포함한 수입니다. 상단 언어 전환 시 선택 팀 주소는 유지되고 나머지 필터는 초기화됩니다. 한국어 44개·영어 19개 코드 동작 검사 통과. 실제 브라우저 화면은 확인 전입니다.
 
 
-- [MatchDesk 기본 화면 — 채택된 8비트 디자인](index.html) · [v18 버전](visualization-design-2026-10-06-v18/index.html)
+- [MatchDesk 기본 화면 — 채택된 8비트 디자인](index.html) · [v19 버전](visualization-design-2026-10-06-v19/index.html)
 - [부드러운 앱 디자인 예시 — v13](visualization-design-2026-10-06-v13/index.html)
 - [8비트 게임 디자인 미리보기 — v14](visualization-design-2026-10-06-v14/index.html)
 - [디자인 후보 3개 비교](design-candidates-2026-10-06-v01/index.html)
@@ -52,8 +54,8 @@ HTML에는 **완료 2,399경기·예정 641경기·56개 팀**, 팀별 경기 �
 python -m unittest discover -s agent-team-2026-10-06-v01/tests -v
 python -m unittest discover -s agent-team-integrated-2026-10-06-v01/tests -v
 python -m unittest discover -s modeling/tests -v
-node visualization-design-2026-10-06-v18/check.cjs
-node visualization-design-2026-10-06-v18/check-en.cjs
+node visualization-design-2026-10-06-v19/check.cjs
+node visualization-design-2026-10-06-v19/check-en.cjs
 ```
 
 모델 검사는 Python 3.11 이상과 지정 NumPy가 필요합니다. 화면은 Node에서 화면 요소를 흉내 내는 검사로 계산·검색·이동·말풍선과 로고 렌더링 40항목을 확인합니다. **실제 화면 모양·모바일 터치·외부 로고/글꼴 로딩·시각적 품질 확인은 별도이며 미확인입니다.** 관리자용 로컬 파일 분리는 로그인 권한 검사가 아닙니다. 이전 화면의 출처 기록은 보존합니다. 팀 강조색의 정확한 색상 값은 디자인 선택값입니다.
@@ -62,8 +64,8 @@ node visualization-design-2026-10-06-v18/check-en.cjs
 
 ## 버전 관리와 SPEC
 
-[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.7.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
-해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v18을 보존하며 이번 버전은 0.7.0입니다. 한국어 index.html과 영어 index.en.html은 v18의 각 언어 화면과 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
+[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.8.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
+해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v19을 보존하며 이번 버전은 0.8.0입니다. 한국어 index.html과 영어 index.en.html은 v19의 각 언어 화면과 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
 
 | UI version | Change / 변경 |
 |---|---|
@@ -87,3 +89,5 @@ node visualization-design-2026-10-06-v18/check-en.cjs
 | [v17](visualization-design-2026-10-06-v17/index.html) | Team/match links and six detailed metric explanations / 팀·경기 연결 및 상세 지표 설명 |
 
 | [v18](visualization-design-2026-10-06-v18/index.html) | Recorded-data workbench, extension interface, broader pixel fonts / 기록 분석창·확장 규격·픽셀 글꼴 확장 |
+
+| [v19](visualization-design-2026-10-06-v19/index.html) | Gemini env/server bridge / Gemini .env·서버 연결 |

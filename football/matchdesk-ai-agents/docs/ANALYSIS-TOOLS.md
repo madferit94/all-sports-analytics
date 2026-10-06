@@ -1,6 +1,6 @@
 # Analysis tool contract / 분석 도구 규격
 
-Current execution: browser JavaScript over embedded, unchanged completed-match JSON. There is no model/API request, SQL runtime or Python runtime in the viewer. The skills are project workflow documents, not automatically installed global Codex skills.
+Offline mode executes browser JavaScript over unchanged completed-match JSON. Release 0.8.0 also provides a local Gemini server: with a locally configured key, the model selects validated conditions and server JavaScript computes records. Live Gemini success is unverified until the user supplies a key. SQL and Python runtimes remain unconnected. The skills are project workflow documents, not automatically installed global Codex skills.
 
 ## Current pipeline
 
@@ -14,7 +14,7 @@ Built-in tools: team, comparison, ranking, venue, trend. Metrics: gf, ga, xg, xg
 
 `recordAnalyst.register(name, execute, optionalMatch)` adds a synchronous handler and optional question matcher. A matcher returns explicit parameters or null when inapplicable. It runs before football parsing. The handler must provide `tool:name` in its result for custom rendering.
 
-`registerAnalysisService({name, parse, execute, render})` additionally registers the service renderer. Renderers must escape untrusted strings and distinguish failure/missing data. No new service is connected in this release. The current handler contract is synchronous; connecting a remote/model/SQL/Python service requires an asynchronous transport extension, service authentication and tests before adoption.
+`registerAnalysisService({name, parse, execute, render})` additionally registers the service renderer. Renderers must escape untrusted strings and distinguish failure/missing data. No new service is connected in this release. The record handler contract is synchronous. Release 0.8.0 adds an asynchronous same-origin /api/analyze transport for Gemini planning. Other remote/SQL/Python services still require their own authenticated adapters and tests.
 
 Prediction adapter should return home/draw/away probabilities, model version, fixture ID, data cutoff, actual validation performance and adoption state. It must not turn arbitrary LLM text into probabilities. Current model adoption remains false.
 
