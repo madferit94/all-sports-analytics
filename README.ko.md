@@ -4,9 +4,9 @@
 
 [MatchDesk 영어 화면](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
 
-## MatchDesk AI 경기 분석실 · 0.6.0
+## MatchDesk AI 경기 분석실 · 0.7.0
 
-[프로젝트·버전 이력](football/matchdesk-ai-agents/README.ko.md) · [요구사항·검증 SPEC](football/matchdesk-ai-agents/docs/SPEC-0.6.0.md) · [채택된 8비트 기본 화면](football/matchdesk-ai-agents/index.html). 팀 통계·한글 지표 풀이·필터·채택된 8비트 화면을 제공합니다. 예측 모델 채택은 보류이며 HTML을 내려받아 확인합니다. 공개 서비스로 배포한 상태는 아닙니다.
+[프로젝트·버전 이력](football/matchdesk-ai-agents/README.ko.md) · [요구사항·검증 SPEC](football/matchdesk-ai-agents/docs/SPEC-0.7.0.md) · [채택된 8비트 기본 화면](football/matchdesk-ai-agents/index.html). 팀 통계·한글 지표 풀이·필터·채택된 8비트 화면을 제공합니다. 예측 모델 채택은 보류이며 HTML을 내려받아 확인합니다. 공개 서비스로 배포한 상태는 아닙니다.
 
 
 NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션 프로젝트를 모은 저장소입니다.

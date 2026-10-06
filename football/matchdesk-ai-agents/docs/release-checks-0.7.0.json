@@ -1,0 +1,12 @@
+{
+  "release": "0.7.0",
+  "engine_checks": 15,
+  "korean_node_vm_checks": 48,
+  "english_node_vm_checks": 23,
+  "failures": 0,
+  "real_browser_rendering_verified": false,
+  "participant_confirmation": "pending",
+  "ai_model_connected": false,
+  "sql_runtime_connected": false,
+  "python_runtime_connected": false
+}

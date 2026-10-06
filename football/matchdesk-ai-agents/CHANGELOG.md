@@ -1,5 +1,13 @@
 # Release history / 변경 이력
 
+## 0.7.0 — 2026-10-06
+
+- Bilingual recorded-data workbench: phrase interpretation, comparison/ranking/venue/trend, follow-ups, chart/table/calculation disclosure. Runs in browser JavaScript.
+- Explicit unavailable prediction and unsupported-metric states; no LLM/SQL/Python execution or fabricated future probabilities.
+- Service registration interface, three project skills, ownership and SPEC; broader pixel typography. Preserve v18 and prior releases.
+- 15 engine + 48 Korean + 23 English checks passed (86 total). Actual browser confirmation pending.
+
+
 ## 0.6.0 — 2026-10-06
 
 - Separate club and explicit Understat match links in completed-match lists.
