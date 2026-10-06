@@ -1,5 +1,13 @@
 # Release history / 변경 이력
 
+## 0.4.0 — 2026-10-06
+
+- Adopt the 8-bit design as the canonical index.html and preserve v15.
+- Render original logos for all 56 teams onto 24×24 grids, reuse loads, retain aspect ratios and fall back to initials on image/canvas failures. No logo raster files are rewritten.
+- Update bilingual READMEs, selection, SPEC and hashes; preserve earlier design previews.
+- 8비트 디자인을 기본 화면으로 채택. 56개 원본 팀 로고의 픽셀 표시·비율 유지·로딩 재사용·실패 대체 처리. 자료/모델 변경과 웹 호스팅 없음.
+- Node VM: 40 checks passed; actual browser rendering and visual quality confirmation remain pending.
+
 ## 0.3.0 — 2026-10-06
 
 - Preserve UI v01–v14: team colours/logos/history, match filters, 47 Korean metrics, click explanations, layout fixes and source/external-link removal.
