@@ -20,3 +20,7 @@
 Local Node server loads ignored .env and calls Gemini to select one validated analysis tool. Server JavaScript calculates recorded statistics. API keys stay server-side; static routes cannot serve .env. Bilingual v19 adds async same-origin Gemini mode with explicit configuration/error states. 98 code checks passed, including mocked-provider HTTP tests; live Gemini verification awaits a user-supplied key. Local serving is not external hosting.
 
 [설정 안내](../server/README.ko.md) · [공식 도구 호출](https://ai.google.dev/gemini-api/docs/function-calling) · [공식 모델 목록](https://ai.google.dev/gemini-api/docs/models)
+
+## 명칭과 제공자 오류 처리
+
+방문자 표시 명칭은 AI 분석관/AI analyst입니다. 제공자 HTTP402(결제 관련)·404(모델 사용 불가)를 앱에서 따로 안내합니다. 계정별 인증·모델 접근·결제 상태는 사용자 환경에서 확인하며 실제 성공과 가짜 응답 검증을 구분합니다.

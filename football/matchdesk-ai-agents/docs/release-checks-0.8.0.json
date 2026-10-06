@@ -9,5 +9,5 @@
   "real_browser_rendering_verified": false,
   "participant_confirmation": "pending",
   "live_gemini_verified": false,
-  "provider_test": "mocked; key missing for live API"
+  "provider_test": "mocked provider responses; live analysis success unverified"
 }

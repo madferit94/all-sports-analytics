@@ -736,8 +736,8 @@
     },
     {
       "path": "docs/SPEC-0.8.0.md",
-      "bytes": 3012,
-      "sha256": "9dbb2a715f72cd846329331a419befea6681c87fd8003b29bb201a4cb9d79430",
+      "bytes": 3353,
+      "sha256": "831f05576196cfbcd875a146ce21dba9f86220f6299b91ff6af1c1d642b235d3",
       "snapshot": "0.8.0"
     },
     {
@@ -814,20 +814,20 @@
     },
     {
       "path": "docs/release-checks-0.8.0.json",
-      "bytes": 339,
-      "sha256": "09160a8dc081d65604807138bfc5d7ce68e37b8aaae3075359bee310cc4ebb50",
+      "bytes": 366,
+      "sha256": "327aa86a253978324745c6fdc8ff168d550440e669119354369a351b6af1e5a8",
       "snapshot": "0.8.0"
     },
     {
       "path": "index.en.html",
-      "bytes": 1901444,
-      "sha256": "589230b5cbba6be0314f37d968d16bb6b8c89f501475530786efd31a73fdb78f",
+      "bytes": 1901661,
+      "sha256": "56767cbb9fea9529ed87443dd040701e00259983e1c834d894907b473eb45ea3",
       "snapshot": "0.8.0"
     },
     {
       "path": "index.html",
-      "bytes": 1903312,
-      "sha256": "e05afdc2e553f39ee279efa762b7ec9df692658a09ae4c42b09f64766f21a69f",
+      "bytes": 1903614,
+      "sha256": "13e70f5ba3c9a18addc53f84d1afb7714a9a41438335222fd6bbd1dd72772363",
       "snapshot": "0.8.0"
     },
     {
@@ -946,14 +946,14 @@
     },
     {
       "path": "server/check.cjs",
-      "bytes": 5916,
-      "sha256": "d1455001b73281d580429516d30f9a68d8dcfab5ce715d82cfac8a7f7a8fe81a",
+      "bytes": 5964,
+      "sha256": "0b6ba119c5835a8db875a60ffc393d66545db18cf1ab39afbc07b7de1463b740",
       "snapshot": "0.8.0"
     },
     {
       "path": "server/gemini.cjs",
-      "bytes": 7812,
-      "sha256": "3b04d4f8a157bc3c26e79a5332c007dfc554f4f6a8bc961b8926a4fe236f2e3b",
+      "bytes": 7888,
+      "sha256": "78647c8617216003a341fce6bd7679b5228b3e90ff403160eb379dea48371323",
       "snapshot": "0.8.0"
     },
     {
@@ -1414,8 +1414,8 @@
     },
     {
       "path": "tools/build_gemini_v19.py",
-      "bytes": 3909,
-      "sha256": "5efa1807cdb04688d72d6a68b3ce3c1df0e6d86ed37d84163dfa57110d01b395",
+      "bytes": 3919,
+      "sha256": "45e554dc5a5158092eb09806c87aecfcb4bab08e78ac009a2e214ce972aa6627",
       "snapshot": "0.8.0"
     },
     {
@@ -2056,14 +2056,14 @@
     },
     {
       "path": "visualization-design-2026-10-06-v19/index.en.html",
-      "bytes": 1901444,
-      "sha256": "589230b5cbba6be0314f37d968d16bb6b8c89f501475530786efd31a73fdb78f",
+      "bytes": 1901661,
+      "sha256": "56767cbb9fea9529ed87443dd040701e00259983e1c834d894907b473eb45ea3",
       "snapshot": "0.8.0"
     },
     {
       "path": "visualization-design-2026-10-06-v19/index.html",
-      "bytes": 1903312,
-      "sha256": "e05afdc2e553f39ee279efa762b7ec9df692658a09ae4c42b09f64766f21a69f",
+      "bytes": 1903614,
+      "sha256": "13e70f5ba3c9a18addc53f84d1afb7714a9a41438335222fd6bbd1dd72772363",
       "snapshot": "0.8.0"
     },
     {
