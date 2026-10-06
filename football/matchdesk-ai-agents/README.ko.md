@@ -2,11 +2,13 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-**버전 0.4.0 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
+**버전 0.5.0 · 2026-10-06.** 축구 자료 수집·팀 분석·화면·독립 검증·최종 내부 판단을 연결하는 5인 에이전트 프로젝트입니다. AI 제공자와 모델은 고정하지 않습니다.
 
 ## 화면 열기
+- [영어 사이트](index.en.html) · [한국어 사이트](index.html): 메뉴·필터·47개 지표 이름·의미·읽는 법을 번역했습니다. 프리미어리그 27개·라리가 29개는 과거 시즌 팀을 포함한 수입니다. 상단 언어 전환 시 선택 팀 주소는 유지되고 나머지 필터는 초기화됩니다. 한국어 40개·영어 15개 코드 동작 검사 통과. 실제 브라우저 화면은 확인 전입니다.
 
-- [MatchDesk 기본 화면 — 채택된 8비트 디자인](index.html) · [v15 버전](visualization-design-2026-10-06-v15/index.html)
+
+- [MatchDesk 기본 화면 — 채택된 8비트 디자인](index.html) · [v16 버전](visualization-design-2026-10-06-v16/index.html)
 - [부드러운 앱 디자인 예시 — v13](visualization-design-2026-10-06-v13/index.html)
 - [8비트 게임 디자인 미리보기 — v14](visualization-design-2026-10-06-v14/index.html)
 - [디자인 후보 3개 비교](design-candidates-2026-10-06-v01/index.html)
@@ -46,7 +48,8 @@ HTML에는 **완료 2,399경기·예정 641경기·56개 팀**, 팀별 경기 �
 python -m unittest discover -s agent-team-2026-10-06-v01/tests -v
 python -m unittest discover -s agent-team-integrated-2026-10-06-v01/tests -v
 python -m unittest discover -s modeling/tests -v
-node visualization-design-2026-10-06-v15/check.cjs
+node visualization-design-2026-10-06-v16/check.cjs
+node visualization-design-2026-10-06-v16/check-en.cjs
 ```
 
 모델 검사는 Python 3.11 이상과 지정 NumPy가 필요합니다. 화면은 Node에서 화면 요소를 흉내 내는 검사로 계산·검색·이동·말풍선과 로고 렌더링 40항목을 확인합니다. **실제 화면 모양·모바일 터치·외부 로고/글꼴 로딩·시각적 품질 확인은 별도이며 미확인입니다.** 관리자용 로컬 파일 분리는 로그인 권한 검사가 아닙니다. 이전 화면의 출처 기록은 보존합니다. 팀 강조색의 정확한 색상 값은 디자인 선택값입니다.
@@ -55,8 +58,8 @@ node visualization-design-2026-10-06-v15/check.cjs
 
 ## 버전 관리와 SPEC
 
-[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.4.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
-해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v15를 보존하며 이번 버전은 0.4.0입니다. 기본 index.html은 채택된 v15와 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
+[VERSION](VERSION) · [변경 이력](CHANGELOG.md) · [요구사항·검증 SPEC](docs/SPEC-0.5.0.md) · [0.3.0 SPEC](docs/SPEC-0.3.0.md) · [버전 규칙](docs/VERSIONING.md) · [현재 화면 선택](viewer_selection.json) · [내용 해시](publication_manifest.json).
+해시는 파일 내용이 바뀌었는지 비교하는 값입니다. 화면 v01~v16을 보존하며 이번 버전은 0.5.0입니다. 한국어 index.html과 영어 index.en.html은 v16의 각 언어 화면과 동일합니다. 0.2.1 파일 명세도 보관합니다. 일부 과거 생성/검증 명령은 당시 로컬 환경의 기록으로, 모든 과거 생성기가 다른 컴퓨터에서 바로 실행된다는 뜻은 아닙니다.
 
 | UI version | Change / 변경 |
 |---|---|
@@ -75,3 +78,4 @@ node visualization-design-2026-10-06-v15/check.cjs
 | [v13](visualization-design-2026-10-06-v13/index.html) | 부드러운 앱 디자인 예시 |
 | [v14](visualization-design-2026-10-06-v14/index.html) | 8비트 디자인 미리보기 |
 | [v15](visualization-design-2026-10-06-v15/index.html) | 8비트 기본 디자인 채택·팀 로고 픽셀 표시 |
+| [v16](visualization-design-2026-10-06-v16/index.html) · [English](visualization-design-2026-10-06-v16/index.en.html) | 한·영 8비트 화면·47개 영어 지표 설명·언어 전환 |

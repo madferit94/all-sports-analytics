@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.4.0",
   "public_export": true,
   "files": [
     {
@@ -16,27 +16,27 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3299,
-      "sha256": "d43a4a5bc5beb85b5ad08f45ab9a5caedfbc6a8478ff2cd91ffd65fec3be3567",
-      "snapshot": "0.5.0"
+      "bytes": 2667,
+      "sha256": "7ce9e961ee230bd698f1673282244afacaee325575302902a50b188f3c708e75",
+      "snapshot": "0.4.0"
     },
     {
       "path": "README.ko.md",
-      "bytes": 7989,
-      "sha256": "6baef9cbb31cf2026bb71cb6c09069a55c3a02367c438ea3847f8b170e2abda4",
-      "snapshot": "0.5.0"
+      "bytes": 7253,
+      "sha256": "4659f66be251b96e478182275bf629893d2902b8c3992b7bea91a7a4ac077246",
+      "snapshot": "0.4.0"
     },
     {
       "path": "README.md",
-      "bytes": 7469,
-      "sha256": "caf7568ebf2cda30c50ac966056185bb7e936d3cfd5395b2d9b19a03391c52d7",
-      "snapshot": "0.5.0"
+      "bytes": 6798,
+      "sha256": "69cf141a7e8bc05edb782428a7cdf6f3ad5dd137b85e2caccf0347c024f9d133",
+      "snapshot": "0.4.0"
     },
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8",
-      "snapshot": "0.5.0"
+      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79",
+      "snapshot": "0.4.0"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -681,16 +681,10 @@
       "snapshot": "0.4.0"
     },
     {
-      "path": "docs/SPEC-0.5.0.md",
-      "bytes": 2972,
-      "sha256": "21672ff46b92321e32c4e3d0e47284e0bac21bbbbfe80ea3ba8f5e6e6822767a",
-      "snapshot": "0.5.0"
-    },
-    {
       "path": "docs/VERSIONING.md",
-      "bytes": 2552,
-      "sha256": "fc0917ca5d3145daca61333dac4b28fafff5e06093ef95de7da3795a12936ed9",
-      "snapshot": "0.5.0"
+      "bytes": 2315,
+      "sha256": "3febdf11f7232b6a63aea97dd7f650fded17924079dfdd46a85246abafe3f313",
+      "snapshot": "0.4.0"
     },
     {
       "path": "docs/publication_manifest-0.2.1.json",
@@ -705,12 +699,6 @@
       "snapshot": "0.4.0"
     },
     {
-      "path": "docs/publication_manifest-0.4.0.json",
-      "bytes": 61781,
-      "sha256": "fedfa698af3b7f9eb2749eb3a7ec9344f7ebe59004f7caa739e9b7c51dc7432d",
-      "snapshot": "0.5.0"
-    },
-    {
       "path": "docs/release-checks-0.3.0.json",
       "bytes": 697,
       "sha256": "33732262ca2bbeacbabb7e6c5dd1e4f2dc593ef6683fee910466628a77ca710b",
@@ -723,22 +711,10 @@
       "snapshot": "0.4.0"
     },
     {
-      "path": "docs/release-checks-0.5.0.json",
-      "bytes": 363,
-      "sha256": "58666e501b6544d9c4e7b7826c9553a2ac1aaaabc8ec96031b0ab09863f0e45f",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "index.en.html",
-      "bytes": 1877876,
-      "sha256": "fc198816868a70682a6afd995c76c19a265d959883c162134ce9495cdc8301c1",
-      "snapshot": "0.5.0"
-    },
-    {
       "path": "index.html",
-      "bytes": 1879178,
-      "sha256": "29098f48bd9346ff8fcfef248838e9d8a7748243c219fd68a256077c01ac0008",
-      "snapshot": "0.5.0"
+      "bytes": 1878380,
+      "sha256": "13b1a8c078bd53fbae2d5f9fdca5820e63bf72f31d5e350405f55630912e1bdc",
+      "snapshot": "0.4.0"
     },
     {
       "path": "modeling/.gitignore",
@@ -1257,16 +1233,10 @@
       "snapshot": "0.2.0"
     },
     {
-      "path": "tools/build_bilingual_v16.py",
-      "bytes": 14822,
-      "sha256": "91da32e176dee346e739b46006f9b5041ae79f1cef1f6de1ae853bd77438d6c8",
-      "snapshot": "0.5.0"
-    },
-    {
       "path": "tools/check_release.py",
-      "bytes": 4405,
-      "sha256": "d3840ea555a30997d7ae98eb20b075a3573947f3053b10a32c10e0b83f5a3a59",
-      "snapshot": "0.5.0"
+      "bytes": 3799,
+      "sha256": "a0debc0c8442adb8c3203fc00a09f5bcb6f468b2811fcde3125a24cb695bd09f",
+      "snapshot": "0.4.0"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -1281,16 +1251,10 @@
       "snapshot": "0.4.0"
     },
     {
-      "path": "tools/prepare_release_v05.py",
-      "bytes": 7090,
-      "sha256": "61ae3b4d9ee071b26a4efd473185dadaa9b5a7d375458d26aff4611cee9a5f6a",
-      "snapshot": "0.5.0"
-    },
-    {
       "path": "viewer_selection.json",
-      "bytes": 555,
-      "sha256": "83fa30b4c83030610ffc105a04b54f716fb3c1b3df57da469a6d603d9b4f3c0b",
-      "snapshot": "0.5.0"
+      "bytes": 418,
+      "sha256": "4e764a9be6d52f7fe83262cb9e51c430830c2e25773feb8a4a3521bd88a54d89",
+      "snapshot": "0.4.0"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",
@@ -1759,54 +1723,6 @@
       "bytes": 109,
       "sha256": "6eed5ff975ba5b379b34a7c365c612f34ca0296790dabab32fd9b007e0269400",
       "snapshot": "0.4.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/check-en.cjs",
-      "bytes": 5760,
-      "sha256": "d7b99425a2be9bf484ed531bced8981194ba1c6273be6eb8862f2365cd137fbc",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/check.cjs",
-      "bytes": 20166,
-      "sha256": "5d578d249b34169a3da0d387c350d7fdebbc68211161bac9853b71b3cec2750a",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/index.en.html",
-      "bytes": 1877876,
-      "sha256": "fc198816868a70682a6afd995c76c19a265d959883c162134ce9495cdc8301c1",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/index.html",
-      "bytes": 1879178,
-      "sha256": "29098f48bd9346ff8fcfef248838e9d8a7748243c219fd68a256077c01ac0008",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/logic-check.en.json",
-      "bytes": 103,
-      "sha256": "69c1e3320acbd2134b4a439291ed668a87de62b286728444d65aac5cd61dfc4d",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/logic-check.json",
-      "bytes": 109,
-      "sha256": "6eed5ff975ba5b379b34a7c365c612f34ca0296790dabab32fd9b007e0269400",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/metric-language.en.json",
-      "bytes": 7771,
-      "sha256": "ab4611b900d0f9fd19b8d02ba8c637df621d78ed959ef1b4e2a3ed702d29a386",
-      "snapshot": "0.5.0"
-    },
-    {
-      "path": "visualization-design-2026-10-06-v16/ui-translations.en.json",
-      "bytes": 8078,
-      "sha256": "ea2330c5d68d67fdcf147c6d033880b1959ee12c138aa0bdda3f36c82e9d6d3b",
-      "snapshot": "0.5.0"
     }
   ],
   "display_dataset": {

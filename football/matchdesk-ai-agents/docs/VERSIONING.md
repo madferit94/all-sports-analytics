@@ -15,3 +15,7 @@ Viewer revisions v01–v14 remain immutable comparisons. viewer_selection.json s
 ## 0.4.0 adopted design
 
 The user adopted the pixel design. index.html is identical to v15, and viewer_selection.json points to it. v13/v14 stay preserved previews, not the current entry. docs/publication_manifest-0.3.0.json preserves the preceding release. No repository-wide tag is used in this multi-project repository.
+
+## 0.5.0 bilingual interface
+
+Both canonical language entries match the preserved v16 snapshots. The 0.4.0 manifest remains in docs/publication_manifest-0.4.0.json. English changes presentation metadata only, preserving all statistics.

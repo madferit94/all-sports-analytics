@@ -1,5 +1,13 @@
 # Release history / 변경 이력
 
+## 0.5.0 — 2026-10-06
+
+- Add canonical English index.en.html alongside Korean index.html, preserving v16 in both languages.
+- Translate all UI, filters, 47 StatMuse metric labels/definitions, reading tips and accessibility labels. Language links preserve selected-team hashes; other filters reset.
+- Confirm 27 Premier League and 29 LaLiga historical/current clubs retain pixel logos and club colours. Statistical data and prediction adoption unchanged.
+- 한·영 화면과 지표 설명 제공, 선택 팀을 유지하는 언어 전환. 한국어 40개·영어 15개 코드 검사 통과. 실제 화면·참가자 확인 전.
+
+
 ## 0.4.0 — 2026-10-06
 
 - Adopt the 8-bit design as the canonical index.html and preserve v15.

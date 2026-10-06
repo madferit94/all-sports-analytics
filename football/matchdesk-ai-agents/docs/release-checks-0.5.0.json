@@ -1,0 +1,15 @@
+{
+  "release": "0.5.0",
+  "date": "2026-10-06",
+  "korean_node_vm_checks": 40,
+  "english_node_vm_checks": 15,
+  "failures": 0,
+  "league_clubs": {
+    "EPL": 27,
+    "La_liga": 29
+  },
+  "translated_metrics": 47,
+  "real_browser_rendering_verified": false,
+  "participant_confirmation": "pending",
+  "method": "Node VM DOM stubs, not actual browser rendering"
+}

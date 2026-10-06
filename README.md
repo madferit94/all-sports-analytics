@@ -2,9 +2,11 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-## MatchDesk football agent project · 0.4.0
+[English MatchDesk site](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
 
-[Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.4.0.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental prediction adoption remains false. Download HTML to view; no hosted service is claimed.
+## MatchDesk football agent project · 0.5.0
+
+[Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.5.0.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental prediction adoption remains false. Download HTML to view; no hosted service is claimed.
 
 
 **A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**
