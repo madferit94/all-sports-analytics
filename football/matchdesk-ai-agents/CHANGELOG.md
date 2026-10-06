@@ -1,5 +1,11 @@
 # Release history / 변경 이력
 
+## 0.9.1 — 2026-10-06
+
+- Include CSS in UTF-8/LF publication-hash normalization, preventing unchanged stylesheets from failing after Windows CRLF checkout. Preserve the exact 0.9.0 manifest as the baseline.
+- CSS 줄바꿈 차이에 따른 파일 검사 오류만 수정합니다. v23 한영 화면·각 팀 11명 재생·모델·확률·수집 자료는 동일합니다.
+- Validate LF/CRLF hash equivalence in memory and rerun the publication audit; no paid API call or new visual test is performed.
+
 ## 0.9.0 — 2026-10-06
 
 - Preserve v20 improved AI errors, v21 readable loss/draw colours, v22 experimental prediction/replay and v23 eleven-player correction in both languages.
