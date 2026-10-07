@@ -1,0 +1,37 @@
+{
+  "selected": "logistic",
+  "model_path": "model.json",
+  "rule": "2024/25 validation log loss minimum",
+  "validation": {
+    "logistic": {
+      "n": 759,
+      "accuracy": 0.5191040843214756,
+      "log_loss": 0.9964531249787161,
+      "brier": 0.5945904995559681,
+      "ece_10bins": 0.03422895602005362
+    },
+    "catboost100": {
+      "n": 759,
+      "accuracy": 0.5191040843214756,
+      "log_loss": 0.996896043022838,
+      "brier": 0.59578383130342,
+      "ece_10bins": 0.06031515947957533
+    },
+    "xgboost100": {
+      "n": 759,
+      "accuracy": 0.49538866930171277,
+      "log_loss": 1.0270090103149414,
+      "brier": 0.6147429453924097,
+      "ece_10bins": 0.07343238191642308
+    },
+    "xgboost200": {
+      "n": 759,
+      "accuracy": 0.49670619235836627,
+      "log_loss": 1.0640685558319092,
+      "brier": 0.6347653352219325,
+      "ece_10bins": 0.11000837792049756
+    }
+  },
+  "status": "LOCKED_PROVISIONAL_NOT_DEPLOYED",
+  "important": "Previously observed evaluation periods; tiny validation gap is not statistically established superiority. Confirm prospectively."
+}

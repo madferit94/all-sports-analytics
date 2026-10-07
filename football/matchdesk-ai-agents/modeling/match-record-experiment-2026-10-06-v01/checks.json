@@ -1,0 +1,304 @@
+{
+  "checks": [
+    {
+      "name": "exact_match_alignment",
+      "passed": true,
+      "details": {
+        "matches": 2399
+      }
+    },
+    {
+      "name": "feature_schema",
+      "passed": true,
+      "details": {
+        "features": [
+          "home_recent_points",
+          "home_recent_gf",
+          "home_recent_ga",
+          "home_recent_xgf",
+          "home_recent_xga",
+          "home_recent_npxgf",
+          "home_recent_npxga",
+          "home_recent_deep",
+          "home_recent_deep_allowed",
+          "home_recent_ppda",
+          "home_recent_ppda_allowed",
+          "home_season_points",
+          "home_season_gf",
+          "home_season_ga",
+          "home_season_xgf",
+          "home_season_xga",
+          "home_season_npxgf",
+          "home_season_npxga",
+          "home_season_deep",
+          "home_season_deep_allowed",
+          "home_season_ppda",
+          "home_season_ppda_allowed",
+          "home_current_count",
+          "home_last5_count",
+          "home_previous_count",
+          "home_cold_start",
+          "home_league_gap_days",
+          "home_win5_ratio",
+          "home_draw5_ratio",
+          "home_loss5_ratio",
+          "away_recent_points",
+          "away_recent_gf",
+          "away_recent_ga",
+          "away_recent_xgf",
+          "away_recent_xga",
+          "away_recent_npxgf",
+          "away_recent_npxga",
+          "away_recent_deep",
+          "away_recent_deep_allowed",
+          "away_recent_ppda",
+          "away_recent_ppda_allowed",
+          "away_season_points",
+          "away_season_gf",
+          "away_season_ga",
+          "away_season_xgf",
+          "away_season_xga",
+          "away_season_npxgf",
+          "away_season_npxga",
+          "away_season_deep",
+          "away_season_deep_allowed",
+          "away_season_ppda",
+          "away_season_ppda_allowed",
+          "away_current_count",
+          "away_last5_count",
+          "away_previous_count",
+          "away_cold_start",
+          "away_league_gap_days",
+          "away_win5_ratio",
+          "away_draw5_ratio",
+          "away_loss5_ratio",
+          "is_epl"
+        ]
+      }
+    },
+    {
+      "name": "all_history_strictly_before",
+      "passed": true,
+      "details": {
+        "policy": "source-date strict; same-day excluded"
+      }
+    },
+    {
+      "name": "last5_strictly_before",
+      "passed": true,
+      "details": {
+        "max_recent": 5
+      }
+    },
+    {
+      "name": "current_and_future_mutation_invariance",
+      "passed": true,
+      "details": {
+        "pivot": "2025-08-16",
+        "compared_matches": 1531,
+        "changed_matches": 876
+      }
+    },
+    {
+      "name": "after_cutoff_record_invariance",
+      "passed": true,
+      "details": {
+        "extra_date": "2026-10-07"
+      }
+    },
+    {
+      "name": "train_only_standardization",
+      "passed": true,
+      "details": {
+        "training_seasons": [
+          "2023/24",
+          "2024/25"
+        ]
+      }
+    },
+    {
+      "name": "probabilities_2025/26",
+      "passed": true,
+      "details": {
+        "n": 760
+      }
+    },
+    {
+      "name": "reproduce_existing_2025/26",
+      "passed": true,
+      "details": {
+        "n": 760,
+        "metrics": {
+          "n": 760,
+          "accuracy": 0.5092105263157894,
+          "log_loss": 1.0110803984140062,
+          "brier_sum_of_three_classes": 0.6062614887771517,
+          "expected_calibration_error_10bins": 0.03982673973791427,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 150,
+              "accuracy": 0.4533333333333333,
+              "mean_confidence": 0.37573707658171296
+            },
+            {
+              "lower": 0.4,
+              "n": 276,
+              "accuracy": 0.43478260869565216,
+              "mean_confidence": 0.44493343967091886
+            },
+            {
+              "lower": 0.5,
+              "n": 189,
+              "accuracy": 0.5343915343915344,
+              "mean_confidence": 0.5444576071174003
+            },
+            {
+              "lower": 0.6,
+              "n": 90,
+              "accuracy": 0.5555555555555556,
+              "mean_confidence": 0.6459882496476959
+            },
+            {
+              "lower": 0.7,
+              "n": 41,
+              "accuracy": 0.8536585365853658,
+              "mean_confidence": 0.7434995965701321
+            },
+            {
+              "lower": 0.8,
+              "n": 14,
+              "accuracy": 0.9285714285714286,
+              "mean_confidence": 0.8379066010862627
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "probabilities_2026/27",
+      "passed": true,
+      "details": {
+        "n": 119
+      }
+    },
+    {
+      "name": "reproduce_existing_2026/27",
+      "passed": true,
+      "details": {
+        "n": 119,
+        "metrics": {
+          "n": 119,
+          "accuracy": 0.42857142857142855,
+          "log_loss": 1.0313131811399017,
+          "brier_sum_of_three_classes": 0.617870581955391,
+          "expected_calibration_error_10bins": 0.11209520018624167,
+          "calibration_bins": [
+            {
+              "lower": 0.3,
+              "n": 28,
+              "accuracy": 0.35714285714285715,
+              "mean_confidence": 0.3741894330187664
+            },
+            {
+              "lower": 0.4,
+              "n": 42,
+              "accuracy": 0.2619047619047619,
+              "mean_confidence": 0.44334682671648373
+            },
+            {
+              "lower": 0.5,
+              "n": 25,
+              "accuracy": 0.52,
+              "mean_confidence": 0.542432007839468
+            },
+            {
+              "lower": 0.6,
+              "n": 13,
+              "accuracy": 0.46153846153846156,
+              "mean_confidence": 0.6418024578809889
+            },
+            {
+              "lower": 0.7,
+              "n": 6,
+              "accuracy": 1.0,
+              "mean_confidence": 0.7241486943936035
+            },
+            {
+              "lower": 0.8,
+              "n": 5,
+              "accuracy": 1.0,
+              "mean_confidence": 0.8635764013065902
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "no_snapshot_columns_in_features",
+      "passed": true,
+      "details": {
+        "excluded_columns": [
+          "statmuse_A",
+          "statmuse_xA",
+          "statmuse_POSS%",
+          "statmuse_PK",
+          "statmuse_FK",
+          "statmuse_SH",
+          "statmuse_SOT",
+          "statmuse_TCH",
+          "statmuse_TCH-BOX",
+          "statmuse_OFF",
+          "statmuse_PASS",
+          "statmuse_PASS/M",
+          "statmuse_PASS%",
+          "statmuse_PASS-ATT",
+          "statmuse_BCC",
+          "statmuse_PASS-KEY",
+          "statmuse_PASS-LNG",
+          "statmuse_PASS-F3RD",
+          "statmuse_THRU-BALL",
+          "statmuse_CRS",
+          "statmuse_CNR",
+          "statmuse_TKL",
+          "statmuse_TKL-W",
+          "statmuse_TKL-LM",
+          "statmuse_SH-BLK",
+          "statmuse_BLK-CRS",
+          "statmuse_INT",
+          "statmuse_CLR",
+          "statmuse_REC",
+          "statmuse_ERR-SH",
+          "statmuse_ERR-G",
+          "statmuse_PKC",
+          "statmuse_OG",
+          "statmuse_SV",
+          "statmuse_SV-PK",
+          "statmuse_CS",
+          "statmuse_YC",
+          "statmuse_RC",
+          "statmuse_FOUL",
+          "statmuse_FOULED",
+          "statmuse_PK-W",
+          "statmuse_CNR-W",
+          "statmuse_AER-W",
+          "statmuse_AER-L",
+          "statmuse_DUEL-W",
+          "statmuse_DUEL-L",
+          "statmuse_POSS-L"
+        ],
+        "reason": "No pre-match match-level historical availability"
+      }
+    },
+    {
+      "name": "original_files_preserved",
+      "passed": true,
+      "details": {
+        "file_count": 7
+      }
+    }
+  ],
+  "passed": 13,
+  "failed": 0,
+  "subject": "AI automated checks; no independent reviewer or participant confirmation"
+}

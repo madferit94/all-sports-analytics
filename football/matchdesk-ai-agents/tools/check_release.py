@@ -15,7 +15,7 @@ for f in files:
     blob=(repo/f).read_bytes()
     assert not any(rx.search(blob) for rx in patterns), f'Credential-like content in {f}'
     assert (repo/f).stat().st_size<95*1024*1024, f'Oversize file: {f}'
-link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.9.1.md']
+link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.12.1.md']
 links=0
 for doc in link_docs:
     for target in re.findall(r'\]\(([^)]+)\)',doc.read_text(encoding='utf8')):
@@ -27,10 +27,10 @@ def payload(version):
     html=(p/f'visualization-design-2026-10-06-{version}/index.html').read_text(encoding='utf8')
     return json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',html,re.S)[1])
 assert all(payload(f'v{n}')==payload('v12') for n in range(13,24)), 'Design preview changed source data'
-assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-06-v23/index.html').read_bytes(), 'Default entry differs from adopted v23'
+assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-07-v32/index.html').read_bytes(), 'Default entry differs from adopted v32'
 
 en_html=(p/'index.en.html').read_text(encoding='utf8')
-assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-06-v23/index.en.html').read_bytes()
+assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-07-v32/index.en.html').read_bytes()
 english=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',en_html,re.S)[1])
 korean=payload('v23')
 for key in korean:
@@ -43,6 +43,10 @@ english_labels=re.sub(r'<script id="data" type="application/json">.*?</script>',
 for module in ('pixel-simulation.js','integration.js'):
     shared=(p/'simulation/pixel-v2-2026-10-06-v01'/module).read_text(encoding='utf8').strip()
     assert shared in english_labels, f'Shared module differs: {module}'
+    english_labels=english_labels.replace(shared,'')
+for module in ('team-chart-engine.cjs','team-chart-ui.js'):
+    shared=(p/'visualization-design-2026-10-07-v31'/module).read_text(encoding='utf8')
+    assert shared in english_labels, f'Chart module differs: {module}'
     english_labels=english_labels.replace(shared,'')
 assert not re.search('[가-힣]',english_labels.replace('한국어',''))
 
@@ -58,9 +62,9 @@ for f in files:
     if Path(relative).suffix in text_ext or Path(relative).name in {'.gitignore','.gitattributes','VERSION'}:
         b=b.replace(b'\r\n',b'\n')
     digest=hashlib.sha256(b).hexdigest()
-    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.9.1'
+    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.12.1'
     entries.append(dict(path=relative,bytes=len(b),sha256=digest,snapshot=snapshot))
-manifest=dict(version='0.9.1',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),published_model_evidence=['prematch-v2 features, model weights, metrics and future probabilities','prior-rank ablation and independent review'],excluded=['full provider caches','complete source modeling CSV','ignored baseline generated runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
+manifest=dict(version='0.12.1',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),published_model_evidence=['prematch-v2 features, model weights, metrics and future probabilities','prior-rank ablation and independent review'],excluded=['full provider caches','complete source modeling CSV','ignored baseline generated runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
 if '--write-manifest' in sys.argv:
     (p/'publication_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 else:

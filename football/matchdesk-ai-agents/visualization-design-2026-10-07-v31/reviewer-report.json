@@ -1,0 +1,8638 @@
+{
+  "run_id": "team-chart-independent-review-2026-10-07-v31",
+  "match_key": "team-charts-all-metrics",
+  "agent_id": "reviewer",
+  "role": "reviewer",
+  "producer_id": "/root/chart_reviewer",
+  "status": "DONE",
+  "observed_at": "2026-10-07T02:12:56.273Z",
+  "summary": {
+    "PASS": 292,
+    "FAIL": 0
+  },
+  "expectation": {
+    "season": "Four snapshots 2023/24..2026/27; raw totals preserved, percentage bars and paired aerial/duel stacked counts; missing remains null; current season ongoing.",
+    "recent": "Home/away orientation from completed match plus team detail; PPDA att/def, zero or absent denominator null; under four observations bars; WDL counts only observed finite scores.",
+    "filters": "Actual HTML selectedGames applies season, venue, result, date and recent bounds. Recent chart inherits that subset then chart window; season snapshot independent of match subset.",
+    "ui": "Actual embedded engine/UI source executes, data table accompanies chart, missing line point breaks connection, paired missing season says no data; no non-finite SVG dimensions.",
+    "unknown": "Browser appearance, keyboard, touch, external assets and user acceptance delegated to root; no model evaluation or final approval."
+  },
+  "execution_kind": "AI_NODE_EXECUTION_AND_SIMULATED_DOM",
+  "evidence": [
+    {
+      "path": "reviewer-check.cjs",
+      "description": "Independent expected values and repeatable comparison code"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "index.html",
+      "sha256": "f030633f3daac00c9b33f898010d7ca542be98fad2ff9f09fe82e0d37b8dad67"
+    },
+    {
+      "path": "index.en.html",
+      "sha256": "50705be819b58cd597bc66899c3cf19ee8f0105fb6cae226b424c758530d006d"
+    }
+  ],
+  "tests": [
+    {
+      "name": "index.html embeds engine",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html embeds UI",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html metadata count",
+      "status": "PASS",
+      "expected": 47,
+      "actual": 47
+    },
+    {
+      "name": "index.html recent count",
+      "status": "PASS",
+      "expected": 10,
+      "actual": 10
+    },
+    {
+      "name": "index.html season A",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            62
+          ],
+          [
+            55
+          ],
+          [
+            51
+          ],
+          [
+            6
+          ]
+        ],
+        "actual": [
+          [
+            62
+          ],
+          [
+            55
+          ],
+          [
+            51
+          ],
+          [
+            6
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season xA",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            57.94
+          ],
+          [
+            45.46
+          ],
+          [
+            42.65
+          ],
+          [
+            6.38
+          ]
+        ],
+        "actual": [
+          [
+            57.94
+          ],
+          [
+            45.46
+          ],
+          [
+            42.65
+          ],
+          [
+            6.38
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season POSS%",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            58.5
+          ],
+          [
+            57.1
+          ],
+          [
+            56.4
+          ],
+          [
+            59.5
+          ]
+        ],
+        "actual": [
+          [
+            58.5
+          ],
+          [
+            57.1
+          ],
+          [
+            56.4
+          ],
+          [
+            59.5
+          ]
+        ],
+        "type": "percent",
+        "unit": "%"
+      }
+    },
+    {
+      "name": "index.html season PK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            10
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            10
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season FK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season SH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            656
+          ],
+          [
+            547
+          ],
+          [
+            552
+          ],
+          [
+            65
+          ]
+        ],
+        "actual": [
+          [
+            656
+          ],
+          [
+            547
+          ],
+          [
+            552
+          ],
+          [
+            65
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season SOT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            227
+          ],
+          [
+            188
+          ],
+          [
+            186
+          ],
+          [
+            24
+          ]
+        ],
+        "actual": [
+          [
+            227
+          ],
+          [
+            188
+          ],
+          [
+            186
+          ],
+          [
+            24
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season TCH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            26780
+          ],
+          [
+            25374
+          ],
+          [
+            24869
+          ],
+          [
+            3407
+          ]
+        ],
+        "actual": [
+          [
+            26780
+          ],
+          [
+            25374
+          ],
+          [
+            24869
+          ],
+          [
+            3407
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season TCH-BOX",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1580
+          ],
+          [
+            1364
+          ],
+          [
+            1228
+          ],
+          [
+            157
+          ]
+        ],
+        "actual": [
+          [
+            1580
+          ],
+          [
+            1364
+          ],
+          [
+            1228
+          ],
+          [
+            157
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season OFF",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            87
+          ],
+          [
+            82
+          ],
+          [
+            61
+          ],
+          [
+            20
+          ]
+        ],
+        "actual": [
+          [
+            87
+          ],
+          [
+            82
+          ],
+          [
+            61
+          ],
+          [
+            20
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PASS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            18391
+          ],
+          [
+            16360
+          ],
+          [
+            15233
+          ],
+          [
+            2195
+          ]
+        ],
+        "actual": [
+          [
+            18391
+          ],
+          [
+            16360
+          ],
+          [
+            15233
+          ],
+          [
+            2195
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PASS/M",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            483.97
+          ],
+          [
+            430.53
+          ],
+          [
+            400.87
+          ],
+          [
+            439
+          ]
+        ],
+        "actual": [
+          [
+            483.97
+          ],
+          [
+            430.53
+          ],
+          [
+            400.87
+          ],
+          [
+            439
+          ]
+        ],
+        "type": "bars",
+        "unit": "경기당"
+      }
+    },
+    {
+      "name": "index.html season PASS%",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            87
+          ],
+          [
+            87.2
+          ],
+          [
+            84.6
+          ],
+          [
+            86.8
+          ]
+        ],
+        "actual": [
+          [
+            87
+          ],
+          [
+            87.2
+          ],
+          [
+            84.6
+          ],
+          [
+            86.8
+          ]
+        ],
+        "type": "percent",
+        "unit": "%"
+      }
+    },
+    {
+      "name": "index.html season PASS-ATT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            21151
+          ],
+          [
+            18757
+          ],
+          [
+            18013
+          ],
+          [
+            2529
+          ]
+        ],
+        "actual": [
+          [
+            21151
+          ],
+          [
+            18757
+          ],
+          [
+            18013
+          ],
+          [
+            2529
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season BCC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            82
+          ],
+          [
+            89
+          ],
+          [
+            81
+          ],
+          [
+            7
+          ]
+        ],
+        "actual": [
+          [
+            82
+          ],
+          [
+            89
+          ],
+          [
+            81
+          ],
+          [
+            7
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PASS-KEY",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            441
+          ],
+          [
+            372
+          ],
+          [
+            353
+          ],
+          [
+            51
+          ]
+        ],
+        "actual": [
+          [
+            441
+          ],
+          [
+            372
+          ],
+          [
+            353
+          ],
+          [
+            51
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PASS-LNG",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1616
+          ],
+          [
+            1434
+          ],
+          [
+            1748
+          ],
+          [
+            215
+          ]
+        ],
+        "actual": [
+          [
+            1616
+          ],
+          [
+            1434
+          ],
+          [
+            1748
+          ],
+          [
+            215
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PASS-F3RD",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            7236
+          ],
+          [
+            6479
+          ],
+          [
+            5766
+          ],
+          [
+            813
+          ]
+        ],
+        "actual": [
+          [
+            7236
+          ],
+          [
+            6479
+          ],
+          [
+            5766
+          ],
+          [
+            813
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season THRU-BALL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            33
+          ],
+          [
+            25
+          ],
+          [
+            30
+          ],
+          [
+            8
+          ]
+        ],
+        "actual": [
+          [
+            33
+          ],
+          [
+            25
+          ],
+          [
+            30
+          ],
+          [
+            8
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season CRS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            177
+          ],
+          [
+            185
+          ],
+          [
+            164
+          ],
+          [
+            17
+          ]
+        ],
+        "actual": [
+          [
+            177
+          ],
+          [
+            185
+          ],
+          [
+            164
+          ],
+          [
+            17
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season CNR",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            265
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            25
+          ]
+        ],
+        "actual": [
+          [
+            265
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            25
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season TKL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            609
+          ],
+          [
+            572
+          ],
+          [
+            586
+          ],
+          [
+            59
+          ]
+        ],
+        "actual": [
+          [
+            609
+          ],
+          [
+            572
+          ],
+          [
+            586
+          ],
+          [
+            59
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season TKL-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            349
+          ],
+          [
+            333
+          ],
+          [
+            332
+          ],
+          [
+            33
+          ]
+        ],
+        "actual": [
+          [
+            349
+          ],
+          [
+            333
+          ],
+          [
+            332
+          ],
+          [
+            33
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season TKL-LM",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            4
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            4
+          ]
+        ],
+        "actual": [
+          [
+            4
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            4
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season SH-BLK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            217
+          ],
+          [
+            179
+          ],
+          [
+            165
+          ],
+          [
+            22
+          ]
+        ],
+        "actual": [
+          [
+            217
+          ],
+          [
+            179
+          ],
+          [
+            165
+          ],
+          [
+            22
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season BLK-CRS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            34
+          ],
+          [
+            4
+          ]
+        ],
+        "actual": [
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            34
+          ],
+          [
+            4
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season INT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            281
+          ],
+          [
+            229
+          ],
+          [
+            259
+          ],
+          [
+            38
+          ]
+        ],
+        "actual": [
+          [
+            281
+          ],
+          [
+            229
+          ],
+          [
+            259
+          ],
+          [
+            38
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season CLR",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            538
+          ],
+          [
+            690
+          ],
+          [
+            932
+          ],
+          [
+            111
+          ]
+        ],
+        "actual": [
+          [
+            538
+          ],
+          [
+            690
+          ],
+          [
+            932
+          ],
+          [
+            111
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season REC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            2018
+          ],
+          [
+            1712
+          ],
+          [
+            1694
+          ],
+          [
+            217
+          ]
+        ],
+        "actual": [
+          [
+            2018
+          ],
+          [
+            1712
+          ],
+          [
+            1694
+          ],
+          [
+            217
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season ERR-SH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            9
+          ],
+          [
+            24
+          ],
+          [
+            16
+          ],
+          [
+            8
+          ]
+        ],
+        "actual": [
+          [
+            9
+          ],
+          [
+            24
+          ],
+          [
+            16
+          ],
+          [
+            8
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season ERR-G",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            7
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            7
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PKC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season OG",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season SV",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            55
+          ],
+          [
+            86
+          ],
+          [
+            63
+          ],
+          [
+            9
+          ]
+        ],
+        "actual": [
+          [
+            55
+          ],
+          [
+            86
+          ],
+          [
+            63
+          ],
+          [
+            9
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season SV-PK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season CS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            18
+          ],
+          [
+            13
+          ],
+          [
+            19
+          ],
+          [
+            3
+          ]
+        ],
+        "actual": [
+          [
+            18
+          ],
+          [
+            13
+          ],
+          [
+            19
+          ],
+          [
+            3
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season YC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            64
+          ],
+          [
+            70
+          ],
+          [
+            51
+          ],
+          [
+            7
+          ]
+        ],
+        "actual": [
+          [
+            64
+          ],
+          [
+            70
+          ],
+          [
+            51
+          ],
+          [
+            7
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season RC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            2
+          ],
+          [
+            6
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            2
+          ],
+          [
+            6
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season FOUL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            391
+          ],
+          [
+            399
+          ],
+          [
+            391
+          ],
+          [
+            51
+          ]
+        ],
+        "actual": [
+          [
+            391
+          ],
+          [
+            399
+          ],
+          [
+            391
+          ],
+          [
+            51
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season FOULED",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            394
+          ],
+          [
+            405
+          ],
+          [
+            408
+          ],
+          [
+            76
+          ]
+        ],
+        "actual": [
+          [
+            394
+          ],
+          [
+            405
+          ],
+          [
+            408
+          ],
+          [
+            76
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season PK-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            9
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            9
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season CNR-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            266
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            26
+          ]
+        ],
+        "actual": [
+          [
+            266
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            26
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season AER-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "actual": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "type": "stacked",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season AER-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "actual": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "type": "stacked",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season DUEL-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "actual": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "type": "stacked",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season DUEL-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "actual": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "type": "stacked",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html season POSS-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            4665
+          ],
+          [
+            4343
+          ],
+          [
+            4703
+          ],
+          [
+            561
+          ]
+        ],
+        "actual": [
+          [
+            4665
+          ],
+          [
+            4343
+          ],
+          [
+            4703
+          ],
+          [
+            561
+          ]
+        ],
+        "type": "bars",
+        "unit": "시즌 합계"
+      }
+    },
+    {
+      "name": "index.html recent xg_for",
+      "status": "PASS",
+      "expected": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.98905
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "actual": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.98905
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type xg_for",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent xg_against",
+      "status": "PASS",
+      "expected": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          2.07033
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "actual": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          2.07033
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type xg_against",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent goals",
+      "status": "PASS",
+      "expected": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type goals",
+      "status": "PASS",
+      "expected": "grouped",
+      "actual": "grouped"
+    },
+    {
+      "name": "index.html recent deep",
+      "status": "PASS",
+      "expected": [
+        [
+          10,
+          7
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          7
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type deep",
+      "status": "PASS",
+      "expected": "grouped",
+      "actual": "grouped"
+    },
+    {
+      "name": "index.html recent npxg_for",
+      "status": "PASS",
+      "expected": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.22788
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "actual": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.22788
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type npxg_for",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent npxg_against",
+      "status": "PASS",
+      "expected": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          1.30916
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "actual": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          1.30916
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type npxg_against",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent expected_points",
+      "status": "PASS",
+      "expected": [
+        [
+          1.0522
+        ],
+        [
+          2.915
+        ],
+        [
+          1.4258
+        ],
+        [
+          2.3346
+        ],
+        [
+          2.8347
+        ],
+        [
+          2.3738
+        ],
+        [
+          2.6457
+        ],
+        [
+          2.7935
+        ],
+        [
+          1.2985
+        ],
+        [
+          0.6937
+        ]
+      ],
+      "actual": [
+        [
+          1.0522
+        ],
+        [
+          2.915
+        ],
+        [
+          1.4258
+        ],
+        [
+          2.3346
+        ],
+        [
+          2.8347
+        ],
+        [
+          2.3738
+        ],
+        [
+          2.6457
+        ],
+        [
+          2.7935
+        ],
+        [
+          1.2985
+        ],
+        [
+          0.6937
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type expected_points",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent ppda",
+      "status": "PASS",
+      "expected": [
+        [
+          14.88888888888889
+        ],
+        [
+          14.5
+        ],
+        [
+          6
+        ],
+        [
+          12.4375
+        ],
+        [
+          9.88888888888889
+        ],
+        [
+          9.647058823529411
+        ],
+        [
+          9.941176470588236
+        ],
+        [
+          8.904761904761905
+        ],
+        [
+          11.307692307692308
+        ],
+        [
+          12.642857142857142
+        ]
+      ],
+      "actual": [
+        [
+          14.88888888888889
+        ],
+        [
+          14.5
+        ],
+        [
+          6
+        ],
+        [
+          12.4375
+        ],
+        [
+          9.88888888888889
+        ],
+        [
+          9.647058823529411
+        ],
+        [
+          9.941176470588236
+        ],
+        [
+          8.904761904761905
+        ],
+        [
+          11.307692307692308
+        ],
+        [
+          12.642857142857142
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type ppda",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent ppda_allowed",
+      "status": "PASS",
+      "expected": [
+        [
+          8.818181818181818
+        ],
+        [
+          13.681818181818182
+        ],
+        [
+          15.4375
+        ],
+        [
+          13.764705882352942
+        ],
+        [
+          17.75
+        ],
+        [
+          27.25
+        ],
+        [
+          18.75
+        ],
+        [
+          9.833333333333334
+        ],
+        [
+          10.380952380952381
+        ],
+        [
+          8.083333333333334
+        ]
+      ],
+      "actual": [
+        [
+          8.818181818181818
+        ],
+        [
+          13.681818181818182
+        ],
+        [
+          15.4375
+        ],
+        [
+          13.764705882352942
+        ],
+        [
+          17.75
+        ],
+        [
+          27.25
+        ],
+        [
+          18.75
+        ],
+        [
+          9.833333333333334
+        ],
+        [
+          10.380952380952381
+        ],
+        [
+          8.083333333333334
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type ppda_allowed",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html recent results",
+      "status": "PASS",
+      "expected": [
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent type results",
+      "status": "PASS",
+      "expected": "stacked",
+      "actual": "stacked"
+    },
+    {
+      "name": "index.html short xG bars",
+      "status": "PASS",
+      "expected": "bars",
+      "actual": "bars"
+    },
+    {
+      "name": "index.html four xG line",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.html promoted294 A",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 xA",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 POSS%",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 FK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 SH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 SOT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 TCH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 TCH-BOX",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 OFF",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS/M",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS%",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS-ATT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 BCC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS-KEY",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS-LNG",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PASS-F3RD",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 THRU-BALL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 CRS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 CNR",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 TKL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 TKL-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 TKL-LM",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 SH-BLK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 BLK-CRS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 INT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 CLR",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 REC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 ERR-SH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 ERR-G",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PKC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 OG",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 SV",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 SV-PK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 CS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 YC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 RC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 FOUL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 FOULED",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 PK-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 CNR-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 AER-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 AER-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 DUEL-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 DUEL-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html promoted294 POSS-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.html boundary ppda",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.html boundary ppda_allowed",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.html boundary npxg_for",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.html boundary deep",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.html raw total not per-game",
+      "status": "PASS",
+      "expected": 123,
+      "actual": 123
+    },
+    {
+      "name": "index.html missing percentage",
+      "status": "PASS",
+      "expected": null,
+      "actual": null
+    },
+    {
+      "name": "index.html missing score must not be draw",
+      "status": "PASS",
+      "expected": [
+        null,
+        null,
+        null
+      ],
+      "actual": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "index.html missing score count",
+      "status": "PASS",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "index.html mixed observed and missing result counts",
+      "status": "PASS",
+      "expected": [
+        1,
+        0,
+        0
+      ],
+      "actual": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "index.html empty results remain missing",
+      "status": "PASS",
+      "expected": [
+        null,
+        null,
+        null
+      ],
+      "actual": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "index.html completed score finite",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "index.html current season filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html home wins filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31209"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31209"
+      ]
+    },
+    {
+      "name": "index.html date filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html invalid date range",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "index.html recent five filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.html recent ten filters",
+      "status": "PASS",
+      "expected": [
+        "understat:29049",
+        "understat:29060",
+        "understat:29068",
+        "understat:29092",
+        "understat:29104",
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150"
+      ],
+      "actual": [
+        "understat:29049",
+        "understat:29060",
+        "understat:29068",
+        "understat:29092",
+        "understat:29104",
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150"
+      ]
+    },
+    {
+      "name": "index.html rendered selected count",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html rendered exact value table",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html season scope warning",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html season exact SH",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html SH-BLK caution visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.html missing line breaks",
+      "status": "PASS",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "name": "index.html gap omits missing point",
+      "status": "PASS",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "name": "index.html SVG finite geometry",
+      "status": "PASS",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "name": "index.html missing paired counts label",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html embeds engine",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html embeds UI",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html metadata count",
+      "status": "PASS",
+      "expected": 47,
+      "actual": 47
+    },
+    {
+      "name": "index.en.html recent count",
+      "status": "PASS",
+      "expected": 10,
+      "actual": 10
+    },
+    {
+      "name": "index.en.html season A",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            62
+          ],
+          [
+            55
+          ],
+          [
+            51
+          ],
+          [
+            6
+          ]
+        ],
+        "actual": [
+          [
+            62
+          ],
+          [
+            55
+          ],
+          [
+            51
+          ],
+          [
+            6
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season xA",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            57.94
+          ],
+          [
+            45.46
+          ],
+          [
+            42.65
+          ],
+          [
+            6.38
+          ]
+        ],
+        "actual": [
+          [
+            57.94
+          ],
+          [
+            45.46
+          ],
+          [
+            42.65
+          ],
+          [
+            6.38
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season POSS%",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            58.5
+          ],
+          [
+            57.1
+          ],
+          [
+            56.4
+          ],
+          [
+            59.5
+          ]
+        ],
+        "actual": [
+          [
+            58.5
+          ],
+          [
+            57.1
+          ],
+          [
+            56.4
+          ],
+          [
+            59.5
+          ]
+        ],
+        "type": "percent",
+        "unit": "%"
+      }
+    },
+    {
+      "name": "index.en.html season PK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            10
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            10
+          ],
+          [
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season FK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season SH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            656
+          ],
+          [
+            547
+          ],
+          [
+            552
+          ],
+          [
+            65
+          ]
+        ],
+        "actual": [
+          [
+            656
+          ],
+          [
+            547
+          ],
+          [
+            552
+          ],
+          [
+            65
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season SOT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            227
+          ],
+          [
+            188
+          ],
+          [
+            186
+          ],
+          [
+            24
+          ]
+        ],
+        "actual": [
+          [
+            227
+          ],
+          [
+            188
+          ],
+          [
+            186
+          ],
+          [
+            24
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season TCH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            26780
+          ],
+          [
+            25374
+          ],
+          [
+            24869
+          ],
+          [
+            3407
+          ]
+        ],
+        "actual": [
+          [
+            26780
+          ],
+          [
+            25374
+          ],
+          [
+            24869
+          ],
+          [
+            3407
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season TCH-BOX",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1580
+          ],
+          [
+            1364
+          ],
+          [
+            1228
+          ],
+          [
+            157
+          ]
+        ],
+        "actual": [
+          [
+            1580
+          ],
+          [
+            1364
+          ],
+          [
+            1228
+          ],
+          [
+            157
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season OFF",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            87
+          ],
+          [
+            82
+          ],
+          [
+            61
+          ],
+          [
+            20
+          ]
+        ],
+        "actual": [
+          [
+            87
+          ],
+          [
+            82
+          ],
+          [
+            61
+          ],
+          [
+            20
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            18391
+          ],
+          [
+            16360
+          ],
+          [
+            15233
+          ],
+          [
+            2195
+          ]
+        ],
+        "actual": [
+          [
+            18391
+          ],
+          [
+            16360
+          ],
+          [
+            15233
+          ],
+          [
+            2195
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS/M",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            483.97
+          ],
+          [
+            430.53
+          ],
+          [
+            400.87
+          ],
+          [
+            439
+          ]
+        ],
+        "actual": [
+          [
+            483.97
+          ],
+          [
+            430.53
+          ],
+          [
+            400.87
+          ],
+          [
+            439
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS%",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            87
+          ],
+          [
+            87.2
+          ],
+          [
+            84.6
+          ],
+          [
+            86.8
+          ]
+        ],
+        "actual": [
+          [
+            87
+          ],
+          [
+            87.2
+          ],
+          [
+            84.6
+          ],
+          [
+            86.8
+          ]
+        ],
+        "type": "percent",
+        "unit": "%"
+      }
+    },
+    {
+      "name": "index.en.html season PASS-ATT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            21151
+          ],
+          [
+            18757
+          ],
+          [
+            18013
+          ],
+          [
+            2529
+          ]
+        ],
+        "actual": [
+          [
+            21151
+          ],
+          [
+            18757
+          ],
+          [
+            18013
+          ],
+          [
+            2529
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season BCC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            82
+          ],
+          [
+            89
+          ],
+          [
+            81
+          ],
+          [
+            7
+          ]
+        ],
+        "actual": [
+          [
+            82
+          ],
+          [
+            89
+          ],
+          [
+            81
+          ],
+          [
+            7
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS-KEY",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            441
+          ],
+          [
+            372
+          ],
+          [
+            353
+          ],
+          [
+            51
+          ]
+        ],
+        "actual": [
+          [
+            441
+          ],
+          [
+            372
+          ],
+          [
+            353
+          ],
+          [
+            51
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS-LNG",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1616
+          ],
+          [
+            1434
+          ],
+          [
+            1748
+          ],
+          [
+            215
+          ]
+        ],
+        "actual": [
+          [
+            1616
+          ],
+          [
+            1434
+          ],
+          [
+            1748
+          ],
+          [
+            215
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PASS-F3RD",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            7236
+          ],
+          [
+            6479
+          ],
+          [
+            5766
+          ],
+          [
+            813
+          ]
+        ],
+        "actual": [
+          [
+            7236
+          ],
+          [
+            6479
+          ],
+          [
+            5766
+          ],
+          [
+            813
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season THRU-BALL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            33
+          ],
+          [
+            25
+          ],
+          [
+            30
+          ],
+          [
+            8
+          ]
+        ],
+        "actual": [
+          [
+            33
+          ],
+          [
+            25
+          ],
+          [
+            30
+          ],
+          [
+            8
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season CRS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            177
+          ],
+          [
+            185
+          ],
+          [
+            164
+          ],
+          [
+            17
+          ]
+        ],
+        "actual": [
+          [
+            177
+          ],
+          [
+            185
+          ],
+          [
+            164
+          ],
+          [
+            17
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season CNR",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            265
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            25
+          ]
+        ],
+        "actual": [
+          [
+            265
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            25
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season TKL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            609
+          ],
+          [
+            572
+          ],
+          [
+            586
+          ],
+          [
+            59
+          ]
+        ],
+        "actual": [
+          [
+            609
+          ],
+          [
+            572
+          ],
+          [
+            586
+          ],
+          [
+            59
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season TKL-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            349
+          ],
+          [
+            333
+          ],
+          [
+            332
+          ],
+          [
+            33
+          ]
+        ],
+        "actual": [
+          [
+            349
+          ],
+          [
+            333
+          ],
+          [
+            332
+          ],
+          [
+            33
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season TKL-LM",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            4
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            4
+          ]
+        ],
+        "actual": [
+          [
+            4
+          ],
+          [
+            7
+          ],
+          [
+            6
+          ],
+          [
+            4
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season SH-BLK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            217
+          ],
+          [
+            179
+          ],
+          [
+            165
+          ],
+          [
+            22
+          ]
+        ],
+        "actual": [
+          [
+            217
+          ],
+          [
+            179
+          ],
+          [
+            165
+          ],
+          [
+            22
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season BLK-CRS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            34
+          ],
+          [
+            4
+          ]
+        ],
+        "actual": [
+          [
+            39
+          ],
+          [
+            41
+          ],
+          [
+            34
+          ],
+          [
+            4
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season INT",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            281
+          ],
+          [
+            229
+          ],
+          [
+            259
+          ],
+          [
+            38
+          ]
+        ],
+        "actual": [
+          [
+            281
+          ],
+          [
+            229
+          ],
+          [
+            259
+          ],
+          [
+            38
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season CLR",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            538
+          ],
+          [
+            690
+          ],
+          [
+            932
+          ],
+          [
+            111
+          ]
+        ],
+        "actual": [
+          [
+            538
+          ],
+          [
+            690
+          ],
+          [
+            932
+          ],
+          [
+            111
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season REC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            2018
+          ],
+          [
+            1712
+          ],
+          [
+            1694
+          ],
+          [
+            217
+          ]
+        ],
+        "actual": [
+          [
+            2018
+          ],
+          [
+            1712
+          ],
+          [
+            1694
+          ],
+          [
+            217
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season ERR-SH",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            9
+          ],
+          [
+            24
+          ],
+          [
+            16
+          ],
+          [
+            8
+          ]
+        ],
+        "actual": [
+          [
+            9
+          ],
+          [
+            24
+          ],
+          [
+            16
+          ],
+          [
+            8
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season ERR-G",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            7
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            7
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PKC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season OG",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season SV",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            55
+          ],
+          [
+            86
+          ],
+          [
+            63
+          ],
+          [
+            9
+          ]
+        ],
+        "actual": [
+          [
+            55
+          ],
+          [
+            86
+          ],
+          [
+            63
+          ],
+          [
+            9
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season SV-PK",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season CS",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            18
+          ],
+          [
+            13
+          ],
+          [
+            19
+          ],
+          [
+            3
+          ]
+        ],
+        "actual": [
+          [
+            18
+          ],
+          [
+            13
+          ],
+          [
+            19
+          ],
+          [
+            3
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season YC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            64
+          ],
+          [
+            70
+          ],
+          [
+            51
+          ],
+          [
+            7
+          ]
+        ],
+        "actual": [
+          [
+            64
+          ],
+          [
+            70
+          ],
+          [
+            51
+          ],
+          [
+            7
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season RC",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            2
+          ],
+          [
+            6
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "actual": [
+          [
+            2
+          ],
+          [
+            6
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season FOUL",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            391
+          ],
+          [
+            399
+          ],
+          [
+            391
+          ],
+          [
+            51
+          ]
+        ],
+        "actual": [
+          [
+            391
+          ],
+          [
+            399
+          ],
+          [
+            391
+          ],
+          [
+            51
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season FOULED",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            394
+          ],
+          [
+            405
+          ],
+          [
+            408
+          ],
+          [
+            76
+          ]
+        ],
+        "actual": [
+          [
+            394
+          ],
+          [
+            405
+          ],
+          [
+            408
+          ],
+          [
+            76
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season PK-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            9
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "actual": [
+          [
+            9
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season CNR-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            266
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            26
+          ]
+        ],
+        "actual": [
+          [
+            266
+          ],
+          [
+            251
+          ],
+          [
+            216
+          ],
+          [
+            26
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season AER-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "actual": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "type": "stacked",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season AER-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "actual": [
+          [
+            493,
+            488
+          ],
+          [
+            464,
+            463
+          ],
+          [
+            574,
+            554
+          ],
+          [
+            74,
+            72
+          ]
+        ],
+        "type": "stacked",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season DUEL-W",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "actual": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "type": "stacked",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season DUEL-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 448,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "actual": [
+          [
+            1754,
+            1780
+          ],
+          [
+            1721,
+            1763
+          ],
+          [
+            1804,
+            1703
+          ],
+          [
+            235,
+            203
+          ]
+        ],
+        "type": "stacked",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html season POSS-L",
+      "status": "PASS",
+      "expected": [],
+      "actual": [],
+      "numeric_values_compared": 224,
+      "sample": {
+        "team": "understat:83",
+        "expected": [
+          [
+            4665
+          ],
+          [
+            4343
+          ],
+          [
+            4703
+          ],
+          [
+            561
+          ]
+        ],
+        "actual": [
+          [
+            4665
+          ],
+          [
+            4343
+          ],
+          [
+            4703
+          ],
+          [
+            561
+          ]
+        ],
+        "type": "bars",
+        "unit": "season total"
+      }
+    },
+    {
+      "name": "index.en.html recent xg_for",
+      "status": "PASS",
+      "expected": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.98905
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "actual": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.98905
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type xg_for",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent xg_against",
+      "status": "PASS",
+      "expected": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          2.07033
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "actual": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          2.07033
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type xg_against",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent goals",
+      "status": "PASS",
+      "expected": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type goals",
+      "status": "PASS",
+      "expected": "grouped",
+      "actual": "grouped"
+    },
+    {
+      "name": "index.en.html recent deep",
+      "status": "PASS",
+      "expected": [
+        [
+          10,
+          7
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          7
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type deep",
+      "status": "PASS",
+      "expected": "grouped",
+      "actual": "grouped"
+    },
+    {
+      "name": "index.en.html recent npxg_for",
+      "status": "PASS",
+      "expected": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.22788
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "actual": [
+        [
+          0.639189
+        ],
+        [
+          4.09079
+        ],
+        [
+          1.42953
+        ],
+        [
+          1.22695
+        ],
+        [
+          3.90645
+        ],
+        [
+          1.85424
+        ],
+        [
+          1.52441
+        ],
+        [
+          2.80555
+        ],
+        [
+          1.22788
+        ],
+        [
+          1.23979
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type npxg_for",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent npxg_against",
+      "status": "PASS",
+      "expected": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          1.30916
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "actual": [
+        [
+          0.868897
+        ],
+        [
+          0.696714
+        ],
+        [
+          1.32011
+        ],
+        [
+          0.194884
+        ],
+        [
+          1.00492
+        ],
+        [
+          0.558336
+        ],
+        [
+          0.281925
+        ],
+        [
+          0.430508
+        ],
+        [
+          1.30916
+        ],
+        [
+          2.11268
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type npxg_against",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent expected_points",
+      "status": "PASS",
+      "expected": [
+        [
+          1.0522
+        ],
+        [
+          2.915
+        ],
+        [
+          1.4258
+        ],
+        [
+          2.3346
+        ],
+        [
+          2.8347
+        ],
+        [
+          2.3738
+        ],
+        [
+          2.6457
+        ],
+        [
+          2.7935
+        ],
+        [
+          1.2985
+        ],
+        [
+          0.6937
+        ]
+      ],
+      "actual": [
+        [
+          1.0522
+        ],
+        [
+          2.915
+        ],
+        [
+          1.4258
+        ],
+        [
+          2.3346
+        ],
+        [
+          2.8347
+        ],
+        [
+          2.3738
+        ],
+        [
+          2.6457
+        ],
+        [
+          2.7935
+        ],
+        [
+          1.2985
+        ],
+        [
+          0.6937
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type expected_points",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent ppda",
+      "status": "PASS",
+      "expected": [
+        [
+          14.88888888888889
+        ],
+        [
+          14.5
+        ],
+        [
+          6
+        ],
+        [
+          12.4375
+        ],
+        [
+          9.88888888888889
+        ],
+        [
+          9.647058823529411
+        ],
+        [
+          9.941176470588236
+        ],
+        [
+          8.904761904761905
+        ],
+        [
+          11.307692307692308
+        ],
+        [
+          12.642857142857142
+        ]
+      ],
+      "actual": [
+        [
+          14.88888888888889
+        ],
+        [
+          14.5
+        ],
+        [
+          6
+        ],
+        [
+          12.4375
+        ],
+        [
+          9.88888888888889
+        ],
+        [
+          9.647058823529411
+        ],
+        [
+          9.941176470588236
+        ],
+        [
+          8.904761904761905
+        ],
+        [
+          11.307692307692308
+        ],
+        [
+          12.642857142857142
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type ppda",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent ppda_allowed",
+      "status": "PASS",
+      "expected": [
+        [
+          8.818181818181818
+        ],
+        [
+          13.681818181818182
+        ],
+        [
+          15.4375
+        ],
+        [
+          13.764705882352942
+        ],
+        [
+          17.75
+        ],
+        [
+          27.25
+        ],
+        [
+          18.75
+        ],
+        [
+          9.833333333333334
+        ],
+        [
+          10.380952380952381
+        ],
+        [
+          8.083333333333334
+        ]
+      ],
+      "actual": [
+        [
+          8.818181818181818
+        ],
+        [
+          13.681818181818182
+        ],
+        [
+          15.4375
+        ],
+        [
+          13.764705882352942
+        ],
+        [
+          17.75
+        ],
+        [
+          27.25
+        ],
+        [
+          18.75
+        ],
+        [
+          9.833333333333334
+        ],
+        [
+          10.380952380952381
+        ],
+        [
+          8.083333333333334
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type ppda_allowed",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html recent results",
+      "status": "PASS",
+      "expected": [
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "input_match_ids": [
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150",
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent type results",
+      "status": "PASS",
+      "expected": "stacked",
+      "actual": "stacked"
+    },
+    {
+      "name": "index.en.html short xG bars",
+      "status": "PASS",
+      "expected": "bars",
+      "actual": "bars"
+    },
+    {
+      "name": "index.en.html four xG line",
+      "status": "PASS",
+      "expected": "line",
+      "actual": "line"
+    },
+    {
+      "name": "index.en.html promoted294 A",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 xA",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 POSS%",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 FK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 SH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 SOT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 TCH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 TCH-BOX",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 OFF",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS/M",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS%",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS-ATT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 BCC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS-KEY",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS-LNG",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PASS-F3RD",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 THRU-BALL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 CRS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 CNR",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 TKL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 TKL-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 TKL-LM",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 SH-BLK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 BLK-CRS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 INT",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 CLR",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 REC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 ERR-SH",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 ERR-G",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PKC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 OG",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 SV",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 SV-PK",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 CS",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 YC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 RC",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 FOUL",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 FOULED",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 PK-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 CNR-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 AER-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 AER-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 DUEL-W",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 DUEL-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html promoted294 POSS-L",
+      "status": "PASS",
+      "expected": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ],
+      "actual": [
+        [
+          null
+        ],
+        [
+          null
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    {
+      "name": "index.en.html boundary ppda",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.en.html boundary ppda_allowed",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.en.html boundary npxg_for",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.en.html boundary deep",
+      "status": "PASS",
+      "expected": [
+        null
+      ],
+      "actual": [
+        null
+      ]
+    },
+    {
+      "name": "index.en.html raw total not per-game",
+      "status": "PASS",
+      "expected": 123,
+      "actual": 123
+    },
+    {
+      "name": "index.en.html missing percentage",
+      "status": "PASS",
+      "expected": null,
+      "actual": null
+    },
+    {
+      "name": "index.en.html missing score must not be draw",
+      "status": "PASS",
+      "expected": [
+        null,
+        null,
+        null
+      ],
+      "actual": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "index.en.html missing score count",
+      "status": "PASS",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "index.en.html mixed observed and missing result counts",
+      "status": "PASS",
+      "expected": [
+        1,
+        0,
+        0
+      ],
+      "actual": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "index.en.html empty results remain missing",
+      "status": "PASS",
+      "expected": [
+        null,
+        null,
+        null
+      ],
+      "actual": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "index.en.html completed score finite",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "index.en.html current season filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html home wins filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31209"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31209"
+      ]
+    },
+    {
+      "name": "index.en.html date filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html invalid date range",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "index.en.html recent five filters",
+      "status": "PASS",
+      "expected": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ],
+      "actual": [
+        "understat:31180",
+        "understat:31199",
+        "understat:31209",
+        "understat:31216",
+        "understat:31224"
+      ]
+    },
+    {
+      "name": "index.en.html recent ten filters",
+      "status": "PASS",
+      "expected": [
+        "understat:29049",
+        "understat:29060",
+        "understat:29068",
+        "understat:29092",
+        "understat:29104",
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150"
+      ],
+      "actual": [
+        "understat:29049",
+        "understat:29060",
+        "understat:29068",
+        "understat:29092",
+        "understat:29104",
+        "understat:29109",
+        "understat:29119",
+        "understat:29137",
+        "understat:29139",
+        "understat:29150"
+      ]
+    },
+    {
+      "name": "index.en.html rendered selected count",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html rendered exact value table",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html season scope warning",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html season exact SH",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html SH-BLK caution visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "index.en.html missing line breaks",
+      "status": "PASS",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "name": "index.en.html gap omits missing point",
+      "status": "PASS",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "name": "index.en.html SVG finite geometry",
+      "status": "PASS",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "name": "index.en.html missing paired counts label",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    }
+  ],
+  "issues": [],
+  "prior_runs": [
+    {
+      "observed_at": "2026-10-07T02:11:56.113Z",
+      "summary": {
+        "PASS": 260,
+        "FAIL": 2
+      },
+      "issues": [
+        {
+          "name": "index.html missing score must not be draw",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "index.en.html missing score must not be draw",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "cause": "Reviewer expected zero counts for wholly missing score; corrected to null under missing-data requirement. This was a checker defect, not an app regression."
+    }
+  ],
+  "initial_static_finding": "Initial source used gf===ga without finite validation; null/null would count draw. Reported to root before tests; builder corrected source before first executable check. No initial-runtime reproduction claimed.",
+  "unverified": [
+    "Actual browser visual/keyboard/narrow-screen behavior delegated to root",
+    "User screen acceptance",
+    "Source-provider factual authenticity beyond stored data",
+    "Prediction model performance outside chart scope",
+    "Final approval is not issued by reviewer"
+  ]
+}

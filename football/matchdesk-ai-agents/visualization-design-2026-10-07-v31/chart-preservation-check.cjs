@@ -1,0 +1,3 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');const p=path.resolve(__dirname,'..');
+for(const f of ['index.html','index.en.html']){const html=fs.readFileSync(path.join(p,f),'utf8'),old=fs.readFileSync(path.join(__dirname,'previous-0.11.4',f),'utf8');for(const id of ['data','prematch-predictions-v22']){const reg=new RegExp('<script[^>]*id="'+id+'"[^>]*>([\\s\\S]*?)<\\/script>');assert.deepEqual(JSON.parse(html.match(reg)[1]),JSON.parse(old.match(reg)[1]));}for(const m of html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))if(!m[0].includes('type="application/json"'))new vm.Script(m[1]);}
+console.log('PASS KO/EN inline syntax, unchanged raw records and641predictions');

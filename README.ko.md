@@ -6,13 +6,13 @@
 
 MatchDesk: **Day13 작업** · [폴더 이동 기록](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchDesk AI 경기 분석실 · 0.9.1
+## MatchDesk AI 경기 분석실 · 0.12.1
 
-0.9.1은 CSS 줄바꿈 차이로 인한 공개 파일 검사 오류만 수정했습니다. 화면·재생·모델 변경은 없습니다.
+PL·라리가 한영8비트 화면: 전체팀 로지스틱 승부예측, 학습한 득점분포, 움직이는22명경기연출, 일정더보기·경기프리뷰,57지표선택차트. 입력은2026-09-20고정자료이며과거검증결과로미래성능을보장하지않습니다.
 
-버전 이력: **v20** AI 요청 오류 안내 → **v21** 패배·무승부 색상 → **v22** 실험 확률·가상 8비트 재생 → **v23** 각 팀 11명 수정. 이전 버전을 보존하며 아래 한영 프로젝트 README와 이번 SPEC에서 확인할 수 있습니다.
+[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.1.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
 
-[프로젝트·버전 이력](football/matchdesk-ai-agents/README.ko.md) · [요구사항·검증 SPEC](football/matchdesk-ai-agents/docs/SPEC-0.9.1.md) · [채택된 8비트 기본 화면](football/matchdesk-ai-agents/index.html). 팀 통계·한글 지표 풀이·필터·채택된 8비트 화면을 제공합니다. 실험 v2 승부 확률·각 팀 11명 가상 8비트 재생을 제공하며 정식 모델 채택은 보류입니다. HTML을 내려받아 확인합니다. 공개 서비스로 배포한 상태는 아닙니다.
+v20~v32이전버전과독립차트검증근거를보존합니다. 현재5인팀·이전10역할및18개스킬의영어판을제공하며, 도구·계약은한글패키지와공유합니다. 별도Claude실행환경검증또는인터넷서비스호스팅을완료했다는뜻은아닙니다.
 
 
 NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션 프로젝트를 모은 저장소입니다.

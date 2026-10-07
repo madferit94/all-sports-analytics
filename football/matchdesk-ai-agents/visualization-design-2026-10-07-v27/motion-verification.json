@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "frames": 1001,
+  "players": 22,
+  "wideMovingOutfieldPlayers": 20,
+  "horizontalTravelMin": 41.59199237534902,
+  "goalFlashFrames": 114,
+  "phases": [
+    "dribble",
+    "pass",
+    "shot",
+    "kickoff",
+    "save"
+  ],
+  "finalScore": [
+    3,
+    1
+  ],
+  "goallessSave": true
+}

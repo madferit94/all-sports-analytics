@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day13\\projects\\ai-agent-planning-2026-10-06-v01\\statmuse-match-current-2026-10-06-v01\\combined_four_season_completed_matches-v01.csv": "8d3d45ee5f214bbace51a5326eab6212557cb110d0bbad77e3f707a2c99f81bc",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day13\\projects\\ai-agent-planning-2026-10-06-v01\\statmuse-match-current-2026-10-06-v01\\combined_four_season_team_match_stats-v01.csv": "15a4f7b917c8a53ec9f83302dc421439ab910d35ae6bd978f51bfb46c3891ffe",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day13\\projects\\ai-agent-planning-2026-10-06-v01\\catboost-training-2026-10-07-v01\\historical-features.json": "decb0bb2d21f3a1d6965e903db61f2b49a2d6a0816ff52c911d91f4a969fd89d",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day13\\projects\\ai-agent-planning-2026-10-06-v01\\github-workspace-2026-10-06-v01\\football\\matchdesk-ai-agents\\modeling\\logistic-111-2026-10-07-v01\\model.json": "be0e9008043858a6ad46cfc77ead324cc388799812a11fa32b99d424f4eb4d13",
+    "C:\\Users\\Administrator\\Desktop\\agentic-ai-fundamentals\\day13\\projects\\ai-agent-planning-2026-10-06-v01\\github-workspace-2026-10-06-v01\\football\\matchdesk-ai-agents\\modeling\\logistic-111-2026-10-07-v01\\future-predictions.json": "ba4717a1968a4b9c6186205ea1ca280fa492aaf5a09c555ebd1852ecdc723ea2"
+  },
+  "source_latest": "2026-09-20",
+  "feature_count": 111,
+  "grid_max_goals": 12,
+  "raw_tail_max": 4.62448877259769e-05,
+  "combination": "P(h,a)=logistic_outcome_probability * independent_Poisson(h,a)/Poisson_mass_for_outcome",
+  "target": "Actual individual team goals",
+  "training_matches": 1518
+}

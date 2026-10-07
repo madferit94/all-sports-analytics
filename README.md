@@ -6,13 +6,13 @@
 
 MatchDesk: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchDesk football agent project · 0.9.1
+## MatchDesk football agent project · 0.12.1
 
-0.9.1 normalizes CSS line endings for portable publication hashes; no interface, replay or model changes.
+Korean/English 8-bit viewer for PL and LaLiga: selected all-team logistic predictions, learned score distributions, moving 22-player simulations, fixture previews and 57 selectable team metrics. Input records are a fixed 2026-09-20 snapshot; retrospective evaluation does not establish future performance.
 
-Version history: **v20** AI request errors → **v21** loss/draw colours → **v22** experimental probabilities and illustrated pixel replay → **v23** eleven players per team. Earlier versions are preserved; see the bilingual project README and release SPEC below.
+[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.1.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
 
-[Project and version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.9.1.md) · [Adopted 8-bit viewer](football/matchdesk-ai-agents/index.html). Team analytics with Korean metric explanations, filters and an adopted pixel interface. Experimental v2 probabilities and an illustrated 8-bit replay with eleven players per team are available; formal model adoption remains false. Download HTML to view; no hosted service is claimed.
+Preserved viewer versions v20–v32 and independent chart evidence are included. English packages mirror the current five-agent team, legacy ten roles and 18 skills. Tools/contracts are shared with the Korean packages; no separate Claude runtime or hosted service is claimed.
 
 
 **A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**

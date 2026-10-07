@@ -1,0 +1,117 @@
+{
+  "name": "MatchDesk",
+  "version": 2,
+  "agent_count": 5,
+  "roles": [
+    {
+      "id": "director",
+      "label": "Director and final approver",
+      "capabilities": [
+        "manager",
+        "operations",
+        "approval"
+      ],
+      "skill": "matchdesk-director",
+      "role_file": "roles/director.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "research",
+      "label": "Data and trends research",
+      "capabilities": [
+        "data",
+        "trends"
+      ],
+      "skill": "matchdesk-research",
+      "role_file": "roles/research.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "analyst",
+      "label": "Analysis and prediction",
+      "capabilities": [
+        "analysis",
+        "prediction"
+      ],
+      "skill": "matchdesk-analyst",
+      "role_file": "roles/analyst.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "builder",
+      "label": "Visualization and web",
+      "capabilities": [
+        "visualization"
+      ],
+      "skill": "matchdesk-builder",
+      "role_file": "roles/builder.md",
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "reviewer",
+      "label": "Independent verification and model evaluation",
+      "capabilities": [
+        "validation",
+        "model-evaluation"
+      ],
+      "skill": "matchdesk-reviewer",
+      "role_file": "roles/reviewer.md",
+      "provider": null,
+      "model": null
+    }
+  ],
+  "phases": [
+    {
+      "id": "plan",
+      "agent": "director",
+      "depends_on": []
+    },
+    {
+      "id": "collect",
+      "agent": "research",
+      "depends_on": [
+        "plan"
+      ]
+    },
+    {
+      "id": "analyze",
+      "agent": "analyst",
+      "depends_on": [
+        "collect"
+      ]
+    },
+    {
+      "id": "present",
+      "agent": "builder",
+      "depends_on": [
+        "analyze"
+      ],
+      "optional": true
+    },
+    {
+      "id": "verify",
+      "agent": "reviewer",
+      "depends_on": [
+        "analyze",
+        "present"
+      ]
+    },
+    {
+      "id": "approve",
+      "agent": "director",
+      "depends_on": [
+        "verify"
+      ]
+    }
+  ],
+  "execution_mode": "HOST_DELEGATION_OR_SEQUENTIAL",
+  "api_runner_implemented": false,
+  "parallelism": "HOST_CAPACITY_DEPENDENT_NOT_FIVE_SIMULTANEOUS_PROCESSES",
+  "final_business_approver": "HUMAN_USER",
+  "primary_data": "../../source-unified-2026-10-06-v01",
+  "native_claude_execution_verified": false
+}
