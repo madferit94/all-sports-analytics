@@ -1,0 +1,856 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "dataset embed equals saved",
+      "expected": "original JSON payload",
+      "actual": "identical",
+      "status": "PASS"
+    },
+    {
+      "name": "forecasts embed equals saved",
+      "expected": "original JSON payload",
+      "actual": "identical",
+      "status": "PASS"
+    },
+    {
+      "name": "tracks embed equals saved",
+      "expected": "original JSON payload",
+      "actual": "identical",
+      "status": "PASS"
+    },
+    {
+      "name": "historical embed equals saved",
+      "expected": {
+        "canonical_json_sha256": "c30604fb0b940acb00ea5db2c88dea3f7b4c0268dafd3e6e10c41f9417e406eb"
+      },
+      "actual": {
+        "canonical_json_sha256": "c30604fb0b940acb00ea5db2c88dea3f7b4c0268dafd3e6e10c41f9417e406eb"
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "maps embed equals saved",
+      "expected": {
+        "canonical_json_sha256": "91bad4c202aa9c2ac774d4ce92fb6408907a47e787eca4f8c6a5d66eb8218b15"
+      },
+      "actual": {
+        "canonical_json_sha256": "0a48b500d3f29cf7ed4f5716ff4992bfeb3ff905d6faa3eecad66cb5d03173d7"
+      },
+      "status": "FAIL"
+    },
+    {
+      "name": "inline scripts parse",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "catalog25",
+      "expected": 25,
+      "actual": 25,
+      "status": "PASS"
+    },
+    {
+      "name": "completed cards",
+      "expected": 16,
+      "actual": 16,
+      "status": "PASS"
+    },
+    {
+      "name": "scheduled cards",
+      "expected": 7,
+      "actual": 7,
+      "status": "PASS"
+    },
+    {
+      "name": "cancelled cards",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11234 mounts map",
+      "expected": 11234,
+      "actual": 11234,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11234 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11245 mounts map",
+      "expected": 11245,
+      "actual": 11245,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11245 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11253 mounts map",
+      "expected": 11253,
+      "actual": 11253,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11253 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11261 cancelled no forecast",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11269 cancelled no forecast",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11280 mounts map",
+      "expected": 11280,
+      "actual": 11280,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11280 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11291 mounts map",
+      "expected": 11291,
+      "actual": 11291,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11291 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11299 mounts map",
+      "expected": 11299,
+      "actual": 11299,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11299 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11307 mounts map",
+      "expected": 11307,
+      "actual": 11307,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11307 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11315 mounts map",
+      "expected": 11315,
+      "actual": 11315,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11315 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11326 mounts map",
+      "expected": 11326,
+      "actual": 11326,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11326 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11334 mounts map",
+      "expected": 11334,
+      "actual": 11334,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11334 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11342 mounts map",
+      "expected": 11342,
+      "actual": 11342,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11342 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11353 mounts map",
+      "expected": 11353,
+      "actual": 11353,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11353 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11361 mounts map",
+      "expected": 11361,
+      "actual": 11361,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11361 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11369 mounts map",
+      "expected": 11369,
+      "actual": 11369,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11369 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11377 mounts map",
+      "expected": 11377,
+      "actual": 11377,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11377 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11731 mounts map",
+      "expected": 11731,
+      "actual": 11731,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11731 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11388 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11388 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11388 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11388 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11396 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11396 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11396 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11396 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11404 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11404 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11404 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11404 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11412 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11412 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11412 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11412 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11420 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11420 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11420 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11420 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11428 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11428 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11428 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11428 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11436 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11436 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11436 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko11436 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko football locale route",
+      "expected": "../index.html",
+      "actual": "../index.html",
+      "status": "PASS"
+    },
+    {
+      "name": "en11234 mounts map",
+      "expected": 11234,
+      "actual": 11234,
+      "status": "PASS"
+    },
+    {
+      "name": "en11234 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11245 mounts map",
+      "expected": 11245,
+      "actual": 11245,
+      "status": "PASS"
+    },
+    {
+      "name": "en11245 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11253 mounts map",
+      "expected": 11253,
+      "actual": 11253,
+      "status": "PASS"
+    },
+    {
+      "name": "en11253 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11261 cancelled no forecast",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en11269 cancelled no forecast",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en11280 mounts map",
+      "expected": 11280,
+      "actual": 11280,
+      "status": "PASS"
+    },
+    {
+      "name": "en11280 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11291 mounts map",
+      "expected": 11291,
+      "actual": 11291,
+      "status": "PASS"
+    },
+    {
+      "name": "en11291 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11299 mounts map",
+      "expected": 11299,
+      "actual": 11299,
+      "status": "PASS"
+    },
+    {
+      "name": "en11299 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11307 mounts map",
+      "expected": 11307,
+      "actual": 11307,
+      "status": "PASS"
+    },
+    {
+      "name": "en11307 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11315 mounts map",
+      "expected": 11315,
+      "actual": 11315,
+      "status": "PASS"
+    },
+    {
+      "name": "en11315 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11326 mounts map",
+      "expected": 11326,
+      "actual": 11326,
+      "status": "PASS"
+    },
+    {
+      "name": "en11326 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11334 mounts map",
+      "expected": 11334,
+      "actual": 11334,
+      "status": "PASS"
+    },
+    {
+      "name": "en11334 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11342 mounts map",
+      "expected": 11342,
+      "actual": 11342,
+      "status": "PASS"
+    },
+    {
+      "name": "en11342 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11353 mounts map",
+      "expected": 11353,
+      "actual": 11353,
+      "status": "PASS"
+    },
+    {
+      "name": "en11353 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11361 mounts map",
+      "expected": 11361,
+      "actual": 11361,
+      "status": "PASS"
+    },
+    {
+      "name": "en11361 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11369 mounts map",
+      "expected": 11369,
+      "actual": 11369,
+      "status": "PASS"
+    },
+    {
+      "name": "en11369 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11377 mounts map",
+      "expected": 11377,
+      "actual": 11377,
+      "status": "PASS"
+    },
+    {
+      "name": "en11377 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11731 mounts map",
+      "expected": 11731,
+      "actual": 11731,
+      "status": "PASS"
+    },
+    {
+      "name": "en11731 result route available",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11388 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11388 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11388 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11388 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11396 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11396 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11396 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11396 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11404 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11404 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11404 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11404 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11412 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11412 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11412 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11412 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11420 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11420 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11420 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11420 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11428 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11428 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11428 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11428 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11436 forecast22 rows",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "en11436 forecast features10",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "en11436 experiment caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en11436 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en football locale route",
+      "expected": "../index.en.html",
+      "actual": "../index.en.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Sepang shown not Sakhir",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "catalog cleanup calls destroy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "catalog visible after back",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "map module latest embedded",
+      "expected": true,
+      "actual": false,
+      "status": "FAIL"
+    }
+  ],
+  "method": "Independent Node VM route/state and embedded-data comparison; mount routing uses stub, separate actual module VM checks exist; not real-browser layout",
+  "original_full_evidence": "ui-independent-2026-10-07-v01.original.json.gz"
+}

@@ -1,0 +1,48 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "scope": "v08 unchanged source/model/maps",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "data/season-2026.json",
+      "expected": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+      "actual": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+      "status": "PASS"
+    },
+    {
+      "name": "modeling/historical-predictions.json",
+      "expected": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+      "actual": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+      "status": "PASS"
+    },
+    {
+      "name": "modeling/predictions.json",
+      "expected": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+      "actual": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+      "status": "PASS"
+    },
+    {
+      "name": "map-data/maps.json",
+      "expected": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+      "actual": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+      "status": "PASS"
+    },
+    {
+      "name": "replay/replay.js",
+      "expected": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+      "actual": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+      "status": "PASS"
+    },
+    {
+      "name": "replay/comparison.js",
+      "expected": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+      "actual": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+      "status": "PASS"
+    }
+  ],
+  "remaining": [
+    "New map GPS data verification pending",
+    "Map UI pending",
+    "No repeated whole-model endorsement"
+  ]
+}

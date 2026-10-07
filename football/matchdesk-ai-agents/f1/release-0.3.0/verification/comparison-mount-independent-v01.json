@@ -1,0 +1,1223 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "status": "PASS",
+  "method": "independent Node VM synthetic DOM; not real browser",
+  "checks": [
+    {
+      "name": "11234 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11245 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11253 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11280 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11291 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11299 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11307 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11315 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11326 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11334 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11342 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11353 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11361 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11369 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11377 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "11731 fractional range accepted",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 no autoplay",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 schematic caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 play frame",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 animation advances",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 seek final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 final list22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 reset time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 hidden pauses",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 cleanup frame",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 cleanup visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 cleanup container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 cleanup controls",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    }
+  ]
+}

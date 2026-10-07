@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:8765/f1/index.html#race=11234",
+  "participant_confirmation": "pending",
+  "observations": [
+    "Rebound the current user tab, reloaded v08, and observed 0.25, 0.5, 1 default, 2, 4, 10, 30, 60 speed options.",
+    "Selected 0.5 and clicked Play; selector retained 0.5 and Korean tooltip stated 1x uses recorded real time.",
+    "Later page state had changed to lap comparison; no further replay actions were performed to avoid overriding the user's navigation."
+  ],
+  "scope": "UI options and playback request observed. Exact elapsed-time scaling is verified with controlled animation-frame tests, not browser stopwatch timing."
+}

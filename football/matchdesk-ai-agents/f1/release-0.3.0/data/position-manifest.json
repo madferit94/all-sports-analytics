@@ -1,0 +1,146 @@
+[
+  {
+    "session_key": 11234,
+    "url": "https://api.openf1.org/v1/position?session_key=11234",
+    "status": "ok",
+    "rows": 531,
+    "sha256": "d8528da58a576f589a3a2b105a716bcf9a3bff2ce67425dd25447fcc9f64fce2",
+    "file": "data\\position-source\\11234-position.json",
+    "fetched_at": "2026-10-07T03:14:04.880756+00:00"
+  },
+  {
+    "session_key": 11245,
+    "url": "https://api.openf1.org/v1/position?session_key=11245",
+    "status": "ok",
+    "rows": 524,
+    "sha256": "6e11b3766e8da3065944c35216b597db75f683a6eedaa953ef41851665b47239",
+    "file": "data\\position-source\\11245-position.json",
+    "fetched_at": "2026-10-07T03:14:08.604916+00:00"
+  },
+  {
+    "session_key": 11253,
+    "url": "https://api.openf1.org/v1/position?session_key=11253",
+    "status": "ok",
+    "rows": 445,
+    "sha256": "4debb0321c8ba19e7be26733416bbbe34047634deadd1e3e81a6293947b1371e",
+    "file": "data\\position-source\\11253-position.json",
+    "fetched_at": "2026-10-07T03:14:12.384519+00:00"
+  },
+  {
+    "session_key": 11280,
+    "url": "https://api.openf1.org/v1/position?session_key=11280",
+    "status": "ok",
+    "rows": 550,
+    "sha256": "b43e08acb61e74706554a81fb6c75403f7fed50b26d334150f041468f3e2901d",
+    "file": "data\\position-source\\11280-position.json",
+    "fetched_at": "2026-10-07T03:14:16.066718+00:00"
+  },
+  {
+    "session_key": 11291,
+    "url": "https://api.openf1.org/v1/position?session_key=11291",
+    "status": "ok",
+    "rows": 470,
+    "sha256": "6960552e6cc88a864e33b7b8c5f678d35661025bd63bfb7d2c8aaf25f3e9f06f",
+    "file": "data\\position-source\\11291-position.json",
+    "fetched_at": "2026-10-07T03:14:19.824321+00:00"
+  },
+  {
+    "session_key": 11299,
+    "url": "https://api.openf1.org/v1/position?session_key=11299",
+    "status": "ok",
+    "rows": 291,
+    "sha256": "7e9df0ea23fee5e588278911173d49a14960efcc635ac36a0387ec46270555af",
+    "file": "data\\position-source\\11299-position.json",
+    "fetched_at": "2026-10-07T03:14:23.228172+00:00"
+  },
+  {
+    "session_key": 11307,
+    "url": "https://api.openf1.org/v1/position?session_key=11307",
+    "status": "ok",
+    "rows": 613,
+    "sha256": "16f18cb93f0429ca07eeb05ef5d28cd94731fe96c4e21ca2edc91b52fc1edd19",
+    "file": "data\\position-source\\11307-position.json",
+    "fetched_at": "2026-10-07T03:14:26.915610+00:00"
+  },
+  {
+    "session_key": 11315,
+    "url": "https://api.openf1.org/v1/position?session_key=11315",
+    "status": "ok",
+    "rows": 499,
+    "sha256": "d12f50435c675f42814c3cc40aecd17373c61e999a54dc748f8daa1c0c1900a1",
+    "file": "data\\position-source\\11315-position.json",
+    "fetched_at": "2026-10-07T03:14:30.605994+00:00"
+  },
+  {
+    "session_key": 11326,
+    "url": "https://api.openf1.org/v1/position?session_key=11326",
+    "status": "ok",
+    "rows": 467,
+    "sha256": "6ae3808f76ba303575b43f78857d450421c06b532908c7182a0a5e0c1f63e1e7",
+    "file": "data\\position-source\\11326-position.json",
+    "fetched_at": "2026-10-07T03:14:34.338068+00:00"
+  },
+  {
+    "session_key": 11334,
+    "url": "https://api.openf1.org/v1/position?session_key=11334",
+    "status": "ok",
+    "rows": 443,
+    "sha256": "048d6c06721a341503673eb311bd14f4d36a5bb8ebc5054a7dbe91d543adf414",
+    "file": "data\\position-source\\11334-position.json",
+    "fetched_at": "2026-10-07T03:14:37.973763+00:00"
+  },
+  {
+    "session_key": 11342,
+    "url": "https://api.openf1.org/v1/position?session_key=11342",
+    "status": "ok",
+    "rows": 536,
+    "sha256": "dbccb527abfa476444bc3b1b979d48290e338fc55ff11e5c103b2b3a1f10692d",
+    "file": "data\\position-source\\11342-position.json",
+    "fetched_at": "2026-10-07T03:14:41.719878+00:00"
+  },
+  {
+    "session_key": 11353,
+    "url": "https://api.openf1.org/v1/position?session_key=11353",
+    "status": "ok",
+    "rows": 608,
+    "sha256": "066c877965c628c8436094396fd74e55156b6113ba778cb444e1d9a85de4f2d7",
+    "file": "data\\position-source\\11353-position.json",
+    "fetched_at": "2026-10-07T03:14:45.413357+00:00"
+  },
+  {
+    "session_key": 11361,
+    "url": "https://api.openf1.org/v1/position?session_key=11361",
+    "status": "ok",
+    "rows": 678,
+    "sha256": "893dc1a4c86b3f6e93caf60252b90ef1d3add8f8a12e32fa2e3b522d06e88e9e",
+    "file": "data\\position-source\\11361-position.json",
+    "fetched_at": "2026-10-07T03:14:49.084589+00:00"
+  },
+  {
+    "session_key": 11369,
+    "url": "https://api.openf1.org/v1/position?session_key=11369",
+    "status": "ok",
+    "rows": 254,
+    "sha256": "3f2b29c2c231a00524eba65a05e47be90102b72f17f5fc9d4b057ffc98d0c306",
+    "file": "data\\position-source\\11369-position.json",
+    "fetched_at": "2026-10-07T03:14:52.455692+00:00"
+  },
+  {
+    "session_key": 11377,
+    "url": "https://api.openf1.org/v1/position?session_key=11377",
+    "status": "ok",
+    "rows": 311,
+    "sha256": "68ea1bf89b6e3914ca2d1b1a386e85ba7efbd849d617b65da714896e2d2613cd",
+    "file": "data\\position-source\\11377-position.json",
+    "fetched_at": "2026-10-07T03:14:55.883664+00:00"
+  },
+  {
+    "session_key": 11731,
+    "url": "https://api.openf1.org/v1/position?session_key=11731",
+    "status": "ok",
+    "rows": 880,
+    "sha256": "45368ba95d77690bd207840f7c25c84afc3e5fae631d1fd43267a08b1913c1a9",
+    "file": "data\\position-source\\11731-position.json",
+    "fetched_at": "2026-10-07T03:14:59.807742+00:00"
+  }
+]

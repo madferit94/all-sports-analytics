@@ -1,0 +1,8 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "assertions": 5689,
+  "races": 16,
+  "scheduled": 7,
+  "method": "Node VM pure + synthetic DOM. Actual browser and independently collected coordinates verified separately."
+}

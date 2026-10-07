@@ -1,0 +1,1554 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "scope": "v07 shared-speed and lap-rotation increment only",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "11234 shared lap count",
+      "expected": 57,
+      "actual": 57,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 shared lap count",
+      "expected": 56,
+      "actual": 56,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 shared lap count",
+      "expected": 53,
+      "actual": 53,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 shared lap count",
+      "expected": 57,
+      "actual": 57,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 shared lap count",
+      "expected": 68,
+      "actual": 68,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 shared lap count",
+      "expected": 78,
+      "actual": 78,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 shared lap count",
+      "expected": 66,
+      "actual": 66,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 shared lap count",
+      "expected": 71,
+      "actual": 71,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 shared lap count",
+      "expected": 52,
+      "actual": 52,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 shared lap count",
+      "expected": 44,
+      "actual": 44,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 shared lap count",
+      "expected": 70,
+      "actual": 70,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 shared lap count",
+      "expected": 72,
+      "actual": 72,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 shared lap count",
+      "expected": 53,
+      "actual": 53,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 shared lap count",
+      "expected": 57,
+      "actual": 57,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 shared lap count",
+      "expected": 51,
+      "actual": 51,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 shared lap count",
+      "expected": 55,
+      "actual": 55,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.25 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.25 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.25 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.5 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.5 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/0.5 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/1 predicted22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/1 calibrated rotation count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/1 explicit illustrative source",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "no valid laps fallback classified total",
+      "expected": 58,
+      "actual": 58,
+      "status": "PASS"
+    },
+    {
+      "name": "unknown total fallback3",
+      "expected": 3,
+      "actual": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "future no invented recorded total",
+      "expected": 3,
+      "actual": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "1 paused initial frame count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "1 phase per 1sec",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "1 prediction canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "1 actual canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "1 actual clock same cursor",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "1 paused speed no cursor advance",
+      "expected": 0.016666666666666666,
+      "actual": 0.016666666666666666,
+      "status": "PASS"
+    },
+    {
+      "name": "1 paused speed no clock advance",
+      "expected": "2% · 13:07:50 KST",
+      "actual": "2% · 13:07:50 KST",
+      "status": "PASS"
+    },
+    {
+      "name": "1 paused no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "1 resumed4x delta",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "1 seek same cursor",
+      "expected": 0.5,
+      "actual": 0.5,
+      "status": "PASS"
+    },
+    {
+      "name": "1 seek actual clock",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "1 reset cursor0",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "1 reset no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "1 cleanup empty container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2 paused initial frame count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2 phase per 1sec",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "2 prediction canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "2 actual canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "2 actual clock same cursor",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "2 paused speed no cursor advance",
+      "expected": 0.03333333333333333,
+      "actual": 0.03333333333333333,
+      "status": "PASS"
+    },
+    {
+      "name": "2 paused speed no clock advance",
+      "expected": "3% · 13:09:11 KST",
+      "actual": "3% · 13:09:11 KST",
+      "status": "PASS"
+    },
+    {
+      "name": "2 paused no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2 resumed4x delta",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "2 seek same cursor",
+      "expected": 0.5,
+      "actual": 0.5,
+      "status": "PASS"
+    },
+    {
+      "name": "2 seek actual clock",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "2 reset cursor0",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2 reset no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2 cleanup empty container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "4 paused initial frame count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "4 phase per 1sec",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "4 prediction canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "4 actual canvas same tick22",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "4 actual clock same cursor",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "4 paused speed no cursor advance",
+      "expected": 0.06666666666666667,
+      "actual": 0.06666666666666667,
+      "status": "PASS"
+    },
+    {
+      "name": "4 paused speed no clock advance",
+      "expected": "7% · 13:11:54 KST",
+      "actual": "7% · 13:11:54 KST",
+      "status": "PASS"
+    },
+    {
+      "name": "4 paused no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "4 resumed4x delta",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "4 seek same cursor",
+      "expected": 0.5,
+      "actual": 0.5,
+      "status": "PASS"
+    },
+    {
+      "name": "4 seek actual clock",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "4 reset cursor0",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "4 reset no pending RAF",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "4 cleanup empty container",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "2x/1x ratio",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "4x/1x ratio",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "Korean shared speed label",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "English shared speed label",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    }
+  ],
+  "method": "Independent Node VM RAF controlled timestamps and canvas call instrumentation; not real-browser velocity measurement",
+  "limitations": [
+    "Final-order illustration remains nonphysical pace",
+    "1x is existing compressed playback reference, not proof real-time one second per recorded second"
+  ]
+}

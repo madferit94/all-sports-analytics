@@ -1,0 +1,620 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "stage": "replay pure timeline",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "11234 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 driver count",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 finite timeline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 final actual position",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 DNS stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 final stationary",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 DNF final",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "missing duration gap stationary",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "missing duration gap explicit",
+      "expected": "NO LAP DATA",
+      "actual": "NO LAP DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "seek deterministic",
+      "expected": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":0.5,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":1},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":0.5,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":2},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":null}]",
+      "actual": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":0.5,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":1},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":0.5,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":2},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":null}]",
+      "status": "PASS"
+    },
+    {
+      "name": "seek clamps negative",
+      "expected": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":null},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":null},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":null}]",
+      "actual": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":null},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":1,\"status\":\"RACING\",\"compound\":\"—\",\"inPit\":false,\"moving\":true,\"rank\":null},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":null}]",
+      "status": "PASS"
+    },
+    {
+      "name": "seek clamps final",
+      "expected": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":3,\"lap\":3,\"status\":\"FINISHED\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":1},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":1,\"lap\":1,\"status\":\"DNF\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":2},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":3}]",
+      "actual": "[{\"driver\":{\"driver_number\":1},\"result\":{\"driver_number\":1,\"position\":1},\"laps\":[{\"start\":0,\"end\":60,\"number\":1},{\"start\":120,\"end\":180,\"number\":3}],\"stints\":[],\"pit\":[],\"progress\":3,\"lap\":3,\"status\":\"FINISHED\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":1},{\"driver\":{\"driver_number\":2},\"result\":{\"driver_number\":2,\"dnf\":true,\"position\":2},\"laps\":[{\"start\":0,\"end\":60,\"number\":1}],\"stints\":[],\"pit\":[],\"progress\":1,\"lap\":1,\"status\":\"DNF\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":2},{\"driver\":{\"driver_number\":3},\"result\":{\"driver_number\":3,\"dns\":true,\"position\":3},\"laps\":[],\"stints\":[],\"pit\":[],\"progress\":0,\"lap\":0,\"status\":\"DNS\",\"compound\":\"—\",\"inPit\":false,\"moving\":false,\"rank\":3}]",
+      "status": "PASS"
+    }
+  ],
+  "unverified": [
+    "mount actual browser controls",
+    "animation frame cleanup",
+    "track shapes GPS data accuracy",
+    "user confirmation"
+  ]
+}

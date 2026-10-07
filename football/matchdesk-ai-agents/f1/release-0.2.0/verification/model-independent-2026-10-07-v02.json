@@ -1,0 +1,996 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "independent features mismatches",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "all prior end strictly before target start",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "missing winner labels excluded",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "missing result sessions disjoint",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "train hold overlap",
+      "expected": [],
+      "actual": [],
+      "status": "PASS"
+    },
+    {
+      "name": "train cutoff before holdout",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "holdout last six completed",
+      "expected": [
+        11342,
+        11353,
+        11361,
+        11369,
+        11377,
+        11731
+      ],
+      "actual": [
+        11342,
+        11353,
+        11361,
+        11369,
+        11377,
+        11731
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "11342 winner identity",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11342model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342model top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342recent_win_baseline top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 winner identity",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11353model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353model top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353recent_win_baseline top1",
+      "expected": 0.2,
+      "actual": 0.2,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 winner identity",
+      "expected": 12,
+      "actual": 12,
+      "status": "PASS"
+    },
+    {
+      "name": "11361model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361model top1",
+      "expected": 1.0,
+      "actual": 1.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361recent_win_baseline top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 winner identity",
+      "expected": 12,
+      "actual": 12,
+      "status": "PASS"
+    },
+    {
+      "name": "11369model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369model top1",
+      "expected": 1.0,
+      "actual": 1.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369recent_win_baseline top1",
+      "expected": 0.5,
+      "actual": 0.5,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 winner identity",
+      "expected": 63,
+      "actual": 63,
+      "status": "PASS"
+    },
+    {
+      "name": "11377model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377model top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377recent_win_baseline top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 winner identity",
+      "expected": 3,
+      "actual": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "11731model probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731model logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731model brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731model top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731recent_win_baseline probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731recent_win_baseline logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731recent_win_baseline brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731recent_win_baseline top1",
+      "expected": 0,
+      "actual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 recent baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731uniform probability sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731uniform logloss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731uniform brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731uniform top1",
+      "expected": 0.045454545454545456,
+      "actual": 0.045454545454545456,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 uniform baseline",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "model mean log_loss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "model mean multiclass_brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "model mean top1_correct",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "recent_win_baseline mean log_loss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "recent_win_baseline mean multiclass_brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "recent_win_baseline mean top1_correct",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "uniform mean log_loss",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "uniform mean multiclass_brier",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "uniform mean top1_correct",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "scheduled only",
+      "expected": [
+        "11388",
+        "11396",
+        "11404",
+        "11412",
+        "11420",
+        "11428",
+        "11436"
+      ],
+      "actual": [
+        "11388",
+        "11396",
+        "11404",
+        "11412",
+        "11420",
+        "11428",
+        "11436"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "11388 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 circuit key",
+      "expected": 61,
+      "actual": 61,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 circuit key",
+      "expected": 9,
+      "actual": 9,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 circuit key",
+      "expected": 65,
+      "actual": 65,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 circuit key",
+      "expected": 14,
+      "actual": 14,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 circuit key",
+      "expected": 152,
+      "actual": 152,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 circuit key",
+      "expected": 150,
+      "actual": 150,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 22 expected entrants",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 win sum",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 probabilities finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 roster caveat",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 circuit key",
+      "expected": 70,
+      "actual": 70,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 feature values independent",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 source time before future",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    }
+  ],
+  "independent_metrics": {
+    "model": {
+      "log_loss": 3.119464529091759,
+      "multiclass_brier": 0.8645732081859369,
+      "top1_correct": 0.3333333333333333
+    },
+    "recent_win_baseline": {
+      "log_loss": 2.9699472884626945,
+      "multiclass_brier": 0.9713220164609054,
+      "top1_correct": 0.11666666666666665
+    },
+    "uniform": {
+      "log_loss": 3.0910424533583156,
+      "multiclass_brier": 0.9545454545454547,
+      "top1_correct": 0.04545454545454545
+    }
+  },
+  "limitations": [
+    "No calibration claim; six-race holdout",
+    "Model coefficients not independently retrained",
+    "Expected rank MAE not recalculated without serialized estimator",
+    "User confirmation unconfirmed"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "producer_id": "/root",
+  "participant_verification": "pending",
+  "url": "http://127.0.0.1:8765/f1/index.html#race=11234",
+  "viewport": {
+    "width": 498,
+    "height": 544
+  },
+  "observed": [
+    "44 lanes=22predicted+22recorded",
+    "22 comparison table rows",
+    "Play advances64percent/52:27 and car positions change",
+    "End reaches1 and100percent/Finished",
+    "finalactualfirstNOR5 VER6 BOR9matchesrecordedresult",
+    "document hasnohorizontaloverflow",
+    "English pre-race comparison headings and explanatory labels rendered"
+  ],
+  "screenshot": "browser-comparison-2026-10-07-v01.png",
+  "limitations": "Screenshot initialcompares predictedboardonly at narrowviewport; actualboardbelow. Browsermanipulation/root observation separate from independentcodeverification."
+}

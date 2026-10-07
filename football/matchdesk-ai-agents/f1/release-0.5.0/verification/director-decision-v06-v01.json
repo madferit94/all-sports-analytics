@@ -1,0 +1,94 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v06",
+  "match_key": "season:2026:driver-dashboard",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.5.0",
+  "release_context": "MatchLab0.17.0",
+  "summary": "드라이버 현재시각 진행기록과 재생 전체22차량표시 기능에 한정한 내부준비. 전체프로젝트·기존모델성능·공개배포 승인 아님.",
+  "independence": {
+    "feature_producer": "/root/f1_replay",
+    "approver": "/root/f1_director",
+    "reviewer": "/root/f1_verifier",
+    "product_modified_by_approver": false,
+    "ui_producer": "/root"
+  },
+  "reports": {
+    "dashboard": {
+      "selected_driver_cutoff_verified": true,
+      "failed_or_missing_pit_count_null": true,
+      "pit_duration_only_after_completion": true,
+      "decision": "INTERNAL_READY"
+    },
+    "preservation": {
+      "new_collection_or_retrain": false,
+      "data_map_history_future_files": 4,
+      "decision": "BYTE_IDENTICAL_TO_V05"
+    },
+    "approval": {
+      "public_approval": false,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "whole_project_pass": false
+    },
+    "upcoming": {
+      "decision": "PREDICTION_ONLY",
+      "actual_progress_unavailable": true
+    },
+    "vehicle_view": {
+      "play_all22": true,
+      "driver_selection_preserved": true,
+      "paused_single_allowed": true,
+      "decision": "INTERNAL_READY"
+    }
+  },
+  "evidence": [
+    {
+      "path": "verification/reviewer-summary-v06-v01.json",
+      "description": "Latest6902independentPASS; approver rechecked6artifact and4report hashes"
+    },
+    {
+      "path": "verification/REVIEW-v06-independent.ko.md",
+      "description": "Cursor boundary, completed pit duration, failed coverage null, final assemble followup"
+    },
+    {
+      "path": "replay/driver-dashboard-verification.json",
+      "description": "Producer11339checks separate from independent results"
+    },
+    {
+      "path": "replay/DRIVER-PROGRESS.md",
+      "description": "Vehicle view and cursor-limited history contract"
+    },
+    {
+      "path": "verification/browser-observations-v01.json",
+      "description": "Root browser interactions separate from independentVMchecks; final null/axis patch not recaptured"
+    },
+    {
+      "path": "verification/driver-dashboard-v01.png",
+      "description": "Approver opened screenshot:Max rank6/L57/HARD/finished and lastcompletedL57 83.53s; prior to finalpatch"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/map-comparison.js": "04189e5ea4344a62a982d6b4f1a5f94e4fbbb991dec197eed4c3ef8447ddaa46",
+    "index.html": "044c98a0c608dca82bc484793baa360a683aab24f5bbd68c453072ea49b17167"
+  },
+  "issues": [
+    "독립6902검사·root브라우저관측·결재자의이미지검토를구분",
+    "브라우저JSON/PNG는최종coverage-null/차트축확대 패치전;최종패치는독립검사로대조했으며화면재확인아님",
+    "피트진입개수와피트레인총시간구분:총시간은완료후만표시,정차시간으로바꾸지않음",
+    "정적최종결과비교표와현재커서진행기록분리",
+    "기존실제위치2/22·20랩재구성·2025지도참조·회고적순위연출 모델한계유지",
+    "미래실제진행확보없음;전체모델재학습·성능재인증범위아님",
+    "기존 integrated_gate 전체통과 또는 공개배포승인주장없음",
+    "참가자확인전/Gitpush없음"
+  ],
+  "user_confirmation": "PENDING",
+  "git_push": "NOT_PERFORMED",
+  "production_changed": false
+}

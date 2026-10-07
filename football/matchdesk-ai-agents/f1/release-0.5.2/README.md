@@ -1,0 +1,16 @@
+## 0.17.2 / F1 0.5.2 — Slower circuit playback
+
+Completed races now use recorded real-time playback at 1×, replacing the previous entire-race-in-60-seconds compression. Shared speed offers 0.25×, 0.5×, 1×, 2×, 4×, 10×, 30×, 60×. Upcoming forecasts use a labeled 180-second illustration. Earlier speed descriptions below are release history. Previous versions preserved; user verification pending.
+
+# MatchLab F1 0.5.2 · all drivers and selected-driver progress
+
+Maps show all22 entries by default. Driver selection highlights an entrant and updates its progress panel. A paused selected-only view is retained; Play restores all-driver rendering without losing the selected records.
+
+Progress records use only data available at the current cursor: position, laps, tyres, pit entries and completed lap durations. Charts exclude later events. Pit-lane duration is not stationary stop duration. Upcoming races expose prediction values only, not fabricated recorded statistics.
+
+Existing completed16/upcoming7 maps, models, coordinate/reconstruction labels and retrospective forecast limitations are preserved. User verification pending; not pushed to GitHub.
+
+
+Shared speed: prediction motion uses the completed race lap count. Both maps share one cursor and 1×/2×/4× speed. Prediction remains an illustration, not actual per-lap forecasting.
+
+

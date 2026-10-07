@@ -1,0 +1,45 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "scope": "v08 real recorded-time rate and expanded speed selector only",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checks": 1861,
+  "all_executed_checks_pass": true,
+  "evidence": [
+    {
+      "file": "preservation-independent-v01.json",
+      "sha256": "c7f270211070de05799ea7c64386f7fdb02aabed0d14f27977bd01a6be5b90a5"
+    },
+    {
+      "file": "realtime-independent-v01.json",
+      "sha256": "a3df5d0dbacf625ee5e471553065e89c496a9651cacff39b2171e5ea8ab21cbc"
+    },
+    {
+      "file": "ui-independent-v08-v01.json",
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "replay/map-comparison.js": "499a82fec356a90efc517971a872acf61b6af376aff3711738e9ca13ba72cc1d",
+    "index.html": "25579ab1f7467d5b38cfa6f708f610d8dcfa819092ddafb34a832c33671af4f7"
+  },
+  "browser_evidence": {
+    "producer_id": "/root",
+    "file": "browser-observations-v01.json",
+    "sha256": "3b60ba59a3bf184ad2404afe38f00b44f54ad015bd3fb68c487041b3360cbf2b",
+    "reviewer_directly_operated_browser": false
+  },
+  "limitations": [
+    "Exact rate validation is controlled RAF, not real-browser stopwatch",
+    "User browser navigation interrupted parent subsequent pause inspection; not expanded to full browser completion",
+    "Upcoming180sec illustration is not recorded telemetry",
+    "Model/data not retrained or re-certified",
+    "Participant confirmation pending"
+  ]
+}

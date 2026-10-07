@@ -1,3 +1,19 @@
+## 0.17.2 / F1 0.5.2 — 느린 서킷 재생
+
+종료 경기의 1×를 전체 경기 60초 압축에서 실제 기록 시간 기준으로 변경했습니다. 공통 배속은 0.25×·0.5×·1×·2×·4×·10×·30×·60×입니다. 예정 경기는 180초 예측 연출을 사용합니다. 아래 이전 배속 설명은 변경 이력입니다. 이전 버전 보존, 참가자 확인 전.
+
+## MatchLab 0.17.1 — F1 공통 배속
+
+예측판과 실제판의 배속·시간 이동을 함께 적용하며, 예측 차량 이동을 기록된 랩 규모에 맞췄습니다. 로컬 반영, 이전 0.17.0 보존.
+
+# MatchLab0.17.0 · 선택 드라이버 진행 기록
+
+# MatchLab0.16.0 · F1 서킷 지도 비교
+
+# MatchLab 0.15.0 · F1 경기 전 예측과 실제 진행 비교
+
+# MatchLab 0.14.0 · F1 기록 재생 및 실험 예측
+
 # 🏟️ All Sports Analytics & Simulation Hub
 
 [English](README.md) | [한국어](README.ko.md)
@@ -6,11 +22,11 @@
 
 MatchDesk: **Day13 작업** · [폴더 이동 기록](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchLab AI 경기 분석실 · 0.12.2
+## MatchLab AI 경기 분석실 · 0.13.0
 
 PL·라리가 한영8비트 화면: 전체팀 로지스틱 승부예측, 학습한 득점분포, 움직이는22명경기연출, 일정더보기·경기프리뷰,57지표선택차트. 입력은2026-09-20고정자료이며과거검증결과로미래성능을보장하지않습니다.
 
-[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.2.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
+[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.13.0.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
 
 v20~v32이전버전과독립차트검증근거를보존합니다. 현재5인팀·이전10역할및18개스킬의영어판을제공하며, 도구·계약은한글패키지와공유합니다. 별도Claude실행환경검증또는인터넷서비스호스팅을완료했다는뜻은아닙니다.
 
@@ -118,3 +134,7 @@ project-name/
 - **작성자:** madferit94
 - **이메일:** wowzc@naver.com
 - **GitHub:** [madferit94](https://github.com/madferit94)
+
+[F1 분석실](football/matchdesk-ai-agents/f1/index.html)
+
+

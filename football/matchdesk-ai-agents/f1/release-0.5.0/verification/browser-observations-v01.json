@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:8765/f1/index.html#race=11234",
+  "participant_confirmation": "pending",
+  "observations": [
+    "Default vehicle view is all; driver selector contains 22 entrants.",
+    "Selecting Max Verstappen, selecting single-driver view, then Play changes vehicle view to all and preserves Max selection.",
+    "At halfway Max showed rank 6, lap 29, MEDIUM, 1 pit entry and last completed lap L28 83.44s.",
+    "At End Max showed rank 6, lap 57, finished, HARD, 2 pit entries and last completed lap L57 83.53s.",
+    "Position chart and completed-lap chart update with driver/cursor; recent pit entries visible.",
+    "Upcoming Singapore GP showed prediction information and unavailable actual progress notice.",
+    "At viewport width 498, document scroll width 485; no horizontal overflow."
+  ],
+  "screenshot": "driver-dashboard-final-v02.png",
+  "scope": "Final assembled UI reloaded and Max Verstappen end-of-race panel captured after the final chart font and missing-coverage patches. English labels also observed. Root observations complement independent checks."
+}

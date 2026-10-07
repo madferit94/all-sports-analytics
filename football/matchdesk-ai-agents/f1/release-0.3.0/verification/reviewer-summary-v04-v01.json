@@ -1,0 +1,57 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "run_id": "f1-v04-independent-2026-10-07-v01",
+  "scope": "v04 retrospective pre-race model versus actual recorded progress",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checks": 1333,
+  "all_checks_pass": true,
+  "evidence": [
+    {
+      "file": "historical-independent-v01.json",
+      "sha256": "2fde09cd1b50b3d26564f6052fa5849412d473d6cb4a83d68c9b1f46409116b3"
+    },
+    {
+      "file": "position-independent-v02.json",
+      "sha256": "f6d9b37fc4adc63229702d5744fe6e9c962c6b5794caf258680e1496c23f636a"
+    },
+    {
+      "file": "comparison-independent-v01.json",
+      "sha256": "aef2a9d0f7d624b826918181b208524449b55a1101f37a1ac8ef263f8ca06f48"
+    },
+    {
+      "file": "comparison-mount-independent-v01.json",
+      "sha256": "119f6bd77fc3b5bac8035b277f5d3711c03704194efcc14442a66231b37161ee"
+    },
+    {
+      "file": "ui-independent-2026-10-07-v01.json",
+      "sha256": "5ac44cca67c03f134b4e674bf8cca447b32d2fa7a726723d364335b063dd77b2"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "data/position-manifest.json": "6f26fe547cecd411cd1f5bb81278b699a27d1141df1c88284c38b2b022a5c504",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/historical-feature-audit.json": "f2e1f11b445526edb700d90abd3c2fe0c4efab095c0a5c9148bcaa8ba972b7d0",
+    "modeling/train-historical.py": "cc2860ce8d89eca411f92fbd5e368ef25039ce3b7ff1babd6f461bc03b4179f6",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "index.html": "08656f8fa331b5ce6a77a2c08fc544aed35adf97a37aec0d57f414041d9921ba"
+  },
+  "limitations": [
+    "Independent Node VM code checks are not real-browser layout checks",
+    "Historical entrant metadata publication time unknown",
+    "Retrospective model is not forecast published before original races",
+    "Left is a finishing-order illustration, no physical pace simulation",
+    "Four original position23 samples invalid for22field; preserved, flagged lap inference fallback tested",
+    "Scheduled session end can precede delayed race completion; original position records not arbitrarily deleted",
+    "User confirmation unconfirmed"
+  ],
+  "browser_evidence": {
+    "producer_id": "/root",
+    "file": "browser-observations-2026-10-07-v01.json",
+    "sha256": "07e70e0bb74857cc3fa263ea987791c114c28a05c9289465dfcaec8db3964749",
+    "independent_reviewer_directly_operated_browser": false
+  },
+  "latest_followup": "Explanation default-closed disclosure change; comparison547/mount208/UI139 reexecuted PASS; all1333 retained. Root actual browser observations read separately."
+}

@@ -1,0 +1,3480 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "scope": "v05 map-data original source/downsampling verification",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "2025 metadata source hash",
+      "expected": "aa882fd9e9f11f405b93e163ea67fb2199a8ecbb2b453112a0b10e4675d4c600",
+      "actual": "aa882fd9e9f11f405b93e163ea67fb2199a8ecbb2b453112a0b10e4675d4c600",
+      "status": "PASS"
+    },
+    {
+      "name": "23 played+upcoming map keys",
+      "expected": [
+        "11234",
+        "11245",
+        "11253",
+        "11280",
+        "11291",
+        "11299",
+        "11307",
+        "11315",
+        "11326",
+        "11334",
+        "11342",
+        "11353",
+        "11361",
+        "11369",
+        "11377",
+        "11388",
+        "11396",
+        "11404",
+        "11412",
+        "11420",
+        "11428",
+        "11436",
+        "11731"
+      ],
+      "actual": [
+        "11234",
+        "11245",
+        "11253",
+        "11280",
+        "11291",
+        "11299",
+        "11307",
+        "11315",
+        "11326",
+        "11334",
+        "11342",
+        "11353",
+        "11361",
+        "11369",
+        "11377",
+        "11388",
+        "11396",
+        "11404",
+        "11412",
+        "11420",
+        "11428",
+        "11436",
+        "11731"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "46 source requests",
+      "expected": 46,
+      "actual": 46,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11234-63-location.json.gz",
+      "expected": "7acb6e194cdb600d6b8836e92ee01eac6a64a0baf03d40b5d5e977ba942af908",
+      "actual": "7acb6e194cdb600d6b8836e92ee01eac6a64a0baf03d40b5d5e977ba942af908",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11234-63-location.json.gz",
+      "expected": 18575,
+      "actual": 18575,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11234-3-location.json.gz",
+      "expected": "c8f1a0721823685f08547bce3bb75b9633e8b61a073c7c692f5a9fa1ef14cd74",
+      "actual": "c8f1a0721823685f08547bce3bb75b9633e8b61a073c7c692f5a9fa1ef14cd74",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11234-3-location.json.gz",
+      "expected": 18575,
+      "actual": 18575,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11245-63-location.json.gz",
+      "expected": "5e5ce21146621a26baecd78e17dd10ecdfd029909b343a67ff1158742f3997ac",
+      "actual": "5e5ce21146621a26baecd78e17dd10ecdfd029909b343a67ff1158742f3997ac",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11245-63-location.json.gz",
+      "expected": 21527,
+      "actual": 21527,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11245-3-location.json.gz",
+      "expected": "7eb6857d202b7b85a9202db5ccb2df4a45689cd4adc8a611295fb2c2ad9e517f",
+      "actual": "7eb6857d202b7b85a9202db5ccb2df4a45689cd4adc8a611295fb2c2ad9e517f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11245-3-location.json.gz",
+      "expected": 21527,
+      "actual": 21527,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11253-63-location.json.gz",
+      "expected": "1d9fb3edf3692b4a09c4b0a6dc17f0f7209bee01d34fba7ee3600217603201b2",
+      "actual": "1d9fb3edf3692b4a09c4b0a6dc17f0f7209bee01d34fba7ee3600217603201b2",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11253-63-location.json.gz",
+      "expected": 20469,
+      "actual": 20469,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11253-3-location.json.gz",
+      "expected": "a7e3974b57c1921a1d44a7f3edbc6f113b8f4edf1ca523da759cf9c350ec8a13",
+      "actual": "a7e3974b57c1921a1d44a7f3edbc6f113b8f4edf1ca523da759cf9c350ec8a13",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11253-3-location.json.gz",
+      "expected": 20469,
+      "actual": 20469,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11280-63-location.json.gz",
+      "expected": "789673a9be7cc1f0dd2948fff424027db01792710e63e3135434e1e24727319d",
+      "actual": "789673a9be7cc1f0dd2948fff424027db01792710e63e3135434e1e24727319d",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11280-63-location.json.gz",
+      "expected": 21667,
+      "actual": 21667,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11280-3-location.json.gz",
+      "expected": "76895021270d3f1e93d74e6908752051c2a6b0d8b6df20b5102eddd09301fd7b",
+      "actual": "76895021270d3f1e93d74e6908752051c2a6b0d8b6df20b5102eddd09301fd7b",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11280-3-location.json.gz",
+      "expected": 21667,
+      "actual": 21667,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11291-63-location.json.gz",
+      "expected": "9ce3b18ebd6d2bf601ca87eb102a793cca419569597934908ddb600e2dfc86ac",
+      "actual": "9ce3b18ebd6d2bf601ca87eb102a793cca419569597934908ddb600e2dfc86ac",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11291-63-location.json.gz",
+      "expected": 20377,
+      "actual": 20377,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11291-3-location.json.gz",
+      "expected": "6ba5f184137a0e397fb6cd5dfb5bd590411469a760aeedfdfe53432770f65e31",
+      "actual": "6ba5f184137a0e397fb6cd5dfb5bd590411469a760aeedfdfe53432770f65e31",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11291-3-location.json.gz",
+      "expected": 20377,
+      "actual": 20377,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11299-63-location.json.gz",
+      "expected": "0822cb899092d2b31a7a1633782b49db6c8b1d8c2b648ccbc0669d06703cd842",
+      "actual": "0822cb899092d2b31a7a1633782b49db6c8b1d8c2b648ccbc0669d06703cd842",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11299-63-location.json.gz",
+      "expected": 1567,
+      "actual": 1567,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11299-1-location.json.gz",
+      "expected": "be1952dc175a4d45d8090ef9e31b04bf3defba397b4a8d82eaa16a9b314e1c0a",
+      "actual": "be1952dc175a4d45d8090ef9e31b04bf3defba397b4a8d82eaa16a9b314e1c0a",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11299-1-location.json.gz",
+      "expected": 1567,
+      "actual": 1567,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11307-63-location.json.gz",
+      "expected": "2136e5c63ab106de975e708caa900fa94a5bede1fa5196d01cb17654e8579034",
+      "actual": "2136e5c63ab106de975e708caa900fa94a5bede1fa5196d01cb17654e8579034",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11307-63-location.json.gz",
+      "expected": 21395,
+      "actual": 21395,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11307-3-location.json.gz",
+      "expected": "f95c464a0a5832823e8be64b8bbc5edbf69c6e00ffc3a9ee79e5cfed9658588f",
+      "actual": "f95c464a0a5832823e8be64b8bbc5edbf69c6e00ffc3a9ee79e5cfed9658588f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11307-3-location.json.gz",
+      "expected": 21395,
+      "actual": 21395,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11315-63-location.json.gz",
+      "expected": "6a0c82d62591f3d320e5844a2ef20dcd3f1506a6aceb2e26f3c13d6d4b1948c8",
+      "actual": "6a0c82d62591f3d320e5844a2ef20dcd3f1506a6aceb2e26f3c13d6d4b1948c8",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11315-63-location.json.gz",
+      "expected": 20209,
+      "actual": 20209,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11315-3-location.json.gz",
+      "expected": "46a91487f5164a0c358b1d10ca095d27ab77cf3648726850557ff7578495d71f",
+      "actual": "46a91487f5164a0c358b1d10ca095d27ab77cf3648726850557ff7578495d71f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11315-3-location.json.gz",
+      "expected": 20209,
+      "actual": 20209,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11326-63-location.json.gz",
+      "expected": "b39d8d9e8295affd1aeea90e183e67ce6006f5b80afdbad1900dcd011b94a85f",
+      "actual": "b39d8d9e8295affd1aeea90e183e67ce6006f5b80afdbad1900dcd011b94a85f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11326-63-location.json.gz",
+      "expected": 20005,
+      "actual": 20005,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11326-3-location.json.gz",
+      "expected": "3d33bb840ce5f1f205129b6ff81bfc5779ef551c63245b623fa3d7c018f1ff2b",
+      "actual": "3d33bb840ce5f1f205129b6ff81bfc5779ef551c63245b623fa3d7c018f1ff2b",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11326-3-location.json.gz",
+      "expected": 20005,
+      "actual": 20005,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11334-3-location.json.gz",
+      "expected": "0ee35dc5ef72ee29471aca1763a7cf95e4e52cfa0423e7b8f65cd1b41bd9b2b3",
+      "actual": "0ee35dc5ef72ee29471aca1763a7cf95e4e52cfa0423e7b8f65cd1b41bd9b2b3",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11334-3-location.json.gz",
+      "expected": 19753,
+      "actual": 19753,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11334-1-location.json.gz",
+      "expected": "30ec16051b7876f3e7eaf374f6d628bc6ab220d6d587f325a660dd647a7630d8",
+      "actual": "30ec16051b7876f3e7eaf374f6d628bc6ab220d6d587f325a660dd647a7630d8",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11334-1-location.json.gz",
+      "expected": 19753,
+      "actual": 19753,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11342-63-location.json.gz",
+      "expected": "9fc4abc65376e4111e319e7990c97b4e9febe09140a12ddab2a1a3a4037422e4",
+      "actual": "9fc4abc65376e4111e319e7990c97b4e9febe09140a12ddab2a1a3a4037422e4",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11342-63-location.json.gz",
+      "expected": 22916,
+      "actual": 22916,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11342-3-location.json.gz",
+      "expected": "1ac4b6abc6d99e484ef790319fe51a1c90c5b98bea6fdb41cb0a164d019c67fa",
+      "actual": "1ac4b6abc6d99e484ef790319fe51a1c90c5b98bea6fdb41cb0a164d019c67fa",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11342-3-location.json.gz",
+      "expected": 22916,
+      "actual": 22916,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11353-63-location.json.gz",
+      "expected": "a20c502bc00fbae629bbddafa27fdbeff2154249943be248c66713203846f24e",
+      "actual": "a20c502bc00fbae629bbddafa27fdbeff2154249943be248c66713203846f24e",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11353-63-location.json.gz",
+      "expected": 28459,
+      "actual": 28459,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11353-1-location.json.gz",
+      "expected": "fb89465f9c2a9af8a825f9a57b4a115244702ee9eeb9e20bf885f936e11b38fe",
+      "actual": "fb89465f9c2a9af8a825f9a57b4a115244702ee9eeb9e20bf885f936e11b38fe",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11353-1-location.json.gz",
+      "expected": 28459,
+      "actual": 28459,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11361-63-location.json.gz",
+      "expected": "7c53606782196313a4c7c8b8baba71cfed891215be8c212536fdcf2d750f7bc4",
+      "actual": "7c53606782196313a4c7c8b8baba71cfed891215be8c212536fdcf2d750f7bc4",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11361-63-location.json.gz",
+      "expected": 25365,
+      "actual": 25365,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11361-3-location.json.gz",
+      "expected": "60cce8b522c6090000abd3c579972d2fbb6b26fd90bfeb3b8b3e05c19025187f",
+      "actual": "60cce8b522c6090000abd3c579972d2fbb6b26fd90bfeb3b8b3e05c19025187f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11361-3-location.json.gz",
+      "expected": 25365,
+      "actual": 25365,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11369-63-location.json.gz",
+      "expected": "3d1a4329daf5fed00f49794a50ac719eb4542ddfaba643cf88f16f9dc522c3af",
+      "actual": "3d1a4329daf5fed00f49794a50ac719eb4542ddfaba643cf88f16f9dc522c3af",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11369-63-location.json.gz",
+      "expected": 21830,
+      "actual": 21830,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11369-3-location.json.gz",
+      "expected": "d0df34f69595ac5e247ffca243718641f8c162b0c4cd7171d352999e6b7bad2b",
+      "actual": "d0df34f69595ac5e247ffca243718641f8c162b0c4cd7171d352999e6b7bad2b",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11369-3-location.json.gz",
+      "expected": 21830,
+      "actual": 21830,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11377-63-location.json.gz",
+      "expected": "5915f5e488786a309b38febf04b8c5050de1221d92ee1e8a32808c0d5660ecee",
+      "actual": "5915f5e488786a309b38febf04b8c5050de1221d92ee1e8a32808c0d5660ecee",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11377-63-location.json.gz",
+      "expected": 22701,
+      "actual": 22701,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11377-3-location.json.gz",
+      "expected": "7c20f7a3d1737f6216e191dcb6bcf0760a15384ca40a32d310cffbfb81502c0a",
+      "actual": "7c20f7a3d1737f6216e191dcb6bcf0760a15384ca40a32d310cffbfb81502c0a",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11377-3-location.json.gz",
+      "expected": 22701,
+      "actual": 22701,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11731-63-location.json.gz",
+      "expected": "a95f7c03be0fbc55aa79c7ea917b7667aee8b32905d03065202f0caa4e78ed5a",
+      "actual": "a95f7c03be0fbc55aa79c7ea917b7667aee8b32905d03065202f0caa4e78ed5a",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11731-63-location.json.gz",
+      "expected": 24513,
+      "actual": 24513,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/11731-3-location.json.gz",
+      "expected": "6794e234d68f20a3d506eb0540acb7762ca1cdc685fffaaeb898572662c172bd",
+      "actual": "6794e234d68f20a3d506eb0540acb7762ca1cdc685fffaaeb898572662c172bd",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/11731-3-location.json.gz",
+      "expected": 24513,
+      "actual": 24513,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9896-63-laps.json.gz",
+      "expected": "127c948d4130db2cb144768d2c44aed6d3f0de130bcf14e82d25918b859bc213",
+      "actual": "127c948d4130db2cb144768d2c44aed6d3f0de130bcf14e82d25918b859bc213",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9896-63-laps.json.gz",
+      "expected": 62,
+      "actual": 62,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9896-63-location.json.gz",
+      "expected": "f99865b07821156ace29fd782f4ec0eb30beb74f2f33f3a9d48167382df5cb9e",
+      "actual": "f99865b07821156ace29fd782f4ec0eb30beb74f2f33f3a9d48167382df5cb9e",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9896-63-location.json.gz",
+      "expected": 381,
+      "actual": 381,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9888-63-laps.json.gz",
+      "expected": "506889145d9ad10dfb2309e940f4dfe12197c06d9bb30896325d0f301aa927a4",
+      "actual": "506889145d9ad10dfb2309e940f4dfe12197c06d9bb30896325d0f301aa927a4",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9888-63-laps.json.gz",
+      "expected": 56,
+      "actual": 56,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9888-63-location.json.gz",
+      "expected": "c623ca36041084c89d377843217cc02cc67cd8620822278af11cc7678a2a81c8",
+      "actual": "c623ca36041084c89d377843217cc02cc67cd8620822278af11cc7678a2a81c8",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9888-63-location.json.gz",
+      "expected": 398,
+      "actual": 398,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9877-63-laps.json.gz",
+      "expected": "7720e2df0e79ef5f856039f50892ad5181596f1be10e5228dd5a0785e1b7150a",
+      "actual": "7720e2df0e79ef5f856039f50892ad5181596f1be10e5228dd5a0785e1b7150a",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9877-63-laps.json.gz",
+      "expected": 71,
+      "actual": 71,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9877-63-location.json.gz",
+      "expected": "3780aa428391f2a3c6602029326afb48c9724218470ebb53a0a623b3c93d401b",
+      "actual": "3780aa428391f2a3c6602029326afb48c9724218470ebb53a0a623b3c93d401b",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9877-63-location.json.gz",
+      "expected": 340,
+      "actual": 340,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9869-63-laps.json.gz",
+      "expected": "cd5b81a54f5077202b56434ff12d44c6971e99ae250a483d603f99e02aa80b33",
+      "actual": "cd5b81a54f5077202b56434ff12d44c6971e99ae250a483d603f99e02aa80b33",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9869-63-laps.json.gz",
+      "expected": 71,
+      "actual": 71,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9869-63-location.json.gz",
+      "expected": "dac10477ae103df28cb645441d6087cd39e2f9266a617ed1cfde39cb3e8ac081",
+      "actual": "dac10477ae103df28cb645441d6087cd39e2f9266a617ed1cfde39cb3e8ac081",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9869-63-location.json.gz",
+      "expected": 298,
+      "actual": 298,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9858-63-laps.json.gz",
+      "expected": "eb3b62e0dbb00177c800b6cefbf6a05ac0f9fb376ece16967e17b854a400c177",
+      "actual": "eb3b62e0dbb00177c800b6cefbf6a05ac0f9fb376ece16967e17b854a400c177",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9858-63-laps.json.gz",
+      "expected": 50,
+      "actual": 50,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9858-63-location.json.gz",
+      "expected": "674cc8ae5c549cc0775a83587d5ffbdbf249437efe2bdc2c83d6b460fdf19647",
+      "actual": "674cc8ae5c549cc0775a83587d5ffbdbf249437efe2bdc2c83d6b460fdf19647",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9858-63-location.json.gz",
+      "expected": 398,
+      "actual": 398,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9850-63-laps.json.gz",
+      "expected": "8cac91fd3d42e86c65ec40a9ad3a6f472ec59617b1d1df293903dea08075c4bf",
+      "actual": "8cac91fd3d42e86c65ec40a9ad3a6f472ec59617b1d1df293903dea08075c4bf",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9850-63-laps.json.gz",
+      "expected": 57,
+      "actual": 57,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9850-63-location.json.gz",
+      "expected": "3d88bbb1ce3e1d25d24c2509b6170f051cb0150fbcf175ed4a5749e410eaef56",
+      "actual": "3d88bbb1ce3e1d25d24c2509b6170f051cb0150fbcf175ed4a5749e410eaef56",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9850-63-location.json.gz",
+      "expected": 544,
+      "actual": 544,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9839-63-laps.json.gz",
+      "expected": "b4e748e68d2bf8ed3b3630459f53ad9c0fff9b5b15348a70f18f98d0164eb85f",
+      "actual": "b4e748e68d2bf8ed3b3630459f53ad9c0fff9b5b15348a70f18f98d0164eb85f",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9839-63-laps.json.gz",
+      "expected": 58,
+      "actual": 58,
+      "status": "PASS"
+    },
+    {
+      "name": "manifest hash raw/9839-63-location.json.gz",
+      "expected": "46be9fe2ef00bc91ecbed778216970228964ebb99c2e2aab7ccc00534f0976d7",
+      "actual": "46be9fe2ef00bc91ecbed778216970228964ebb99c2e2aab7ccc00534f0976d7",
+      "status": "PASS"
+    },
+    {
+      "name": "manifest rows raw/9839-63-location.json.gz",
+      "expected": 363,
+      "actual": 363,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 circuit key",
+      "expected": 10,
+      "actual": 10,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 original count",
+      "expected": 18575,
+      "actual": 18575,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 original count",
+      "expected": 18575,
+      "actual": 18575,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 circuit key",
+      "expected": 49,
+      "actual": 49,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 original count",
+      "expected": 21527,
+      "actual": 21527,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 original count",
+      "expected": 21527,
+      "actual": 21527,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 circuit key",
+      "expected": 46,
+      "actual": 46,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 original count",
+      "expected": 20469,
+      "actual": 20469,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 original count",
+      "expected": 20469,
+      "actual": 20469,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 circuit key",
+      "expected": 151,
+      "actual": 151,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 original count",
+      "expected": 21667,
+      "actual": 21667,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 original count",
+      "expected": 21667,
+      "actual": 21667,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 circuit key",
+      "expected": 23,
+      "actual": 23,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 original count",
+      "expected": 20377,
+      "actual": 20377,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 original count",
+      "expected": 20377,
+      "actual": 20377,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 circuit key",
+      "expected": 22,
+      "actual": 22,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 original count",
+      "expected": 1567,
+      "actual": 1567,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 original count",
+      "expected": 1567,
+      "actual": 1567,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11299/1 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 circuit key",
+      "expected": 15,
+      "actual": 15,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 original count",
+      "expected": 21395,
+      "actual": 21395,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 original count",
+      "expected": 21395,
+      "actual": 21395,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 circuit key",
+      "expected": 19,
+      "actual": 19,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 original count",
+      "expected": 20209,
+      "actual": 20209,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 original count",
+      "expected": 20209,
+      "actual": 20209,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 circuit key",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 original count",
+      "expected": 20005,
+      "actual": 20005,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 original count",
+      "expected": 20005,
+      "actual": 20005,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 circuit key",
+      "expected": 7,
+      "actual": 7,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 original count",
+      "expected": 19753,
+      "actual": 19753,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 original count",
+      "expected": 19753,
+      "actual": 19753,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334/1 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 circuit key",
+      "expected": 4,
+      "actual": 4,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 original count",
+      "expected": 22916,
+      "actual": 22916,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 original count",
+      "expected": 22916,
+      "actual": 22916,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11342/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 circuit key",
+      "expected": 55,
+      "actual": 55,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 original count",
+      "expected": 28459,
+      "actual": 28459,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 original count",
+      "expected": 28459,
+      "actual": 28459,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 original >2s gap count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11353/1 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 circuit key",
+      "expected": 39,
+      "actual": 39,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 original count",
+      "expected": 25365,
+      "actual": 25365,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 original count",
+      "expected": 25365,
+      "actual": 25365,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 circuit key",
+      "expected": 153,
+      "actual": 153,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 original count",
+      "expected": 21830,
+      "actual": 21830,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 original count",
+      "expected": 21830,
+      "actual": 21830,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 circuit key",
+      "expected": 144,
+      "actual": 144,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 original count",
+      "expected": 22701,
+      "actual": 22701,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 original count",
+      "expected": 22701,
+      "actual": 22701,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 circuit key",
+      "expected": 12,
+      "actual": 12,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 two selected drivers",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 circuit outline100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 original count",
+      "expected": 24513,
+      "actual": 24513,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/63 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 known driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 source join",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 original count",
+      "expected": 24513,
+      "actual": 24513,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 every sparse sample original",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 strict sorted unique",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 finite",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 original >2s gap count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731/3 retain gap borders",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 reference not pit out",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 reference not pit in",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 outline original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 no invented closure",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 circuit key unchanged",
+      "expected": 61,
+      "actual": 61,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11388 historical source circuit independently matched",
+      "expected": 61,
+      "actual": 61,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11388 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11396 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 circuit key unchanged",
+      "expected": 9,
+      "actual": 9,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11396 historical source circuit independently matched",
+      "expected": 9,
+      "actual": 9,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11396 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11404 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 circuit key unchanged",
+      "expected": 65,
+      "actual": 65,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11404 historical source circuit independently matched",
+      "expected": 65,
+      "actual": 65,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11404 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11412 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 circuit key unchanged",
+      "expected": 14,
+      "actual": 14,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11412 historical source circuit independently matched",
+      "expected": 14,
+      "actual": 14,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11412 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11420 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 circuit key unchanged",
+      "expected": 152,
+      "actual": 152,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11420 historical source circuit independently matched",
+      "expected": 152,
+      "actual": 152,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11420 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11428 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 circuit key unchanged",
+      "expected": 150,
+      "actual": 150,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11428 historical source circuit independently matched",
+      "expected": 150,
+      "actual": 150,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11428 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    },
+    {
+      "name": "11436 future map source past2025",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 circuit key unchanged",
+      "expected": 70,
+      "actual": 70,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 future no GPS drivers",
+      "expected": {},
+      "actual": {},
+      "status": "PASS"
+    },
+    {
+      "name": "11436 historical source circuit independently matched",
+      "expected": 70,
+      "actual": 70,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 historical source year",
+      "expected": 2025,
+      "actual": 2025,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 future source matched",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 future original xy",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 historical reference time before target",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 future points100+",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11436 historical label",
+      "expected": "HISTORICAL_REFERENCE",
+      "actual": "HISTORICAL_REFERENCE",
+      "status": "PASS"
+    }
+  ],
+  "observations": [
+    {
+      "session_key": 11234,
+      "driver_number": 63,
+      "raw_rows": 18575,
+      "sparse": 4271,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11234,
+      "driver_number": 3,
+      "raw_rows": 18575,
+      "sparse": 4271,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11245,
+      "driver_number": 63,
+      "raw_rows": 21527,
+      "sparse": 4970,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11245,
+      "driver_number": 3,
+      "raw_rows": 21527,
+      "sparse": 4970,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11253,
+      "driver_number": 63,
+      "raw_rows": 20469,
+      "sparse": 4705,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11253,
+      "driver_number": 3,
+      "raw_rows": 20469,
+      "sparse": 4705,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11280,
+      "driver_number": 63,
+      "raw_rows": 21667,
+      "sparse": 4963,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11280,
+      "driver_number": 3,
+      "raw_rows": 21667,
+      "sparse": 4963,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11291,
+      "driver_number": 63,
+      "raw_rows": 20377,
+      "sparse": 4695,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11291,
+      "driver_number": 3,
+      "raw_rows": 20377,
+      "sparse": 4695,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11299,
+      "driver_number": 63,
+      "raw_rows": 1567,
+      "sparse": 366,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11299,
+      "driver_number": 1,
+      "raw_rows": 1567,
+      "sparse": 366,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11307,
+      "driver_number": 63,
+      "raw_rows": 21395,
+      "sparse": 4930,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11307,
+      "driver_number": 3,
+      "raw_rows": 21395,
+      "sparse": 4930,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11315,
+      "driver_number": 63,
+      "raw_rows": 20209,
+      "sparse": 4625,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11315,
+      "driver_number": 3,
+      "raw_rows": 20209,
+      "sparse": 4625,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11326,
+      "driver_number": 63,
+      "raw_rows": 20005,
+      "sparse": 4593,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11326,
+      "driver_number": 3,
+      "raw_rows": 20005,
+      "sparse": 4593,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11334,
+      "driver_number": 3,
+      "raw_rows": 19753,
+      "sparse": 4550,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11334,
+      "driver_number": 1,
+      "raw_rows": 19753,
+      "sparse": 4550,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11342,
+      "driver_number": 63,
+      "raw_rows": 22916,
+      "sparse": 5264,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11342,
+      "driver_number": 3,
+      "raw_rows": 22916,
+      "sparse": 5264,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11353,
+      "driver_number": 63,
+      "raw_rows": 28459,
+      "sparse": 6614,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11353,
+      "driver_number": 1,
+      "raw_rows": 28459,
+      "sparse": 6614,
+      "original_over_2s": 1
+    },
+    {
+      "session_key": 11361,
+      "driver_number": 63,
+      "raw_rows": 25365,
+      "sparse": 5912,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11361,
+      "driver_number": 3,
+      "raw_rows": 25365,
+      "sparse": 5912,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11369,
+      "driver_number": 63,
+      "raw_rows": 21830,
+      "sparse": 5052,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11369,
+      "driver_number": 3,
+      "raw_rows": 21830,
+      "sparse": 5052,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11377,
+      "driver_number": 63,
+      "raw_rows": 22701,
+      "sparse": 5198,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11377,
+      "driver_number": 3,
+      "raw_rows": 22701,
+      "sparse": 5198,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11731,
+      "driver_number": 63,
+      "raw_rows": 24513,
+      "sparse": 5657,
+      "original_over_2s": 0
+    },
+    {
+      "session_key": 11731,
+      "driver_number": 3,
+      "raw_rows": 24513,
+      "sparse": 5657,
+      "original_over_2s": 0
+    }
+  ],
+  "failed_sources": []
+}

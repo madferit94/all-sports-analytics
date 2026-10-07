@@ -1,0 +1,7 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "assertions": 356,
+  "races": 16,
+  "method": "Node VM pure + synthetic DOM; actual browser remains root verification"
+}

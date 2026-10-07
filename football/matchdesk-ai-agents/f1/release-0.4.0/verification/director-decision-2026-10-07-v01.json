@@ -1,0 +1,98 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v05",
+  "match_key": "season:2026:all-active-GP",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.4.0",
+  "release_context": "MatchLab0.16",
+  "summary": "지도·일부 실제좌표와 랩 재구성 구분 증분 범위에서 내부 확인 준비. 전체모델성능·전차량GPS완전성·공개배포 승인 아님.",
+  "independence": {
+    "reviewer": "/root/f1_verifier",
+    "approver": "/root/f1_director",
+    "ui_producer": "/root",
+    "data_producer": "/root/f1_model",
+    "approver_product_code_modified": false
+  },
+  "reports": {
+    "approval": {
+      "model_readopted": false,
+      "public_release_authorized": false,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "whole_project_pass": false
+    },
+    "data": {
+      "completed_gp_maps": 16,
+      "decision": "PARTIAL_OBSERVED_LOCATION_WITH_RECONSTRUCTION",
+      "future2025reference_maps": 7,
+      "sparse_samples": 152730,
+      "selected_observed_drivers_per_gp": 2,
+      "responses": 46,
+      "raw_rows": 662656
+    },
+    "map_state": {
+      "total_bracket2000ms_allowed": true,
+      "decision": "INTERNAL_READY",
+      "exact_original_point_allowed": true,
+      "total_bracket2001ms_rejected": true,
+      "extrapolation_allowed": false,
+      "pit_outline_reference_corrected_without_raw_edits": true
+    },
+    "preservation": {
+      "historical16_and_future7_predictions_preserved": true,
+      "decision": "BYTE_IDENTICAL_TO_V04",
+      "v04_dataset_preserved": true
+    }
+  },
+  "evidence": [
+    {
+      "path": "verification/reviewer-summary-v05-v01.json",
+      "description": "Independent1456PASS; approver rechecked7artifact and5report hashes"
+    },
+    {
+      "path": "verification/REVIEW-map-v05-independent.ko.md",
+      "description": "Incremental scope, strict2sec interpolation, corrected pit references and retained draft failures"
+    },
+    {
+      "path": "map-data/producer-report.json",
+      "description": "Partial actual coordinate acquisition and Monaco gap disclosure"
+    },
+    {
+      "path": "map-data/counts.json",
+      "description": "46responses662656originalrows152730sparse samples"
+    },
+    {
+      "path": "verification/browser-observations-2026-10-07-v01.json",
+      "description": "Root actual browser observations:2canvas/play/end/select/Englishfuture/nooverflow; separate from independent code checks"
+    },
+    {
+      "path": "verification/browser-map-2026-10-07-v02.png",
+      "description": "Approver directly viewed selectedVER label,FINISH,actual-record legend2/22and reconstruction20; does not independently prove every browser interaction"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "map-data/source-manifest.json": "81ac558aa36f6b9d523f773c335167afeea06c75741af5295d60f29bccf219a9",
+    "replay/map-comparison.js": "096cbb4881d2148f9a3824937c6ccecbb5d4d8f203931fb0a246247f948d333e",
+    "index.html": "54370d13ae99f9a53e6c25301dd9078da04d31b9cc76e293ab31e1e286738263"
+  },
+  "issues": [
+    "실제 위치는 완료GP각선택2명뿐이며 나머지20명은유효랩기록재구성; 전차량GPS완전성 주장 불가",
+    "모나코 약50.2분 및 다른 큰공백은 실제좌표로 연결하지 않고 명시적 재구성으로 대체",
+    "OpenF1 x/y는 위도경도·미터단위 확인 좌표 아님",
+    "예정7지도는2025같은서킷참고:2026레이아웃동일공식미확인, 실제미래GPS 없음",
+    "예측움직임은회고적최종순위연출이며랩타임·추월물리모델 아님; v04기존모델한계유지",
+    "독립자동검사와root브라우저실행관측 및결재자의저장이미지확인 구분",
+    "기존 integrated_gate 전체통과 또는 전체프로젝트PASS 주장 없음",
+    "map-data/raw 로컬보존; 사용자확인전/GitHub전송없음"
+  ],
+  "user_confirmation": "PENDING",
+  "github_transmission": "NOT_PERFORMED",
+  "raw_external_upload": "NOT_PERFORMED",
+  "production_changed": false
+}

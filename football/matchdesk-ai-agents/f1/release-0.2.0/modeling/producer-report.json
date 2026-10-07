@@ -1,0 +1,52 @@
+{
+  "run_id": "matchlab-f1-2026-10-07-v03",
+  "match_key": "season:2026:scheduled",
+  "agent_id": "analyst",
+  "producer_id": "root/f1_model",
+  "role": "prediction",
+  "status": "DONE",
+  "cutoff_at": "2026-10-07T02:36:16.131490+00:00",
+  "summary": "Actual historical-result model, chronological six-race validation, seven future GP predictions; prototype, no performance guarantee.",
+  "evidence": [
+    {
+      "path": "modeling/train.py",
+      "description": "train.py"
+    },
+    {
+      "path": "modeling/modelmetrics.json",
+      "description": "modelmetrics.json"
+    },
+    {
+      "path": "modeling/predictions.json",
+      "description": "predictions.json"
+    },
+    {
+      "path": "modeling/feature-audit.json",
+      "description": "feature-audit.json"
+    },
+    {
+      "path": "modeling/producer-check.json",
+      "description": "producer-check.json"
+    },
+    {
+      "path": "modeling/source-manifest.json",
+      "description": "source-manifest.json"
+    }
+  ],
+  "issues": [
+    "Small 2025–2026 sample and 2026 regulation change",
+    "Probabilities uncalibrated; race normalization is not empirical calibration",
+    "No qualifying grid, future weather, target laps, or race-final standings used",
+    "Expected rank is a continuous estimate, not a unique assigned finishing position",
+    "Future roster assumed from latest completed GP, not officially confirmed"
+  ],
+  "reports": {
+    "analysis": {
+      "status": "DONE"
+    },
+    "prediction": {
+      "status": "DONE"
+    }
+  },
+  "independent_approval": false
+}

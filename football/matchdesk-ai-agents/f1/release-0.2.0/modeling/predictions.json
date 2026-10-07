@@ -1,0 +1,4153 @@
+{
+  "version": "0.2.0",
+  "model_id": "f1-logistic-history-2026-10-07-v01",
+  "feature_labels": {
+    "recent5_finish_score": {
+      "ko": "최근 5경기 완주 순위 점수",
+      "en": "Last-five finishing score"
+    },
+    "recent5_points": {
+      "ko": "최근 5경기 평균 포인트",
+      "en": "Last-five mean points"
+    },
+    "recent5_win_rate": {
+      "ko": "최근 5경기 우승 비율",
+      "en": "Last-five win rate"
+    },
+    "recent5_podium_rate": {
+      "ko": "최근 5경기 포디움 비율",
+      "en": "Last-five podium rate"
+    },
+    "recent5_nonfinish_rate": {
+      "ko": "최근 5경기 미완주·미출발·실격 비율",
+      "en": "Last-five DNF/DNS/DSQ rate"
+    },
+    "season_finish_score": {
+      "ko": "해당 시즌 이전 경기 순위 점수",
+      "en": "Season-to-date finishing score"
+    },
+    "team_recent5_finish_score": {
+      "ko": "팀 최근 5개 GP 순위 점수",
+      "en": "Team last-five GP finishing score"
+    },
+    "team_recent5_win_rate": {
+      "ko": "팀 최근 5개 GP 우승 비율",
+      "en": "Team last-five GP win rate per entrant"
+    },
+    "circuit_past_finish_score": {
+      "ko": "같은 서킷 이전 경기 순위 점수",
+      "en": "Earlier same-circuit finishing score"
+    },
+    "circuit_past_win_rate": {
+      "ko": "같은 서킷 이전 우승 비율",
+      "en": "Earlier same-circuit win rate"
+    }
+  },
+  "races": {
+    "11388": {
+      "session_key": 11388,
+      "meeting_name": "Singapore Grand Prix",
+      "circuit_key": 61,
+      "circuit_name": "Singapore",
+      "start": "2026-10-11T12:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.4509354990671382,
+          "expected_rank": 2.52057269848838,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.1991497771148789,
+          "expected_rank": 3.6169333898104217,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.1437998488350954,
+          "expected_rank": 2.7431666245744566,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.06635851757722445,
+          "expected_rank": 3.9444450255012944,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.039140051658946205,
+          "expected_rank": 5.506545467198989,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.029099286712167508,
+          "expected_rank": 6.351771026419045,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.02288764844935469,
+          "expected_rank": 4.467177120539789,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.013206551134393035,
+          "expected_rank": 7.465274664616789,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.007830059451334432,
+          "expected_rank": 9.480243236457635,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.006911281937591672,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.003678348600834498,
+          "expected_rank": 11.589357865125832,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3508771929824561,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0034169468879953345,
+          "expected_rank": 11.50180483001254,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0027504977982761736,
+          "expected_rank": 13.070835547503098,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3859649122807018,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0020505862545230073,
+          "expected_rank": 12.802292166274029,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0019667490207802623,
+          "expected_rank": 13.460031480878506,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0019149909437311578,
+          "expected_rank": 13.296573056514198,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3684210526315789,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0016737577709329543,
+          "expected_rank": 13.857961153493376,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0009536757529657858,
+          "expected_rank": 13.704124035419506,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0007074424858479013,
+          "expected_rank": 13.843433124773924,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0007025485129054066,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0004811182371422841,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0003848157959408063,
+          "expected_rank": 14.14916214413506,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11396": {
+      "session_key": 11396,
+      "meeting_name": "United States Grand Prix",
+      "circuit_key": 9,
+      "circuit_name": "Austin",
+      "start": "2026-10-25T20:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.3960999360209164,
+          "expected_rank": 3.4014275478558247,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.21477722420817005,
+          "expected_rank": 2.5100659471085227,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.14823569796230435,
+          "expected_rank": 4.290461491960077,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.08398642639857327,
+          "expected_rank": 3.504017600817572,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.04521455922242814,
+          "expected_rank": 5.396438611028059,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.02809927369505378,
+          "expected_rank": 4.136856552026997,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.028004524969255474,
+          "expected_rank": 6.9023053072737,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.014355202088628626,
+          "expected_rank": 7.57538152078772,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.009910087443419027,
+          "expected_rank": 9.039815811773913,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.0077445646599543965,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.00412184148154464,
+          "expected_rank": 11.589357865125832,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3508771929824561,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0037141387334308053,
+          "expected_rank": 11.61191168618347,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3859649122807018,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.003175480303498875,
+          "expected_rank": 12.138749206827336,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0029897246704900012,
+          "expected_rank": 13.180942403674031,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3684210526315789,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0023510433922698704,
+          "expected_rank": 12.966252488001407,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0022978223117462704,
+          "expected_rank": 12.802292166274029,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.001383394164958897,
+          "expected_rank": 14.959029715202682,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0009754019534271507,
+          "expected_rank": 14.034444603932297,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0007927377473993073,
+          "expected_rank": 13.843433124773924,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0007872537156032577,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0005391259292093188,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00044453892771790615,
+          "expected_rank": 14.03905528796413,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.47368421052631576,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11404": {
+      "session_key": 11404,
+      "meeting_name": "Mexico City Grand Prix",
+      "circuit_key": 65,
+      "circuit_name": "Mexico City",
+      "start": "2026-11-01T20:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.45284135541160103,
+          "expected_rank": 2.6306795546593094,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.19999147369232279,
+          "expected_rank": 3.727040245981351,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.13284525852065843,
+          "expected_rank": 4.400568348131008,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.06869843413123848,
+          "expected_rank": 3.9444450255012944,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.040203148325780945,
+          "expected_rank": 4.289571168326161,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.02834624215204436,
+          "expected_rank": 6.571984738760907,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.026762418862212686,
+          "expected_rank": 4.026749695856068,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.013262367962564742,
+          "expected_rank": 7.57538152078772,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.007154985739389367,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.0069618183710049766,
+          "expected_rank": 10.03077751731229,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0043010755864498745,
+          "expected_rank": 11.148930440442108,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0035374343684171556,
+          "expected_rank": 11.50180483001254,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.003523635779480918,
+          "expected_rank": 12.300087554306584,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.002607254630621374,
+          "expected_rank": 12.305611350975823,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.002471842175486585,
+          "expected_rank": 12.251757885419376,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0020361000062955577,
+          "expected_rank": 13.460031480878506,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0014002746354276985,
+          "expected_rank": 14.62870914668989,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3859649122807018,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.000778356065529898,
+          "expected_rank": 13.623219412432062,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.47368421052631576,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0007273215933683963,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0006646764878465109,
+          "expected_rank": 15.135513165641605,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0004980833015926338,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00038644220066534125,
+          "expected_rank": 14.259269000305991,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11412": {
+      "session_key": 11412,
+      "meeting_name": "São Paulo Grand Prix",
+      "circuit_key": 14,
+      "circuit_name": "Interlagos",
+      "start": "2026-11-08T17:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.4881819863108766,
+          "expected_rank": 2.190252129975588,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.19088558018078688,
+          "expected_rank": 3.727040245981351,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.1389195027353505,
+          "expected_rank": 4.0702477796182155,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.04550785853106635,
+          "expected_rank": 5.265727299552464,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.03837264235107999,
+          "expected_rank": 4.289571168326161,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.03150283713915499,
+          "expected_rank": 6.021450457906254,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.014769095018697337,
+          "expected_rank": 6.00867310693282,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.012658513667437579,
+          "expected_rank": 7.57538152078772,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.009870176468968369,
+          "expected_rank": 8.59938838709019,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.006829209159935426,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.004780036909172946,
+          "expected_rank": 10.598396159587455,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0034807155970589493,
+          "expected_rank": 11.391697973841609,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0027162161098413374,
+          "expected_rank": 12.248856062998266,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.002480661953559105,
+          "expected_rank": 13.401156116015892,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0022713788054770758,
+          "expected_rank": 12.635931919488614,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.47368421052631576,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.00221996110952839,
+          "expected_rank": 12.471971597761238,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0015095548247409914,
+          "expected_rank": 14.188281722006167,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0007658760036776637,
+          "expected_rank": 13.513112556261131,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0007615229536713589,
+          "expected_rank": 14.47487202861602,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0006942056166940993,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.000475404867255206,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00034706368596884536,
+          "expected_rank": 14.479482712647853,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11420": {
+      "session_key": 11420,
+      "meeting_name": "Las Vegas Grand Prix",
+      "circuit_key": 152,
+      "circuit_name": "Las Vegas",
+      "start": "2026-11-22T04:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.4725902791495884,
+          "expected_rank": 2.3003589861465175,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.18900929847033224,
+          "expected_rank": 2.5100659471085227,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.1473403761815574,
+          "expected_rank": 3.850034067276355,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.06543800049001518,
+          "expected_rank": 3.9444450255012944,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.03341244233872636,
+          "expected_rank": 5.801236745564393,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.023986756846898282,
+          "expected_rank": 4.246963408197928,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.023005947568932063,
+          "expected_rank": 7.378362022104811,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.00800251791604728,
+          "expected_rank": 9.226984363351681,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.007960070449254543,
+          "expected_rank": 9.370136380286704,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.006815409495735654,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.004354088686767461,
+          "expected_rank": 10.928716728100246,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0034736821755763977,
+          "expected_rank": 11.391697973841609,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0028808647852479633,
+          "expected_rank": 12.028642350656405,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.002483514099757546,
+          "expected_rank": 12.305611350975823,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.00247564932308454,
+          "expected_rank": 13.401156116015892,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0019615206310096773,
+          "expected_rank": 12.91239902244496,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0019218455614896013,
+          "expected_rank": 13.307426872638722,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0008326453465936077,
+          "expected_rank": 14.144551460103228,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0006928028474756403,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0005811837234171153,
+          "expected_rank": 14.504074261799508,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0004744442249065213,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00030665968758649916,
+          "expected_rank": 14.919910137331575,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11428": {
+      "session_key": 11428,
+      "meeting_name": "Qatar Grand Prix",
+      "circuit_key": 150,
+      "circuit_name": "Lusail",
+      "start": "2026-11-29T16:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.4655395700217596,
+          "expected_rank": 2.52057269848838,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.19787548870104021,
+          "expected_rank": 2.5100659471085227,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.13657039886501604,
+          "expected_rank": 4.290461491960077,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.0606547509885421,
+          "expected_rank": 4.384872450185018,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.47368421052631576,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.03919629912104925,
+          "expected_rank": 5.6166523233699195,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.024276997416649418,
+          "expected_rank": 7.122519019615561,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.3684210526315789,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.02223342328122205,
+          "expected_rank": 4.6873908328816505,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.014490007361280621,
+          "expected_rank": 7.245060952274928,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.009703273555499778,
+          "expected_rank": 8.819602099432052,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.007135111846775545,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.004160548422855347,
+          "expected_rank": 11.25903729661304,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.003749017064055221,
+          "expected_rank": 11.28159111767068,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.4385964912280702,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.003207210786823716,
+          "expected_rank": 12.630408122819375,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.002166029763713911,
+          "expected_rank": 12.966252488001407,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0021382787930998423,
+          "expected_rank": 13.08721316029686,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0020304444768018577,
+          "expected_rank": 13.460031480878506,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0015146651864721904,
+          "expected_rank": 14.013467584154268,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.0009845616521527575,
+          "expected_rank": 13.704124035419506,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0008001821029381504,
+          "expected_rank": 13.513112556261131,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0007253013641507834,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0004966998111973845,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00035173941690430833,
+          "expected_rank": 14.589589568818782,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3859649122807018,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    },
+    "11436": {
+      "session_key": 11436,
+      "meeting_name": "Abu Dhabi Grand Prix",
+      "circuit_key": 70,
+      "circuit_name": "Yas Marina Circuit",
+      "start": "2026-12-06T13:00:00+00:00",
+      "as_of": "2026-10-07T02:36:16.131490+00:00",
+      "roster_assumption": "Latest completed GP driver list; future entries unconfirmed",
+      "roster_source_session_key": 11731,
+      "drivers": [
+        {
+          "driver_number": 12,
+          "name": "Kimi ANTONELLI",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.38456370742375107,
+          "expected_rank": 3.621641260197687,
+          "features": {
+            "recent5_finish_score": 0.8163265306122449,
+            "recent5_points": 14.857142857142858,
+            "recent5_win_rate": 0.3,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.8386243386243386,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.42105263157894735,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 3,
+          "name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.22160969824743945,
+          "expected_rank": 2.5100659471085227,
+          "features": {
+            "recent5_finish_score": 0.6870748299319728,
+            "recent5_points": 12.0,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.6142857142857142,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6507936507936507,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6666666666666666,
+            "circuit_past_win_rate": 0.3666666666666667
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 63,
+          "name": "George RUSSELL",
+          "team": "Mercedes",
+          "team_colour": "00D7B6",
+          "win_probability": 0.1576782700311457,
+          "expected_rank": 4.180354635789147,
+          "features": {
+            "recent5_finish_score": 0.6802721088435374,
+            "recent5_points": 10.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.4714285714285714,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6957671957671958,
+            "team_recent5_finish_score": 0.7896825396825397,
+            "team_recent5_win_rate": 0.25833333333333336,
+            "circuit_past_finish_score": 0.5964912280701754,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 44,
+          "name": "Lewis HAMILTON",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.07672477311894954,
+          "expected_rank": 3.9444450255012944,
+          "features": {
+            "recent5_finish_score": 0.6122448979591837,
+            "recent5_points": 7.285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.7698412698412699,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.543859649122807,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 1,
+          "name": "Lando NORRIS",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.04525435005237827,
+          "expected_rank": 5.506545467198989,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 8.857142857142858,
+            "recent5_win_rate": 0.15714285714285717,
+            "recent5_podium_rate": 0.32857142857142857,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6190476190476191,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6315789473684211,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 16,
+          "name": "Charles LECLERC",
+          "team": "Ferrari",
+          "team_colour": "ED1131",
+          "win_probability": 0.028124002309919197,
+          "expected_rank": 4.246963408197928,
+          "features": {
+            "recent5_finish_score": 0.6258503401360545,
+            "recent5_points": 7.714285714285714,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.6878306878306879,
+            "team_recent5_finish_score": 0.6388888888888888,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.6140350877192983,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 6,
+          "name": "Isack HADJAR",
+          "team": "Red Bull Racing",
+          "team_colour": "4781D7",
+          "win_probability": 0.028029170201013774,
+          "expected_rank": 7.01241216344463,
+          "features": {
+            "recent5_finish_score": 0.7210884353741497,
+            "recent5_points": 8.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.18571428571428572,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.6285714285714286,
+            "team_recent5_finish_score": 0.6984126984126983,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.3859649122807018,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 37,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 81,
+          "name": "Oscar PIASTRI",
+          "team": "McLaren",
+          "team_colour": "F47600",
+          "win_probability": 0.01622801378794368,
+          "expected_rank": 7.245060952274928,
+          "features": {
+            "recent5_finish_score": 0.6326530612244898,
+            "recent5_points": 5.428571428571429,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5925925925925926,
+            "team_recent5_finish_score": 0.6507936507936508,
+            "team_recent5_win_rate": 0.09166666666666667,
+            "circuit_past_finish_score": 0.6491228070175438,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 30,
+          "name": "Liam LAWSON",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.008263204040815719,
+          "expected_rank": 9.810563804970428,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 4.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.5846560846560847,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3684210526315789,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 41,
+          "name": "Arvid LINDBLAD",
+          "team": "Racing Bulls",
+          "team_colour": "6C98FF",
+          "win_probability": 0.007990934065181903,
+          "expected_rank": 9.671544208315915,
+          "features": {
+            "recent5_finish_score": 0.5782312925170068,
+            "recent5_points": 3.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.544973544973545,
+            "team_recent5_finish_score": 0.5595238095238095,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 10,
+          "name": "Pierre GASLY",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.00425296513779108,
+          "expected_rank": 11.589357865125832,
+          "features": {
+            "recent5_finish_score": 0.43537414965986393,
+            "recent5_points": 2.142857142857143,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.5105820105820106,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3508771929824561,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 5,
+          "name": "Gabriel BORTOLETO",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0038173438336748166,
+          "expected_rank": 12.410194410477514,
+          "features": {
+            "recent5_finish_score": 0.4149659863945578,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.46031746031746024,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.49122807017543857,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 43,
+          "name": "Franco COLAPINTO",
+          "team": "Alpine",
+          "team_colour": "00A1E8",
+          "win_probability": 0.0034978657649027823,
+          "expected_rank": 11.942232254696265,
+          "features": {
+            "recent5_finish_score": 0.4489795918367347,
+            "recent5_points": 2.2857142857142856,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.48148148148148145,
+            "team_recent5_finish_score": 0.43253968253968256,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.3333333333333333,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 34,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 27,
+          "name": "Nico HULKENBERG",
+          "team": "Audi",
+          "team_colour": "F50537",
+          "win_probability": 0.0031782748678812252,
+          "expected_rank": 12.248856062998266,
+          "features": {
+            "recent5_finish_score": 0.5374149659863946,
+            "recent5_points": 1.8571428571428572,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.04285714285714286,
+            "season_finish_score": 0.4021164021164021,
+            "team_recent5_finish_score": 0.47222222222222227,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5263157894736842,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 31,
+          "name": "Esteban OCON",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0030946335929869983,
+          "expected_rank": 12.085397638633962,
+          "features": {
+            "recent5_finish_score": 0.401360544217687,
+            "recent5_points": 1.7142857142857142,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.41005291005291,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5614035087719298,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 87,
+          "name": "Oliver BEARMAN",
+          "team": "Haas F1 Team",
+          "team_colour": "9C9FA2",
+          "win_probability": 0.0021640209413132804,
+          "expected_rank": 13.132612734786822,
+          "features": {
+            "recent5_finish_score": 0.3741496598639456,
+            "recent5_points": 1.4285714285714286,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.38095238095238093,
+            "team_recent5_finish_score": 0.36904761904761907,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.47368421052631576,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 55,
+          "name": "Carlos SAINZ",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.0017663469941805897,
+          "expected_rank": 14.188281722006167,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 1.2857142857142858,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.36243386243386244,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.456140350877193,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 14,
+          "name": "Fernando ALONSO",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00113673225926428,
+          "expected_rank": 13.594017179248574,
+          "features": {
+            "recent5_finish_score": 0.36054421768707484,
+            "recent5_points": 2.0,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.32857142857142857,
+            "season_finish_score": 0.25132275132275134,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5789473684210527,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 11,
+          "name": "Sergio PEREZ",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0008122977610974129,
+          "expected_rank": 15.916694160108015,
+          "features": {
+            "recent5_finish_score": 0.2925170068027211,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.18571428571428572,
+            "season_finish_score": 0.23809523809523808,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 23,
+          "name": "Alexander ALBON",
+          "team": "Williams",
+          "team_colour": "1868DB",
+          "win_probability": 0.000769649624832388,
+          "expected_rank": 14.063646837115785,
+          "features": {
+            "recent5_finish_score": 0.2585034013605442,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.24603174603174605,
+            "team_recent5_finish_score": 0.27777777777777773,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.40350877192982454,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 40,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 77,
+          "name": "Valtteri BOTTAS",
+          "team": "Cadillac",
+          "team_colour": "909090",
+          "win_probability": 0.0005562765555329438,
+          "expected_rank": 14.695445383266913,
+          "features": {
+            "recent5_finish_score": 0.23129251700680273,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.4714285714285714,
+            "season_finish_score": 0.1746031746031746,
+            "team_recent5_finish_score": 0.2222222222222222,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5,
+            "circuit_past_win_rate": 0.05
+          },
+          "history": {
+            "driver_prior_races": 16,
+            "same_circuit_prior_races": 0,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        },
+        {
+          "driver_number": 18,
+          "name": "Lance STROLL",
+          "team": "Aston Martin",
+          "team_colour": "229971",
+          "win_probability": 0.00048746938800420903,
+          "expected_rank": 13.818841575622269,
+          "features": {
+            "recent5_finish_score": 0.2108843537414966,
+            "recent5_points": 1.1428571428571428,
+            "recent5_win_rate": 0.014285714285714287,
+            "recent5_podium_rate": 0.04285714285714286,
+            "recent5_nonfinish_rate": 0.6142857142857142,
+            "season_finish_score": 0.1455026455026455,
+            "team_recent5_finish_score": 0.25,
+            "team_recent5_win_rate": 0.008333333333333333,
+            "circuit_past_finish_score": 0.5087719298245613,
+            "circuit_past_win_rate": 0.03333333333333333
+          },
+          "history": {
+            "driver_prior_races": 39,
+            "same_circuit_prior_races": 1,
+            "latest_source_end": "2026-10-04T09:00:00+00:00",
+            "cold_start": false
+          }
+        }
+      ]
+    }
+  },
+  "metrics": {
+    "model": {
+      "log_loss": 3.119464529091759,
+      "multiclass_brier": 0.8645732081859369,
+      "top1_correct": 0.3333333333333333
+    },
+    "recent_win_baseline": {
+      "log_loss": 2.9699472884626945,
+      "multiclass_brier": 0.9713220164609054,
+      "top1_correct": 0.11666666666666665
+    },
+    "uniform": {
+      "log_loss": 3.0910424533583156,
+      "multiclass_brier": 0.954545454545455,
+      "top1_correct": 0.04545454545454546
+    }
+  }
+}

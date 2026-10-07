@@ -1,0 +1,8 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "assertions": 11339,
+  "races": 16,
+  "scheduled": 7,
+  "method": "Node pure + VM DOM; actual browser independent."
+}

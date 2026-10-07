@@ -1,0 +1,15 @@
+{
+  "pit_in_out_excluded": true,
+  "changes": [
+    {
+      "session_key": "11245",
+      "before_lap": 10,
+      "after_lap": 9
+    },
+    {
+      "session_key": "11731",
+      "before_lap": 9,
+      "after_lap": 11
+    }
+  ]
+}
