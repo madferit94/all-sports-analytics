@@ -1,0 +1,31 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "status": "PASS",
+  "method": "Function-source preservation of cursor cutoffs and real-time clock; existing v08 behavior tests remain prior-version evidence, not newly rerun",
+  "checks": [
+    {
+      "name": "driverHistory unchanged from v08",
+      "expected": "febcc24f7681b05bf7b7bdacc3d30b1e9eefc42afcc91d0e4a74458d342f42ad",
+      "actual": "febcc24f7681b05bf7b7bdacc3d30b1e9eefc42afcc91d0e4a74458d342f42ad",
+      "status": "PASS"
+    },
+    {
+      "name": "actualMarkers unchanged from v08",
+      "expected": "27b467898fcf1e7289eecf7a8d6a0660e2b43d27f6a9f964255977fbfaaae78d",
+      "actual": "27b467898fcf1e7289eecf7a8d6a0660e2b43d27f6a9f964255977fbfaaae78d",
+      "status": "PASS"
+    },
+    {
+      "name": "playbackDuration unchanged from v08",
+      "expected": "610fbd0a1150793e597cdb1865ee8bbaa8a8f154f532ef1a4a4c65ae011b1a22",
+      "actual": "610fbd0a1150793e597cdb1865ee8bbaa8a8f154f532ef1a4a4c65ae011b1a22",
+      "status": "PASS"
+    },
+    {
+      "name": "recorded replay unchanged",
+      "expected": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+      "actual": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+      "status": "PASS"
+    }
+  ]
+}

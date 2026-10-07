@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "checks": 96,
+  "scope": "Actual GP data and direct manual arithmetic; 30 KO/EN metric labels; threshold/range/pit-exclusion/top-N and unsupported guards"
+}

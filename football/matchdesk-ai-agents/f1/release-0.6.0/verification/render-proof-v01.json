@@ -1,0 +1,136 @@
+{
+  "method": "Actual HTML rendered in separate headless Edge; no user-tab control",
+  "checks": 245,
+  "errors": [],
+  "observations": [
+    {
+      "width": 320,
+      "lang": "ko",
+      "view": "metrics",
+      "viewport": 320,
+      "pageWidth": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "lang": "ko",
+      "view": "tyres",
+      "viewport": 320,
+      "pageWidth": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "view": "metrics",
+      "viewport": 320,
+      "pageWidth": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "view": "tyres",
+      "viewport": 320,
+      "pageWidth": 320,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "lang": "ko",
+      "view": "metrics",
+      "viewport": 375,
+      "pageWidth": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "lang": "ko",
+      "view": "tyres",
+      "viewport": 375,
+      "pageWidth": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "view": "metrics",
+      "viewport": 375,
+      "pageWidth": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "view": "tyres",
+      "viewport": 375,
+      "pageWidth": 375,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "lang": "ko",
+      "view": "metrics",
+      "viewport": 768,
+      "pageWidth": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "lang": "ko",
+      "view": "tyres",
+      "viewport": 768,
+      "pageWidth": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "view": "metrics",
+      "viewport": 768,
+      "pageWidth": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "view": "tyres",
+      "viewport": 768,
+      "pageWidth": 768,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "lang": "ko",
+      "view": "metrics",
+      "viewport": 1280,
+      "pageWidth": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "lang": "ko",
+      "view": "tyres",
+      "viewport": 1280,
+      "pageWidth": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "view": "metrics",
+      "viewport": 1280,
+      "pageWidth": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "view": "tyres",
+      "viewport": 1280,
+      "pageWidth": 1280,
+      "overflow": []
+    }
+  ],
+  "participant_confirmation": "pending"
+}

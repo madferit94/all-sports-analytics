@@ -1,3 +1,24 @@
+## MatchLab 0.19.2 / F1 0.7.2 — Barcelona circuit image repair
+
+Replaced the obsolete 404 image URL with the official 2026 circuit image. On failure, an aspect-preserving outline uses the recorded coordinates for the same session and circuit. Original data and models preserved.
+
+## MatchLab 0.19.1 / F1 0.7.1 — Conditional metric queries
+
+Query 30 metrics in Korean/English. Single-driver values use cards; multiple metrics have separate tables/charts. Selected-GP queries support lap ranges, pit-lap exclusions, numeric thresholds, top N and sort order, with visible applied conditions. Deterministic analysis without API calls.
+
+## MatchLab 0.19.0 / F1 0.7.0 — Natural-language charts
+
+Enter driver names and a metric for the selected GP to generate lap-time lines or comparison bars. Korean and English supported. A deterministic local parser calculates saved records without AI API calls. Unsupported events, dates and custom filters return guidance.
+
+
+## MatchLab 0.18.1 / F1 0.6.1
+
+Stationary pit-stop supplementation: 13 GP files, 276 missing values filled. Coverage-aware averages; existing source values and forecasts preserved.
+
+## MatchLab 0.18.0 — F1 driver metrics
+
+F1 now supports driver/category metrics and bilingual click explanations, with readable responsive cards. Previous releases preserved; local update, user verification pending.
+
 ## 0.17.2 / F1 0.5.2 — Slower circuit playback
 
 Completed races now use recorded real-time playback at 1×, replacing the previous entire-race-in-60-seconds compression. Shared speed offers 0.25×, 0.5×, 1×, 2×, 4×, 10×, 30×, 60×. Upcoming forecasts use a labeled 180-second illustration. Earlier speed descriptions below are release history. Previous versions preserved; user verification pending.
@@ -164,5 +185,6 @@ Email: wowzc@naver.com
 GitHub: https://github.com/madferit94
 
 [F1 viewer](football/matchdesk-ai-agents/f1/index.html)
+
 
 

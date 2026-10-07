@@ -1,0 +1,359 @@
+{
+  "method": "Separate headless Edge, no user tab interaction",
+  "results": [
+    {
+      "width": 320,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "경기 결과",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "랩타임 비교",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "타이어 · 피트",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–11",
+          "client": 65,
+          "scroll": 72
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 11–12",
+          "client": 22,
+          "scroll": 44
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 13–21",
+          "client": 53,
+          "scroll": 59
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 26–33",
+          "client": 47,
+          "scroll": 56
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 34–38",
+          "client": 28,
+          "scroll": 47
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 39–43",
+          "client": 28,
+          "scroll": 47
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–1",
+          "client": 22,
+          "scroll": 39
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–8",
+          "client": 47,
+          "scroll": 51
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 33–44",
+          "client": 71,
+          "scroll": 78
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 12–15",
+          "client": 22,
+          "scroll": 46
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "tab": "경기 운영 공지",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "경기 결과",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "랩타임 비교",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "타이어 · 피트",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–11",
+          "client": 65,
+          "scroll": 72
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 11–12",
+          "client": 22,
+          "scroll": 44
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 13–21",
+          "client": 53,
+          "scroll": 59
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 1–10",
+          "client": 59,
+          "scroll": 69
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 26–33",
+          "client": 47,
+          "scroll": 56
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 34–38",
+          "client": 28,
+          "scroll": 47
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 39–43",
+          "client": 28,
+          "scroll": 47
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–1",
+          "client": 22,
+          "scroll": 39
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–8",
+          "client": 47,
+          "scroll": 51
+        },
+        {
+          "tag": "SPAN",
+          "text": "MEDIUM 33–44",
+          "client": 71,
+          "scroll": 78
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 12–15",
+          "client": 22,
+          "scroll": 46
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "tab": "경기 운영 공지",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "경기 결과",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "랩타임 비교",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "타이어 · 피트",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "SOFT 11–12",
+          "client": 22,
+          "scroll": 44
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 26–33",
+          "client": 60,
+          "scroll": 63
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 34–38",
+          "client": 37,
+          "scroll": 51
+        },
+        {
+          "tag": "SPAN",
+          "text": "SOFT 39–43",
+          "client": 37,
+          "scroll": 51
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–1",
+          "client": 22,
+          "scroll": 39
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 12–15",
+          "client": 29,
+          "scroll": 49
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "tab": "경기 운영 공지",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "경기 결과",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "랩타임 비교",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "타이어 · 피트",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "text": "SOFT 11–12",
+          "client": 26,
+          "scroll": 45
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 1–1",
+          "client": 22,
+          "scroll": 39
+        },
+        {
+          "tag": "SPAN",
+          "text": "HARD 12–15",
+          "client": 54,
+          "scroll": 62
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "tab": "경기 운영 공지",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "producer_distinct_from_authors": true,
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "scope": "F1 0.6.0 metrics arithmetic, missing data, bilingual meanings, routing and preserved pre-cursor logic; not entire model certification",
+  "created_at": "2026-10-07T14:20:23.112137",
+  "independent_reports": [
+    {
+      "path": "verification/preservation-independent-v09-v01.json",
+      "status": "PASS",
+      "checks": 4,
+      "sha256": "dd47766585736b46f7e339643803a3b2f92b2a03aa365fc12e095af860a7404f"
+    },
+    {
+      "path": "verification/metrics-independent-v09-v01.json",
+      "status": "PASS",
+      "checks": 241,
+      "sha256": "e413fa2ca0239a98bf61146e7b70bb829d877cd0988b88a84a8b6ba624871fea"
+    },
+    {
+      "path": "verification/help-mount-independent-v09-v01.json",
+      "status": "PASS",
+      "checks": 32,
+      "sha256": "97a63eae9bfec0c98ee0d865ce251b47c172821f8eba569aeddaa8d504af1637"
+    },
+    {
+      "path": "verification/ui-independent-v09-v01.json",
+      "status": "PASS",
+      "checks": 160,
+      "sha256": "5d09433fa13c228863b5e6524353f4d771f4a51dd528c5ba71051ea28b226a75"
+    },
+    {
+      "path": "verification/time-scope-independent-v09-v02.json",
+      "status": "PASS",
+      "checks": 4,
+      "sha256": "1b479ec95a0f5ecbcb8e62844c91bd1973bcd9fcb523e7e9c9c66e94f7db11d0"
+    }
+  ],
+  "independent_checks": 441,
+  "independent_failures": 0,
+  "production_sha256": {
+    "index.html": "85d43e715c325d5a6b7ef2835ce7f7fe28f89ac828086e5f6746ec0f548b3056",
+    "template.html": "42a67988ce6f1f313bec4c4b5dc39917ef99b99f9146deea259e89ac12ed3cca",
+    "replay/metrics.js": "2c4675248b8f9cb5224bdabba62acbcdea4a62787a9fc8f7c335109b6dd4ca8a",
+    "replay/map-comparison.js": "84871e63f25926cb5dff709a4d4f210aa7bf615c171d5ac8e2a4048a95c89f89",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16"
+  },
+  "root_headless_render": {
+    "producer_id": "/root",
+    "path": "verification/render-proof-v01.json",
+    "method": "Actual HTML rendered in separate headless Edge; no user-tab control",
+    "checks": 245,
+    "observations": 16,
+    "errors": [],
+    "overflow_observations": 0,
+    "sha256": "b5d6d76befbf3f3bd9eefbef80fe972790616696d605a40041d737640b8e1f89",
+    "screenshots": [
+      "verification/render-proof-desktop-help-v01.png",
+      "verification/render-proof-mobile-help-v01.png"
+    ]
+  },
+  "findings": [
+    {
+      "issue": "Global metric bubble could remain across map/future route changes",
+      "resolution": "Author added closeHelp(false) to stopReplay; final UI control-path test PASS"
+    },
+    {
+      "issue": "Failed collection with stale arrays",
+      "resolution": "Author gates arrays on source availability; independent synthetic check PASS"
+    },
+    {
+      "issue": "Reviewer initial function-source slice captured helper outside function",
+      "resolution": "Original v01 false FAIL preserved; narrowed v02 PASS; no app logic defect"
+    }
+  ],
+  "limitations": [
+    "Whole-race aggregate cards intentionally use completed final records; current-progress panel retains cursor cutoffs",
+    "Headless Edge render produced by root; reviewer fake DOM is not actual browser",
+    "User browser was not controlled and participant confirmation is pending",
+    "Model calibration, official future roster and all accessibility tools are outside this scope"
+  ],
+  "participant_confirmation": "pending",
+  "review": "verification/REVIEW-v09-metrics.ko.md"
+}

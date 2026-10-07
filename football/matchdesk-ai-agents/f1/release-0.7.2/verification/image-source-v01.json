@@ -1,0 +1,11 @@
+{
+  "session_key": 11307,
+  "circuit_key": 15,
+  "old_url_status": 404,
+  "replacement_url": "https://media.formula1.com/image/upload/c_fit,h_704/q_auto/v1740000001/common/f1/2026/track/2026trackcatalunyadetailed.webp",
+  "replacement_status": 200,
+  "replacement_content_type": "image/webp",
+  "discovered_on": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+  "fallback": "existing observed GPS map for same session and circuit, aspect preserved",
+  "data_changed": false
+}

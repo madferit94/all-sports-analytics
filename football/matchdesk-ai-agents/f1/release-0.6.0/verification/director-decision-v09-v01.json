@@ -1,0 +1,115 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v09",
+  "match_key": "season:2026:metrics-help-layout",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.6.0",
+  "release_context": "MatchLab0.18.0",
+  "summary": "새 지표 계산·한영 도움말·좁은 화면 넘침 개선에 한정한 내부 확인 준비. 전체 프로젝트, 모델 성능, 공개 배포 승인은 아님.",
+  "independence": {
+    "approver": "/root/f1_director",
+    "reviewer": "/root/f1_verifier",
+    "ui_producer": "/root",
+    "product_modified_by_approver": false,
+    "feature_producer": "/root/f1_replay"
+  },
+  "reports": {
+    "approval": {
+      "whole_project_pass": false,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "public_release_authorized": false
+    },
+    "help": {
+      "bilingual_mount_checks": 32,
+      "model_input10_definitions_reviewed": true,
+      "decision": "INTERNAL_READY"
+    },
+    "layout": {
+      "root_headless_checks": 245,
+      "tested_locales": [
+        "ko",
+        "en"
+      ],
+      "overflow_observations": 0,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "user_tab_verified": false,
+      "tested_widths": [
+        320,
+        375,
+        768,
+        1280
+      ],
+      "root_render_observations": 16
+    },
+    "preservation": {
+      "cursor_time_functions_same_as_v08": true,
+      "decision": "UNCHANGED",
+      "previous_runtime_tests_not_claimed_rerun": true,
+      "source_json_files": 4
+    },
+    "metrics": {
+      "independent_arithmetic_checks": 241,
+      "missing_not_zero": true,
+      "population_std_definition": true,
+      "pit_lane_and_stop_distinct": true,
+      "decision": "INTERNAL_READY",
+      "valid_positive_laps_only": true
+    }
+  },
+  "evidence": [
+    {
+      "path": "verification/reviewer-summary-v09-v01.json",
+      "description": "441개 독립 검사 PASS. 결재자가 현행 산출물9개·검사보고5개·렌더 보고 해시 일치를 재확인"
+    },
+    {
+      "path": "verification/REVIEW-v09-metrics.ko.md",
+      "description": "산술·결측·10개 입력 설명·시점 함수 동일성·도움말 상호작용 범위"
+    },
+    {
+      "path": "verification/render-proof-v01.json",
+      "description": "root가 별도 headless Edge에서 실제 HTML 렌더링:245검사·16관측·오류0. 사용자 탭 또는 참가자 확인과 구분"
+    },
+    {
+      "path": "verification/render-proof-mobile-help-v01.png",
+      "description": "결재자가 직접 열어 한글 도움말 말풍선의 읽을 수 있는 문구와 닫기 버튼, 좁은 화면 내부 배치를 확인"
+    },
+    {
+      "path": "verification/render-failure-v01.json",
+      "description": "영문320px NO LAP DATA 초기 넘침 실패 기록 보존; 최종 렌더에서는 넘침0"
+    },
+    {
+      "path": "verification/render-baseline-v01.json",
+      "description": "수정 전 타이어 표시 등 좁은 박스 문제 재현 기록"
+    }
+  ],
+  "artifact_sha256": {
+    "index.html": "85d43e715c325d5a6b7ef2835ce7f7fe28f89ac828086e5f6746ec0f548b3056",
+    "template.html": "42a67988ce6f1f313bec4c4b5dc39917ef99b99f9146deea259e89ac12ed3cca",
+    "replay/metrics.js": "2c4675248b8f9cb5224bdabba62acbcdea4a62787a9fc8f7c335109b6dd4ca8a",
+    "replay/map-comparison.js": "84871e63f25926cb5dff709a4d4f210aa7bf615c171d5ac8e2a4048a95c89f89",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16"
+  },
+  "render_sha256": "b5d6d76befbf3f3bd9eefbef80fe972790616696d605a40041d737640b8e1f89",
+  "issues": [
+    "경기 전체 집계는 완료 경기의 최종 기록이며 현재 커서 진행 카드와 구분",
+    "평균·변동성은 피트·안전차·중단 영향도 포함하며 순수 주행 페이스 또는 공식 최고랩 판정이 아님",
+    "지표 독립 산술은 완료16GP 각1선수 및 격리 합성 자료 범위이며 모든 원자료 전체 사실 인증은 아님",
+    "커서 제한과 실제시간 함수는 소스 동일성 검사:이전 버전 전체 동작 검사를 이번 재실행으로 세지 않음",
+    "root headless Edge 실제 렌더와 reviewer 가상DOM 검사, 결재자 PNG 확인을 구분; 사용자 탭 및 참가자 직접 확인 없음",
+    "모든 접근성 보조 도구, 확률 보정, 공식 미래 명단, 전체 모델 성능은 범위 밖",
+    "기존 GPS2/22·랩재구성·2025참고지도·회고적 순위연출 한계 유지",
+    "신규 수집·모델 재학습·Gitpush 없음; 내부 판정은 외부 배포 승인을 대신하지 않음"
+  ],
+  "participant_confirmation": "PENDING",
+  "new_collection": false,
+  "model_retrain": false,
+  "git_push": "NOT_PERFORMED",
+  "production_changed_by_approver": false
+}

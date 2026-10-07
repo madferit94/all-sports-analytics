@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 80,
+  "errors": [],
+  "scope": "Real isolated component, KO/EN at 320/375/768/1280px; query/cards/conditions/help/overflow",
+  "participant_confirmation": "pending"
+}
