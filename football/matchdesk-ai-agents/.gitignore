@@ -6,3 +6,6 @@ __pycache__/
 !.env.example
 raw/
 private/
+
+# Local service process logs
+visualization-design-2026-10-07-v33/server-*.log

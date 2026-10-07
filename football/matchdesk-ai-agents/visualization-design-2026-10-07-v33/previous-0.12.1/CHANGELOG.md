@@ -1,7 +1,3 @@
-## 0.12.2 — 2026-10-07
-- Rename the KO/EN site to MatchLab; retain internal identifiers and historical snapshots.
-- Retry one transient upstream 5xx response; cap each attempt at 25 seconds and preserve distinct auth/quota/timeout errors.
-
 ## 0.12.1 · 2026-10-07
 
 - Publish accumulated0.9.2–0.12.0 changes, models, viewer snapshots and validation evidence.

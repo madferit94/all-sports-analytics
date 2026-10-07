@@ -2,17 +2,17 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-[English MatchLab site](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
+[English MatchDesk site](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
 
-MatchLab: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
+MatchDesk: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchLab football agent project · 0.12.2
+## MatchDesk football agent project · 0.12.1
 
 Korean/English 8-bit viewer for PL and LaLiga: selected all-team logistic predictions, learned score distributions, moving 22-player simulations, fixture previews and 57 selectable team metrics. Input records are a fixed 2026-09-20 snapshot; retrospective evaluation does not establish future performance.
 
-[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.2.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
+[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.1.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
 
-Preserved viewer versions v20–v33 and independent chart evidence are included. English packages mirror the current five-agent team, legacy ten roles and 18 skills. Tools/contracts are shared with the Korean packages; no separate Claude runtime or hosted service is claimed.
+Preserved viewer versions v20–v32 and independent chart evidence are included. English packages mirror the current five-agent team, legacy ten roles and 18 skills. Tools/contracts are shared with the Korean packages; no separate Claude runtime or hosted service is claimed.
 
 
 **A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**
