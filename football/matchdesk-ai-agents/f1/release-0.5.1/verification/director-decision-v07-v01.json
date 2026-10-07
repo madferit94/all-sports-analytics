@@ -1,0 +1,91 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v07",
+  "match_key": "season:2026:shared-playback-speed",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.5.1",
+  "release_context": "MatchLab0.17.1",
+  "summary": "공통배속과예측회전척도 증분에한정한내부확인준비. 전체프로젝트승인·물리주행속도동일·실시간1x 인증 아님.",
+  "independence": {
+    "approver": "/root/f1_director",
+    "reviewer": "/root/f1_verifier",
+    "feature_producer": "/root/f1_replay",
+    "ui_producer": "/root",
+    "approver_product_modified": false
+  },
+  "reports": {
+    "approval": {
+      "whole_project_pass": false,
+      "public_release_authorized": false,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS"
+    },
+    "preservation": {
+      "source_maps_predictions_actualclock_preserved": true,
+      "decision": "UNCHANGED"
+    },
+    "display_scale": {
+      "valid_recorded_laps_first": true,
+      "result_laps58_fallback_only": true,
+      "australia_laps": 57,
+      "upcoming_missing_three_illustrative_loops": true,
+      "decision": "INTERNAL_READY"
+    },
+    "shared_speed": {
+      "controlled_rate_ratio": "1:2:4",
+      "paused_change_cursor_fixed": true,
+      "existing_one_clock_preserved": true,
+      "decision": "INTERNAL_READY"
+    }
+  },
+  "evidence": [
+    {
+      "description": "Independent417PASS, approver verified8artifact/3report/browser hashes",
+      "path": "verification/reviewer-summary-v07-v01.json"
+    },
+    {
+      "description": "1:2:4controlledRAF,sharedcursor,validlapscale and limitations",
+      "path": "verification/REVIEW-v07-speed.ko.md"
+    },
+    {
+      "description": "Display contract and producer7159+11339checks",
+      "path": "replay/SHARED-SPEED.md"
+    },
+    {
+      "description": "Root actualbrowser selected4x/Play/pausephase0.4309645 andRussellL25;notstopwatchmeasurement",
+      "path": "verification/browser-observations-v01.json"
+    },
+    {
+      "description": "Approver opened screenshot but only header/AustralianGP visible;does not substantiate speed selector visually",
+      "path": "verification/shared-speed-controls-v02.png"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "replay/map-comparison.js": "14882f44bcfe98674545e09a49bd7833872812082e4fe928c1d5a961fe60d741",
+    "index.html": "655348b04628eb3da0f891e4bf340a039fa90d1b720423ddbd91bd563020e857"
+  },
+  "browser_sha256": "3d2dd8e332d573c39d0e826c1bffc05335a39ec6b5243a0cef811b4142a588de",
+  "issues": [
+    "1x는기존압축재생기준이며실시간1초=경기1초인증아님",
+    "공통시각커서와배속을공유하지만개별차량물리속도동일아님",
+    "예측최종순위연출·조기종료유지,학습한랩페이스모델아님",
+    "정확1:2:4비율은제어프레임자동검사이며브라우저스톱워치측정아님",
+    "controls-v02PNG는헤더영역으로배속selector시각증거없음;rootJSON관측과독립시험으로판단",
+    "기존GPS2/22·재구성20·회고예측·참가명단/확률보정한계유지",
+    "전체모델성능·원자료재인증/기존전체게이트통과주장없음",
+    "참가자확인전;신규수집/재학습/Git전송없음"
+  ],
+  "user_confirmation": "PENDING",
+  "git_transmission": "NOT_PERFORMED",
+  "new_collection": false,
+  "retrain": false,
+  "production_changed": false
+}

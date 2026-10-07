@@ -1,0 +1,156 @@
+{
+  "checked_at": "2026-10-07",
+  "scope": "All 25 meeting/session joins checked; official independent location confirmation only for meeting1308",
+  "checks": [
+    {
+      "meeting_key": 1279,
+      "session_key": 11234,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1280,
+      "session_key": 11245,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1281,
+      "session_key": 11253,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1282,
+      "session_key": 11261,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1283,
+      "session_key": 11269,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1284,
+      "session_key": 11280,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1285,
+      "session_key": 11291,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1286,
+      "session_key": 11299,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1287,
+      "session_key": 11307,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1288,
+      "session_key": 11315,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1289,
+      "session_key": 11326,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1290,
+      "session_key": 11334,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1291,
+      "session_key": 11342,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1292,
+      "session_key": 11353,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1293,
+      "session_key": 11361,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1294,
+      "session_key": 11369,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1295,
+      "session_key": 11377,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1308,
+      "session_key": 11731,
+      "field_mismatches": [],
+      "official_venue_override": true
+    },
+    {
+      "meeting_key": 1296,
+      "session_key": 11388,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1297,
+      "session_key": 11396,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1298,
+      "session_key": 11404,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1299,
+      "session_key": 11412,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1300,
+      "session_key": 11420,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1301,
+      "session_key": 11428,
+      "field_mismatches": [],
+      "official_venue_override": false
+    },
+    {
+      "meeting_key": 1302,
+      "session_key": 11436,
+      "field_mismatches": [],
+      "official_venue_override": false
+    }
+  ]
+}

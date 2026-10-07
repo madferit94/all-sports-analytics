@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/madferit94/all-sports-analytics/blob/main/f1/baku-2026/scripts/en/v4_full_race_replay.py",
+  "source_blob_sha": "0ec9d4e09ac5d1ffa340b245bd2907ae916f2933",
+  "reused_rules": [
+    "reference lap x/y trace draws circuit",
+    "same epoch timestamp for actual cars",
+    "linear interpolation only when bracket<=2s",
+    "lap/position/result independent of distance on map"
+  ],
+  "implementation": "Port principles from Python video renderer to interactive JavaScript canvas; not a byte-for-byte imported video renderer",
+  "source_scope": "Existing Baku11377 two-driver51lap replay; new season evidence must be separately verified"
+}

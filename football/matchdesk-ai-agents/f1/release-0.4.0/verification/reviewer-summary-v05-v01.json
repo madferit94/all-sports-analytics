@@ -1,0 +1,69 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "run_id": "f1-map-v05-2026-10-07-v01",
+  "scope": "v05 incremental circuit map/recorded coordinates comparison only",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checks": 1456,
+  "all_executed_checks_pass": true,
+  "evidence": [
+    {
+      "file": "preservation-independent-v01.json",
+      "sha256": "0d048d0deaed941ab790e18b6f6efeb2dfbfa0b8aff97c055fd7a8dda487eb78"
+    },
+    {
+      "file": "map-data-independent-v01.json",
+      "sha256": "5a1a9abbc71feeeeb041ee3633a51b73f849ed869322acff30000bb91539219b"
+    },
+    {
+      "file": "map-state-independent-v01.json",
+      "sha256": "fca2b5d84191078c516cf029ebcf68f21397d8ea6e66bf098e207a59cf68f2c3"
+    },
+    {
+      "file": "map-mount-independent-v01.json",
+      "sha256": "0d3e085c907482ef1d33c9a3f200b811701a1f44d1df2db7310ce401482f69aa"
+    },
+    {
+      "file": "ui-independent-2026-10-07-v03.json",
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "map-data/source-manifest.json": "81ac558aa36f6b9d523f773c335167afeea06c75741af5295d60f29bccf219a9",
+    "replay/map-comparison.js": "096cbb4881d2148f9a3824937c6ccecbb5d4d8f203931fb0a246247f948d333e",
+    "index.html": "54370d13ae99f9a53e6c25301dd9078da04d31b9cc76e293ab31e1e286738263"
+  },
+  "findings": [
+    "Initial both-neighbor2s interpolation allowed total4s; builder clarified total bracket<=2000ms, boundaries2000/2001/4000 independently verified",
+    "Draft embedded maps/module not synchronized; v01/v02 failures preserved and final assembled v03 PASS",
+    "Final track references exclude recorded pit-in/out laps;11245lap10 to9,11731lap9 to11 verified",
+    "Future7 maps explicitly2025reference and no actual-GPS legend; same-circuit link verified",
+    "Original GPS larger gaps preserved; no interpolation across >2s, fallback explicitly lap reconstruction"
+  ],
+  "limitations": [
+    "Only selected2 drivers per completedGP observed; remaining20 reconstructed",
+    "OpenF1 x/y not confirmed latitude/longitude or meter units",
+    "Future2025reference not proof2026layout unchanged",
+    "Retrospective predicted order illustration, not physical predicted pace",
+    "VM independent test not direct browser layout inspection",
+    "Whole existing model re-endorsement not included",
+    "User confirmation pending"
+  ],
+  "root_browser_message_observations": {
+    "producer_id": "/root",
+    "type": "task message reported AI browser observations",
+    "independent_reviewer_directly_observed": false,
+    "observed": [
+      "two map canvases",
+      "no document horizontal overflow",
+      "Play63percent13:58",
+      "RUS L37",
+      "GPS2/22"
+    ],
+    "final_browser_json_pending": true
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v08",
+  "match_key": "season:2026:map-realtime-speed",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.5.2",
+  "summary": "지도 재생의 실제기록시간 기준과8배속옵션 변경에한정한내부확인준비. 전체프로젝트·모델성능·공개배포승인아님.",
+  "independence": {
+    "product_modified_by_approver": false,
+    "approver": "/root/f1_director",
+    "reviewer": "/root/f1_verifier",
+    "ui_producer": "/root",
+    "feature_producer": "/root/f1_replay"
+  },
+  "reports": {
+    "future": {
+      "reference_duration_seconds": 180,
+      "decision": "ILLUSTRATION_ONLY"
+    },
+    "preservation": {
+      "source_map_model_actualhelpers_preserved": true,
+      "decision": "UNCHANGED"
+    },
+    "speed_options": {
+      "multipliers": [
+        0.25,
+        0.5,
+        1,
+        2,
+        4,
+        10,
+        30,
+        60
+      ],
+      "decision": "INTERNAL_READY"
+    },
+    "completed_time": {
+      "shared_cursor_preserved": true,
+      "one_wall_second_at_1x_one_recorded_second_controlled_test": true,
+      "default_speed": 1,
+      "decision": "INTERNAL_READY"
+    },
+    "approval": {
+      "public_release_authorized": false,
+      "whole_project_pass": false,
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS"
+    }
+  },
+  "evidence": [
+    {
+      "path": "verification/reviewer-summary-v08-v01.json",
+      "description": "Independent1861PASS;approver rechecked8artifact/3report/browser hashes"
+    },
+    {
+      "path": "verification/REVIEW-v08-realtime.ko.md",
+      "description": "1701realtime/6preservation/154UI,recordedseconds andpartialbrowser scope"
+    },
+    {
+      "path": "replay/REAL-TIME-SPEED.md",
+      "description": "Elapsed/duration speed contract,899producerchecks,future180sec"
+    },
+    {
+      "path": "verification/browser-observations-v01.json",
+      "description": "Root browser observed8options/default1/0.5Play/tooltip;usernavigationendedlaterinspection"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "replay/map-comparison.js": "499a82fec356a90efc517971a872acf61b6af376aff3711738e9ca13ba72cc1d",
+    "index.html": "25579ab1f7467d5b38cfa6f708f610d8dcfa819092ddafb34a832c33671af4f7"
+  },
+  "browser_sha256": "3b60ba59a3bf184ad2404afe38f00b44f54ad015bd3fb68c487041b3360cbf2b",
+  "issues": [
+    "정확배속은독립제어프레임시간시험이며브라우저스톱워치측정아님",
+    "root브라우저확인은옵션·기본1·0.5선택Play·안내까지;사용자화면이동후후속pause확인중단,전체브라우저완료주장없음",
+    "예정GP180초는예측연출기준이며실제기록시간없음",
+    "두지도공통커서이며개별차량물리속도동일아님;예측최종순위연출유지",
+    "기존GPS2/22·재구성20·2025지도참조·회고모델/확률보정한계유지",
+    "신규API수집·모델재학습없음;전체데이터/모델재인증또는공개준비audit독립인증범위아님",
+    "참가자확인전;Git전송없음"
+  ],
+  "user_confirmation": "PENDING",
+  "new_api_collection": false,
+  "model_retrain": false,
+  "git_transmission": "NOT_PERFORMED",
+  "production_changed": false
+}

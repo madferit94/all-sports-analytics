@@ -1,0 +1,94 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v04",
+  "match_key": "season:2026:completed",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.3.0",
+  "summary": "종료16GP의 회고적 경기 전 모델과 실제 기록 비교로 내부 확인 준비. 전체PASS·미래성능 보장·공개 승인 아님.",
+  "summary_ko": "종료16GP의 회고적 경기 전 모델과 실제 기록 비교로 내부 확인 준비. 전체PASS·미래성능 보장·공개 승인 아님.",
+  "independence": {
+    "approver": "/root/f1_director",
+    "ui_producer": "/root",
+    "reviewer": "/root/f1_verifier",
+    "model_producer": "/root/f1_model",
+    "product_code_modified": false
+  },
+  "reports": {
+    "visualization": {
+      "root_browser_observed_table_rows": 22,
+      "decision": "INTERNAL_READY",
+      "root_browser_observed_lanes": 44,
+      "explanation_default_closed": true,
+      "root_browser_viewport": "498x544",
+      "default_comparison": true
+    },
+    "approval": {
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "whole_project_pass": false
+    },
+    "historical_prediction": {
+      "target_result_separate": true,
+      "decision": "RETROSPECTIVE_ONLY",
+      "first_train_races": 19,
+      "last_train_races": 34,
+      "completed_gp": 16
+    },
+    "recorded_progress": {
+      "past_samples_only": true,
+      "decision": "RECORDED_POSITION_WITH_FLAGGED_FALLBACK",
+      "position_rows": 8100,
+      "invalid_original_rows_preserved": 4
+    }
+  },
+  "evidence": [
+    {
+      "path": "verification/reviewer-summary-v04-v01.json",
+      "description": "Independent1333checksPASS; approver rechecked all8artifact/all5report hashes equal"
+    },
+    {
+      "path": "verification/REVIEW-v04-independent.ko.md",
+      "description": "Independent report including raw position anomalies and preserved failed v01"
+    },
+    {
+      "path": "modeling/historical-producer-report.json",
+      "description": "Model producer report"
+    },
+    {
+      "path": "modeling/HISTORICAL-COMPARISON.ko.md",
+      "description": "Expanding historical training, distinct actual labels, retrospective metrics and limitations"
+    },
+    {
+      "path": "verification/browser-observations-2026-10-07-v01.json",
+      "description": "Root browser report64%play/100%End,KO/EN,no horizontal overflow; hash matches reviewer reference; not independent browser operation"
+    },
+    {
+      "path": "verification/browser-comparison-2026-10-07-v02.png",
+      "description": "Approver opened screenshot: predicted car lanes and expected positions visible. Mid-progress image; no claim that this image proves End100%."
+    }
+  ],
+  "reviewed_artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "data/position-manifest.json": "6f26fe547cecd411cd1f5bb81278b699a27d1141df1c88284c38b2b022a5c504",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/historical-feature-audit.json": "f2e1f11b445526edb700d90abd3c2fe0c4efab095c0a5c9148bcaa8ba972b7d0",
+    "modeling/train-historical.py": "cc2860ce8d89eca411f92fbd5e368ef25039ce3b7ff1babd6f461bc03b4179f6",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "index.html": "08656f8fa331b5ce6a77a2c08fc544aed35adf97a37aec0d57f414041d9921ba"
+  },
+  "issues": [
+    "회고적 재학습: 경기 전에 실제 발표한 예측 아님; 참가 명단 당시 공개 시점 미확인",
+    "예측 차량은 최종 예상순위 연출이며 랩 속도·추월 예측 아님",
+    "실제 진행은 공식position와 랩시간 보간, GPS 아님; 이상순위23 이상4행 원본보존 및 별표 추론대체",
+    "역사16GP 재현평가는 별도 미래검증을 대신하지 않음; 확률 보정 미검증·작은표본·규정변화",
+    "기존 예정7GP 예측 유지: 마지막6GP 모델 확률오차가 기준보다 나쁜 실험모델 한계 유지",
+    "독립자동검사와root브라우저관측 및결재자이미지검토를 구분; 참가자확인전",
+    "기존 integrated_gate 미실행: 규칙 전체 통과 주장 없음"
+  ],
+  "user_confirmation": "PENDING",
+  "github_transmission": "NOT_PERFORMED",
+  "production_site_changed": false
+}

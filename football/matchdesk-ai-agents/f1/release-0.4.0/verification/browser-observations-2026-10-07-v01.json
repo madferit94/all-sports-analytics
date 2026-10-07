@@ -1,0 +1,25 @@
+{
+  "producer_id": "/root",
+  "user_confirmation": "pending",
+  "viewport": {
+    "width": 498,
+    "height": 544
+  },
+  "actual_checks": [
+    "11234default Circuit map comparison",
+    "22driver selection and2canvases",
+    "Play63percent13:58RUSL37actualGPS",
+    "End100percent14:27RUSL57finished",
+    "selectedVERlabel enlarged andinfo cardupdates",
+    "11388futureonecanvas2025reference/noactualpane",
+    "Englishlabels render correctly",
+    "futuremaptable hidden/main forecasttable shown",
+    "futurePlay progresses27percent",
+    "document horizontaloverflowfalse"
+  ],
+  "screenshots": [
+    "browser-map-2026-10-07-v01.png",
+    "browser-map-2026-10-07-v02.png"
+  ],
+  "scope": "Root browser observation separate from independent code verification. Screenshots are Australia, unchanged by the two pit-lap outline corrections."
+}

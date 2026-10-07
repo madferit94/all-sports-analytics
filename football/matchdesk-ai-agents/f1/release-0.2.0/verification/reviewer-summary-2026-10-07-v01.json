@@ -1,0 +1,71 @@
+{
+  "agent_id": "reviewer",
+  "producer_id": "/root/f1_verifier",
+  "run_id": "f1-review-2026-10-07-v03",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checked_at": "2026-10-07",
+  "checks": 618,
+  "all_executed_checks_pass": true,
+  "reports": [
+    {
+      "file": "data-independent-2026-10-07-v01.json",
+      "sha256": "0fd4cf15cced14ffce1c2c2ef12b97de4f23ddad0202e0633317120842c2c690"
+    },
+    {
+      "file": "model-independent-2026-10-07-v02.json",
+      "sha256": "b20b0bb72eb6e5d2bda3c605d85a142f198f637d864b5190fb55ef0e32e50d0a"
+    },
+    {
+      "file": "replay-independent-2026-10-07-v01.json",
+      "sha256": "89c28c4cea406c25e008e57e5c0a9054a3a004169ed2addc43adf8f31e9e49d4"
+    },
+    {
+      "file": "replay-mount-independent-2026-10-07-v01.json",
+      "sha256": "119f6bd77fc3b5bac8035b277f5d3711c03704194efcc14442a66231b37161ee"
+    },
+    {
+      "file": "ui-independent-2026-10-07-v01.json",
+      "sha256": "ba7ac724a17e9dedc3c23170db6114d4673c89874864489db5fc2e1bf1b979d2"
+    }
+  ],
+  "inspected_artifacts": {
+    "data/season-2026.json": "31d4b796db29faf74ab3f014453139e491c61dd9dcbbdac125f2dd8775fb887a",
+    "modeling/train.py": "49cf958ed8c24503ad9a0a5ba507bc0d677ace0a06c9a725c463d4184730223f",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "modeling/modelmetrics.json": "89993c92ba76c170ed32611919d73dbc2432bd16c2749b75d6501f60312a09b3",
+    "modeling/feature-audit.json": "b60c5c71e63a79a15ab1425425afa928e47787caf579637ee3497258bf200be9",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/track-shapes.json": "427452f9cfaf729e82234737d66cd1098916c56e5b92d745203ea3dc2496cd5f",
+    "index.html": "23a02c7dcf7b6e54abb9d6d11ce990f51f99e00347585e8c7a305debb000d62d"
+  },
+  "remaining": [
+    "User confirmation",
+    "Actual browser layout/remote circuit images",
+    "Historical participant list publication timing",
+    "Out-of-sample probability calibration",
+    "Independent retrain/expected-rank MAE reproduction"
+  ],
+  "findings": [
+    "Winner log loss 3.1194645291 exceeds recent-win baseline 2.9699472885 and uniform 3.0910424534; experimental only",
+    "All 16 location queries missing HTTP404; animation is schematic lap reconstruction",
+    "First independent checker used first-index tie handling; retained failure v01 then documented equal-credit policy recheck v02 PASS",
+    "Earlier message claiming session9971 excluded was incorrect; actual exclusion list empty, drivers/results19 match"
+  ],
+  "latest_followup": "Final assembled index independently rerun: UI137 PASS; all618 checks remain PASS. Root reports actual browser End slider4885.787 equals max, clock Finished and RUS classified first. Root message observation, reviewer did not directly operate browser.",
+  "browser_followup": {
+    "producer_id": "/root",
+    "evidence_type": "parent agent actual-browser observation reported in task message",
+    "independent_reviewer_directly_observed": false,
+    "observed": {
+      "race": 11234,
+      "seek_value": 4885.787,
+      "seek_max": 4885.787,
+      "clock": "81:25 · 종료",
+      "first_driver": "RUS",
+      "first_lap": 57,
+      "status": "완주"
+    },
+    "screenshot_reported": "browser-replay-2026-10-07-v02.png",
+    "json_evidence": "browser-observations-2026-10-07-v02.json pending at reviewer update"
+  }
+}

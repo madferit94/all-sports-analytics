@@ -1,0 +1,50 @@
+{
+  "run_id": "matchlab-f1-2026-10-07-v04",
+  "match_key": "season:2026:completed",
+  "agent_id": "analyst",
+  "producer_id": "root/f1_model",
+  "role": "prediction",
+  "status": "DONE",
+  "summary": "16GP expanding-window model and separate actual comparison, symbolic final-order rendering contract, 834 producer checks passed",
+  "evidence": [
+    {
+      "path": "modeling/train-historical.py",
+      "description": "train-historical.py"
+    },
+    {
+      "path": "modeling/historical-predictions.json",
+      "description": "historical-predictions.json"
+    },
+    {
+      "path": "modeling/historical-feature-audit.json",
+      "description": "historical-feature-audit.json"
+    },
+    {
+      "path": "modeling/historical-producer-check.json",
+      "description": "historical-producer-check.json"
+    },
+    {
+      "path": "modeling/HISTORICAL-COMPARISON.md",
+      "description": "HISTORICAL-COMPARISON.md"
+    },
+    {
+      "path": "modeling/HISTORICAL-COMPARISON.ko.md",
+      "description": "HISTORICAL-COMPARISON.ko.md"
+    }
+  ],
+  "issues": [
+    "Target entrant metadata collected after race; publication cutoff not independently verified",
+    "Final-order illustration is not a physical lap/pace forecast",
+    "No target laps/target results in prediction inputs; actual results stored separately after prediction",
+    "Small single-season sample; probabilities uncalibrated; rule changes and missing qualifying/weather apply"
+  ],
+  "reports": {
+    "prediction": {
+      "status": "DONE"
+    },
+    "analysis": {
+      "status": "DONE"
+    }
+  },
+  "independent_approval": false
+}

@@ -1,0 +1,22 @@
+{
+  "verification": "root browser observation, not participant confirmation",
+  "server": "http://127.0.0.1:8765/f1/index.html",
+  "observed": [
+    "11234 completed opens replay, 22 rows",
+    "Play advances clock from0:00 to6:10 and standings change",
+    "11388 upcoming has22 predictions and experimental disclaimer",
+    "English toggle renders forecast English",
+    "Football link opens index.en.html with F1 return link",
+    "8766 redirects preserving race=11234",
+    "no horizontal document overflow at tested498px viewport",
+    "browser error logs empty",
+    "Actual range End reaches value=max; completed race shows finish and classification"
+  ],
+  "issue": "Resolved and screenshot v04 shows FINISH,81:25 finished,RUS first. Earlier screenshot v02 was stale and v03 showed header only; retained as historical evidence.",
+  "participant_confirmation": "pending",
+  "viewport": {
+    "width": 498,
+    "height": 544
+  },
+  "screenshot": "browser-replay-2026-10-07-v04.png"
+}

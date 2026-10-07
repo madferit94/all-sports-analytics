@@ -1,0 +1,20 @@
+{
+  "version": "0.13.0",
+  "venue_checks": 25,
+  "official_venue_confirmed": {
+    "meeting_key": 1308,
+    "session_key": 11731,
+    "circuit_key": 12,
+    "country": "Malaysia",
+    "circuit": "Sepang International Circuit"
+  },
+  "source_country_preserved": "Bahrain",
+  "ui_checks": 34,
+  "server_checks": 17,
+  "live_HTTP_routes": [
+    "/",
+    "/f1/index.html"
+  ],
+  "raw_records_and_predictions": "unchanged",
+  "real_browser_layout": "not inspected; user review pending"
+}

@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:8765/f1/index.html#race=11234",
+  "participant_confirmation": "pending",
+  "observations": [
+    "Reloaded final v07 assembled page; shared speed selector offers 1x, 2x, 4x.",
+    "Selected 4x and clicked Play; both map panes remain present with one progress slider.",
+    "Paused at phase 0.430964533333333; shared speed retained value 4.",
+    "Recorded Russell panel at the paused cursor showed lap 25, rank 2, HARD.",
+    "Exact 1/2/4 rate ratios and both-pane cursor propagation are covered by independent deterministic tests, not stopwatch browser timing."
+  ],
+  "screenshot": "shared-speed-v01.png",
+  "scope": "Root browser observation; the screenshot captures the selected driver's progressing records rather than the speed selector."
+}

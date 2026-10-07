@@ -1,5 +1,5 @@
 {
-  "version": "0.12.2",
+  "version": "0.17.2",
   "public_export": true,
   "files": [
     {
@@ -16,33 +16,33 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 149,
-      "sha256": "764c9e80eb898af8155bfcb854342d73117e2c90493c1235d01b250ebd9d4b7b",
-      "snapshot": "0.12.2"
+      "bytes": 249,
+      "sha256": "450db9abf6d838b0c37c7b42a95397535ee6abe63f459db8953019b655a60fd1",
+      "snapshot": "0.17.2"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 9182,
-      "sha256": "3235ab0502bcc70b2ad63e8de97cfc200b44bb96e84d496abc59c846f07adfc9",
-      "snapshot": "0.12.2"
+      "bytes": 10931,
+      "sha256": "c6dfc93479d2a2ffc1d1e518411fd371fced46ce3932dc2e600515fa7b77b5e0",
+      "snapshot": "0.17.2"
     },
     {
       "path": "README.ko.md",
-      "bytes": 15202,
-      "sha256": "e7247db9d083c199cd6e131007de451f3216de15c5f82c0f1a64a852a6542de7",
-      "snapshot": "0.12.2"
+      "bytes": 18321,
+      "sha256": "77ae3638ae0519c90007326353eadfd0d94da9a8fa8b595da13cf500193617b3",
+      "snapshot": "0.17.2"
     },
     {
       "path": "README.md",
-      "bytes": 14668,
-      "sha256": "c60a938c52f65265ca13a4e42d31003cae803e8d5b71e3d72149ed99f054a02b",
-      "snapshot": "0.12.2"
+      "bytes": 17821,
+      "sha256": "a110382f4aad2404cec4583c0fc534c88177f9c9a6f5d21c1fc7e884ec1b9969",
+      "snapshot": "0.17.2"
     },
     {
       "path": "VERSION",
       "bytes": 7,
-      "sha256": "f482d06e4ee83158e42999dcf951d5909861dad7e03317deb2b1e2ddd5c46274",
-      "snapshot": "0.12.2"
+      "sha256": "b9b88c3ba0e9b6e35ef2a4d02bc27a2c0206f1a1fcb8b8749abe90df8f9d0f0d",
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/.agents/skills/matchdesk-analysis/SKILL.md",
@@ -258,331 +258,331 @@
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-analysis/SKILL.md",
       "bytes": 1660,
       "sha256": "44cc0a81dde8d281b257353789afab853af791cade3b4815dcde353f81dbf11a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-approval/SKILL.md",
       "bytes": 1733,
       "sha256": "c460bd3bb976716f28a1f937539e3652175e77981bdff5b422e86b1619a27d4d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-data/SKILL.md",
       "bytes": 2003,
       "sha256": "e3204139e87f50a7f198cfcdd995b09b51b1575ac20fdf00801ea0658f446679",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-manager/SKILL.md",
       "bytes": 1453,
       "sha256": "ea2f30449ce86e94e8a2f6211b47ad4ddb72fbc52352b011b83e191244eb8b83",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-model-evaluation/SKILL.md",
       "bytes": 1712,
       "sha256": "10e45b25d432e8f8e88047075a7af17d7919ab7dfe53b98b4ceade7bd0b0cdca",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-operations/SKILL.md",
       "bytes": 1569,
       "sha256": "f4c4c0d888cba6a4bda5d509b586ded8f46721a397735767e9e746115e75974a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-prediction/SKILL.md",
       "bytes": 1638,
       "sha256": "c6285de2de4a595b522de6e84146047b3a5093b4787aca2153d4db813ffbd61c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-trends/SKILL.md",
       "bytes": 1691,
       "sha256": "6bc89abff5e7237378b83cb372306680bb44967153f31aefa1eedb549a3f2c54",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-validation/SKILL.md",
       "bytes": 1775,
       "sha256": "722b95aea84370422a675ed7c078747f2e4def25e42b9809713acf0aff12d079",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.agents/skills/matchdesk-visualization/SKILL.md",
       "bytes": 1541,
       "sha256": "605b1591722ee936ea712665e3dd016dc28f787f0d2dd67784fd27c7aa1337d7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-analysis.md",
       "bytes": 1218,
       "sha256": "cd5e150d47853c9d500d9023002c4194b81284224b8beb29ac0055ba389bd715",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-approval.md",
       "bytes": 1315,
       "sha256": "324bca4044dfcd3e2647db79796fd25abc3beff50090675fac87ce9cbde2de51",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-data.md",
       "bytes": 1583,
       "sha256": "cb91749cf9c69f359e5b6fe9d318766e71d70def8b8b2f9660af4fe9386f0af1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-manager.md",
       "bytes": 984,
       "sha256": "c08c63e059773afc44c24afd4e21b1254ae3d286cb86bd6324c2de9f500a814c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-model-evaluation.md",
       "bytes": 1270,
       "sha256": "c371c41d001ce8460e0daf2283cb9260cf73e405e990c87d37ef855ef363f379",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-operations.md",
       "bytes": 1092,
       "sha256": "a164091c9507b02ede35882a146887c5dfac646fd77b1de49c4ed6b9373e5540",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-prediction.md",
       "bytes": 1213,
       "sha256": "49fd213ccb0402aa34c85753d763e2ab5407c2d8feca7ca72d5302735740deaa",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-trends.md",
       "bytes": 1240,
       "sha256": "8f7ec8fea6f82f4f84aa683ee3fc473f86ce56258a657e4e9c0d8de5997a5289",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-validation.md",
       "bytes": 1395,
       "sha256": "eb02e5c1446629ee7fbd806770cf1e1395248e617276c236378c76baa439c179",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/agents/matchdesk-visualization.md",
       "bytes": 1063,
       "sha256": "5069a1a49db471ba4e05192af23c547df63519f37991783bffdfae6d3e7e04fe",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-analysis/SKILL.md",
       "bytes": 1660,
       "sha256": "44cc0a81dde8d281b257353789afab853af791cade3b4815dcde353f81dbf11a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-approval/SKILL.md",
       "bytes": 1733,
       "sha256": "c460bd3bb976716f28a1f937539e3652175e77981bdff5b422e86b1619a27d4d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-data/SKILL.md",
       "bytes": 2003,
       "sha256": "e3204139e87f50a7f198cfcdd995b09b51b1575ac20fdf00801ea0658f446679",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-manager/SKILL.md",
       "bytes": 1453,
       "sha256": "ea2f30449ce86e94e8a2f6211b47ad4ddb72fbc52352b011b83e191244eb8b83",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-model-evaluation/SKILL.md",
       "bytes": 1712,
       "sha256": "10e45b25d432e8f8e88047075a7af17d7919ab7dfe53b98b4ceade7bd0b0cdca",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-operations/SKILL.md",
       "bytes": 1569,
       "sha256": "f4c4c0d888cba6a4bda5d509b586ded8f46721a397735767e9e746115e75974a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-prediction/SKILL.md",
       "bytes": 1638,
       "sha256": "c6285de2de4a595b522de6e84146047b3a5093b4787aca2153d4db813ffbd61c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-trends/SKILL.md",
       "bytes": 1691,
       "sha256": "6bc89abff5e7237378b83cb372306680bb44967153f31aefa1eedb549a3f2c54",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-validation/SKILL.md",
       "bytes": 1775,
       "sha256": "722b95aea84370422a675ed7c078747f2e4def25e42b9809713acf0aff12d079",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/.claude/skills/matchdesk-visualization/SKILL.md",
       "bytes": 1541,
       "sha256": "605b1591722ee936ea712665e3dd016dc28f787f0d2dd67784fd27c7aa1337d7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/AGENTS.md",
       "bytes": 1225,
       "sha256": "4b331d7d8f93215035fe42da059b8802b74941a8f526f9c72603fed31ee9a1bb",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/CLAUDE.md",
       "bytes": 1225,
       "sha256": "4b331d7d8f93215035fe42da059b8802b74941a8f526f9c72603fed31ee9a1bb",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/README.md",
       "bytes": 9015,
       "sha256": "d89af5aa446e8f30ff68644e6230a93ba8739234d0fa786cea79bf6b3a013783",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/TEAM-PROTOCOL.md",
       "bytes": 2929,
       "sha256": "c3bda41b115e9f4521067e6f45d17fbe9b7c3c35e51fe48f673c788a2f4e16ee",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/analysis.md",
       "bytes": 905,
       "sha256": "474f993e93cfe4730d5441edbec53d4473df33e985ed283650c2ac160bdde7e2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/approval.md",
       "bytes": 1006,
       "sha256": "013bd114dee56bca2ea170e55801ed5e31f3585f36049a7e477e37a05da474ec",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/data.md",
       "bytes": 1243,
       "sha256": "acfce42d57f6753c81156affe4f17b615593c0fd0c69570905a9faeca3e91b1e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/manager.md",
       "bytes": 711,
       "sha256": "135d0463a916ba7830c5635ff7f846a7ae97ca76a6dfad0f60c823ca5ad6dc30",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/model-evaluation.md",
       "bytes": 953,
       "sha256": "973c1254e1856394fc31ec1014f3306102606095803810bb18d0a74503200ce0",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/operations.md",
       "bytes": 801,
       "sha256": "ee9951f1fb62e88757c7dcb37f0b0ecfcb64d0065f6e1307ef6fdbe5021f57c8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/prediction.md",
       "bytes": 879,
       "sha256": "251bfa02b6af8017057a8ad06c42c3f6ec86c4565e714d5c7f65dbcebed6a3cc",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/trends.md",
       "bytes": 927,
       "sha256": "51aaf05f26631e1331288af1926b0ced2d71a772b8075e8b0a9d902a97b4d705",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/validation.md",
       "bytes": 1079,
       "sha256": "461d56e54170d7674aaae00a0fb0d5cdb31f3ebb8b21cc6e6aeb66e7863e676a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/roles/visualization.md",
       "bytes": 787,
       "sha256": "fdede6c6bdbf7a95bc210bca73cfe709f49bb29a46bfd34d852dd5e6b4bdac20",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-analysis/SKILL.md",
       "bytes": 1660,
       "sha256": "44cc0a81dde8d281b257353789afab853af791cade3b4815dcde353f81dbf11a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-approval/SKILL.md",
       "bytes": 1733,
       "sha256": "c460bd3bb976716f28a1f937539e3652175e77981bdff5b422e86b1619a27d4d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-data/SKILL.md",
       "bytes": 2003,
       "sha256": "e3204139e87f50a7f198cfcdd995b09b51b1575ac20fdf00801ea0658f446679",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-manager/SKILL.md",
       "bytes": 1453,
       "sha256": "ea2f30449ce86e94e8a2f6211b47ad4ddb72fbc52352b011b83e191244eb8b83",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-model-evaluation/SKILL.md",
       "bytes": 1712,
       "sha256": "10e45b25d432e8f8e88047075a7af17d7919ab7dfe53b98b4ceade7bd0b0cdca",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-operations/SKILL.md",
       "bytes": 1569,
       "sha256": "f4c4c0d888cba6a4bda5d509b586ded8f46721a397735767e9e746115e75974a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-prediction/SKILL.md",
       "bytes": 1638,
       "sha256": "c6285de2de4a595b522de6e84146047b3a5093b4787aca2153d4db813ffbd61c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-trends/SKILL.md",
       "bytes": 1691,
       "sha256": "6bc89abff5e7237378b83cb372306680bb44967153f31aefa1eedb549a3f2c54",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-validation/SKILL.md",
       "bytes": 1775,
       "sha256": "722b95aea84370422a675ed7c078747f2e4def25e42b9809713acf0aff12d079",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/skills/matchdesk-visualization/SKILL.md",
       "bytes": 1541,
       "sha256": "605b1591722ee936ea712665e3dd016dc28f787f0d2dd67784fd27c7aa1337d7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/en/team.json",
       "bytes": 3621,
       "sha256": "2e4208a0d760874f5014ba872090dde64971a7b287d665416038ea55c171f5e6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-2026-10-06-v01/report-contract.json",
@@ -876,181 +876,181 @@
       "path": "agent-team-integrated-2026-10-06-v01/en/.agents/skills/matchdesk-analyst/SKILL.md",
       "bytes": 1369,
       "sha256": "22d3a7349eec3c5b328d7f8a8aeeed141456cfcd558e8373d27363be05e595f3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.agents/skills/matchdesk-builder/SKILL.md",
       "bytes": 1259,
       "sha256": "aaad6824e57b3d6896f8a4ba0e89463ad8d0592697d2c5bdee7ea88a6d989c4c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.agents/skills/matchdesk-director/SKILL.md",
       "bytes": 1264,
       "sha256": "766a7df0d2b40c1c218c9400d48749e0d1219b736cea89cd1a9db72dfd0bfcb1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.agents/skills/matchdesk-research/SKILL.md",
       "bytes": 1267,
       "sha256": "6759aa3599ab5c8a0788f15ebe6f3c91465c9000bdc9f98c9d52e192b93382c4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.agents/skills/matchdesk-reviewer/SKILL.md",
       "bytes": 1372,
       "sha256": "6d624ec66887f74967010e456a544ea74dba392fc8e35236bcff3bfa18d5528f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/agents/matchdesk-analyst.md",
       "bytes": 280,
       "sha256": "839558ca5a7b7b5cc4dd7211a77d3f46baba3941b453648f27fa30a1b7ababdf",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/agents/matchdesk-builder.md",
       "bytes": 278,
       "sha256": "5c178ddf1b745c66dd774ce1da390670f74b0b24182222c421f321629d67107c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/agents/matchdesk-director.md",
       "bytes": 287,
       "sha256": "08b31dbf7dec8a7c2ffe8d3f2c06873a0ad6205df1132657dc6b4120d42e5674",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/agents/matchdesk-research.md",
       "bytes": 284,
       "sha256": "37539bd662568937e97ec28e2d275ac5d9102484429cbdb4402542cd2b9112f1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/agents/matchdesk-reviewer.md",
       "bytes": 305,
       "sha256": "1c0ffb25e7aeb8f6067e209070fd70a09acf77c0bf61cb4fb20a1d11f299a40f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/skills/matchdesk-analyst/SKILL.md",
       "bytes": 1369,
       "sha256": "22d3a7349eec3c5b328d7f8a8aeeed141456cfcd558e8373d27363be05e595f3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/skills/matchdesk-builder/SKILL.md",
       "bytes": 1259,
       "sha256": "aaad6824e57b3d6896f8a4ba0e89463ad8d0592697d2c5bdee7ea88a6d989c4c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/skills/matchdesk-director/SKILL.md",
       "bytes": 1264,
       "sha256": "766a7df0d2b40c1c218c9400d48749e0d1219b736cea89cd1a9db72dfd0bfcb1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/skills/matchdesk-research/SKILL.md",
       "bytes": 1267,
       "sha256": "6759aa3599ab5c8a0788f15ebe6f3c91465c9000bdc9f98c9d52e192b93382c4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/.claude/skills/matchdesk-reviewer/SKILL.md",
       "bytes": 1372,
       "sha256": "6d624ec66887f74967010e456a544ea74dba392fc8e35236bcff3bfa18d5528f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/AGENTS.md",
       "bytes": 951,
       "sha256": "f3c2e2efd3f15c75e2338bec838b2da92268e46a5893bbf78539f1cef682773a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/CLAUDE.md",
       "bytes": 951,
       "sha256": "f3c2e2efd3f15c75e2338bec838b2da92268e46a5893bbf78539f1cef682773a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/README.md",
       "bytes": 3641,
       "sha256": "15ce1add9ac9595486e0c426744dbb5b918014c497a37363224290f7f676d9e5",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/TEAM-PROTOCOL.md",
       "bytes": 2498,
       "sha256": "4a793f8388c7fc1bf41f7ef79f29e6ede3b102d942b2a00b03597bd7e5c54319",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/roles/analyst.md",
       "bytes": 2875,
       "sha256": "cf98b5129e79b4e27c019b5ccb00c3c7e53294cc254d60f09a78468ab8eed90a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/roles/builder.md",
       "bytes": 1566,
       "sha256": "f651a499533d3451439d6c2eeb25aaefa527de158611a4beb6c548543ae64eba",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/roles/director.md",
       "bytes": 3819,
       "sha256": "3de4b4bdb5e2dd809479c5025d23ad694592fb3c6b1bb31210a89938e5ebfb89",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/roles/research.md",
       "bytes": 3145,
       "sha256": "67652753c45ab9c25cad15d4c8125f5137791db0dedf96c075beb1f451ee0fd3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/roles/reviewer.md",
       "bytes": 3088,
       "sha256": "f7112ee74391673ffbaa2b5103dee8ff9fa35ff295bb20cb0d1789fc4f8181e9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/skills/matchdesk-analyst/SKILL.md",
       "bytes": 1369,
       "sha256": "22d3a7349eec3c5b328d7f8a8aeeed141456cfcd558e8373d27363be05e595f3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/skills/matchdesk-builder/SKILL.md",
       "bytes": 1259,
       "sha256": "aaad6824e57b3d6896f8a4ba0e89463ad8d0592697d2c5bdee7ea88a6d989c4c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/skills/matchdesk-director/SKILL.md",
       "bytes": 1264,
       "sha256": "766a7df0d2b40c1c218c9400d48749e0d1219b736cea89cd1a9db72dfd0bfcb1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/skills/matchdesk-research/SKILL.md",
       "bytes": 1267,
       "sha256": "6759aa3599ab5c8a0788f15ebe6f3c91465c9000bdc9f98c9d52e192b93382c4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/skills/matchdesk-reviewer/SKILL.md",
       "bytes": 1372,
       "sha256": "6d624ec66887f74967010e456a544ea74dba392fc8e35236bcff3bfa18d5528f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/en/team.json",
       "bytes": 2470,
       "sha256": "86c4228050ecbaf05b22df4e82531c65aba332a42e3bba986dbfd9233353f9fe",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "agent-team-integrated-2026-10-06-v01/package-check.json",
@@ -1212,7 +1212,7 @@
       "path": "docs/AGENTS-AND-SKILLS.en.md",
       "bytes": 4170,
       "sha256": "c7c4335c35c450dfe51d3508da7d648b7534a1901c2cfa9215bfc58fbaf5a2b9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/ANALYSIS-TOOLS.md",
@@ -1230,61 +1230,103 @@
       "path": "docs/MODEL-SCOPE-2026-10-07-v02.ko.md",
       "bytes": 915,
       "sha256": "c0940961259ea3457a7fab1101c762fd124e9ddd6313c586fc197000548f1aa0",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.10.0.md",
       "bytes": 2024,
       "sha256": "599079eb010b479dacac541594d5b99789075420fd40ca34cd78ff55e38cb6a8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.11.0.md",
       "bytes": 2410,
       "sha256": "e832827effc5a477b6076e6a13f015a28f391b163ed70c292e873961948e52a1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.11.1.md",
       "bytes": 1669,
       "sha256": "7c7353d1eb340b65033d81cc8eea779e989620b24a637c54d07cee0a3b6875a1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.11.2.md",
       "bytes": 1770,
       "sha256": "d1a832b1ead596c08c5b2f8044b5610fb1523488dbe389738e395736f41618bd",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.11.3.md",
       "bytes": 1549,
       "sha256": "4f3c2edcc959587954e3fc2cad069a3a6a6051de1bcf6c00f2f1c270c0a423ae",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.11.4.md",
       "bytes": 1888,
       "sha256": "503694f99dc5a3b5051770de2b05d06ea82cfc9a6b8ca91bc68854e0f43b2279",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.12.0.md",
       "bytes": 2719,
       "sha256": "81711e2f128e7a89009522b20800b8f69724e0326bc14731df89b98801283df3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.12.1.md",
       "bytes": 1529,
       "sha256": "7d48bb08256f47ced4c3266df36cad678a227a8ff234b7bb5f6aadf73f47a554",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.12.2.md",
       "bytes": 1201,
       "sha256": "a00f532ee7768531bb4895d7055404166519a6d25f51007b9a8b932fe9c9d191",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.13.0.md",
+      "bytes": 923,
+      "sha256": "0bb01b68b7089f6fbbca2e473cc16d09429d6f8a14387d9821ada4a80f74c791",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.14.0.md",
+      "bytes": 2756,
+      "sha256": "1da98a701f1096c1b31e2fc4f8f8749aeb54556fcf49c4ee3e171b519d6cfb4f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.15.0.md",
+      "bytes": 1849,
+      "sha256": "ed844420385d3a0dd8cd8a022039b8c138a01b1ef118d1877f33233637e1bc10",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.16.0.md",
+      "bytes": 2057,
+      "sha256": "78dd3391b9bd22c686f6f5daa0d9c840ef931a4a6dabeb188bf85b551ef0192f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.17.0.md",
+      "bytes": 2219,
+      "sha256": "7e6d0f121d3765aff0f7ccac9997348885010b130e5c2377c819fe3a8dfbf6ca",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.17.1.md",
+      "bytes": 1898,
+      "sha256": "d30ed554c76a1701ec3eae73d5f16c78893e5a04c4273d82a54f3e987aba9160",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "docs/SPEC-0.17.2.md",
+      "bytes": 1140,
+      "sha256": "f57d5205b2e5128fb41936488c9f809162e4c36472e0800cf2f80a25e0370db7",
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.3.0.md",
@@ -1332,13 +1374,13 @@
       "path": "docs/SPEC-0.9.1.md",
       "bytes": 1316,
       "sha256": "89425c440782127a4a066c3b0cf8111fb513bb267f1be7a38ba90e74d9520d2e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-0.9.2.md",
       "bytes": 1759,
       "sha256": "4da63f06921fca6717edbd9191ee05bc419f2d18d9132f1f572d679e855efee6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/SPEC-ai-connection-2026-10-06-v01.md",
@@ -1530,7 +1572,7 @@
       "path": "docs/publication_manifest-0.9.0.json",
       "bytes": 92679,
       "sha256": "36ae3ed91b1dd61544a041a2a95b08e9c88a9cd795676087676f3d964840b6dc",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "docs/release-checks-0.3.0.json",
@@ -1569,16 +1611,1042 @@
       "snapshot": "0.8.0"
     },
     {
+      "path": "f1/index.html",
+      "bytes": 18110138,
+      "sha256": "d04c9eeb832dd64110484b11e6aa8b31762831cf2f2be838826789c8375f14b8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/README.ko.md",
+      "bytes": 732,
+      "sha256": "ee9253c403e7031ceb53f7b092c2272ffcb543685f50f926e1d878bca410f962",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/README.md",
+      "bytes": 720,
+      "sha256": "5fb4937bf13a742019c5a0a8c03da9a28a392cf2f1aa26dfc9c279582f06ada1",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/VERSION",
+      "bytes": 6,
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/README.ko.md",
+      "bytes": 4173,
+      "sha256": "aa5163a8a74a184f85fadb77c53a439d2601fe0ce99836971a017d39b833f59f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/README.md",
+      "bytes": 4029,
+      "sha256": "a08b4ec80eb2117adc1b04b6ec25bbedd740f547855645651a8c1659c635e601",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/feature-audit.json",
+      "bytes": 818530,
+      "sha256": "bbc640361590be1caf1c271e0b8fed68a4009826522874988a22ced5856de365",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/modelmetrics.json",
+      "bytes": 20449,
+      "sha256": "07a8ad117c7454bd3867c470d7294aea0b5a65ea103af0eac73754572f8281f6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/predictions.json",
+      "bytes": 167558,
+      "sha256": "59c912b7e567febe6ff97d42db78e1c2a6c8e136023d5702aac3b69c8d6b78eb",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/producer-report.json",
+      "bytes": 1550,
+      "sha256": "be469f380b83cc0c0c61f19ad1ba6d385c75184f18034248332ad97fa2fde69f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/requirements.txt",
+      "bytes": 61,
+      "sha256": "991e0816ea5b358e5bd9ca55f8bf98d3efd11a3bd490e409fb9dd40cfd9851bd",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/modeling/train.py",
+      "bytes": 10948,
+      "sha256": "49cf958ed8c24503ad9a0a5ba507bc0d677ace0a06c9a725c463d4184730223f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/replay/README.md",
+      "bytes": 2051,
+      "sha256": "d976f0352126e8863d6bc3a51bad7948650aeedcd367c33051a6f4640d797cd2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/replay/replay.js",
+      "bytes": 9795,
+      "sha256": "f2eff5d9cf63c556fc80fe54bbd7a34dae8a539bbe5483590219e38d83e1f8d2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/replay/track-shapes.json",
+      "bytes": 4689,
+      "sha256": "427452f9cfaf729e82234737d66cd1098916c56e5b92d745203ea3dc2496cd5f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/REVIEW-final-2026-10-07-v01.ko.md",
+      "bytes": 4668,
+      "sha256": "10d91e81d4c1789c5ed023056d60e5dea17f87dbe3842352c89467ebeb3afb4a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/browser-observations-2026-10-07-v03.json",
+      "bytes": 989,
+      "sha256": "19996783bebabbd5a90c5484bc78b514cbaaab67e2a62e1affa2b98305c70a11",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/browser-replay-2026-10-07-v04.png",
+      "bytes": 37537,
+      "sha256": "19e2bcbee3ef0bbfdba172dd34c7e0ff3ec86f4c227bfecce42586d75477abac",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/director-decision-2026-10-07-v03.json",
+      "bytes": 5609,
+      "sha256": "fb208d4257e6b247a5a15588e1261dff5b9ebaf9faa8e09007c34bd957d30059",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/director-decision-2026-10-07-v03.ko.md",
+      "bytes": 1838,
+      "sha256": "c4bad9751d19025654e359252612b77a8d32ca566d33295629314459f4576109",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/model-independent-2026-10-07-v02.json",
+      "bytes": 20651,
+      "sha256": "6b16e362f25247405222bc1d885d7cb0aab126f59cc7f526b466c69a91fbc120",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/replay-independent-2026-10-07-v01.json",
+      "bytes": 17451,
+      "sha256": "89c28c4cea406c25e008e57e5c0a9054a3a004169ed2addc43adf8f31e9e49d4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/replay-mount-independent-2026-10-07-v01.json",
+      "bytes": 23777,
+      "sha256": "119f6bd77fc3b5bac8035b277f5d3711c03704194efcc14442a66231b37161ee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/reviewer-summary-2026-10-07-v01.json",
+      "bytes": 3407,
+      "sha256": "a55a8fe7186d18b9345d2b76bbfeb5f0b2447d98ee8d6daf360284438acfd052",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.2.0/verification/ui-independent-2026-10-07-v01.json",
+      "bytes": 17385,
+      "sha256": "ba7ac724a17e9dedc3c23170db6114d4673c89874864489db5fc2e1bf1b979d2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/README.ko.md",
+      "bytes": 1196,
+      "sha256": "30430367120fcba7f749db54f611fee4f72e0b80fce7128877edcc6bbe1560b7",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/README.md",
+      "bytes": 1255,
+      "sha256": "bdaae148458d899f9ff14eadd7c4380f8374428a6a1c14c1562960de7aaa2d03",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/VERSION",
+      "bytes": 6,
+      "sha256": "d915cc95d6ca8f47ae297713ed46d4e5c5d99ddd29fc3c61e263bdf305f2b5b0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/data/position-manifest.json",
+      "bytes": 5314,
+      "sha256": "2a216b8a76c4e1c7f9bcde865cfff56e0689c8e90239e3ef321c72274dd063e3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/HISTORICAL-COMPARISON.ko.md",
+      "bytes": 3418,
+      "sha256": "3c49abbe6393b7d3c1471af90a9814bc3ae943ccfb350b911e960d156ddb525d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/HISTORICAL-COMPARISON.md",
+      "bytes": 3421,
+      "sha256": "f5e974fd99d5e5dd9db3738239bea9a6d89dfed0ca4753db06d39a1c3c508838",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/historical-feature-audit.json",
+      "bytes": 762933,
+      "sha256": "057144964b46a4474cd998b0e1bba4e9306335295666c61e18c0e4e9424b6138",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/historical-predictions.json",
+      "bytes": 527133,
+      "sha256": "78fc994b88c9378321c8250cc4106ea59ae9b65c5b88e873828c82a113c4402e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/historical-producer-check.json",
+      "bytes": 66720,
+      "sha256": "8cbb7595c781b58f6ef43ecaaab9d5419279e5eec967267531e4efd47bdcb025",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/historical-producer-report.json",
+      "bytes": 1604,
+      "sha256": "788b8d010f0b1842268f8e5a1725386a4bafc8930ea1343098f4f2e769db974d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/modeling/train-historical.py",
+      "bytes": 8178,
+      "sha256": "cc2860ce8d89eca411f92fbd5e368ef25039ce3b7ff1babd6f461bc03b4179f6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/replay/COMPARISON.md",
+      "bytes": 2958,
+      "sha256": "e2aa00701a3bbb190d0d4598c13af36ad6d59b6e6520d38b348d4a48a2ab4886",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/replay/comparison-verification.json",
+      "bytes": 174,
+      "sha256": "c9305034730918baf453bf9f1be6ab7769df69ffba4a8ac7044e86a712c8c336",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/replay/comparison.js",
+      "bytes": 12671,
+      "sha256": "91bdfb633a972dd29613e8778f325a46d9c66690e3d273787f70c7625fe6b643",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/REVIEW-v04-independent.ko.md",
+      "bytes": 3115,
+      "sha256": "9c4df1886ddb0e6d0c2295e632342775f0b929e6e661a95866dff903d7ccab3b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/SPEC-v04-independent.ko.md",
+      "bytes": 561,
+      "sha256": "ec7e5b733838544c9cf0f1b0b9be866051501c122bfc1c6253b6198c3697bcd6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/browser-comparison-2026-10-07-v01.png",
+      "bytes": 46551,
+      "sha256": "06e681afb69abdfa831694bde31f9b0d1b1a4d8a3e862401c6df770c8d4ccf3c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/browser-comparison-2026-10-07-v02.png",
+      "bytes": 34859,
+      "sha256": "3c35d03a10fdf29334e65f23376bc3954d69d68ce5909c74388f170a72d6fb35",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/browser-comparison-2026-10-07-v03.png",
+      "bytes": 36194,
+      "sha256": "ae84e60dca64324560bea31117030706ffc1e3d145b31948054b349676e2ee93",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/browser-observations-2026-10-07-v01.json",
+      "bytes": 795,
+      "sha256": "fcf732b862dd665d1e519190b468bc9c6dff4b2ae0f156f8a5c1ce40d7d113ff",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/browser-observations-2026-10-07-v02.json",
+      "bytes": 960,
+      "sha256": "038fd9008d108213aaae5fd88730526a132776a0847593d6d90d061f7662f831",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/comparison-independent-v01.json",
+      "bytes": 648108,
+      "sha256": "aef2a9d0f7d624b826918181b208524449b55a1101f37a1ac8ef263f8ca06f48",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/comparison-mount-independent-v01.json",
+      "bytes": 23777,
+      "sha256": "119f6bd77fc3b5bac8035b277f5d3711c03704194efcc14442a66231b37161ee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/director-decision-2026-10-07-v01.json",
+      "bytes": 4508,
+      "sha256": "92d6db7fa0e1c54111c795b1dda28ead364da576c4418b2733a15faa04ea84dc",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/director-decision-2026-10-07-v01.ko.md",
+      "bytes": 1914,
+      "sha256": "1817fa267fc473677a814acf2a3a02956b3f7ac4b08f6ba7a173a24ca7f31846",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/historical-independent-v01.json",
+      "bytes": 35115,
+      "sha256": "c22ddc9f1787ef30614c0038082c9cda08542cd942dab742bfcd0593d9b4f515",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/position-independent-v01.json",
+      "bytes": 34538,
+      "sha256": "0fd40335c2792edbebf8e1a032472ec460f31043c063d9600466706a50cd0be8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/position-independent-v02.json",
+      "bytes": 34631,
+      "sha256": "1302ba49d3a8699572da3a89a3f29755c788159b49004e5e4171292b6b4b83ee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/reviewer-summary-v04-v01.json",
+      "bytes": 2886,
+      "sha256": "f8d8f48ad11341c68c6505f19e7a8908fb440b58129a1eac0835fca6c95c804b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.3.0/verification/ui-independent-2026-10-07-v01.json",
+      "bytes": 1250727,
+      "sha256": "5ac44cca67c03f134b4e674bf8cca447b32d2fa7a726723d364335b063dd77b2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/README.ko.md",
+      "bytes": 913,
+      "sha256": "15aa6e35db13658b4a9a724f2e1693b3c061e6a41a342e9e4f56d3b88c156b12",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/README.md",
+      "bytes": 919,
+      "sha256": "1da4fb4887e4879911cb2e45aaa863aab8526b999f41793814dcedef041f0a14",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/VERSION",
+      "bytes": 6,
+      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/README.ko.md",
+      "bytes": 2755,
+      "sha256": "349fd98c88642f5f2c878c23f04edcbf36d78586ea071b0df9e62c93a64387f5",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/README.md",
+      "bytes": 2636,
+      "sha256": "468cea28fc0320ce06e9e8fe654612b3d714601f24e7e92af22b454b23f44d72",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/check-source.py",
+      "bytes": 4081,
+      "sha256": "5a119d60e56588bbecebd1d3e109316d5b3cb88679adbd9dbe0fc5ac3300e5a0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/collect-future-references.py",
+      "bytes": 4606,
+      "sha256": "91699ccfc9737303b748b8ed5287dbbcf866b4dacc0d32b974ad450c72725061",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/collect-maps.py",
+      "bytes": 6593,
+      "sha256": "6e8e550a9be766d7c285fc9cf38d85505235d178ad0edbabd45bfcf7c7ce6ff3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/counts.json",
+      "bytes": 866,
+      "sha256": "28939a73dfc12c8bb970d76d404a8a0fafe4995db69f4183dea0ca7e832b8a17",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/maps.json",
+      "bytes": 4228924,
+      "sha256": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/outline-refinement.json",
+      "bytes": 228,
+      "sha256": "7e4ec3dfc5277baeca247b416456525fccd71fffc7152b6e68400d504e8af278",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/producer-check.json",
+      "bytes": 40136,
+      "sha256": "50661398426fbe3a13cfc5f21920fced3347e7c5d56ca9e8550795c3a770e341",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/producer-report.json",
+      "bytes": 1572,
+      "sha256": "7a88f3de05b450b21a9c17df4227f0b82e66a0dc944c1e047e11eac7e183b4b5",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/map-data/source-manifest.json",
+      "bytes": 17239,
+      "sha256": "81ac558aa36f6b9d523f773c335167afeea06c75741af5295d60f29bccf219a9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/replay/MAP-COMPARISON.md",
+      "bytes": 3233,
+      "sha256": "f637a2a59d79372e0f389f17c9ebd2c69167f5153eb91a38c8700abe409aeec8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/replay/map-comparison.js",
+      "bytes": 17946,
+      "sha256": "f6c5ac583a592c8f9a77d80ca5e6739085218d65839ed3b43bb561ed07b62524",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/replay/map-verification.json",
+      "bytes": 228,
+      "sha256": "7d0ddc073c74d08b3b41f90cce0f5e21027f11909e2c614add7ebe305c640e4b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/REVIEW-map-v05-independent.ko.md",
+      "bytes": 3676,
+      "sha256": "69f9df7dc7da33844fecdedc09c6ffd55fcc9895a1e3ecc6da3f418ffca85766",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/SPEC-map-independent-v01.ko.md",
+      "bytes": 1048,
+      "sha256": "5da4a121b31d0e7049fcaf6d38ae01c9f119855137b66a1a6f84422f1d142970",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/browser-map-2026-10-07-v01.png",
+      "bytes": 27491,
+      "sha256": "8b3a16fa81b9208adc7d22b83d51a14a14628f38ffd922d108d5614c295c04d6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/browser-map-2026-10-07-v02.png",
+      "bytes": 28582,
+      "sha256": "dec2cbddda4581e976edb30722f5c6f0ceca26b8e37ec8631a021c5eabafef23",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/browser-map-2026-10-07-v03.png",
+      "bytes": 28311,
+      "sha256": "5e6fe1ddd4fd2da7b195d947096222277b90f5cda064f5fa7fa916593cc2c686",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/browser-observations-2026-10-07-v01.json",
+      "bytes": 844,
+      "sha256": "d6d1160749bae365cd5a12c6363d4059c6c3389000b6d1c966e333dafb1bcf85",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/director-decision-2026-10-07-v01.json",
+      "bytes": 4477,
+      "sha256": "06de329121cf583c7f4529ec511b0fa59473db707acd80535624dfb99d525837",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/director-decision-2026-10-07-v01.ko.md",
+      "bytes": 1894,
+      "sha256": "efd02b0316baa6b6310e2c0ce62090db93b1ad607e2a519fa1448f65b73e26eb",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/github-reuse-source.json",
+      "bytes": 667,
+      "sha256": "42f54581474e7935c6cdb46b5c5ef2cd3eed57728400bb3a0483867e1111686f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/map-data-independent-v01.json",
+      "bytes": 79776,
+      "sha256": "420f3720f1abdfee5abaf92bc8023640ed590d86c9c42e030f919c56950ea694",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/map-mount-independent-v01.json",
+      "bytes": 28393,
+      "sha256": "0d3e085c907482ef1d33c9a3f200b811701a1f44d1df2db7310ce401482f69aa",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/map-state-independent-v01.json",
+      "bytes": 66911,
+      "sha256": "fca2b5d84191078c516cf029ebcf68f21397d8ea6e66bf098e207a59cf68f2c3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/preservation-independent-v01.json",
+      "bytes": 1020,
+      "sha256": "08d11310a9113cc47f310c88e8a9a54dd69fcb28cd6abecb1139873da71b6ca4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/reviewer-summary-v05-v01.json",
+      "bytes": 3184,
+      "sha256": "82dc8133886b3b55071fe6e57a9cf87d3ac05e18bdb37c0db453594af1c7d6ea",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/ui-independent-2026-10-07-v01.json",
+      "bytes": 18166,
+      "sha256": "bc3753afa3350ebce0d694b79843bb6cc67cfd57d78d119ca58e2c5d5036be0e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/ui-independent-2026-10-07-v02.json",
+      "bytes": 17719,
+      "sha256": "b870bdb6fd98d2ca987a8d6a990ce240f7afb890a883f0149c5e01273f0ee7c4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.4.0/verification/ui-independent-2026-10-07-v03.json",
+      "bytes": 19665,
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/README.ko.md",
+      "bytes": 876,
+      "sha256": "8bf0a73eedcdb79e799d1b0c0d9c798c51e63ee5996da280d565ff685bf10c76",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/README.md",
+      "bytes": 758,
+      "sha256": "5421ed4b4aad7812e30a6f62afe0620829b1665c9db1e0e7fe979dcda5e6c38f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/VERSION",
+      "bytes": 6,
+      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/DRIVER-PROGRESS.md",
+      "bytes": 2589,
+      "sha256": "1d06ca28e3e4f61a32be04fe03a8c1f08612bbbae48b6087ce01abe84da03785",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/comparison.js",
+      "bytes": 12671,
+      "sha256": "91bdfb633a972dd29613e8778f325a46d9c66690e3d273787f70c7625fe6b643",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/driver-dashboard-verification.json",
+      "bytes": 171,
+      "sha256": "abae3992bd6802f7ac24394c4d4cd9a0262f0a82ec029c7eadbfe0865dd8d4c9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/map-comparison.js",
+      "bytes": 25297,
+      "sha256": "8466a901e42b15da38bb97bfcb593ac4deb663e0d372d94d427312cc9aaf500c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/replay.js",
+      "bytes": 9795,
+      "sha256": "f2eff5d9cf63c556fc80fe54bbd7a34dae8a539bbe5483590219e38d83e1f8d2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/replay/test-driver-dashboard.cjs",
+      "bytes": 10692,
+      "sha256": "34ac7ba557c8c9c8ebe574e211fb47c1ede267604467c91493e893880b953837",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/REVIEW-v06-independent.ko.md",
+      "bytes": 3787,
+      "sha256": "0241d4d4649e729c1d89703524ed7293cfdb17b7002f08f0f3e4c9bcd1fa9958",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/SPEC-v06-independent.ko.md",
+      "bytes": 1314,
+      "sha256": "622d6c4d4cf0fdbec3f4f4dec58a734b469f150b5afdd1174accf0b6b59ae956",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/browser-observations-v01.json",
+      "bytes": 1092,
+      "sha256": "8cd4fb1a80a26ed2ddc9da77298fb92f519c04537ca517db023193aeb3f56b8c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/check-dashboard-mount-independent.cjs",
+      "bytes": 7949,
+      "sha256": "3fa7edcae159db570d0b4e9685942835f438d328c4be6682367740be86295cbf",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/check-history-independent.cjs",
+      "bytes": 4475,
+      "sha256": "90c93b18899bb7cece8335e76f20e1785cc3f6083b96eafd1c9c3f984689cafd",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/check-preservation-independent.py",
+      "bytes": 1045,
+      "sha256": "4eb356f14746c6ee33545014b3df07901183859d276778920172b8b7ebd8ba1a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/check-ui-independent.cjs",
+      "bytes": 4738,
+      "sha256": "eedef11a02fae62612f8f3ed66f0e5141069125bca95732636d5bb1b1f97fae6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/dashboard-mount-independent-v01.json",
+      "bytes": 47356,
+      "sha256": "f36581b56207ce5b62db6d8a6f3d2975f3fdbae54510d830ba6160aa59df3d6e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/director-decision-v06-v01.json",
+      "bytes": 4007,
+      "sha256": "91a94f09fbca4587b0e474e3434aac561a1e3e41228aedc7cf24aaef61d89c5c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/director-decision-v06-v01.ko.md",
+      "bytes": 1821,
+      "sha256": "8ee2ef5c7d1a20f1ccb65645aa3414754c374935c9c4fd02a7ff6ce6f44ea51e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/director-decision-v06-v02.json",
+      "bytes": 4685,
+      "sha256": "5ebf0ac8c1578557d0a57f4cf1e043d9131e0120c7c2ae38a64c4423c51b3bcd",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/director-decision-v06-v02.ko.md",
+      "bytes": 1610,
+      "sha256": "df53466690d44675240864f9098910563f16032ef9811ed52b1d3ec779379ce8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/driver-dashboard-final-v02.png",
+      "bytes": 34175,
+      "sha256": "e26bd197a8b04b197b058639d8e3c62ae3338fa83304680ddcf46183d0b6694b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/driver-dashboard-v01.png",
+      "bytes": 34175,
+      "sha256": "e26bd197a8b04b197b058639d8e3c62ae3338fa83304680ddcf46183d0b6694b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/history-independent-v01.json",
+      "bytes": 812047,
+      "sha256": "4f78750c71555c23c49e9fc66394ff8fbe67a8c76bb583fb54f2d25350b364ef",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/preservation-independent-v01.json",
+      "bytes": 1268,
+      "sha256": "c260e4cade5d0780ad10d36d2834a41428cc393e0f02d0b93c0f394c84cb8db1",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/reviewer-summary-v06-v01.json",
+      "bytes": 2590,
+      "sha256": "9e0de359431b74189fb7af4871ba10dc63794189ccd0342a5c0a8acd1a449103",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/ui-independent-v06-v01.json",
+      "bytes": 19666,
+      "sha256": "28269851ad8c2fb3e33d59f910177f31a9ecaeeffeee283ce41f16aa1d81809d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.0/verification/ui-independent-v06-v02.json",
+      "bytes": 19665,
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/README.ko.md",
+      "bytes": 1118,
+      "sha256": "66d18e6a7ab225271d6df4393c41d7f747c18d8d1d58838bda1589d3386e7d6f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/README.md",
+      "bytes": 945,
+      "sha256": "fb29b076bef6b9f889f08b5f396fd3703b1fc4ee75b84cf8cb7dc928778727a6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/VERSION",
+      "bytes": 6,
+      "sha256": "aba951626c8690ce493cbc8f018205bb468003f61fbf00fd3d3c71cebabc0177",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/DRIVER-PROGRESS.md",
+      "bytes": 2589,
+      "sha256": "1d06ca28e3e4f61a32be04fe03a8c1f08612bbbae48b6087ce01abe84da03785",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/SHARED-SPEED.md",
+      "bytes": 1931,
+      "sha256": "1616976389898d8fad5c82658b68d0f8c055048209885c98cd9f71e1fb08449d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/comparison.js",
+      "bytes": 12671,
+      "sha256": "91bdfb633a972dd29613e8778f325a46d9c66690e3d273787f70c7625fe6b643",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/driver-dashboard-verification.json",
+      "bytes": 171,
+      "sha256": "abae3992bd6802f7ac24394c4d4cd9a0262f0a82ec029c7eadbfe0865dd8d4c9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/map-comparison.js",
+      "bytes": 26146,
+      "sha256": "f36dad6e137feb24f3b0915f3d77139c9d5c0c957d43de3e9cf5e396745fb3e9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/replay.js",
+      "bytes": 9795,
+      "sha256": "f2eff5d9cf63c556fc80fe54bbd7a34dae8a539bbe5483590219e38d83e1f8d2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/shared-speed-verification.json",
+      "bytes": 250,
+      "sha256": "6cf340f6b214d1b7f81f5e8685be222ab099a9ded338292500db83d668832734",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/test-driver-dashboard.cjs",
+      "bytes": 10692,
+      "sha256": "34ac7ba557c8c9c8ebe574e211fb47c1ede267604467c91493e893880b953837",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/replay/test-shared-speed.cjs",
+      "bytes": 3358,
+      "sha256": "08665a911598af00bcfe51908cd10fd5c09b2cac4a2fe166a566e38ed4797431",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/REVIEW-v07-speed.ko.md",
+      "bytes": 1925,
+      "sha256": "6f86ae3db943a8ac93a578cd3159ab1ce286fe8b1698cc0a83466f98b4825e5e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/SPEC-v07-speed-independent.ko.md",
+      "bytes": 714,
+      "sha256": "60877b4a719627c5e70b6edaa1d33bb8cf4238200f587e28da403960cfc2d488",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/browser-observations-v01.json",
+      "bytes": 776,
+      "sha256": "3d2dd8e332d573c39d0e826c1bffc05335a39ec6b5243a0cef811b4142a588de",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/check-preservation-independent.py",
+      "bytes": 1070,
+      "sha256": "6bd144b6b02542e788282bd2aadf4417934bbfa5158410e194bbdeb5a7d84288",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/check-speed-independent.cjs",
+      "bytes": 6684,
+      "sha256": "09e778ca51a775b87b3942db686b3a6c0c4a4a9d9d9fdc891a525ae8602cb6be",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/check-ui-independent.cjs",
+      "bytes": 4738,
+      "sha256": "87fb22fe0a78bcaafa2fc0b614588c9fa81e2b2eb137ce4e9838b7d134251388",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/director-decision-v07-v01.json",
+      "bytes": 4029,
+      "sha256": "b6ef4aa4f5774f1a4a3b209ef58ec14972290e1adc8d9f0f1356c3e8b1f9e386",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/director-decision-v07-v01.ko.md",
+      "bytes": 1732,
+      "sha256": "8ffa975df73420e039de5e54e45614feaa2fd32ef480b16eaccad2f0a7b4c4e7",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/preservation-independent-v01.json",
+      "bytes": 1735,
+      "sha256": "2d1cba6672c8b925badf370ee41e688fb0c3f16ca28c8a27cb24e619bf9c40e3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/reviewer-summary-v07-v01.json",
+      "bytes": 2156,
+      "sha256": "43ffe273f2883bbab41e057c0efbe9339c3b2ca779b3b26a9cc4119c3662878e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/shared-speed-controls-v02.png",
+      "bytes": 21961,
+      "sha256": "f9e15f3d61e95555e0428c1ce5ecc8b7a7ad1b4161b2b8bd7c4011abace37080",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/shared-speed-v01.png",
+      "bytes": 31614,
+      "sha256": "5670df689f9874c6fd9463ee84b789702438de55606c736383d64e9ada853cbf",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/speed-independent-v01.json",
+      "bytes": 33271,
+      "sha256": "d53ab6b84c2acd9e9ddab2795d81466997dd41231bd9978bb890024ad3efd564",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.1/verification/ui-independent-v07-v01.json",
+      "bytes": 19665,
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/README.ko.md",
+      "bytes": 1510,
+      "sha256": "c79088e8993636cf526c1d4d99847c3359b98ebdc488970476574c0da49bf7e9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/README.md",
+      "bytes": 1356,
+      "sha256": "ce13a64f3bfdcdbf22161adb8e3142c6ef8889711be3f4209b962f98162d1901",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/VERSION",
+      "bytes": 6,
+      "sha256": "26e0ab83aa1ff6bd0ae3882787a92663aa19db128e1241ffc99375fb9ca0c121",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/DRIVER-PROGRESS.md",
+      "bytes": 2589,
+      "sha256": "1d06ca28e3e4f61a32be04fe03a8c1f08612bbbae48b6087ce01abe84da03785",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/REAL-TIME-SPEED.md",
+      "bytes": 1645,
+      "sha256": "acbac6e10b32ea9750513c09cc5fd6a74fc7c46b968f2e3dfdb7025a13308262",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/SHARED-SPEED.md",
+      "bytes": 1931,
+      "sha256": "1616976389898d8fad5c82658b68d0f8c055048209885c98cd9f71e1fb08449d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/comparison.js",
+      "bytes": 12671,
+      "sha256": "91bdfb633a972dd29613e8778f325a46d9c66690e3d273787f70c7625fe6b643",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/driver-dashboard-verification.json",
+      "bytes": 171,
+      "sha256": "abae3992bd6802f7ac24394c4d4cd9a0262f0a82ec029c7eadbfe0865dd8d4c9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/map-comparison.js",
+      "bytes": 26811,
+      "sha256": "1ceafabde3026657a82dfd59fcf8d36f997e3cd920ff003fa9aa1aeefc93449f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/real-time-speed-verification.json",
+      "bytes": 269,
+      "sha256": "8e908a9468d1b3f277e4b5f8f4f6703655dcf5590c154635199827f7846016c3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/replay.js",
+      "bytes": 9795,
+      "sha256": "f2eff5d9cf63c556fc80fe54bbd7a34dae8a539bbe5483590219e38d83e1f8d2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/shared-speed-verification.json",
+      "bytes": 250,
+      "sha256": "6cf340f6b214d1b7f81f5e8685be222ab099a9ded338292500db83d668832734",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/test-driver-dashboard.cjs",
+      "bytes": 10692,
+      "sha256": "34ac7ba557c8c9c8ebe574e211fb47c1ede267604467c91493e893880b953837",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/test-real-time-speed.cjs",
+      "bytes": 4219,
+      "sha256": "bde5f69e38cf5e7407f0978acab8a6f93f9966489a608e5508844391f54a55f2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/replay/test-shared-speed.cjs",
+      "bytes": 3358,
+      "sha256": "08665a911598af00bcfe51908cd10fd5c09b2cac4a2fe166a566e38ed4797431",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/REVIEW-v08-realtime.ko.md",
+      "bytes": 2037,
+      "sha256": "c702230e885aa29c4612e3e2d85bad90fff37ce9d7fed61a606c0a94a34abe96",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/SPEC-v08-realtime-independent.ko.md",
+      "bytes": 577,
+      "sha256": "5cf722d1f16274166ea6597d3783c249499b7f8e09cfc3cf4808d1a165f7e4c5",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/browser-observations-v01.json",
+      "bytes": 662,
+      "sha256": "3b60ba59a3bf184ad2404afe38f00b44f54ad015bd3fb68c487041b3360cbf2b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/check-preservation-independent.py",
+      "bytes": 1070,
+      "sha256": "a0e694b760626efb214032d6fd1296d5a18aee12ace305a22872aced0a43906f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/check-realtime-independent.cjs",
+      "bytes": 6207,
+      "sha256": "db7eeef048e01d902dd6febb921e1df5b5a23c9bed9049ca6b64876864308d5c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/check-ui-independent.cjs",
+      "bytes": 4738,
+      "sha256": "acb784d59aadbd58a182be66abbcfe64db7d0c436995f10f4d76c957813c682a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/director-decision-v08-v01.json",
+      "bytes": 3887,
+      "sha256": "70905cb2505acbbbf9bdcad8eb5e06e8c8aa15b3f66f318cc357138024686ccd",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/director-decision-v08-v01.ko.md",
+      "bytes": 1593,
+      "sha256": "0b107f1dcdce4593e54a4b1ea6df2e548ae5ee2386788e5f6e6a8269b62e6eaa",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/preservation-independent-v01.json",
+      "bytes": 1735,
+      "sha256": "9cc0940ef7fb23e104e1f555b1953467cfb688ec9379d9f99992f6eef7eeffd0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/realtime-independent-v01.json",
+      "bytes": 258084,
+      "sha256": "a3df5d0dbacf625ee5e471553065e89c496a9651cacff39b2171e5ea8ab21cbc",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/reviewer-summary-v08-v01.json",
+      "bytes": 2096,
+      "sha256": "d94087d35266e73f268797dd6082dc57d8a506997cd4efa8193983c4a64ac85b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/release-0.5.2/verification/ui-independent-v08-v01.json",
+      "bytes": 19665,
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "f1/venue-verification.json",
+      "bytes": 3590,
+      "sha256": "0e81fcee777d63c9b50276edcc76dbdd1d4d73ee63c496fbe66e7893dfb443ba",
+      "snapshot": "0.17.2"
+    },
+    {
       "path": "index.en.html",
-      "bytes": 8728756,
-      "sha256": "70b21e8fa6ba38ebeb9467ee3cac6f015583584ade60b24169cccb1637452955",
-      "snapshot": "0.12.2"
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
     },
     {
       "path": "index.html",
-      "bytes": 8730929,
-      "sha256": "212bc31e3130a436f75525c1d1e5375974d8312488fa1cd71cfa62df50d40989",
-      "snapshot": "0.12.2"
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/.gitignore",
@@ -1614,193 +2682,193 @@
       "path": "modeling/goal-distribution-2026-10-07-v01/README.en.md",
       "bytes": 476,
       "sha256": "748c5a228c11f8f7b780dedb3e9d385a851a62d13365238623e15a8a945ef53e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/README.ko.md",
       "bytes": 317,
       "sha256": "0ba0a60e26808fb1a7beffc6ea89a57d1fe79dc365243d2a185cb05f7f3f2cbd",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/RESULTS.ko.md",
       "bytes": 2403,
       "sha256": "83f9d12018589df1eda3cb3b76fe48202b0380cfa419d648316aaff5ef6bb442",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/SPEC.ko.md",
       "bytes": 2410,
       "sha256": "e832827effc5a477b6076e6a13f015a28f391b163ed70c292e873961948e52a1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/future-predictions.json",
       "bytes": 12973608,
       "sha256": "93eeec54d5f47d9de26213ee2bef8af3206f0c8413ee3c0d97c90dad0ce44529",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/goal-model.json",
       "bytes": 15360,
       "sha256": "c0824f44845162a32bb56ccc3fb998fece88f370ed6ae006485ba2c3fafb211e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/input-manifest.json",
       "bytes": 1722,
       "sha256": "ff6df59cd0698a46233bec58f032c3dd401cfb27018cb82cf8169b4fbeca6f78",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/metrics.json",
       "bytes": 2127,
       "sha256": "e76102daa55e2dbe4146dd902c184b90ab026151209666fa68afdd4558f11902",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/sample-verification.json",
       "bytes": 453,
       "sha256": "e1e38067415ab1f7bbf35b8c02e3e5cda9bb050c7018475958693d0b0fdbdd0f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/goal-distribution-2026-10-07-v01/verification.json",
       "bytes": 1712,
       "sha256": "11c78d2711e543a6948e99a74dfc9bba5225cfef32440673acbc7f341cc4c9d1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/README.en.md",
       "bytes": 301,
       "sha256": "6e05af04046ac1bc28b88f4fdb74b8debe2e86723d810535862b55ef403696c4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/README.ko.md",
       "bytes": 336,
       "sha256": "14447b70c2e7d23478ebd188709b9e32eeb34c22bba2aa2cf721dbb83c5f04c8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/feature-schema.json",
       "bytes": 4275,
       "sha256": "542a88129e713e01e5ced6d7399fcea439088784fdf21f4458d1d7d886784237",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/future-evidence.json",
       "bytes": 4317994,
       "sha256": "ffb180736541e2576c08b864dfae4193c7c18494c16fb5686c373dff9b40686a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/future-predictions.json",
       "bytes": 457519,
       "sha256": "85dc2fad3a595e9b96aab50ac4851e2010c71a990747b37b15a12364ea89318c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/metrics.json",
       "bytes": 6596,
       "sha256": "3a2f4ef6626f9b8551ab115593757d601f26c08ac76c92f5e16e46033a523bc9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/model.json",
       "bytes": 25426,
       "sha256": "e913facc6c2f6ad44161c2097136ed8d85ce995f687eaa62c07ae4591bd34dfb",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/logistic-111-2026-10-07-v01/selection.json",
       "bytes": 1097,
       "sha256": "559eec90ecb0da7dfe626ccb04a612ecc9e1417c7723e8bcff00942216729904",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/RESULTS.ko.md",
       "bytes": 3414,
       "sha256": "3dd8de2cfdd44be0643b4c2e4989b6fb7473a01cb3bdff4401962a8225a4e9d8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/RESULTS.ko.v02.md",
       "bytes": 4191,
       "sha256": "c696bbc44a3a9c039e516a551bdf1729f03c792aeccb324dc4f7a97c3c2c5071",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/SPEC.ko.md",
       "bytes": 1950,
       "sha256": "b1bade30ea007ccb072431a2799cc9b504c7afff6f4f0a6469bc7f88a74a8b1d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/checks.json",
       "bytes": 7947,
       "sha256": "1b95a1ca19d982c2667c6140d7ea8917db55efa6a7c93e3e750dec1ca6a4343c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/complete_league_report.py",
       "bytes": 2572,
       "sha256": "a3e7653c4ee3250534bccbc1c968b2e93d8b6a6697154d09c3e6e0d8a9103804",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/evaluation-predictions.json",
       "bytes": 354625,
       "sha256": "04e87dfe6e9c7130bb32b9558e811c2dbadc116493f811e031641af6af4c277f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/historical-features.json",
       "bytes": 7328260,
       "sha256": "272bb8c289ba31b6daf4a97dd6f50ba266cffc0cd36a6db206f94c0d2649ed7e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/input-manifest.json",
       "bytes": 2412,
       "sha256": "b0d201e9b4ef0a8e579279cc68097271af55d68ef7c41c3cfe292c8262f88247",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/metrics-v02.json",
       "bytes": 23521,
       "sha256": "8346503c4ef39cf86580f78bd7bf4ccdfb2404e092a9a9afa4b4b55645201a39",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/metrics.json",
       "bytes": 27346,
       "sha256": "c6713d011c76db6d541ebd7c98f36f26cd5bae95d2af3b5e8cc42cca40563e38",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/model.json",
       "bytes": 10766,
       "sha256": "525ee2bd6298d1769685480714c9697d641cb20c07c8496956241ead42b17311",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/run.py",
       "bytes": 10068,
       "sha256": "437e06dd41c82b546409f30d90707dc1cf676bd7d5b5413a0e45184b477123e4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/verification-recalculated.json",
       "bytes": 905,
       "sha256": "2c6196c2c62b596fe2e2b5d30e3cfed93e1842571cb16fb5520295c8543fbb0b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/match-record-experiment-2026-10-06-v01/verify_results.py",
       "bytes": 5550,
       "sha256": "50d942cccc23ce9f0191d0c05ce222775e460871a12ad85b98cb908267d52a99",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "modeling/prematch-v2-2026-10-06-v01/README.ko.md",
@@ -2057,20 +3125,20 @@
     {
       "path": "server/check-result.json",
       "bytes": 139,
-      "sha256": "a0bde442470dc3283d8ebb19d759c579c2e0e86f7f48be1865e5852bdbf2510d",
-      "snapshot": "0.12.2"
+      "sha256": "a064377cee901a876d9795e30f298fc84f2b6a4ad09e7b8cef56d985cc1e1fd0",
+      "snapshot": "0.17.2"
     },
     {
       "path": "server/check.cjs",
-      "bytes": 7513,
-      "sha256": "7b4f28886992b22988759a727ea5e7d834d44f73b8b271992f5c6b7922248812",
-      "snapshot": "0.12.2"
+      "bytes": 7917,
+      "sha256": "8cdd3502ad593cbe863d6ae53a10a441d58b79c626b75f330364c81f56d7de40",
+      "snapshot": "0.17.2"
     },
     {
       "path": "server/gemini.cjs",
-      "bytes": 8236,
-      "sha256": "658497828df6e0d00c2fb96fc824489803b331f0177fd32e4f0d134bf8046518",
-      "snapshot": "0.12.2"
+      "bytes": 8399,
+      "sha256": "83c1f42be7fed1e587df280b91485f63c3f4d8de20fd1a8ff6707c1546fec469",
+      "snapshot": "0.17.2"
     },
     {
       "path": "server/start.ps1",
@@ -2172,7 +3240,7 @@
       "path": "simulation/pixel-v2-2026-10-06-v01/integration.js",
       "bytes": 3926,
       "sha256": "ffa2a3147660ef772519ffe5456f480495a4e61f761959f06094d13eab7a6332",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "simulation/pixel-v2-2026-10-06-v01/pixel-simulation.css",
@@ -2184,7 +3252,7 @@
       "path": "simulation/pixel-v2-2026-10-06-v01/pixel-simulation.js",
       "bytes": 13901,
       "sha256": "0d22f61627590daf5414326c517863e4ce7dfd0103db4880efe77c114fc6be15",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "skills/python-analysis/SKILL.md",
@@ -2196,7 +3264,7 @@
       "path": "skills/python-analysis/en/SKILL.md",
       "bytes": 1351,
       "sha256": "8c39278847ea565007010abf6e7d842eac277c036416f7355087393ebe98d59e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "skills/record-analysis/SKILL.md",
@@ -2208,7 +3276,7 @@
       "path": "skills/record-analysis/en/SKILL.md",
       "bytes": 1657,
       "sha256": "898824926a84d17cf3002b2466bdf05816daaf95337415a118c00f46c9aa15c2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "skills/sql-analysis/SKILL.md",
@@ -2220,7 +3288,7 @@
       "path": "skills/sql-analysis/en/SKILL.md",
       "bytes": 1453,
       "sha256": "fea9523c82048b3173d6a812e228a9cbd4cc95fe865eb920d027af1a7fcfb528",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "source-unified-2026-10-06-v01/README.md",
@@ -2668,9 +3736,9 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 5426,
-      "sha256": "810b76d91b55700c0c50e8d506466f23d2451f246ca24828f2de00e909fc4230",
-      "snapshot": "0.12.2"
+      "bytes": 5428,
+      "sha256": "3d4448ee23f7b757430fa2558e1ed40b4921e5dba7a482055f214418420985b9",
+      "snapshot": "0.17.2"
     },
     {
       "path": "tools/prepare_release_v03.py",
@@ -2700,7 +3768,7 @@
       "path": "viewer_selection.json",
       "bytes": 1041,
       "sha256": "87d6a307ada07657666cc421a128d206b0adb9598cf0cf4ceb5e5cc96681caba",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-06-v01/DESIGN.ko.md",
@@ -3420,1135 +4488,1915 @@
       "path": "visualization-design-2026-10-07-v24/CHANGELOG.md",
       "bytes": 6581,
       "sha256": "5abdfd91c7cd4cbac5bbd85b3099f89c73cdbc391138e0de6c085b95994515c2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/README.ko.md",
       "bytes": 11713,
       "sha256": "d7531d4dd736fc71c70d3fd058e26b0c0d56b369a7db9be1d57c22e2aceff106",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/README.md",
       "bytes": 11295,
       "sha256": "aa8f86a1d7467056161c8f9db59859c3fe4dcc073269727860bf9f51bfd47de3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/VERSION",
       "bytes": 6,
       "sha256": "f34248c2449a022d41c918d1e995ad85859a1e9f0e6f89d0af23ae4a55519f71",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/index.en.html",
       "bytes": 2224531,
       "sha256": "eeb1ce6b8ac2b3f0301c7e6043171e8d584285d036adb31ba9509b3b8119f012",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/index.html",
       "bytes": 2226661,
       "sha256": "370541bd6df8138879e0cec09fbd2b4763c0bff3a310ec782cfd5dffd6feecda",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/CHANGELOG.md",
       "bytes": 6397,
       "sha256": "e6e74268b66ce80434f2f156f8a12cce6b98debf6d6889fdaad45de36bf40a11",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/README.ko.md",
       "bytes": 11426,
       "sha256": "76184b09d699fe516f89b93a114815cbb2c0e989bb6fbd90efaf496ea1e922dc",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/README.md",
       "bytes": 10995,
       "sha256": "422a32c015774363ab0c0ef1eac1980d0a94488cd032846ffe7637ba26b92498",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/VERSION",
       "bytes": 6,
       "sha256": "179a5390966e85c2071a87c1b31de13df67460665196f6529f8c4986842f81e5",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/check_release.py",
       "bytes": 5152,
       "sha256": "a18975803c19188cca8837ec1a5428d132e0514a219930eed171985255c89a10",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/index.en.html",
       "bytes": 2223601,
       "sha256": "e4cd1de11061faecc1535ac79da5e0cc68e56b153e4bbd581ed83769d2b4fcd1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/previous-0.9.1/index.html",
       "bytes": 2225744,
       "sha256": "40e3a1386800865797eb3409d925c59f111af4545b1b853b1888251ce414f526",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v24/verified-match-analysis.png",
       "bytes": 205498,
       "sha256": "e0baea13e4a7309f7616ece3008d321eab628c1e50c282249ef8e0d17ac70178",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/CHANGELOG.md",
       "bytes": 6847,
       "sha256": "734cdd76eb9cd60aaf4359e170cfc3f0c517160d556b32c034017844190f09e7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/README.ko.md",
       "bytes": 12072,
       "sha256": "29233a11a8ecd4cee760078454c9d1a01a68be2acf37bc0e2e0d578b4cab1189",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/README.md",
       "bytes": 11656,
       "sha256": "02781b4930311254652b175220fcd33bdc7ea849232ac4283261c5bc04fdfd8a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/VERSION",
       "bytes": 7,
       "sha256": "dc24feb5bd35084d8ae32a4eafbec12352707d4662401fcbcc9bbd696cde77a9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/index.en.html",
       "bytes": 2268865,
       "sha256": "2069d15ad925054f9c50a6053f96bb4dbb0f4342cc83ca835797d2223f762b5b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/index.html",
       "bytes": 2270995,
       "sha256": "8ad7c7023b5081c042c3d0bcdf52423dd93fce769ad3855b22d96b949bc2ee24",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/CHANGELOG.md",
       "bytes": 6581,
       "sha256": "5abdfd91c7cd4cbac5bbd85b3099f89c73cdbc391138e0de6c085b95994515c2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/README.ko.md",
       "bytes": 11713,
       "sha256": "d7531d4dd736fc71c70d3fd058e26b0c0d56b369a7db9be1d57c22e2aceff106",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/README.md",
       "bytes": 11295,
       "sha256": "aa8f86a1d7467056161c8f9db59859c3fe4dcc073269727860bf9f51bfd47de3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/VERSION",
       "bytes": 6,
       "sha256": "f34248c2449a022d41c918d1e995ad85859a1e9f0e6f89d0af23ae4a55519f71",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/check_release.py",
       "bytes": 5152,
       "sha256": "1e01e36f46b29686bdfd8543ba79a80f95e64eaa65669a2e6bd9428adb312c80",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/index.en.html",
       "bytes": 2224531,
       "sha256": "eeb1ce6b8ac2b3f0301c7e6043171e8d584285d036adb31ba9509b3b8119f012",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/index.html",
       "bytes": 2226661,
       "sha256": "370541bd6df8138879e0cec09fbd2b4763c0bff3a310ec782cfd5dffd6feecda",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/integration.js",
       "bytes": 4687,
       "sha256": "39a2e7bec17d2aebd676147ea00fc514f3f5132ea4798e898731d57ad30a11f0",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/previous-0.9.2/publication_manifest.json",
       "bytes": 99679,
       "sha256": "ccdab759be31ddecdca872e16379a7e2566e313880f0ad028f9337e85a97ed37",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v25/verified-logistic-simulation.png",
       "bytes": 34189,
       "sha256": "cd9e51f7e830f92c98a7d64a506dc338c6fc55fc7ccb15c19830859222b2bb39",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/CHANGELOG.md",
       "bytes": 7084,
       "sha256": "3ce9b81348cd3f3e38f05b15e62ba541b826c610d65b60bc7cc568a558cef6e7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/README.ko.md",
       "bytes": 12466,
       "sha256": "83a33cc8a603db110443bdc806f9d0996b0ae9a0881f592f189451f303430ccd",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/README.md",
       "bytes": 12018,
       "sha256": "0da317c783e0b679ec09d78dd20cd11fa6685ca7ca53ce980ffdfec0041c46ef",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/VERSION",
       "bytes": 7,
       "sha256": "795d6bc79574d2aec03ad9cfec404bb95083c9dd210e6521e0d4199772d28d44",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/index.en.html",
       "bytes": 8708277,
       "sha256": "516dab1cf633b7268285ae18a75ece7eecc42ff4abd308db6f7f89a5cf173953",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/index.html",
       "bytes": 8710407,
       "sha256": "fa8e58fb13129b52b501821d2a1f2585806720ddedf84d609a89b55ab13c0706",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/CHANGELOG.md",
       "bytes": 6847,
       "sha256": "734cdd76eb9cd60aaf4359e170cfc3f0c517160d556b32c034017844190f09e7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/README.ko.md",
       "bytes": 12072,
       "sha256": "29233a11a8ecd4cee760078454c9d1a01a68be2acf37bc0e2e0d578b4cab1189",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/README.md",
       "bytes": 11656,
       "sha256": "02781b4930311254652b175220fcd33bdc7ea849232ac4283261c5bc04fdfd8a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/VERSION",
       "bytes": 7,
       "sha256": "dc24feb5bd35084d8ae32a4eafbec12352707d4662401fcbcc9bbd696cde77a9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/check_release.py",
       "bytes": 5155,
       "sha256": "3c03b530675b26ed1282b875e1fa545f8e060f75ff1a0bcf39def79f2004a417",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/index.en.html",
       "bytes": 2268865,
       "sha256": "2069d15ad925054f9c50a6053f96bb4dbb0f4342cc83ca835797d2223f762b5b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/index.html",
       "bytes": 2270995,
       "sha256": "8ad7c7023b5081c042c3d0bcdf52423dd93fce769ad3855b22d96b949bc2ee24",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/integration.js",
       "bytes": 3472,
       "sha256": "28930ba92b3097e1327315f77b39971b38b744ffe349306e6ce175a8774d6e60",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/pixel-simulation.js",
       "bytes": 10268,
       "sha256": "fe492435a88046bf803f5f6875d74f99ed56609b4566db9d6343a7f976c28245",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/previous-0.10.0/publication_manifest.json",
       "bytes": 105173,
       "sha256": "d915b16b52298858f5301802928259274ab7d53e6cdc1943c477dc0e4f60ce19",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v26/verified-goal-distribution.png",
       "bytes": 39907,
       "sha256": "782d9a8f7b784371c00a6d010ae41905dcbd6c91f3c726cacf1389714638be17",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/CHANGELOG.md",
       "bytes": 7277,
       "sha256": "101165e4b5407d054bef3fc346cf5de7ecba25bfe10f253b3cacf58b8f1a9f98",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/README.ko.md",
       "bytes": 12756,
       "sha256": "19fd7c7b8eb6212ff2c8dbfde233fcc3a945b91e80dbdd36de977db9e5363c29",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/README.md",
       "bytes": 12318,
       "sha256": "33215b049718a12c6a37d17587696d68710d37de890c31dfb04cd418ee6a4027",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/VERSION",
       "bytes": 7,
       "sha256": "fe8b23410c0d9003e70c141ca726f3c669bbc0bf7e3acb7ba35f23cf7260332b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/index.en.html",
       "bytes": 8710303,
       "sha256": "594d8b13d11d06fd2c3741a08a06207d35bba8af5a019a49494f960775876e49",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/index.html",
       "bytes": 8712433,
       "sha256": "bf9a38bd04b84c253b3ee53efe576f5007a405056c8980645d822174e4b65cc3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/motion-check.cjs",
       "bytes": 1647,
       "sha256": "6612360eaf36105ebdb6441ce1f373836ea04a4adbe1e43b95c7d8e439e46cb2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/motion-later.png",
       "bytes": 35315,
       "sha256": "bc4e68f290a9753ffd487d58d58be3fb92ea3efc1ba04c900714930a753d985a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/motion-start.png",
       "bytes": 32509,
       "sha256": "10f3adf55d1b1ce69d3d0dc91cb398161be790ffade78ecd804a3d52b900aa37",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/motion-verification.json",
       "bytes": 304,
       "sha256": "1ae069342fccad0209c4c50341b415db51b3621c617c447994e790b4a7d007c2",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/CHANGELOG.md",
       "bytes": 7084,
       "sha256": "3ce9b81348cd3f3e38f05b15e62ba541b826c610d65b60bc7cc568a558cef6e7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/README.ko.md",
       "bytes": 12466,
       "sha256": "83a33cc8a603db110443bdc806f9d0996b0ae9a0881f592f189451f303430ccd",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/README.md",
       "bytes": 12018,
       "sha256": "0da317c783e0b679ec09d78dd20cd11fa6685ca7ca53ce980ffdfec0041c46ef",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/VERSION",
       "bytes": 7,
       "sha256": "795d6bc79574d2aec03ad9cfec404bb95083c9dd210e6521e0d4199772d28d44",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/check_release.py",
       "bytes": 5155,
       "sha256": "72fcb314b818bff87d34da18e33fdbf27d0c8d29efc9f927c23c061c0141c5c4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/index.en.html",
       "bytes": 8708277,
       "sha256": "516dab1cf633b7268285ae18a75ece7eecc42ff4abd308db6f7f89a5cf173953",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/index.html",
       "bytes": 8710407,
       "sha256": "fa8e58fb13129b52b501821d2a1f2585806720ddedf84d609a89b55ab13c0706",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/integration.js",
       "bytes": 3926,
       "sha256": "ffa2a3147660ef772519ffe5456f480495a4e61f761959f06094d13eab7a6332",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/pixel-simulation.js",
       "bytes": 10462,
       "sha256": "a53537b525de5aff1f41ae1820d1eb8120671f8bcf1aae75b83f678d93c5b385",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/previous-0.11.0/publication_manifest.json",
       "bytes": 111122,
       "sha256": "840d28ffccb01c7f4c8a37fe578d2f23bbe3cc457925dff4bb9e4abe3a969a8b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v27/verified-score-simulation.png",
       "bytes": 34724,
       "sha256": "8ba8dd100fc1d0e5664522facacfd7ed020a833d3b396cf08cfb66ef8064d947",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/CHANGELOG.md",
       "bytes": 7640,
       "sha256": "8acb44971971df5690929877b219ae577f432dc7f78cfc864124823ba369cf60",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/README.ko.md",
       "bytes": 13163,
       "sha256": "422265dd993d8066451f3e9873d936e5ad3bd3c28e399f5416cf89058b9904c9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/README.md",
       "bytes": 12687,
       "sha256": "45025f270d394d3500f33194187645f34c33e04a214161680d4d4f7bb3cecf76",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/VERSION",
       "bytes": 7,
       "sha256": "be904fd6626f304ea2dd11524bfc70f77348a90d5163118bf9e92b71d3c9a35f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/index.en.html",
       "bytes": 8711716,
       "sha256": "4b778f40d8f51c209fa45e903fa0bbd191e679108cfa6b4adfe80fd487a09cc6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/index.html",
       "bytes": 8713846,
       "sha256": "6f12a92632727f81ed77de29dd15a335c9b361e7832624a2510d1dc46d9ca140",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/motion-check.cjs",
       "bytes": 3174,
       "sha256": "bae7810a82e80edc0c0343568306cd5820469155268b861b6e5977d1727f981d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/motion-start.png",
       "bytes": 35015,
       "sha256": "bb4e63df38adb0cc212ecef826bf36e1a7dab60026175ab29465f065f9dd8ad6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/motion-verification.json",
       "bytes": 2149,
       "sha256": "6811abaecb380a9299a3c429c4429fa4580e7ecce0b4e738f036f04353c485a7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/CHANGELOG.md",
       "bytes": 7277,
       "sha256": "101165e4b5407d054bef3fc346cf5de7ecba25bfe10f253b3cacf58b8f1a9f98",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/README.ko.md",
       "bytes": 12756,
       "sha256": "19fd7c7b8eb6212ff2c8dbfde233fcc3a945b91e80dbdd36de977db9e5363c29",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/README.md",
       "bytes": 12318,
       "sha256": "33215b049718a12c6a37d17587696d68710d37de890c31dfb04cd418ee6a4027",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/VERSION",
       "bytes": 7,
       "sha256": "fe8b23410c0d9003e70c141ca726f3c669bbc0bf7e3acb7ba35f23cf7260332b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/check_release.py",
       "bytes": 5155,
       "sha256": "43fc03c6810a9cdd6b2cf6bfddaec23dadd3fb0cb257b7a3f3d7ad0abf935117",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/index.en.html",
       "bytes": 8710303,
       "sha256": "594d8b13d11d06fd2c3741a08a06207d35bba8af5a019a49494f960775876e49",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/index.html",
       "bytes": 8712433,
       "sha256": "bf9a38bd04b84c253b3ee53efe576f5007a405056c8980645d822174e4b65cc3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/pixel-simulation.js",
       "bytes": 12488,
       "sha256": "3ecfebfe47646cccde40f775e10c362f5b1c8fd1ebb72b557d33ddbe1d9b939e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/previous-0.11.1/publication_manifest.json",
       "bytes": 116189,
       "sha256": "a0cad8ee0029ebeaf6b2a0eef08cf9b11bfb168bd03a0928269b03a1d4c1ee0f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/verified-simulation-en.png",
       "bytes": 32826,
       "sha256": "4602c99f6af791a7ed4900e937295fa3ac0f37b00090279d0148a98765d0b524",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v28/verified-simulation.png",
       "bytes": 36511,
       "sha256": "ce9c849660c108fd42d446b086782ddfb05fbb34546e4c62a66ca8c8c8ee4db8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/CHANGELOG.md",
       "bytes": 7888,
       "sha256": "185ae766134475476dc9cfd2f0aa54a14b21d0122e1bd345798d71c00a86697e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/README.ko.md",
       "bytes": 13529,
       "sha256": "d9cfb86b123de068f9ff8d727a26323eccc5b3bbfa04b2e4d3370201c6962f99",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/README.md",
       "bytes": 13033,
       "sha256": "0ed1e5976692193ab81f32bfdb2e6a3b29ebb02ef2e9ab9dea59624395dcf875",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/VERSION",
       "bytes": 7,
       "sha256": "4c912d677643bad1d13bf1f9e841532150697e820444b1244f15e3f5a4a09563",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/index.en.html",
       "bytes": 8713144,
       "sha256": "45ae9090addcf98c78f25539c483917da61b463a3775183f6c537ddbed52532b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/index.html",
       "bytes": 8715274,
       "sha256": "52fd8d12bd2a03fdb1a8c68aed7c8797fc2744977a0c60bcc7bc95f0df4ca6f7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/CHANGELOG.md",
       "bytes": 7640,
       "sha256": "8acb44971971df5690929877b219ae577f432dc7f78cfc864124823ba369cf60",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/README.ko.md",
       "bytes": 13163,
       "sha256": "422265dd993d8066451f3e9873d936e5ad3bd3c28e399f5416cf89058b9904c9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/README.md",
       "bytes": 12687,
       "sha256": "45025f270d394d3500f33194187645f34c33e04a214161680d4d4f7bb3cecf76",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/VERSION",
       "bytes": 7,
       "sha256": "be904fd6626f304ea2dd11524bfc70f77348a90d5163118bf9e92b71d3c9a35f",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/check_release.py",
       "bytes": 5155,
       "sha256": "50802f96f197f48276c79d4107a9ad6ed58e7a02dcb808a74bb1e492307e5094",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/index.en.html",
       "bytes": 8711716,
       "sha256": "4b778f40d8f51c209fa45e903fa0bbd191e679108cfa6b4adfe80fd487a09cc6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/index.html",
       "bytes": 8713846,
       "sha256": "6f12a92632727f81ed77de29dd15a335c9b361e7832624a2510d1dc46d9ca140",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/previous-0.11.2/publication_manifest.json",
       "bytes": 120802,
       "sha256": "634bd3cba25393d8daeda7c87f72939fa8d7655edb336028c5c29b88bc8ea16b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/readability-verification.json",
       "bytes": 428,
       "sha256": "ecb90998c7c768a7d25c3795c585dab58eb6ebcf293e78bf945c4a8dd349c234",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v29/verified-metric-cards.png",
       "bytes": 174431,
       "sha256": "a5f075deade9b551fcf313f17354bbc706710900bc705e82ca957dd0c5e28321",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/CHANGELOG.md",
       "bytes": 8143,
       "sha256": "2e578095e6ac56d35894e728b2b756d7a2fda9b1ad9fdc9aabdd21c5b6bc0815",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/README.ko.md",
       "bytes": 13893,
       "sha256": "a21bac3a3356d3449df48c5848132a531d2ed4cac5fe3083c885de5809839f2a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/README.md",
       "bytes": 13370,
       "sha256": "5c890c524deda40e919f53206ae506bd33c06537955a0691d0e063148a236ba7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/VERSION",
       "bytes": 7,
       "sha256": "a71756fe3302627972537ffafb2fc1391c9382715ecbdfedbf3712296e96b72d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/index.en.html",
       "bytes": 8715952,
       "sha256": "a1f43dcef1b70cebb6c5b61cc44f17d12b03bac3c86ee3f1e2e0c85493d32026",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/index.html",
       "bytes": 8718101,
       "sha256": "6cb49ff99d28945fe52e311f617ab5e65aba6c1abe4999d215a9c924e0eae441",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/CHANGELOG.md",
       "bytes": 7888,
       "sha256": "185ae766134475476dc9cfd2f0aa54a14b21d0122e1bd345798d71c00a86697e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/README.ko.md",
       "bytes": 13529,
       "sha256": "d9cfb86b123de068f9ff8d727a26323eccc5b3bbfa04b2e4d3370201c6962f99",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/README.md",
       "bytes": 13033,
       "sha256": "0ed1e5976692193ab81f32bfdb2e6a3b29ebb02ef2e9ab9dea59624395dcf875",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/VERSION",
       "bytes": 7,
       "sha256": "4c912d677643bad1d13bf1f9e841532150697e820444b1244f15e3f5a4a09563",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/check_release.py",
       "bytes": 5155,
       "sha256": "c1d8ffc7bc2066ab21cfd3279ef15edf2a534a2c13cc46dc9da429e786dbced0",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/index.en.html",
       "bytes": 8713144,
       "sha256": "45ae9090addcf98c78f25539c483917da61b463a3775183f6c537ddbed52532b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/index.html",
       "bytes": 8715274,
       "sha256": "52fd8d12bd2a03fdb1a8c68aed7c8797fc2744977a0c60bcc7bc95f0df4ca6f7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/previous-0.11.3/publication_manifest.json",
       "bytes": 124530,
       "sha256": "6384c8340f03b2c45274f845f7647ef102ca00e527c66bd67b1e13dce351abd6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/schedule-check.cjs",
       "bytes": 1649,
       "sha256": "1d063fe872ac4b6269c08626638167560399a7aaa418601eff63688c90a4c184",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/verified-preview-en.png",
       "bytes": 29400,
       "sha256": "4a87adb8d94dacd507dd444cc23d06ef84398059d3c6aa8076a0ad81424b349d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v30/verified-team-preview.png",
       "bytes": 34367,
       "sha256": "97c745c73a07b4fc07f50e13d41f9593ed7c991fdeb42546dfc7515cfeb66c01",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/CHANGELOG.md",
       "bytes": 8536,
       "sha256": "cf5f2deb46de8a8a89dfef20b8c0124afb39ed33e904838db138314de483976b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/README.ko.md",
       "bytes": 14327,
       "sha256": "c37f7aeea5a20eed2ce2ed14ddc77542c1e8ffef1fb0841c36ae663edce4cc37",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/README.md",
       "bytes": 13802,
       "sha256": "29e8e3d98fffaa07dc89b7032fd8c99bf43dd8c13478f047da280aee67ca1852",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/VERSION",
       "bytes": 7,
       "sha256": "8a932413d42f95082f8323447652379a4885e328329efca3a67ec9c793c09940",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/analyst-report.json",
       "bytes": 5542,
       "sha256": "28270f544a5a006a04653422ea3c3276ef82e001f14fc93695d42185908b03d5",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/analyst-report.ko.md",
       "bytes": 3051,
       "sha256": "fd47f1d1a8c5d7a51edf7ac61cc4b0be28c24003e1c898955dc4bd1dad3a694d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/builder-report.json",
       "bytes": 1398,
       "sha256": "880aa2fe5d6dc86e4035d632f80fe8b156d8b62846c9ca4a2b47bf5ba15c1bee",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/chart-preservation-check.cjs",
       "bytes": 749,
       "sha256": "bc345c6c653bd2249168ebdea8d8d46275ac606f8ac0613a7611ec8f5ab078d8",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/director-report.json",
       "bytes": 4669,
       "sha256": "ea1bfe2bb64b8278d76784aec3379f26894a914ed8af272dccdaf5e54f086b0b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/director-report.ko.md",
       "bytes": 2861,
       "sha256": "eae9d93f0825775e9e7e806bca69d29f224adbd4b0f2a324bc8b7ff7f7c9c5d9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/index.en.html",
       "bytes": 8728758,
       "sha256": "548135f156fcae652132bb9dff7d2d48cb913a96433dc1de9715ef0f86603556",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/index.html",
       "bytes": 8730880,
       "sha256": "608f545d705852612d80640fa2b2e5157bd45d32796958ecf594e5c179ee4062",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/CHANGELOG.md",
       "bytes": 8143,
       "sha256": "2e578095e6ac56d35894e728b2b756d7a2fda9b1ad9fdc9aabdd21c5b6bc0815",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/README.ko.md",
       "bytes": 13893,
       "sha256": "a21bac3a3356d3449df48c5848132a531d2ed4cac5fe3083c885de5809839f2a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/README.md",
       "bytes": 13370,
       "sha256": "5c890c524deda40e919f53206ae506bd33c06537955a0691d0e063148a236ba7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/VERSION",
       "bytes": 7,
       "sha256": "a71756fe3302627972537ffafb2fc1391c9382715ecbdfedbf3712296e96b72d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/check_release.py",
       "bytes": 5155,
       "sha256": "043e96bb33cafa8f05dbd1784328e5a2743da5593194f082920da127985a66af",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/index.en.html",
       "bytes": 8715952,
       "sha256": "a1f43dcef1b70cebb6c5b61cc44f17d12b03bac3c86ee3f1e2e0c85493d32026",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/index.html",
       "bytes": 8718101,
       "sha256": "6cb49ff99d28945fe52e311f617ab5e65aba6c1abe4999d215a9c924e0eae441",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/previous-0.11.4/publication_manifest.json",
       "bytes": 128470,
       "sha256": "5c5cfe5d342b3234628b6c62898ac56d4ac0f15823400e92612c111af971d14b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/reviewer-check.cjs",
       "bytes": 15137,
       "sha256": "3cdf3a492d028134cfa3887b3ff3fca1cae20283350eaaba91f01a121b7374d7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/reviewer-report.json",
       "bytes": 138307,
       "sha256": "73788ef89c6275b6ffba07c74632ac484a7cd43847d66bbbccc1a9daddb6909d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/reviewer-report.ko.md",
       "bytes": 12216,
       "sha256": "87ba8dbbca59921b0f9a19bff0254ebb605c3847ca559d1d88c6811f2cb5b6f1",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/team-chart-engine.cjs",
       "bytes": 3550,
       "sha256": "500a996f594dac42b0e72e74c8b5ac230ece71d0128a4e69dc7e7caf221efcbe",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/team-chart-ui.js",
       "bytes": 8791,
       "sha256": "f11864b9dc09acee1dc334d497ef65711dc3266c35c00fcdc8039d5f439fdb2d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/verified-duels-en.png",
       "bytes": 28628,
       "sha256": "12c5b945a9f8d08fa4cf9fa4e276d706d64919c20aea928d2882fd058e94c74c",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/verified-goal-chart.png",
       "bytes": 22222,
       "sha256": "3d9ce2bc8b905884e96290d74a8131f1f36ea02223c8637bd3aa8627865b435e",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/verified-team-explorer.png",
       "bytes": 24755,
       "sha256": "14a03e00a4c684f4683de6428497fa7d24d83f05f9db59681de40632b7a6a912",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v31/verified-user-team-chart.png",
       "bytes": 27363,
       "sha256": "34029a9f56d432839a530817a301ece550816a5ca58e765a4cafc83a05d2e7c6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/CHANGELOG.md",
       "bytes": 8940,
       "sha256": "71a327ba77610520f79d07a31e9d106177b89587d62a4979e048baf1bdcd5204",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/README.ko.md",
       "bytes": 14796,
       "sha256": "d47168fa1c32b9ef8912ae5978ea81d1c41bf071092d42087ee03cdf43e4b8a6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/README.md",
       "bytes": 14276,
       "sha256": "79aa81aae064270d72df9f79b664efe17e60249744d2bdeac1b3f7abe9143e0a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/VERSION",
       "bytes": 7,
       "sha256": "f6ee69bf1c4b27a242266ccb5aeb4aa8c8306345b9ebe4ff7335b8c940452b81",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/english-package-verification.json",
       "bytes": 270,
       "sha256": "ff667bbe9dd301f83216b2cf79f56aeec9756d5d0cccd3df146138481f5622b6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/index.en.html",
       "bytes": 8728758,
       "sha256": "548135f156fcae652132bb9dff7d2d48cb913a96433dc1de9715ef0f86603556",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/index.html",
       "bytes": 8730880,
       "sha256": "608f545d705852612d80640fa2b2e5157bd45d32796958ecf594e5c179ee4062",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/CHANGELOG.md",
       "bytes": 8536,
       "sha256": "cf5f2deb46de8a8a89dfef20b8c0124afb39ed33e904838db138314de483976b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/README.ko.md",
       "bytes": 14327,
       "sha256": "c37f7aeea5a20eed2ce2ed14ddc77542c1e8ffef1fb0841c36ae663edce4cc37",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/README.md",
       "bytes": 13802,
       "sha256": "29e8e3d98fffaa07dc89b7032fd8c99bf43dd8c13478f047da280aee67ca1852",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/VERSION",
       "bytes": 7,
       "sha256": "8a932413d42f95082f8323447652379a4885e328329efca3a67ec9c793c09940",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/check_release.py",
       "bytes": 5426,
       "sha256": "e7172dfa6179b13a0bdf272c997519b31837029352a6a470c16ecec34254b874",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/index.en.html",
       "bytes": 8728758,
       "sha256": "548135f156fcae652132bb9dff7d2d48cb913a96433dc1de9715ef0f86603556",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/index.html",
       "bytes": 8730880,
       "sha256": "608f545d705852612d80640fa2b2e5157bd45d32796958ecf594e5c179ee4062",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/publication_manifest.json",
       "bytes": 135058,
       "sha256": "6e96e3bdd37d1ba6b18d9e34d36f77b3bec4b5d75efac242589c75bbcad389ab",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/repository-README.ko.md",
       "bytes": 7409,
       "sha256": "1cd7c94b9bf69fb67b115dfca250a9b4e167de48f1b416609258c6bb8ba46498",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v32/previous-0.12.0/repository-README.md",
       "bytes": 7689,
       "sha256": "dd55307dd12ffc171927da2eaad460e156b0dda019b726a25a5f15bd68e46ca7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/CHANGELOG.md",
       "bytes": 9182,
       "sha256": "3235ab0502bcc70b2ad63e8de97cfc200b44bb96e84d496abc59c846f07adfc9",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/README.ko.md",
       "bytes": 15202,
       "sha256": "e7247db9d083c199cd6e131007de451f3216de15c5f82c0f1a64a852a6542de7",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/README.md",
       "bytes": 14668,
       "sha256": "c60a938c52f65265ca13a4e42d31003cae803e8d5b71e3d72149ed99f054a02b",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/VERSION",
       "bytes": 7,
       "sha256": "f482d06e4ee83158e42999dcf951d5909861dad7e03317deb2b1e2ddd5c46274",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/index.en.html",
       "bytes": 8728756,
       "sha256": "70b21e8fa6ba38ebeb9467ee3cac6f015583584ade60b24169cccb1637452955",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/index.html",
       "bytes": 8730929,
       "sha256": "212bc31e3130a436f75525c1d1e5375974d8312488fa1cd71cfa62df50d40989",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/.gitignore",
       "bytes": 70,
       "sha256": "cd2e7eb9aae877450b0983b4dae2edb5f591e9fa8624a833fd87701b53593464",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/CHANGELOG.md",
       "bytes": 8940,
       "sha256": "71a327ba77610520f79d07a31e9d106177b89587d62a4979e048baf1bdcd5204",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/README.ko.md",
       "bytes": 14796,
       "sha256": "d47168fa1c32b9ef8912ae5978ea81d1c41bf071092d42087ee03cdf43e4b8a6",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/README.md",
       "bytes": 14276,
       "sha256": "79aa81aae064270d72df9f79b664efe17e60249744d2bdeac1b3f7abe9143e0a",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/VERSION",
       "bytes": 7,
       "sha256": "f6ee69bf1c4b27a242266ccb5aeb4aa8c8306345b9ebe4ff7335b8c940452b81",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/index.en.html",
       "bytes": 8728758,
       "sha256": "548135f156fcae652132bb9dff7d2d48cb913a96433dc1de9715ef0f86603556",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/index.html",
       "bytes": 8730880,
       "sha256": "608f545d705852612d80640fa2b2e5157bd45d32796958ecf594e5c179ee4062",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/publication_manifest.json",
       "bytes": 159170,
       "sha256": "cc7568adaf0a3224a7bf946e805582bbf92d202184b8ff92c6bd989a517304dc",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/repository-README.ko.md",
       "bytes": 7393,
       "sha256": "bb00d70fc778d5abc3c144e824c8bad7e71eb0e9fd5f5b800d3a54fd5f267961",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/repository-README.md",
       "bytes": 7757,
       "sha256": "f54bab35bd48002d9cfcfc27f5872ea52dfbab0b5b4c093bd5e160c7c9a8d485",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/server/browser-bridge.js",
       "bytes": 2306,
       "sha256": "6f234060ab80f8afc600f55228410a5be5f3a8a293b429d15798f5bcd2257aa3",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/server/check-result.json",
       "bytes": 139,
       "sha256": "156852244c720c6c914f4ab5924103fd1ef32e6f0fa68d5957c92f062a212747",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/server/check.cjs",
       "bytes": 6538,
       "sha256": "d55ac280ad7a33fb5a87459c8947547c7ee918a1dcfcfc440cc3404944fb83da",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/server/gemini.cjs",
       "bytes": 8061,
       "sha256": "4b677ce733897961983145d1f54568284a19303d4c7d65b51ecc2ef5b323def4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/previous-0.12.1/tools/check_release.py",
       "bytes": 5426,
       "sha256": "d3e1487d5617e3f708301cbab3d42be41290543a2a0f6516c0ec074c4c0721d4",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
     },
     {
       "path": "visualization-design-2026-10-07-v33/verification.json",
       "bytes": 318,
       "sha256": "4904a3d57074cbb7216a0b9e6703ca0924fa5a6b6d184c6e3459dcb81295d37d",
-      "snapshot": "0.12.2"
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/CHANGELOG.md",
+      "bytes": 9377,
+      "sha256": "87fa24eab4f7a292db56e719e80ac4252666856f51c4295ceb71d9b584ce5767",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/README.ko.md",
+      "bytes": 15448,
+      "sha256": "ea0cef4f83170cbe58ae02dcdb4ffd2e0db4dfad3fed7684f400d6e30fa9977b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/README.md",
+      "bytes": 14903,
+      "sha256": "9a2a51c1afb215ad6335b4789bbd277236d489734c522cc53acd6e225d443635",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/VERSION",
+      "bytes": 7,
+      "sha256": "d84c9e596c7d6a94e5f74579ef8d8912a807b0d28582474900ad35dfb3edfcf4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/.gitignore",
+      "bytes": 149,
+      "sha256": "764c9e80eb898af8155bfcb854342d73117e2c90493c1235d01b250ebd9d4b7b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/CHANGELOG.md",
+      "bytes": 9182,
+      "sha256": "3235ab0502bcc70b2ad63e8de97cfc200b44bb96e84d496abc59c846f07adfc9",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/README.ko.md",
+      "bytes": 15202,
+      "sha256": "e7247db9d083c199cd6e131007de451f3216de15c5f82c0f1a64a852a6542de7",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/README.md",
+      "bytes": 14668,
+      "sha256": "c60a938c52f65265ca13a4e42d31003cae803e8d5b71e3d72149ed99f054a02b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/VERSION",
+      "bytes": 7,
+      "sha256": "f482d06e4ee83158e42999dcf951d5909861dad7e03317deb2b1e2ddd5c46274",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/index.en.html",
+      "bytes": 8728756,
+      "sha256": "70b21e8fa6ba38ebeb9467ee3cac6f015583584ade60b24169cccb1637452955",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/index.html",
+      "bytes": 8730929,
+      "sha256": "212bc31e3130a436f75525c1d1e5375974d8312488fa1cd71cfa62df50d40989",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/publication_manifest.json",
+      "bytes": 164307,
+      "sha256": "301a5baaf2439aaa92dcd6f302e7d31d9cb3dfa409bb53787ee18d0b1a8a8d6b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/repository-README.ko.md",
+      "bytes": 7392,
+      "sha256": "f2bdd1f0070316a55657bff2cc369c42c73d99874d407ba0f5a81ef80cac7100",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/repository-README.md",
+      "bytes": 7754,
+      "sha256": "645cdde4772cb296525ed84e93cd1aa1fa77ae9f818bee19d94e34d55a3e9b5f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/server/check.cjs",
+      "bytes": 7513,
+      "sha256": "7b4f28886992b22988759a727ea5e7d834d44f73b8b271992f5c6b7922248812",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/server/gemini.cjs",
+      "bytes": 8236,
+      "sha256": "658497828df6e0d00c2fb96fc824489803b331f0177fd32e4f0d134bf8046518",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/previous-0.12.2/tools/check_release.py",
+      "bytes": 5426,
+      "sha256": "810b76d91b55700c0c50e8d506466f23d2451f246ca24828f2de00e909fc4230",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v34/verification.json",
+      "bytes": 483,
+      "sha256": "26fe7d056bd664c3ec2cdad2909d3b646619502ec96945e0f79b78240c2ba3ce",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/CHANGELOG.md",
+      "bytes": 9674,
+      "sha256": "30749e9008e605e11ce2babc5fb0a3027e3287b8494395deb3da0687bb01f71e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/README.ko.md",
+      "bytes": 16293,
+      "sha256": "7aa7eb942b77a5fccc524d4375d30f5a3c5f60a513728a8e1185cc6784bbb0ad",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/README.md",
+      "bytes": 15702,
+      "sha256": "62102da5c6f27ad9889317ff2b273de45ea32d6b10f6918bb948186ee61a2c90",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/VERSION",
+      "bytes": 7,
+      "sha256": "065582655aacd6fc83ff742a5715c04bb4a57395bf3ee4559798fa42c2ce4589",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/f1-index.html",
+      "bytes": 11988118,
+      "sha256": "3aed413ba4c3f255fbe58a3c4988a1dea8146e809b4b30744d638813b82b44c6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/.gitignore",
+      "bytes": 199,
+      "sha256": "74bab60bf775910d097ad6765cb53fd42bc94aa4d58723333bf863944757b0d1",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/CHANGELOG.md",
+      "bytes": 9377,
+      "sha256": "87fa24eab4f7a292db56e719e80ac4252666856f51c4295ceb71d9b584ce5767",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/README.ko.md",
+      "bytes": 15448,
+      "sha256": "ea0cef4f83170cbe58ae02dcdb4ffd2e0db4dfad3fed7684f400d6e30fa9977b",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/README.md",
+      "bytes": 14903,
+      "sha256": "9a2a51c1afb215ad6335b4789bbd277236d489734c522cc53acd6e225d443635",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/VERSION",
+      "bytes": 7,
+      "sha256": "d84c9e596c7d6a94e5f74579ef8d8912a807b0d28582474900ad35dfb3edfcf4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/f1/index.html",
+      "bytes": 11848065,
+      "sha256": "461516a5a0ecf8662b9d2316794d7d7cc391d8132a7fe63e329a168f701b09a1",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/publication_manifest.json",
+      "bytes": 168496,
+      "sha256": "4000de70115fdd190907987d56c385b3b2c798df13db4f968617662635021592",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/repository-README.ko.md",
+      "bytes": 7452,
+      "sha256": "0e8ff9c35c89f5ac46334a037dbd223ed90c57291eb35911a641c2f38208a75e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/repository-README.md",
+      "bytes": 7811,
+      "sha256": "68b78963ac034225ce9ce71cdb67e7ceed599db55e634288ac1b170c01d5c638",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/server/gemini.cjs",
+      "bytes": 8399,
+      "sha256": "83c1f42be7fed1e587df280b91485f63c3f4d8de20fd1a8ff6707c1546fec469",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v35/previous-0.13.0/tools/check_release.py",
+      "bytes": 5426,
+      "sha256": "617314cd1430141564cd7c89e9b50ac2c08560cc80da7ca833c79b189081c265",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/CHANGELOG.md",
+      "bytes": 9943,
+      "sha256": "ab6af15af2fa5121da92134c55e47d7a3a1041de97fbf04c315aada5ccdba6e6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/README.ko.md",
+      "bytes": 16711,
+      "sha256": "b8cdad68af267bec43710255405405c7c45784559d17ba6c68258efeaac00f86",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/README.md",
+      "bytes": 16061,
+      "sha256": "65c772c2d5c862688825d09ff2b4eea76fd8a0cebf79507fb9e895b17c1b598f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/VERSION",
+      "bytes": 7,
+      "sha256": "f8405a7330c287028d470c3ee3506f878f1ad85ed79c1d1adc19df2ff7398915",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/f1-index.html",
+      "bytes": 13381060,
+      "sha256": "3c8bcb86ca54fa41df2709a9d50183b39e6c06ee05de3c0e00d8cd273bc47e1a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/CHANGELOG.md",
+      "bytes": 9674,
+      "sha256": "30749e9008e605e11ce2babc5fb0a3027e3287b8494395deb3da0687bb01f71e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/README.ko.md",
+      "bytes": 16293,
+      "sha256": "7aa7eb942b77a5fccc524d4375d30f5a3c5f60a513728a8e1185cc6784bbb0ad",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/README.md",
+      "bytes": 15702,
+      "sha256": "62102da5c6f27ad9889317ff2b273de45ea32d6b10f6918bb948186ee61a2c90",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/VERSION",
+      "bytes": 7,
+      "sha256": "065582655aacd6fc83ff742a5715c04bb4a57395bf3ee4559798fa42c2ce4589",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/f1/index.html",
+      "bytes": 11988118,
+      "sha256": "3aed413ba4c3f255fbe58a3c4988a1dea8146e809b4b30744d638813b82b44c6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/publication_manifest.json",
+      "bytes": 179084,
+      "sha256": "430744917c6094e19ca7727ac132abdde4425774340971b6ef20a2881dedf9a8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/repository-README.ko.md",
+      "bytes": 7509,
+      "sha256": "f3e146af5598e198f12d91572ae8b3348eac9d008d70c8e1655521f785ab53a1",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/repository-README.md",
+      "bytes": 7879,
+      "sha256": "b02f9a4d5372562abaab9cd08ec105285d06ed5f6f861555cf68f57a17a824c8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v36/previous-0.14.0/tools/check_release.py",
+      "bytes": 5426,
+      "sha256": "d211cefe035433e10d2662ad3c62c8c39236687a623ea41f1005f7aa52e8aba5",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/CHANGELOG.md",
+      "bytes": 10200,
+      "sha256": "036c53070b6eac93a0d62c98f3949b3a01b34a0717eac555851cd3c2257e5429",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/README.ko.md",
+      "bytes": 17187,
+      "sha256": "f3e3a6d3f92802bf2b2fde99ac914a11f29c5118a99c6ea0cc71f460a501e07a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/README.md",
+      "bytes": 16641,
+      "sha256": "f0a2dbe58d8b7f97db900a4516357f32b68cfe7b773ccc5bc08f4eb00ac52a6a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/VERSION",
+      "bytes": 7,
+      "sha256": "aa037454b5e8320521a32b278a3f4aff05fc79009ab5503f5d4a1b9a33b38c47",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/f1-index.html",
+      "bytes": 18101273,
+      "sha256": "b12b32383e1774c15a537450602dc6b6689b1a1c8713f50d63c8fbd3f354daf4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/CHANGELOG.md",
+      "bytes": 9943,
+      "sha256": "ab6af15af2fa5121da92134c55e47d7a3a1041de97fbf04c315aada5ccdba6e6",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/README.ko.md",
+      "bytes": 16711,
+      "sha256": "b8cdad68af267bec43710255405405c7c45784559d17ba6c68258efeaac00f86",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/README.md",
+      "bytes": 16061,
+      "sha256": "65c772c2d5c862688825d09ff2b4eea76fd8a0cebf79507fb9e895b17c1b598f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/VERSION",
+      "bytes": 7,
+      "sha256": "f8405a7330c287028d470c3ee3506f878f1ad85ed79c1d1adc19df2ff7398915",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/f1/index.html",
+      "bytes": 13381060,
+      "sha256": "3c8bcb86ca54fa41df2709a9d50183b39e6c06ee05de3c0e00d8cd273bc47e1a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/publication_manifest.json",
+      "bytes": 189825,
+      "sha256": "dafcff6e26d819d195c62499e5988b5dde1666707feef6d2f01391adcfd95805",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/repository-README.ko.md",
+      "bytes": 7576,
+      "sha256": "051c2b7565061b8ea04926ca59603776a54cdf70aa9a34a63c880f3da14d4121",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/repository-README.md",
+      "bytes": 7936,
+      "sha256": "1abe512abaed94cdfcdfcfce7258c6ba5e81b8782c09cb795bed4cc5a1c13859",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v37/previous-0.15.0/tools/check_release.py",
+      "bytes": 5426,
+      "sha256": "416ed3045873f1f5c6f71d403d9b8bcc81b9ed529e63f021671ef5c223c1ebee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/CHANGELOG.md",
+      "bytes": 10421,
+      "sha256": "434981074d1fe64b56101732269ea7662a75cd523d8bf4ed6c14e3f1900817f4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/README.ko.md",
+      "bytes": 17571,
+      "sha256": "705f61e63ad1bc7f5921c5131b8d57cf7d94c3bb5828d6abb6d9ad12a498122c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/README.md",
+      "bytes": 17045,
+      "sha256": "145d5561b9c6a7201839b4ece0e97d1fbb3292fc0a0a6f3d06cec2e6f1951966",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/VERSION",
+      "bytes": 7,
+      "sha256": "02d38e98e88f4a8dc2ea40dbb769338601066fc94920b52882a14f21ad97f7ee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/f1-index.html",
+      "bytes": 18108624,
+      "sha256": "f82071f6059e64f84f5c262732a218f5cdda807fb5b8884ffccbe12b574eec1d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/CHANGELOG.md",
+      "bytes": 10200,
+      "sha256": "036c53070b6eac93a0d62c98f3949b3a01b34a0717eac555851cd3c2257e5429",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/README.ko.md",
+      "bytes": 17187,
+      "sha256": "f3e3a6d3f92802bf2b2fde99ac914a11f29c5118a99c6ea0cc71f460a501e07a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/README.md",
+      "bytes": 16641,
+      "sha256": "f0a2dbe58d8b7f97db900a4516357f32b68cfe7b773ccc5bc08f4eb00ac52a6a",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/VERSION",
+      "bytes": 7,
+      "sha256": "aa037454b5e8320521a32b278a3f4aff05fc79009ab5503f5d4a1b9a33b38c47",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/f1/index.html",
+      "bytes": 18101273,
+      "sha256": "b12b32383e1774c15a537450602dc6b6689b1a1c8713f50d63c8fbd3f354daf4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/publication_manifest.json",
+      "bytes": 201303,
+      "sha256": "c1e5f36a665d07e921e39b16e15ed58734456b26073486079264fbddae4b7a7e",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/repository-README.ko.md",
+      "bytes": 7621,
+      "sha256": "06625f06bcbd0121b4ce98bef709727086374755bf1830ab0a8145098b9e4a24",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/repository-README.md",
+      "bytes": 7985,
+      "sha256": "2c434e64a2dc51cc3988295ad8c12c573c6c0ab7c7540fab87b6d0a310d33d1d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v38/previous-0.16.0/tools/check_release.py",
+      "bytes": 5426,
+      "sha256": "7f0e8b3dfb82573f14b546ac7bf7758137cc081bb1be2eb817abcde92115650f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/CHANGELOG.md",
+      "bytes": 10654,
+      "sha256": "a77ca2e7c2e0539cbf2e9eb3407d2e69f38e21598279500303c8f7673e1eb2d0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/README.ko.md",
+      "bytes": 17930,
+      "sha256": "e07a0de56f8910cd6aac3856fbadd1b4c4b55256379a6d1b0028b1d4330e2384",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/README.md",
+      "bytes": 17411,
+      "sha256": "7a7ee8a9729b0a750654bb01cca8a384faf0e265e103af6139c07a8b5aa36fec",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/VERSION",
+      "bytes": 7,
+      "sha256": "cd81ec19767ffb807bada6d48578a18d77a29adb394e09e9cdfcd5ea9eebb6a2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/f1-index.html",
+      "bytes": 18109473,
+      "sha256": "976479bad11a6464e080e529c168aeff799b3ebaca26c06009b2bcefed0c257f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/CHANGELOG.md",
+      "bytes": 10421,
+      "sha256": "434981074d1fe64b56101732269ea7662a75cd523d8bf4ed6c14e3f1900817f4",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/README.ko.md",
+      "bytes": 17571,
+      "sha256": "705f61e63ad1bc7f5921c5131b8d57cf7d94c3bb5828d6abb6d9ad12a498122c",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/README.md",
+      "bytes": 17045,
+      "sha256": "145d5561b9c6a7201839b4ece0e97d1fbb3292fc0a0a6f3d06cec2e6f1951966",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/VERSION",
+      "bytes": 7,
+      "sha256": "02d38e98e88f4a8dc2ea40dbb769338601066fc94920b52882a14f21ad97f7ee",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/check_release.py",
+      "bytes": 5426,
+      "sha256": "ca0932f630e4e350ed406d66a703799ea970b52c3e43b5d3c2182beb991a6bbd",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/f1-index.html",
+      "bytes": 18108624,
+      "sha256": "f82071f6059e64f84f5c262732a218f5cdda807fb5b8884ffccbe12b574eec1d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/publication_manifest.json",
+      "bytes": 211546,
+      "sha256": "d4b893431db54250120cb9d23ec46d65ea893d4e6f20ba7839f02729510fc235",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/repository-README.ko.md",
+      "bytes": 7676,
+      "sha256": "e3ec7ba7e222b9862b8d54f57ca62e3ca3aaad3ff64592e059c4acfe0ddaa2ef",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v39/previous-0.17.0/repository-README.md",
+      "bytes": 8032,
+      "sha256": "a629cad41ac2eb1617688d65292681eb2f6b1af61a12a30d1e7911cd04703a86",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/CHANGELOG.md",
+      "bytes": 10931,
+      "sha256": "c6dfc93479d2a2ffc1d1e518411fd371fced46ce3932dc2e600515fa7b77b5e0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/README.ko.md",
+      "bytes": 18321,
+      "sha256": "77ae3638ae0519c90007326353eadfd0d94da9a8fa8b595da13cf500193617b3",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/README.md",
+      "bytes": 17821,
+      "sha256": "a110382f4aad2404cec4583c0fc534c88177f9c9a6f5d21c1fc7e884ec1b9969",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/VERSION",
+      "bytes": 7,
+      "sha256": "b9b88c3ba0e9b6e35ef2a4d02bc27a2c0206f1a1fcb8b8749abe90df8f9d0f0d",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/f1-index.html",
+      "bytes": 18110138,
+      "sha256": "d04c9eeb832dd64110484b11e6aa8b31762831cf2f2be838826789c8375f14b8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/CHANGELOG.md",
+      "bytes": 10654,
+      "sha256": "a77ca2e7c2e0539cbf2e9eb3407d2e69f38e21598279500303c8f7673e1eb2d0",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/README.ko.md",
+      "bytes": 17930,
+      "sha256": "e07a0de56f8910cd6aac3856fbadd1b4c4b55256379a6d1b0028b1d4330e2384",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/README.md",
+      "bytes": 17411,
+      "sha256": "7a7ee8a9729b0a750654bb01cca8a384faf0e265e103af6139c07a8b5aa36fec",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/VERSION",
+      "bytes": 7,
+      "sha256": "cd81ec19767ffb807bada6d48578a18d77a29adb394e09e9cdfcd5ea9eebb6a2",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/check_release.py",
+      "bytes": 5427,
+      "sha256": "0dd51ec98e73cc26077fc71e45bb71c515e339acfab952b90b7ffcdaf0ffb036",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/f1-index.html",
+      "bytes": 18109473,
+      "sha256": "976479bad11a6464e080e529c168aeff799b3ebaca26c06009b2bcefed0c257f",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/index.en.html",
+      "bytes": 8729288,
+      "sha256": "bebe9a4ec66490524e601ccee405bdf9a9f4918b6478b16a26b9e770ab3417ae",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/index.html",
+      "bytes": 8731448,
+      "sha256": "cc19e7ab5ffbca78ba737a81e066ecb4d6c044f859b24521c33e370d8469c024",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/publication_manifest.json",
+      "bytes": 221270,
+      "sha256": "c65dd9b5523b6c991762d1c3f0cc5471f9ff3b83a9bd072f54c7cde96b8251c8",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/repository-README.ko.md",
+      "bytes": 7893,
+      "sha256": "50c8455afa64cb12710860a626d526c8231f27d1f248b92e3a005d029cf29d17",
+      "snapshot": "0.17.2"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v40/previous-0.17.1/repository-README.md",
+      "bytes": 8205,
+      "sha256": "f75689a4df4287dee51c6101b0120e25fd61584020e3c6af1f513c344f19d238",
+      "snapshot": "0.17.2"
     }
   ],
   "display_dataset": {

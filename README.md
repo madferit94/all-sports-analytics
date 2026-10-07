@@ -1,3 +1,19 @@
+## 0.17.2 / F1 0.5.2 — Slower circuit playback
+
+Completed races now use recorded real-time playback at 1×, replacing the previous entire-race-in-60-seconds compression. Shared speed offers 0.25×, 0.5×, 1×, 2×, 4×, 10×, 30×, 60×. Upcoming forecasts use a labeled 180-second illustration. Earlier speed descriptions below are release history. Previous versions preserved; user verification pending.
+
+## MatchLab 0.17.1 — F1 shared speed
+
+Both circuit maps share playback speed and cursor. Predicted motion uses recorded lap scale. Local update; prior 0.17.0 preserved.
+
+# MatchLab0.17.0 · Driver progress inspector
+
+# MatchLab0.16.0 · Interactive F1 circuit maps
+
+# MatchLab 0.15.0 · F1 prediction versus recorded race
+
+# MatchLab 0.14.0 · F1 recorded replay and experimental forecasts
+
 # 🏟️ All Sports Analytics & Simulation Hub
 
 [English](README.md) | [한국어](README.ko.md)
@@ -6,11 +22,11 @@
 
 MatchLab: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchLab football agent project · 0.12.2
+## MatchLab football agent project · 0.13.0
 
 Korean/English 8-bit viewer for PL and LaLiga: selected all-team logistic predictions, learned score distributions, moving 22-player simulations, fixture previews and 57 selectable team metrics. Input records are a fixed 2026-09-20 snapshot; retrospective evaluation does not establish future performance.
 
-[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.2.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
+[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.13.0.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
 
 Preserved viewer versions v20–v33 and independent chart evidence are included. English packages mirror the current five-agent team, legacy ten roles and 18 skills. Tools/contracts are shared with the Korean packages; no separate Claude runtime or hosted service is claimed.
 
@@ -146,3 +162,7 @@ Sports Data Analyst & System Architect
 
 Email: wowzc@naver.com
 GitHub: https://github.com/madferit94
+
+[F1 viewer](football/matchdesk-ai-agents/f1/index.html)
+
+

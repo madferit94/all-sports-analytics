@@ -15,7 +15,7 @@ for f in files:
     blob=(repo/f).read_bytes()
     assert not any(rx.search(blob) for rx in patterns), f'Credential-like content in {f}'
     assert (repo/f).stat().st_size<95*1024*1024, f'Oversize file: {f}'
-link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.12.2.md']
+link_docs=[repo/'README.md',repo/'README.ko.md',p/'README.md',p/'README.ko.md',p/'docs/SPEC-0.17.2.md']
 links=0
 for doc in link_docs:
     for target in re.findall(r'\]\(([^)]+)\)',doc.read_text(encoding='utf8')):
@@ -27,10 +27,10 @@ def payload(version):
     html=(p/f'visualization-design-2026-10-06-{version}/index.html').read_text(encoding='utf8')
     return json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',html,re.S)[1])
 assert all(payload(f'v{n}')==payload('v12') for n in range(13,24)), 'Design preview changed source data'
-assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-07-v33/index.html').read_bytes(), 'Default entry differs from adopted v33'
+assert (p/'index.html').read_bytes()==(p/'visualization-design-2026-10-07-v40/index.html').read_bytes(), 'Default entry differs from adopted v38'
 
 en_html=(p/'index.en.html').read_text(encoding='utf8')
-assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-07-v33/index.en.html').read_bytes()
+assert (p/'index.en.html').read_bytes()==(p/'visualization-design-2026-10-07-v40/index.en.html').read_bytes()
 english=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',en_html,re.S)[1])
 korean=payload('v23')
 for key in korean:
@@ -62,12 +62,14 @@ for f in files:
     if Path(relative).suffix in text_ext or Path(relative).name in {'.gitignore','.gitattributes','VERSION'}:
         b=b.replace(b'\r\n',b'\n')
     digest=hashlib.sha256(b).hexdigest()
-    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.12.2'
+    snapshot=labels[relative] if old_hashes.get(relative)==digest else '0.17.2'
     entries.append(dict(path=relative,bytes=len(b),sha256=digest,snapshot=snapshot))
-manifest=dict(version='0.12.2',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),published_model_evidence=['prematch-v2 features, model weights, metrics and future probabilities','prior-rank ablation and independent review'],excluded=['full provider caches','complete source modeling CSV','ignored baseline generated runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
+manifest=dict(version='0.17.2',public_export=True,files=entries,display_dataset=dict(completed=2399,scheduled=641,team_match_rows=4798,season_snapshots=160,metrics=47),csv_demo=dict(completed=20,scheduled=2),published_model_evidence=['prematch-v2 features, model weights, metrics and future probabilities','prior-rank ablation and independent review'],excluded=['full provider caches','complete source modeling CSV','ignored baseline generated runs','local administrator source report','credentials','workshop materials','root personal work journal'],text_hash_encoding='UTF-8 with LF line endings, matching published blob contents')
 if '--write-manifest' in sys.argv:
     (p/'publication_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 else:
     actual=json.loads((p/'publication_manifest.json').read_text(encoding='utf8'))
     assert actual==manifest,'Manifest differs from current release files'
 print(f'PASS release audit: {len(entries)} hashed files, {links} local documentation links; design payloads identical; no private/admin files or credential-pattern matches.')
+
+

@@ -1,0 +1,41 @@
+{
+  "completed_maps": 16,
+  "future_reference_maps": 7,
+  "original_responses": 46,
+  "observed_driver_GP_pairs": 32,
+  "original_location_rows": 662656,
+  "sparse_location_samples": 152730,
+  "self_checks_passed": 384,
+  "large_gap_pairs": [
+    {
+      "session_key": 11299,
+      "driver_number": 63,
+      "max_original_gap_ms": 3011436
+    },
+    {
+      "session_key": 11299,
+      "driver_number": 1,
+      "max_original_gap_ms": 3011436
+    },
+    {
+      "session_key": 11342,
+      "driver_number": 63,
+      "max_original_gap_ms": 27700
+    },
+    {
+      "session_key": 11342,
+      "driver_number": 3,
+      "max_original_gap_ms": 27700
+    },
+    {
+      "session_key": 11353,
+      "driver_number": 63,
+      "max_original_gap_ms": 26040
+    },
+    {
+      "session_key": 11353,
+      "driver_number": 1,
+      "max_original_gap_ms": 26040
+    }
+  ]
+}

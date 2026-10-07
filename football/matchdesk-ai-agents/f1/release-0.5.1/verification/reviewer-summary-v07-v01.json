@@ -1,0 +1,46 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "scope": "v07 shared playback speed and predicted illustration lap scale only",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checks": 417,
+  "all_executed_checks_pass": true,
+  "evidence": [
+    {
+      "file": "preservation-independent-v01.json",
+      "sha256": "5e485f5212544576d8b9f905e92667d69704e1e6e13e4006fc9a6b71b851590c"
+    },
+    {
+      "file": "speed-independent-v01.json",
+      "sha256": "d53ab6b84c2acd9e9ddab2795d81466997dd41231bd9978bb890024ad3efd564"
+    },
+    {
+      "file": "ui-independent-v07-v01.json",
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/comparison.js": "a461b4bf4019b575bc4cffc6c34d3e35c7b666d6c6985bf457aefceb0f776715",
+    "replay/map-comparison.js": "14882f44bcfe98674545e09a49bd7833872812082e4fe928c1d5a961fe60d741",
+    "index.html": "655348b04628eb3da0f891e4bf340a039fa90d1b720423ddbd91bd563020e857"
+  },
+  "browser_evidence": {
+    "producer_id": "/root",
+    "file": "browser-observations-v01.json",
+    "sha256": "3d2dd8e332d573c39d0e826c1bffc05335a39ec6b5243a0cef811b4142a588de",
+    "reviewer_directly_operated_browser": false
+  },
+  "limitations": [
+    "Controlled RAF rate ratios, not browser stopwatch measurements",
+    "1x is compressed replay reference, not certified realtime1sec/recorded1sec",
+    "Both panes share cursor/speed but individual physical car velocity differs",
+    "Predicted finishing order is illustrative; no lap pace forecast",
+    "Existing model/data not re-trained/re-certified",
+    "Participant confirmation pending"
+  ]
+}

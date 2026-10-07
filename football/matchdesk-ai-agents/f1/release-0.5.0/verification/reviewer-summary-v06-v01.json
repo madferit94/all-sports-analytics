@@ -1,0 +1,52 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "agent_id": "reviewer",
+  "run_id": "f1-v06-independent-2026-10-07-v01",
+  "scope": "v06 dynamic driver dashboard and all-car display policy only",
+  "status": "INTERNAL_READY_WITH_LIMITATIONS",
+  "checks": 6902,
+  "all_executed_checks_pass": true,
+  "evidence": [
+    {
+      "file": "preservation-independent-v01.json",
+      "sha256": "11c9713a1a994d7d598dfd48dca580d580958982b16122942ab757bba1c5b63a"
+    },
+    {
+      "file": "history-independent-v01.json",
+      "sha256": "4f78750c71555c23c49e9fc66394ff8fbe67a8c76bb583fb54f2d25350b364ef"
+    },
+    {
+      "file": "dashboard-mount-independent-v01.json",
+      "sha256": "f36581b56207ce5b62db6d8a6f3d2975f3fdbae54510d830ba6160aa59df3d6e"
+    },
+    {
+      "file": "ui-independent-v06-v02.json",
+      "sha256": "951b42853010ed201d97ebf2e8a1489849f5c97fb3f7b81e5729f9d46eeed639"
+    }
+  ],
+  "artifact_sha256": {
+    "data/season-2026.json": "8b02c4fa2f832af967c121dad7d81ea0439eae15e667ff0abb612248084fe108",
+    "map-data/maps.json": "5328a2264433e3a6fb4085fc582a3f13d2ca7587a4de601b854c3cc0498ddd97",
+    "modeling/historical-predictions.json": "ced90e6824cf5d5568064f6558e544dac3bc11a9a65dd690b03744d9dcbac514",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "replay/map-comparison.js": "04189e5ea4344a62a982d6b4f1a5f94e4fbbb991dec197eed4c3ef8447ddaa46",
+    "index.html": "044c98a0c608dca82bc484793baa360a683aab24f5bbd68c453072ea49b17167"
+  },
+  "limitations": [
+    "Independent VM snapshots and DOM/canvas instrumentation, not real-browser layout",
+    "Static final-result comparison table intentionally separate from current-cursor progress",
+    "Pit count records entry; total lane duration displayed only after entry plus duration",
+    "Recorded GPS remains2of22 perGP and other20 lap reconstruction unchanged",
+    "Prediction is illustrative final-order model, not predicted telemetry",
+    "Future recorded progress unavailable; no fabricated actual metrics",
+    "User confirmation pending"
+  ],
+  "root_browser_evidence": {
+    "producer_id": "/root",
+    "file": "browser-observations-v01.json",
+    "sha256": "7b4098cb2e4f74fd661285f451a8b074155c34797a6b00595f3c6db3768d490b",
+    "independent_reviewer_directly_operated_browser": false,
+    "participant_confirmation": "pending"
+  },
+  "latest_followup": "Failed pit coverage empty array null case independently PASS; SVG-axis font change caused source vs embedded mismatch in v01, final assemble recheck v02 PASS; root browser observations read separately."
+}

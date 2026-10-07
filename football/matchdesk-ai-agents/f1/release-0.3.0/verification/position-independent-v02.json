@@ -1,0 +1,1455 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "scope": "v04 actual position records",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "position manifest16",
+      "expected": 16,
+      "actual": 16,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 record source rows",
+      "expected": 531,
+      "actual": 531,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 hash",
+      "expected": "d8528da58a576f589a3a2b105a716bcf9a3bff2ce67425dd25447fcc9f64fce2",
+      "actual": "d8528da58a576f589a3a2b105a716bcf9a3bff2ce67425dd25447fcc9f64fce2",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 preserved anomalous rank count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11234 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 record source rows",
+      "expected": 524,
+      "actual": 524,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 hash",
+      "expected": "6e11b3766e8da3065944c35216b597db75f683a6eedaa953ef41851665b47239",
+      "actual": "6e11b3766e8da3065944c35216b597db75f683a6eedaa953ef41851665b47239",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11245 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 record source rows",
+      "expected": 445,
+      "actual": 445,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 hash",
+      "expected": "4debb0321c8ba19e7be26733416bbbe34047634deadd1e3e81a6293947b1371e",
+      "actual": "4debb0321c8ba19e7be26733416bbbe34047634deadd1e3e81a6293947b1371e",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11253 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 record source rows",
+      "expected": 550,
+      "actual": 550,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 hash",
+      "expected": "b43e08acb61e74706554a81fb6c75403f7fed50b26d334150f041468f3e2901d",
+      "actual": "b43e08acb61e74706554a81fb6c75403f7fed50b26d334150f041468f3e2901d",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11280 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 record source rows",
+      "expected": 470,
+      "actual": 470,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 hash",
+      "expected": "6960552e6cc88a864e33b7b8c5f678d35661025bd63bfb7d2c8aaf25f3e9f06f",
+      "actual": "6960552e6cc88a864e33b7b8c5f678d35661025bd63bfb7d2c8aaf25f3e9f06f",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11291 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 record source rows",
+      "expected": 291,
+      "actual": 291,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 hash",
+      "expected": "7e9df0ea23fee5e588278911173d49a14960efcc635ac36a0387ec46270555af",
+      "actual": "7e9df0ea23fee5e588278911173d49a14960efcc635ac36a0387ec46270555af",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 preserved anomalous rank count",
+      "expected": 2,
+      "actual": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11299 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 record source rows",
+      "expected": 613,
+      "actual": 613,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 hash",
+      "expected": "16f18cb93f0429ca07eeb05ef5d28cd94731fe96c4e21ca2edc91b52fc1edd19",
+      "actual": "16f18cb93f0429ca07eeb05ef5d28cd94731fe96c4e21ca2edc91b52fc1edd19",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 preserved anomalous rank count",
+      "expected": 1,
+      "actual": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11307 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 record source rows",
+      "expected": 499,
+      "actual": 499,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 hash",
+      "expected": "d12f50435c675f42814c3cc40aecd17373c61e999a54dc748f8daa1c0c1900a1",
+      "actual": "d12f50435c675f42814c3cc40aecd17373c61e999a54dc748f8daa1c0c1900a1",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11315 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 record source rows",
+      "expected": 467,
+      "actual": 467,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 hash",
+      "expected": "6ae3808f76ba303575b43f78857d450421c06b532908c7182a0a5e0c1f63e1e7",
+      "actual": "6ae3808f76ba303575b43f78857d450421c06b532908c7182a0a5e0c1f63e1e7",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11326 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 record source rows",
+      "expected": 443,
+      "actual": 443,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 hash",
+      "expected": "048d6c06721a341503673eb311bd14f4d36a5bb8ebc5054a7dbe91d543adf414",
+      "actual": "048d6c06721a341503673eb311bd14f4d36a5bb8ebc5054a7dbe91d543adf414",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11334 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 record source rows",
+      "expected": 536,
+      "actual": 536,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 hash",
+      "expected": "dbccb527abfa476444bc3b1b979d48290e338fc55ff11e5c103b2b3a1f10692d",
+      "actual": "dbccb527abfa476444bc3b1b979d48290e338fc55ff11e5c103b2b3a1f10692d",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11342 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 record source rows",
+      "expected": 608,
+      "actual": 608,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 hash",
+      "expected": "066c877965c628c8436094396fd74e55156b6113ba778cb444e1d9a85de4f2d7",
+      "actual": "066c877965c628c8436094396fd74e55156b6113ba778cb444e1d9a85de4f2d7",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11353 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 record source rows",
+      "expected": 678,
+      "actual": 678,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 hash",
+      "expected": "893dc1a4c86b3f6e93caf60252b90ef1d3add8f8a12e32fa2e3b522d06e88e9e",
+      "actual": "893dc1a4c86b3f6e93caf60252b90ef1d3add8f8a12e32fa2e3b522d06e88e9e",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11361 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 record source rows",
+      "expected": 254,
+      "actual": 254,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 hash",
+      "expected": "3f2b29c2c231a00524eba65a05e47be90102b72f17f5fc9d4b057ffc98d0c306",
+      "actual": "3f2b29c2c231a00524eba65a05e47be90102b72f17f5fc9d4b057ffc98d0c306",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11369 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 record source rows",
+      "expected": 311,
+      "actual": 311,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 hash",
+      "expected": "68ea1bf89b6e3914ca2d1b1a386e85ba7efbd849d617b65da714896e2d2613cd",
+      "actual": "68ea1bf89b6e3914ca2d1b1a386e85ba7efbd849d617b65da714896e2d2613cd",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11377 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 record source rows",
+      "expected": 880,
+      "actual": 880,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 hash",
+      "expected": "45368ba95d77690bd207840f7c25c84afc3e5fae631d1fd43267a08b1913c1a9",
+      "actual": "45368ba95d77690bd207840f7c25c84afc3e5fae631d1fd43267a08b1913c1a9",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 session and driver",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 preserved anomalous rank count",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 duplicate driver time",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "11731 actual final result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11234 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11245 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11253 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11280 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11291 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11299 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11307 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11315 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11326 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11334 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11342 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11353 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11361 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11369 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11377 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior drivers preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior session_result preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior starting_grid preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior laps preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior stints preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior pit preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior race_control preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    },
+    {
+      "name": "11731 prior weather preserved",
+      "expected": "original rows",
+      "actual": "same",
+      "status": "PASS"
+    }
+  ],
+  "observations": [
+    {
+      "session_key": 11234,
+      "rows": 531,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11245,
+      "rows": 524,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11253,
+      "rows": 445,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11280,
+      "rows": 550,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11291,
+      "rows": 470,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11299,
+      "rows": 291,
+      "before_session_start": 22,
+      "after_session_end": 72
+    },
+    {
+      "session_key": 11307,
+      "rows": 613,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11315,
+      "rows": 499,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11326,
+      "rows": 467,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11334,
+      "rows": 443,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11342,
+      "rows": 536,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11353,
+      "rows": 608,
+      "before_session_start": 22,
+      "after_session_end": 11
+    },
+    {
+      "session_key": 11361,
+      "rows": 678,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11369,
+      "rows": 254,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11377,
+      "rows": 311,
+      "before_session_start": 22,
+      "after_session_end": 0
+    },
+    {
+      "session_key": 11731,
+      "rows": 880,
+      "before_session_start": 22,
+      "after_session_end": 443
+    }
+  ]
+}

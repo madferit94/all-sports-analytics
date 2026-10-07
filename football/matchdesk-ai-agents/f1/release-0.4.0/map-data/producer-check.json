@@ -1,0 +1,1730 @@
+{
+  "producer_id": "root/f1_model",
+  "independent_review": false,
+  "passed": 384,
+  "failed": 0,
+  "coverage": [
+    {
+      "session_key": 11234,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 323,
+      "observed_drivers": 2,
+      "sparse_samples": 8542
+    },
+    {
+      "session_key": 11245,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 374,
+      "observed_drivers": 2,
+      "sparse_samples": 9940
+    },
+    {
+      "session_key": 11253,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 358,
+      "observed_drivers": 2,
+      "sparse_samples": 9410
+    },
+    {
+      "session_key": 11280,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 529,
+      "observed_drivers": 2,
+      "sparse_samples": 9926
+    },
+    {
+      "session_key": 11291,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 277,
+      "observed_drivers": 2,
+      "sparse_samples": 9390
+    },
+    {
+      "session_key": 11299,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 250,
+      "observed_drivers": 2,
+      "sparse_samples": 732
+    },
+    {
+      "session_key": 11307,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 323,
+      "observed_drivers": 2,
+      "sparse_samples": 9860
+    },
+    {
+      "session_key": 11315,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 282,
+      "observed_drivers": 2,
+      "sparse_samples": 9250
+    },
+    {
+      "session_key": 11326,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 366,
+      "observed_drivers": 2,
+      "sparse_samples": 9186
+    },
+    {
+      "session_key": 11334,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 422,
+      "observed_drivers": 2,
+      "sparse_samples": 9100
+    },
+    {
+      "session_key": 11342,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 333,
+      "observed_drivers": 2,
+      "sparse_samples": 10528
+    },
+    {
+      "session_key": 11353,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 292,
+      "observed_drivers": 2,
+      "sparse_samples": 13228
+    },
+    {
+      "session_key": 11361,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 319,
+      "observed_drivers": 2,
+      "sparse_samples": 11824
+    },
+    {
+      "session_key": 11369,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 375,
+      "observed_drivers": 2,
+      "sparse_samples": 10104
+    },
+    {
+      "session_key": 11377,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 416,
+      "observed_drivers": 2,
+      "sparse_samples": 10396
+    },
+    {
+      "session_key": 11731,
+      "state": "completed",
+      "status": "OBSERVED_LOCATION",
+      "reference_points": 542,
+      "observed_drivers": 2,
+      "sparse_samples": 11314
+    },
+    {
+      "session_key": 11388,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 365,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11396,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 382,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11404,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 321,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11412,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 280,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11420,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 378,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11428,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 526,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    },
+    {
+      "session_key": 11436,
+      "state": "scheduled",
+      "status": "HISTORICAL_REFERENCE",
+      "reference_points": 345,
+      "observed_drivers": 0,
+      "sparse_samples": 0
+    }
+  ],
+  "tests": [
+    {
+      "name": "Original gzip hash raw/11234-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11234-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11234-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11234-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11245-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11245-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11245-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11245-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11253-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11253-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11253-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11253-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11280-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11280-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11280-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11280-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11291-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11291-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11291-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11291-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11299-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11299-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11299-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11299-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11307-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11307-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11307-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11307-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11315-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11315-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11315-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11315-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11326-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11326-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11326-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11326-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11334-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11334-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11334-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11334-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11342-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11342-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11342-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11342-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11353-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11353-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11353-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11353-1-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11361-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11361-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11361-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11361-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11369-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11369-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11369-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11369-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11377-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11377-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11377-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11377-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11731-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11731-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/11731-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/11731-3-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9896-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9896-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9896-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9896-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9888-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9888-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9888-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9888-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9877-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9877-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9877-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9877-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9869-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9869-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9869-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9869-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9858-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9858-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9858-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9858-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9850-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9850-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9850-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9850-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9839-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9839-63-laps.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original gzip hash raw/9839-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "Original row count raw/9839-63-location.json.gz",
+      "passed": true
+    },
+    {
+      "name": "All completed and scheduled GP maps present",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11234",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11234",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11234",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11234",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11234 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11234 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11245",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11245",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11245",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11245",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11245 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11245 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11253",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11253",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11253",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11253",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11253 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11253 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11280",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11280",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11280",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11280",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11280 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11280 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11291",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11291",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11291",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11291",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11291 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11291 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11299",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11299",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11299",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11299",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11299 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11299 1",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11307",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11307",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11307",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11307",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11307 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11307 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11315",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11315",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11315",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11315",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11315 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11315 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11326",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11326",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11326",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11326",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11326 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11326 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11334",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11334",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11334",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11334",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11334 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11334 1",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11342",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11342",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11342",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11342",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11342 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11342 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11353",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11353",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11353",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11353",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11353 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11353 1",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11361",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11361",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11361",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11361",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11361 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11361 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11369",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11369",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11369",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11369",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11369 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11369 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11377",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11377",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11377",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11377",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11377 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11377 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11731",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11731",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11731",
+      "passed": true
+    },
+    {
+      "name": "Reference excludes pit-in/out 11731",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11731 63",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples are original telemetry 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Sparse samples strictly time-sorted 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Session and driver original joins 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Sample time bounds 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Original gap edges preserved 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Original first and last preserved 11731 3",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11388",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11388",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11388",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11388",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11388",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11396",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11396",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11396",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11396",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11396",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11404",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11404",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11404",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11404",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11404",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11412",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11412",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11412",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11412",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11412",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11420",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11420",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11420",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11420",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11420",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11428",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11428",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11428",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11428",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11428",
+      "passed": true
+    },
+    {
+      "name": "Actual target circuit identity 11436",
+      "passed": true
+    },
+    {
+      "name": "Reference actual raw coordinates 11436",
+      "passed": true
+    },
+    {
+      "name": "No artificial reference closure 11436",
+      "passed": true
+    },
+    {
+      "name": "No upcoming observed drivers 11436",
+      "passed": true
+    },
+    {
+      "name": "Earlier-year reference explicitly labelled 11436",
+      "passed": true
+    }
+  ]
+}

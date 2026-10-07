@@ -1,0 +1,116 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/f1_director",
+  "run_id": "matchlab-f1-2026-10-07-v03",
+  "match_key": "season:2026",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+  "version": "0.2.0",
+  "checked_at": "2026-10-07",
+  "summary": "최신 독립618검사와 현행8파일 해시 일치. root 브라우저 관측v03와 종료 screenshotv04를 독립 결재자가 읽고 직접 열어 확인하여 이전 캡처 불일치를 해소. 한계를 명시한 내부 확인 준비 판정 유지.",
+  "independence": {
+    "reviewer_producer_id": "/root/f1_verifier",
+    "model_producer_id": "/root/f1_model",
+    "replay_producer_id": "/root/f1_replay",
+    "approver_modified_product_code": false,
+    "ui_producer_id": "/root",
+    "approver_producer_id": "/root/f1_director"
+  },
+  "reports": {
+    "approval": {
+      "decision": "INTERNAL_READY_WITH_LIMITATIONS",
+      "publication_authorized": false,
+      "whole_project_pass": false
+    },
+    "visualization": {
+      "decision": "INTERNAL_READY_PENDING_USER_CONFIRMATION",
+      "root_browser_check": "Root actual browser JSONv03 reports End reaches exact max4885.787 at viewport498x544. Approver independently viewed PNGv04 and confirmed FINISH,81:25/81:25 종료, slider at end,RUS rank1 L57 HARD 완주. Image review is not independent browser operation or participant confirmation.",
+      "reviewer_virtual_dom_checks": 137
+    },
+    "data": {
+      "decision": "INTERNAL_READY",
+      "scheduled": 7,
+      "cancelled": 2,
+      "completed": 16
+    },
+    "prediction": {
+      "recent_win_baseline_log_loss": 2.9699472884626945,
+      "holdout_races": 6,
+      "serving_races": 35,
+      "decision": "EXPERIMENTAL_ONLY",
+      "uniform_log_loss": 3.0910424533583156,
+      "log_loss": 3.119464529091759,
+      "train_races": 29
+    },
+    "replay": {
+      "location_http404_races": 16,
+      "decision": "SCHEMATIC_RECONSTRUCTION_ONLY"
+    }
+  },
+  "evidence": [
+    {
+      "description": "618 automated checks reported passing; all8 inspected artifact hashes and all5 report hashes independently rechecked equal",
+      "path": "verification/reviewer-summary-2026-10-07-v01.json"
+    },
+    {
+      "description": "Independent reviewer scope, corrections, unresolved checks",
+      "path": "verification/REVIEW-final-2026-10-07-v01.ko.md"
+    },
+    {
+      "description": "Historical experimental model producer report",
+      "path": "modeling/producer-report.json"
+    },
+    {
+      "description": "Last-six time holdout; worse log loss than both baselines",
+      "path": "modeling/modelmetrics.json"
+    },
+    {
+      "description": "All16 location404; lap-time reconstruction; producer timeline checks",
+      "path": "replay/README.md"
+    },
+    {
+      "description": "Experimental model limitation present in both language UI source",
+      "path": "index.html"
+    },
+    {
+      "path": "verification/browser-observations-2026-10-07-v02.json",
+      "description": "UI producer root actual browser report; separate from independent automatic checks and participant confirmation"
+    },
+    {
+      "path": "verification/browser-replay-2026-10-07-v02.png",
+      "description": "Approver viewed screenshot:0:00/81:25 and initial slider. Does not substantiate End report."
+    },
+    {
+      "path": "verification/browser-observations-2026-10-07-v03.json",
+      "description": "Latest root browser observations, viewport498x544 and correct screenshotv04 reference"
+    },
+    {
+      "path": "verification/browser-replay-2026-10-07-v04.png",
+      "description": "Approver independently opened actual screenshot and observed FINISH,81:25/81:25 종료,end slider,RUS1 L57 HARD 완주; prior image mismatch resolved"
+    }
+  ],
+  "issues": [
+    "확률 보정 미검증; 검증 6개 GP만으로 성능 보장 불가",
+    "예정 경기 명단은 최근 완료 경기 기반 projected roster이며 공식 확정 아님",
+    "실제 GPS 없음: 도식과 기록 시간 보간이며 실제 추월 영상 아님",
+    "예상 순위 MAE와 독립 재학습은 reviewer 미재현",
+    "역사 참가자 명단의 당시 공개 시점은 미검증",
+    "참가자 확인 전; 브라우저 제작자 관찰과 독립 가상 DOM 검사를 구분",
+    "producer와 reviewer 실행 ID는 각각 산출/검토 실행이며 시즌 경로로 연결; reviewer에 match_key 없음; integrated_gate 미실행으로 공식 게이트 통과 주장 없음"
+  ],
+  "user_confirmation": "PENDING",
+  "git_transmission": "NOT_PERFORMED",
+  "supersedes": "verification/director-decision-2026-10-07-v02.json",
+  "reviewed_artifact_sha256": {
+    "data/season-2026.json": "31d4b796db29faf74ab3f014453139e491c61dd9dcbbdac125f2dd8775fb887a",
+    "modeling/train.py": "49cf958ed8c24503ad9a0a5ba507bc0d677ace0a06c9a725c463d4184730223f",
+    "modeling/predictions.json": "62cc3958d2eba533efd32194bdec657ca1fafb5cb020e1a20d2d1ab5f63e2b16",
+    "modeling/modelmetrics.json": "89993c92ba76c170ed32611919d73dbc2432bd16c2749b75d6501f60312a09b3",
+    "modeling/feature-audit.json": "b60c5c71e63a79a15ab1425425afa928e47787caf579637ee3497258bf200be9",
+    "replay/replay.js": "2aaa6fca3e48e80210ad5167278006ecedf352cd405ee773429da5753e32826e",
+    "replay/track-shapes.json": "427452f9cfaf729e82234737d66cd1098916c56e5b92d745203ea3dc2496cd5f",
+    "index.html": "23a02c7dcf7b6e54abb9d6d11ce990f51f99e00347585e8c7a305debb000d62d"
+  },
+  "resolved_issue": "Earlier v02 PNG was stale and v03 header-only; original evidence preserved. Latest v04 image directly corroborates root reported finished state."
+}

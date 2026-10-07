@@ -1,0 +1,47 @@
+{
+  "run_id": "matchlab-f1-2026-10-07-v05",
+  "match_key": "season:2026:all-active-GP",
+  "role": "data",
+  "agent_id": "research",
+  "producer_id": "root/f1_model",
+  "status": "DONE",
+  "summary": "16 completed GP circuit maps and two selected-driver partial observed traces; 7 scheduled GP labelled 2025 same-circuit references; 384 author checks",
+  "evidence": [
+    {
+      "path": "map-data/maps.json",
+      "description": "maps.json"
+    },
+    {
+      "path": "map-data/source-manifest.json",
+      "description": "source-manifest.json"
+    },
+    {
+      "path": "map-data/counts.json",
+      "description": "counts.json"
+    },
+    {
+      "path": "map-data/producer-check.json",
+      "description": "producer-check.json"
+    },
+    {
+      "path": "map-data/README.md",
+      "description": "README.md"
+    },
+    {
+      "path": "map-data/README.ko.md",
+      "description": "README.ko.md"
+    },
+    {
+      "path": "map-data/outline-refinement.json",
+      "description": "Recorded pit-in/out lap exclusions; two outlines changed without modifying driver samples"
+    }
+  ],
+  "issues": [
+    "Only two drivers have observed locations; others need labelled lap reconstruction",
+    "Monaco11299 selected drivers have 50.2-minute original gap; no observed movement interpolation through gaps",
+    "Upcoming maps are 2025 references, current layout equality unverified",
+    "Coordinates are relative OpenF1 x/y, not verified geographic GPS or metres",
+    "Predicted lane must not use target-race observed coordinates"
+  ],
+  "independent_review": false
+}
