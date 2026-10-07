@@ -1,0 +1,147 @@
+{
+  "agent_id": "analyst",
+  "producer_id": "/root/chart_analyst",
+  "run_id": "team-charts-2026-10-07-v31",
+  "match_key": "team-scope",
+  "reports": [
+    {
+      "run_id": "team-charts-2026-10-07-v31",
+      "match_key": "team-scope",
+      "role": "analysis",
+      "producer_id": "/root/chart_analyst",
+      "status": "DONE",
+      "summary": "저장된 경기·시즌 자료의 범위와 지표별 차트 유형을 읽기전용으로 검토했습니다. 화면 기능 설계 검토이며 독립 검증 또는 전체 웹 파이프라인 승인을 의미하지 않습니다.",
+      "evidence": [
+        {
+          "path": "index.html#data",
+          "description": "completed 2399경기, match_detail 4798개, snapshots 160개, metric_meta 47지표. 양팀 상세 누락0, null 상세·시즌 값0, PPDA 분모0인 상세0. understat:294 완료5경기와2026/27 snapshot만 있음."
+        },
+        {
+          "path": "agent-team-integrated-2026-10-06-v01/roles/analyst.md",
+          "description": "시즌 누적과 경기별 자료의 범위를 구분하고 원문·계산값에 해석을 연결하는 담당 지침."
+        }
+      ],
+      "issues": [
+        "SH-BLK 공격·수비 방향은 원본 설명상 추가 확인 중입니다.",
+        "2026/27은 진행 중인 시즌의 원본 누적으로 종료 시즌과 경기수가 다릅니다.",
+        "snapshot에 별도 경기수·수집시점 메타데이터가 없어 임의 경기당 변환 근거가 충분하지 않습니다."
+      ],
+      "tests": {
+        "completed": 2399,
+        "metric_meta": 47,
+        "null_detail_values": 0,
+        "match_detail": 4798,
+        "missing_detail_matches": 0,
+        "zero_ppda_denominators": 0,
+        "coventry_completed": 5,
+        "null_snapshot_values": 0,
+        "snapshots": 160,
+        "mode": "PowerShell JSON parsing and field inspection"
+      },
+      "chart_mapping": [
+        {
+          "metrics": [
+            "xG",
+            "xGA",
+            "npxg_for",
+            "npxg_against"
+          ],
+          "reason": "날짜별 연속적인 추정 득점의 흐름 비교",
+          "scope": "selected_matches",
+          "type": "two_lines"
+        },
+        {
+          "metrics": [
+            "goals_for",
+            "goals_against"
+          ],
+          "reason": "경기별 정수 득점과 실점 비교",
+          "scope": "selected_matches",
+          "type": "grouped_bars"
+        },
+        {
+          "metrics": [
+            "expected_points"
+          ],
+          "reason": "경기별 기대 승점 추이",
+          "scope": "selected_matches",
+          "type": "line"
+        },
+        {
+          "metrics": [
+            "deep",
+            "deep_allowed"
+          ],
+          "reason": "위험 지역 진입 횟수와 상대 횟수 비교",
+          "scope": "selected_matches",
+          "type": "grouped_bars"
+        },
+        {
+          "metrics": [
+            "ppda",
+            "ppda_allowed"
+          ],
+          "reason": "경기별 패스 허용 대비 수비 행동 비율 추이",
+          "scope": "selected_matches",
+          "type": "two_lines"
+        },
+        {
+          "metrics": [
+            "wins",
+            "draws",
+            "losses"
+          ],
+          "reason": "선택 경기 결과의 구성",
+          "scope": "selected_matches",
+          "type": "stacked_horizontal_bar"
+        },
+        {
+          "reason": "시즌별 비율 비교",
+          "metrics": [
+            "POSS%",
+            "PASS%"
+          ],
+          "axis": "0..100",
+          "scope": "season_snapshot",
+          "type": "horizontal_bars"
+        },
+        {
+          "metrics": [
+            "AER-W",
+            "AER-L",
+            "DUEL-W",
+            "DUEL-L"
+          ],
+          "reason": "동일 경합 종류의 승리·패배 구성",
+          "scope": "season_snapshot",
+          "type": "season_stacked_bars"
+        },
+        {
+          "metrics": "remaining_41_snapshot_metrics",
+          "reason": "원본 합계 또는 원본 경기당 값을 시즌별 비교",
+          "scope": "season_snapshot",
+          "type": "season_bars"
+        }
+      ],
+      "rules": [
+        "경기 차트는 selectedGames의 실제 목록과 날짜순을 사용하며 최근5/10 및장소·결과·기간 조건을 적용합니다.",
+        "47개 snapshot 지표에는 시즌 전체 자료·경기 필터 미적용을 표시합니다.",
+        "PPDA 개별경기=att/def, 선택경기 요약=SUM(att)/SUM(def). 단순 비율 평균을 합산 비율로 표시하지 않습니다. 낮을수록 압박이 강한 경향이라는 설명을 유지합니다.",
+        "결측은0으로 대체하지 않습니다. 선은 끊고 막대는 자료없음으로 표시합니다. 분모0인PPDA는null입니다.",
+        "294의 이전3시즌은 자료없음이며0이 아닙니다.",
+        "PASS/M은 이미 경기당 값입니다. 원본 합계를 임의 경기당 변환하지 않습니다.",
+        "현재 PASS/PASS-M 역산 경기수와 completed 경기수는 모든 비교 가능한 snapshot에서 일치했습니다. 이는 추후 자료의 일치 보장은 아닙니다."
+      ],
+      "not_executed": [
+        "새 데이터 수집",
+        "예측 실행",
+        "모델 학습",
+        "독립 검증",
+        "전체 웹 파이프라인 gate 검사",
+        "참가자 화면 확인"
+      ]
+    }
+  ],
+  "scope": "team_chart_feature_review",
+  "participant_confirmation": "참가자 확인 전"
+}

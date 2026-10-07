@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "n": 20000,
+  "outcomeFrequencies": [
+    0.6127,
+    0.21725,
+    0.17005
+  ],
+  "expected": [
+    0.6085747997883622,
+    0.22077050835147805,
+    0.1706546918601598
+  ],
+  "highFrequency": 0.3054,
+  "expectedHigh": 0.3040353282879848,
+  "zeroSamples": 1133,
+  "fourTwoSamples": 267,
+  "distinctScores": 54,
+  "highExamples": [
+    "4:1",
+    "4:2",
+    "4:1",
+    "4:2",
+    "3:2",
+    "4:2"
+  ],
+  "rejectedInvalidMass": true
+}

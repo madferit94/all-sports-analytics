@@ -1,0 +1,159 @@
+{
+  "name": "MatchDesk",
+  "roles": [
+    {
+      "id": "manager",
+      "label": "Team Manager",
+      "skill": "matchdesk-manager",
+      "role_file": "roles/manager.md",
+      "depends_on": [],
+      "outputs": [
+        "task-plan"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "data",
+      "label": "Data and Squad Specialist",
+      "skill": "matchdesk-data",
+      "role_file": "roles/data.md",
+      "depends_on": [
+        "manager"
+      ],
+      "outputs": [
+        "data-report",
+        "context-records"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "trends",
+      "label": "Recent Team Trends Specialist",
+      "skill": "matchdesk-trends",
+      "role_file": "roles/trends.md",
+      "depends_on": [
+        "manager"
+      ],
+      "outputs": [
+        "trends-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "prediction",
+      "label": "Prediction Specialist",
+      "skill": "matchdesk-prediction",
+      "role_file": "roles/prediction.md",
+      "depends_on": [
+        "data"
+      ],
+      "outputs": [
+        "prediction-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "analysis",
+      "label": "Match Analysis Specialist",
+      "skill": "matchdesk-analysis",
+      "role_file": "roles/analysis.md",
+      "depends_on": [
+        "data",
+        "trends"
+      ],
+      "outputs": [
+        "analysis-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "visualization",
+      "label": "Visualization and Web Specialist",
+      "skill": "matchdesk-visualization",
+      "role_file": "roles/visualization.md",
+      "depends_on": [
+        "prediction",
+        "analysis"
+      ],
+      "outputs": [
+        "visualization-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "model-evaluation",
+      "label": "Model Evaluation Specialist",
+      "skill": "matchdesk-model-evaluation",
+      "role_file": "roles/model-evaluation.md",
+      "depends_on": [
+        "prediction"
+      ],
+      "outputs": [
+        "evaluation-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "validation",
+      "label": "Validation Specialist",
+      "skill": "matchdesk-validation",
+      "role_file": "roles/validation.md",
+      "depends_on": [
+        "data",
+        "trends",
+        "prediction",
+        "analysis",
+        "visualization",
+        "model-evaluation"
+      ],
+      "outputs": [
+        "validation-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "operations",
+      "label": "Operations and Refresh Specialist",
+      "skill": "matchdesk-operations",
+      "role_file": "roles/operations.md",
+      "depends_on": [
+        "manager"
+      ],
+      "outputs": [
+        "operations-report"
+      ],
+      "provider": null,
+      "model": null
+    },
+    {
+      "id": "approval",
+      "label": "Final Approval Specialist",
+      "skill": "matchdesk-approval",
+      "role_file": "roles/approval.md",
+      "depends_on": [
+        "validation",
+        "model-evaluation",
+        "operations"
+      ],
+      "outputs": [
+        "approval-decision"
+      ],
+      "provider": null,
+      "model": null
+    }
+  ],
+  "execution_mode": "HOST_ASSISTANT_DELEGATION_OR_SEQUENTIAL",
+  "api_runner_implemented": false,
+  "final_business_approver": "HUMAN_USER",
+  "primary_data": "../../source-unified-2026-10-06-v01",
+  "parallelism": "HOST_CAPABILITY_DEPENDENT",
+  "native_cli_execution_verified": false
+}

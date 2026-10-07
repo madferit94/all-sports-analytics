@@ -1,0 +1,75 @@
+{
+  "chosen": {
+    "alpha": 10,
+    "validation": {
+      "team_observations": 1518,
+      "poisson_nll": 1.4481805213631869,
+      "mae": 0.9096140505546507,
+      "mean_predicted": 1.5731539336362153,
+      "mean_actual": 1.3893280632411067
+    }
+  },
+  "trials": [
+    {
+      "alpha": 0.1,
+      "validation": {
+        "team_observations": 1518,
+        "poisson_nll": 1.54907809237919,
+        "mae": 1.0793593846005307,
+        "mean_predicted": 1.9369121809645782,
+        "mean_actual": 1.3893280632411067
+      }
+    },
+    {
+      "alpha": 1,
+      "validation": {
+        "team_observations": 1518,
+        "poisson_nll": 1.4849011327459432,
+        "mae": 0.9811168942280897,
+        "mean_predicted": 1.7667295395249243,
+        "mean_actual": 1.3893280632411067
+      }
+    },
+    {
+      "alpha": 10,
+      "validation": {
+        "team_observations": 1518,
+        "poisson_nll": 1.4481805213631869,
+        "mae": 0.9096140505546507,
+        "mean_predicted": 1.5731539336362153,
+        "mean_actual": 1.3893280632411067
+      }
+    }
+  ],
+  "evaluation": {
+    "2025/26": {
+      "goal_model": {
+        "team_observations": 1516,
+        "poisson_nll": 1.4274378216541324,
+        "mae": 0.871483315376003,
+        "mean_predicted": 1.3882987171130532,
+        "mean_actual": 1.3614775725593669
+      },
+      "constant_baseline_team_nll": 1.4670438077088233,
+      "hybrid_exact_score_nll": 2.8519087224133455,
+      "predicted_four_plus_rate": 0.30534752629580647,
+      "observed_four_plus_rate": 0.2704485488126649
+    },
+    "2026/27": {
+      "goal_model": {
+        "team_observations": 238,
+        "poisson_nll": 1.5206292363091989,
+        "mae": 0.9932659241693892,
+        "mean_predicted": 1.4131978498847044,
+        "mean_actual": 1.4747899159663866
+      },
+      "constant_baseline_team_nll": 1.5999191879360597,
+      "hybrid_exact_score_nll": 3.031897436184201,
+      "predicted_four_plus_rate": 0.31623986672080645,
+      "observed_four_plus_rate": 0.3697478991596639
+    }
+  },
+  "training_matches": 1518,
+  "training_team_observations": 3036,
+  "status": "RETROSPECTIVE_EXPERIMENT"
+}

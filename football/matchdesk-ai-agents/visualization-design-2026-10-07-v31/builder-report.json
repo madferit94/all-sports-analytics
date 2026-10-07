@@ -1,0 +1,44 @@
+{
+  "agent_id": "builder",
+  "producer_id": "/root",
+  "run_id": "team-charts-2026-10-07-v31",
+  "match_key": "team-scope",
+  "status": "DONE",
+  "reports": {
+    "visualization-report": {
+      "status": "DONE",
+      "scope": "team chart UI only",
+      "checks": [
+        "KO/EN inline JS syntax",
+        "raw data and641prediction preservation",
+        "actual browser 294 xG→goals grouped bars and exact table",
+        "294 possession 38.90% with three missing seasons",
+        "294 aerial duels 101/90 stacked counts",
+        "clearance explanation→chart160 season total",
+        "English passing and team83 change",
+        "home filter two matches and PPDA fallback bars",
+        "keyboard Enter switches Duels",
+        "chart clientWidth/scrollWidth/svgWidth374 and no overflow",
+        "no browser console errors"
+      ],
+      "bugs_fixed": [
+        "Null scores incorrectly treated as draws",
+        "Added chart action increased popover height; re-position after append"
+      ],
+      "evidence": [
+        "verified-goal-chart.png",
+        "verified-team-explorer.png",
+        "verified-duels-en.png",
+        "chart-preservation-check.cjs",
+        "reviewer-report.json"
+      ]
+    }
+  },
+  "not_executed": [
+    "new source collection",
+    "model training",
+    "full web/prediction integrated gate",
+    "GitHub publication"
+  ],
+  "user_review": "pending"
+}

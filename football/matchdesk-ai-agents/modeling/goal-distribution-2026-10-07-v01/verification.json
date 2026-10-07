@@ -1,0 +1,86 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "strict_prior",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "poisson_convergence_0.1_759",
+      "passed": true,
+      "details": {
+        "iterations": 91,
+        "gradient": 6.722166992051935e-07
+      }
+    },
+    {
+      "name": "poisson_convergence_1_759",
+      "passed": true,
+      "details": {
+        "iterations": 32,
+        "gradient": 9.416711790125043e-07
+      }
+    },
+    {
+      "name": "poisson_convergence_10_759",
+      "passed": true,
+      "details": {
+        "iterations": 14,
+        "gradient": 3.3378977669015764e-07
+      }
+    },
+    {
+      "name": "poisson_convergence_10_1518",
+      "passed": true,
+      "details": {
+        "iterations": 14,
+        "gradient": 3.715732829062679e-07
+      }
+    },
+    {
+      "name": "same_historical_input",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reload_rates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "finite_rates_and_small_truncation_tail",
+      "passed": true,
+      "details": {
+        "max_raw_tail": 4.62448877259769e-05,
+        "largest_base_mean": 3.32876695615926
+      }
+    },
+    {
+      "name": "all_641_outcome_masses_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "positive_zero_and_high_scores",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "score_swap_symmetry",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_files_preserved",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "agent_id": "director",
+  "producer_id": "/root/chart_director",
+  "run_id": "team-charts-2026-10-07-v31",
+  "match_key": "team-scope",
+  "role": "approval",
+  "status": "DONE",
+  "decision": "INTERNAL_READY",
+  "scope": "team_chart_code_change_only",
+  "summary": "SPEC-0.12.0에 대한 분석·독립 검증 보고서와 builder의 실제 브라우저 실행 보고 및 사진을 읽고 이번 선택형 차트 코드의 내부 준비 상태를 승인했습니다. 전체 웹/예측 파이프라인 승인 또는 공개 배포 허가가 아닙니다.",
+  "evidence": [
+    {
+      "path": "docs/SPEC-0.12.0.md",
+      "description": "이번 변경 요구사항"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/analyst-report.json",
+      "description": "지표별 차트 선택, 자료 범위, 결측·시즌 합계 해석 근거"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/reviewer-report.json",
+      "description": "독립 주체 /root/chart_reviewer의 실제 Node 실행·가상 DOM 검사292 PASS/0 FAIL"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/builder-report.json",
+      "description": "builder /root의 실제 브라우저 항목 전환·표·필터·영문·Enter·374px 검사 보고"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/verified-goal-chart.png",
+      "description": "director가 직접 열어 읽은 builder 브라우저 사진; 해당 순간 화면 근거"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/verified-team-explorer.png",
+      "description": "director가 직접 열어 읽은 builder 브라우저 사진; 해당 순간 화면 근거"
+    },
+    {
+      "path": "visualization-design-2026-10-07-v31/verified-duels-en.png",
+      "description": "director가 직접 열어 읽은 builder 브라우저 사진; 해당 순간 화면 근거"
+    }
+  ],
+  "tests": {
+    "independent_reviewer": {
+      "PASS": 292,
+      "FAIL": 0,
+      "producer_id": "/root/chart_reviewer",
+      "execution_kind": "AI_NODE_EXECUTION_AND_SIMULATED_DOM"
+    },
+    "director_checks": [
+      "세 작성·검증·결재 주체의 producer_id 분리 확인",
+      "KO/EN 현재 파일 SHA256과 reviewer 입력 SHA256 일치",
+      "사진3개 열어 화면과 보고 내용 대조",
+      "차트 유형·표·범위 안내·결측·분모0·한영 요구와 최종 검사 항목 대조"
+    ],
+    "browser_execution_by": "/root",
+    "director_browser_execution": false
+  },
+  "reviewed_inputs": {
+    "index.html": "f030633f3daac00c9b33f898010d7ca542be98fad2ff9f09fe82e0d37b8dad67",
+    "index.en.html": "50705be819b58cd597bc66899c3cf19ee8f0105fb6cae226b424c758530d006d"
+  },
+  "requirements_review": [
+    "47개 시즌 지표와 최근 경기 지표: 독립 수치 대조 통과; 비율0~100, 경합 원본 승패 누적,4점미만막대 확인",
+    "경기 필터 적용과 시즌 전체 필터 미적용 안내,2026/27진행중 표시,294과거3시즌결측 유지 확인",
+    "PPDA분모0/null 및결측선끊김, 원본합계 임의경기당 변환금지 검사 통과",
+    "SH-BLK 방향 해석 보류 안내 검사 통과",
+    "한영 항목 전환·팀 변경·정확값표·홈2경기필터·Enter키보드·374px영역폭과넘침없음은 builder 실제 실행 근거 검토",
+    "기존 설명말풍선에서 차트보기: 추가후높이변화에따른재배치수정과실제160시즌막대이동 builder 근거 검토"
+  ],
+  "issues": [
+    {
+      "severity": "INFO",
+      "code": "PARTICIPANT_REVIEW_PENDING",
+      "description": "참가자 확인 전"
+    },
+    {
+      "severity": "INFO",
+      "code": "SH_BLK_DIRECTION_UNRESOLVED",
+      "description": "원본방향 추가확인중; 이번화면은 해석보류 안내 유지"
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_LIMITED_GATE_NOT_RUN",
+      "description": "full integrated web/prediction gate 실행 안 함. reviewer run_id=team-chart-independent-review-2026-10-07-v31 / match_key=team-charts-all-metrics로 별도 검사실행식별자를 사용하므로 기존계약의동일run/match번들통과로표현하지 않음. director는입력해시로이번코드와연결함."
+    }
+  ],
+  "not_executed": [
+    "director의 차트 코드 작성",
+    "director의 독립 기능 검사 또는 브라우저 동작 재실행",
+    "신규 수집·학습·모델 성능 평가",
+    "full integrated web/prediction gate",
+    "외부 공개·GitHub 전송",
+    "참가자 화면 확인"
+  ],
+  "human_release_authorized": false,
+  "display_probabilities_authorized_by_this_review": false,
+  "participant_confirmation": "참가자 확인 전"
+}

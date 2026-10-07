@@ -1,0 +1,90 @@
+{
+  "inputs": [
+    {
+      "name": "completed_matches.csv",
+      "sha256": "fe1cfb9edacc17a27f422dbe92377bd0f9745f4b6571fdc3aa0e9cb1030c8a62"
+    },
+    {
+      "name": "team_match_stats.csv",
+      "sha256": "5b55fde84a895959a2a421366820f2a773844895e1cb82a4fd0be7179d103750"
+    },
+    {
+      "name": "team_season_additional_stats.csv",
+      "sha256": "5c419f681aefc241af1f35517374c1b09006424073b99593440936b3daff2516"
+    },
+    {
+      "name": "train.py",
+      "sha256": "1081c881fe51179f98676769030419b0fad382e5dfac8e08a8329fb0dcc4d841"
+    },
+    {
+      "name": "model.json",
+      "sha256": "42bf3e3b76bf95636ad1b1a9abef82642b01690020b2508a9be9caf012e941a1"
+    },
+    {
+      "name": "evaluation-model.json",
+      "sha256": "8a7ed7039cef3de37166e4e00ee1eec38754f56f66c211f314ab246185b908b0"
+    },
+    {
+      "name": "metrics.json",
+      "sha256": "9ba330207db34705affe478dddf0f9dca67b0a13a43f0eb5a42761ea4bf0a4db"
+    }
+  ],
+  "excluded_season_snapshot_fields": [
+    "statmuse_A",
+    "statmuse_xA",
+    "statmuse_POSS%",
+    "statmuse_PK",
+    "statmuse_FK",
+    "statmuse_SH",
+    "statmuse_SOT",
+    "statmuse_TCH",
+    "statmuse_TCH-BOX",
+    "statmuse_OFF",
+    "statmuse_PASS",
+    "statmuse_PASS/M",
+    "statmuse_PASS%",
+    "statmuse_PASS-ATT",
+    "statmuse_BCC",
+    "statmuse_PASS-KEY",
+    "statmuse_PASS-LNG",
+    "statmuse_PASS-F3RD",
+    "statmuse_THRU-BALL",
+    "statmuse_CRS",
+    "statmuse_CNR",
+    "statmuse_TKL",
+    "statmuse_TKL-W",
+    "statmuse_TKL-LM",
+    "statmuse_SH-BLK",
+    "statmuse_BLK-CRS",
+    "statmuse_INT",
+    "statmuse_CLR",
+    "statmuse_REC",
+    "statmuse_ERR-SH",
+    "statmuse_ERR-G",
+    "statmuse_PKC",
+    "statmuse_OG",
+    "statmuse_SV",
+    "statmuse_SV-PK",
+    "statmuse_CS",
+    "statmuse_YC",
+    "statmuse_RC",
+    "statmuse_FOUL",
+    "statmuse_FOULED",
+    "statmuse_PK-W",
+    "statmuse_CNR-W",
+    "statmuse_AER-W",
+    "statmuse_AER-L",
+    "statmuse_DUEL-W",
+    "statmuse_DUEL-L",
+    "statmuse_POSS-L"
+  ],
+  "same_day_policy": "all-date-batch features before results",
+  "missing_feature_policy": "exclude unavailable match-level stats, never fabricate",
+  "evaluation_status": "Retrospective exploratory; previously inspected holdout periods",
+  "remaining": [
+    "source kickoff/correction history unverified",
+    "no prospective untouched outcome test",
+    "partial agreed metrics only"
+  ],
+  "numpy_version": "2.3.5"
+}

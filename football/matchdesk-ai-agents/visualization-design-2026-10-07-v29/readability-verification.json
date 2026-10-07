@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "unchanged": [
+    "data",
+    "predictions",
+    "all previous HTML except added CSS"
+  ],
+  "browser": {
+    "ko": {
+      "cards": 12,
+      "widths": [
+        200,
+        248
+      ],
+      "numberHeight": 35,
+      "overflow": false,
+      "popover": "opened and closed"
+    },
+    "en": {
+      "cards": 12,
+      "numberHeight": 35,
+      "overflow": false
+    }
+  },
+  "userReview": "pending"
+}

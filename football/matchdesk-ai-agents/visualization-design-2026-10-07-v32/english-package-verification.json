@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "english_files": 89,
+  "canonical_skills": 18,
+  "roles": 15,
+  "links": 23,
+  "preserved_originals": 43,
+  "native_claude_execution": "not tested",
+  "standard_validator": "PyYAML unavailable; frontmatter and mirrored copies checked directly"
+}

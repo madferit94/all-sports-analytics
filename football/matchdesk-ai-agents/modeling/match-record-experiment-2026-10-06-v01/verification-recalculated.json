@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "recalculated": [
+    {
+      "season": "2025/26",
+      "model": "existing_33",
+      "n": 760,
+      "accuracy": 0.5092105263157894,
+      "log_loss": 1.0110803984140062,
+      "brier": 0.6062614887771517
+    },
+    {
+      "season": "2025/26",
+      "model": "candidate_61",
+      "n": 760,
+      "accuracy": 0.5092105263157894,
+      "log_loss": 1.0000740393866059,
+      "brier": 0.5972899528779041
+    },
+    {
+      "season": "2026/27",
+      "model": "existing_33",
+      "n": 119,
+      "accuracy": 0.42857142857142855,
+      "log_loss": 1.0313131811399014,
+      "brier": 0.6178705819553908
+    },
+    {
+      "season": "2026/27",
+      "model": "candidate_61",
+      "n": 119,
+      "accuracy": 0.4789915966386555,
+      "log_loss": 1.0061477622481352,
+      "brier": 0.6010007902630176
+    }
+  ],
+  "subject": "AI local recalculation, not an independent agent review"
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "evidence": [
+    {
+      "goals": [],
+      "frames": 12001,
+      "maxBallStep": 0.03958942448264508,
+      "maxPlayerStep": 0.15587872715751927,
+      "minOutfieldTravel": 42.58313670020544,
+      "phases": [
+        "kickoff",
+        "pass",
+        "dribble",
+        "save"
+      ],
+      "goalFrames": 0
+    },
+    {
+      "goals": [
+        0
+      ],
+      "frames": 12001,
+      "maxBallStep": 0.20277777777806705,
+      "maxPlayerStep": 0.21380866984131444,
+      "minOutfieldTravel": 74.50618397677749,
+      "phases": [
+        "kickoff",
+        "pass",
+        "dribble",
+        "shot",
+        "save"
+      ],
+      "goalFrames": 336
+    },
+    {
+      "goals": [
+        1
+      ],
+      "frames": 12001,
+      "maxBallStep": 0.20277777777803863,
+      "maxPlayerStep": 0.20645844026958218,
+      "minOutfieldTravel": 76.20148380859237,
+      "phases": [
+        "kickoff",
+        "pass",
+        "dribble",
+        "shot",
+        "save"
+      ],
+      "goalFrames": 336
+    },
+    {
+      "goals": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "frames": 12001,
+      "maxBallStep": 0.506944444446134,
+      "maxPlayerStep": 0.44411389576706456,
+      "minOutfieldTravel": 69.20641198571224,
+      "phases": [
+        "kickoff",
+        "pass",
+        "dribble",
+        "shot",
+        "save"
+      ],
+      "goalFrames": 771
+    },
+    {
+      "goals": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "frames": 12001,
+      "maxBallStep": 1.31805555555826,
+      "maxPlayerStep": 1.1465743815619507,
+      "minOutfieldTravel": 81.00636627852478,
+      "phases": [
+        "kickoff",
+        "pass",
+        "dribble",
+        "shot",
+        "save"
+      ],
+      "goalFrames": 886
+    }
+  ],
+  "checks": [
+    "22 players",
+    "11 per team",
+    "continuous ground ball",
+    "continuous players",
+    "20 outfield players travel >25px",
+    "goal overlay",
+    "final scores",
+    "invalid inputs",
+    "KO/EN footer removed",
+    "model and data unchanged",
+    "inline syntax"
+  ]
+}
