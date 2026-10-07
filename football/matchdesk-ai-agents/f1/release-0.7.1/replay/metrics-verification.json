@@ -1,0 +1,7 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "checks": 15877,
+  "races": 16,
+  "scope": "Pure metrics, source preservation, help formulas, bubble geometry. Browser interaction and layout independent."
+}

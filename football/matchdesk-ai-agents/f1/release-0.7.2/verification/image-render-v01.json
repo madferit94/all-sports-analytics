@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 8,
+  "scope": "Actual official image load at 320/1280; blocked image shows same-circuit SVG; circuit mismatch guarded",
+  "participant_confirmation": "pending"
+}

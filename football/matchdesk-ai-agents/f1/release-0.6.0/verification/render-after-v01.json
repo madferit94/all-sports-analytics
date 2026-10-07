@@ -1,0 +1,145 @@
+{
+  "method": "Separate headless Edge, no user tab interaction",
+  "results": [
+    {
+      "width": 320,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "경기 결과",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "랩타임 비교",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "타이어 · 피트",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "tab": "경기 운영 공지",
+      "pageWidth": 320,
+      "viewport": 320,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "경기 결과",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "랩타임 비교",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "타이어 · 피트",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 375,
+      "tab": "경기 운영 공지",
+      "pageWidth": 375,
+      "viewport": 375,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "경기 결과",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "랩타임 비교",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "타이어 · 피트",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "tab": "경기 운영 공지",
+      "pageWidth": 768,
+      "viewport": 768,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "서킷 지도 비교",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "경기 결과",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "랩타임 비교",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "타이어 · 피트",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    },
+    {
+      "width": 1280,
+      "tab": "경기 운영 공지",
+      "pageWidth": 1280,
+      "viewport": 1280,
+      "overflow": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "assertions": 899,
+  "races": 16,
+  "multipliers": [
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    10,
+    30,
+    60
+  ],
+  "scope": "Node VM runtime true recorded seconds per wall second; future180s illustrative."
+}

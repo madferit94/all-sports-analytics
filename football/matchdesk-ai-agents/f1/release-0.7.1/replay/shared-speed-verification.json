@@ -1,0 +1,7 @@
+{
+  "producer_id": "f1_replay",
+  "status": "PASS",
+  "assertions": 7159,
+  "races": 16,
+  "scope": "Display lap scale only; shared existing tick/phase and predictive finish illustration unchanged. Independent reviewer covers runtime speed ratios."
+}

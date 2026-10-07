@@ -1,0 +1,199 @@
+{
+  "producer_id": "/root/f1_verifier",
+  "method": "Independent isolated Node VM fake-DOM interaction; not rendered browser verification",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "ko driver default",
+      "expected": "1",
+      "actual": "1",
+      "status": "PASS"
+    },
+    {
+      "name": "ko all default",
+      "expected": "all",
+      "actual": "all",
+      "status": "PASS"
+    },
+    {
+      "name": "ko 18 completed cards",
+      "expected": 18,
+      "actual": 18,
+      "status": "PASS"
+    },
+    {
+      "name": "ko pace filter8",
+      "expected": 8,
+      "actual": 8,
+      "status": "PASS"
+    },
+    {
+      "name": "ko first mean70",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko driver change mean100",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko pit filter4",
+      "expected": 4,
+      "actual": 4,
+      "status": "PASS"
+    },
+    {
+      "name": "ko help opened",
+      "expected": "true",
+      "actual": "true",
+      "status": "PASS"
+    },
+    {
+      "name": "ko formula text",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko nonmodal dialog",
+      "expected": "dialog",
+      "actual": "dialog",
+      "status": "PASS"
+    },
+    {
+      "name": "ko Escape closes",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "ko focus restored",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "ko close button",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "ko destroy closes popup",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "ko destroy listeners",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "ko future prediction only",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en driver default",
+      "expected": "1",
+      "actual": "1",
+      "status": "PASS"
+    },
+    {
+      "name": "en all default",
+      "expected": "all",
+      "actual": "all",
+      "status": "PASS"
+    },
+    {
+      "name": "en 18 completed cards",
+      "expected": 18,
+      "actual": 18,
+      "status": "PASS"
+    },
+    {
+      "name": "en pace filter8",
+      "expected": 8,
+      "actual": 8,
+      "status": "PASS"
+    },
+    {
+      "name": "en first mean70",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en driver change mean100",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en pit filter4",
+      "expected": 4,
+      "actual": 4,
+      "status": "PASS"
+    },
+    {
+      "name": "en help opened",
+      "expected": "true",
+      "actual": "true",
+      "status": "PASS"
+    },
+    {
+      "name": "en formula text",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en nonmodal dialog",
+      "expected": "dialog",
+      "actual": "dialog",
+      "status": "PASS"
+    },
+    {
+      "name": "en Escape closes",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en focus restored",
+      "expected": true,
+      "actual": true,
+      "status": "PASS"
+    },
+    {
+      "name": "en close button",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en destroy closes popup",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    },
+    {
+      "name": "en destroy listeners",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "en future prediction only",
+      "expected": false,
+      "actual": false,
+      "status": "PASS"
+    }
+  ]
+}
