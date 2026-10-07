@@ -1,7 +1,3 @@
-# MatchLab 0.12.2
-
-Site renamed to MatchLab in Korean and English. The AI planner retries one upstream HTTP 5xx failure, with a bounded 25-second timeout per attempt; authentication and quota failures are not retried. A live call reproduced provider_unavailable, while a fresh call with the configured key returned HTTP 200. Prior versions remain preserved. See [SPEC](docs/SPEC-0.12.2.md).
-
 **Release 0.12.1 · 2026-10-07:** Logistic match predictions, learned goal-score distributions, continuous 22-player replay, readable metric cards, expanded fixtures and 57 selectable team charts. English agent/skill packages are now available alongside the Korean originals. [English agent and skill guide](docs/AGENTS-AND-SKILLS.en.md) · [Release SPEC](docs/SPEC-0.12.1.md). Input records remain a fixed 2026-09-20 snapshot; future prediction performance is unverified.
 
 **0.12.0 · Metric visualization:** Select match trends or all47season metrics. Chart types follow data meaning: goals/Deep grouped bars, xG/PPDA lines, results/duels stacked counts, percentage bars on0–100. Missing seasons remain missing; chart tables expose values. Match filters and full-season scopes are explicit. Independent analyst/reviewer/director evidence in v31. [SPEC](docs/SPEC-0.12.0.md). Local update; not pushed.

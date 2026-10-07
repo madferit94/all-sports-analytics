@@ -1,0 +1,14 @@
+{
+  "version": "0.12.2",
+  "brand": "MatchLab",
+  "server_checks": 16,
+  "data_unchanged": true,
+  "live_analysis": {
+    "status": "ok",
+    "planner": "Gemini",
+    "datasetThrough": "2026-09-20"
+  },
+  "initial_error": "provider_unavailable",
+  "retry": "one HTTP5xx retry only",
+  "user_verification": "pending"
+}

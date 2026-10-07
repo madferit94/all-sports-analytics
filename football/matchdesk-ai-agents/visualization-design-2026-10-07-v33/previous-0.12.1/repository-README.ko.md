@@ -6,11 +6,11 @@
 
 MatchDesk: **Day13 작업** · [폴더 이동 기록](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
 
-## MatchLab AI 경기 분석실 · 0.12.2
+## MatchDesk AI 경기 분석실 · 0.12.1
 
 PL·라리가 한영8비트 화면: 전체팀 로지스틱 승부예측, 학습한 득점분포, 움직이는22명경기연출, 일정더보기·경기프리뷰,57지표선택차트. 입력은2026-09-20고정자료이며과거검증결과로미래성능을보장하지않습니다.
 
-[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.2.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
+[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.12.1.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
 
 v20~v32이전버전과독립차트검증근거를보존합니다. 현재5인팀·이전10역할및18개스킬의영어판을제공하며, 도구·계약은한글패키지와공유합니다. 별도Claude실행환경검증또는인터넷서비스호스팅을완료했다는뜻은아닙니다.
 
