@@ -1,190 +1,78 @@
-## MatchLab 0.19.2 / F1 0.7.2 — Barcelona circuit image repair
-
-Replaced the obsolete 404 image URL with the official 2026 circuit image. On failure, an aspect-preserving outline uses the recorded coordinates for the same session and circuit. Original data and models preserved.
-
-## MatchLab 0.19.1 / F1 0.7.1 — Conditional metric queries
-
-Query 30 metrics in Korean/English. Single-driver values use cards; multiple metrics have separate tables/charts. Selected-GP queries support lap ranges, pit-lap exclusions, numeric thresholds, top N and sort order, with visible applied conditions. Deterministic analysis without API calls.
-
-## MatchLab 0.19.0 / F1 0.7.0 — Natural-language charts
-
-Enter driver names and a metric for the selected GP to generate lap-time lines or comparison bars. Korean and English supported. A deterministic local parser calculates saved records without AI API calls. Unsupported events, dates and custom filters return guidance.
-
-
-## MatchLab 0.18.1 / F1 0.6.1
-
-Stationary pit-stop supplementation: 13 GP files, 276 missing values filled. Coverage-aware averages; existing source values and forecasts preserved.
-
-## MatchLab 0.18.0 — F1 driver metrics
-
-F1 now supports driver/category metrics and bilingual click explanations, with readable responsive cards. Previous releases preserved; local update, user verification pending.
-
-## 0.17.2 / F1 0.5.2 — Slower circuit playback
-
-Completed races now use recorded real-time playback at 1×, replacing the previous entire-race-in-60-seconds compression. Shared speed offers 0.25×, 0.5×, 1×, 2×, 4×, 10×, 30×, 60×. Upcoming forecasts use a labeled 180-second illustration. Earlier speed descriptions below are release history. Previous versions preserved; user verification pending.
-
-## MatchLab 0.17.1 — F1 shared speed
-
-Both circuit maps share playback speed and cursor. Predicted motion uses recorded lap scale. Local update; prior 0.17.0 preserved.
-
-# MatchLab0.17.0 · Driver progress inspector
-
-# MatchLab0.16.0 · Interactive F1 circuit maps
-
-# MatchLab 0.15.0 · F1 prediction versus recorded race
-
-# MatchLab 0.14.0 · F1 recorded replay and experimental forecasts
-
-# 🏟️ All Sports Analytics & Simulation Hub
+# 🏟️ All Sports Analytics
 
 [English](README.md) | [한국어](README.ko.md)
 
-[English MatchLab site](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
+**A collection of sports data analysis projects across football, F1 and the NFL.**
+Each project starts from a question, documents its data and method, and states its limitations.
 
-MatchLab: **Day13** · [workspace location](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
-
-## MatchLab football agent project · 0.13.0
-
-Korean/English 8-bit viewer for PL and LaLiga: selected all-team logistic predictions, learned score distributions, moving 22-player simulations, fixture previews and 57 selectable team metrics. Input records are a fixed 2026-09-20 snapshot; retrospective evaluation does not establish future performance.
-
-[Project / version history](football/matchdesk-ai-agents/README.md) · [Release SPEC](football/matchdesk-ai-agents/docs/SPEC-0.13.0.md) · [English agents and skills](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [Korean site](football/matchdesk-ai-agents/index.html) · [English site](football/matchdesk-ai-agents/index.en.html).
-
-Preserved viewer versions v20–v33 and independent chart evidence are included. English packages mirror the current five-agent team, legacy ten roles and 18 skills. Tools/contracts are shared with the Korean packages; no separate Claude runtime or hosted service is claimed.
-
-
-**A Unified Quantitative Analysis Repository for NFL, F1, Football, and Beyond.**
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-EB4034?style=for-the-badge)
-![SHAP](https://img.shields.io/badge/SHAP-Explainable_AI-ff00ff?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)
+> 🏎️⚽ **Looking for MatchLab?** The football & F1 web app built with AI agents now lives in its own repository: [madferit94/matchlab](https://github.com/madferit94/matchlab) ([live site](https://matchlab-zeta.vercel.app)).
 
 ---
 
-## 🎯 Vision & Purpose
+## 📂 Projects
 
-This repository is a centralized **portfolio of end-to-end sports data science systems**.
-Each project is designed as a full-cycle analytics pipeline, from data collection and feature engineering to predictive modeling and simulation.
-
-### **Core Philosophy**
-
-1. **Systematic Approach:** From ETL and data engineering to modeling and simulation.
-2. **Validation Goal:** Pre-game constraints and time-aware validation; known F1 leakage and target defects are documented in the project review.
-3. **Explainable AI:** Going beyond accuracy to understand model behavior with feature importance and explainability tools.
-4. **Business Value:** Turning model outputs into actionable insights such as win probabilities, ranking tables, and tournament simulations.
-
----
-
-## 🏆 Completed Projects
-
-### 🏈 **[NFL] Match Outcome Simulation System**
-A dynamic prediction engine for the NFL season, featuring clustering and Monte Carlo simulations.
-
-* **Goal:** Predict game winners and simulate Super Bowl probabilities based on momentum.
-* **Status:** ✅ Completed
-* **View Project:** [👉 Go to NFL Project](https://github.com/madferit94/all-sports-analytics/tree/main/nfl-epa-analysis)
-
-### 🏎️ **[F1] Race Context and Historical Prototypes**
-
-* **Baku 2026:** Russell–Verstappen timing gaps, Safety Car context, and track replay. [Bilingual scripts, executed notebooks, data, and outputs](f1/baku-2026).
-* **Current status:** Reproducible exploratory visuals; final temporal lap eligibility and public pace conclusions remain pending.
-* **Historical work:** [EDA dashboard](f1-modern-era-eda) remains a prototype requiring DNF and scope corrections. The pre-race prediction prototype has been moved to a separate private repository pending corrections and revalidation.
-* **Start here:** [F1 project index](f1) · [Existing-work review](f1/baku-2026/docs/existing_f1_review.md).
-
-### ⚽ **[World Cup 2026] Match Prediction and Tournament Simulation**
-A 2026 FIFA World Cup prediction workflow using historical international matches, FotMob match statistics, and Transfermarkt national team profiles.
-
-* **Goal:** Predict group-stage results, compare multiple ML models, simulate a simplified knockout bracket, and compare predicted champions by model.
-* **Status:** ✅ Completed baseline
-* **Kaggle Notebook:** https://www.kaggle.com/code/madferit/2026-fifa-world-cup-prediction
-* **Project Folder:** [`football/worldcup-2026-prediction`](football/worldcup-2026-prediction)
-* **Main Notebook:** [`football/worldcup-2026-prediction/2026Worldcup predict.ipynb`](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb)
-* **Dataset Package:** [`football/worldcup-2026-prediction/kaggle_dataset`](football/worldcup-2026-prediction/kaggle_dataset)
+| Sport | Project | Question | Status |
+|---|---|---|---|
+| ⚽ | [Beyond Goals — Big Five Striker Profiles](football/big-five-striker-profiles) | How do shot volume, chance quality and conversion differ across striker profiles? | ✅ Complete |
+| ⚽ | [K League 1 2026: World Cup Break](football/kleague-2026-world-cup-break) | How did attack, defense and passing change before and after the World Cup break? | ✅ R1–30 complete |
+| ⚽ | [World Cup 2026 Prediction](football/worldcup-2026-prediction) | Can historical results and team stats predict group-stage outcomes? | ✅ Baseline |
+| ⚽ | [World Cup 2026 Official Stats](football/worldcup-2026-official-stats-analysis) | How did teams create, progress and suppress shots? | ✅ Descriptive |
+| 🏎️ | [F1 Baku 2026](f1/baku-2026) | How did Russell–Verstappen gaps evolve around Safety Cars? | 🔄 Exploratory |
+| 🏎️ | [F1 Historical EDA](f1-modern-era-eda) | How do finishing, points and reliability vary historically? | 🛠️ Prototype, corrections needed |
+| 🏈 | [NFL Momentum & Simulation](nfl-epa-analysis) | Can rolling EPA capture how strong a team is *right now*? | ✅ Complete |
 
 ---
 
-### ⚽ Beyond Goals — Big Five Striker Profiles, 2025/26
+## ⚽ Football
 
-* **Question:** How do shot volume, chance quality and scoring conversion differ across striker profiles?
-* **Status:** Descriptive analysis, bilingual scripts/executed notebooks and a 13-slide English deck complete; 77 saved-data/analysis/PPT checks pass.
-* **Coverage:** 181 validated central-forward candidates; 8,847 non-penalty shots. Context and league strength are not adjusted.
-* **Project:** [English](football/big-five-striker-profiles/README.md) · [한국어](football/big-five-striker-profiles/README.ko.md)
-* **View:** [LinkedIn PDF](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [Analysis code and notebooks](football/big-five-striker-profiles/analysis)
+### Beyond Goals — Big Five Striker Profiles, 2025/26
+- **Coverage:** 181 central-forward candidates, 8,847 non-penalty shots. League strength and context are not adjusted.
+- **Output:** Bilingual scripts and executed notebooks, a 13-slide English deck, 77 saved-data/analysis checks.
+- **Links:** [English](football/big-five-striker-profiles/README.md) · [한국어](football/big-five-striker-profiles/README.ko.md) · [Deck (PDF)](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf)
 
-## 🚧 Upcoming & Planned Projects
+### K League 1 2026: World Cup Break Analysis
+- **Scope:** 180 fixtures, rounds 1–15 vs 16–30, with Anyang, Daejeon and Jeju case studies. Descriptive, not causal.
+- **Next:** Season-end follow-up after the 2026 season.
+- **Note:** Aggregate results and executed notebooks are included; raw provider exports must be supplied locally.
 
-### ⚽ K League 1 2026: World Cup Break Analysis
+### World Cup 2026 Prediction
+- **Data:** Historical international matches, FotMob match stats, Transfermarkt team profiles.
+- **Method:** Multiple ML models compared, simplified knockout bracket simulation.
+- **Links:** [Kaggle notebook](https://www.kaggle.com/code/madferit/2026-fifa-world-cup-prediction) · [Main notebook](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb) · [Dataset package](football/worldcup-2026-prediction/kaggle_dataset)
 
-An English, four-stage descriptive analysis comparing rounds 1–15 with rounds 16–30, from league-wide attack, defense and passing patterns to Anyang, Daejeon and Jeju case studies.
-
-* **Status:** Completed R1–30 analysis; season-end follow-up planned after the 2026 season concludes.
-* **Scope:** 180 fixtures, including the postponed Gangwon–Incheon match; not a prediction or causal model.
-* **Project:** [Code, executed notebooks, results and future work](football/kleague-2026-world-cup-break)
-* **Reproducibility:** Public aggregate results and executed notebooks are included; raw provider exports must be supplied locally.
-
-### **⚽ Football: European Leagues**
-* **Concept:** Expected Goals based match prediction.
-* **Features:** Rolling team form, home advantage dynamics, Poisson distribution modeling.
-
-### **🏀 NBA**
-* **Concept:** Four Factors analytics and possession-based modeling.
-* **Features:** Player archetype clustering and lineup efficiency analysis.
-
-### **📊 Beyond Sports**
-* **Concept:** Applying the same rigorous modeling pipelines to financial or marketing data.
+### World Cup 2026 Official Stats Analysis
+- Eight descriptive notebooks on field tilt, progression, final-third access, off-ball movement and shot suppression, using FIFA Match Centre team data.
+- The cleaned input CSV is not included; add it locally to rerun.
 
 ---
 
-## 🛠️ Tech Stack & Toolkit
+## 🏎️ Formula 1
 
-* **Languages:** Python 3.10+, SQL
-* **Data Manipulation:** Pandas, NumPy, Polars
-* **Machine Learning:** Scikit-learn, XGBoost, LightGBM, Random Forest
-* **Interpretability:** SHAP
-* **Simulation:** Monte Carlo methods, bootstrapping, tournament simulation
-* **Visualization:** Matplotlib, Seaborn, Plotly
-* **Apps:** Streamlit
+- **[Baku 2026](f1/baku-2026):** Timing gaps, Safety Car context and track replay using OpenF1. Bilingual commented scripts and executed notebooks. Final pace eligibility is still pending.
+- **[Historical EDA dashboard](f1-modern-era-eda):** Preserved Streamlit prototype. DNF definitions and race counts need correction before portfolio use.
+- The earlier pre-race prediction prototype was moved to a private repository for leakage fixes and revalidation. [Review](f1/baku-2026/docs/existing_f1_review.md)
 
 ---
 
-## 📌 Repository Structure
+## 🏈 NFL
 
-Project folders and notebooks follow this general structure:
+- **[Momentum & Simulation](nfl-epa-analysis):** Week-by-week rolling EPA, static and dynamic team clustering, pre-game signals with leakage prevention, and a Streamlit dashboard.
 
-```text
-/project-name/
-│
-├── notebooks/               # Analysis and modeling notebooks
-├── data/                    # Raw and processed datasets
-├── scripts/                 # Reusable data/model scripts
-└── README.md                # Project-specific documentation
-```
+---
 
-The current World Cup project also includes a Kaggle-ready dataset package:
+## 🛠️ Tools used in these projects
 
-```text
-football/worldcup-2026-prediction/kaggle_dataset/
-├── README.md
-├── input/
-└── outputs/
-```
+- **Languages:** Python, SQL
+- **Data:** pandas, NumPy
+- **Modeling:** scikit-learn, XGBoost, SHAP
+- **Visualization:** Matplotlib, Seaborn, Plotly, mplsoccer
+- **Apps:** Streamlit
 
 ---
 
 ## 👤 Author
 
-madferit94
-Sports Data Analyst & System Architect
+**Minseob Eom (madferit94)** — Data analyst with a master's in sports AI & big data, and hands-on experience in data quality and operations.
 
-> Transforming raw data into strategic foresight.
-
-## 📬 Contact
-
-Email: wowzc@naver.com
-GitHub: https://github.com/madferit94
-
-[F1 viewer](football/matchdesk-ai-agents/f1/index.html)
-
-
-
+- Email: wowzc@naver.com
+- GitHub: [@madferit94](https://github.com/madferit94)

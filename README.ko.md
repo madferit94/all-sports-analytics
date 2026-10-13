@@ -1,162 +1,78 @@
-## MatchLab 0.19.2 / F1 0.7.2 — 바르셀로나 서킷 이미지 복구
-
-404를 반환하는 옛 이미지 URL을 F1 공식 2026 서킷 이미지로 교체. 이미지 실패 시 같은 경기·서킷의 확보 좌표로 지도를 표시합니다. 원본 기록과 모델은 보존합니다.
-
-## MatchLab 0.19.1 / F1 0.7.1 — 조건으로 지표 조회
-
-30개 한영 지표 조회, 한 선수 수치 카드 및 여러 지표별 표·차트 지원. 선택 GP에서 랩 범위, 피트랩 제외, 수치 기준, 상위 N명, 정렬 조건을 입력하고 적용 조건을 확인합니다. API 호출 없는 규칙 기반 분석.
-
-## MatchLab 0.19.0 / F1 0.7.0 — 자연어 시각화
-
-선택한 GP에서 드라이버 이름과 지표를 입력하면 랩타임 선 그래프와 비교 막대그래프를 생성합니다. 한영 지원. 저장된 데이터를 계산하는 규칙 기반 분석이며 AI API를 호출하지 않습니다. 다른 경기·임의 날짜·세부 필터는 안내 후 거절합니다.
-
-
-## MatchLab 0.18.1 / F1 0.6.1
-
-13개 GP 자료를 대조해 빈 정차 시간 276건 보완. 일부 평균은 확보 수 표시, 기존 값과 예측 모델 보존.
-
-## MatchLab 0.18.0 — F1 드라이버 지표
-
-선수·항목별 지표 카드와 클릭 설명을 추가하고 글자 넘침을 개선합니다. 이전 버전 보존, 로컬 반영, 참가자 확인 전.
-
-## 0.17.2 / F1 0.5.2 — 느린 서킷 재생
-
-종료 경기의 1×를 전체 경기 60초 압축에서 실제 기록 시간 기준으로 변경했습니다. 공통 배속은 0.25×·0.5×·1×·2×·4×·10×·30×·60×입니다. 예정 경기는 180초 예측 연출을 사용합니다. 아래 이전 배속 설명은 변경 이력입니다. 이전 버전 보존, 참가자 확인 전.
-
-## MatchLab 0.17.1 — F1 공통 배속
-
-예측판과 실제판의 배속·시간 이동을 함께 적용하며, 예측 차량 이동을 기록된 랩 규모에 맞췄습니다. 로컬 반영, 이전 0.17.0 보존.
-
-# MatchLab0.17.0 · 선택 드라이버 진행 기록
-
-# MatchLab0.16.0 · F1 서킷 지도 비교
-
-# MatchLab 0.15.0 · F1 경기 전 예측과 실제 진행 비교
-
-# MatchLab 0.14.0 · F1 기록 재생 및 실험 예측
-
-# 🏟️ All Sports Analytics & Simulation Hub
+# 🏟️ All Sports Analytics
 
 [English](README.md) | [한국어](README.ko.md)
 
-[MatchDesk 영어 화면](football/matchdesk-ai-agents/index.en.html) · PL + LaLiga, 56 clubs, Korean/English UI.
+**축구, F1, NFL 데이터를 분석한 프로젝트 모음입니다.**
+각 프로젝트는 질문에서 출발해 데이터와 방법을 기록하고, 한계를 함께 적습니다.
 
-MatchDesk: **Day13 작업** · [폴더 이동 기록](football/matchdesk-ai-agents/docs/DAY13-WORKSPACE.md).
+> 🏎️⚽ **MatchLab을 찾으시나요?** AI 에이전트로 만든 축구·F1 웹 서비스는 별도 저장소에서 관리합니다: [madferit94/matchlab](https://github.com/madferit94/matchlab) ([사이트 바로가기](https://matchlab-zeta.vercel.app))
 
-## MatchLab AI 경기 분석실 · 0.13.0
+---
 
-PL·라리가 한영8비트 화면: 전체팀 로지스틱 승부예측, 학습한 득점분포, 움직이는22명경기연출, 일정더보기·경기프리뷰,57지표선택차트. 입력은2026-09-20고정자료이며과거검증결과로미래성능을보장하지않습니다.
+## 📂 프로젝트 목록
 
-[프로젝트·버전이력](football/matchdesk-ai-agents/README.ko.md) · [릴리스SPEC](football/matchdesk-ai-agents/docs/SPEC-0.13.0.md) · [에이전트·스킬영어판](football/matchdesk-ai-agents/docs/AGENTS-AND-SKILLS.en.md) · [한글화면](football/matchdesk-ai-agents/index.html) · [영어화면](football/matchdesk-ai-agents/index.en.html).
+| 종목 | 프로젝트 | 질문 | 상태 |
+|---|---|---|---|
+| ⚽ | [Beyond Goals — 빅5 리그 공격수 프로필](football/big-five-striker-profiles) | 공격수 유형별로 슈팅 수, 기회의 질, 결정력은 어떻게 다른가? | ✅ 완료 |
+| ⚽ | [K리그1 2026: 월드컵 휴식기 분석](football/kleague-2026-world-cup-break) | 월드컵 휴식기 전후로 공격·수비·패스 패턴은 어떻게 바뀌었나? | ✅ 1~30라운드 완료 |
+| ⚽ | [2026 월드컵 예측](football/worldcup-2026-prediction) | 과거 경기와 팀 지표로 조별리그 결과를 예측할 수 있을까? | ✅ 기본 모델 |
+| ⚽ | [2026 월드컵 공식 기록 분석](football/worldcup-2026-official-stats-analysis) | 팀들은 어떻게 슈팅을 만들고, 전진하고, 막아냈나? | ✅ 기술 분석 |
+| 🏎️ | [F1 바쿠 2026](f1/baku-2026) | 세이프티카 전후로 러셀–베르스타펜 간격은 어떻게 변했나? | 🔄 탐색 단계 |
+| 🏎️ | [F1 역대 기록 EDA](f1-modern-era-eda) | 시대별 완주율, 포인트, 신뢰성은 어떻게 달라졌나? | 🛠️ 프로토타입, 수정 필요 |
+| 🏈 | [NFL 모멘텀 & 시뮬레이션](nfl-epa-analysis) | 최근 경기 EPA로 팀의 *현재* 전력을 잡아낼 수 있을까? | ✅ 완료 |
 
-v20~v32이전버전과독립차트검증근거를보존합니다. 현재5인팀·이전10역할및18개스킬의영어판을제공하며, 도구·계약은한글패키지와공유합니다. 별도Claude실행환경검증또는인터넷서비스호스팅을완료했다는뜻은아닙니다.
+---
 
+## ⚽ 축구
 
-NFL, F1, 축구를 비롯한 스포츠 데이터 분석·예측·시뮬레이션 프로젝트를 모은 저장소입니다.
+### Beyond Goals — 빅5 리그 공격수 프로필 (2025/26)
+- **범위:** 중앙 공격수 후보 181명, 페널티 제외 슈팅 8,847개. 리그 수준과 경기 상황은 보정하지 않았습니다.
+- **결과물:** 한영 스크립트와 실행된 노트북, 영문 발표자료 13장, 저장 데이터·분석 검증 77개.
+- **링크:** [English](football/big-five-striker-profiles/README.md) · [한국어](football/big-five-striker-profiles/README.ko.md) · [발표자료 (PDF)](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf)
 
-## 목표와 접근 방법
+### K리그1 2026: 월드컵 휴식기 분석
+- **범위:** 180경기, 1~15라운드와 16~30라운드 비교. 안양·대전·제주 사례 분석 포함. 기술 분석이며 인과 분석은 아닙니다.
+- **다음 단계:** 2026 시즌 종료 후 후속 분석 예정.
+- **참고:** 집계 결과와 실행된 노트북은 포함되어 있고, 원본 데이터는 직접 준비해야 합니다.
 
-데이터 수집에서 정제, 분석, 예측 모델과 시뮬레이션까지 이어지는 스포츠 데이터 포트폴리오입니다. 프로젝트마다 진행 단계와 재현 방법을 확인할 수 있습니다.
+### 2026 월드컵 예측
+- **데이터:** 역대 국가대표 경기, FotMob 경기 기록, Transfermarkt 대표팀 정보.
+- **방법:** 여러 머신러닝 모델 비교, 간소화한 토너먼트 시뮬레이션.
+- **링크:** [Kaggle 노트북](https://www.kaggle.com/code/madferit/2026-fifa-world-cup-prediction) · [메인 노트북](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb) · [데이터셋 패키지](football/worldcup-2026-prediction/kaggle_dataset)
 
-1. **체계적인 처리:** 수집·정제·특성 생성에서 분석과 모델링으로 이어지는 흐름을 구성합니다.
-2. **검증 목표:** 경기 전 정보와 시간 순서 검증을 지향하며, 기존 F1의 누수·정답 문제는 프로젝트 검토에 명시합니다.
-3. **모델 해석:** 중요도와 설명 도구로 모델 동작을 검토합니다.
-4. **의사결정 연결:** 승리 확률, 순위표와 대회 시뮬레이션 등 해석 가능한 결과를 만듭니다.
+### 2026 월드컵 공식 기록 분석
+- FIFA Match Centre 팀 데이터로 필드 틸트, 전진 패스, 파이널 서드 진입, 오프더볼 움직임, 슈팅 억제를 분석한 노트북 8개.
+- 정제된 입력 CSV는 포함되어 있지 않아, 다시 실행하려면 직접 추가해야 합니다.
 
-## 완료한 프로젝트
+---
 
-### 🏈 NFL 경기 결과 시뮬레이션
+## 🏎️ F1
 
-군집화와 몬테카를로 시뮬레이션을 이용한 NFL 시즌 예측 프로젝트입니다.
+- **[바쿠 2026](f1/baku-2026):** OpenF1 데이터로 타이밍 간격, 세이프티카 상황, 트랙 재생을 분석. 한영 주석이 달린 스크립트와 실행된 노트북 포함. 최종 페이스 비교 기준은 아직 검토 중입니다.
+- **[역대 기록 EDA 대시보드](f1-modern-era-eda):** 기존 Streamlit 프로토타입을 보존. 포트폴리오로 쓰기 전에 리타이어 정의와 경기 수 계산을 고쳐야 합니다.
+- 이전 경기 전 예측 프로토타입은 데이터 누수 수정과 재검증을 위해 비공개 저장소로 옮겼습니다. [검토 기록](f1/baku-2026/docs/existing_f1_review.md)
 
-- **목표:** 경기 승자를 예측하고 최근 흐름을 반영한 슈퍼볼 확률을 계산합니다.
-- **상태:** 완료.
-- **프로젝트:** [nfl-epa-analysis](nfl-epa-analysis)
+---
 
-### 🏎️ F1 경기 맥락과 과거 탐색 분석
+## 🏈 NFL
 
-- **바쿠 2026:** 러셀–베르스타펜 공식 시간 차이·세이프티카·이동 영상. [영어·한글 주석 코드, 실행 노트북, 자료와 결과](f1/baku-2026/README.ko.md).
-- **현재 상태:** 탐색 시각화 재현 완료. 시간 기반 최종 비교 랩 선정과 공개 페이스 결론은 남아 있습니다.
-- **과거 작업:** [EDA](f1-modern-era-eda/README.ko.md)는 유지하며 DNF·범위 수정이 필요합니다. 경기 전 예측 프로토타입은 수정·재검증을 위해 별도 비공개 저장소로 옮겼습니다.
-- **시작하기:** [F1 전체 목록](f1/README.ko.md) · [기존 작업 검토](f1/baku-2026/docs/existing_f1_review.ko.md).
+- **[모멘텀 & 시뮬레이션](nfl-epa-analysis):** 주간 Rolling EPA, 정적·동적 팀 군집화, 데이터 누수를 막은 경기 전 지표, Streamlit 대시보드.
 
-### ⚽ 2026 월드컵 경기 예측과 대회 시뮬레이션
+---
 
-과거 국가대표 경기, FotMob 경기 통계와 Transfermarkt 국가대표 프로필을 사용한 예측 프로젝트입니다.
+## 🛠️ 사용한 도구
 
-- **목표:** 조별리그 결과 예측, 여러 모델 비교, 단순화한 토너먼트 시뮬레이션과 모델별 우승팀 비교.
-- **상태:** 기준 모델 완료.
-- **Kaggle:** [2026 FIFA World Cup Prediction](https://www.kaggle.com/code/madferit/2026-fifa-world-cup-prediction)
-- **프로젝트:** [football/worldcup-2026-prediction](football/worldcup-2026-prediction)
-- **주요 노트북:** [2026Worldcup predict.ipynb](football/worldcup-2026-prediction/2026Worldcup%20predict.ipynb)
-- **데이터 패키지:** [kaggle_dataset](football/worldcup-2026-prediction/kaggle_dataset)
+- **언어:** Python, SQL
+- **데이터 처리:** pandas, NumPy
+- **모델링:** scikit-learn, XGBoost, SHAP
+- **시각화:** Matplotlib, Seaborn, Plotly, mplsoccer
+- **앱:** Streamlit
 
-### ⚽ Beyond Goals — 유럽 5대 리그 공격수 프로필, 2025/26
+---
 
-- **질문:** 슈팅 빈도·기회 품질·실제 득점 전환은 선수별로 어떻게 다른가?
-- **상태:** 기술적 분석, 영어·한글 주석 코드와 실행 노트북, 영어 발표 자료 13장 완료. 저장 자료·분석·PPT 교차 검증 77개 통과.
-- **범위:** 검증된 중앙 공격수 후보 181명, 비페널티 슈팅 8,847개. 리그 수준과 경기 맥락은 보정하지 않았습니다.
-- **프로젝트:** [한국어](football/big-five-striker-profiles/README.ko.md) · [English](football/big-five-striker-profiles/README.md)
-- **보기:** [LinkedIn PDF](football/big-five-striker-profiles/presentation/Beyond_Goals_EN_Landscape_verified.pdf) · [분석 코드·노트북](football/big-five-striker-profiles/analysis)
+## 👤 만든 사람
 
-## 진행 중인 프로젝트와 후속 계획
+**엄민섭 (madferit94)** — 스포츠 AI·빅데이터 석사, 데이터 품질·운영 실무 경험을 가진 데이터 분석가.
 
-### ⚽ K리그 1 2026 월드컵 휴식기 분석
-
-1–15라운드와 16–30라운드를 비교한 네 단계의 기술적 분석입니다. 리그 전체의 공격·수비·패스 패턴에서 안양·대전·제주 사례로 이어집니다.
-
-- **상태:** 1–30라운드 분석 완료. 2026시즌 종료 후 후속 분석 예정.
-- **범위:** 연기된 강원–인천 경기를 포함한 180경기. 예측·인과 모델이 아닌 관측 기록의 비교입니다.
-- **프로젝트:** [코드, 실행 노트북, 결과와 후속 계획](football/kleague-2026-world-cup-break)
-- **재현:** 집계 결과와 실행된 노트북을 제공합니다. 원천 제공자의 내보내기 파일은 로컬에서 준비해야 합니다.
-
-### ⚽ 유럽 리그 경기 예측
-
-- **구상:** 기대득점(xG)에 기반한 경기 예측.
-- **예정 요소:** 최근 팀 흐름, 홈 이점과 포아송 분포 모델.
-
-### 🏀 NBA
-
-- **구상:** Four Factors 분석과 포제션 단위 모델링.
-- **예정 요소:** 선수 유형 군집화와 라인업 효율 분석.
-
-### 📊 스포츠 외 분야
-
-- **구상:** 같은 분석 흐름을 금융·마케팅 데이터에 적용.
-
-## 기술과 도구
-
-- **언어:** Python 3.10 이상, SQL. 스트라이커 프로젝트는 Python 3.11 이상.
-- **데이터 처리:** Pandas, NumPy, Polars.
-- **머신러닝:** Scikit-learn, XGBoost, LightGBM, Random Forest.
-- **해석:** SHAP.
-- **시뮬레이션:** 몬테카를로, 부트스트래핑, 대회 시뮬레이션.
-- **시각화:** Matplotlib, Seaborn, Plotly.
-- **앱:** Streamlit.
-
-프로젝트에 따라 사용하는 도구가 다릅니다. 스트라이커 데이터 수집·CSV 검증은 표준 라이브러리를 사용하며, 분석·발표 교차 검증은 별도 requirements를 확인하세요.
-
-## 저장소 구성
-
-프로젝트별로 다음 구성을 기본으로 사용하며 실제 구조는 각 README에 설명합니다.
-
-```text
-project-name/
-├── notebooks/   # 분석·모델링 노트북
-├── data/        # 데이터
-├── scripts/     # 재사용 코드
-└── README.md    # 프로젝트 설명
-```
-
-월드컵 예측 프로젝트에는 `football/worldcup-2026-prediction/kaggle_dataset/` 아래에 README, 입력과 결과를 포함한 Kaggle용 패키지가 있습니다.
-
-## 작성자와 연락처
-
-- **작성자:** madferit94
-- **이메일:** wowzc@naver.com
-- **GitHub:** [madferit94](https://github.com/madferit94)
-
-[F1 분석실](football/matchdesk-ai-agents/f1/index.html)
-
-
-
+- Email: wowzc@naver.com
+- GitHub: [@madferit94](https://github.com/madferit94)

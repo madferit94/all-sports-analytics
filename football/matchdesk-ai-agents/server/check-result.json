@@ -1,6 +1,0 @@
-{
-  "checks": 17,
-  "failures": 0,
-  "provider": "mocked; no live Gemini call",
-  "method": "real local HTTP requests + mocked provider"
-}
