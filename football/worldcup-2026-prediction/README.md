@@ -1,5 +1,7 @@
 # 2026 FIFA World Cup Match Prediction
 
+[English](README.md) | [한국어](README.ko.md)
+
 This project builds a match prediction workflow for the 2026 FIFA World Cup.
 
 The model combines:
