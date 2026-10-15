@@ -1,5 +1,7 @@
 ## 🏈 NFL — Match Outcome Analytics & Simulation System
 
+[English](README.md) | [한국어](README.ko.md)
+
 **Dynamic team momentum modeling using Rolling EPA and clustering.**
 
 > An end-to-end NFL analytics system that models  
