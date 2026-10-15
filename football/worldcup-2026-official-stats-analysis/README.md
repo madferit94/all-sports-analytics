@@ -1,5 +1,7 @@
 # FIFA World Cup 2026 Official Stats Analysis
 
+[English](README.md) | [한국어](README.ko.md)
+
 This project contains descriptive football analytics notebooks built from team-level FIFA Match Centre data for the 2026 FIFA World Cup.
 
 ## Notebooks
