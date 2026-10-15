@@ -1,5 +1,7 @@
 # K League 1 2026: Before and After the World Cup Break
 
+[English](README.md) | [한국어](README.ko.md)
+
 **What changed in league-wide match statistics and club results after the break?**
 
 This project compares rounds 1–15 with rounds 16–30, first across the league and then through three case studies: FC Anyang, Daejeon Hana Citizen and Jeju SK.
