@@ -1,5 +1,7 @@
 # How to read the outputs
 
+[English](RESULTS_GUIDE.md) | [한국어](RESULTS_GUIDE.ko.md)
+
 - `outputs/v1/`: one row per team per fixture. Local only.
 - `outputs/v2/`: team-period KPIs, cumulative standings, metric ranks, league means and medians.
 - `outputs/v2/categories/`: 43 metric definitions, category changes, five-round profiles and an extended match table.
