@@ -1,5 +1,7 @@
 # Data
 
+[English](README.md) | [한국어](README.ko.md)
+
 This folder intentionally does not include the FIFA Official Stats CSV.
 
 To rerun the notebooks, place the cleaned file here:
