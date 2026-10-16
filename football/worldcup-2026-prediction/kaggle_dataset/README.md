@@ -1,5 +1,7 @@
 # 2026 FIFA World Cup Prediction Dataset
 
+[English](README.md) | [한국어](README.ko.md)
+
 This dataset supports a 2026 FIFA World Cup match prediction workflow using historical international results, FotMob match statistics, and Transfermarkt national team profiles.
 
 ## Dataset Purpose
