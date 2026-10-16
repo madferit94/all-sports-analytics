@@ -1,5 +1,7 @@
 # Input data
 
+[English](README.md) | [한국어](README.ko.md)
+
 Source: the [official K League Data Portal](https://data.kleague.com/). Supply the following saved exports in `data/raw/` (or the directory selected by `KLEAGUE_DATA_DIR`).
 
 | File | Expected rows | Purpose |
