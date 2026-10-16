@@ -1,5 +1,7 @@
 # SofaScore Collection Status
 
+[English](SOFASCORE_STATUS.md) | [한국어](SOFASCORE_STATUS.ko.md)
+
 Goal: collect match results, statistics, lineups, formations, and incidents for international matches.
 
 Current environment result:
