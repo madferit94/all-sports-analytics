@@ -72,7 +72,7 @@
 
 ## 👤 만든 사람
 
-**엄민섭 (madferit94)** — 스포츠 AI·빅데이터 석사, 데이터 품질·운영 실무 경험을 가진 데이터 분석가.
+**엄민섭 (madferit94)** — 체육학 석사(스포츠AI·빅데이터 전공), 데이터 품질·운영 실무 경험을 가진 데이터 분석가.
 
 - Email: wowzc@naver.com
 - GitHub: [@madferit94](https://github.com/madferit94)

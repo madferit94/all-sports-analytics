@@ -72,7 +72,7 @@ Each project starts from a question, documents its data and method, and states i
 
 ## 👤 Author
 
-**Minseob Eom (madferit94)** — Data analyst with a master's in sports AI & big data, and hands-on experience in data quality and operations.
+**Minseob Eom (madferit94)** — Data analyst with a master's degree in Sport AI and Big Data, and hands-on experience in data quality and operations.
 
 - Email: wowzc@naver.com
 - GitHub: [@madferit94](https://github.com/madferit94)
